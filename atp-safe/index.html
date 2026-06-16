@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FSP237 model browser</title>
+<title>FSP237 ATP-safe GSM</title>
 <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
 <style>
   :root { --border:#d0d7de; --muted:#57606a; --bg:#f6f8fa; --accent:#0969da; }
@@ -25,8 +25,8 @@
   .tab-btn:hover:not(.active) { color: #1f2328; }
   .panel { display: none; padding: 16px 20px; }
   .panel.active { display: block; }
-  #panel-map { padding: 0; height: calc(100vh - 100px); }
-  #panel-map iframe { width: 100%; height: 100%; border: none; }
+  .panel-map { padding: 0; height: calc(100vh - 130px); }
+  .panel-map iframe { width: 100%; height: 100%; border: none; }
   table.dataTable { font-size: 12px; }
   table.dataTable td { vertical-align: top; }
   table.dataTable thead th { background: var(--bg); white-space: nowrap; }
@@ -41,19 +41,22 @@
   .flux-zero { color: var(--muted); }
   .loading { padding: 40px; text-align: center; color: var(--muted); }
   .equation { max-width: 380px; word-break: break-word; }
+  .badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px;
+           background: #ddf4ff; color: #0969da; margin-left: 8px; }
 </style>
 </head>
 <body>
 <header>
-  <h1>FSP237 (<i>C. sublineola</i>) &mdash; minimal glucose model</h1>
+  <h1>FSP237 (<i>C. sublineola</i>) &mdash; ATP-safe GSM <span class="badge">CMM-curated energy + biomass</span></h1>
   <div class="meta" id="meta">Loading&hellip;</div>
-  <div class="switch">switch to: <a href="atp-safe/">ATP-safe GSM (CMM-curated energy + biomass)</a></div>
+  <div class="switch">switch to: <a href="../">original GSM (with ETC fixes)</a></div>
 </header>
 
 <div class="tabs">
   <button class="tab-btn active" data-tab="reactions">Reactions</button>
   <button class="tab-btn" data-tab="fluxes">Active fluxes</button>
-  <button class="tab-btn" data-tab="map">Escher map</button>
+  <button class="tab-btn" data-tab="map_cc">Escher map &mdash; central carbon</button>
+  <button class="tab-btn" data-tab="map_gs">Escher map &mdash; genome scale</button>
 </div>
 
 <div id="panel-reactions" class="panel active">
@@ -92,8 +95,12 @@
   </table>
 </div>
 
-<div id="panel-map" class="panel">
-  <iframe src="map.html" title="Escher flux map"></iframe>
+<div id="panel-map_cc" class="panel panel-map">
+  <iframe src="map_cc.html" title="Escher map &mdash; central carbon"></iframe>
+</div>
+
+<div id="panel-map_gs" class="panel panel-map">
+  <iframe src="map_gs.html" title="Escher map &mdash; genome scale" loading="lazy"></iframe>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -104,9 +111,11 @@
   const panels = {
     reactions: document.getElementById('panel-reactions'),
     fluxes:    document.getElementById('panel-fluxes'),
-    map:       document.getElementById('panel-map'),
+    map_cc:    document.getElementById('panel-map_cc'),
+    map_gs:    document.getElementById('panel-map_gs'),
   };
   let fluxesInitialized = false;
+  let gsMapLoaded = false;
 
   tabs.forEach(btn => btn.addEventListener('click', () => {
     tabs.forEach(b => b.classList.toggle('active', b === btn));
@@ -116,10 +125,14 @@
       initFluxesTable(window._reactionData);
       fluxesInitialized = true;
     }
-    if (btn.dataset.tab === 'reactions' && window._reactionsDT)
-      window._reactionsDT.columns.adjust();
-    if (btn.dataset.tab === 'fluxes' && window._fluxesDT)
-      window._fluxesDT.columns.adjust();
+    if (btn.dataset.tab === 'map_gs' && !gsMapLoaded) {
+      // force the lazy iframe to actually load on first open
+      const iframe = panels.map_gs.querySelector('iframe');
+      if (iframe && !iframe.src.endsWith('map_gs.html')) iframe.src = 'map_gs.html';
+      gsMapLoaded = true;
+    }
+    if (btn.dataset.tab === 'reactions' && window._reactionsDT) window._reactionsDT.columns.adjust();
+    if (btn.dataset.tab === 'fluxes' && window._fluxesDT) window._fluxesDT.columns.adjust();
   }));
 
   function fmtFlux(f) {
@@ -146,18 +159,15 @@
         .on('keyup change clear', function () {
           if (col.search() !== this.value) col.search(this.value).draw();
         })
-        .on('click', e => e.stopPropagation()); // don't trigger column sort
+        .on('click', e => e.stopPropagation());
       input.attr('aria-label', 'Filter ' + title);
     });
   }
 
-  // Rewrite the arrow in an equation to reflect the actual direction of flux.
-  // Positive flux  => '=>' (left consumed, right produced as written)
-  // Negative flux  => '<=' (right consumed, left produced — reaction running reverse)
   function directionalEq(eq, flux) {
     if (!eq) return '';
     if (flux == null || Math.abs(flux) < 1e-9) return eq;
-    const arrow = flux > 0 ? ' ⇒ ' : ' ⇐ ';   // => / <=
+    const arrow = flux > 0 ? ' ⇒ ' : ' ⇐ ';
     return eq.replace(/\s*(<==>|<=>|<->|-->|->|<--|<-|=>|<=|⇌)\s*/g, arrow);
   }
 
@@ -178,12 +188,8 @@
     $('#loading-reactions').hide();
     $('#tbl-reactions').show();
     const dt = new DataTable('#tbl-reactions', {
-      data: data,
-      pageLength: 50,
-      lengthMenu: [25, 50, 100, 250, 500],
-      order: [[0, 'asc']],
-      deferRender: true,
-      autoWidth: false,
+      data: data, pageLength: 50, lengthMenu: [25, 50, 100, 250, 500],
+      order: [[0, 'asc']], deferRender: true, autoWidth: false,
     });
     wireHeaderSearch(dt, '#tbl-reactions');
     window._reactionsDT = dt;
@@ -206,15 +212,10 @@
     $('#loading-fluxes').hide();
     $('#tbl-fluxes').show();
     const dt = new DataTable('#tbl-fluxes', {
-      data: data,
-      pageLength: 50,
-      lengthMenu: [25, 50, 100, 250, 500],
-      order: [[9, 'desc']],
-      deferRender: true,
-      autoWidth: false,
+      data: data, pageLength: 50, lengthMenu: [25, 50, 100, 250, 500],
+      order: [[9, 'desc']], deferRender: true, autoWidth: false,
       columnDefs: [{
-        targets: 9,
-        type: 'num',
+        targets: 9, type: 'num',
         render: function(d, type) {
           if (type === 'sort' || type === 'type') {
             const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(d);
@@ -232,9 +233,12 @@
     .then(r => r.json())
     .then(d => {
       window._reactionData = d.reactions;
-      const meta = d.n_reactions.toLocaleString() + ' reactions · ' +
-                   d.n_active.toLocaleString() + ' carrying flux · ' +
-                   'generated ' + d.generated_at;
+      const meta =
+        d.n_reactions.toLocaleString() + ' reactions · ' +
+        d.n_active.toLocaleString() + ' carrying flux · ' +
+        'ATP yield ' + d.atp_yield_aerobic.toFixed(2) + '/glc (aerobic) · ' +
+        'biomass ' + d.biomass_aerobic.toFixed(4) + ' · ' +
+        'generated ' + d.generated_at;
       document.getElementById('meta').textContent = meta;
       initReactionsTable(d.reactions);
     })
