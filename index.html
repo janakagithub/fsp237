@@ -27,9 +27,10 @@
   table.dataTable { font-size: 12px; }
   table.dataTable td { vertical-align: top; }
   table.dataTable thead th { background: var(--bg); white-space: nowrap; }
-  table.dataTable tfoot th { padding: 4px; }
-  table.dataTable tfoot input { width: 100%; padding: 4px 6px; font-size: 11px;
-                                 border: 1px solid var(--border); border-radius: 3px; }
+  table.dataTable thead tr.filters th { padding: 4px; background: #eef2f6; }
+  table.dataTable thead tr.filters input { width: 100%; padding: 4px 6px; font-size: 11px;
+                                            border: 1px solid var(--border); border-radius: 3px;
+                                            font-weight: normal; }
   .nowrap { white-space: nowrap; }
   .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
   .flux-pos { color: #1a7f37; }
@@ -61,13 +62,11 @@
         <th>EC</th><th>GPR</th><th>Pathway</th>
         <th>LB</th><th>UB</th>
       </tr>
-    </thead>
-    <tfoot>
-      <tr>
+      <tr class="filters">
         <th></th><th></th><th></th><th></th><th></th><th></th>
         <th></th><th></th><th></th><th></th><th></th>
       </tr>
-    </tfoot>
+    </thead>
   </table>
 </div>
 
@@ -81,13 +80,11 @@
         <th>EC</th><th>GPR</th><th>Pathway</th>
         <th>Flux</th>
       </tr>
-    </thead>
-    <tfoot>
-      <tr>
+      <tr class="filters">
         <th></th><th></th><th></th><th></th><th></th><th></th>
         <th></th><th></th><th></th><th></th>
       </tr>
-    </tfoot>
+    </thead>
   </table>
 </div>
 
@@ -135,17 +132,29 @@
   }
   function esc(s) { return $('<div>').text(s == null ? '' : s).html(); }
 
-  function wireFooterSearch(dt) {
-    dt.columns().every(function () {
+  function wireHeaderSearch(dt, tableSel) {
+    const $filterCells = $(tableSel + ' thead tr.filters th');
+    dt.columns().every(function (i) {
       const col = this;
       const title = $(col.header()).text().trim();
       const input = $('<input type="search" placeholder="Filter…">')
-        .appendTo($(col.footer()).empty())
+        .appendTo($filterCells.eq(i).empty())
         .on('keyup change clear', function () {
           if (col.search() !== this.value) col.search(this.value).draw();
-        });
+        })
+        .on('click', e => e.stopPropagation()); // don't trigger column sort
       input.attr('aria-label', 'Filter ' + title);
     });
+  }
+
+  // Rewrite the arrow in an equation to reflect the actual direction of flux.
+  // Positive flux  => '=>' (left consumed, right produced as written)
+  // Negative flux  => '<=' (right consumed, left produced — reaction running reverse)
+  function directionalEq(eq, flux) {
+    if (!eq) return '';
+    if (flux == null || Math.abs(flux) < 1e-9) return eq;
+    const arrow = flux > 0 ? ' ⇒ ' : ' ⇐ ';   // => / <=
+    return eq.replace(/\s*(<==>|<=>|<->|-->|->|<--|<-|=>|<=|⇌)\s*/g, arrow);
   }
 
   function initReactionsTable(rows) {
@@ -172,7 +181,7 @@
       deferRender: true,
       autoWidth: false,
     });
-    wireFooterSearch(dt);
+    wireHeaderSearch(dt, '#tbl-reactions');
     window._reactionsDT = dt;
   }
 
@@ -183,8 +192,8 @@
       esc(r.name),
       fmtComp(r.compartment, r.compartment_name),
       '<span class="mono nowrap">' + esc(r.direction) + '</span>',
-      '<span class="mono equation">' + esc(r.equation_cpd) + '</span>',
-      '<span class="equation">' + esc(r.equation_name) + '</span>',
+      '<span class="mono equation">' + esc(directionalEq(r.equation_cpd, r.flux)) + '</span>',
+      '<span class="equation">' + esc(directionalEq(r.equation_name, r.flux)) + '</span>',
       '<span class="mono">' + esc(r.ec) + '</span>',
       '<span class="mono">' + esc(r.gpr) + '</span>',
       esc(r.subsystem),
@@ -211,7 +220,7 @@
         }
       }],
     });
-    wireFooterSearch(dt);
+    wireHeaderSearch(dt, '#tbl-fluxes');
     window._fluxesDT = dt;
   }
 
