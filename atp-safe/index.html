@@ -55,8 +55,8 @@
 <div class="tabs">
   <button class="tab-btn active" data-tab="reactions">Reactions</button>
   <button class="tab-btn" data-tab="fluxes">Active fluxes</button>
-  <button class="tab-btn" data-tab="map_cc">Escher map &mdash; central carbon</button>
-  <button class="tab-btn" data-tab="map_gs">Escher map &mdash; genome scale</button>
+  <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
+  <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
 </div>
 
 <div id="panel-reactions" class="panel active">
@@ -83,24 +83,24 @@
     <thead>
       <tr>
         <th>ID</th><th>Name</th><th>Comp.</th><th>Dir.</th>
-        <th>Equation (cpd)</th><th>Equation (name)</th>
+        <th>Equation (cpd, by aerobic direction)</th><th>Equation (name)</th>
         <th>EC</th><th>GPR</th><th>Pathway</th>
-        <th>Flux</th>
+        <th>Flux (aerobic)</th><th>Flux (anaerobic)</th>
       </tr>
       <tr class="filters">
         <th></th><th></th><th></th><th></th><th></th><th></th>
-        <th></th><th></th><th></th><th></th>
+        <th></th><th></th><th></th><th></th><th></th>
       </tr>
     </thead>
   </table>
 </div>
 
-<div id="panel-map_cc" class="panel panel-map">
-  <iframe src="map_cc.html" title="Escher map &mdash; central carbon"></iframe>
+<div id="panel-map_aerobic" class="panel panel-map">
+  <iframe src="map_aerobic.html" title="Escher map &mdash; aerobic"></iframe>
 </div>
 
-<div id="panel-map_gs" class="panel panel-map">
-  <iframe src="map_gs.html" title="Escher map &mdash; genome scale" loading="lazy"></iframe>
+<div id="panel-map_anaerobic" class="panel panel-map">
+  <iframe data-src="map_anaerobic.html" title="Escher map &mdash; anaerobic fermentation"></iframe>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -109,13 +109,13 @@
 (function() {
   const tabs = document.querySelectorAll('.tab-btn');
   const panels = {
-    reactions: document.getElementById('panel-reactions'),
-    fluxes:    document.getElementById('panel-fluxes'),
-    map_cc:    document.getElementById('panel-map_cc'),
-    map_gs:    document.getElementById('panel-map_gs'),
+    reactions:     document.getElementById('panel-reactions'),
+    fluxes:        document.getElementById('panel-fluxes'),
+    map_aerobic:   document.getElementById('panel-map_aerobic'),
+    map_anaerobic: document.getElementById('panel-map_anaerobic'),
   };
   let fluxesInitialized = false;
-  let gsMapLoaded = false;
+  let anaerobicLoaded = false;
 
   tabs.forEach(btn => btn.addEventListener('click', () => {
     tabs.forEach(b => b.classList.toggle('active', b === btn));
@@ -125,11 +125,10 @@
       initFluxesTable(window._reactionData);
       fluxesInitialized = true;
     }
-    if (btn.dataset.tab === 'map_gs' && !gsMapLoaded) {
-      // force the lazy iframe to actually load on first open
-      const iframe = panels.map_gs.querySelector('iframe');
-      if (iframe && !iframe.src.endsWith('map_gs.html')) iframe.src = 'map_gs.html';
-      gsMapLoaded = true;
+    if (btn.dataset.tab === 'map_anaerobic' && !anaerobicLoaded) {
+      const iframe = panels.map_anaerobic.querySelector('iframe');
+      iframe.src = iframe.dataset.src;
+      anaerobicLoaded = true;
     }
     if (btn.dataset.tab === 'reactions' && window._reactionsDT) window._reactionsDT.columns.adjust();
     if (btn.dataset.tab === 'fluxes' && window._fluxesDT) window._fluxesDT.columns.adjust();
@@ -196,26 +195,28 @@
   }
 
   function initFluxesTable(rows) {
-    const active = rows.filter(r => r.flux != null && Math.abs(r.flux) > 1e-9);
+    // A reaction is "active" if it carries flux in EITHER condition.
+    const active = rows.filter(r =>
+      (r.flux_aerobic   != null && Math.abs(r.flux_aerobic)   > 1e-9) ||
+      (r.flux_anaerobic != null && Math.abs(r.flux_anaerobic) > 1e-9));
     const data = active.map(r => [
       '<span class="mono">' + esc(r.id) + '</span>',
       esc(r.name),
       fmtComp(r.compartment, r.compartment_name),
       '<span class="mono nowrap">' + esc(r.direction) + '</span>',
-      '<span class="mono equation">' + esc(directionalEq(r.equation_cpd, r.flux)) + '</span>',
-      '<span class="equation">' + esc(directionalEq(r.equation_name, r.flux)) + '</span>',
+      '<span class="mono equation">' + esc(directionalEq(r.equation_cpd,  r.flux_aerobic)) + '</span>',
+      '<span class="equation">' + esc(directionalEq(r.equation_name, r.flux_aerobic)) + '</span>',
       '<span class="mono">' + esc(r.ec) + '</span>',
       '<span class="mono">' + esc(r.gpr) + '</span>',
       esc(r.subsystem),
-      fmtFlux(r.flux),
+      fmtFlux(r.flux_aerobic),
+      fmtFlux(r.flux_anaerobic),
     ]);
     $('#loading-fluxes').hide();
     $('#tbl-fluxes').show();
-    const dt = new DataTable('#tbl-fluxes', {
-      data: data, pageLength: 50, lengthMenu: [25, 50, 100, 250, 500],
-      order: [[9, 'desc']], deferRender: true, autoWidth: false,
-      columnDefs: [{
-        targets: 9, type: 'num',
+    const numColDef = function(target) {
+      return {
+        targets: target, type: 'num',
         render: function(d, type) {
           if (type === 'sort' || type === 'type') {
             const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(d);
@@ -223,7 +224,12 @@
           }
           return d;
         }
-      }],
+      };
+    };
+    const dt = new DataTable('#tbl-fluxes', {
+      data: data, pageLength: 50, lengthMenu: [25, 50, 100, 250, 500],
+      order: [[9, 'desc']], deferRender: true, autoWidth: false,
+      columnDefs: [numColDef(9), numColDef(10)],
     });
     wireHeaderSearch(dt, '#tbl-fluxes');
     window._fluxesDT = dt;
@@ -235,9 +241,12 @@
       window._reactionData = d.reactions;
       const meta =
         d.n_reactions.toLocaleString() + ' reactions · ' +
-        d.n_active.toLocaleString() + ' carrying flux · ' +
-        'ATP yield ' + d.atp_yield_aerobic.toFixed(2) + '/glc (aerobic) · ' +
-        'biomass ' + d.biomass_aerobic.toFixed(4) + ' · ' +
+        'active: ' + d.n_active_aerobic.toLocaleString() + ' (aerobic) / ' +
+                     d.n_active_anaerobic.toLocaleString() + ' (anaerobic) · ' +
+        'ATP/glc: ' + d.atp_yield_aerobic.toFixed(2) + ' aer / ' +
+                      d.atp_yield_anaerobic.toFixed(2) + ' anaer · ' +
+        'biomass: ' + d.biomass_aerobic.toFixed(4) + ' aer / ' +
+                      d.biomass_anaerobic.toFixed(4) + ' anaer · ' +
         'generated ' + d.generated_at;
       document.getElementById('meta').textContent = meta;
       initReactionsTable(d.reactions);
