@@ -4,96 +4,339 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>FSP237 ATP-safe GSM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
 <style>
-  :root { --border:#d0d7de; --muted:#57606a; --bg:#f6f8fa; --accent:#0969da; }
+  :root {
+    --border: #e1e7ef;
+    --border-soft: #eef2f7;
+    --muted: #57606a;
+    --text: #1f2328;
+    --text-strong: #0d1117;
+    --bg: #f7f9fc;
+    --bg-card: #ffffff;
+    --accent: #0969da;
+    --accent-soft: #ddf4ff;
+    --accent-grad: linear-gradient(135deg, #0969da 0%, #5e8fdc 50%, #6ea98a 100%);
+    --pos: #1a7f37;
+    --pos-bg: #ddf6e1;
+    --neg: #cf222e;
+    --neg-bg: #ffe5e7;
+    --shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.05);
+    --shadow-md: 0 4px 12px rgba(15, 23, 42, 0.06);
+    --radius: 10px;
+    --radius-sm: 6px;
+  }
   * { box-sizing: border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
-         margin: 0; padding: 0; color: #1f2328; }
-  header { padding: 14px 20px; border-bottom: 1px solid var(--border); background: white;
-           position: sticky; top: 0; z-index: 10; }
-  header h1 { margin: 0 0 4px 0; font-size: 18px; }
-  header .meta { font-size: 12px; color: var(--muted); }
-  header .switch { font-size: 12px; margin-top: 4px; }
-  header .switch a { color: var(--accent); text-decoration: none; }
+  html, body { background: var(--bg); }
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    margin: 0; padding: 0; color: var(--text);
+    -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+    font-feature-settings: 'cv02','cv03','cv04','cv11';
+  }
+  .mono { font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+          font-size: 11.5px; }
+
+  /* Header --------------------------------------------------------------- */
+  header {
+    background: linear-gradient(180deg, #ffffff 0%, #fbfcfe 100%);
+    border-bottom: 1px solid var(--border);
+    box-shadow: var(--shadow-sm);
+    position: sticky; top: 0; z-index: 10;
+  }
+  .header-strip {
+    height: 4px;
+    background: var(--accent-grad);
+  }
+  .header-inner { padding: 18px 28px 14px; max-width: 1600px; margin: 0 auto; }
+  header h1 {
+    margin: 0; font-size: 20px; font-weight: 700; letter-spacing: -0.01em;
+    color: var(--text-strong);
+    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  }
+  header h1 i { font-style: italic; font-weight: 600; color: #355176; }
+  header .switch { font-size: 12.5px; margin-top: 6px; color: var(--muted); }
+  header .switch a { color: var(--accent); text-decoration: none; font-weight: 500; }
   header .switch a:hover { text-decoration: underline; }
-  .tabs { display: flex; gap: 4px; padding: 0 20px; background: white;
-          border-bottom: 1px solid var(--border); }
-  .tab-btn { background: none; border: none; padding: 10px 16px; cursor: pointer;
-             font-size: 14px; color: var(--muted); border-bottom: 2px solid transparent; }
-  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
-  .tab-btn:hover:not(.active) { color: #1f2328; }
-  .panel { display: none; padding: 16px 20px; }
+  .badge {
+    display: inline-block; padding: 2px 10px; border-radius: 999px; font-size: 11px;
+    font-weight: 500; background: var(--accent-soft); color: var(--accent);
+    border: 1px solid #c6e3ff;
+  }
+
+  /* KPI strip ----------------------------------------------------------- */
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 12px; margin-top: 14px;
+  }
+  .kpi {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-sm);
+    padding: 10px 14px;
+    display: flex; flex-direction: column;
+    transition: box-shadow 0.15s ease, transform 0.15s ease;
+  }
+  .kpi:hover { box-shadow: var(--shadow-md); transform: translateY(-1px); }
+  .kpi-label {
+    font-size: 11px; color: var(--muted); font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.04em;
+  }
+  .kpi-value {
+    font-size: 18px; font-weight: 600; color: var(--text-strong);
+    margin-top: 2px; font-feature-settings: 'tnum';
+  }
+  .kpi-sub {
+    font-size: 11px; color: var(--muted); margin-top: 2px;
+    font-family: 'JetBrains Mono', ui-monospace, monospace;
+  }
+  .kpi-accent { border-left: 3px solid var(--accent); }
+  .kpi-pos    { border-left: 3px solid var(--pos); }
+  .kpi-warm   { border-left: 3px solid #d97706; }
+  .kpi-purple { border-left: 3px solid #8250df; }
+
+  /* Tabs ---------------------------------------------------------------- */
+  .tabs-wrap {
+    background: var(--bg-card); border-bottom: 1px solid var(--border);
+    position: sticky; top: 0; z-index: 9;
+  }
+  .tabs {
+    display: flex; gap: 2px; padding: 0 24px; max-width: 1600px; margin: 0 auto;
+    overflow-x: auto; scrollbar-width: thin;
+  }
+  .tab-btn {
+    background: none; border: none; padding: 12px 18px; cursor: pointer;
+    font-family: inherit; font-size: 13.5px; font-weight: 500; color: var(--muted);
+    border-bottom: 2px solid transparent; white-space: nowrap;
+    transition: color 0.15s ease, border-color 0.15s ease, background 0.15s ease;
+  }
+  .tab-btn:hover:not(.active) { color: var(--text); background: var(--border-soft); }
+  .tab-btn.active {
+    color: var(--accent); border-bottom-color: var(--accent); font-weight: 600;
+  }
+
+  /* Panels -------------------------------------------------------------- */
+  .panel { display: none; padding: 20px 28px; max-width: 1600px; margin: 0 auto; }
   .panel.active { display: block; }
-  .panel-map { padding: 0; height: calc(100vh - 130px); }
+  .panel-map { padding: 0; height: calc(100vh - 175px); max-width: none; }
   .panel-map iframe { width: 100%; height: 100%; border: none; }
-  table.dataTable { font-size: 12px; }
-  table.dataTable td { vertical-align: top; }
-  table.dataTable thead th { background: var(--bg); white-space: nowrap; }
-  table.dataTable thead tr.filters th { padding: 4px; background: #eef2f6; }
-  table.dataTable thead tr.filters input { width: 100%; padding: 4px 6px; font-size: 11px;
-                                            border: 1px solid var(--border); border-radius: 3px;
-                                            font-weight: normal; }
+  .card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow-sm);
+    overflow: hidden;
+  }
+  .card-pad { padding: 16px 18px; }
+
+  /* DataTables polish --------------------------------------------------- */
+  table.dataTable { font-size: 12.5px; border-collapse: separate !important; border-spacing: 0; }
+  table.dataTable thead th {
+    background: #f3f6fa; color: var(--text-strong);
+    font-weight: 600; white-space: nowrap;
+    border-bottom: 1px solid var(--border) !important;
+    padding: 10px 12px;
+  }
+  table.dataTable thead tr.filters th { padding: 5px 8px; background: #fbfcfe; }
+  table.dataTable thead tr.filters input {
+    width: 100%; padding: 4px 7px; font-size: 11px;
+    border: 1px solid var(--border); border-radius: var(--radius-sm);
+    font-weight: normal; font-family: inherit;
+    background: white; transition: border-color 0.12s ease, box-shadow 0.12s ease;
+  }
+  table.dataTable thead tr.filters input:focus {
+    border-color: var(--accent); outline: none;
+    box-shadow: 0 0 0 2px var(--accent-soft);
+  }
+  table.dataTable tbody tr { transition: background-color 0.1s ease; }
+  table.dataTable tbody tr:hover { background-color: #f4f8fd !important; }
+  table.dataTable tbody td {
+    vertical-align: top; padding: 9px 12px;
+    border-bottom: 1px solid var(--border-soft) !important;
+  }
+  .dataTables_wrapper .dataTables_length,
+  .dataTables_wrapper .dataTables_filter,
+  .dataTables_wrapper .dataTables_info,
+  .dataTables_wrapper .dataTables_paginate { font-size: 12px; color: var(--muted); }
+  .dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 4px 10px !important; margin-left: 2px !important;
+    border-radius: var(--radius-sm) !important;
+  }
+
+  /* Misc cells ---------------------------------------------------------- */
   .nowrap { white-space: nowrap; }
-  .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 11px; }
-  .flux-pos { color: #1a7f37; }
-  .flux-neg { color: #cf222e; }
+  .flux-pos { color: var(--pos); font-weight: 500; }
+  .flux-neg { color: var(--neg); font-weight: 500; }
   .flux-zero { color: var(--muted); }
-  .loading { padding: 40px; text-align: center; color: var(--muted); }
+  .loading { padding: 60px; text-align: center; color: var(--muted); font-size: 13px; }
   .equation { max-width: 380px; word-break: break-word; }
-  .gpr { max-width: 260px; word-break: break-word; white-space: normal; }
-  .badge { display: inline-block; padding: 1px 8px; border-radius: 10px; font-size: 11px;
-           background: #ddf4ff; color: #0969da; margin-left: 8px; }
+  .gpr      { max-width: 260px; word-break: break-word; white-space: normal; }
+
+  /* Coefficient bar viz ------------------------------------------------- */
+  .coef-cell { display: flex; align-items: center; gap: 8px; }
+  .coef-num {
+    font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 11.5px;
+    min-width: 88px; text-align: right; font-feature-settings: 'tnum';
+  }
+  .coef-bar {
+    flex: 1; height: 6px; background: #f0f3f7; border-radius: 3px;
+    overflow: hidden; min-width: 60px; max-width: 140px;
+  }
+  .coef-fill { height: 100%; border-radius: 3px; }
+
+  /* Category badges ----------------------------------------------------- */
+  .cat-badge {
+    display: inline-block; padding: 2px 9px; border-radius: 999px;
+    font-size: 10.5px; font-weight: 600; letter-spacing: 0.01em;
+    white-space: nowrap;
+  }
+  .cat-energy   { background: #fff1d6; color: #92400e; border: 1px solid #fcd9a4; }
+  .cat-aa       { background: #dde8fb; color: #1b3a82; border: 1px solid #bcd1f5; }
+  .cat-rna      { background: #ede0fb; color: #5b21b6; border: 1px solid #d6c0f3; }
+  .cat-dna      { background: #fbdfee; color: #9d174d; border: 1px solid #f5b9d8; }
+  .cat-wall     { background: #d7f0dc; color: #14532d; border: 1px solid #b1e0b9; }
+  .cat-storage  { background: #f4e4d2; color: #7c3a05; border: 1px solid #e6c79a; }
+  .cat-lipid    { background: #fbf0c4; color: #713f12; border: 1px solid #f0dc7b; }
+  .cat-sterol   { background: #f9e7b2; color: #713f12; border: 1px solid #ecc966; }
+  .cat-cofactor { background: #cdeef1; color: #155e75; border: 1px solid #a8dde2; }
+  .cat-pigment  { background: #ddd6e9; color: #4c1d95; border: 1px solid #bbb1d3; }
+  .cat-inorg    { background: #e5e7eb; color: #374151; border: 1px solid #cbd0d6; }
+  .cat-other    { background: #f1f5f9; color: #475569; border: 1px solid #d8dde3; }
+
+  /* Category filter chips ---------------------------------------------- */
+  .cat-filter {
+    display: flex; gap: 6px; flex-wrap: wrap; margin: 0 0 14px;
+  }
+  .cat-chip {
+    cursor: pointer; user-select: none;
+    padding: 4px 11px; border-radius: 999px; font-size: 11.5px; font-weight: 500;
+    background: #fff; border: 1px solid var(--border); color: var(--muted);
+    transition: all 0.12s ease;
+  }
+  .cat-chip:hover { color: var(--text-strong); border-color: #bcc6d2; }
+  .cat-chip.active {
+    background: var(--text-strong); color: white; border-color: var(--text-strong);
+  }
+  .cat-chip .count {
+    font-family: 'JetBrains Mono', monospace; font-size: 10.5px; opacity: 0.7; margin-left: 4px;
+  }
+
+  /* Biomass summary tiles ---------------------------------------------- */
+  .bio-summary {
+    display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px; margin-bottom: 16px;
+  }
+  .bio-cat-tile {
+    padding: 10px 12px; border-radius: var(--radius-sm); border: 1px solid var(--border);
+    background: var(--bg-card);
+    display: flex; flex-direction: column; gap: 2px;
+  }
+  .bio-cat-tile .label { font-size: 11.5px; color: var(--muted); font-weight: 500; }
+  .bio-cat-tile .n {
+    font-size: 16px; font-weight: 600; color: var(--text-strong);
+    font-feature-settings: 'tnum';
+  }
+  .bio-cat-tile .sum {
+    font-size: 10.5px; color: var(--muted);
+    font-family: 'JetBrains Mono', monospace;
+  }
+  .bio-cat-tile .stripe { width: 26px; height: 3px; border-radius: 2px; margin-top: 4px; }
+
+  @media (max-width: 700px) {
+    .header-inner { padding: 14px 16px 10px; }
+    .panel { padding: 14px 16px; }
+    .tabs { padding: 0 12px; }
+  }
 </style>
 </head>
 <body>
 <header>
-  <h1>FSP237 (<i>C. sublineola</i>) &mdash; ATP-safe GSM <span class="badge">CMM-curated energy + chitin/melanin biomass</span></h1>
-  <div class="meta" id="meta">Loading&hellip;</div>
-  <div class="switch">switch to: <a href="../">original GSM (with ETC fixes)</a></div>
+  <div class="header-strip"></div>
+  <div class="header-inner">
+    <h1>FSP237 <i>(C. sublineola)</i> &mdash; ATP-safe GSM
+      <span class="badge">CMM-curated energy + extended biomass</span>
+    </h1>
+    <div class="switch">switch to: <a href="../">original GSM (with ETC fixes)</a></div>
+    <div class="kpis" id="kpis">
+      <div class="kpi kpi-accent"><div class="kpi-label">Reactions</div><div class="kpi-value" id="kpi-rxns">&mdash;</div><div class="kpi-sub" id="kpi-rxns-sub">&nbsp;</div></div>
+      <div class="kpi kpi-pos"><div class="kpi-label">Biomass (aer / ana)</div><div class="kpi-value" id="kpi-bio">&mdash;</div><div class="kpi-sub" id="kpi-bio-sub">&nbsp;</div></div>
+      <div class="kpi kpi-warm"><div class="kpi-label">ATP / glucose</div><div class="kpi-value" id="kpi-atp">&mdash;</div><div class="kpi-sub" id="kpi-atp-sub">&nbsp;</div></div>
+      <div class="kpi kpi-purple"><div class="kpi-label">Active fluxes</div><div class="kpi-value" id="kpi-active">&mdash;</div><div class="kpi-sub" id="kpi-active-sub">&nbsp;</div></div>
+    </div>
+  </div>
 </header>
 
-<div class="tabs">
-  <button class="tab-btn active" data-tab="reactions">Reactions</button>
-  <button class="tab-btn" data-tab="fluxes">Active fluxes</button>
-  <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
-  <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
+<div class="tabs-wrap">
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="reactions">Reactions</button>
+    <button class="tab-btn" data-tab="fluxes">Active fluxes</button>
+    <button class="tab-btn" data-tab="biomass">Biomass</button>
+    <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
+    <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
+  </div>
 </div>
 
 <div id="panel-reactions" class="panel active">
-  <div class="loading" id="loading-reactions">Loading reaction data&hellip;</div>
-  <table id="tbl-reactions" style="display:none; width:100%">
-    <thead>
-      <tr>
-        <th>ID</th><th>Name</th><th>Comp.</th><th>Dir.</th>
-        <th>Equation (cpd)</th><th>Equation (name)</th>
-        <th>EC</th><th>GPR</th><th>Pathway</th>
-        <th>LB</th><th>UB</th>
-      </tr>
-      <tr class="filters">
-        <th></th><th></th><th></th><th></th><th></th><th></th>
-        <th></th><th></th><th></th><th></th><th></th>
-      </tr>
-    </thead>
-  </table>
+  <div class="card card-pad">
+    <div class="loading" id="loading-reactions">Loading reaction data&hellip;</div>
+    <table id="tbl-reactions" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Comp.</th><th>Dir.</th>
+          <th>Equation (cpd)</th><th>Equation (name)</th>
+          <th>EC</th><th>GPR</th><th>Pathway</th>
+          <th>LB</th><th>UB</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
 </div>
 
 <div id="panel-fluxes" class="panel">
-  <div class="loading" id="loading-fluxes">Loading flux data&hellip;</div>
-  <table id="tbl-fluxes" style="display:none; width:100%">
-    <thead>
-      <tr>
-        <th>ID</th><th>Name</th><th>Comp.</th><th>Dir.</th>
-        <th>Equation (cpd, by aerobic direction)</th><th>Equation (name)</th>
-        <th>EC</th><th>GPR</th><th>Pathway</th>
-        <th>Flux (aerobic)</th><th>Flux (anaerobic)</th>
-      </tr>
-      <tr class="filters">
-        <th></th><th></th><th></th><th></th><th></th><th></th>
-        <th></th><th></th><th></th><th></th><th></th>
-      </tr>
-    </thead>
-  </table>
+  <div class="card card-pad">
+    <div class="loading" id="loading-fluxes">Loading flux data&hellip;</div>
+    <table id="tbl-fluxes" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Comp.</th><th>Dir.</th>
+          <th>Equation (cpd, by aerobic direction)</th><th>Equation (name)</th>
+          <th>EC</th><th>GPR</th><th>Pathway</th>
+          <th>Flux (aerobic)</th><th>Flux (anaerobic)</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>
+
+<div id="panel-biomass" class="panel">
+  <div id="bio-summary" class="bio-summary"></div>
+  <div id="cat-filter" class="cat-filter"></div>
+  <div class="card card-pad">
+    <div class="loading" id="loading-biomass">Loading biomass composition&hellip;</div>
+    <table id="tbl-biomass" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>ID</th><th>Name</th><th>Formula</th><th>Comp.</th>
+          <th>Coefficient (mmol/gDW)</th><th>Role</th><th>Category</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
 </div>
 
 <div id="panel-map_aerobic" class="panel panel-map">
@@ -108,14 +351,47 @@
 <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
 <script>
 (function() {
+  // -- category style ------------------------------------------------------
+  const CAT_CLASS = {
+    'Energy / GAM':     'cat-energy',
+    'Amino acid':       'cat-aa',
+    'RNA':              'cat-rna',
+    'DNA':              'cat-dna',
+    'Cell wall':        'cat-wall',
+    'Storage':          'cat-storage',
+    'Lipid / membrane': 'cat-lipid',
+    'Sterol':           'cat-sterol',
+    'Cofactor':         'cat-cofactor',
+    'Pigment':          'cat-pigment',
+    'Inorganic':        'cat-inorg',
+    'Other':            'cat-other',
+  };
+  const CAT_FILL = {
+    'Energy / GAM':     '#f59e0b',
+    'Amino acid':       '#3b82f6',
+    'RNA':              '#8b5cf6',
+    'DNA':              '#ec4899',
+    'Cell wall':        '#16a34a',
+    'Storage':          '#a16207',
+    'Lipid / membrane': '#ca8a04',
+    'Sterol':           '#eab308',
+    'Cofactor':         '#0891b2',
+    'Pigment':          '#7c3aed',
+    'Inorganic':        '#6b7280',
+    'Other':            '#94a3b8',
+  };
+
+  // -- tab switching -------------------------------------------------------
   const tabs = document.querySelectorAll('.tab-btn');
   const panels = {
     reactions:     document.getElementById('panel-reactions'),
     fluxes:        document.getElementById('panel-fluxes'),
+    biomass:       document.getElementById('panel-biomass'),
     map_aerobic:   document.getElementById('panel-map_aerobic'),
     map_anaerobic: document.getElementById('panel-map_anaerobic'),
   };
   let fluxesInitialized = false;
+  let biomassInitialized = false;
   let anaerobicLoaded = false;
 
   tabs.forEach(btn => btn.addEventListener('click', () => {
@@ -123,18 +399,21 @@
     Object.entries(panels).forEach(([k, el]) =>
       el.classList.toggle('active', k === btn.dataset.tab));
     if (btn.dataset.tab === 'fluxes' && !fluxesInitialized && window._reactionData) {
-      initFluxesTable(window._reactionData);
-      fluxesInitialized = true;
+      initFluxesTable(window._reactionData); fluxesInitialized = true;
+    }
+    if (btn.dataset.tab === 'biomass' && !biomassInitialized && window._biomassData) {
+      initBiomassPanel(window._biomassData); biomassInitialized = true;
     }
     if (btn.dataset.tab === 'map_anaerobic' && !anaerobicLoaded) {
       const iframe = panels.map_anaerobic.querySelector('iframe');
-      iframe.src = iframe.dataset.src;
-      anaerobicLoaded = true;
+      iframe.src = iframe.dataset.src; anaerobicLoaded = true;
     }
     if (btn.dataset.tab === 'reactions' && window._reactionsDT) window._reactionsDT.columns.adjust();
-    if (btn.dataset.tab === 'fluxes' && window._fluxesDT) window._fluxesDT.columns.adjust();
+    if (btn.dataset.tab === 'fluxes'    && window._fluxesDT)    window._fluxesDT.columns.adjust();
+    if (btn.dataset.tab === 'biomass'   && window._biomassDT)   window._biomassDT.columns.adjust();
   }));
 
+  // -- formatting helpers --------------------------------------------------
   function fmtFlux(f) {
     if (f == null) return '<span class="flux-zero">&mdash;</span>';
     if (Math.abs(f) < 1e-9) return '<span class="flux-zero">0</span>';
@@ -171,6 +450,21 @@
     return eq.replace(/\s*(<==>|<=>|<->|-->|->|<--|<-|=>|<=|⇌)\s*/g, arrow);
   }
 
+  // -- numeric sort def reused across tables ------------------------------
+  const numColDef = function(target) {
+    return {
+      targets: target, type: 'num',
+      render: function(d, type) {
+        if (type === 'sort' || type === 'type') {
+          const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(d);
+          return m ? parseFloat(m[1]) : 0;
+        }
+        return d;
+      }
+    };
+  };
+
+  // -- reactions table -----------------------------------------------------
   function initReactionsTable(rows) {
     const data = rows.map(r => [
       '<span class="mono">' + esc(r.id) + '</span>',
@@ -195,8 +489,8 @@
     window._reactionsDT = dt;
   }
 
+  // -- fluxes table --------------------------------------------------------
   function initFluxesTable(rows) {
-    // A reaction is "active" if it carries flux in EITHER condition.
     const active = rows.filter(r =>
       (r.flux_aerobic   != null && Math.abs(r.flux_aerobic)   > 1e-9) ||
       (r.flux_anaerobic != null && Math.abs(r.flux_anaerobic) > 1e-9));
@@ -215,18 +509,6 @@
     ]);
     $('#loading-fluxes').hide();
     $('#tbl-fluxes').show();
-    const numColDef = function(target) {
-      return {
-        targets: target, type: 'num',
-        render: function(d, type) {
-          if (type === 'sort' || type === 'type') {
-            const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(d);
-            return m ? parseFloat(m[1]) : 0;
-          }
-          return d;
-        }
-      };
-    };
     const dt = new DataTable('#tbl-fluxes', {
       data: data, pageLength: 50, lengthMenu: [25, 50, 100, 250, 500],
       order: [[9, 'desc']], deferRender: true, autoWidth: false,
@@ -236,20 +518,123 @@
     window._fluxesDT = dt;
   }
 
+  // -- biomass panel -------------------------------------------------------
+  function fmtCoef(coef, maxAbs) {
+    const abs = Math.abs(coef);
+    // log-scaled bar so the few huge GAM coefficients don't crush the rest
+    const pct = maxAbs > 0 ? (Math.log10(1 + abs) / Math.log10(1 + maxAbs) * 100) : 0;
+    const fill = coef >= 0 ? '#16a34a' : '#0969da';
+    const sign = coef >= 0 ? '+' : '−';
+    const txt = abs >= 0.01 ? coef.toFixed(4) : coef.toExponential(2);
+    return '<div class="coef-cell">'
+        +    '<span class="coef-num">' + esc(txt) + '</span>'
+        +    '<span class="coef-bar"><span class="coef-fill" style="width:' + pct.toFixed(2) + '%; background:' + fill + '"></span></span>'
+        +  '</div>';
+  }
+  function catBadge(cat) {
+    const cls = CAT_CLASS[cat] || 'cat-other';
+    return '<span class="cat-badge ' + cls + '">' + esc(cat) + '</span>';
+  }
+
+  function initBiomassPanel(bio) {
+    const comps = bio.components;
+
+    // Summary tiles ------------------------------------------------------
+    const byCat = {};
+    comps.forEach(c => {
+      const k = c.category;
+      if (!byCat[k]) byCat[k] = { n: 0, sumAbs: 0 };
+      byCat[k].n += 1;
+      byCat[k].sumAbs += Math.abs(c.coefficient);
+    });
+    const order = (bio.category_order || Object.keys(byCat)).filter(c => byCat[c]);
+    const summaryHtml = order.map(cat => {
+      const o = byCat[cat];
+      const sum = o.sumAbs >= 0.01 ? o.sumAbs.toFixed(3) : o.sumAbs.toExponential(2);
+      return '<div class="bio-cat-tile">'
+           +   '<span class="label">' + esc(cat) + '</span>'
+           +   '<span class="n">' + o.n + '</span>'
+           +   '<span class="sum">Σ|c| = ' + sum + '</span>'
+           +   '<span class="stripe" style="background:' + (CAT_FILL[cat] || '#cbd5e1') + '"></span>'
+           + '</div>';
+    }).join('');
+    document.getElementById('bio-summary').innerHTML = summaryHtml;
+
+    // Category filter chips ---------------------------------------------
+    const chipsHtml = '<span class="cat-chip active" data-cat="">All <span class="count">' + comps.length + '</span></span>'
+      + order.map(cat => '<span class="cat-chip" data-cat="' + esc(cat) + '">'
+          + esc(cat) + '<span class="count">' + byCat[cat].n + '</span></span>').join('');
+    const $chips = $('#cat-filter').html(chipsHtml);
+
+    // DataTable ----------------------------------------------------------
+    const maxAbs = Math.max(...comps.map(c => Math.abs(c.coefficient)));
+    const data = comps.map(c => [
+      '<span class="mono">' + esc(c.id) + '</span>',
+      esc(c.name),
+      '<span class="mono">' + esc(c.formula) + '</span>',
+      '<span class="mono">' + esc(c.compartment) + '</span>',
+      fmtCoef(c.coefficient, maxAbs),
+      '<span class="mono">' + esc(c.role) + '</span>',
+      catBadge(c.category),
+    ]);
+    $('#loading-biomass').hide();
+    $('#tbl-biomass').show();
+    const dt = new DataTable('#tbl-biomass', {
+      data: data, pageLength: 50, lengthMenu: [25, 50, 100, 250],
+      // sort by |coefficient| desc -- biggest contributors first
+      order: [[4, 'desc']], deferRender: true, autoWidth: false,
+      columnDefs: [
+        Object.assign(numColDef(4), {
+          render: function(d, type) {
+            if (type === 'sort' || type === 'type') {
+              const m = /-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?/.exec(
+                $('<div>').html(d).find('.coef-num').text());
+              return m ? Math.abs(parseFloat(m[0])) : 0;
+            }
+            return d;
+          }
+        })
+      ],
+    });
+    wireHeaderSearch(dt, '#tbl-biomass');
+    window._biomassDT = dt;
+
+    // chip clicks filter the Category column (col 6)
+    $chips.on('click', '.cat-chip', function() {
+      const cat = $(this).data('cat') || '';
+      $chips.find('.cat-chip').removeClass('active');
+      $(this).addClass('active');
+      // exact-match search on text inside the badge cell
+      dt.column(6).search(cat ? '^' + cat + '$' : '', true, false).draw();
+    });
+  }
+
+  // -- KPI strip -----------------------------------------------------------
+  function fillKpis(d) {
+    document.getElementById('kpi-rxns').textContent = d.n_reactions.toLocaleString();
+    document.getElementById('kpi-rxns-sub').textContent = 'after ATP-safe expansion';
+
+    document.getElementById('kpi-bio').textContent =
+      d.biomass_aerobic.toFixed(4) + ' / ' + d.biomass_anaerobic.toFixed(4);
+    document.getElementById('kpi-bio-sub').textContent =
+      '1/h · ' + (d.biomass && d.biomass.n_components ? d.biomass.n_components + ' components' : '');
+
+    document.getElementById('kpi-atp').textContent =
+      d.atp_yield_aerobic.toFixed(2) + ' / ' + d.atp_yield_anaerobic.toFixed(2);
+    document.getElementById('kpi-atp-sub').textContent = 'mmol ATP / mmol glucose';
+
+    document.getElementById('kpi-active').textContent =
+      d.n_active_aerobic.toLocaleString() + ' / ' + d.n_active_anaerobic.toLocaleString();
+    document.getElementById('kpi-active-sub').textContent = 'generated ' + d.generated_at.replace('T',' ').replace('+00:00',' UTC');
+  }
+
+  // -- load data -----------------------------------------------------------
   fetch('reactions.json?v=' + Date.now())
     .then(r => r.json())
     .then(d => {
       window._reactionData = d.reactions;
-      const meta =
-        d.n_reactions.toLocaleString() + ' reactions · ' +
-        'active: ' + d.n_active_aerobic.toLocaleString() + ' (aerobic) / ' +
-                     d.n_active_anaerobic.toLocaleString() + ' (anaerobic) · ' +
-        'ATP/glc: ' + d.atp_yield_aerobic.toFixed(2) + ' aer / ' +
-                      d.atp_yield_anaerobic.toFixed(2) + ' anaer · ' +
-        'biomass: ' + d.biomass_aerobic.toFixed(4) + ' aer / ' +
-                      d.biomass_anaerobic.toFixed(4) + ' anaer · ' +
-        'generated ' + d.generated_at;
-      document.getElementById('meta').textContent = meta;
+      window._biomassData  = d.biomass || null;
+      fillKpis(d);
       initReactionsTable(d.reactions);
     })
     .catch(err => {
