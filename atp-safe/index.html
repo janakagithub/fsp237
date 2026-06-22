@@ -275,6 +275,7 @@
     <button class="tab-btn active" data-tab="reactions">Reactions</button>
     <button class="tab-btn" data-tab="fluxes">Active fluxes</button>
     <button class="tab-btn" data-tab="biomass">Biomass</button>
+    <button class="tab-btn" data-tab="simulations">Simulations</button>
     <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
     <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
   </div>
@@ -339,6 +340,29 @@
   </div>
 </div>
 
+<div id="panel-simulations" class="panel">
+  <div class="sim-summary card card-pad" id="sim-summary">
+    <div class="loading" id="loading-simulations">Loading simulation panel&hellip;</div>
+  </div>
+  <div id="sim-stage-filter" class="cat-filter" style="margin-top:14px"></div>
+  <div class="card card-pad" style="margin-top:14px">
+    <table id="tbl-simulations" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>#</th><th>Condition</th><th>Stage</th><th>O&#8322;</th>
+          <th>Carbon sources</th><th>Biomass (1/h)</th>
+          <th>C in (mmol/gDW/h)</th><th>Biomass / mmol C</th>
+          <th>Active rxns</th><th>Status</th><th>Notes</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>
+
 <div id="panel-map_aerobic" class="panel panel-map">
   <iframe src="map_aerobic.html" title="Escher map &mdash; aerobic"></iframe>
 </div>
@@ -387,11 +411,13 @@
     reactions:     document.getElementById('panel-reactions'),
     fluxes:        document.getElementById('panel-fluxes'),
     biomass:       document.getElementById('panel-biomass'),
+    simulations:   document.getElementById('panel-simulations'),
     map_aerobic:   document.getElementById('panel-map_aerobic'),
     map_anaerobic: document.getElementById('panel-map_anaerobic'),
   };
   let fluxesInitialized = false;
   let biomassInitialized = false;
+  let simulationsInitialized = false;
   let anaerobicLoaded = false;
 
   tabs.forEach(btn => btn.addEventListener('click', () => {
@@ -404,13 +430,17 @@
     if (btn.dataset.tab === 'biomass' && !biomassInitialized && window._biomassData) {
       initBiomassPanel(window._biomassData); biomassInitialized = true;
     }
+    if (btn.dataset.tab === 'simulations' && !simulationsInitialized && window._simulationsData) {
+      initSimulationsPanel(window._simulationsData); simulationsInitialized = true;
+    }
     if (btn.dataset.tab === 'map_anaerobic' && !anaerobicLoaded) {
       const iframe = panels.map_anaerobic.querySelector('iframe');
       iframe.src = iframe.dataset.src; anaerobicLoaded = true;
     }
-    if (btn.dataset.tab === 'reactions' && window._reactionsDT) window._reactionsDT.columns.adjust();
-    if (btn.dataset.tab === 'fluxes'    && window._fluxesDT)    window._fluxesDT.columns.adjust();
-    if (btn.dataset.tab === 'biomass'   && window._biomassDT)   window._biomassDT.columns.adjust();
+    if (btn.dataset.tab === 'reactions'   && window._reactionsDT)   window._reactionsDT.columns.adjust();
+    if (btn.dataset.tab === 'fluxes'      && window._fluxesDT)      window._fluxesDT.columns.adjust();
+    if (btn.dataset.tab === 'biomass'     && window._biomassDT)     window._biomassDT.columns.adjust();
+    if (btn.dataset.tab === 'simulations' && window._simulationsDT) window._simulationsDT.columns.adjust();
   }));
 
   // -- formatting helpers --------------------------------------------------
@@ -609,6 +639,145 @@
     });
   }
 
+  // -- simulations panel ---------------------------------------------------
+  const STAGE_CLASS = {
+    'pre-infection': 'cat-storage',
+    'biotrophic':    'cat-aa',
+    'necrotrophic':  'cat-wall',
+    'cocktail':      'cat-cofactor',
+  };
+  function stageBadge(stage) {
+    const cls = STAGE_CLASS[stage] || 'cat-other';
+    return '<span class="cat-badge ' + cls + '">' + esc(stage) + '</span>';
+  }
+  function fmtBiomass(b, maxBio) {
+    const v = (b == null || b === '') ? null : parseFloat(b);
+    if (v == null || isNaN(v)) return '<span class="flux-zero mono">&mdash;</span>';
+    if (v < 1e-6) return '<span class="flux-zero mono">0</span>';
+    const pct = maxBio > 0 ? Math.min(100, (v / maxBio) * 100) : 0;
+    const txt = v.toFixed(4);
+    return '<div class="coef-cell">'
+        +    '<span class="coef-num">' + txt + '</span>'
+        +    '<span class="coef-bar"><span class="coef-fill" style="width:' + pct.toFixed(2) + '%; background:#16a34a"></span></span>'
+        +  '</div>';
+  }
+  function fmtNum(x, digits) {
+    if (x == null || x === '') return '<span class="flux-zero">&mdash;</span>';
+    const v = parseFloat(x);
+    if (isNaN(v)) return esc(x);
+    return '<span class="mono">' + v.toFixed(digits != null ? digits : 3) + '</span>';
+  }
+  function prettyCSources(s) {
+    if (!s) return '';
+    // 'cpd00794_e0:0.3;cpd00100_e0:0.3' -> 'cpd00794:0.3 + cpd00100:0.3'
+    return s.split(';').map(p => {
+      const [c, r] = p.split(':');
+      return (c || '').replace(/_e0$/, '') + (r ? ':' + r : '');
+    }).join(' + ');
+  }
+
+  function initSimulationsPanel(sim) {
+    const rows = sim.rows || [];
+    // counts by stage / O2 / grew
+    const grewAer = rows.filter(r => r.O2 === 'aerobic'   && parseFloat(r.biomass) > 1e-6).length;
+    const failAer = rows.filter(r => r.O2 === 'aerobic'   && (parseFloat(r.biomass) <= 1e-6 || isNaN(parseFloat(r.biomass)))).length;
+    const grewAna = rows.filter(r => r.O2 === 'anaerobic' && parseFloat(r.biomass) > 1e-6).length;
+    const failAna = rows.filter(r => r.O2 === 'anaerobic' && (parseFloat(r.biomass) <= 1e-6 || isNaN(parseFloat(r.biomass)))).length;
+    const nCond   = new Set(rows.map(r => r.condition_id)).size;
+    // top aer cocktail
+    const aerSorted = rows.filter(r => r.O2 === 'aerobic')
+                          .map(r => ({...r, _b: parseFloat(r.biomass) || 0}))
+                          .sort((a,b) => b._b - a._b);
+    const topAer = aerSorted[0];
+    const summaryHtml = `
+      <div class="kpis" style="margin:0">
+        <div class="kpi kpi-accent">
+          <div class="kpi-label">Conditions</div>
+          <div class="kpi-value">${nCond}</div>
+          <div class="kpi-sub">${rows.length} simulations (aer + ana)</div>
+        </div>
+        <div class="kpi kpi-pos">
+          <div class="kpi-label">Grew (aer / ana)</div>
+          <div class="kpi-value">${grewAer} / ${grewAna}</div>
+          <div class="kpi-sub">biomass &gt; 1e-6 1/h</div>
+        </div>
+        <div class="kpi kpi-warm">
+          <div class="kpi-label">Failed (aer / ana)</div>
+          <div class="kpi-value">${failAer} / ${failAna}</div>
+          <div class="kpi-sub">expected gap-fill targets</div>
+        </div>
+        <div class="kpi kpi-purple">
+          <div class="kpi-label">Top aerobic biomass</div>
+          <div class="kpi-value">${topAer ? topAer._b.toFixed(3) : '—'}</div>
+          <div class="kpi-sub">${topAer ? esc(topAer.label) : ''}</div>
+        </div>
+      </div>
+      <div style="margin-top:14px; font-size:13px; line-height:1.55; color:var(--muted)">
+        Panel from <span class="mono">simulations/run_simulation_panel.py</span>,
+        plan in <span class="mono">fsp237_biomass_extension/INFECTION_SIM_PLAN.md</span>.
+        See <span class="mono">simulations/RESULTS.md</span> for the full interpretation
+        and per-failure gap-fill specs.
+      </div>
+    `;
+    document.getElementById('sim-summary').innerHTML = summaryHtml;
+
+    // stage filter chips
+    const stages = [...new Set(rows.map(r => r.stage))];
+    const stageHtml = '<span class="cat-chip active" data-stage="">All <span class="count">' + rows.length + '</span></span>'
+      + stages.map(st => {
+          const n = rows.filter(r => r.stage === st).length;
+          return '<span class="cat-chip" data-stage="' + esc(st) + '">' + esc(st)
+              + '<span class="count">' + n + '</span></span>';
+        }).join('');
+    const $stageFilter = $('#sim-stage-filter').html(stageHtml);
+
+    // Build table data
+    const maxBio = Math.max(...rows.map(r => parseFloat(r.biomass) || 0));
+    const data = rows.map(r => [
+      esc((r.condition_id || '').split('_')[0]),
+      esc(r.label),
+      stageBadge(r.stage),
+      '<span class="mono">' + esc(r.O2) + '</span>',
+      '<span class="mono">' + esc(prettyCSources(r.c_sources)) + '</span>',
+      fmtBiomass(r.biomass, maxBio),
+      fmtNum(r.C_uptake_realized_mmolC, 2),
+      fmtNum(r.biomass_per_C, 5),
+      '<span class="mono">' + (r.active_fluxes != null ? r.active_fluxes : '') + '</span>',
+      esc(r.status),
+      esc(r.notes),
+    ]);
+    $('#loading-simulations').remove();
+    $('#tbl-simulations').show();
+    const dt = new DataTable('#tbl-simulations', {
+      data: data, pageLength: 50, lengthMenu: [25, 50, 100],
+      // sort by biomass desc
+      order: [[5, 'desc']], deferRender: true, autoWidth: false,
+      columnDefs: [
+        Object.assign(numColDef(5), {
+          render: function(d, type) {
+            if (type === 'sort' || type === 'type') {
+              const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(
+                $('<div>').html(d).find('.coef-num').text());
+              return m ? parseFloat(m[1]) : 0;
+            }
+            return d;
+          }
+        }),
+        numColDef(6), numColDef(7), numColDef(8),
+      ],
+    });
+    wireHeaderSearch(dt, '#tbl-simulations');
+    window._simulationsDT = dt;
+
+    // stage chips filter the Stage column (col 2, exact match on badge text)
+    $stageFilter.on('click', '.cat-chip', function() {
+      const st = $(this).data('stage') || '';
+      $stageFilter.find('.cat-chip').removeClass('active');
+      $(this).addClass('active');
+      dt.column(2).search(st ? '^' + st + '$' : '', true, false).draw();
+    });
+  }
+
   // -- KPI strip -----------------------------------------------------------
   function fillKpis(d) {
     document.getElementById('kpi-rxns').textContent = d.n_reactions.toLocaleString();
@@ -632,8 +801,9 @@
   fetch('reactions.json?v=' + Date.now())
     .then(r => r.json())
     .then(d => {
-      window._reactionData = d.reactions;
-      window._biomassData  = d.biomass || null;
+      window._reactionData    = d.reactions;
+      window._biomassData     = d.biomass || null;
+      window._simulationsData = d.simulations || null;
       fillKpis(d);
       initReactionsTable(d.reactions);
     })
