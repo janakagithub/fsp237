@@ -669,10 +669,18 @@
   }
   function prettyCSources(s) {
     if (!s) return '';
-    // 'cpd00794_e0:0.3;cpd00100_e0:0.3' -> 'cpd00794:0.3 + cpd00100:0.3'
+    // Each term may be 'cpd00076_e0:2.0 (Sucrose)' (server pre-expanded with
+    // metabolite name) or just 'cpd00076_e0:2.0'. We strip the '_e0' tag and
+    // preserve everything after the rate (the parenthetical name).
     return s.split(';').map(p => {
-      const [c, r] = p.split(':');
-      return (c || '').replace(/_e0$/, '') + (r ? ':' + r : '');
+      p = p.trim();
+      // Match: <cpd id>:<rate>[ (name)]
+      const m = /^(\S+?):(\S+?)(?:\s+(\(.*\)))?$/.exec(p);
+      if (!m) return p;
+      const cpd  = m[1].replace(/_e0$/, '');
+      const rate = m[2];
+      const name = m[3] ? ' ' + m[3] : '';
+      return cpd + ':' + rate + name;
     }).join(' + ');
   }
 
@@ -738,7 +746,7 @@
       esc(r.label),
       stageBadge(r.stage),
       '<span class="mono">' + esc(r.O2) + '</span>',
-      '<span class="mono">' + esc(prettyCSources(r.c_sources)) + '</span>',
+      '<span class="mono">' + esc(prettyCSources(r.c_sources_pretty || r.c_sources)) + '</span>',
       fmtBiomass(r.biomass, maxBio),
       fmtNum(r.C_uptake_realized_mmolC, 2),
       fmtNum(r.biomass_per_C, 5),
