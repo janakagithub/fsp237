@@ -349,10 +349,12 @@
     <table id="tbl-simulations" style="display:none; width:100%">
       <thead>
         <tr>
-          <th>#</th><th>Condition</th><th>Stage</th><th>O&#8322;</th>
-          <th>Carbon sources</th><th>Biomass (1/h)</th>
-          <th>C in (mmol/gDW/h)</th><th>Biomass / mmol C</th>
-          <th>Active rxns</th><th>Status</th><th>Notes</th>
+          <th>#</th><th>Condition</th><th>Stage</th>
+          <th>Carbon sources</th>
+          <th>Biomass aer (1/h)</th><th>Biomass ana (1/h)</th>
+          <th>C in (mmol/gDW/h)</th><th>Yield aer (1/mmol C)</th>
+          <th>Active aer</th><th>Active ana</th>
+          <th>Notes</th>
         </tr>
         <tr class="filters">
           <th></th><th></th><th></th><th></th><th></th><th></th>
@@ -685,16 +687,14 @@
   }
 
   function initSimulationsPanel(sim) {
+    // rows now pivoted: one row per condition with biomass_aer / biomass_ana
     const rows = sim.rows || [];
-    // counts by stage / O2 / grew
-    const grewAer = rows.filter(r => r.O2 === 'aerobic'   && parseFloat(r.biomass) > 1e-6).length;
-    const failAer = rows.filter(r => r.O2 === 'aerobic'   && (parseFloat(r.biomass) <= 1e-6 || isNaN(parseFloat(r.biomass)))).length;
-    const grewAna = rows.filter(r => r.O2 === 'anaerobic' && parseFloat(r.biomass) > 1e-6).length;
-    const failAna = rows.filter(r => r.O2 === 'anaerobic' && (parseFloat(r.biomass) <= 1e-6 || isNaN(parseFloat(r.biomass)))).length;
-    const nCond   = new Set(rows.map(r => r.condition_id)).size;
-    // top aer cocktail
-    const aerSorted = rows.filter(r => r.O2 === 'aerobic')
-                          .map(r => ({...r, _b: parseFloat(r.biomass) || 0}))
+    const grewAer = rows.filter(r => (parseFloat(r.biomass_aer) || 0) > 1e-6).length;
+    const failAer = rows.length - grewAer;
+    const grewAna = rows.filter(r => (parseFloat(r.biomass_ana) || 0) > 1e-6).length;
+    const failAna = rows.length - grewAna;
+    const nCond   = rows.length;
+    const aerSorted = rows.map(r => ({...r, _b: parseFloat(r.biomass_aer) || 0}))
                           .sort((a,b) => b._b - a._b);
     const topAer = aerSorted[0];
     const summaryHtml = `
@@ -739,45 +739,55 @@
         }).join('');
     const $stageFilter = $('#sim-stage-filter').html(stageHtml);
 
-    // Build table data
-    const maxBio = Math.max(...rows.map(r => parseFloat(r.biomass) || 0));
+    // Build pivoted table data (one row per condition with aer + ana columns)
+    const maxBio = Math.max(...rows.map(r =>
+      Math.max(parseFloat(r.biomass_aer) || 0, parseFloat(r.biomass_ana) || 0)));
     const data = rows.map(r => [
       esc((r.condition_id || '').split('_')[0]),
       esc(r.label),
       stageBadge(r.stage),
-      '<span class="mono">' + esc(r.O2) + '</span>',
       '<span class="mono">' + esc(prettyCSources(r.c_sources_pretty || r.c_sources)) + '</span>',
-      fmtBiomass(r.biomass, maxBio),
-      fmtNum(r.C_uptake_realized_mmolC, 2),
-      fmtNum(r.biomass_per_C, 5),
-      '<span class="mono">' + (r.active_fluxes != null ? r.active_fluxes : '') + '</span>',
-      esc(r.status),
+      fmtBiomass(r.biomass_aer, maxBio),
+      fmtBiomass(r.biomass_ana, maxBio),
+      fmtNum(r.C_uptake_aer, 2),
+      fmtNum(r.biomass_per_C_aer, 5),
+      '<span class="mono">' + (r.active_aer != null ? r.active_aer : '') + '</span>',
+      '<span class="mono">' + (r.active_ana != null ? r.active_ana : '') + '</span>',
       esc(r.notes),
     ]);
     $('#loading-simulations').remove();
     $('#tbl-simulations').show();
+    // numeric-sort def for the coefbar biomass columns
+    const bioColDef = function(target) {
+      return {
+        targets: target, type: 'num',
+        render: function(d, type) {
+          if (type === 'sort' || type === 'type') {
+            const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(
+              $('<div>').html(d).find('.coef-num').text());
+            return m ? parseFloat(m[1]) : 0;
+          }
+          return d;
+        }
+      };
+    };
     const dt = new DataTable('#tbl-simulations', {
       data: data, pageLength: 50, lengthMenu: [25, 50, 100],
-      // sort by biomass desc
-      order: [[5, 'desc']], deferRender: true, autoWidth: false,
+      // sort by aerobic biomass desc
+      order: [[4, 'desc']], deferRender: true, autoWidth: false,
       columnDefs: [
-        Object.assign(numColDef(5), {
-          render: function(d, type) {
-            if (type === 'sort' || type === 'type') {
-              const m = /(-?\d+(?:\.\d+)?(?:[eE][-+]?\d+)?)/.exec(
-                $('<div>').html(d).find('.coef-num').text());
-              return m ? parseFloat(m[1]) : 0;
-            }
-            return d;
-          }
-        }),
-        numColDef(6), numColDef(7), numColDef(8),
+        bioColDef(4),       // Biomass aer
+        bioColDef(5),       // Biomass ana
+        numColDef(6),       // C in (aer)
+        numColDef(7),       // Yield aer
+        numColDef(8),       // Active aer
+        numColDef(9),       // Active ana
       ],
     });
     wireHeaderSearch(dt, '#tbl-simulations');
     window._simulationsDT = dt;
 
-    // stage chips filter the Stage column (col 2, exact match on badge text)
+    // stage chips filter the Stage column (col 2)
     $stageFilter.on('click', '.cat-chip', function() {
       const st = $(this).data('stage') || '';
       $stageFilter.find('.cat-chip').removeClass('active');
