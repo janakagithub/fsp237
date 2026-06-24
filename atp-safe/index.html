@@ -176,6 +176,13 @@
   .equation { max-width: 380px; word-break: break-word; }
   .gpr      { max-width: 260px; word-break: break-word; white-space: normal; }
 
+  /* Literature column --------------------------------------------------- */
+  .lit-link { color: var(--accent); text-decoration: none; font-size: 11px;
+              border-bottom: 1px dotted var(--accent); }
+  .lit-link:hover { text-decoration: none; border-bottom-style: solid;
+                    background: var(--accent-soft); }
+  .lit-nopmid { color: var(--muted); font-size: 11px; border-bottom: 1px dotted var(--muted); }
+
   /* Coefficient bar viz ------------------------------------------------- */
   .coef-cell { display: flex; align-items: center; gap: 8px; }
   .coef-num {
@@ -354,11 +361,11 @@
           <th>Biomass aer (1/h)</th><th>Biomass ana (1/h)</th>
           <th>C in (mmol/gDW/h)</th><th>Yield aer (1/mmol C)</th>
           <th>Active aer</th><th>Active ana</th>
-          <th>Notes</th>
+          <th>Notes</th><th>Literature</th>
         </tr>
         <tr class="filters">
           <th></th><th></th><th></th><th></th><th></th><th></th>
-          <th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th><th></th><th></th>
         </tr>
       </thead>
     </table>
@@ -739,6 +746,23 @@
         }).join('');
     const $stageFilter = $('#sim-stage-filter').html(stageHtml);
 
+    // Helper to render the literature column: one anchor per citation,
+    // hovers show the key finding, links open PubMed in a new tab.
+    function fmtLiterature(lits) {
+      if (!lits || !lits.length) return '<span class="flux-zero">&mdash;</span>';
+      return lits.map(c => {
+        const pmid = (c.pmid || '').trim();
+        const cite = esc(c.short_citation || '');
+        const find = (c.key_finding || '').replace(/"/g,'&quot;');
+        if (pmid && pmid !== '-') {
+          const url = 'https://pubmed.ncbi.nlm.nih.gov/' + encodeURIComponent(pmid) + '/';
+          return '<a href="' + url + '" target="_blank" rel="noopener" class="lit-link" '
+               + 'title="' + find + '">' + cite + '</a>';
+        }
+        return '<span class="lit-nopmid" title="' + find + '">' + cite + '</span>';
+      }).join('<br>');
+    }
+
     // Build pivoted table data (one row per condition with aer + ana columns)
     const maxBio = Math.max(...rows.map(r =>
       Math.max(parseFloat(r.biomass_aer) || 0, parseFloat(r.biomass_ana) || 0)));
@@ -754,6 +778,7 @@
       '<span class="mono">' + (r.active_aer != null ? r.active_aer : '') + '</span>',
       '<span class="mono">' + (r.active_ana != null ? r.active_ana : '') + '</span>',
       esc(r.notes),
+      fmtLiterature(r.literature),
     ]);
     $('#loading-simulations').remove();
     $('#tbl-simulations').show();
