@@ -176,6 +176,12 @@
   .equation { max-width: 380px; word-break: break-word; }
   .gpr      { max-width: 260px; word-break: break-word; white-space: normal; }
 
+  /* Biomass-extension badge --------------------------------------------- */
+  .ext-badge { display: inline-block; margin-left: 6px;
+               padding: 1px 7px; border-radius: 999px; font-size: 9.5px;
+               font-weight: 600; letter-spacing: 0.02em;
+               background: #ffe7c2; color: #8a4500; border: 1px solid #f6c98a; }
+
   /* Literature column --------------------------------------------------- */
   .lit-link { color: var(--accent); text-decoration: none; font-size: 11px;
               border-bottom: 1px dotted var(--accent); }
@@ -609,7 +615,7 @@
     const maxAbs = Math.max(...comps.map(c => Math.abs(c.coefficient)));
     const data = comps.map(c => [
       '<span class="mono">' + esc(c.id) + '</span>',
-      esc(c.name),
+      esc(c.name) + (c.extension ? ' <span class="ext-badge" title="Added in the Colletotrichum biomass extension (chitin/melanin/mannitol/alpha-1,3-glucan/dNTP-rebalance/glycogen)">extension</span>' : ''),
       '<span class="mono">' + esc(c.formula) + '</span>',
       '<span class="mono">' + esc(c.compartment) + '</span>',
       fmtCoef(c.coefficient, maxAbs),
