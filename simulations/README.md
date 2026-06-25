@@ -30,7 +30,7 @@ preserved on disk** for reversibility and comparison.
 |---|---|---|
 | **`build_v1_gapfill.py`** | V1 (`models/fsp237_gapfilled_Version1_noGenes.json`) | 28 new reactions: peroxisomal β-ox C8/C6/C4 closure + cofactor shuttles, Penttilä L-Ara pathway, Ashwell D-galU pathway. No GPRs. |
 | **`build_v2_integrate_genes.py`** | V2 (`Version2_gapfill_genes_integrated.json`) | V1 + BLAST-derived FSP237 GPRs (19 reactions with confident hits) |
-| **`build_v3v4_dedup.py`** | V3 / V4 | Exact-duplicate cleanup (33 dup groups → 34 rxns removed; `bio1` protected). GPRs union-merged across collapsed duplicates. |
+| **`build_v3v4_dedup.py`** | V3 / V4 | Exact-duplicate cleanup (33 dup groups → 34 rxns removed; `bio1` protected). GPRs union-merged across collapsed duplicates. Handles BOTH forward and reverse stoichiometry hashes (collapses reverse-written duplicates). See `../../fsp237_minimal_glucose/dedup_initial_build.py` for the simpler first-pass dedup used during the initial KBase + Excel + iMM904 merge. |
 | **`build_v5v6_dirlock.py`** | V5 / V6 | β-ox + Ashwell direction-locked to degradation-only (34 reactions tightened). Prevents the optimizer from using these reactions in reverse for biosynthesis. |
 | `build_v7v8_vlcfa.py` | V7 / V8 | First-pass VLCFA chain extension (had a cpd-id bug — superseded by V9/V10) |
 | **`build_v9v10_vlcfa_cleanup.py`** | V9 / V10 | Complete VLCFA chain (C26→C24→C22→C20→C18, biosynthesis-consistent cpd IDs) + dropped 88 reactions in g0/n0/v0 compartments (zero flux across all 36 simulations) |

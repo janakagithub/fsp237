@@ -30,6 +30,27 @@ discovered in the initial build.
 | `fsp237_excel_added_new.tsv` | Reactions added from the *C. higginsianum* Excel set. |
 | `fsp237_imm904_essentials_kept.tsv` | Minimum iMM904-essential reactions retained. |
 
+### Reaction de-duplication (first pass)
+
+| Script | What it does |
+|---|---|
+| **`dedup_initial_build.py`** | Standalone CLI extraction of the dedup pass from `BuildMinimalFSP237Model.ipynb` (cell 15). Exact-stoichiometry hash (sign-sensitive, H+ ignored), lower-numeric-ModelSEED-ID-wins precedence, conservative GPR merge (adopt only if keeper has no GPR), bound widening, orphan-metabolite cleanup. Usage: `python dedup_initial_build.py <model.json> [<output.json>] [--log <log.tsv>]`. |
+
+There is a **second, more sophisticated dedup script** for the final
+gap-fill model — see `../simulations/gapfill_v1_v2/build_v3v4_dedup.py`.
+The differences:
+
+| | `dedup_initial_build.py` (this directory) | `build_v3v4_dedup.py` (later stage) |
+|---|---|---|
+| Stoichiometry hash | exact, sign-sensitive | both forward AND reverse hashes (collapses reverse-written duplicates) |
+| GPR merge | conservative (only if keeper has none) | full union across all duplicates |
+| Protected reactions | none | `bio1` (ATP-yield objective) |
+| Compartment check | implicit via cpd IDs | explicit compartment-set match before merging |
+| When to use | initial KBase+Excel+iMM904 merge, lots of same-direction duplicates | post-gap-fill cleanup, catches stoich-flipped pairs |
+
+Use this script during/after the notebook build; use `build_v3v4_dedup.py`
+on the gap-fill output.
+
 ### ETC / futile-cycle fixes (applied iteratively after the initial build)
 
 | Script | What it fixes |
