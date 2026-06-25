@@ -1,0 +1,48 @@
+query_id	rxn_id	rxn_label	locus_tag	product	ec_numbers	protein_id	source_strain	score
+rxn02679_x0__CH63R_01722	rxn02679_x0	Octanoyl-CoA:O2 2-oxidoreductase (C8)	CH63R_01722	putative Epoxide hydrolase		XP_018165059.1	C. higginsianum	10
+rxn02679_x0__CH63R_02329	rxn02679_x0	Octanoyl-CoA:O2 2-oxidoreductase (C8)	CH63R_02329	Epoxide hydrolase		XP_018162120.1	C. higginsianum	10
+rxn03251_x0__CH63R_01722	rxn03251_x0	Hexanoyl-CoA 2,3-oxidoreductase (C6)	CH63R_01722	putative Epoxide hydrolase		XP_018165059.1	C. higginsianum	10
+rxn03251_x0__CH63R_02329	rxn03251_x0	Hexanoyl-CoA 2,3-oxidoreductase (C6)	CH63R_02329	Epoxide hydrolase		XP_018162120.1	C. higginsianum	10
+rxn00868_x0__CH63R_00006	rxn00868_x0	Butanoyl-CoA 2,3-oxidoreductase (C4)	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase		XP_018163343.1	C. higginsianum	10
+rxn00868_x0__CH63R_00198	rxn00868_x0	Butanoyl-CoA 2,3-oxidoreductase (C4)	CH63R_00198	3-hydroxyacyl-CoA dehydrogenase		XP_018163535.1	C. higginsianum	10
+rxn03247_x0__CH63R_01420	rxn03247_x0	(S)-Hydroxyoctanoyl-CoA hydratase (C8)	CH63R_01420	enoyl-CoA hydratase/isomerase		XP_018164757.1	C. higginsianum	20
+rxn03247_x0__CH63R_01658	rxn03247_x0	(S)-Hydroxyoctanoyl-CoA hydratase (C8)	CH63R_01658	Peroxisomal multifunctional enzyme		XP_018164995.1	C. higginsianum	20
+rxn03250_x0__CH63R_01658	rxn03250_x0	(S)-Hydroxyhexanoyl-CoA hydratase (C6)	CH63R_01658	Peroxisomal multifunctional enzyme		XP_018164995.1	C. higginsianum	20
+rxn03250_x0__CH63R_01659	rxn03250_x0	(S)-Hydroxyhexanoyl-CoA hydratase (C6)	CH63R_01659	Peroxisomal multifunctional enzyme		XP_018164996.1	C. higginsianum	20
+rxn02167_x0__CH63R_01420	rxn02167_x0	(S)-3-Hydroxybutanoyl-CoA hydratase (C4)	CH63R_01420	enoyl-CoA hydratase/isomerase		XP_018164757.1	C. higginsianum	10
+rxn02167_x0__CH63R_01661	rxn02167_x0	(S)-3-Hydroxybutanoyl-CoA hydratase (C4)	CH63R_01661	Enoyl-CoA hydratase/isomerase		XP_018164998.1	C. higginsianum	10
+rxn03246_x0__CH63R_00006	rxn03246_x0	(S)-hydroxyoctanoyl-CoA dehydrogenase (C8)	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase		XP_018163343.1	C. higginsianum	10
+rxn03246_x0__CH63R_00198	rxn03246_x0	(S)-hydroxyoctanoyl-CoA dehydrogenase (C8)	CH63R_00198	3-hydroxyacyl-CoA dehydrogenase		XP_018163535.1	C. higginsianum	10
+rxn03249_x0__CH63R_00006	rxn03249_x0	(S)-hydroxyhexanoyl-CoA dehydrogenase (C6)	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase		XP_018163343.1	C. higginsianum	10
+rxn03249_x0__CH63R_00198	rxn03249_x0	(S)-hydroxyhexanoyl-CoA dehydrogenase (C6)	CH63R_00198	3-hydroxyacyl-CoA dehydrogenase		XP_018163535.1	C. higginsianum	10
+rxn03861_x0__CH63R_07000	rxn03861_x0	(S)-3-hydroxybutanoyl-CoA / acetoacetyl-CoA reductase (C4)	CH63R_07000	Aldo-keto reductase		XP_018156753.1	C. higginsianum	10
+rxn02804_x0__CH63R_00535	rxn02804_x0	3-ketoacyl-CoA thiolase (C16->C14)	CH63R_00535	2-oxoacid dehydrogenase acyltransferase		XP_018163872.1	C. higginsianum	10
+rxn02804_x0__CH63R_00856	rxn02804_x0	3-ketoacyl-CoA thiolase (C16->C14)	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	C. higginsianum	10
+rxn06510_x0__CH63R_00535	rxn06510_x0	3-ketoacyl-CoA thiolase (C14->C12)	CH63R_00535	2-oxoacid dehydrogenase acyltransferase		XP_018163872.1	C. higginsianum	10
+rxn06510_x0__CH63R_00856	rxn06510_x0	3-ketoacyl-CoA thiolase (C14->C12)	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	C. higginsianum	10
+rxn03243_x0__CH63R_00535	rxn03243_x0	3-ketoacyl-CoA thiolase (C12->C10)	CH63R_00535	2-oxoacid dehydrogenase acyltransferase		XP_018163872.1	C. higginsianum	10
+rxn03243_x0__CH63R_00856	rxn03243_x0	3-ketoacyl-CoA thiolase (C12->C10)	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	C. higginsianum	10
+rxn02680_x0__CH63R_00535	rxn02680_x0	3-ketoacyl-CoA thiolase (C10->C8)	CH63R_00535	2-oxoacid dehydrogenase acyltransferase		XP_018163872.1	C. higginsianum	10
+rxn02680_x0__CH63R_00856	rxn02680_x0	3-ketoacyl-CoA thiolase (C10->C8)	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	C. higginsianum	10
+rxn03248_x0__CH63R_00535	rxn03248_x0	3-ketoacyl-CoA thiolase (C8->C6)	CH63R_00535	2-oxoacid dehydrogenase acyltransferase		XP_018163872.1	C. higginsianum	10
+rxn03248_x0__CH63R_00856	rxn03248_x0	3-ketoacyl-CoA thiolase (C8->C6)	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	C. higginsianum	10
+rxn00874_x0__CH63R_00535	rxn00874_x0	3-ketoacyl-CoA thiolase (C6->C4)	CH63R_00535	2-oxoacid dehydrogenase acyltransferase		XP_018163872.1	C. higginsianum	10
+rxn00874_x0__CH63R_00856	rxn00874_x0	3-ketoacyl-CoA thiolase (C6->C4)	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	C. higginsianum	10
+rxn00178_x0__CH63R_05320	rxn00178_x0	Acetyl-CoA C-acetyltransferase (C4->2 AcCoA)	CH63R_05320	Acetyl-CoA acetyltransferase		XP_018161541.1	C. higginsianum	10
+rxn00178_x0__CH63R_05764	rxn00178_x0	Acetyl-CoA C-acetyltransferase (C4->2 AcCoA)	CH63R_05764	Acetyl-CoA acetyltransferase		XP_018158589.1	C. higginsianum	10
+tx_atp_xc__CH63R_02570	tx_atp_xc	ATP/AMP antiport (Ant1-like, peroxisomal)	CH63R_02570	Peroxisomal adenine nucleotide transporter 1		XP_018162361.1	C. higginsianum	10
+tx_ppi_xc__CH63R_00729	tx_ppi_xc	PPi peroxisomal export	CH63R_00729	Inorganic pyrophosphatase		XP_018164066.1	C. higginsianum	20
+tx_ppi_xc__CH63R_03857	tx_ppi_xc	PPi peroxisomal export	CH63R_03857	Inorganic pyrophosphatase		XP_018160078.1	C. higginsianum	20
+tx_coa_xc__CH63R_00155	tx_coa_xc	CoA peroxisomal equilibration	CH63R_00155	MFS transporter		XP_018163492.1	C. higginsianum	10
+tx_coa_xc__CH63R_00195	tx_coa_xc	CoA peroxisomal equilibration	CH63R_00195	MFS drug efflux		XP_018163532.1	C. higginsianum	10
+tx_nad_xc__CH63R_00045	tx_nad_xc	NAD peroxisomal equilibration	CH63R_00045	Mitochondrial carrier		XP_018163382.1	C. higginsianum	10
+tx_nad_xc__CH63R_01375	tx_nad_xc	NAD peroxisomal equilibration	CH63R_01375	Mitochondrial carrier protein		XP_018164712.1	C. higginsianum	10
+tx_nadh_xc__CH63R_00045	tx_nadh_xc	NADH peroxisomal equilibration	CH63R_00045	Mitochondrial carrier		XP_018163382.1	C. higginsianum	10
+tx_nadh_xc__CH63R_01375	tx_nadh_xc	NADH peroxisomal equilibration	CH63R_01375	Mitochondrial carrier protein		XP_018164712.1	C. higginsianum	10
+tx_h_xc__CH63R_01263	tx_h_xc	H+ peroxisomal equilibration	CH63R_01263	Phosphate:H+ symporter		XP_018164600.1	C. higginsianum	10
+tx_h_xc__CH63R_05128	tx_h_xc	H+ peroxisomal equilibration	CH63R_05128	H+ symporter family protein		XP_018161349.1	C. higginsianum	10
+rxn01391_c0__CH63R_06964	rxn01391_c0	L-arabitol:NAD+ 4-oxidoreductase (L-xylulose-forming)	CH63R_06964	L-arabinitol 4-dehydrogenase		XP_018156717.1	C. higginsianum	20
+rxn05673_c0__CH63R_02491	rxn05673_c0	D-galacturonate proton symporter	CH63R_02491	MFS sugar transporter		XP_018162282.1	C. higginsianum	20
+rxn05673_c0__CH63R_12108	rxn05673_c0	D-galacturonate proton symporter	CH63R_12108	MFS sugar transporter		XP_018153923.1	C. higginsianum	20
+rxn07491_c0__CH63R_01153	rxn07491_c0	D-galacturonate reductase (NADPH; GAR1, fungal)	CH63R_01153	Gar1 protein RNA binding region		XP_018164490.1	C. higginsianum	10
+rxn09954_c0__CH63R_07000	rxn09954_c0	L-glyceraldehyde reductase (GLD1)	CH63R_07000	Aldo-keto reductase		XP_018156753.1	C. higginsianum	10

@@ -1,0 +1,20 @@
+# Large genome / proteome files that don't fit on GitHub.
+# Re-download from NCBI / KBase if you want to re-run the GPR-update pipeline
+# from scratch -- see gpr-update/README.md for sources.
+gpr-update/*.gbff
+gpr-update/*.fa
+gpr-update/*.fasta
+
+# Python + Jupyter caches
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Editor + OS junk
+.DS_Store
+.vscode/
+.idea/
+
+# Local Claude Code state
+.claude/

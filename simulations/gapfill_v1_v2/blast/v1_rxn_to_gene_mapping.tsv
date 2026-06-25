@@ -1,0 +1,30 @@
+rxn_id	rxn_label	source_strain	source_locus_tag	source_product	source_ec	source_protein_id	fsp237_gene	pident	qcovs	evalue	bitscore	length	qlen	slen	confidence	note
+rxn02679_x0	Octanoyl-CoA:O2 2-oxidoreductase (C8)	C. higginsianum	CH63R_01722	putative Epoxide hydrolase		XP_018165059.1	gene_8837	64.048	98.0	1.49e-163	458.0	331	333	333	high	
+rxn03251_x0	Hexanoyl-CoA 2,3-oxidoreductase (C6)	C. higginsianum	CH63R_01722	putative Epoxide hydrolase		XP_018165059.1	gene_8837	64.048	98.0	1.49e-163	458.0	331	333	333	high	
+rxn00868_x0	Butanoyl-CoA 2,3-oxidoreductase (C4)	C. higginsianum	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase		XP_018163343.1	gene_11751	81.229	91.0	9.89e-166	472.0	293	321	570	high	
+rxn03247_x0	(S)-Hydroxyoctanoyl-CoA hydratase (C8)	C. higginsianum	CH63R_01420	enoyl-CoA hydratase/isomerase		XP_018164757.1	gene_2621	94.444	100.0	0.0	653.0	342	342	341	high	
+rxn03250_x0	(S)-Hydroxyhexanoyl-CoA hydratase (C6)	C. higginsianum	CH63R_01659	Peroxisomal multifunctional enzyme		XP_018164996.1	gene_2953	83.03	100.0	6.8e-101	292.0	165	165	325	high	
+rxn02167_x0	(S)-3-Hydroxybutanoyl-CoA hydratase (C4)	C. higginsianum	CH63R_01420	enoyl-CoA hydratase/isomerase		XP_018164757.1	gene_2621	94.444	100.0	0.0	653.0	342	342	341	high	
+rxn03246_x0	(S)-hydroxyoctanoyl-CoA dehydrogenase (C8)	C. higginsianum	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase		XP_018163343.1	gene_11751	81.229	91.0	9.89e-166	472.0	293	321	570	high	
+rxn03249_x0	(S)-hydroxyhexanoyl-CoA dehydrogenase (C6)	C. higginsianum	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase		XP_018163343.1	gene_11751	81.229	91.0	9.89e-166	472.0	293	321	570	high	
+rxn03861_x0	(S)-3-hydroxybutanoyl-CoA / acetoacetyl-CoA reductase (C4)	C. higginsianum	CH63R_07000	Aldo-keto reductase		XP_018156753.1	gene_11942	81.006	99.0	0.0	623.0	358	358	359	high	
+rxn02804_x0	3-ketoacyl-CoA thiolase (C16->C14)	C. higginsianum	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	gene_4118	85.714	100.0	0.0	909.0	511	511	509	high	
+rxn06510_x0	3-ketoacyl-CoA thiolase (C14->C12)	C. higginsianum	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	gene_4118	85.714	100.0	0.0	909.0	511	511	509	high	
+rxn03243_x0	3-ketoacyl-CoA thiolase (C12->C10)	C. higginsianum	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	gene_4118	85.714	100.0	0.0	909.0	511	511	509	high	
+rxn02680_x0	3-ketoacyl-CoA thiolase (C10->C8)	C. higginsianum	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	gene_4118	85.714	100.0	0.0	909.0	511	511	509	high	
+rxn03248_x0	3-ketoacyl-CoA thiolase (C8->C6)	C. higginsianum	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	gene_4118	85.714	100.0	0.0	909.0	511	511	509	high	
+rxn00874_x0	3-ketoacyl-CoA thiolase (C6->C4)	C. higginsianum	CH63R_00856	Diacylglycerol acyltransferase		XP_018164193.1	gene_4118	85.714	100.0	0.0	909.0	511	511	509	high	
+rxn00178_x0	Acetyl-CoA C-acetyltransferase (C4->2 AcCoA)	C. higginsianum	CH63R_05764	Acetyl-CoA acetyltransferase		XP_018158589.1	gene_9875	96.75	100.0	0.0	785.0	400	400	396	high	
+tx_atp_xc	ATP/AMP antiport (Ant1-like, peroxisomal)	C. higginsianum	CH63R_02570	Peroxisomal adenine nucleotide transporter 1		XP_018162361.1	gene_2856	83.288	100.0	0.0	557.0	371	371	1122	high	
+tx_ppi_xc	PPi peroxisomal export	C. higginsianum	CH63R_00729	Inorganic pyrophosphatase		XP_018164066.1	gene_4271	93.563	100.0	0.0	796.0	435	434	432	high	
+tx_coa_xc	CoA peroxisomal equilibration	C. higginsianum	CH63R_00195	MFS drug efflux		XP_018163532.1	gene_4240	88.319	98.0	0.0	986.0	565	572	953	high	
+tx_nad_xc	NAD peroxisomal equilibration	C. higginsianum	CH63R_01375	Mitochondrial carrier protein		XP_018164712.1	gene_8532	96.405	100.0	0.0	606.0	306	305	306	high	
+tx_nadh_xc	NADH peroxisomal equilibration	C. higginsianum	CH63R_01375	Mitochondrial carrier protein		XP_018164712.1	gene_8532	96.405	100.0	0.0	606.0	306	305	306	high	
+tx_h_xc	H+ peroxisomal equilibration	C. higginsianum	CH63R_05128	H+ symporter family protein		XP_018161349.1	gene_984	90.0	100.0	0.0	938.0	530	530	529	high	
+rxn01391_c0	L-arabitol:NAD+ 4-oxidoreductase (L-xylulose-forming)	C. higginsianum	CH63R_06964	L-arabinitol 4-dehydrogenase		XP_018156717.1	gene_8784	48.098	99.0	8.79e-116	340.0	368	364	375	medium	
+rxn33066_c0	L-xylulose reductase	C. higginsianum													none	No C. higg candidate or no BLAST hit passes thresholds
+rxn05673_c0	D-galacturonate proton symporter	C. higginsianum	CH63R_12108	MFS sugar transporter		XP_018153923.1	gene_5858	45.56	91.0	2.65e-170	493.0	518	565	559	medium	
+rxn07491_c0	D-galacturonate reductase (NADPH; GAR1, fungal)	C. higginsianum													none	No C. higg candidate or no BLAST hit passes thresholds
+rxn21749_c0	L-galactonate dehydratase (LGD1)	C. higginsianum													none	No C. higg candidate or no BLAST hit passes thresholds
+rxn21750_c0	2-keto-3-deoxy-L-galactonate aldolase (LGA1)	C. higginsianum													none	No C. higg candidate or no BLAST hit passes thresholds
+rxn09954_c0	L-glyceraldehyde reductase (GLD1)	C. higginsianum	CH63R_07000	Aldo-keto reductase		XP_018156753.1	gene_11942	81.006	99.0	0.0	623.0	358	358	359	high	

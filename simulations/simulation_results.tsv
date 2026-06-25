@@ -1,0 +1,37 @@
+condition_id	label	stage	O2	c_sources	missing_exchanges	status	biomass	active_fluxes	C_uptake_theor_mmolC	C_uptake_realized_mmolC	biomass_per_C	notes
+01_trehalose	Trehalose	pre-infection	aerobic	cpd00794_e0:1.0		optimal	0.072845	475	12.0	12.0	0.00607	Spore-stored TRHL mobilization
+01_trehalose	Trehalose	pre-infection	anaerobic	cpd00794_e0:1.0		optimal	0.014816	477	12.0	12.0	0.001235	Spore-stored TRHL mobilization
+02_glycerol	Glycerol	pre-infection	aerobic	cpd00100_e0:1.0		optimal	0.020737	477	3.0	3.0	0.006912	Appressorial osmolyte / lipid backbone
+02_glycerol	Glycerol	pre-infection	anaerobic	cpd00100_e0:1.0		optimal	0.000437	367	3.0	3.0	0.000146	Appressorial osmolyte / lipid backbone
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	cpd00214_e0:1.0		optimal	0.11397	506	16.0	16.0	0.007123	Lipid-body beta-oxidation + glyoxylate
+03_palmitate	Palmitate (C16:0)	pre-infection	anaerobic	cpd00214_e0:1.0		optimal	0.0	0	16.0	0.0	0.0	Lipid-body beta-oxidation + glyoxylate
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	cpd15269_e0:1.0		optimal	0.128026	487	18.0	18.0	0.007113	Major lipid-body FA
+04_oleate	Oleate (C18:1)	pre-infection	anaerobic	cpd15269_e0:1.0		optimal	0.0	0	18.0	0.0	0.0	Major lipid-body FA
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	cpd15240_e0:1.0		optimal	0.206075	507	26.0	26.0	0.007926	Cuticle-wax FA; expected gap in VLCFA b-ox
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	anaerobic	cpd15240_e0:1.0		optimal	0.0	0	26.0	0.0	0.0	Cuticle-wax FA; expected gap in VLCFA b-ox
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	cpd00027_e0:1.0		optimal	0.036419	477	6.0	6.0	0.00607	Apoplastic low glucose; reference
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	cpd00027_e0:1.0		optimal	0.007406	471	6.0	6.0	0.001234	Apoplastic low glucose; reference
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	cpd00076_e0:0.5		optimal	0.036419	483	6.0	6.0	0.00607	Phloem sugar; invertase route
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	cpd00076_e0:0.5		optimal	0.007406	472	6.0	6.0	0.001234	Phloem sugar; invertase route
+08_glutamate	L-Glutamate	biotrophic	aerobic	cpd00023_e0:2.0		optimal	0.052732	482	10.0	10.0	0.005273	Apoplastic AA serving C+N
+08_glutamate	L-Glutamate	biotrophic	anaerobic	cpd00023_e0:2.0		optimal	0.000265	363	10.0	10.0	2.6e-05	Apoplastic AA serving C+N
+09_glutamine	L-Glutamine	biotrophic	aerobic	cpd00053_e0:2.0		optimal	0.052785	482	10.0	10.0	0.005279	Major N-transport AA, 2N + a-KG
+09_glutamine	L-Glutamine	biotrophic	anaerobic	cpd00053_e0:2.0		optimal	0.000268	360	10.0	10.0	2.7e-05	Major N-transport AA, 2N + a-KG
+10_gaba	GABA	biotrophic	aerobic	cpd00281_e0:2.0		optimal	0.049582	481	8.0	8.0	0.006198	Plant defense AA; tests GABA shunt
+10_gaba	GABA	biotrophic	anaerobic	cpd00281_e0:2.0		optimal	0.0	0	8.0	0.0	0.0	Plant defense AA; tests GABA shunt
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	cpd00280_e0:5.0		optimal	0.149263	488	30.0	30.0	0.004975	Pectin breakdown; Ashwell pathway
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	cpd00280_e0:5.0		optimal	0.020447	489	30.0	30.0	0.000682	Pectin breakdown; Ashwell pathway
+12_xylose	Xylose	necrotrophic	aerobic	cpd00154_e0:5.0		optimal	0.145678	481	25.0	25.0	0.005827	Hemicellulose monomer
+12_xylose	Xylose	necrotrophic	anaerobic	cpd00154_e0:5.0		optimal	0.01493	487	25.0	25.0	0.000597	Hemicellulose monomer
+13_arabinose	L-Arabinose	necrotrophic	aerobic	cpd00224_e0:5.0		optimal	0.139608	483	25.0	25.0	0.005584	Arabinoxylan side-chain monomer
+13_arabinose	L-Arabinose	necrotrophic	anaerobic	cpd00224_e0:5.0		optimal	0.0	0	25.0	0.0	0.0	Arabinoxylan side-chain monomer
+14_maltose	Maltose (starch)	necrotrophic	aerobic	cpd00179_e0:5.0		optimal	0.364194	480	60.0	60.0	0.00607	Starch breakdown; maltase route
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	cpd00179_e0:5.0		optimal	0.074062	483	60.0	60.0	0.001234	Starch breakdown; maltase route
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	cpd00023_e0:0.5;cpd00033_e0:0.5;cpd00035_e0:0.5;cpd00039_e0:0.5;cpd00041_e0:0.5;cpd00051_e0:0.5;cpd00053_e0:0.5;cpd00054_e0:0.5;cpd00060_e0:0.5;cpd00065_e0:0.5;cpd00066_e0:0.5;cpd00069_e0:0.5;cpd00084_e0:0.5;cpd00107_e0:0.5;cpd00119_e0:0.5;cpd00129_e0:0.5;cpd00132_e0:0.5;cpd00156_e0:0.5;cpd00161_e0:0.5;cpd00322_e0:0.5;cpd00027_e0:0.5		optimal	0.142413	502	56.5	42.496	0.003351	Cytoplasmic release (all 20 AAs + glc)
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	cpd00023_e0:0.5;cpd00033_e0:0.5;cpd00035_e0:0.5;cpd00039_e0:0.5;cpd00041_e0:0.5;cpd00051_e0:0.5;cpd00053_e0:0.5;cpd00054_e0:0.5;cpd00060_e0:0.5;cpd00065_e0:0.5;cpd00066_e0:0.5;cpd00069_e0:0.5;cpd00084_e0:0.5;cpd00107_e0:0.5;cpd00119_e0:0.5;cpd00129_e0:0.5;cpd00132_e0:0.5;cpd00156_e0:0.5;cpd00161_e0:0.5;cpd00322_e0:0.5;cpd00027_e0:0.5		optimal	0.011477	478	56.5	18.65	0.000615	Cytoplasmic release (all 20 AAs + glc)
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	cpd00794_e0:0.3;cpd00100_e0:0.3;cpd15269_e0:0.3		optimal	0.069347	497	9.9	9.9	0.007005	Trehalose + glycerol + oleate
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	cpd00794_e0:0.3;cpd00100_e0:0.3;cpd15269_e0:0.3		optimal	0.005044	486	9.9	4.52	0.001116	Trehalose + glycerol + oleate
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	cpd00027_e0:0.3;cpd00076_e0:0.2;cpd00023_e0:0.5;cpd00053_e0:0.5;cpd00130_e0:0.5		optimal	0.062652	488	11.2	11.2	0.005594	glc + suc + Glu + Gln + malate
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	cpd00027_e0:0.3;cpd00076_e0:0.2;cpd00023_e0:0.5;cpd00053_e0:0.5;cpd00130_e0:0.5		optimal	0.009372	488	11.2	11.2	0.000837	glc + suc + Glu + Gln + malate
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	cpd00076_e0:2.0;cpd00179_e0:2.0;cpd00280_e0:1.0;cpd00154_e0:1.0;cpd00224_e0:0.5;cpd00023_e0:0.2;cpd00033_e0:0.2;cpd00035_e0:0.2;cpd00039_e0:0.2;cpd00041_e0:0.2;cpd00051_e0:0.2;cpd00053_e0:0.2;cpd00054_e0:0.2;cpd00060_e0:0.2;cpd00065_e0:0.2;cpd00066_e0:0.2;cpd00069_e0:0.2;cpd00084_e0:0.2;cpd00107_e0:0.2;cpd00119_e0:0.2;cpd00129_e0:0.2;cpd00132_e0:0.2;cpd00156_e0:0.2;cpd00161_e0:0.2;cpd00322_e0:0.2		optimal	0.445535	527	82.9	78.675	0.005663	suc + maltose + galU + xyl + ara + mixed AAs
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	cpd00076_e0:2.0;cpd00179_e0:2.0;cpd00280_e0:1.0;cpd00154_e0:1.0;cpd00224_e0:0.5;cpd00023_e0:0.2;cpd00033_e0:0.2;cpd00035_e0:0.2;cpd00039_e0:0.2;cpd00041_e0:0.2;cpd00051_e0:0.2;cpd00053_e0:0.2;cpd00054_e0:0.2;cpd00060_e0:0.2;cpd00065_e0:0.2;cpd00066_e0:0.2;cpd00069_e0:0.2;cpd00084_e0:0.2;cpd00107_e0:0.2;cpd00119_e0:0.2;cpd00129_e0:0.2;cpd00132_e0:0.2;cpd00156_e0:0.2;cpd00161_e0:0.2;cpd00322_e0:0.2		optimal	0.088362	511	82.9	72.772	0.001214	suc + maltose + galU + xyl + ara + mixed AAs

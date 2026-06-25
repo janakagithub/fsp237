@@ -1,0 +1,100 @@
+rxn_id	name	old_gpr	new_gpr	issue
+rxn09540_c0	1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase, yeast-specific_c0	gene_1734	gene_1734 or gene_10704 or gene_12864 or gene_2078	weak BLAST matches used: ['CH63R_13158']
+rxn00364_c0	ATP:CMP phosphotransferase_c0		gene_10931	unmapped CH63R dropped: ['CH63R_13783'] | weak BLAST matches used: ['CH63R_07368']
+rxn02826_c0	N-Acetylputrescine:oxygen oxidoreductase(deaminating)(flavin-containing)_c0		gene_9890 or gene_12033	weak BLAST matches used: ['CH63R_11521']
+rxn09462_x0	fatty acid oxidation (octanoyl-CoA), peroxisomal_x0	gene_2331 or gene_1935 or gene_1810	gene_2331 or gene_1935 or gene_1810 or gene_7999 or gene_128 or gene_2093 or gene_6597 or gene_7220 or gene_5400 or gene_4956	weak BLAST matches used: ['CH63R_05264']
+rxn05273_g0	phosphatidylserine decarboxylase, yeast-specific, Golgi_g0	gene_9526	gene_9526 or gene_3762	unmapped CH63R dropped: ['CH63R_02221'] | weak BLAST matches used: ['CH63R_02323']
+rxn00416_c0	L-aspartate:L-glutamine amido-ligase (AMP-forming)_c0	gene_5682 or gene_7143 or gene_5682	gene_5682 or gene_7143 or gene_521 or gene_11394	weak BLAST matches used: ['CH63R_08654']
+rxn00342_e0	L-Asparagine amidohydrolase_e0	gene_9918 or gene_9918 or gene_9918 or gene_9918	gene_9918 or gene_8769	weak BLAST matches used: ['CH63R_06540', 'CH63R_07617']
+rxn00806_c0	L-Leucine:2-oxoglutarate aminotransferase_c0	gene_622	gene_622 or gene_12086 or gene_4156 or gene_3566	unmapped CH63R dropped: ['CH63R_08074'] | weak BLAST matches used: ['CH63R_09767']
+rxn01182_m0	4-Coumarate:CoA ligase (AMP-forming)_m0		gene_12998	weak BLAST matches used: ['CH63R_06356']
+rxn09441_c0	fatty acyl-CoA synthase (n-C10:0CoA)_c0	gene_10612 or gene_12865 or gene_313 or gene_10589	gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn09470_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_5400 or gene_4956	weak BLAST matches used: ['CH63R_05264']
+rxn02358_m0	trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase_m0	gene_2608	gene_2608 or gene_9941 or gene_5611	weak BLAST matches used: ['CH63R_10528']
+rxn09464_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_434 or gene_5400 or gene_4395	unmapped CH63R dropped: ['CH63R_0576'] | weak BLAST matches used: ['CH63R_05264']
+rxn09467_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_434 or gene_5400 or gene_4395	unmapped CH63R dropped: ['CH63R_0576'] | weak BLAST matches used: ['CH63R_05264']
+rxn00929_m0	L-Proline:NAD+ 5-oxidoreductase_m0	gene_11192	gene_11192 or gene_9941 or gene_5611	weak BLAST matches used: ['CH63R_10528']
+rxn09435_c0	fatty-acyl-CoA synthase (n-C14:0CoA)_c0	gene_10612 or gene_12865 or gene_313 or gene_10589	gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn09421_c0	fatty acyl-CoA synthase (n-C8:0CoA), lumped reaction_c0	gene_10612 or gene_12865 or gene_313 or gene_10589	gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn02275_c0	4-Guanidinobutanamide amidohydrolase_c0	gene_6335 or gene_9121	gene_6335 or gene_9121 or gene_187 or gene_2440 or gene_1738 or gene_4671 or gene_9547 or gene_6227 or gene_3244	weak BLAST matches used: ['CH63R_13458']
+rxn01575_c0	L-Isoleucine:2-oxoglutarate aminotransferase_c0	gene_622	gene_622 or gene_12086 or gene_4156 or gene_3566	unmapped CH63R dropped: ['CH63R_08074'] | weak BLAST matches used: ['CH63R_09767']
+rxn09472_x0	fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_5400 or gene_4956	weak BLAST matches used: ['CH63R_05264']
+rxn02356_m0	trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase_m0	gene_2608	gene_2608 or gene_9941 or gene_5611	weak BLAST matches used: ['CH63R_10528']
+rxn00260_x0	L-Aspartate:2-oxoglutarate aminotransferase_x0	gene_8831	gene_8831 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn13341_c0	cytochrome P450 lanosterol 14-alpha-demethylase (NAD)_c0	gene_12185 or gene_10554 or gene_4061	gene_12185 or gene_10554 or gene_4061 or gene_7797 or gene_2828	weak BLAST matches used: ['CH63R_08040']
+rxn01843_c0	2-phenylacetamide amidohydrolase_c0	gene_6335	gene_6335 or gene_187 or gene_2440 or gene_1738 or gene_4671 or gene_9547 or gene_6227 or gene_3244	weak BLAST matches used: ['CH63R_13458']
+rxn09438_c0	fatty-acyl-CoA synthase (n-C12:0CoA)_c0	gene_10612 or gene_12865 or gene_313 or gene_10589	gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn01575_m0	L-Isoleucine:2-oxoglutarate aminotransferase_m0	gene_622	gene_622 or gene_12086 or gene_4156 or gene_3566	unmapped CH63R dropped: ['CH63R_08074'] | weak BLAST matches used: ['CH63R_09767']
+rxn09621_c0	C-4 sterol methyl oxidase (4-methylzymosterol)_c0	gene_12719	gene_12719 or gene_1482	weak BLAST matches used: ['CH63R_03833']
+rxn05349_m0	acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase_m0	gene_11955 or gene_11385 or gene_10177	gene_11955 or gene_11385 or gene_10177 or gene_12063 or gene_313 or gene_12865	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn00493_c0	L-Phenylalanine:2-oxoglutarate aminotransferase_c0	gene_12910	gene_12910 or gene_8831 or gene_11623 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn09466_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_434 or gene_5400 or gene_4395	unmapped CH63R dropped: ['CH63R_0576'] | weak BLAST matches used: ['CH63R_05264']
+rxn00931_c0	L-Proline:NADP+ 5-oxidoreductase_c0	gene_9941	gene_9941 or gene_5611	weak BLAST matches used: ['CH63R_10528']
+rxn09427_c0	fatty-acyl-CoA synthase (n-C18:0CoA)_c0	gene_10612 or gene_12865 or gene_313 or gene_10589	gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn02222_c0	Indole-3-acetamide amidohydrolase_c0	gene_6335	gene_6335 or gene_187 or gene_2440 or gene_1738 or gene_4671 or gene_9547 or gene_6227 or gene_3244	weak BLAST matches used: ['CH63R_13458']
+rxn02219_c0	3-Indoleacetonitrile aminohydrolase_c0	gene_4909 or gene_2245 or gene_10825	gene_4909 or gene_2245 or gene_10825 or gene_3110 or gene_2001 or gene_11061	weak BLAST matches used: ['CH63R_03921', 'CH63R_08297', 'CH63R_10939', 'CH63R_12493']
+rxn00903_c0	L-Valine:2-oxoglutarate aminotransferase_c0	gene_622	gene_622 or gene_12086 or gene_4156 or gene_3566	unmapped CH63R dropped: ['CH63R_08074'] | weak BLAST matches used: ['CH63R_09767']
+rxn01833_c0	aminoacetone:oxygen oxidoreductase(deaminating)_c0		gene_9890 or gene_12033	weak BLAST matches used: ['CH63R_11521']
+rxn09431_c0	fatty-acyl-CoA synthase (n-C16:0CoA)_c0	gene_10612 or gene_12865 or gene_313 or gene_10589	gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn00649_c0	O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase_c0	gene_11438	gene_11438 or gene_4548 or gene_11855	weak BLAST matches used: ['CH63R_11028', 'CH63R_12289']
+rxn29990_c0	argininosuccinate lyase_c0	gene_5005	gene_5005 or gene_9929 or gene_7393	unmapped CH63R dropped: ['CH63R_12491']
+rxn09465_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_434 or gene_5400 or gene_4395	unmapped CH63R dropped: ['CH63R_0576'] | weak BLAST matches used: ['CH63R_05264']
+rxn09469_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_2434 or gene_5400 or gene_4956	weak BLAST matches used: ['CH63R_05264']
+rxn09471_x0	Fatty acid oxidation_x0	gene_2331 or gene_1935 or gene_128 or gene_1810	gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_2434 or gene_5400 or gene_4956	weak BLAST matches used: ['CH63R_05264']
+rxn00527_c0	tyrosine transaminase, irreversible (mitochondrial)		gene_12910 or gene_8831 or gene_11623 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn00527_m0	tyrosine transaminase, irreversible (mitochondrial)		gene_12910 or gene_8831 or gene_11623 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn00527_x0	tyrosine transaminase, irreversible (mitochondrial)		gene_12910 or gene_8831 or gene_11623 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn01927_c0	3-Hydroxyanthranilate:oxygen 3,4-oxidoreductase (decyclizing)_c0	YJR025C		unmapped CH63R dropped: ['CH63R_00752'] | GPR became EMPTY
+rxn03175_c0	N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase_c0	YIL020C		unmapped CH63R dropped: ['CH63R_02935'] | GPR became EMPTY
+rxn01663_c0	 N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase		gene_2120	weak BLAST matches used: ['CH63R_08861']
+rxn13209_c0	RXN-7692.c_c0	YDL080C or YDR380W		GPR became EMPTY
+rxn01840_c0	Phenylacetaldehyde:NAD+ oxidoreductase_c0	YMR170C or YMR169C		unmapped CH63R dropped: ['CH63R_09639'] | GPR became EMPTY
+rxn15507_c0	 [L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase]		gene_8831 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn15507_m0	nan		gene_8831 or gene_11255	weak BLAST matches used: ['CH63R_01328', 'CH63R_05001']
+rxn02752_c0	N1-acetylspermine:oxygen oxidoreductase (3-acetamidopropanal-forming)_c0	YMR020W		GPR became EMPTY
+rxn13388_c0	spermidine:oxygen oxidoreductase (spermidine-forming)_c0	YMR020W		GPR became EMPTY
+rxn09878_c0	Polyamine oxidase_c0	YMR020W		GPR became EMPTY
+rxn22781_c0	RXN-12332.x_c0	YMR170C or YMR169C	gene_12607 or gene_3583 or gene_7676	unmapped CH63R dropped: ['CH63R_09639']
+rxn00342_c0	L-Asparagine amidohydrolase_c0	YDR321W	gene_9918 or gene_8769	weak BLAST matches used: ['CH63R_06540', 'CH63R_07617']
+rxn00096_c0	ADP:ATP adenylyltransferase_c0	YDR530C		unmapped CH63R dropped: ['CH63R_03462'] | GPR became EMPTY
+rxn01138_c0	Adenosine:phosphate alpha-D-ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01138_m0	Adenosine:phosphate alpha-D-ribosyltransferase_m0	YLR209C		GPR became EMPTY
+rxn01859_c0	Deoxyadenosine:orthophosphate ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01548_c0	guanosine:phosphate alpha-D-ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01548_m0	guanosine:phosphate alpha-D-ribosyltransferase_m0	YLR209C		GPR became EMPTY
+rxn01446_c0	Deoxyguanosine:orthophosphate ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01985_c0	Deoxyinosine:orthophosphate ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01649_c0	Xanthosine:orthophosphate ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01358_c0	inosine:phosphate alpha-D-ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01519_c0	dUTP nucleotidohydrolase_c0	YBR252W		unmapped CH63R dropped: ['CH63R_00626'] | GPR became EMPTY
+rxn01799_c0	deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn01146_c0	thymidine:phosphate deoxy-alpha-D-ribosyltransferase_c0	YLR209C		GPR became EMPTY
+rxn13185_c0	RXN-12057.c_c0	YGR247W		GPR became EMPTY
+rxn10506_c0	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase_c0	YOL066C		GPR became EMPTY
+rxn00024_e0	 1,2-Benzenediol:oxygen oxidoreductase		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn00036_e0	 3,4-dihydroxy-L-phenylalanine:oxygen oxidoreductase		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn03337_e0	 5,6-dihydroxyindole:oxygen oxidoreductase		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn06809_e0	rxn06809 [rxn06809]		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn15499_e0	rxn15499 [R04886]		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn07120_e0	rxn07120 [rxn07120]		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn10667_c0	fatty acid synthase (n-C18:1)_c0	YJL196C	gene_1461 or gene_5256 or gene_12063 or gene_313 or gene_12865	weak BLAST matches used: ['CH63R_09523', 'CH63R_09765', 'CH63R_09768']
+rxn09622_c0	 C-4 sterol methyl oxidase (4,4-dimethylzymosterol)		gene_12719 or gene_1482	weak BLAST matches used: ['CH63R_03833']
+rxn05918_c0	GDPmannose:dolichyl-phosphate O-beta-D-mannosyltransferase		gene_1904 or gene_9799	unmapped CH63R dropped: ['CH63R_11412']
+rxn09587_c0	mannose-inositiol phophorylceramide synthase (ceramide-1, 24C), yeast-specific_c0	YBR036C or YPL057C or YBR161W		unmapped CH63R dropped: ['CH63R_05415'] | GPR became EMPTY
+rxn09586_c0	mannose-inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific_c0	YBR036C or YPL057C or YBR161W		unmapped CH63R dropped: ['CH63R_05415'] | GPR became EMPTY
+rxn09585_c0	mannose-inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific_c0	YBR036C or YPL057C or YBR161W		unmapped CH63R dropped: ['CH63R_05415'] | GPR became EMPTY
+rxn09584_c0	mannose-inositol phosphorylceramide synthase (ceramide-2, 26C), yeast-specific_c0	YBR036C or YPL057C or YBR161W		unmapped CH63R dropped: ['CH63R_05415'] | GPR became EMPTY
+rxn09583_c0	mannose-inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific_c0	YBR036C or YPL057C or YBR161W		unmapped CH63R dropped: ['CH63R_05415'] | GPR became EMPTY
+rxn09582_c0	mannose-inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific_c0	YBR036C or YPL057C or YBR161W		unmapped CH63R dropped: ['CH63R_05415'] | GPR became EMPTY
+rxn00744_c0	ATP:glycerone phosphotransferase_c0	YML070W or YFL053W	gene_699 or gene_2665	weak BLAST matches used: ['CH63R_06617']
+rxn09510_c0	Dolichyl-phosphate D-mannosyltransferase_g0	YPR183W		unmapped CH63R dropped: ['CH63R_11412'] | GPR became EMPTY
+rxn13381_e0	phospholipase B (phosphatidylinositol), yeast-specific (extracellular)	NP_014632.1 and NP_013721.1 and NP_013719.1	gene_7096 or gene_6735	weak BLAST matches used: ['CH63R_04835']
+ORNt3m_c0	Ornithine mitochondrial transport via proton antiport	YOR130C		GPR became EMPTY
+rxn08475_c0	iron (II) transport via diffusion (extracellular to periplasm)_c0	YMR319C		GPR became EMPTY
+rxn00024_c0	1,2-Benzenediol:oxygen oxidoreductase	CH63R_00879 or CH63R_00885 or CH63R_01093 or CH63R_01806 or CH63R_03193 or CH63R_03403 or CH63R_05148 or CH63R_05546 or CH63R_05602 or CH63R_07020 or CH63R_07299 or CH63R_07609 or CH63R_12386 or CH63R_13047 or CH63R_13626 or CH63R_13766 or CH63R_14094 or CH63R_14356 or CH63R_14563	gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn00036_c0	3,4-dihydroxy-L-phenylalanine:oxygen oxidoreductase	CH63R_00879 or CH63R_00885 or CH63R_01093 or CH63R_01806 or CH63R_03193 or CH63R_03403 or CH63R_05148 or CH63R_05546 or CH63R_05602 or CH63R_07020 or CH63R_07299 or CH63R_07609 or CH63R_12386 or CH63R_13047 or CH63R_13626 or CH63R_13766 or CH63R_14094 or CH63R_14356 or CH63R_14563	gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn11972_c0	R02962	SPONT		GPR became EMPTY
+rxn02609_c0	R03672	SPONT		GPR became EMPTY
+rxn02611_c0	R03674	SPONT		GPR became EMPTY
+rxn03337_c0	5,6-dihydroxyindole:oxygen oxidoreductase	CH63R_00879 or CH63R_00885 or CH63R_01093 or CH63R_01806 or CH63R_03193 or CH63R_03403 or CH63R_05148 or CH63R_05546 or CH63R_05602 or CH63R_07020 or CH63R_07299 or CH63R_07609 or CH63R_12386 or CH63R_13047 or CH63R_13626 or CH63R_13766 or CH63R_14094 or CH63R_14356 or CH63R_14563	gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	unmapped CH63R dropped: ['CH63R_14563'] | weak BLAST matches used: ['CH63R_05546', 'CH63R_12386', 'CH63R_13047']
+rxn06809_c0	rxn06809	SPONT		GPR became EMPTY

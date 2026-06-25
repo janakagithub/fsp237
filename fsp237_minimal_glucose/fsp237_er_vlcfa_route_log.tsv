@@ -1,0 +1,9 @@
+action	rxn_id	detail
+add_transport	TRP_coa_c0r0	cpd00010_c0 ⇌ cpd00010_r0
+add_transport	TRP_co2_c0r0	cpd00011_c0 ⇌ cpd00011_r0
+add_transport	TRP_nadph_c0r0	cpd00005_c0 ⇌ cpd00005_r0
+add_transport	TRP_nadp_c0r0	cpd00006_c0 ⇌ cpd00006_r0
+add_transport	TRP_pi_c0r0	cpd00009_c0 ⇌ cpd00009_r0
+remove_bypass	rxn09424_c0	6 cpd00005_c0 + 9 cpd00067_c0 + 3 cpd00070_c0 + cpd01080_c0 --> 3 cpd00001_c0 + 6 cpd00006_c0 + 3 cpd00010_c0 + 3 cpd00011_c0 + cpd05235_c0
+remove_bypass	frxn09423_c0	2 cpd00005_c0 + 2 cpd00067_c0 + cpd00070_c0 + cpd29705_c0 --> cpd00001_c0 + 2 cpd00006_c0 + cpd00010_c0 + cpd00011_c0 + cpd15241_c0
+remove_bypass	frxn09424_c0	6 cpd00005_c0 + 14 cpd00067_c0 + 3 cpd00070_c0 + cpd00327_c0 --> 3 cpd00001_c0 + 6 cpd00006_c0 + 3 cpd00010_c0 + 3 cpd00011_c0 + cpd29705_c0

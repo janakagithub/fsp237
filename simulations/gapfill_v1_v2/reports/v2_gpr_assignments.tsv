@@ -1,0 +1,30 @@
+rxn_id	decision	gpr_assigned	confidence	source_locus_tag	source_product	source_strain	pident	qcovs	evalue	bitscore	reason
+rxn02679_x0	assign	gene_8837	high	CH63R_01722	putative Epoxide hydrolase	C. higginsianum	64.048	98.0	1.49e-163	458.0	high-confidence BLAST hit; assigned as GPR
+rxn03251_x0	assign	gene_8837	high	CH63R_01722	putative Epoxide hydrolase	C. higginsianum	64.048	98.0	1.49e-163	458.0	high-confidence BLAST hit; assigned as GPR
+rxn00868_x0	assign	gene_11751	high	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase	C. higginsianum	81.229	91.0	9.89e-166	472.0	high-confidence BLAST hit; assigned as GPR
+rxn03247_x0	assign	gene_2621	high	CH63R_01420	enoyl-CoA hydratase/isomerase	C. higginsianum	94.444	100.0	0.0	653.0	high-confidence BLAST hit; assigned as GPR
+rxn03250_x0	assign	gene_2953	high	CH63R_01659	Peroxisomal multifunctional enzyme	C. higginsianum	83.03	100.0	6.8e-101	292.0	high-confidence BLAST hit; assigned as GPR
+rxn02167_x0	assign	gene_2621	high	CH63R_01420	enoyl-CoA hydratase/isomerase	C. higginsianum	94.444	100.0	0.0	653.0	high-confidence BLAST hit; assigned as GPR
+rxn03246_x0	assign	gene_11751	high	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase	C. higginsianum	81.229	91.0	9.89e-166	472.0	high-confidence BLAST hit; assigned as GPR
+rxn03249_x0	assign	gene_11751	high	CH63R_00006	3-hydroxyacyl-CoA dehydrogenase	C. higginsianum	81.229	91.0	9.89e-166	472.0	high-confidence BLAST hit; assigned as GPR
+rxn03861_x0	assign	gene_11942	high	CH63R_07000	Aldo-keto reductase	C. higginsianum	81.006	99.0	0.0	623.0	high-confidence BLAST hit; assigned as GPR
+rxn02804_x0	assign	gene_4118	high	CH63R_00856	Diacylglycerol acyltransferase	C. higginsianum	85.714	100.0	0.0	909.0	high-confidence BLAST hit; assigned as GPR
+rxn06510_x0	assign	gene_4118	high	CH63R_00856	Diacylglycerol acyltransferase	C. higginsianum	85.714	100.0	0.0	909.0	high-confidence BLAST hit; assigned as GPR
+rxn03243_x0	assign	gene_4118	high	CH63R_00856	Diacylglycerol acyltransferase	C. higginsianum	85.714	100.0	0.0	909.0	high-confidence BLAST hit; assigned as GPR
+rxn02680_x0	assign	gene_4118	high	CH63R_00856	Diacylglycerol acyltransferase	C. higginsianum	85.714	100.0	0.0	909.0	high-confidence BLAST hit; assigned as GPR
+rxn03248_x0	assign	gene_4118	high	CH63R_00856	Diacylglycerol acyltransferase	C. higginsianum	85.714	100.0	0.0	909.0	high-confidence BLAST hit; assigned as GPR
+rxn00874_x0	assign	gene_4118	high	CH63R_00856	Diacylglycerol acyltransferase	C. higginsianum	85.714	100.0	0.0	909.0	high-confidence BLAST hit; assigned as GPR
+rxn00178_x0	assign	gene_9875	high	CH63R_05764	Acetyl-CoA acetyltransferase	C. higginsianum	96.75	100.0	0.0	785.0	high-confidence BLAST hit; assigned as GPR
+tx_atp_xc	skip-shuttle		high	CH63R_02570	Peroxisomal adenine nucleotide transporter 1	C. higginsianum	83.288	100.0	0.0	557.0	Generic transporter keywords -- BLAST hit may not be the correct peroxisomal carrier. Left unassigned for manual review.
+tx_ppi_xc	skip-shuttle		high	CH63R_00729	Inorganic pyrophosphatase	C. higginsianum	93.563	100.0	0.0	796.0	Generic transporter keywords -- BLAST hit may not be the correct peroxisomal carrier. Left unassigned for manual review.
+tx_coa_xc	skip-shuttle		high	CH63R_00195	MFS drug efflux	C. higginsianum	88.319	98.0	0.0	986.0	Generic transporter keywords -- BLAST hit may not be the correct peroxisomal carrier. Left unassigned for manual review.
+tx_nad_xc	skip-shuttle		high	CH63R_01375	Mitochondrial carrier protein	C. higginsianum	96.405	100.0	0.0	606.0	Generic transporter keywords -- BLAST hit may not be the correct peroxisomal carrier. Left unassigned for manual review.
+tx_nadh_xc	skip-shuttle		high	CH63R_01375	Mitochondrial carrier protein	C. higginsianum	96.405	100.0	0.0	606.0	Generic transporter keywords -- BLAST hit may not be the correct peroxisomal carrier. Left unassigned for manual review.
+tx_h_xc	skip-shuttle		high	CH63R_05128	H+ symporter family protein	C. higginsianum	90.0	100.0	0.0	938.0	Generic transporter keywords -- BLAST hit may not be the correct peroxisomal carrier. Left unassigned for manual review.
+rxn01391_c0	assign	gene_8784	medium	CH63R_06964	L-arabinitol 4-dehydrogenase	C. higginsianum	48.098	99.0	8.79e-116	340.0	high-confidence BLAST hit; assigned as GPR
+rxn33066_c0	skip-no-match		none			C. higginsianum					No confident BLAST hit; leave GPR empty for manual review
+rxn05673_c0	assign	gene_5858	medium	CH63R_12108	MFS sugar transporter	C. higginsianum	45.56	91.0	2.65e-170	493.0	high-confidence BLAST hit; assigned as GPR
+rxn07491_c0	skip-no-match		none			C. higginsianum					No confident BLAST hit; leave GPR empty for manual review
+rxn21749_c0	skip-no-match		none			C. higginsianum					No confident BLAST hit; leave GPR empty for manual review
+rxn21750_c0	skip-no-match		none			C. higginsianum					No confident BLAST hit; leave GPR empty for manual review
+rxn09954_c0	assign	gene_11942	high	CH63R_07000	Aldo-keto reductase	C. higginsianum	81.006	99.0	0.0	623.0	high-confidence BLAST hit; assigned as GPR

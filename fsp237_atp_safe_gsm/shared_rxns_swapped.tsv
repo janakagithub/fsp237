@@ -1,0 +1,2 @@
+rxn_id	name	compartment	bounds	equation_cpd	gpr	subsystem	why
+HACNHm_m0	Homoacontinate hydratase  mitochondrial	m0	(-999999.0, 999999.0)	cpd00001_m0 + cpd28715_m0 <=> hicit-m_m0	gene_1085		shared rxn: GSM version replaces CMM for biomass

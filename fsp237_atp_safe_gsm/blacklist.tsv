@@ -1,0 +1,7 @@
+rxn_id	name	compartment	bounds	equation_cpd	gpr	subsystem	why
+rxn08096_c0	alpha-ketoglutarate transport via diffusion (extracellular to periplasm)_x0	c0	(-999999.0, 999999.0)	cpd00024_c0 <=> cpd00024_x0			blacklisted: would push ATP yield > 30 (introduced futile cycle)
+rxn00903_m0	L-Valine:2-oxoglutarate aminotransferase_m0	m0	(-1000.0, 1000.0)	cpd00024_m0 + cpd00156_m0 <=> cpd00023_m0 + cpd00123_m0	gene_622		blacklisted: would push ATP yield > 30 (introduced futile cycle)
+EX_cpd00159_e0	Exchange for L-Lactate_e0	e0	(0.0, 1000.0)	cpd00159_e0 --> 			blacklisted: would push ATP yield > 30 (introduced futile cycle)
+rxn08016_c0	palmitate-[acyl-carrier-protein] ligase	c0	(-1000.0, 1000.0)	cpd00002_c0 + cpd00214_c0 + cpd11493_c0 <=> cpd00012_c0 + cpd00018_c0 + 2.0 cpd00067_c0 + cpd15277_c0			blacklisted: would push ATP yield > 30 (introduced futile cycle)
+rxn34741_c0	long-chain-fatty-acid-[acyl-carrier-protein] ligase (14:0)	c0	(-1000.0, 1000.0)	cpd00002_c0 + cpd03847_c0 + cpd11493_c0 <=> cpd00012_c0 + cpd00018_c0 + cpd00067_c0 + cpd27551_c0			blacklisted: would push ATP yield > 30 (introduced futile cycle)
+rxn34744_c0	long-chain-fatty-acid-[acyl-carrier-protein] ligase (18:1(11Z))	c0	(-1000.0, 1000.0)	cpd00002_c0 + cpd11493_c0 + cpd15269_c0 <=> cpd00012_c0 + cpd00018_c0 + 2.0 cpd00067_c0 + cpd29680_c0			blacklisted: would push ATP yield > 30 (introduced futile cycle)

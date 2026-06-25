@@ -1,0 +1,105 @@
+op	rxn_id	detail
+drop_compartment	rxn09507_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	GLCtv_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn00236_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	PSERDv_SC_v0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09820_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05580_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13411_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn30392_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	PIN4Kn_SC_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13345_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08170_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13229_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05273_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	GLNt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09678_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09705_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	TREt2v_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	LEUt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn30431_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09818_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08375_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn01517_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09508_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	CO2tn_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	H2Otn_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn00138_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn00119_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09819_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	PEtv_SC_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	TYRt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	CO2tg_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05305_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08685_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09824_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09361_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09822_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09809_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	COAtn_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05493_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13403_v0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn02460_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09509_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	NH4tn_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09506_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13321_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	ASPt2n_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09296_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	ASPt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	GLUt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08134_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05231_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08154_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn00007_v0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13361_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13314_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn04040_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09823_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	LCYSTintv_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	CO2tv_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	PIt2n_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn10826_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08600_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13344_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	ILEt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13301_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	PIt2v_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09528_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13297_v0	g0/n0/v0 reaction unused in panel
+drop_compartment	PStg_SC_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	PEtg_SC_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05233_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn30391_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13213_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09349_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn30430_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	PStv_SC_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	ASNt7_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	PTD1INOtn_SC_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn09528_v0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn04041_n0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn13339_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	H2Otv_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08676_v0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn08925_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05297_c0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn05916_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn06709_g0	g0/n0/v0 reaction unused in panel
+drop_compartment	rxn06712_g0	g0/n0/v0 reaction unused in panel
+fix_orphan_cpd	rxn09480_x0	cpd15297_x0 (empty) -> cpd29705_x0 (canonical C24-CoA)
+fix_orphan_cpd	rxn09463_x0	cpd15297_x0 (empty) -> cpd29705_x0 (canonical C24-CoA)
+drop_orphan_met	cpd15297_x0	no remaining producers/consumers after fix
+add_rxn	HXCAt	Hexacosanoate transport via facilitated diffusion (e0 -> c0); EC 
+add_rxn	vlcfa_oxC24_x0	C24 acyl-CoA dehydrogenase (FAD); EC 1.3.3.6
+add_rxn	vlcfa_hyC24_x0	C24 enoyl-CoA hydratase; EC 4.2.1.17
+add_rxn	vlcfa_dhC24_x0	C24 3-OH-acyl-CoA dehydrogenase (NAD); EC 1.1.1.35
+add_rxn	vlcfa_thC24_x0	3-ketoacyl-CoA thiolase (C24->C22); EC 2.3.1.16
+add_rxn	vlcfa_oxC22_x0	C22 acyl-CoA dehydrogenase (FAD); EC 1.3.3.6
+add_rxn	vlcfa_hyC22_x0	C22 enoyl-CoA hydratase; EC 4.2.1.17
+add_rxn	vlcfa_dhC22_x0	C22 3-OH-acyl-CoA dehydrogenase (NAD); EC 1.1.1.35
+add_rxn	vlcfa_thC22_x0	3-ketoacyl-CoA thiolase (C22->C20); EC 2.3.1.16
+add_rxn	vlcfa_oxC20_x0	C20 acyl-CoA dehydrogenase (FAD); EC 1.3.3.6
+add_rxn	vlcfa_hyC20_x0	C20 enoyl-CoA hydratase; EC 4.2.1.17
+add_rxn	vlcfa_dhC20_x0	C20 3-OH-acyl-CoA dehydrogenase (NAD); EC 1.1.1.35
+add_rxn	vlcfa_thC20_x0	3-ketoacyl-CoA thiolase (C20->C18); EC 2.3.1.16

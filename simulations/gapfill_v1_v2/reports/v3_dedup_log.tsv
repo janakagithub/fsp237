@@ -1,0 +1,34 @@
+group_size	kept	dropped	kept_name	kept_gpr_before	kept_gpr_after	gpr_changed	bounds_changed	kept_bounds	reason
+2	rxn09882_c0	rxn09882_m0	RXN-5581.c.metaexp.NADP_c0	gene_12607 or gene_3583 or gene_3513 or gene_5820 or gene_7676 or gene_10727	gene_12607 or gene_3583 or gene_3513 or gene_5820 or gene_7676 or gene_10727	False	False	-1000.0,1000.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	O2tm_c0	O2tm_m0	TRANS-RXNAVI-26568.ce_m0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	CO2tm_c0	CO2tm_m0	CO2 transporter via diffusion_m0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn08063_c0	rxn08063_m0	Acetate transport via diffusion (extracellular to periplasm)_m0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn05217_c0	rxn05217_m0	TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE_m0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00543_c0	ALCD2ir_c0	ethanol:NAD+ oxidoreductase_c0	gene_12293 or gene_10982 or gene_4949 or gene_7652 or gene_11353 or gene_11790 or gene_3527 or gene_12544 or gene_12913 or gene_12777 or gene_8037 or gene_10551 or gene_1509 or gene_8488 or gene_2673 or gene_12477 or gene_4125 or gene_3264	gene_12293 or gene_10982 or gene_4949 or gene_7652 or gene_11353 or gene_11790 or gene_3527 or gene_12544 or gene_12913 or gene_12777 or gene_8037 or gene_10551 or gene_1509 or gene_8488 or gene_2673 or gene_12477 or gene_4125 or gene_3264	False	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn08633_c0	rxn08633_m0	L-glutamate transport via diffusion (extracellular to periplasm)_m0	gene_6768	gene_6768 or gene_10093	True	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn08643_c0	rxn08643_m0	Glycerol-3-phosphate transport via diffusion (extracellular to periplasm)_m0			False	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn09730_c0	rxn09730_m0	Mitochondrial 2-oxodicarboxylate carrier 1_m0	gene_1165	gene_1165 or gene_7017	True	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn09771_c0	rxn09771_m0	Transport of glycerone phosphate, mitochondrial_m0			False	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	CO2tn_c0	CO2tn_g0	CO2 transporter via diffusion_g0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn09525_c0	rxn09525_m0	formate  dehydrogenase, cytosolic/mitochondrial_m0			False	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn09765_c0	rxn09765_m0	D-erythrose 4-phosphate mtiochondrial transport via diffusion_m0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn13247_c0	rxn13247_m0	D-lactate/pyruvate antiport, mitochondrial_m0			False	False	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00102_c0	rxn30392_c0	carbonate hydro-lyase (carbon-dioxide-forming)[c0]	gene_10957 or gene_1132 or gene_9399 or gene_935	gene_10957 or gene_1132 or gene_9399 or gene_935	False	True	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00102_m0	rxn30392_m0	carbonate hydro-lyase (carbon-dioxide-forming)[m0]	gene_9399 or gene_1132 or gene_10957	gene_9399 or gene_1132 or gene_10957	False	True	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00003_m0	rxn33164_m0	pyruvate:pyruvate acetaldehydetransferase (decarboxylating)_m0	gene_11737 or gene_7035 or gene_6894 or gene_7460	gene_11737 or gene_7035 or gene_6894 or gene_7460	False	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+3	rxn09524_c0	frxn08975_c0;rxn09524_m0	NADH dehydrogenase, cytosolic/mitochondrial_m0	gene_2864	gene_2864 or gene_10074 or gene_10177 or gene_9661	True	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn02680_x0	rxn19988_x0	Octanoyl-CoA:acetyl-CoA C-acyltransferase (C10->C8)_x0		gene_1935 or gene_5400	True	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn39072_r0	CERS224er_r0		gene_9741 or gene_6240	gene_9741 or gene_6240 or gene_9020	True	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	FE2utm_c0	FEtm_c0	iron (II) transport via diffusion (extracellular to periplasm)_m0			False	False	0.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00527_c0	rxn30444_c0	tyrosine transaminase, irreversible (mitochondrial)	gene_12910 or gene_8831 or gene_11623 or gene_11255	gene_12910 or gene_8831 or gene_11623 or gene_11255	False	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn02804_x0	rxn19979_x0	 myristoyl-CoA:acetylCoA C-myristoyltransferase	gene_5400 or gene_1935	gene_5400 or gene_1935 or gene_434 or gene_9875 or gene_4395	True	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00527_x0	rxn30444_x0	tyrosine transaminase, irreversible (mitochondrial)	gene_12910 or gene_8831 or gene_11623 or gene_11255	gene_12910 or gene_8831 or gene_11623 or gene_11255	False	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn03243_x0	rxn19982_x0	Decanoyl-CoA:acetyl-CoA C-acyltransferase (C12->C10)_x0		gene_1935 or gene_5400	True	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn01816_c0	rxn32907_c0	rxn01816 [R02508]	gene_9039 or gene_6399	gene_9039 or gene_6399	False	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn06510_x0	rxn19986_x0	Lauroyl-CoA:acetyl-CoA C-acyltransferase (C14->C12)_x0		gene_1935 or gene_5400	True	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00692_c0	rxn19870_c0	 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase	gene_6981	gene_6981	False	True	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn00692_m0	rxn19870_m0	 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase	gene_5492	gene_5492	False	True	-999999.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	rxn02465_m0	rxn30339_m0	N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)		gene_853	True	True	-1000.0,999999.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	EXP_c20coa_r0c0	TRP_icscoa_c0r0	Icosanoyl-CoA (C20) export r0→c0			False	False	-1000.0,1000.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	EXP_c22coa_r0c0	TRP_behcoa_c0r0	Behenoyl-CoA (C22) export r0→c0			False	False	-1000.0,1000.0	ModelSEED-precedence + lowest-numeric-suffix dedup
+2	EXP_c24coa_r0c0	TRP_c24coa_c0r0	Tetracosanoyl-CoA (C24) export r0→c0			False	False	-1000.0,1000.0	ModelSEED-precedence + lowest-numeric-suffix dedup

@@ -1,0 +1,4 @@
+rxn_id	compartment	equation_cpd_ids	equation_names	reaction_name	source	log_action
+rxn08475_c0	c0	cpd10515_e0 --> cpd10515_c0	Fe2+_e0 --> Fe2+_c0	iron (II) transport via diffusion (extracellular to periplasm)_c0	imm904_essential_kept	kept_essential
+rxn00881_c0	c0	cpd00001_c0 + cpd00867_c0 --> cpd00009_c0 + cpd00121_c0	H2O_c0 + Inositol 1-phosphate_c0 --> Phosphate_c0 + L-Inositol_c0	1D-myo-Inositol 1-phosphate phosphohydrolase_c0	imm904_essential_kept	kept_essential
+ORNt3m_c0	c0	cpd00067_c0 + cpd19016_m0 <=> cpd00067_m0 + cpd19016_c0	H+_c0 + Ornithine_m0 <=> H+_m0 + Ornithine_c0	Ornithine mitochondrial transport via proton antiport	imm904_essential_kept	kept_essential

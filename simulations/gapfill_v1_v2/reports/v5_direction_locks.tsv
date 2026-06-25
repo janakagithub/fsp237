@@ -1,0 +1,41 @@
+rxn_id	status	old_bounds	new_bounds	direction_locked	note
+rxn09474_x0	already	(0.0, 999999.0)	(0.0, 999999.0)	forward	C26 oxidase: acyl-CoA + O2 -> enoyl-CoA + H2O2
+rxn09475_x0	already	(0.0, 999999.0)	(0.0, 999999.0)	forward	C18 oxidase
+rxn08053_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C18 FAD-DH: acyl-CoA + FAD -> enoyl-CoA + FADH2
+rxn09476_x0	already	(0.0, 999999.0)	(0.0, 999999.0)	forward	C16 oxidase
+rxn09477_x0	already	(0.0, 999999.0)	(0.0, 999999.0)	forward	C14 oxidase
+rxn09478_x0	already	(0.0, 999999.0)	(0.0, 999999.0)	forward	C12 oxidase
+rxn02720_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C12 FAD-DH
+rxn09479_x0	already	(0.0, 999999.0)	(0.0, 999999.0)	forward	C10 oxidase
+rxn02679_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C8 FAD-DH (V1 added)
+rxn03251_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C6 FAD-DH (V1 added)
+rxn00868_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C4 NAD-DH (V1 added): butyryl-CoA -> crotonyl-CoA
+rxn09473_x0	locked	(-999999.0, 999999.0)	(0.0, 999999.0)	forward	C26 hydratase: H2O + enoyl <-> 3-OH; written this way -> degradation FORWARD
+rxn08413_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C18 hydratase: written as 3-OH -> H2O + enoyl, degradation reverse
+rxn03240_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C16 hydratase
+rxn03241_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C14 hydratase
+rxn02911_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C12 hydratase
+rxn03245_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C10 hydratase
+rxn03247_x0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	C8 hydratase (V1 added)
+rxn03250_x0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	C6 hydratase (V1 added)
+rxn02167_x0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	C4 hydratase (V1 added)
+rxn09461_x0	locked	(-999999.0, 999999.0)	(0.0, 999999.0)	forward	C26 3-OH-DH: NAD + 3-OH <-> NADH + H+ + 3-oxo; degradation forward
+rxn20476_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C18 3-OH-DH: NADH + H+ + 3-oxo <-> NAD + 3-OH; degradation reverse
+rxn20474_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C16 3-OH-DH
+rxn30390_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C14 3-OH-DH
+rxn20478_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C12 3-OH-DH
+rxn20480_x0	locked	(-999999.0, 999999.0)	(-999999.0, 0.0)	reverse	C10 3-OH-DH
+rxn03246_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C8 3-OH-DH (V1 added): NAD + 3-OH <-> NADH + H+ + 3-oxo; forward
+rxn03249_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C6 3-OH-DH (V1 added): forward
+rxn03861_x0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	C4 acetoacetyl-CoA reductase (V1 added, NADP)
+rxn02804_x0	locked	(-1000.0, 999999.0)	(-1000.0, 0.0)	reverse	C16->C14 thiolase: AcCoA + C14 <-> CoA + 3-oxoC16; degradation reverse
+rxn06510_x0	locked	(-1000.0, 999999.0)	(-1000.0, 0.0)	reverse	C14->C12 thiolase
+rxn03243_x0	locked	(-1000.0, 999999.0)	(-1000.0, 0.0)	reverse	C12->C10 thiolase
+rxn02680_x0	locked	(-1000.0, 999999.0)	(-1000.0, 0.0)	reverse	C10->C8 thiolase
+rxn03248_x0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	C8->C6 thiolase
+rxn00874_x0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	C6->C4 thiolase
+rxn00178_x0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	C4 terminal thiolase: 2 AcCoA <-> CoA + acetoacetyl-CoA; degradation reverse
+rxn05673_c0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	galU/H+ symport: H+_e0 + galU_e0 <-> H+_c0 + galU_c0; only import
+rxn07491_c0	locked	(-1000.0, 1000.0)	(-1000.0, 0.0)	reverse	GAR1: NADP + L-galactonate <-> NADPH + H+ + galU; degradation reverse (galU + NADPH -> L-galactonate)
+rxn21750_c0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	LGA1: KDG <-> pyruvate + L-glyceraldehyde; degradation forward (cleavage)
+rxn09954_c0	locked	(-1000.0, 1000.0)	(0.0, 1000.0)	forward	GLD1: NADPH + H+ + L-glyceraldehyde <-> NADP + glycerol; degradation forward (reduce)

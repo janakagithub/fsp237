@@ -1,0 +1,28 @@
+ch63r_id	best_hit_overall	best_hit_pident	best_hit_qcovs	best_hit_evalue	best_hit_bitscore	best_hit_is_gene	best_hit_is_mstrg	mapped_gene	mapped_pident	mapped_qcovs	mapped_evalue	mapped_bitscore	mstrg_hit	mstrg_pident	mstrg_bitscore	mstrg_better_than_gene	flag
+CH63R_00879	gene_744	75.912	100	0.0	647.0	True	False	gene_744	75.912	100.0	0.0	647.0				False	
+CH63R_00885	gene_7359	82.398	99	0.0	691.0	True	False	gene_7359	82.398	99.0	0.0	691.0				False	
+CH63R_00965	gene_542	94.531	100	0.0	2416.0	True	False	gene_542	94.531	100.0	0.0	2416.0	S1_only_classu|MSTRG.13076.1.p1	48.0	476.0	False	
+CH63R_01093	gene_9611	78.864	99	0.0	1042.0	True	False	gene_9611	78.864	99.0	0.0	1042.0				False	
+CH63R_01806	gene_12715	78.788	100	0.0	563.0	True	False	gene_12715	78.788	100.0	0.0	563.0				False	
+CH63R_01844	gene_1689	92.535	98	0.0	1238.0	True	False	gene_1689	92.535	98.0	0.0	1238.0	S1_only_classu|MSTRG.13076.1.p1	23.897	129.0	False	
+CH63R_03193	gene_6198	86.508	75	0.0	676.0	True	False	gene_6198	86.508	75.0	0.0	676.0				False	
+CH63R_03403	gene_744	61.65	100	0.0	540.0	True	False	gene_744	61.65	100.0	0.0	540.0				False	
+CH63R_04541	gene_2238	90.865	99	0.0	1535.0	True	False	gene_2238	90.865	99.0	0.0	1535.0	S1_only_classu|MSTRG.13076.1.p1	21.972	68.9	False	
+CH63R_05148	gene_7087	76.601	99	0.0	653.0	True	False	gene_7087	76.601	99.0	0.0	653.0				False	
+CH63R_05546	gene_2759	37.061	92	1.34e-59	195.0	True	False	gene_2759	37.061	92.0	1.34e-59	195.0				False	WEAK_MATCH (pident < 50%)
+CH63R_05602	gene_6887	77.582	100	0.0	650.0	True	False	gene_6887	77.582	100.0	0.0	650.0				False	
+CH63R_05805	gene_5274	94.643	100	0.0	986.0	True	False	gene_5274	94.643	100.0	0.0	986.0				False	
+CH63R_06927	gene_2958	81.612	100	0.0	658.0	True	False	gene_2958	81.612	100.0	0.0	658.0	S1_only_classu|MSTRG.12028.1.p3	34.694	50.1	False	
+CH63R_07020	gene_2487	80.946	100	0.0	1304.0	True	False	gene_2487	80.946	100.0	0.0	1304.0				False	
+CH63R_07299	gene_6642	60.744	77	9.29e-112	326.0	True	False	gene_6642	60.744	77.0	9.29e-112	326.0				False	
+CH63R_07609	gene_6198	55.145	93	2.9e-150	433.0	True	False	gene_6198	55.145	93.0	2.9e-150	433.0				False	
+CH63R_07729	S1_only_classu|MSTRG.13076.1.p1	93.165	100	0.0	3439.0	False	True	gene_7871	93.165	100.0	0.0	3439.0	S1_only_classu|MSTRG.13076.1.p1	93.165	3439.0	False	
+CH63R_08598	gene_1406	86.288	99	0.0	742.0	True	False	gene_1406	86.288	99.0	0.0	742.0	S1_only_classu|MSTRG.6680.1.p1	30.496	58.9	False	
+CH63R_08879	gene_12527	95.681	98	0.0	1805.0	True	False	gene_12527	95.681	98.0	0.0	1805.0	S1_only_classu|MSTRG.5768.2.p1	38.806	611.0	False	
+CH63R_12386	gene_1985	31.268	90	5.02e-48	166.0	True	False	gene_1985	31.268	90.0	5.02e-48	166.0				False	WEAK_MATCH (pident < 50%)
+CH63R_13047	gene_2759	41.254	95	4.71e-78	241.0	True	False	gene_2759	41.254	95.0	4.71e-78	241.0				False	WEAK_MATCH (pident < 50%)
+CH63R_13626	gene_4687	75.379	99	0.0	830.0	True	False	gene_4687	75.379	99.0	0.0	830.0				False	
+CH63R_13766	gene_4355	73.282	100	0.0	599.0	True	False	gene_4355	73.282	100.0	0.0	599.0				False	
+CH63R_14094	gene_2006	65.217	99	0.0	726.0	True	False	gene_2006	65.217	99.0	0.0	726.0				False	
+CH63R_14356	gene_3783	57.994	80	1.34e-109	339.0	True	False	gene_3783	57.994	80.0	1.34e-109	339.0				False	
+CH63R_14563	gene_9611	21.359	56	2.88e-13	72.4	True	False									False	NO_GENE_HIT_PASSES_THRESHOLDS

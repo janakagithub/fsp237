@@ -1,0 +1,41 @@
+condition_id	pmid	short_citation	key_finding
+01_trehalose	11006342	Thines et al. 2000 Plant Cell 12:1703	Conidial glycogen + lipid mobilization is required for appressorial turgor; trehalose is a major spore carbon reserve mobilized during germination
+01_trehalose	12892639	Foster et al. 2003 EMBO J 22:225	Trehalose-6-phosphate synthase TPS1 controls glucose-6-P partitioning + virulence in M. oryzae; trehalose reserves linked to pathogenicity
+02_glycerol	1990063	Howard et al. 1991 PNAS 88:11281	Appressorial turgor in M. grisea is driven by glycerol accumulation to ~8 MPa -- foundational glycerol-as-osmolyte paper
+02_glycerol	9384371	de Jong et al. 1997 Nature 389:244	Glycerol-driven turgor measured in Colletotrichum graminicola appressoria; cuticle penetration mechanics
+03_palmitate	17506327	Wang et al. 2007 MPMI 20:475	Peroxisomal MFP1 knockout abolishes virulence in M. grisea; β-oxidation of long-chain FAs (palmitate-type) required for appressorial infection
+03_palmitate	19363139	Asakura et al. 2009 Plant Cell 21:1291	Pexophagy / peroxisomal function required for C. orbiculare appressorial penetration -- direct Colletotrichum evidence
+04_oleate	17506327	Wang et al. 2007 MPMI 20:475	Peroxisomal β-ox required for appressorial virulence; oleate is dominant TAG-fatty-acid in fungal lipid bodies
+04_oleate	19363139	Asakura et al. 2009 Plant Cell 21:1291	Pexophagy of lipid-body-mobilizing peroxisomes after their oleate-degradation role; direct Colletotrichum mechanism
+04_oleate	11006342	Thines et al. 2000 Plant Cell 12:1703	Lipid-body TAG (oleate-rich) mobilization during appressorial development; PKA + MAP kinase regulated
+05_hexacosanoate	22885923	O'Connell et al. 2012 Nat Genet 44:1060	Cgr/Chig in planta transcriptome shows cutinase + acyl-CoA oxidase up-regulation at appressorial / penetration stage; cuticle wax (VLCFA) degradation evidence
+05_hexacosanoate	-	Atkin & Hamilton 1982 J Nat Prod 45:697	Sorghum bicolor leaf cuticular waxes are dominated by C25-C31 alkanes, C26-C30 primary alcohols, and C24-C28 free fatty acids -- the VLCFA substrate pool Cs encounters on the leaf surface
+06_glucose_low	20336138	Chen et al. 2010 Nature 468:527	Plant SWEET sugar transporters hijacked by pathogens (Xanthomonas TAL effectors) to release apoplastic glucose -- low-glucose biotrophic apoplast paradigm
+06_glucose_low	21255168	Sutton et al. 1999 Plant Cell 11:2169	Apoplastic sugar pool composition + concentrations during plant-fungal interactions
+07_sucrose_low	29360166	Bezrutczyk et al. 2018 New Phytol 218:594	Plant SWEET11/12/15 sucrose transporters in apoplastic delivery; sucrose is the dominant phloem-loaded sugar accessible to biotrophs
+07_sucrose_low	7787071	Patrick 1997 Annu Rev Plant Physiol 48:191	Sucrose unloading + apoplastic sucrose pool composition (review of plant sucrose-loading biology)
+08_glutamate	11975718	Solomon & Oliver 2001 Planta 213:241	Apoplastic AA composition in tomato leaves: Glu + Gln dominant (>50% of total free AAs); fungus accesses these for C+N
+08_glutamate	19061407	Bolton 2009 MPMI 22:487	Apoplastic AAs as biotroph carbon + nitrogen sources; Glu/Gln roles in fungal pathogen nutrition (review)
+09_glutamine	11975718	Solomon & Oliver 2001 Planta 213:241	Same as Glu reference -- Gln is the most abundant apoplastic AA in many crop plants; major N transport AA
+09_glutamine	19061407	Bolton 2009 MPMI 22:487	Glutamine deamidation by pathogen GLN1 feeds NH4+ assimilation + α-KG; biotroph carbon strategy
+10_gaba	19061407	Bolton 2009 MPMI 22:487	GABA is induced as a plant-defense AA upon pathogen attack; pathogens that use GABA shunt (α-KG → succinic semialdehyde → succinate) bypass the defense
+10_gaba	15234261	Bouché & Fromm 2004 Trends Plant Sci 9:110	GABA accumulation in plants under biotic stress; downstream catabolism in microbes
+10_gaba	11975718	Solomon & Oliver 2001 Planta 213:241	GABA detected in apoplast under pathogen challenge; supports biotroph use
+11_galacturonate	11489857	de Vries & Visser 2001 Microbiol Mol Biol Rev 65:497	Fungal pectinolytic systems + galU degradation (Ashwell pathway); A. niger reference for galU pathway
+11_galacturonate	17158885	Martens-Uzunova & Schaap 2008 FGB 45:1449	Aspergillus niger GaaA/B/C/D (the Ashwell pathway) -- gold-standard fungal galU degradation mapping
+11_galacturonate	28073340	Buiate et al. 2017 BMC Genomics 18:67	C. sublineola encodes extensive pectin-degrading CAZymes including polygalacturonases; pectin → galU is the upstream substrate
+12_xylose	11489857	de Vries & Visser 2001 Microbiol Mol Biol Rev 65:497	Fungal xylanolytic systems + xylose metabolism; cereal hemicellulose substrate
+12_xylose	16882998	Hahn-Hägerdal et al. 2007 Adv Biochem Eng Biotechnol 108:147	Fungal xylose-utilization pathway (XR/XDH/XK); biotechnological + biological review
+13_arabinose	17554541	Penttilä et al. 2007 Appl Environ Microbiol 73:7330	Fungal L-arabinose pathway in Trichoderma reesei: L-Ara → L-arabitol → L-xylulose → xylitol → D-xylulose-5P; the Penttilä pathway we implemented
+13_arabinose	24685090	Burton & Fincher 2014 Curr Opin Plant Biol 18:54	Grass (Poaceae) cell walls dominated by arabinoxylan; L-arabinose is the side-chain monomer Cs encounters on sorghum
+14_maltose	-	Goldman et al. 2011 Eukaryot Cell 10:1052	Fungal starch utilization via α-amylase + glucoamylase → maltose → glucose; standard saprotrophic carbon strategy
+14_maltose	22885923	O'Connell et al. 2012 Nat Genet 44:1060	Cgr/Chig amylase + glucanase genes up-regulated during necrotrophic phase as host starch becomes accessible
+15_mixed_aa	19061407	Bolton 2009 MPMI 22:487	Necrotrophic AA mobilization from host cytoplasm after cell lysis; broad AA pool available
+15_mixed_aa	12839354	Solomon et al. 2003 Mol Plant Pathol 4:203	Nutrient supply of pathogenic fungi (review) -- post-lysis cytoplasmic content as a major necrotroph C+N source
+16_pre_infection_mix	17506327	Wang et al. 2007 MPMI 20:475	Combined pre-infection substrates (trehalose + glycerol + oleate) reflect the spore-stage metabolic state; β-ox + glyoxylate cycle requirement
+16_pre_infection_mix	11006342	Thines et al. 2000 Plant Cell 12:1703	Spore-stored lipid + glycogen + soluble carbohydrate mobilization required during appressorium development
+17_biotrophic_mix	19061407	Bolton 2009 MPMI 22:487	Apoplastic carbon cocktail (sugars + AAs + organic acids) reflects biotroph nutritional environment during living-cell parasitism
+17_biotrophic_mix	22885923	O'Connell et al. 2012 Nat Genet 44:1060	Hemibiotrophic Colletotrichum transcriptome during biotrophic phase: low-level sugar + AA uptake transporter expression
+18_necrotrophic_mix	22885923	O'Connell et al. 2012 Nat Genet 44:1060	Necrotrophic transition: massive up-regulation of plant cell wall degrading enzymes; broad polymer breakdown products available
+18_necrotrophic_mix	12839354	Solomon et al. 2003 Mol Plant Pathol 4:203	Nutrient release upon host cell lysis: free sugars + AAs + cell-wall monomers all available simultaneously; the "rich phase" of hemibiotroph nutrition
+18_necrotrophic_mix	28073340	Buiate et al. 2017 BMC Genomics 18:67	C. sublineola CAZyme repertoire: pectinases, cellulases, xylanases all encoded -- the enzymatic basis for the necrotrophic substrate mix

@@ -1,0 +1,14 @@
+rxn_id	status	name	equation	ec	direction
+rxn09480_x0	already_present	3-ketoacyl-CoA thiolase (C26->C24)	cpd00010_x0 + cpd15207_x0 => cpd00022_x0 + cpd15297_x0	2.3.1.16	
+vlcfa_oxC24_x0	added	C24 acyl-CoA dehydrogenase (FAD)	cpd00015_x0 + cpd15297_x0 => cpd00982_x0 + cpd16840_x0	1.3.3.6	>
+vlcfa_hyC24_x0	added	C24 enoyl-CoA hydratase	cpd00001_x0 + cpd16840_x0 => cpd16774_x0	4.2.1.17	>
+vlcfa_dhC24_x0	added	C24 3-OH-acyl-CoA dehydrogenase (NAD)	cpd00003_x0 + cpd16774_x0 => cpd00004_x0 + cpd00067_x0 + cpd16786_x0	1.1.1.35	>
+vlcfa_thC24_x0	added	3-ketoacyl-CoA thiolase (C24->C22)	cpd00010_x0 + cpd16786_x0 => cpd00022_x0 + cpd16343_x0	2.3.1.16	>
+vlcfa_oxC22_x0	added	C22 acyl-CoA dehydrogenase (FAD)	cpd00015_x0 + cpd16343_x0 => cpd00982_x0 + cpd16839_x0	1.3.3.6	>
+vlcfa_hyC22_x0	added	C22 enoyl-CoA hydratase	cpd00001_x0 + cpd16839_x0 => cpd16773_x0	4.2.1.17	>
+vlcfa_dhC22_x0	added	C22 3-OH-acyl-CoA dehydrogenase (NAD)	cpd00003_x0 + cpd16773_x0 => cpd00004_x0 + cpd00067_x0 + cpd16785_x0	1.1.1.35	>
+vlcfa_thC22_x0	added	3-ketoacyl-CoA thiolase (C22->C20)	cpd00010_x0 + cpd16785_x0 => cpd00022_x0 + cpd01393_x0	2.3.1.16	>
+vlcfa_oxC20_x0	added	C20 acyl-CoA dehydrogenase (FAD)	cpd00015_x0 + cpd01393_x0 => cpd00982_x0 + cpd16838_x0	1.3.3.6	>
+vlcfa_hyC20_x0	added	C20 enoyl-CoA hydratase	cpd00001_x0 + cpd16838_x0 => cpd16772_x0	4.2.1.17	>
+vlcfa_dhC20_x0	added	C20 3-OH-acyl-CoA dehydrogenase (NAD)	cpd00003_x0 + cpd16772_x0 => cpd00004_x0 + cpd00067_x0 + cpd16784_x0	1.1.1.35	>
+vlcfa_thC20_x0	added	3-ketoacyl-CoA thiolase (C20->C18)	cpd00010_x0 + cpd16784_x0 => cpd00022_x0 + cpd00327_x0	2.3.1.16	>
