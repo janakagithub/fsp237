@@ -188,6 +188,15 @@
   .lit-link:hover { text-decoration: none; border-bottom-style: solid;
                     background: var(--accent-soft); }
   .lit-nopmid { color: var(--muted); font-size: 11px; border-bottom: 1px dotted var(--muted); }
+  /* Relevance tier badges -- direct C. sublineola > Colletotrichum > fungal phytopathogen */
+  .tier      { display:inline-block; margin-left:5px;
+               padding:0 6px; border-radius:999px; font-size:9px;
+               font-weight:600; letter-spacing:0.02em; vertical-align:middle; }
+  .tier-cs           { background:#d7f0dc; color:#14532d; border:1px solid #b1e0b9; }
+  .tier-colletotrichum { background:#dde8fb; color:#1b3a82; border:1px solid #bcd1f5; }
+  .tier-phytopathogen  { background:#fff1d6; color:#92400e; border:1px solid #fcd9a4; }
+  .tier-fungal       { background:#f1f5f9; color:#475569; border:1px solid #d8dde3; }
+  .tier-context      { background:#f3f6fa; color:#6b7280; border:1px solid #e2e8f0; }
 
   /* Coefficient bar viz ------------------------------------------------- */
   .coef-cell { display: flex; align-items: center; gap: 8px; }
@@ -754,18 +763,41 @@
 
     // Helper to render the literature column: one anchor per citation,
     // hovers show the key finding, links open PubMed in a new tab.
+    // Each citation gets a relevance-tier badge so users see at a glance
+    // whether it's direct Cs, Colletotrichum, fungal phytopathogen, or
+    // general fungal.
+    const TIER_LABEL = {
+      'Cs':              'Cs',
+      'Colletotrichum':  'Colletotrichum',
+      'phytopathogen':   'phytopathogen',
+      'fungal':          'fungal',
+      'context':         'context',
+    };
+    function tierBadge(tier) {
+      if (!tier) return '';
+      const cls = 'tier tier-' + tier.toLowerCase().replace(/[^a-z]/g, '');
+      const label = TIER_LABEL[tier] || tier;
+      return ' <span class="' + cls + '" title="Relevance: ' + esc(tier) + '">' + esc(label) + '</span>';
+    }
     function fmtLiterature(lits) {
       if (!lits || !lits.length) return '<span class="flux-zero">&mdash;</span>';
-      return lits.map(c => {
+      // sort: Cs first, then Colletotrichum, then phytopathogen, then fungal, then anything else
+      const order = ['Cs','Colletotrichum','phytopathogen','fungal','context'];
+      const sorted = [...lits].sort((a,b) => {
+        const ai = order.indexOf(a.relevance_tier || ''); const bi = order.indexOf(b.relevance_tier || '');
+        return (ai < 0 ? 99 : ai) - (bi < 0 ? 99 : bi);
+      });
+      return sorted.map(c => {
         const pmid = (c.pmid || '').trim();
         const cite = esc(c.short_citation || '');
         const find = (c.key_finding || '').replace(/"/g,'&quot;');
+        const badge = tierBadge(c.relevance_tier);
         if (pmid && pmid !== '-') {
           const url = 'https://pubmed.ncbi.nlm.nih.gov/' + encodeURIComponent(pmid) + '/';
           return '<a href="' + url + '" target="_blank" rel="noopener" class="lit-link" '
-               + 'title="' + find + '">' + cite + '</a>';
+               + 'title="' + find + '">' + cite + '</a>' + badge;
         }
-        return '<span class="lit-nopmid" title="' + find + '">' + cite + '</span>';
+        return '<span class="lit-nopmid" title="' + find + '">' + cite + '</span>' + badge;
       }).join('<br>');
     }
 
