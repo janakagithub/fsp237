@@ -442,9 +442,19 @@ def main():
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    # Sanitize NaN / +/-Inf recursively -- browsers reject bare `NaN` in
+    # JSON.parse. `allow_nan=False` then makes json.dump raise if any slip
+    # through, instead of silently emitting an unparseable payload.
+    import math as _math
+    def _clean(o):
+        if isinstance(o, dict): return {k: _clean(v) for k, v in o.items()}
+        if isinstance(o, list): return [_clean(v) for v in o]
+        if isinstance(o, float) and not _math.isfinite(o): return None
+        return o
+    payload = _clean(payload)
     # minified to match the format previously committed to the site repo
     with open(OUT_PATH, 'w') as fh:
-        json.dump(payload, fh, separators=(',', ':'))
+        json.dump(payload, fh, separators=(',', ':'), allow_nan=False)
     print(f'\nwrote: {OUT_PATH}')
     print(f'  reactions     : {payload["n_reactions"]}')
     print(f'  active aerobic: {payload["n_active_aerobic"]}')

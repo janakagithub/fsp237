@@ -10,9 +10,23 @@ Emits ROOT/outputs/rnaseq_payload.json with keys:
   thresholds      — the exact quantile cutoffs used
 """
 import json
+import math
 from pathlib import Path
 
 import pandas as pd
+
+
+def _clean_nan(obj):
+    """Recursively replace NaN / +/-Inf floats with None so json.dump
+    produces browser-parseable JSON (JavaScript's JSON.parse rejects bare
+    NaN and Infinity)."""
+    if isinstance(obj, dict):
+        return {k: _clean_nan(v) for k, v in obj.items()}
+    if isinstance(obj, list):
+        return [_clean_nan(v) for v in obj]
+    if isinstance(obj, float) and not math.isfinite(obj):
+        return None
+    return obj
 
 ROOT = Path('/home/janakae/fungalTemplate/imm904CobraModel/rna_seq_integration')
 OUTPUTS = ROOT / 'outputs'
@@ -137,7 +151,10 @@ def build():
         'stage2_summary': stage2,
         'orphan_priority': orphan_priority,
     }
-    PAYLOAD_JSON.write_text(json.dumps(payload))
+    payload = _clean_nan(payload)
+    # allow_nan=False makes json.dump raise if any NaN/Inf slipped through
+    # the sanitiser instead of silently emitting invalid JSON.
+    PAYLOAD_JSON.write_text(json.dumps(payload, allow_nan=False))
     print(f'wrote {PAYLOAD_JSON}')
     print(f'  coverage           : {coverage["model_genes_with_expression"]} / {coverage["model_genes"]} model genes')
     print(f'  condition_fit rows : {len(condition_fit)}')
