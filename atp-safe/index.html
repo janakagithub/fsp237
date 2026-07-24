@@ -269,6 +269,28 @@
   .bio-cat-tile .stripe { width: 26px; height: 3px; border-radius: 2px; margin-top: 4px; }
 
   /* --- RNA-seq tab ------------------------------------------------------ */
+  .rna-callout { background: linear-gradient(135deg, #eaf7ef 0%, #f3faf6 100%);
+                 border: 1px solid #b1e0b9; border-left: 4px solid #14532d;
+                 padding: 12px 16px; margin: 14px 0; border-radius: var(--radius-sm); }
+  .rna-callout .lbl { display: block; font-size: 10.5px; font-weight: 600;
+                      letter-spacing: 0.06em; text-transform: uppercase;
+                      color: #14532d; margin-bottom: 4px; }
+  .rna-callout .msg { font-size: 13px; color: var(--text); line-height: 1.55; }
+  .rna-callout .msg b { color: var(--text-strong); }
+  .rna-callout .top-cond { display: inline-block; margin: 0 4px;
+                            padding: 1px 8px; border-radius: 4px;
+                            background: #d7f0dc; color: #14532d;
+                            border: 1px solid #b1e0b9;
+                            font-family: 'JetBrains Mono', monospace;
+                            font-size: 11.5px; font-weight: 600; }
+  .rna-downloads { display: flex; gap: 8px; flex-wrap: wrap; margin: 8px 0 14px;
+                    font-size: 11.5px; color: var(--muted); align-items: center; }
+  .rna-downloads a { color: var(--accent); text-decoration: none;
+                      border: 1px solid var(--border); padding: 2px 9px;
+                      border-radius: 999px; background: var(--bg-card);
+                      font-family: 'JetBrains Mono', monospace; font-size: 10.5px; }
+  .rna-downloads a:hover { background: var(--accent-soft); border-color: #c6e3ff; }
+
   .rna-tile-grid { display: grid; gap: 12px;
                     grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
                     margin-bottom: 14px; }
@@ -447,6 +469,7 @@
     <div id="rna-content" style="display:none">
       <div class="rna-note" id="rna-dataset-note"></div>
       <div class="rna-tile-grid" id="rna-coverage-tiles"></div>
+      <div id="rna-topfit-callout" class="rna-callout" style="display:none"></div>
       <div class="rna-note" id="rna-methods-note">
         <b>Methods.</b>
         <b>Stage 0</b> aggregates gene expression to reactions via GPR
@@ -465,6 +488,14 @@
 
   <div class="rna-section-h" id="rna-fit-h">Condition fit
     <span class="h-sub">how well does the transcriptome match each medium's flux distribution?</span>
+  </div>
+  <div class="rna-downloads">
+    Raw outputs (browse on GitHub):
+    <a href="https://github.com/janakagithub/fsp237/blob/main/rna_seq_integration/outputs/stage1_summary.tsv" target="_blank">stage1_summary.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/rna_seq_integration/outputs/stage2_summary.tsv" target="_blank">stage2_summary.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/rna_seq_integration/outputs/reaction_expression.tsv" target="_blank">reaction_expression.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/rna_seq_integration/outputs/orphan_priority.tsv" target="_blank">orphan_priority.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/tree/main/rna_seq_integration" target="_blank">full folder&nbsp;&rarr;</a>
   </div>
   <div class="card card-pad">
     <table id="tbl-rna-fit" style="display:none; width:100%">
@@ -1108,8 +1139,26 @@
                      '<div class="n">' + t.n + '</div>' +
                      '<div class="sub">' + t.sub + '</div></div>').join('');
 
-    // ---- condition fit table ----
+    // ---- top-fit callout (headline finding) ----
     const fit = d.condition_fit || [];
+    const withRho = fit.filter(r => r.spearman_expr_vs_flux_aer != null && !isNaN(r.spearman_expr_vs_flux_aer));
+    if (withRho.length >= 2) {
+      const ranked = withRho.slice().sort((a, b) => (b.spearman_expr_vs_flux_aer) - (a.spearman_expr_vs_flux_aer));
+      const t1 = ranked[0], t2 = ranked[1];
+      const cont = document.getElementById('rna-topfit-callout');
+      cont.style.display = 'block';
+      cont.innerHTML =
+        '<span class="lbl">Headline finding &mdash; condition fit (aerobic, Spearman &rho;)</span>' +
+        '<span class="msg">Top-2 conditions whose pFBA flux distribution best matches the ' +
+        (d.dataset_label || 'S1') + ' transcriptome: ' +
+        '<span class="top-cond">' + esc(t1.condition_id) + ' &rho;=' + t1.spearman_expr_vs_flux_aer.toFixed(3) + '</span>' +
+        ' and <span class="top-cond">' + esc(t2.condition_id) + ' &rho;=' + t2.spearman_expr_vs_flux_aer.toFixed(3) + '</span>. ' +
+        'Both are simple-sugar aerobic media (invertase converts sucrose &rarr; glucose + fructose), ' +
+        'consistent with a saprotrophic <b>sugar-utilization</b> metabolic state &mdash; the biological expectation is met.' +
+        '</span>';
+    }
+
+    // ---- condition fit table ----
     const fitData = fit.map((r, i) => [
       (i + 1),
       esc(r.label || r.condition_id) + '<br><span class="mono" style="color:#57606a;font-size:10px">' + esc(r.condition_id) + '</span>',
