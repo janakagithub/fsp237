@@ -41,6 +41,11 @@ SIM_TSV    = f'{BASE}/simulations/simulation_results.tsv'
 # A condition may have multiple rows (multiple citations).
 LIT_TSV    = f'{BASE}/simulations/condition_literature.tsv'
 
+# RNA-seq payload (built by rna_seq_integration/src/build_rnaseq_payload.py).
+# Optional -- the site still builds if the payload is missing, in which case
+# the RNA-seq tab shows a "no data" message.
+RNASEQ_JSON = f'{BASE}/rna_seq_integration/outputs/rnaseq_payload.json'
+
 # Keep these stable so the static site title/badge stays consistent.
 MODEL_ID   = 'Colletotrichum_sublineola_FSP237_MyCoCosm_draftModel'
 MODEL_NAME = 'Colletotrichum sublineola'
@@ -346,9 +351,10 @@ def main():
                     cid = lrow.get('condition_id')
                     if not cid: continue
                     lit_by_cond.setdefault(cid, []).append({
-                        'pmid':           lrow.get('pmid', ''),
-                        'short_citation': lrow.get('short_citation', ''),
-                        'key_finding':    lrow.get('key_finding', ''),
+                        'pmid':            lrow.get('pmid', ''),
+                        'short_citation':  lrow.get('short_citation', ''),
+                        'key_finding':     lrow.get('key_finding', ''),
+                        'relevance_tier':  lrow.get('relevance_tier', ''),
                     })
             print(f'  loaded {sum(len(v) for v in lit_by_cond.values())} citations '
                    f'across {len(lit_by_cond)} conditions from {LIT_TSV}')
@@ -394,6 +400,23 @@ def main():
         }
         print(f'embedded simulations: {len(pivot_rows)} conditions ({len(raw_rows)} simulations) from {SIM_TSV}')
 
+    rnaseq_payload = None
+    if os.path.exists(RNASEQ_JSON):
+        try:
+            with open(RNASEQ_JSON) as fh:
+                rnaseq_payload = json.load(fh)
+            n_conds = len(rnaseq_payload.get('condition_fit', []))
+            n_pr = len(rnaseq_payload.get('per_reaction', []))
+            n_st2 = len(rnaseq_payload.get('stage2_summary') or [])
+            n_orph = len(rnaseq_payload.get('orphan_priority', []))
+            print(f'embedded rnaseq: {n_conds} conditions / {n_pr} per-reaction '
+                  f'/ {n_st2} stage2 rows / {n_orph} orphan rows from {RNASEQ_JSON}')
+        except Exception as e:
+            print(f'WARN: failed to read {RNASEQ_JSON}: {e}')
+            rnaseq_payload = None
+    else:
+        print(f'NOTE: {RNASEQ_JSON} not found — RNA-seq tab will show "no data"')
+
     payload = {
         'generated_at': datetime.now(timezone.utc).replace(microsecond=0).isoformat(),
         'model_id': MODEL_ID,
@@ -415,6 +438,7 @@ def main():
             'components': biomass_components,
         },
         'simulations': sim_payload,
+        'rnaseq': rnaseq_payload,
     }
 
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

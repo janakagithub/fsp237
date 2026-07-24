@@ -1,0 +1,192 @@
+condition_id	label	stage	O2	method	threshold	status	biomass	n_active	n_H_active	n_H_total	n_L_inactive	n_L_total	objective
+01_trehalose	Trehalose	pre-infection	aerobic	eflux	p99	optimal	0.072845	464					
+01_trehalose	Trehalose	pre-infection	aerobic	gimme	default	optimal	0.06556	475					0.009
+01_trehalose	Trehalose	pre-infection	aerobic	gimme	strict	optimal	0.06556	482					0.0
+01_trehalose	Trehalose	pre-infection	aerobic	gimme	narrow	optimal	0.06556	486					0.762
+01_trehalose	Trehalose	pre-infection	aerobic	imat	default	optimal	0.02	766	142.0	400.0	85.0	88.0	362.0
+01_trehalose	Trehalose	pre-infection	aerobic	imat	strict	optimal	0.07132	676	71.0	198.0	14.0	14.0	162.0
+01_trehalose	Trehalose	pre-infection	anaerobic	eflux	p99	optimal	0.014816	465					
+01_trehalose	Trehalose	pre-infection	anaerobic	gimme	default	optimal	0.013335	475					0.006
+01_trehalose	Trehalose	pre-infection	anaerobic	gimme	strict	optimal	0.013335	478					0.0
+01_trehalose	Trehalose	pre-infection	anaerobic	gimme	narrow	optimal	0.013335	495					0.369
+01_trehalose	Trehalose	pre-infection	anaerobic	imat	default	optimal	0.009869	783	155.0	400.0	85.0	88.0	362.0
+01_trehalose	Trehalose	pre-infection	anaerobic	imat	strict	optimal	0.01312	675	69.0	198.0	14.0	14.0	164.0
+02_glycerol	Glycerol	pre-infection	aerobic	eflux	p99	optimal	0.020737	469					
+02_glycerol	Glycerol	pre-infection	aerobic	gimme	default	optimal	0.018663	484					0.003
+02_glycerol	Glycerol	pre-infection	aerobic	gimme	strict	optimal	0.018663	477					0.0
+02_glycerol	Glycerol	pre-infection	aerobic	gimme	narrow	optimal	0.018663	489					0.22
+02_glycerol	Glycerol	pre-infection	aerobic	imat	default	optimal	0.002553	746	130.0	400.0	86.0	88.0	357.0
+02_glycerol	Glycerol	pre-infection	aerobic	imat	strict	optimal	0.019216	664	73.0	198.0	14.0	14.0	161.0
+02_glycerol	Glycerol	pre-infection	anaerobic	eflux	p99	optimal	0.000437	360					
+02_glycerol	Glycerol	pre-infection	anaerobic	gimme	default	optimal	0.000393	377					0.0
+02_glycerol	Glycerol	pre-infection	anaerobic	gimme	strict	optimal	0.000393	372					0.0
+02_glycerol	Glycerol	pre-infection	anaerobic	gimme	narrow	optimal	0.000393	376					0.362
+02_glycerol	Glycerol	pre-infection	anaerobic	imat	default	optimal	4.4e-05	524	90.0	400.0	87.0	88.0	283.0
+02_glycerol	Glycerol	pre-infection	anaerobic	imat	strict	optimal	4.4e-05	507	57.0	198.0	14.0	14.0	134.0
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	eflux	p99	optimal	0.11397	482					
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	gimme	default	optimal	0.102573	487					0.014
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	gimme	strict	optimal	0.102573	501					0.0
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	gimme	narrow	optimal	0.102573	501					3.036
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	imat	default	optimal	0.083333	775	159.0	400.0	84.0	88.0	367.0
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	imat	strict	optimal	0.112039	671	68.0	198.0	14.0	14.0	164.0
+03_palmitate	Palmitate (C16:0)	pre-infection	anaerobic	eflux	n/a	infeasible	0.0	0	0.0	0.0	0.0	0.0	
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	eflux	p99	optimal	0.128026	482					
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	gimme	default	optimal	0.115223	485					0.016
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	gimme	strict	optimal	0.115223	486					0.0
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	gimme	narrow	optimal	0.115223	491					3.425
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	imat	default	optimal	0.02	805	141.0	400.0	86.0	88.0	360.0
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	imat	strict	optimal	0.121951	651	77.0	198.0	14.0	14.0	164.0
+04_oleate	Oleate (C18:1)	pre-infection	anaerobic	eflux	n/a	infeasible	0.0	0	0.0	0.0	0.0	0.0	
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	eflux	p99	optimal	0.206075	497					
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	gimme	default	optimal	0.185467	505					0.025
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	gimme	strict	optimal	0.185467	503					0.001
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	gimme	narrow	optimal	0.185467	491					7.272
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	imat	default	optimal	0.020607	794	152.0	400.0	86.0	88.0	364.0
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	imat	strict	optimal	0.121951	675	76.0	198.0	14.0	14.0	166.0
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	anaerobic	eflux	n/a	infeasible	0.0	0	0.0	0.0	0.0	0.0	
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	eflux	p99	optimal	0.036419	463					
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	gimme	default	optimal	0.032777	469					0.004
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	gimme	strict	optimal	0.032777	471					0.0
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	gimme	narrow	optimal	0.032777	484					0.381
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	imat	default	optimal	0.033314	779	149.0	400.0	86.0	88.0	364.0
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	imat	strict	optimal	0.02	669	81.0	198.0	14.0	14.0	163.0
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	eflux	p99	optimal	0.007406	459					
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	gimme	default	optimal	0.006666	467					0.003
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	gimme	strict	optimal	0.006666	467					0.0
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	gimme	narrow	optimal	0.006666	478					0.184
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	imat	default	optimal	0.002553	731	122.0	400.0	85.0	88.0	350.0
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	imat	strict	optimal	0.001238	633	70.0	198.0	14.0	14.0	163.0
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	eflux	p99	optimal	0.036419	467					
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	gimme	default	optimal	0.032777	476					0.004
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	gimme	strict	optimal	0.032777	474					0.0
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	gimme	narrow	optimal	0.032777	489					0.381
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	imat	default	optimal	0.02	763	139.0	400.0	86.0	88.0	361.0
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	imat	strict	optimal	0.02	672	78.0	198.0	14.0	14.0	165.0
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	eflux	p99	optimal	0.007406	463					
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	gimme	default	optimal	0.006666	474					0.003
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	gimme	strict	optimal	0.006666	470					0.0
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	gimme	narrow	optimal	0.006666	480					0.184
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	imat	default	optimal	0.002553	699	139.0	400.0	86.0	88.0	350.0
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	imat	strict	optimal	0.003779	630	73.0	198.0	14.0	14.0	165.0
+08_glutamate	L-Glutamate	biotrophic	aerobic	eflux	p99	optimal	0.052732	477					
+08_glutamate	L-Glutamate	biotrophic	aerobic	gimme	default	optimal	0.047459	479					0.006
+08_glutamate	L-Glutamate	biotrophic	aerobic	gimme	strict	optimal	0.047459	480					0.0
+08_glutamate	L-Glutamate	biotrophic	aerobic	gimme	narrow	optimal	0.047459	505					1.011
+08_glutamate	L-Glutamate	biotrophic	aerobic	imat	default	optimal	0.005273	769	110.0	400.0	87.0	88.0	351.0
+08_glutamate	L-Glutamate	biotrophic	aerobic	imat	strict	optimal	0.02	682	75.0	198.0	14.0	14.0	163.0
+08_glutamate	L-Glutamate	biotrophic	anaerobic	eflux	p99	optimal	0.000265	351					
+08_glutamate	L-Glutamate	biotrophic	anaerobic	gimme	default	optimal	0.000238	345					0.0
+08_glutamate	L-Glutamate	biotrophic	anaerobic	gimme	strict	optimal	0.000238	356					0.0
+08_glutamate	L-Glutamate	biotrophic	anaerobic	gimme	narrow	optimal	0.000238	352					1.114
+08_glutamate	L-Glutamate	biotrophic	anaerobic	imat	default	optimal	2.6e-05	435	70.0	400.0	88.0	88.0	245.0
+08_glutamate	L-Glutamate	biotrophic	anaerobic	imat	strict	optimal	2.6e-05	428	44.0	198.0	14.0	14.0	120.0
+09_glutamine	L-Glutamine	biotrophic	aerobic	eflux	p99	optimal	0.052785	473					
+09_glutamine	L-Glutamine	biotrophic	aerobic	gimme	default	optimal	0.047507	478					0.006
+09_glutamine	L-Glutamine	biotrophic	aerobic	gimme	strict	optimal	0.047507	481					0.0
+09_glutamine	L-Glutamine	biotrophic	aerobic	gimme	narrow	optimal	0.047507	509					1.259
+09_glutamine	L-Glutamine	biotrophic	aerobic	imat	default	optimal	0.02	781	139.0	400.0	86.0	88.0	363.0
+09_glutamine	L-Glutamine	biotrophic	aerobic	imat	strict	optimal	0.02	653	65.0	198.0	14.0	14.0	164.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	eflux	p99	optimal	0.000268	351					
+09_glutamine	L-Glutamine	biotrophic	anaerobic	gimme	default	optimal	0.000241	342					0.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	gimme	strict	optimal	0.000241	362					0.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	gimme	narrow	optimal	0.000241	368					1.334
+09_glutamine	L-Glutamine	biotrophic	anaerobic	imat	default	optimal	2.7e-05	441	71.0	400.0	88.0	88.0	247.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	imat	strict	optimal	2.7e-05	427	45.0	198.0	14.0	14.0	121.0
+10_gaba	GABA	biotrophic	aerobic	eflux	p99	optimal	0.049582	464					
+10_gaba	GABA	biotrophic	aerobic	gimme	default	optimal	0.044624	476					0.006
+10_gaba	GABA	biotrophic	aerobic	gimme	strict	optimal	0.044624	476					0.0
+10_gaba	GABA	biotrophic	aerobic	gimme	narrow	optimal	0.044624	481					4.173
+10_gaba	GABA	biotrophic	aerobic	imat	default	optimal	0.004958	738	131.0	400.0	86.0	88.0	359.0
+10_gaba	GABA	biotrophic	aerobic	imat	strict	optimal	0.02	688	80.0	198.0	14.0	14.0	163.0
+10_gaba	GABA	biotrophic	anaerobic	eflux	n/a	infeasible	0.0	0	0.0	0.0	0.0	0.0	
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	eflux	p99	optimal	0.0	0					
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	gimme	default	optimal	0.134336	487					21.632
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	gimme	strict	optimal	0.134336	488					3.969
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	gimme	narrow	optimal	0.134336	487					40.91
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	imat	default	optimal	0.125	766	143.0	400.0	84.0	88.0	355.0
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	imat	strict	optimal	0.125	657	80.0	198.0	13.0	14.0	165.0
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	eflux	p99	optimal	0.0	0					
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	gimme	default	optimal	0.018402	487					21.623
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	gimme	strict	optimal	0.018402	486					3.969
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	gimme	narrow	optimal	0.018402	484					39.257
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	imat	default	optimal	0.002553	767	138.0	400.0	83.0	88.0	357.0
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	imat	strict	optimal	0.018993	679	66.0	198.0	13.0	14.0	162.0
+12_xylose	Xylose	necrotrophic	aerobic	eflux	p99	optimal	0.145678	464					
+12_xylose	Xylose	necrotrophic	aerobic	gimme	default	optimal	0.13111	471					0.018
+12_xylose	Xylose	necrotrophic	aerobic	gimme	strict	optimal	0.13111	469					0.0
+12_xylose	Xylose	necrotrophic	aerobic	gimme	narrow	optimal	0.13111	487					12.325
+12_xylose	Xylose	necrotrophic	aerobic	imat	default	optimal	0.02	795	138.0	400.0	86.0	88.0	362.0
+12_xylose	Xylose	necrotrophic	aerobic	imat	strict	optimal	0.121951	652	77.0	198.0	14.0	14.0	163.0
+12_xylose	Xylose	necrotrophic	anaerobic	eflux	p99	optimal	0.01493	474					
+12_xylose	Xylose	necrotrophic	anaerobic	gimme	default	optimal	0.013437	486					0.006
+12_xylose	Xylose	necrotrophic	anaerobic	gimme	strict	optimal	0.013437	483					0.0
+12_xylose	Xylose	necrotrophic	anaerobic	gimme	narrow	optimal	0.013437	482					12.638
+12_xylose	Xylose	necrotrophic	anaerobic	imat	default	optimal	0.002553	760	136.0	400.0	85.0	88.0	357.0
+12_xylose	Xylose	necrotrophic	anaerobic	imat	strict	optimal	0.001493	611	67.0	198.0	14.0	14.0	163.0
+13_arabinose	L-Arabinose	necrotrophic	aerobic	eflux	p99	optimal	0.139608	464					
+13_arabinose	L-Arabinose	necrotrophic	aerobic	gimme	default	optimal	0.125647	469					0.017
+13_arabinose	L-Arabinose	necrotrophic	aerobic	gimme	strict	optimal	0.125647	469					0.0
+13_arabinose	L-Arabinose	necrotrophic	aerobic	gimme	narrow	optimal	0.125647	478					17.589
+13_arabinose	L-Arabinose	necrotrophic	aerobic	imat	default	optimal	0.122371	784	146.0	400.0	84.0	88.0	368.0
+13_arabinose	L-Arabinose	necrotrophic	aerobic	imat	strict	optimal	0.125	702	72.0	198.0	14.0	14.0	163.0
+13_arabinose	L-Arabinose	necrotrophic	anaerobic	eflux	n/a	infeasible	0.0	0	0.0	0.0	0.0	0.0	
+14_maltose	Maltose (starch)	necrotrophic	aerobic	eflux	p99	optimal	0.364194	465					
+14_maltose	Maltose (starch)	necrotrophic	aerobic	gimme	default	optimal	0.327774	471					6.233
+14_maltose	Maltose (starch)	necrotrophic	aerobic	gimme	strict	optimal	0.327774	479					0.001
+14_maltose	Maltose (starch)	necrotrophic	aerobic	gimme	narrow	optimal	0.327774	486					27.093
+14_maltose	Maltose (starch)	necrotrophic	aerobic	imat	default	optimal	0.263158	770	139.0	400.0	82.0	88.0	364.0
+14_maltose	Maltose (starch)	necrotrophic	aerobic	imat	strict	optimal	0.348693	670	76.0	198.0	13.0	14.0	166.0
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	eflux	p99	optimal	0.074062	470					
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	gimme	default	optimal	0.066656	481					6.22
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	gimme	strict	optimal	0.066656	483					0.0
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	gimme	narrow	optimal	0.066656	486					25.544
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	imat	default	optimal	0.007406	806	141.0	400.0	83.0	88.0	358.0
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	imat	strict	optimal	0.072924	677	71.0	198.0	14.0	14.0	164.0
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	eflux	p99	optimal	0.142413	483					
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	gimme	default	optimal	0.128172	483					0.138
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	gimme	strict	optimal	0.128172	504					0.0
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	gimme	narrow	optimal	0.128172	477					5.371
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	imat	default	optimal	0.121951	801	134.0	400.0	87.0	88.0	364.0
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	imat	strict	optimal	0.121951	705	88.0	198.0	14.0	14.0	165.0
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	eflux	p99	optimal	0.011477	458					
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	gimme	default	optimal	0.010329	496					0.005
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	gimme	strict	optimal	0.010329	471					0.0
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	gimme	narrow	optimal	0.010329	470					2.092
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	imat	default	optimal	0.002553	720	117.0	400.0	85.0	88.0	353.0
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	imat	strict	optimal	0.001238	570	74.0	198.0	13.0	14.0	161.0
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	eflux	p99	optimal	0.069347	483					
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	gimme	default	optimal	0.062413	489					0.008
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	gimme	strict	optimal	0.062413	487					0.0
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	gimme	narrow	optimal	0.062413	503					0.735
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	imat	default	optimal	0.061725	766	145.0	400.0	86.0	88.0	359.0
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	imat	strict	optimal	0.041641	669	75.0	198.0	14.0	14.0	165.0
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	eflux	p99	optimal	0.005044	479					
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	gimme	default	optimal	0.00454	441					0.002
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	gimme	strict	optimal	0.00454	447					0.0
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	gimme	narrow	optimal	0.00454	444					0.164
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	imat	default	optimal	0.001238	718	134.0	400.0	84.0	88.0	359.0
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	imat	strict	optimal	0.001238	653	66.0	198.0	14.0	14.0	162.0
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	eflux	p99	optimal	0.062652	475					
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	gimme	default	optimal	0.056387	476					0.008
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	gimme	strict	optimal	0.056387	482					0.0
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	gimme	narrow	optimal	0.056387	499					0.722
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	imat	default	optimal	0.006265	799	134.0	400.0	86.0	88.0	358.0
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	imat	strict	optimal	0.02	656	71.0	198.0	14.0	14.0	163.0
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	eflux	p99	optimal	0.009372	475					
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	gimme	default	optimal	0.008435	484					0.004
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	gimme	strict	optimal	0.008435	491					0.0
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	gimme	narrow	optimal	0.008435	485					0.207
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	imat	default	optimal	0.002553	714	132.0	400.0	85.0	88.0	353.0
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	imat	strict	optimal	0.001238	605	77.0	198.0	14.0	14.0	158.0
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	eflux	p99	optimal	0.412693	496					
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	gimme	default	optimal	0.400981	507					2.672
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	gimme	strict	optimal	0.400981	515					0.001
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	gimme	narrow	optimal	0.400981	490					19.241
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	imat	default	optimal	0.166667	792	156.0	400.0	83.0	88.0	369.0
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	imat	strict	optimal	0.315793	701	79.0	198.0	13.0	14.0	167.0
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	eflux	p99	optimal	0.079956	478					
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	gimme	default	optimal	0.079526	509					2.753
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	gimme	strict	optimal	0.079526	514					0.0
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	gimme	narrow	optimal	0.079526	499					16.852
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	imat	default	optimal	0.02	798	126.0	400.0	84.0	88.0	357.0
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	imat	strict	optimal	0.033964	648	87.0	198.0	14.0	14.0	166.0

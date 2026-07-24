@@ -1,0 +1,37 @@
+condition_id	label	stage	O2	status	biomass	n_flux_nonzero	n_gpr	SUPPORTED	WEAK_SUPPORT	CONFLICT_FLUX_NO_EXPR	ORPHAN_FLUX	PRIMED_NOT_USED	SILENT_OK	agreement_score	spearman_expr_vs_flux	hi_expr_recall	flux_precision_hi_med
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	optimal	0.206075	497	1045	376	6	0	115	248	877	0.6026	0.1235	0.38	0.9843
+03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	optimal	0.11397	481	1045	363	8	0	110	257	884	0.5855	0.1208	0.3575	0.9784
+16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	optimal	0.069347	483	1045	358	6	0	119	258	881	0.5812	0.1234	0.355	0.9835
+04_oleate	Oleate (C18:1)	pre-infection	aerobic	optimal	0.128026	485	1045	358	8	0	119	259	878	0.5802	0.1097	0.3525	0.9781
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	aerobic	optimal	0.036419	467	1045	352	8	0	107	255	900	0.5799	0.1505	0.3625	0.9778
+08_glutamate	L-Glutamate	biotrophic	aerobic	optimal	0.052732	472	1045	350	7	0	115	254	896	0.5795	0.1323	0.365	0.9804
+09_glutamine	L-Glutamine	biotrophic	aerobic	optimal	0.052785	476	1045	351	7	0	118	255	891	0.5792	0.1309	0.3625	0.9804
+14_maltose	Maltose (starch)	necrotrophic	aerobic	optimal	0.364194	469	1045	352	9	0	108	256	897	0.5789	0.1342	0.36	0.9751
+11_galacturonate	D-Galacturonate	necrotrophic	aerobic	optimal	0.149263	477	1045	353	8	1	115	256	889	0.5787	0.1219	0.36	0.9751
+17_biotrophic_mix	Biotrophic mix	cocktail	aerobic	optimal	0.062652	476	1045	354	6	0	116	258	888	0.5784	0.1334	0.355	0.9833
+06_glucose_low	Glucose (LOW, -1)	biotrophic	aerobic	optimal	0.036419	463	1045	350	8	0	105	256	903	0.5776	0.1427	0.36	0.9777
+02_glycerol	Glycerol	pre-infection	aerobic	optimal	0.020737	466	1045	349	8	0	109	256	900	0.5769	0.1366	0.36	0.9776
+18_necrotrophic_mix	Necrotrophic mix	cocktail	aerobic	optimal	0.445535	504	1045	344	11	1	148	252	866	0.5762	0.1125	0.37	0.9663
+01_trehalose	Trehalose	pre-infection	aerobic	optimal	0.072845	467	1045	350	7	0	110	258	897	0.5757	0.1394	0.355	0.9804
+10_gaba	GABA	biotrophic	aerobic	optimal	0.049582	467	1045	346	10	0	111	255	900	0.5757	0.1316	0.3625	0.9719
+12_xylose	Xylose	necrotrophic	aerobic	optimal	0.145678	464	1045	350	8	0	106	259	899	0.5747	0.1256	0.3525	0.9777
+13_arabinose	L-Arabinose	necrotrophic	aerobic	optimal	0.139608	466	1045	350	7	0	109	261	895	0.5728	0.1231	0.3475	0.9804
+15_mixed_aa	Mixed AAs + glc	necrotrophic	aerobic	optimal	0.142413	483	1045	333	9	0	141	258	881	0.5635	0.1168	0.355	0.9737
+17_biotrophic_mix	Biotrophic mix	cocktail	anaerobic	optimal	0.009372	477	1045	346	7	0	124	255	890	0.5757	0.1424	0.3625	0.9802
+12_xylose	Xylose	necrotrophic	anaerobic	optimal	0.01493	473	1045	350	6	0	117	259	890	0.5747	0.1203	0.3525	0.9831
+16_pre_infection_mix	Pre-infection mix	cocktail	anaerobic	optimal	0.005044	479	1045	348	6	0	125	258	885	0.5743	0.1307	0.355	0.9831
+11_galacturonate	D-Galacturonate	necrotrophic	anaerobic	optimal	0.020447	477	1045	349	7	1	120	258	887	0.574	0.111	0.355	0.9776
+14_maltose	Maltose (starch)	necrotrophic	anaerobic	optimal	0.074062	469	1045	346	8	0	115	257	896	0.5738	0.1243	0.3575	0.9774
+01_trehalose	Trehalose	pre-infection	anaerobic	optimal	0.014816	469	1045	345	6	0	118	259	894	0.5712	0.1243	0.3525	0.9829
+07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	optimal	0.007406	463	1045	343	6	0	114	259	900	0.5698	0.1324	0.3525	0.9828
+06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	optimal	0.007406	460	1045	342	6	0	112	259	903	0.5691	0.1361	0.3525	0.9828
+18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	optimal	0.088362	478	1045	324	9	1	144	264	880	0.5501	0.0905	0.34	0.9701
+15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	optimal	0.011477	458	1045	318	9	0	131	265	899	0.5455	0.0991	0.3375	0.9725
+02_glycerol	Glycerol	pre-infection	anaerobic	optimal	0.000437	357	1045	277	5	0	75	278	987	0.4991	0.1363	0.305	0.9823
+03_palmitate	Palmitate (C16:0)	pre-infection	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			
+04_oleate	Oleate (C18:1)	pre-infection	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			
+05_hexacosanoate	Hexacosanoate (C26)	pre-infection	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			
+08_glutamate	L-Glutamate	biotrophic	anaerobic	optimal	0.000265	0	1045	0	0	0	0	400	1222	0.0	0.0	0.0	0.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	optimal	0.000268	0	1045	0	0	0	0	400	1222	0.0	0.0	0.0	0.0
+10_gaba	GABA	biotrophic	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			
+13_arabinose	L-Arabinose	necrotrophic	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			

@@ -1,0 +1,20 @@
+model : fsp237_gapfilled_Version10_vlcfa_complete_genes_integrated.json
+wrote /home/janakae/fungalTemplate/imm904CobraModel/rna_seq_integration/outputs/orphan_priority.tsv   (233 orphan reactions across conditions)
+
+top 15 by (n_conditions, max_flux):
+         rxn_id                                       name subsystem  n_conditions_active  max_abs_flux top_candidates
+       H2Otm_c0   TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_m0                             29     76.327149               
+    rxn09121_c0           phosphate transport cytosol/mito                             29     50.869849               
+    rxn05467_c0           CO2 transporter via diffusion_c0                             29     26.991445               
+ EX_cpd00011_e0                           Exchange for CO2                             29     26.991445               
+    rxn05319_c0   TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_c0                             29     26.142834               
+ EX_cpd00001_e0                           Exchange for H2O                             29     24.142834               
+ EX_cpd00013_e0                        Exchange for NH3_e0                             29      8.175747               
+       CO2tm_c0           CO2 transporter via diffusion_m0                             29      7.860456               
+   TRP_coa_c0r0            CoA c0↔r0 transport (diffusion)                             29      2.582897               
+      H2Oter_c0   TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_g0                             29      2.060062               
+TRP_malcoa_c0r0                Malonyl-CoA transport c0→r0                             29      2.059305               
+   TRP_co2_c0r0            CO2 c0↔r0 transport (diffusion)                             29      2.059305               
+    rxn05582_c0 TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY_m0                             29      1.571466               
+ TRP_nadph_c0r0          NADPH c0↔r0 transport (diffusion)                             29      1.047184               
+  TRP_nadp_c0r0           NADP c0↔r0 transport (diffusion)                             29      1.047184               

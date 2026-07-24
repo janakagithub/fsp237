@@ -268,6 +268,59 @@
   }
   .bio-cat-tile .stripe { width: 26px; height: 3px; border-radius: 2px; margin-top: 4px; }
 
+  /* --- RNA-seq tab ------------------------------------------------------ */
+  .rna-tile-grid { display: grid; gap: 12px;
+                    grid-template-columns: repeat(auto-fit, minmax(190px,1fr));
+                    margin-bottom: 14px; }
+  .rna-tile { background: var(--bg-card); border: 1px solid var(--border);
+              border-radius: var(--radius-sm); padding: 12px 14px; }
+  .rna-tile .label { font-size: 11.5px; color: var(--muted); font-weight: 500; }
+  .rna-tile .n     { font-size: 18px; font-weight: 600;
+                     color: var(--text-strong); font-feature-settings: 'tnum'; margin-top:2px; }
+  .rna-tile .sub   { font-size: 10.5px; color: var(--muted);
+                     font-family: 'JetBrains Mono', monospace; margin-top:2px; }
+  .rna-tile.accent { border-left: 3px solid var(--accent); }
+  .rna-tile.warm   { border-left: 3px solid #f59e0b; }
+  .rna-tile.pos    { border-left: 3px solid var(--pos); }
+  .rna-note        { background:#f9fbfd; border-left:3px solid var(--accent);
+                     padding: 10px 14px; margin: 14px 0; border-radius: var(--radius-sm);
+                     font-size: 12.5px; color: var(--text); }
+  .rna-note b     { color: var(--text-strong); }
+  .rna-note a     { color: var(--accent); }
+  .rna-section-h  { font-size: 13.5px; font-weight: 600; color: var(--text-strong);
+                    margin: 20px 0 8px; letter-spacing: 0.01em; }
+  .rna-section-h .h-sub { font-weight: 400; font-size: 11.5px; color: var(--muted);
+                          margin-left: 8px; }
+
+  .expr-badge { display:inline-block; padding:1px 7px; border-radius:999px;
+                font-size:10px; font-weight:600; letter-spacing:0.02em; }
+  .expr-hi     { background:#d7f0dc; color:#14532d; border:1px solid #b1e0b9; }
+  .expr-med    { background:#dde8fb; color:#1b3a82; border:1px solid #bcd1f5; }
+  .expr-lo     { background:#fff1d6; color:#92400e; border:1px solid #fcd9a4; }
+  .expr-absent { background:#f1f5f9; color:#475569; border:1px solid #d8dde3; }
+
+  .agree-badge { display:inline-block; padding:1px 7px; border-radius:4px;
+                 font-size:10px; font-weight:600; letter-spacing:0.02em; }
+  .agree-SUPPORTED             { background:#d7f0dc; color:#14532d; border:1px solid #b1e0b9; }
+  .agree-WEAK_SUPPORT          { background:#fff1d6; color:#92400e; border:1px solid #fcd9a4; }
+  .agree-CONFLICT_FLUX_NO_EXPR { background:#ffe5e7; color:#991b1b; border:1px solid #f5b9b9; }
+  .agree-ORPHAN_FLUX           { background:#ede0fb; color:#5b21b6; border:1px solid #d6c0f3; }
+  .agree-PRIMED_NOT_USED       { background:#cdeef1; color:#155e75; border:1px solid #a8dde2; }
+  .agree-SILENT_OK             { background:#f1f5f9; color:#475569; border:1px solid #d8dde3; }
+
+  .method-chip { display:inline-block; padding:1px 8px; border-radius:999px;
+                 font-size:10.5px; font-weight:600; letter-spacing:0.02em;
+                 font-family:'JetBrains Mono',monospace; }
+  .method-eflux { background:#dde8fb; color:#1b3a82; border:1px solid #bcd1f5; }
+  .method-gimme { background:#d7f0dc; color:#14532d; border:1px solid #b1e0b9; }
+  .method-imat  { background:#fbdfee; color:#9d174d; border:1px solid #f5b9d8; }
+
+  .rank-1 { font-weight: 700; color: var(--pos); }
+  .rank-2, .rank-3 { font-weight: 600; color: #1a7f37; }
+  .expr-bar { display:inline-block; width:80px; height:6px; background:#f0f3f7;
+              border-radius:3px; vertical-align: middle; overflow:hidden; margin-left:6px; }
+  .expr-bar > span { display:block; height:100%; background: linear-gradient(90deg,#a8dde2 0%,#0969da 100%); border-radius:3px; }
+
   @media (max-width: 700px) {
     .header-inner { padding: 14px 16px 10px; }
     .panel { padding: 14px 16px; }
@@ -298,6 +351,7 @@
     <button class="tab-btn" data-tab="fluxes">Active fluxes</button>
     <button class="tab-btn" data-tab="biomass">Biomass</button>
     <button class="tab-btn" data-tab="simulations">Simulations</button>
+    <button class="tab-btn" data-tab="rnaseq">RNA-seq</button>
     <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
     <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
   </div>
@@ -387,6 +441,110 @@
   </div>
 </div>
 
+<div id="panel-rnaseq" class="panel">
+  <div id="rna-summary-card" class="card card-pad">
+    <div class="loading" id="loading-rnaseq">Loading RNA-seq analyses&hellip;</div>
+    <div id="rna-content" style="display:none">
+      <div class="rna-note" id="rna-dataset-note"></div>
+      <div class="rna-tile-grid" id="rna-coverage-tiles"></div>
+      <div class="rna-note" id="rna-methods-note">
+        <b>Methods.</b>
+        <b>Stage 0</b> aggregates gene expression to reactions via GPR
+        (max-of-OR / min-of-AND). <b>Stage 1</b> overlays the aggregated
+        expression on parsimonious FBA (pFBA) fluxes per condition. <b>Stage 2</b>
+        runs three techniques: <span class="method-chip method-eflux">E-Flux</span>
+        (continuous flux caps), <span class="method-chip method-gimme">GIMME</span>
+        (LP penalising low-expression flux under a biomass floor), and
+        <span class="method-chip method-imat">iMAT</span> (MILP maximising
+        high↔active + low↔inactive). <b>Stage 4</b> triages orphan (no-GPR)
+        reactions that carry flux for downstream BLAST-based gene assignment.
+        MADE (Stage 3) is deferred pending additional biological groups.
+      </div>
+    </div>
+  </div>
+
+  <div class="rna-section-h" id="rna-fit-h">Condition fit
+    <span class="h-sub">how well does the transcriptome match each medium's flux distribution?</span>
+  </div>
+  <div class="card card-pad">
+    <table id="tbl-rna-fit" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>#</th><th>Condition</th><th>Stage</th>
+          <th>Biomass aer</th><th>Biomass ana</th>
+          <th>Spearman &rho; (aer)</th><th>Spearman &rho; (ana)</th>
+          <th>hi_recall aer</th><th>hi_recall ana</th>
+          <th>flux_precision aer</th>
+          <th>SUP aer</th><th>PNU aer</th><th>ORPH aer</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
+  <div class="rna-section-h" id="rna-stage2-h">Stage 2 &mdash; multi-method context-specific analyses
+    <span class="h-sub">E-Flux, GIMME, iMAT per condition &times; O<sub>2</sub> &times; threshold</span>
+  </div>
+  <div class="card card-pad">
+    <table id="tbl-rna-stage2" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Condition</th><th>Stage</th><th>O<sub>2</sub></th>
+          <th>Method</th><th>Threshold</th>
+          <th>Status</th><th>Biomass</th><th>Active fluxes</th>
+          <th>H active / total (iMAT)</th><th>L inactive / total (iMAT)</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
+  <div class="rna-section-h" id="rna-per-h">Reaction-level expression &amp; agreement
+    <span class="h-sub">Stage-0 aggregated expression + Stage-1 pFBA agreement on <span id="rna-per-h-cond" class="mono">06_glucose_low</span> aerobic</span>
+  </div>
+  <div class="card card-pad">
+    <table id="tbl-rna-per" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Reaction</th><th>Name</th><th>Subsystem</th>
+          <th>Genes / with expr</th><th>Agg log2(TPM+1)</th><th>Bin</th>
+          <th>Flux (default cond)</th><th>Agreement</th>
+          <th>GPR</th><th>Notes</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th>
+          <th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+
+  <div class="rna-section-h" id="rna-orph-h">Stage 4 &mdash; orphan reactions carrying flux
+    <span class="h-sub">no-GPR reactions ranked by cross-condition flux &mdash; feeds the next round of gene assignment</span>
+  </div>
+  <div class="card card-pad">
+    <table id="tbl-rna-orph" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Reaction</th><th>Name</th><th>Subsystem</th>
+          <th>n conditions</th><th>Max |flux|</th>
+          <th>Top candidate genes (subsystem-proximal)</th>
+          <th>Candidate expr</th><th>Equation</th>
+        </tr>
+        <tr class="filters">
+          <th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th>
+        </tr>
+      </thead>
+    </table>
+  </div>
+</div>
+
 <div id="panel-map_aerobic" class="panel panel-map">
   <iframe src="map_aerobic.html" title="Escher map &mdash; aerobic"></iframe>
 </div>
@@ -436,12 +594,14 @@
     fluxes:        document.getElementById('panel-fluxes'),
     biomass:       document.getElementById('panel-biomass'),
     simulations:   document.getElementById('panel-simulations'),
+    rnaseq:        document.getElementById('panel-rnaseq'),
     map_aerobic:   document.getElementById('panel-map_aerobic'),
     map_anaerobic: document.getElementById('panel-map_anaerobic'),
   };
   let fluxesInitialized = false;
   let biomassInitialized = false;
   let simulationsInitialized = false;
+  let rnaseqInitialized = false;
   let anaerobicLoaded = false;
 
   tabs.forEach(btn => btn.addEventListener('click', () => {
@@ -457,6 +617,9 @@
     if (btn.dataset.tab === 'simulations' && !simulationsInitialized && window._simulationsData) {
       initSimulationsPanel(window._simulationsData); simulationsInitialized = true;
     }
+    if (btn.dataset.tab === 'rnaseq' && !rnaseqInitialized) {
+      initRnaseqPanel(window._rnaseqData); rnaseqInitialized = true;
+    }
     if (btn.dataset.tab === 'map_anaerobic' && !anaerobicLoaded) {
       const iframe = panels.map_anaerobic.querySelector('iframe');
       iframe.src = iframe.dataset.src; anaerobicLoaded = true;
@@ -465,6 +628,11 @@
     if (btn.dataset.tab === 'fluxes'      && window._fluxesDT)      window._fluxesDT.columns.adjust();
     if (btn.dataset.tab === 'biomass'     && window._biomassDT)     window._biomassDT.columns.adjust();
     if (btn.dataset.tab === 'simulations' && window._simulationsDT) window._simulationsDT.columns.adjust();
+    if (btn.dataset.tab === 'rnaseq') {
+      ['_rnaFitDT','_rnaStage2DT','_rnaPerDT','_rnaOrphDT'].forEach(k => {
+        if (window[k]) window[k].columns.adjust();
+      });
+    }
   }));
 
   // -- formatting helpers --------------------------------------------------
@@ -878,6 +1046,174 @@
     document.getElementById('kpi-active-sub').textContent = 'generated ' + d.generated_at.replace('T',' ').replace('+00:00',' UTC');
   }
 
+  // -- RNA-seq panel -------------------------------------------------------
+  function fmtRho(v) {
+    if (v == null || isNaN(v)) return '<span class="flux-zero">&mdash;</span>';
+    const cls = v > 0 ? 'flux-pos' : v < 0 ? 'flux-neg' : 'flux-zero';
+    return '<span class="' + cls + ' mono">' + (v >= 0 ? '+' : '') + v.toFixed(3) + '</span>';
+  }
+  function fmtPct(v) {
+    if (v == null || isNaN(v)) return '<span class="flux-zero">&mdash;</span>';
+    return '<span class="mono">' + (v * 100).toFixed(1) + '%</span>';
+  }
+  function fmtBio(v) {
+    if (v == null || isNaN(v)) return '<span class="flux-zero">&mdash;</span>';
+    return '<span class="mono">' + v.toFixed(4) + '</span>';
+  }
+  function exprBadge(bin) {
+    const cls = ({'hi':'expr-hi','med':'expr-med','lo':'expr-lo','absent':'expr-absent'}[bin] || 'expr-absent');
+    return '<span class="expr-badge ' + cls + '">' + esc(bin) + '</span>';
+  }
+  function agreeBadge(a) {
+    if (!a) return '';
+    return '<span class="agree-badge agree-' + esc(a) + '">' + esc(a.replace(/_/g,' ')) + '</span>';
+  }
+  function methodChip(m) {
+    return '<span class="method-chip method-' + esc(m) + '">' + esc(m) + '</span>';
+  }
+
+  function initRnaseqPanel(d) {
+    if (!d) {
+      document.getElementById('loading-rnaseq').textContent =
+        'RNA-seq payload not available (rna_seq_integration/outputs/rnaseq_payload.json).';
+      return;
+    }
+    document.getElementById('loading-rnaseq').style.display = 'none';
+    document.getElementById('rna-content').style.display = 'block';
+
+    // dataset note
+    document.getElementById('rna-dataset-note').innerHTML =
+      '<b>Dataset:</b> ' + esc(d.dataset_label || 'S1') +
+      ' &nbsp; &middot; &nbsp; ' + esc(d.note || '');
+
+    // coverage tiles
+    const cov = d.coverage || {};
+    const tiles = [
+      {label: 'Model genes with expression', n: (cov.model_genes_with_expression || 0) + ' / ' + (cov.model_genes || 0),
+       sub: ((cov.model_genes ? 100 * cov.model_genes_with_expression / cov.model_genes : 0).toFixed(1)) + '%',
+       cls: 'accent'},
+      {label: 'Reactions with GPR', n: (cov.reactions_with_gpr || 0),
+       sub: (cov.orphan_reactions || 0) + ' orphan reactions (no GPR)', cls: 'pos'},
+      {label: 'Unmigrated legacy gene IDs', n: (cov.ch63r_unmigrated ? cov.ch63r_unmigrated.length : 0) +
+                                              ' + ' + (cov.yeast_np_unmigrated ? cov.yeast_np_unmigrated.length : 0),
+       sub: 'CH63R_* + yeast/NP_ (absent from RNA-seq)', cls: 'warm'},
+      {label: 'Expression bin distribution', n: (cov.bin_counts ?
+             (cov.bin_counts.hi||0) + ' / ' + (cov.bin_counts.med||0) + ' / ' + (cov.bin_counts.lo||0) + ' / ' + (cov.bin_counts.absent||0) :
+             '—'),
+       sub: 'hi / med / lo / absent', cls: ''},
+    ];
+    document.getElementById('rna-coverage-tiles').innerHTML =
+      tiles.map(t => '<div class="rna-tile ' + t.cls + '">' +
+                     '<div class="label">' + t.label + '</div>' +
+                     '<div class="n">' + t.n + '</div>' +
+                     '<div class="sub">' + t.sub + '</div></div>').join('');
+
+    // ---- condition fit table ----
+    const fit = d.condition_fit || [];
+    const fitData = fit.map((r, i) => [
+      (i + 1),
+      esc(r.label || r.condition_id) + '<br><span class="mono" style="color:#57606a;font-size:10px">' + esc(r.condition_id) + '</span>',
+      esc(r.stage || ''),
+      fmtBio(r.biomass_aer),
+      fmtBio(r.biomass_ana),
+      fmtRho(r.spearman_expr_vs_flux_aer),
+      fmtRho(r.spearman_expr_vs_flux_ana),
+      fmtPct(r.hi_expr_recall_aer),
+      fmtPct(r.hi_expr_recall_ana),
+      fmtPct(r.flux_precision_hi_med_aer),
+      (r.SUPPORTED_aer != null ? r.SUPPORTED_aer : 0),
+      (r.PRIMED_NOT_USED_aer != null ? r.PRIMED_NOT_USED_aer : 0),
+      (r.ORPHAN_FLUX_aer != null ? r.ORPHAN_FLUX_aer : 0),
+    ]);
+    $('#tbl-rna-fit').show();
+    const fitDT = new DataTable('#tbl-rna-fit', {
+      data: fitData, pageLength: 25, lengthMenu: [10, 25, 50], deferRender: true,
+      order: [[5, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(3), numColDef(4), numColDef(5), numColDef(6),
+                    numColDef(7), numColDef(8), numColDef(9)],
+    });
+    wireHeaderSearch(fitDT, '#tbl-rna-fit');
+    window._rnaFitDT = fitDT;
+
+    // ---- stage 2 method summary ----
+    const st2 = d.stage2_summary || [];
+    if (st2.length === 0) {
+      $('#rna-stage2-h').append(' <span class="h-sub" style="color:#cf222e">(payload not built yet)</span>');
+    }
+    const st2Data = st2.map(r => {
+      const h = (r.n_H_total != null && r.n_H_total > 0) ?
+                (r.n_H_active + ' / ' + r.n_H_total) : '—';
+      const l = (r.n_L_total != null && r.n_L_total > 0) ?
+                (r.n_L_inactive + ' / ' + r.n_L_total) : '—';
+      return [
+        esc(r.label || r.condition_id),
+        esc(r.stage || ''),
+        esc(r.O2),
+        methodChip(r.method),
+        '<span class="mono">' + esc(r.threshold || '') + '</span>',
+        esc(r.status),
+        fmtBio(r.biomass),
+        r.n_active || 0,
+        h, l,
+      ];
+    });
+    $('#tbl-rna-stage2').show();
+    const st2DT = new DataTable('#tbl-rna-stage2', {
+      data: st2Data, pageLength: 25, lengthMenu: [10, 25, 50, 100], deferRender: true,
+      order: [[0, 'asc']], autoWidth: false,
+      columnDefs: [numColDef(6), numColDef(7)],
+    });
+    wireHeaderSearch(st2DT, '#tbl-rna-stage2');
+    window._rnaStage2DT = st2DT;
+
+    // ---- per-reaction (default condition = glucose_low aerobic) ----
+    const per = d.per_reaction || [];
+    document.getElementById('rna-per-h-cond').textContent =
+      (d.default_condition_for_per_reaction || '06_glucose_low') + ' aerobic';
+    const perData = per.map(r => [
+      '<span class="mono">' + esc(r.rxn_id) + '</span>',
+      esc(r.name),
+      esc(r.subsystem),
+      '<span class="mono">' + r.n_genes + '/' + r.n_genes_with_expr + '</span>',
+      (r.agg_mean_log2TPMp1 != null ? '<span class="mono">' + r.agg_mean_log2TPMp1.toFixed(2) + '</span>' : '&mdash;'),
+      exprBadge(r.expression_bin),
+      (r.flux_glucose_low_aer != null ? fmtFlux(r.flux_glucose_low_aer) : '&mdash;'),
+      agreeBadge(r.agreement_glucose_low_aer),
+      '<span class="mono gpr">' + esc(r.gpr) + '</span>',
+      esc(r.notes),
+    ]);
+    $('#tbl-rna-per').show();
+    const perDT = new DataTable('#tbl-rna-per', {
+      data: perData, pageLength: 50, lengthMenu: [25, 50, 100, 250, 500], deferRender: true,
+      order: [[4, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(4), numColDef(6)],
+    });
+    wireHeaderSearch(perDT, '#tbl-rna-per');
+    window._rnaPerDT = perDT;
+
+    // ---- orphan priority ----
+    const orph = d.orphan_priority || [];
+    const orphData = orph.map(r => [
+      '<span class="mono">' + esc(r.rxn_id) + '</span>',
+      esc(r.name),
+      esc(r.subsystem),
+      r.n_conditions_active,
+      '<span class="mono">' + r.max_abs_flux.toFixed(3) + '</span>',
+      (r.top_candidates ? '<span class="mono">' + esc(r.top_candidates.replace(/;/g, ', ')) + '</span>' :
+                          '<span style="color:#57606a">(none in same subsystem)</span>'),
+      (r.top_candidate_expr ? '<span class="mono">' + esc(r.top_candidate_expr.replace(/;/g, ', ')) + '</span>' : ''),
+      '<span class="mono equation">' + esc(r.equation) + '</span>',
+    ]);
+    $('#tbl-rna-orph').show();
+    const orphDT = new DataTable('#tbl-rna-orph', {
+      data: orphData, pageLength: 25, lengthMenu: [10, 25, 50], deferRender: true,
+      order: [[3, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(3), numColDef(4)],
+    });
+    wireHeaderSearch(orphDT, '#tbl-rna-orph');
+    window._rnaOrphDT = orphDT;
+  }
+
   // -- load data -----------------------------------------------------------
   fetch('reactions.json?v=' + Date.now())
     .then(r => r.json())
@@ -885,6 +1221,7 @@
       window._reactionData    = d.reactions;
       window._biomassData     = d.biomass || null;
       window._simulationsData = d.simulations || null;
+      window._rnaseqData      = d.rnaseq || null;
       fillKpis(d);
       initReactionsTable(d.reactions);
     })
