@@ -1,6 +1,6 @@
 # FSP237 project — checkpoint for resuming work later
 
-**Snapshot taken (latest):** 2026-07-24
+**Snapshot taken (latest):** 2026-07-26
 **Project**: FSP237 (*Colletotrichum sublineola*) genome-scale metabolic model
 for studying anthracnose infection on sorghum.
 
@@ -8,9 +8,10 @@ for studying anthracnose infection on sorghum.
 
 ## The single most important identifier
 
-**GitHub commit SHA: `1ae00851d4ed48e07afb6b88355c6f746b18987d`**
-(short form: **`1ae0085`** — "rna_seq_integration: S1 transcriptomics × V10
-GEM (Stages 0/1/2/4) + new RNA-seq tab", 2026-07-24)
+**GitHub commit SHA: `007b0a7…`** (short form: **`007b0a7`**, 2026-07-26)
+— "Stage 5 pathway analysis + expression-painted Escher map + Pathway
+breakdown tab". Preceded by NaN-fix `5071fc9` and Stages 0/1/2/4 landing
+commit `1ae0085` (2026-07-24).
 
 This commit on https://github.com/janakagithub/fsp237 (branch `main`) is
 the **canonical reference for "where the FSP237 work is right now"**. If
@@ -24,6 +25,10 @@ git checkout 1ae00851d4ed48e07afb6b88355c6f746b18987d
 ```
 
 **Commit chain (most recent first)** — `git log --oneline`:
+- `007b0a7` — Stage 5 pathway analysis + expression-painted Escher map + Pathway breakdown tab (2026-07-26)
+- `5071fc9` — fix(site): strip NaN from reactions.json — was breaking JSON.parse in browsers
+- `3a99c1b` — atp-safe: RNA-seq tab polish — top-fit callout + GitHub raw-output links
+- `058be85` — CHECKPOINT.md: bump to 1ae0085
 - `1ae0085` — rna_seq_integration: S1 transcriptomics × V10 GEM (Stages 0/1/2/4) + new RNA-seq tab (2026-07-24)
 - `a23ebfe` — simulations: update condition_literature.tsv to Cs-first set (45 cites + relevance_tier column)
 - `51606df` — atp-safe: Cs-first literature audit + relevance tier badges
