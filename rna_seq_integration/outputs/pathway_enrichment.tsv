@@ -1,0 +1,24 @@
+pathway	n_reactions	n_hi_in_pathway	expected_hi	odds_ratio	p_fisher_greater	bh_q
+Glycolysis / gluconeogenesis	58	37	14.3	5.829	0.0	0.0
+TCA cycle	34	21	8.38	5.153	0.0	0.0
+Fatty-acid biosynthesis	38	20	9.37	3.52	0.00016	0.0012
+Pentose phosphate pathway	20	12	4.93	4.693	0.00076	0.0039
+Cofactor / vitamin biosynthesis	117	44	28.85	1.945	0.00084	0.0039
+Amino-acid metabolism	162	52	39.95	1.511	0.0148	0.0564
+Cell-wall polysaccharide	18	9	4.44	3.102	0.01716	0.0564
+Other / unassigned	576	157	142.05	1.238	0.04142	0.1191
+GAM / maintenance	1	1	0.25	inf	0.24661	0.6302
+Storage (glycogen / trehalose)	7	2	1.73	1.223	0.54694	1.0
+β-oxidation (peroxisomal)	54	13	13.32	0.968	0.59402	1.0
+Nucleotide metabolism	21	5	5.18	0.954	0.62013	1.0
+Oxidative phosphorylation / ETC	24	5	5.92	0.801	0.74314	1.0
+Lipid / membrane	35	7	8.63	0.76	0.7982	1.0
+Compatible solute / mannitol	2	0	0.49	0.0	1.0	1.0
+Biomass	6	0	1.48	0.0	1.0	1.0
+Pectin / D-galacturonate (Ashwell)	6	0	1.48	0.0	1.0	1.0
+Melanin / DHN	7	0	1.73	0.0	1.0	1.0
+Exchange	170	0	41.92	0.0	1.0	1.0
+Pentose-sugar catabolism	6	0	1.48	0.0	1.0	1.0
+Sulfur / nitrogen assimilation	3	0	0.74	0.0	1.0	1.0
+Sink / demand	1	0	0.25	0.0	1.0	1.0
+Transport (inter-compartmental)	256	15	63.13	0.159	1.0	1.0

@@ -1,0 +1,23 @@
+pathway	n_conditions	pearson_r_flux_vs_biomass	p_value
+Biomass	18	1.0	0.0
+Compatible solute / mannitol	18	1.0	0.0
+Nucleotide metabolism	18	1.0	0.0
+Cell-wall polysaccharide	18	0.999	0.0
+Oxidative phosphorylation / ETC	18	0.987	0.0
+Other / unassigned	18	0.978	0.0
+Sink / demand	18	0.963	0.0
+Melanin / DHN	18	0.962	0.0
+Transport (inter-compartmental)	18	0.949	0.0
+Exchange	18	0.947	0.0
+Glycolysis / gluconeogenesis	18	0.921	0.0
+Lipid / membrane	18	0.894	0.0
+Pentose phosphate pathway	18	0.775	0.0002
+Sulfur / nitrogen assimilation	18	0.563	0.015
+TCA cycle	18	0.536	0.0218
+Cofactor / vitamin biosynthesis	18	0.409	0.0922
+Amino-acid metabolism	18	0.287	0.2489
+Pectin / D-galacturonate (Ashwell)	18	0.187	0.4586
+Pentose-sugar catabolism	18	0.171	0.497
+β-oxidation (peroxisomal)	18	0.125	0.6204
+Fatty-acid biosynthesis	18	0.105	0.6782
+Storage (glycogen / trehalose)	18	-0.077	0.7609

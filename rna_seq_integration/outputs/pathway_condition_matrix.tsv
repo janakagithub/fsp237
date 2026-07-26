@@ -1,0 +1,714 @@
+pathway	condition_id	stage	O2	sum_abs_flux	n_active	n_total	active_rate
+Amino-acid metabolism	01_trehalose	pre-infection	aerobic	1.334	51	162	0.315
+Biomass	01_trehalose	pre-infection	aerobic	0.073	1	6	0.167
+Cell-wall polysaccharide	01_trehalose	pre-infection	aerobic	0.167	8	18	0.444
+Cofactor / vitamin biosynthesis	01_trehalose	pre-infection	aerobic	1.207	39	117	0.333
+Compatible solute / mannitol	01_trehalose	pre-infection	aerobic	0.029	2	2	1.0
+Exchange	01_trehalose	pre-infection	aerobic	13.13	9	170	0.053
+Fatty-acid biosynthesis	01_trehalose	pre-infection	aerobic	0.0	0	38	0.0
+GAM / maintenance	01_trehalose	pre-infection	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	01_trehalose	pre-infection	aerobic	23.613	28	58	0.483
+Lipid / membrane	01_trehalose	pre-infection	aerobic	0.211	11	35	0.314
+Melanin / DHN	01_trehalose	pre-infection	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	01_trehalose	pre-infection	aerobic	0.489	8	21	0.381
+Other / unassigned	01_trehalose	pre-infection	aerobic	40.399	206	576	0.358
+Oxidative phosphorylation / ETC	01_trehalose	pre-infection	aerobic	20.375	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	01_trehalose	pre-infection	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	01_trehalose	pre-infection	aerobic	4.227	13	20	0.65
+Pentose-sugar catabolism	01_trehalose	pre-infection	aerobic	0.0	0	6	0.0
+Sink / demand	01_trehalose	pre-infection	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	01_trehalose	pre-infection	aerobic	2.02	3	7	0.429
+Sulfur / nitrogen assimilation	01_trehalose	pre-infection	aerobic	0.006	1	3	0.333
+TCA cycle	01_trehalose	pre-infection	aerobic	3.173	14	34	0.412
+Transport (inter-compartmental)	01_trehalose	pre-infection	aerobic	28.901	57	256	0.223
+β-oxidation (peroxisomal)	01_trehalose	pre-infection	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	01_trehalose	pre-infection	anaerobic	1.605	49	162	0.302
+Biomass	01_trehalose	pre-infection	anaerobic	0.015	1	6	0.167
+Cell-wall polysaccharide	01_trehalose	pre-infection	anaerobic	0.068	9	18	0.5
+Cofactor / vitamin biosynthesis	01_trehalose	pre-infection	anaerobic	4.125	41	117	0.35
+Compatible solute / mannitol	01_trehalose	pre-infection	anaerobic	0.006	2	2	1.0
+Exchange	01_trehalose	pre-infection	anaerobic	8.105	12	170	0.071
+Fatty-acid biosynthesis	01_trehalose	pre-infection	anaerobic	0.0	0	38	0.0
+GAM / maintenance	01_trehalose	pre-infection	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	01_trehalose	pre-infection	anaerobic	31.97	26	58	0.448
+Lipid / membrane	01_trehalose	pre-infection	anaerobic	0.043	11	35	0.314
+Melanin / DHN	01_trehalose	pre-infection	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	01_trehalose	pre-infection	anaerobic	0.099	8	21	0.381
+Other / unassigned	01_trehalose	pre-infection	anaerobic	4.883	204	576	0.354
+Oxidative phosphorylation / ETC	01_trehalose	pre-infection	anaerobic	0.4	6	24	0.25
+Pectin / D-galacturonate (Ashwell)	01_trehalose	pre-infection	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	01_trehalose	pre-infection	anaerobic	0.977	11	20	0.55
+Pentose-sugar catabolism	01_trehalose	pre-infection	anaerobic	0.0	0	6	0.0
+Sink / demand	01_trehalose	pre-infection	anaerobic	0.017	1	1	1.0
+Storage (glycogen / trehalose)	01_trehalose	pre-infection	anaerobic	2.004	3	7	0.429
+Sulfur / nitrogen assimilation	01_trehalose	pre-infection	anaerobic	0.018	1	3	0.333
+TCA cycle	01_trehalose	pre-infection	anaerobic	0.387	15	34	0.441
+Transport (inter-compartmental)	01_trehalose	pre-infection	anaerobic	10.128	62	256	0.242
+β-oxidation (peroxisomal)	01_trehalose	pre-infection	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	02_glycerol	pre-infection	aerobic	0.461	53	162	0.327
+Biomass	02_glycerol	pre-infection	aerobic	0.021	1	6	0.167
+Cell-wall polysaccharide	02_glycerol	pre-infection	aerobic	0.047	8	18	0.444
+Cofactor / vitamin biosynthesis	02_glycerol	pre-infection	aerobic	0.782	40	117	0.342
+Compatible solute / mannitol	02_glycerol	pre-infection	aerobic	0.008	2	2	1.0
+Exchange	02_glycerol	pre-infection	aerobic	4.989	9	170	0.053
+Fatty-acid biosynthesis	02_glycerol	pre-infection	aerobic	0.0	0	38	0.0
+GAM / maintenance	02_glycerol	pre-infection	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	02_glycerol	pre-infection	aerobic	6.913	26	58	0.448
+Lipid / membrane	02_glycerol	pre-infection	aerobic	0.038	10	35	0.286
+Melanin / DHN	02_glycerol	pre-infection	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	02_glycerol	pre-infection	aerobic	0.14	8	21	0.381
+Other / unassigned	02_glycerol	pre-infection	aerobic	12.431	207	576	0.359
+Oxidative phosphorylation / ETC	02_glycerol	pre-infection	aerobic	6.819	9	24	0.375
+Pectin / D-galacturonate (Ashwell)	02_glycerol	pre-infection	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	02_glycerol	pre-infection	aerobic	2.947	14	20	0.7
+Pentose-sugar catabolism	02_glycerol	pre-infection	aerobic	0.0	0	6	0.0
+Sink / demand	02_glycerol	pre-infection	aerobic	0.0	1	1	1.0
+Storage (glycogen / trehalose)	02_glycerol	pre-infection	aerobic	0.007	2	7	0.286
+Sulfur / nitrogen assimilation	02_glycerol	pre-infection	aerobic	0.002	1	3	0.333
+TCA cycle	02_glycerol	pre-infection	aerobic	0.132	11	34	0.324
+Transport (inter-compartmental)	02_glycerol	pre-infection	aerobic	9.981	57	256	0.223
+β-oxidation (peroxisomal)	02_glycerol	pre-infection	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	02_glycerol	pre-infection	anaerobic	1.276	48	162	0.296
+Biomass	02_glycerol	pre-infection	anaerobic	0.0	1	6	0.167
+Cell-wall polysaccharide	02_glycerol	pre-infection	anaerobic	0.002	9	18	0.5
+Cofactor / vitamin biosynthesis	02_glycerol	pre-infection	anaerobic	2.377	26	117	0.222
+Compatible solute / mannitol	02_glycerol	pre-infection	anaerobic	0.0	2	2	1.0
+Exchange	02_glycerol	pre-infection	anaerobic	3.225	11	170	0.065
+Fatty-acid biosynthesis	02_glycerol	pre-infection	anaerobic	0.0	0	38	0.0
+GAM / maintenance	02_glycerol	pre-infection	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	02_glycerol	pre-infection	anaerobic	8.086	25	58	0.431
+Lipid / membrane	02_glycerol	pre-infection	anaerobic	0.001	4	35	0.114
+Melanin / DHN	02_glycerol	pre-infection	anaerobic	0.0	0	7	0.0
+Nucleotide metabolism	02_glycerol	pre-infection	anaerobic	0.003	8	21	0.381
+Other / unassigned	02_glycerol	pre-infection	anaerobic	2.358	147	576	0.255
+Oxidative phosphorylation / ETC	02_glycerol	pre-infection	anaerobic	0.783	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	02_glycerol	pre-infection	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	02_glycerol	pre-infection	anaerobic	2.478	12	20	0.6
+Pentose-sugar catabolism	02_glycerol	pre-infection	anaerobic	0.0	0	6	0.0
+Sink / demand	02_glycerol	pre-infection	anaerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	02_glycerol	pre-infection	anaerobic	0.0	2	7	0.286
+Sulfur / nitrogen assimilation	02_glycerol	pre-infection	anaerobic	0.001	1	3	0.333
+TCA cycle	02_glycerol	pre-infection	anaerobic	1.21	14	34	0.412
+Transport (inter-compartmental)	02_glycerol	pre-infection	anaerobic	3.402	41	256	0.16
+β-oxidation (peroxisomal)	02_glycerol	pre-infection	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	03_palmitate	pre-infection	aerobic	2.541	51	162	0.315
+Biomass	03_palmitate	pre-infection	aerobic	0.114	1	6	0.167
+Cell-wall polysaccharide	03_palmitate	pre-infection	aerobic	0.261	8	18	0.444
+Cofactor / vitamin biosynthesis	03_palmitate	pre-infection	aerobic	2.514	39	117	0.333
+Compatible solute / mannitol	03_palmitate	pre-infection	aerobic	0.046	2	2	1.0
+Exchange	03_palmitate	pre-infection	aerobic	20.218	9	170	0.053
+Fatty-acid biosynthesis	03_palmitate	pre-infection	aerobic	1.0	2	38	0.053
+GAM / maintenance	03_palmitate	pre-infection	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	03_palmitate	pre-infection	aerobic	16.975	23	58	0.397
+Lipid / membrane	03_palmitate	pre-infection	aerobic	0.346	12	35	0.343
+Melanin / DHN	03_palmitate	pre-infection	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	03_palmitate	pre-infection	aerobic	0.77	8	21	0.381
+Other / unassigned	03_palmitate	pre-infection	aerobic	89.647	211	576	0.366
+Oxidative phosphorylation / ETC	03_palmitate	pre-infection	aerobic	38.729	7	24	0.292
+Pectin / D-galacturonate (Ashwell)	03_palmitate	pre-infection	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	03_palmitate	pre-infection	aerobic	9.824	13	20	0.65
+Pentose-sugar catabolism	03_palmitate	pre-infection	aerobic	0.0	0	6	0.0
+Sink / demand	03_palmitate	pre-infection	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	03_palmitate	pre-infection	aerobic	0.037	2	7	0.286
+Sulfur / nitrogen assimilation	03_palmitate	pre-infection	aerobic	0.009	1	3	0.333
+TCA cycle	03_palmitate	pre-infection	aerobic	12.903	15	34	0.441
+Transport (inter-compartmental)	03_palmitate	pre-infection	aerobic	66.763	65	256	0.254
+β-oxidation (peroxisomal)	03_palmitate	pre-infection	aerobic	15.12	4	54	0.074
+Amino-acid metabolism	04_oleate	pre-infection	aerobic	3.104	48	162	0.296
+Biomass	04_oleate	pre-infection	aerobic	0.128	1	6	0.167
+Cell-wall polysaccharide	04_oleate	pre-infection	aerobic	0.293	8	18	0.444
+Cofactor / vitamin biosynthesis	04_oleate	pre-infection	aerobic	9.324	40	117	0.342
+Compatible solute / mannitol	04_oleate	pre-infection	aerobic	0.051	2	2	1.0
+Exchange	04_oleate	pre-infection	aerobic	21.305	9	170	0.053
+Fatty-acid biosynthesis	04_oleate	pre-infection	aerobic	0.0	0	38	0.0
+GAM / maintenance	04_oleate	pre-infection	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	04_oleate	pre-infection	aerobic	19.082	24	58	0.414
+Lipid / membrane	04_oleate	pre-infection	aerobic	0.525	13	35	0.371
+Melanin / DHN	04_oleate	pre-infection	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	04_oleate	pre-infection	aerobic	0.864	8	21	0.381
+Other / unassigned	04_oleate	pre-infection	aerobic	118.036	213	576	0.37
+Oxidative phosphorylation / ETC	04_oleate	pre-infection	aerobic	47.267	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	04_oleate	pre-infection	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	04_oleate	pre-infection	aerobic	11.062	13	20	0.65
+Pentose-sugar catabolism	04_oleate	pre-infection	aerobic	0.0	0	6	0.0
+Sink / demand	04_oleate	pre-infection	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	04_oleate	pre-infection	aerobic	0.041	2	7	0.286
+Sulfur / nitrogen assimilation	04_oleate	pre-infection	aerobic	0.01	1	3	0.333
+TCA cycle	04_oleate	pre-infection	aerobic	24.222	17	34	0.5
+Transport (inter-compartmental)	04_oleate	pre-infection	aerobic	105.204	66	256	0.258
+β-oxidation (peroxisomal)	04_oleate	pre-infection	aerobic	26.621	4	54	0.074
+Amino-acid metabolism	05_hexacosanoate	pre-infection	aerobic	5.018	49	162	0.302
+Biomass	05_hexacosanoate	pre-infection	aerobic	0.206	1	6	0.167
+Cell-wall polysaccharide	05_hexacosanoate	pre-infection	aerobic	0.472	8	18	0.444
+Cofactor / vitamin biosynthesis	05_hexacosanoate	pre-infection	aerobic	10.682	39	117	0.333
+Compatible solute / mannitol	05_hexacosanoate	pre-infection	aerobic	0.082	2	2	1.0
+Exchange	05_hexacosanoate	pre-infection	aerobic	26.301	9	170	0.053
+Fatty-acid biosynthesis	05_hexacosanoate	pre-infection	aerobic	1.0	1	38	0.026
+GAM / maintenance	05_hexacosanoate	pre-infection	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	05_hexacosanoate	pre-infection	aerobic	18.88	23	58	0.397
+Lipid / membrane	05_hexacosanoate	pre-infection	aerobic	0.377	10	35	0.286
+Melanin / DHN	05_hexacosanoate	pre-infection	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	05_hexacosanoate	pre-infection	aerobic	1.391	8	21	0.381
+Other / unassigned	05_hexacosanoate	pre-infection	aerobic	141.741	223	576	0.387
+Oxidative phosphorylation / ETC	05_hexacosanoate	pre-infection	aerobic	58.615	7	24	0.292
+Pectin / D-galacturonate (Ashwell)	05_hexacosanoate	pre-infection	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	05_hexacosanoate	pre-infection	aerobic	7.927	11	20	0.55
+Pentose-sugar catabolism	05_hexacosanoate	pre-infection	aerobic	0.0	0	6	0.0
+Sink / demand	05_hexacosanoate	pre-infection	aerobic	0.002	1	1	1.0
+Storage (glycogen / trehalose)	05_hexacosanoate	pre-infection	aerobic	0.067	2	7	0.286
+Sulfur / nitrogen assimilation	05_hexacosanoate	pre-infection	aerobic	0.017	1	3	0.333
+TCA cycle	05_hexacosanoate	pre-infection	aerobic	37.322	16	34	0.471
+Transport (inter-compartmental)	05_hexacosanoate	pre-infection	aerobic	117.456	56	256	0.219
+β-oxidation (peroxisomal)	05_hexacosanoate	pre-infection	aerobic	46.202	23	54	0.426
+Amino-acid metabolism	06_glucose_low	biotrophic	aerobic	0.667	51	162	0.315
+Biomass	06_glucose_low	biotrophic	aerobic	0.036	1	6	0.167
+Cell-wall polysaccharide	06_glucose_low	biotrophic	aerobic	0.083	8	18	0.444
+Cofactor / vitamin biosynthesis	06_glucose_low	biotrophic	aerobic	0.565	38	117	0.325
+Compatible solute / mannitol	06_glucose_low	biotrophic	aerobic	0.015	2	2	1.0
+Exchange	06_glucose_low	biotrophic	aerobic	7.566	9	170	0.053
+Fatty-acid biosynthesis	06_glucose_low	biotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	06_glucose_low	biotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	06_glucose_low	biotrophic	aerobic	11.81	28	58	0.483
+Lipid / membrane	06_glucose_low	biotrophic	aerobic	0.067	10	35	0.286
+Melanin / DHN	06_glucose_low	biotrophic	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	06_glucose_low	biotrophic	aerobic	0.246	8	21	0.381
+Other / unassigned	06_glucose_low	biotrophic	aerobic	20.782	207	576	0.359
+Oxidative phosphorylation / ETC	06_glucose_low	biotrophic	aerobic	10.191	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	06_glucose_low	biotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	06_glucose_low	biotrophic	aerobic	2.113	13	20	0.65
+Pentose-sugar catabolism	06_glucose_low	biotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	06_glucose_low	biotrophic	aerobic	0.0	1	1	1.0
+Storage (glycogen / trehalose)	06_glucose_low	biotrophic	aerobic	0.012	2	7	0.286
+Sulfur / nitrogen assimilation	06_glucose_low	biotrophic	aerobic	0.003	1	3	0.333
+TCA cycle	06_glucose_low	biotrophic	aerobic	1.588	15	34	0.441
+Transport (inter-compartmental)	06_glucose_low	biotrophic	aerobic	14.954	54	256	0.211
+β-oxidation (peroxisomal)	06_glucose_low	biotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	06_glucose_low	biotrophic	anaerobic	0.803	50	162	0.309
+Biomass	06_glucose_low	biotrophic	anaerobic	0.007	1	6	0.167
+Cell-wall polysaccharide	06_glucose_low	biotrophic	anaerobic	0.034	9	18	0.5
+Cofactor / vitamin biosynthesis	06_glucose_low	biotrophic	anaerobic	2.053	40	117	0.342
+Compatible solute / mannitol	06_glucose_low	biotrophic	anaerobic	0.003	2	2	1.0
+Exchange	06_glucose_low	biotrophic	anaerobic	4.999	13	170	0.076
+Fatty-acid biosynthesis	06_glucose_low	biotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	06_glucose_low	biotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	06_glucose_low	biotrophic	anaerobic	15.986	27	58	0.466
+Lipid / membrane	06_glucose_low	biotrophic	anaerobic	0.021	10	35	0.286
+Melanin / DHN	06_glucose_low	biotrophic	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	06_glucose_low	biotrophic	anaerobic	0.05	8	21	0.381
+Other / unassigned	06_glucose_low	biotrophic	anaerobic	2.877	201	576	0.349
+Oxidative phosphorylation / ETC	06_glucose_low	biotrophic	anaerobic	0.2	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	06_glucose_low	biotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	06_glucose_low	biotrophic	anaerobic	0.488	11	20	0.55
+Pentose-sugar catabolism	06_glucose_low	biotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	06_glucose_low	biotrophic	anaerobic	0.008	1	1	1.0
+Storage (glycogen / trehalose)	06_glucose_low	biotrophic	anaerobic	0.002	2	7	0.286
+Sulfur / nitrogen assimilation	06_glucose_low	biotrophic	anaerobic	0.009	1	3	0.333
+TCA cycle	06_glucose_low	biotrophic	anaerobic	0.193	14	34	0.412
+Transport (inter-compartmental)	06_glucose_low	biotrophic	anaerobic	5.098	58	256	0.227
+β-oxidation (peroxisomal)	06_glucose_low	biotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	07_sucrose_low	biotrophic	aerobic	0.667	51	162	0.315
+Biomass	07_sucrose_low	biotrophic	aerobic	0.036	1	6	0.167
+Cell-wall polysaccharide	07_sucrose_low	biotrophic	aerobic	0.083	8	18	0.444
+Cofactor / vitamin biosynthesis	07_sucrose_low	biotrophic	aerobic	0.565	38	117	0.325
+Compatible solute / mannitol	07_sucrose_low	biotrophic	aerobic	0.015	2	2	1.0
+Exchange	07_sucrose_low	biotrophic	aerobic	6.566	9	170	0.053
+Fatty-acid biosynthesis	07_sucrose_low	biotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	07_sucrose_low	biotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	07_sucrose_low	biotrophic	aerobic	12.187	30	58	0.517
+Lipid / membrane	07_sucrose_low	biotrophic	aerobic	0.067	10	35	0.286
+Melanin / DHN	07_sucrose_low	biotrophic	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	07_sucrose_low	biotrophic	aerobic	0.246	8	21	0.381
+Other / unassigned	07_sucrose_low	biotrophic	aerobic	20.782	207	576	0.359
+Oxidative phosphorylation / ETC	07_sucrose_low	biotrophic	aerobic	10.191	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	07_sucrose_low	biotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	07_sucrose_low	biotrophic	aerobic	2.113	13	20	0.65
+Pentose-sugar catabolism	07_sucrose_low	biotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	07_sucrose_low	biotrophic	aerobic	0.0	1	1	1.0
+Storage (glycogen / trehalose)	07_sucrose_low	biotrophic	aerobic	0.012	2	7	0.286
+Sulfur / nitrogen assimilation	07_sucrose_low	biotrophic	aerobic	0.003	1	3	0.333
+TCA cycle	07_sucrose_low	biotrophic	aerobic	1.588	15	34	0.441
+Transport (inter-compartmental)	07_sucrose_low	biotrophic	aerobic	15.454	56	256	0.219
+β-oxidation (peroxisomal)	07_sucrose_low	biotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	07_sucrose_low	biotrophic	anaerobic	0.803	50	162	0.309
+Biomass	07_sucrose_low	biotrophic	anaerobic	0.007	1	6	0.167
+Cell-wall polysaccharide	07_sucrose_low	biotrophic	anaerobic	0.034	9	18	0.5
+Cofactor / vitamin biosynthesis	07_sucrose_low	biotrophic	anaerobic	2.063	40	117	0.342
+Compatible solute / mannitol	07_sucrose_low	biotrophic	anaerobic	0.003	2	2	1.0
+Exchange	07_sucrose_low	biotrophic	anaerobic	4.053	12	170	0.071
+Fatty-acid biosynthesis	07_sucrose_low	biotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	07_sucrose_low	biotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	07_sucrose_low	biotrophic	anaerobic	15.986	28	58	0.483
+Lipid / membrane	07_sucrose_low	biotrophic	anaerobic	0.021	10	35	0.286
+Melanin / DHN	07_sucrose_low	biotrophic	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	07_sucrose_low	biotrophic	anaerobic	0.05	8	21	0.381
+Other / unassigned	07_sucrose_low	biotrophic	anaerobic	2.877	201	576	0.349
+Oxidative phosphorylation / ETC	07_sucrose_low	biotrophic	anaerobic	0.2	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	07_sucrose_low	biotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	07_sucrose_low	biotrophic	anaerobic	0.488	11	20	0.55
+Pentose-sugar catabolism	07_sucrose_low	biotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	07_sucrose_low	biotrophic	anaerobic	0.008	1	1	1.0
+Storage (glycogen / trehalose)	07_sucrose_low	biotrophic	anaerobic	0.002	2	7	0.286
+Sulfur / nitrogen assimilation	07_sucrose_low	biotrophic	anaerobic	0.009	1	3	0.333
+TCA cycle	07_sucrose_low	biotrophic	anaerobic	0.193	14	34	0.412
+Transport (inter-compartmental)	07_sucrose_low	biotrophic	anaerobic	6.064	61	256	0.238
+β-oxidation (peroxisomal)	07_sucrose_low	biotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	08_glutamate	biotrophic	aerobic	7.839	51	162	0.315
+Biomass	08_glutamate	biotrophic	aerobic	0.053	1	6	0.167
+Cell-wall polysaccharide	08_glutamate	biotrophic	aerobic	0.121	9	18	0.5
+Cofactor / vitamin biosynthesis	08_glutamate	biotrophic	aerobic	3.033	41	117	0.35
+Compatible solute / mannitol	08_glutamate	biotrophic	aerobic	0.021	2	2	1.0
+Exchange	08_glutamate	biotrophic	aerobic	13.699	10	170	0.059
+Fatty-acid biosynthesis	08_glutamate	biotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	08_glutamate	biotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	08_glutamate	biotrophic	aerobic	8.854	24	58	0.414
+Lipid / membrane	08_glutamate	biotrophic	aerobic	0.16	12	35	0.343
+Melanin / DHN	08_glutamate	biotrophic	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	08_glutamate	biotrophic	aerobic	0.356	8	21	0.381
+Other / unassigned	08_glutamate	biotrophic	aerobic	32.244	206	576	0.358
+Oxidative phosphorylation / ETC	08_glutamate	biotrophic	aerobic	20.682	9	24	0.375
+Pectin / D-galacturonate (Ashwell)	08_glutamate	biotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	08_glutamate	biotrophic	aerobic	3.324	12	20	0.6
+Pentose-sugar catabolism	08_glutamate	biotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	08_glutamate	biotrophic	aerobic	0.0	1	1	1.0
+Storage (glycogen / trehalose)	08_glutamate	biotrophic	aerobic	0.017	2	7	0.286
+Sulfur / nitrogen assimilation	08_glutamate	biotrophic	aerobic	0.004	1	3	0.333
+TCA cycle	08_glutamate	biotrophic	aerobic	12.826	16	34	0.471
+Transport (inter-compartmental)	08_glutamate	biotrophic	aerobic	35.494	60	256	0.234
+β-oxidation (peroxisomal)	08_glutamate	biotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	08_glutamate	biotrophic	anaerobic	0.0	0	162	0.0
+Biomass	08_glutamate	biotrophic	anaerobic	0.0	0	6	0.0
+Cell-wall polysaccharide	08_glutamate	biotrophic	anaerobic	0.0	0	18	0.0
+Cofactor / vitamin biosynthesis	08_glutamate	biotrophic	anaerobic	0.0	0	117	0.0
+Compatible solute / mannitol	08_glutamate	biotrophic	anaerobic	0.0	0	2	0.0
+Exchange	08_glutamate	biotrophic	anaerobic	0.0	0	170	0.0
+Fatty-acid biosynthesis	08_glutamate	biotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	08_glutamate	biotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	08_glutamate	biotrophic	anaerobic	0.0	0	58	0.0
+Lipid / membrane	08_glutamate	biotrophic	anaerobic	0.0	0	35	0.0
+Melanin / DHN	08_glutamate	biotrophic	anaerobic	0.0	0	7	0.0
+Nucleotide metabolism	08_glutamate	biotrophic	anaerobic	0.0	0	21	0.0
+Other / unassigned	08_glutamate	biotrophic	anaerobic	0.0	0	576	0.0
+Oxidative phosphorylation / ETC	08_glutamate	biotrophic	anaerobic	0.0	0	24	0.0
+Pectin / D-galacturonate (Ashwell)	08_glutamate	biotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	08_glutamate	biotrophic	anaerobic	0.0	0	20	0.0
+Pentose-sugar catabolism	08_glutamate	biotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	08_glutamate	biotrophic	anaerobic	0.0	0	1	0.0
+Storage (glycogen / trehalose)	08_glutamate	biotrophic	anaerobic	0.0	0	7	0.0
+Sulfur / nitrogen assimilation	08_glutamate	biotrophic	anaerobic	0.0	0	3	0.0
+TCA cycle	08_glutamate	biotrophic	anaerobic	0.0	0	34	0.0
+Transport (inter-compartmental)	08_glutamate	biotrophic	anaerobic	0.0	0	256	0.0
+β-oxidation (peroxisomal)	08_glutamate	biotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	09_glutamine	biotrophic	aerobic	9.748	52	162	0.321
+Biomass	09_glutamine	biotrophic	aerobic	0.053	1	6	0.167
+Cell-wall polysaccharide	09_glutamine	biotrophic	aerobic	0.122	9	18	0.5
+Cofactor / vitamin biosynthesis	09_glutamine	biotrophic	aerobic	3.061	41	117	0.35
+Compatible solute / mannitol	09_glutamine	biotrophic	aerobic	0.021	2	2	1.0
+Exchange	09_glutamine	biotrophic	aerobic	14.954	10	170	0.059
+Fatty-acid biosynthesis	09_glutamine	biotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	09_glutamine	biotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	09_glutamine	biotrophic	aerobic	8.863	24	58	0.414
+Lipid / membrane	09_glutamine	biotrophic	aerobic	0.217	13	35	0.371
+Melanin / DHN	09_glutamine	biotrophic	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	09_glutamine	biotrophic	aerobic	0.354	7	21	0.333
+Other / unassigned	09_glutamine	biotrophic	aerobic	33.382	206	576	0.358
+Oxidative phosphorylation / ETC	09_glutamine	biotrophic	aerobic	19.474	9	24	0.375
+Pectin / D-galacturonate (Ashwell)	09_glutamine	biotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	09_glutamine	biotrophic	aerobic	3.331	12	20	0.6
+Pentose-sugar catabolism	09_glutamine	biotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	09_glutamine	biotrophic	aerobic	0.0	1	1	1.0
+Storage (glycogen / trehalose)	09_glutamine	biotrophic	aerobic	0.017	2	7	0.286
+Sulfur / nitrogen assimilation	09_glutamine	biotrophic	aerobic	0.004	1	3	0.333
+TCA cycle	09_glutamine	biotrophic	aerobic	12.827	16	34	0.471
+Transport (inter-compartmental)	09_glutamine	biotrophic	aerobic	36.568	63	256	0.246
+β-oxidation (peroxisomal)	09_glutamine	biotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	09_glutamine	biotrophic	anaerobic	0.0	0	162	0.0
+Biomass	09_glutamine	biotrophic	anaerobic	0.0	0	6	0.0
+Cell-wall polysaccharide	09_glutamine	biotrophic	anaerobic	0.0	0	18	0.0
+Cofactor / vitamin biosynthesis	09_glutamine	biotrophic	anaerobic	0.0	0	117	0.0
+Compatible solute / mannitol	09_glutamine	biotrophic	anaerobic	0.0	0	2	0.0
+Exchange	09_glutamine	biotrophic	anaerobic	0.0	0	170	0.0
+Fatty-acid biosynthesis	09_glutamine	biotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	09_glutamine	biotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	09_glutamine	biotrophic	anaerobic	0.0	0	58	0.0
+Lipid / membrane	09_glutamine	biotrophic	anaerobic	0.0	0	35	0.0
+Melanin / DHN	09_glutamine	biotrophic	anaerobic	0.0	0	7	0.0
+Nucleotide metabolism	09_glutamine	biotrophic	anaerobic	0.0	0	21	0.0
+Other / unassigned	09_glutamine	biotrophic	anaerobic	0.0	0	576	0.0
+Oxidative phosphorylation / ETC	09_glutamine	biotrophic	anaerobic	0.0	0	24	0.0
+Pectin / D-galacturonate (Ashwell)	09_glutamine	biotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	09_glutamine	biotrophic	anaerobic	0.0	0	20	0.0
+Pentose-sugar catabolism	09_glutamine	biotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	09_glutamine	biotrophic	anaerobic	0.0	0	1	0.0
+Storage (glycogen / trehalose)	09_glutamine	biotrophic	anaerobic	0.0	0	7	0.0
+Sulfur / nitrogen assimilation	09_glutamine	biotrophic	anaerobic	0.0	0	3	0.0
+TCA cycle	09_glutamine	biotrophic	anaerobic	0.0	0	34	0.0
+Transport (inter-compartmental)	09_glutamine	biotrophic	anaerobic	0.0	0	256	0.0
+β-oxidation (peroxisomal)	09_glutamine	biotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	10_gaba	biotrophic	aerobic	7.078	52	162	0.321
+Biomass	10_gaba	biotrophic	aerobic	0.05	1	6	0.167
+Cell-wall polysaccharide	10_gaba	biotrophic	aerobic	0.114	9	18	0.5
+Cofactor / vitamin biosynthesis	10_gaba	biotrophic	aerobic	1.383	39	117	0.333
+Compatible solute / mannitol	10_gaba	biotrophic	aerobic	0.02	2	2	1.0
+Exchange	10_gaba	biotrophic	aerobic	12.397	10	170	0.059
+Fatty-acid biosynthesis	10_gaba	biotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	10_gaba	biotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	10_gaba	biotrophic	aerobic	7.533	22	58	0.379
+Lipid / membrane	10_gaba	biotrophic	aerobic	0.204	13	35	0.371
+Melanin / DHN	10_gaba	biotrophic	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	10_gaba	biotrophic	aerobic	0.335	8	21	0.381
+Other / unassigned	10_gaba	biotrophic	aerobic	36.89	212	576	0.368
+Oxidative phosphorylation / ETC	10_gaba	biotrophic	aerobic	22.389	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	10_gaba	biotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	10_gaba	biotrophic	aerobic	3.827	11	20	0.55
+Pentose-sugar catabolism	10_gaba	biotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	10_gaba	biotrophic	aerobic	0.0	1	1	1.0
+Storage (glycogen / trehalose)	10_gaba	biotrophic	aerobic	0.016	2	7	0.286
+Sulfur / nitrogen assimilation	10_gaba	biotrophic	aerobic	0.004	1	3	0.333
+TCA cycle	10_gaba	biotrophic	aerobic	7.122	14	34	0.412
+Transport (inter-compartmental)	10_gaba	biotrophic	aerobic	34.501	55	256	0.215
+β-oxidation (peroxisomal)	10_gaba	biotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	11_galacturonate	necrotrophic	aerobic	3.663	50	162	0.309
+Biomass	11_galacturonate	necrotrophic	aerobic	0.149	1	6	0.167
+Cell-wall polysaccharide	11_galacturonate	necrotrophic	aerobic	0.342	8	18	0.444
+Cofactor / vitamin biosynthesis	11_galacturonate	necrotrophic	aerobic	5.764	40	117	0.342
+Compatible solute / mannitol	11_galacturonate	necrotrophic	aerobic	0.06	2	2	1.0
+Exchange	11_galacturonate	necrotrophic	aerobic	42.192	10	170	0.059
+Fatty-acid biosynthesis	11_galacturonate	necrotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	11_galacturonate	necrotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	11_galacturonate	necrotrophic	aerobic	33.212	27	58	0.466
+Lipid / membrane	11_galacturonate	necrotrophic	aerobic	0.613	13	35	0.371
+Melanin / DHN	11_galacturonate	necrotrophic	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	11_galacturonate	necrotrophic	aerobic	1.008	8	21	0.381
+Other / unassigned	11_galacturonate	necrotrophic	aerobic	91.25	207	576	0.359
+Oxidative phosphorylation / ETC	11_galacturonate	necrotrophic	aerobic	49.115	7	24	0.292
+Pectin / D-galacturonate (Ashwell)	11_galacturonate	necrotrophic	aerobic	25.0	5	6	0.833
+Pentose phosphate pathway	11_galacturonate	necrotrophic	aerobic	23.567	15	20	0.75
+Pentose-sugar catabolism	11_galacturonate	necrotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	11_galacturonate	necrotrophic	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	11_galacturonate	necrotrophic	aerobic	0.048	2	7	0.286
+Sulfur / nitrogen assimilation	11_galacturonate	necrotrophic	aerobic	0.012	1	3	0.333
+TCA cycle	11_galacturonate	necrotrophic	aerobic	17.367	15	34	0.441
+Transport (inter-compartmental)	11_galacturonate	necrotrophic	aerobic	84.999	58	256	0.227
+β-oxidation (peroxisomal)	11_galacturonate	necrotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	11_galacturonate	necrotrophic	anaerobic	0.975	50	162	0.309
+Biomass	11_galacturonate	necrotrophic	anaerobic	0.02	1	6	0.167
+Cell-wall polysaccharide	11_galacturonate	necrotrophic	anaerobic	0.093	8	18	0.444
+Cofactor / vitamin biosynthesis	11_galacturonate	necrotrophic	anaerobic	4.948	39	117	0.333
+Compatible solute / mannitol	11_galacturonate	necrotrophic	anaerobic	0.008	2	2	1.0
+Exchange	11_galacturonate	necrotrophic	anaerobic	25.98	14	170	0.082
+Fatty-acid biosynthesis	11_galacturonate	necrotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	11_galacturonate	necrotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	11_galacturonate	necrotrophic	anaerobic	38.902	27	58	0.466
+Lipid / membrane	11_galacturonate	necrotrophic	anaerobic	0.059	11	35	0.314
+Melanin / DHN	11_galacturonate	necrotrophic	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	11_galacturonate	necrotrophic	anaerobic	0.138	8	21	0.381
+Other / unassigned	11_galacturonate	necrotrophic	anaerobic	11.46	206	576	0.358
+Oxidative phosphorylation / ETC	11_galacturonate	necrotrophic	anaerobic	0.145	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	11_galacturonate	necrotrophic	anaerobic	25.0	5	6	0.833
+Pentose phosphate pathway	11_galacturonate	necrotrophic	anaerobic	13.099	13	20	0.65
+Pentose-sugar catabolism	11_galacturonate	necrotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	11_galacturonate	necrotrophic	anaerobic	0.023	1	1	1.0
+Storage (glycogen / trehalose)	11_galacturonate	necrotrophic	anaerobic	0.007	2	7	0.286
+Sulfur / nitrogen assimilation	11_galacturonate	necrotrophic	anaerobic	0.025	1	3	0.333
+TCA cycle	11_galacturonate	necrotrophic	anaerobic	0.274	14	34	0.412
+Transport (inter-compartmental)	11_galacturonate	necrotrophic	anaerobic	20.588	63	256	0.246
+β-oxidation (peroxisomal)	11_galacturonate	necrotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	12_xylose	necrotrophic	aerobic	2.667	51	162	0.315
+Biomass	12_xylose	necrotrophic	aerobic	0.146	1	6	0.167
+Cell-wall polysaccharide	12_xylose	necrotrophic	aerobic	0.333	8	18	0.444
+Cofactor / vitamin biosynthesis	12_xylose	necrotrophic	aerobic	1.759	38	117	0.325
+Compatible solute / mannitol	12_xylose	necrotrophic	aerobic	0.058	2	2	1.0
+Exchange	12_xylose	necrotrophic	aerobic	34.263	9	170	0.053
+Fatty-acid biosynthesis	12_xylose	necrotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	12_xylose	necrotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	12_xylose	necrotrophic	aerobic	44.38	25	58	0.431
+Lipid / membrane	12_xylose	necrotrophic	aerobic	0.266	10	35	0.286
+Melanin / DHN	12_xylose	necrotrophic	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	12_xylose	necrotrophic	aerobic	0.984	8	21	0.381
+Other / unassigned	12_xylose	necrotrophic	aerobic	94.813	208	576	0.361
+Oxidative phosphorylation / ETC	12_xylose	necrotrophic	aerobic	47.265	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	12_xylose	necrotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	12_xylose	necrotrophic	aerobic	20.954	14	20	0.7
+Pentose-sugar catabolism	12_xylose	necrotrophic	aerobic	10.0	2	6	0.333
+Sink / demand	12_xylose	necrotrophic	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	12_xylose	necrotrophic	aerobic	0.047	2	7	0.286
+Sulfur / nitrogen assimilation	12_xylose	necrotrophic	aerobic	0.012	1	3	0.333
+TCA cycle	12_xylose	necrotrophic	aerobic	2.354	15	34	0.441
+Transport (inter-compartmental)	12_xylose	necrotrophic	aerobic	60.815	54	256	0.211
+β-oxidation (peroxisomal)	12_xylose	necrotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	12_xylose	necrotrophic	anaerobic	0.711	50	162	0.309
+Biomass	12_xylose	necrotrophic	anaerobic	0.015	1	6	0.167
+Cell-wall polysaccharide	12_xylose	necrotrophic	anaerobic	0.068	8	18	0.444
+Cofactor / vitamin biosynthesis	12_xylose	necrotrophic	anaerobic	2.821	41	117	0.35
+Compatible solute / mannitol	12_xylose	necrotrophic	anaerobic	0.006	2	2	1.0
+Exchange	12_xylose	necrotrophic	anaerobic	15.067	13	170	0.076
+Fatty-acid biosynthesis	12_xylose	necrotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	12_xylose	necrotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	12_xylose	necrotrophic	anaerobic	22.378	25	58	0.431
+Lipid / membrane	12_xylose	necrotrophic	anaerobic	0.043	11	35	0.314
+Melanin / DHN	12_xylose	necrotrophic	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	12_xylose	necrotrophic	anaerobic	0.101	8	21	0.381
+Other / unassigned	12_xylose	necrotrophic	anaerobic	10.84	208	576	0.361
+Oxidative phosphorylation / ETC	12_xylose	necrotrophic	anaerobic	0.105	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	12_xylose	necrotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	12_xylose	necrotrophic	anaerobic	6.423	12	20	0.6
+Pentose-sugar catabolism	12_xylose	necrotrophic	anaerobic	12.839	4	6	0.667
+Sink / demand	12_xylose	necrotrophic	anaerobic	0.017	1	1	1.0
+Storage (glycogen / trehalose)	12_xylose	necrotrophic	anaerobic	0.005	2	7	0.286
+Sulfur / nitrogen assimilation	12_xylose	necrotrophic	anaerobic	0.018	1	3	0.333
+TCA cycle	12_xylose	necrotrophic	anaerobic	0.2	14	34	0.412
+Transport (inter-compartmental)	12_xylose	necrotrophic	anaerobic	12.542	60	256	0.234
+β-oxidation (peroxisomal)	12_xylose	necrotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	13_arabinose	necrotrophic	aerobic	3.426	51	162	0.315
+Biomass	13_arabinose	necrotrophic	aerobic	0.14	1	6	0.167
+Cell-wall polysaccharide	13_arabinose	necrotrophic	aerobic	0.319	8	18	0.444
+Cofactor / vitamin biosynthesis	13_arabinose	necrotrophic	aerobic	3.794	39	117	0.333
+Compatible solute / mannitol	13_arabinose	necrotrophic	aerobic	0.056	2	2	1.0
+Exchange	13_arabinose	necrotrophic	aerobic	36.169	9	170	0.053
+Fatty-acid biosynthesis	13_arabinose	necrotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	13_arabinose	necrotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	13_arabinose	necrotrophic	aerobic	44.822	25	58	0.431
+Lipid / membrane	13_arabinose	necrotrophic	aerobic	0.255	10	35	0.286
+Melanin / DHN	13_arabinose	necrotrophic	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	13_arabinose	necrotrophic	aerobic	0.943	8	21	0.381
+Other / unassigned	13_arabinose	necrotrophic	aerobic	98.436	207	576	0.359
+Oxidative phosphorylation / ETC	13_arabinose	necrotrophic	aerobic	53.06	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	13_arabinose	necrotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	13_arabinose	necrotrophic	aerobic	26.126	14	20	0.7
+Pentose-sugar catabolism	13_arabinose	necrotrophic	aerobic	20.0	4	6	0.667
+Sink / demand	13_arabinose	necrotrophic	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	13_arabinose	necrotrophic	aerobic	0.045	2	7	0.286
+Sulfur / nitrogen assimilation	13_arabinose	necrotrophic	aerobic	0.011	1	3	0.333
+TCA cycle	13_arabinose	necrotrophic	aerobic	0.738	12	34	0.353
+Transport (inter-compartmental)	13_arabinose	necrotrophic	aerobic	63.126	57	256	0.223
+β-oxidation (peroxisomal)	13_arabinose	necrotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	14_maltose	necrotrophic	aerobic	6.668	51	162	0.315
+Biomass	14_maltose	necrotrophic	aerobic	0.364	1	6	0.167
+Cell-wall polysaccharide	14_maltose	necrotrophic	aerobic	0.833	8	18	0.444
+Cofactor / vitamin biosynthesis	14_maltose	necrotrophic	aerobic	6.036	39	117	0.333
+Compatible solute / mannitol	14_maltose	necrotrophic	aerobic	0.146	2	2	1.0
+Exchange	14_maltose	necrotrophic	aerobic	65.657	9	170	0.053
+Fatty-acid biosynthesis	14_maltose	necrotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	14_maltose	necrotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	14_maltose	necrotrophic	aerobic	128.102	30	58	0.517
+Lipid / membrane	14_maltose	necrotrophic	aerobic	1.055	11	35	0.314
+Melanin / DHN	14_maltose	necrotrophic	aerobic	0.002	7	7	1.0
+Nucleotide metabolism	14_maltose	necrotrophic	aerobic	2.459	8	21	0.381
+Other / unassigned	14_maltose	necrotrophic	aerobic	202.035	207	576	0.359
+Oxidative phosphorylation / ETC	14_maltose	necrotrophic	aerobic	101.914	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	14_maltose	necrotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	14_maltose	necrotrophic	aerobic	21.134	13	20	0.65
+Pentose-sugar catabolism	14_maltose	necrotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	14_maltose	necrotrophic	aerobic	0.003	1	1	1.0
+Storage (glycogen / trehalose)	14_maltose	necrotrophic	aerobic	0.118	2	7	0.286
+Sulfur / nitrogen assimilation	14_maltose	necrotrophic	aerobic	0.03	1	3	0.333
+TCA cycle	14_maltose	necrotrophic	aerobic	15.879	14	34	0.412
+Transport (inter-compartmental)	14_maltose	necrotrophic	aerobic	144.553	57	256	0.223
+β-oxidation (peroxisomal)	14_maltose	necrotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	14_maltose	necrotrophic	anaerobic	8.03	50	162	0.309
+Biomass	14_maltose	necrotrophic	anaerobic	0.074	1	6	0.167
+Cell-wall polysaccharide	14_maltose	necrotrophic	anaerobic	0.339	9	18	0.5
+Cofactor / vitamin biosynthesis	14_maltose	necrotrophic	anaerobic	20.626	41	117	0.35
+Compatible solute / mannitol	14_maltose	necrotrophic	anaerobic	0.03	2	2	1.0
+Exchange	14_maltose	necrotrophic	anaerobic	40.53	12	170	0.071
+Fatty-acid biosynthesis	14_maltose	necrotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	14_maltose	necrotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	14_maltose	necrotrophic	anaerobic	169.859	29	58	0.5
+Lipid / membrane	14_maltose	necrotrophic	anaerobic	0.215	11	35	0.314
+Melanin / DHN	14_maltose	necrotrophic	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	14_maltose	necrotrophic	anaerobic	0.5	8	21	0.381
+Other / unassigned	14_maltose	necrotrophic	anaerobic	24.41	204	576	0.354
+Oxidative phosphorylation / ETC	14_maltose	necrotrophic	anaerobic	2.002	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	14_maltose	necrotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	14_maltose	necrotrophic	anaerobic	4.884	11	20	0.55
+Pentose-sugar catabolism	14_maltose	necrotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	14_maltose	necrotrophic	anaerobic	0.085	1	1	1.0
+Storage (glycogen / trehalose)	14_maltose	necrotrophic	anaerobic	0.024	2	7	0.286
+Sulfur / nitrogen assimilation	14_maltose	necrotrophic	anaerobic	0.09	1	3	0.333
+TCA cycle	14_maltose	necrotrophic	anaerobic	1.929	14	34	0.412
+Transport (inter-compartmental)	14_maltose	necrotrophic	anaerobic	50.64	61	256	0.238
+β-oxidation (peroxisomal)	14_maltose	necrotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	15_mixed_aa	necrotrophic	aerobic	23.9	65	162	0.401
+Biomass	15_mixed_aa	necrotrophic	aerobic	0.142	1	6	0.167
+Cell-wall polysaccharide	15_mixed_aa	necrotrophic	aerobic	0.307	7	18	0.389
+Cofactor / vitamin biosynthesis	15_mixed_aa	necrotrophic	aerobic	7.238	35	117	0.299
+Compatible solute / mannitol	15_mixed_aa	necrotrophic	aerobic	0.057	2	2	1.0
+Exchange	15_mixed_aa	necrotrophic	aerobic	44.776	37	170	0.218
+Fatty-acid biosynthesis	15_mixed_aa	necrotrophic	aerobic	0.0	0	38	0.0
+GAM / maintenance	15_mixed_aa	necrotrophic	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	15_mixed_aa	necrotrophic	aerobic	16.23	22	58	0.379
+Lipid / membrane	15_mixed_aa	necrotrophic	aerobic	0.432	12	35	0.343
+Melanin / DHN	15_mixed_aa	necrotrophic	aerobic	0.001	7	7	1.0
+Nucleotide metabolism	15_mixed_aa	necrotrophic	aerobic	0.956	7	21	0.333
+Other / unassigned	15_mixed_aa	necrotrophic	aerobic	98.762	195	576	0.339
+Oxidative phosphorylation / ETC	15_mixed_aa	necrotrophic	aerobic	55.551	7	24	0.292
+Pectin / D-galacturonate (Ashwell)	15_mixed_aa	necrotrophic	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	15_mixed_aa	necrotrophic	aerobic	6.656	9	20	0.45
+Pentose-sugar catabolism	15_mixed_aa	necrotrophic	aerobic	0.0	0	6	0.0
+Sink / demand	15_mixed_aa	necrotrophic	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	15_mixed_aa	necrotrophic	aerobic	0.046	2	7	0.286
+Sulfur / nitrogen assimilation	15_mixed_aa	necrotrophic	aerobic	0.001	1	3	0.333
+TCA cycle	15_mixed_aa	necrotrophic	aerobic	16.132	14	34	0.412
+Transport (inter-compartmental)	15_mixed_aa	necrotrophic	aerobic	95.189	59	256	0.23
+β-oxidation (peroxisomal)	15_mixed_aa	necrotrophic	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	15_mixed_aa	necrotrophic	anaerobic	13.314	54	162	0.333
+Biomass	15_mixed_aa	necrotrophic	anaerobic	0.011	1	6	0.167
+Cell-wall polysaccharide	15_mixed_aa	necrotrophic	anaerobic	0.025	7	18	0.389
+Cofactor / vitamin biosynthesis	15_mixed_aa	necrotrophic	anaerobic	1.332	35	117	0.299
+Compatible solute / mannitol	15_mixed_aa	necrotrophic	anaerobic	0.005	2	2	1.0
+Exchange	15_mixed_aa	necrotrophic	anaerobic	13.16	34	170	0.2
+Fatty-acid biosynthesis	15_mixed_aa	necrotrophic	anaerobic	0.0	0	38	0.0
+GAM / maintenance	15_mixed_aa	necrotrophic	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	15_mixed_aa	necrotrophic	anaerobic	6.357	23	58	0.397
+Lipid / membrane	15_mixed_aa	necrotrophic	anaerobic	0.047	13	35	0.371
+Melanin / DHN	15_mixed_aa	necrotrophic	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	15_mixed_aa	necrotrophic	anaerobic	0.078	8	21	0.381
+Other / unassigned	15_mixed_aa	necrotrophic	anaerobic	8.016	182	576	0.316
+Oxidative phosphorylation / ETC	15_mixed_aa	necrotrophic	anaerobic	3.945	6	24	0.25
+Pectin / D-galacturonate (Ashwell)	15_mixed_aa	necrotrophic	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	15_mixed_aa	necrotrophic	anaerobic	0.76	11	20	0.55
+Pentose-sugar catabolism	15_mixed_aa	necrotrophic	anaerobic	0.0	0	6	0.0
+Sink / demand	15_mixed_aa	necrotrophic	anaerobic	0.013	1	1	1.0
+Storage (glycogen / trehalose)	15_mixed_aa	necrotrophic	anaerobic	0.004	2	7	0.286
+Sulfur / nitrogen assimilation	15_mixed_aa	necrotrophic	anaerobic	0.0	1	3	0.333
+TCA cycle	15_mixed_aa	necrotrophic	anaerobic	8.207	13	34	0.382
+Transport (inter-compartmental)	15_mixed_aa	necrotrophic	anaerobic	13.494	58	256	0.227
+β-oxidation (peroxisomal)	15_mixed_aa	necrotrophic	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	16_pre_infection_mix	cocktail	aerobic	1.702	51	162	0.315
+Biomass	16_pre_infection_mix	cocktail	aerobic	0.069	1	6	0.167
+Cell-wall polysaccharide	16_pre_infection_mix	cocktail	aerobic	0.159	8	18	0.444
+Cofactor / vitamin biosynthesis	16_pre_infection_mix	cocktail	aerobic	4.224	38	117	0.325
+Compatible solute / mannitol	16_pre_infection_mix	cocktail	aerobic	0.028	2	2	1.0
+Exchange	16_pre_infection_mix	cocktail	aerobic	10.928	11	170	0.065
+Fatty-acid biosynthesis	16_pre_infection_mix	cocktail	aerobic	0.0	0	38	0.0
+GAM / maintenance	16_pre_infection_mix	cocktail	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	16_pre_infection_mix	cocktail	aerobic	5.918	25	58	0.431
+Lipid / membrane	16_pre_infection_mix	cocktail	aerobic	0.127	10	35	0.286
+Melanin / DHN	16_pre_infection_mix	cocktail	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	16_pre_infection_mix	cocktail	aerobic	0.465	8	21	0.381
+Other / unassigned	16_pre_infection_mix	cocktail	aerobic	46.752	212	576	0.368
+Oxidative phosphorylation / ETC	16_pre_infection_mix	cocktail	aerobic	19.873	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	16_pre_infection_mix	cocktail	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	16_pre_infection_mix	cocktail	aerobic	5.242	15	20	0.75
+Pentose-sugar catabolism	16_pre_infection_mix	cocktail	aerobic	0.0	0	6	0.0
+Sink / demand	16_pre_infection_mix	cocktail	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	16_pre_infection_mix	cocktail	aerobic	0.619	3	7	0.429
+Sulfur / nitrogen assimilation	16_pre_infection_mix	cocktail	aerobic	0.006	1	3	0.333
+TCA cycle	16_pre_infection_mix	cocktail	aerobic	6.896	16	34	0.471
+Transport (inter-compartmental)	16_pre_infection_mix	cocktail	aerobic	40.789	62	256	0.242
+β-oxidation (peroxisomal)	16_pre_infection_mix	cocktail	aerobic	7.945	4	54	0.074
+Amino-acid metabolism	16_pre_infection_mix	cocktail	anaerobic	0.969	50	162	0.309
+Biomass	16_pre_infection_mix	cocktail	anaerobic	0.005	1	6	0.167
+Cell-wall polysaccharide	16_pre_infection_mix	cocktail	anaerobic	0.023	9	18	0.5
+Cofactor / vitamin biosynthesis	16_pre_infection_mix	cocktail	anaerobic	1.651	38	117	0.325
+Compatible solute / mannitol	16_pre_infection_mix	cocktail	anaerobic	0.002	2	2	1.0
+Exchange	16_pre_infection_mix	cocktail	anaerobic	3.378	14	170	0.082
+Fatty-acid biosynthesis	16_pre_infection_mix	cocktail	anaerobic	0.0	0	38	0.0
+GAM / maintenance	16_pre_infection_mix	cocktail	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	16_pre_infection_mix	cocktail	anaerobic	11.958	26	58	0.448
+Lipid / membrane	16_pre_infection_mix	cocktail	anaerobic	0.015	10	35	0.286
+Melanin / DHN	16_pre_infection_mix	cocktail	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	16_pre_infection_mix	cocktail	anaerobic	0.034	8	21	0.381
+Other / unassigned	16_pre_infection_mix	cocktail	anaerobic	2.004	205	576	0.356
+Oxidative phosphorylation / ETC	16_pre_infection_mix	cocktail	anaerobic	0.317	6	24	0.25
+Pectin / D-galacturonate (Ashwell)	16_pre_infection_mix	cocktail	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	16_pre_infection_mix	cocktail	anaerobic	1.122	13	20	0.65
+Pentose-sugar catabolism	16_pre_infection_mix	cocktail	anaerobic	0.0	0	6	0.0
+Sink / demand	16_pre_infection_mix	cocktail	anaerobic	0.006	1	1	1.0
+Storage (glycogen / trehalose)	16_pre_infection_mix	cocktail	anaerobic	0.601	3	7	0.429
+Sulfur / nitrogen assimilation	16_pre_infection_mix	cocktail	anaerobic	0.006	1	3	0.333
+TCA cycle	16_pre_infection_mix	cocktail	anaerobic	0.275	14	34	0.412
+Transport (inter-compartmental)	16_pre_infection_mix	cocktail	anaerobic	3.783	67	256	0.262
+β-oxidation (peroxisomal)	16_pre_infection_mix	cocktail	anaerobic	0.021	4	54	0.074
+Amino-acid metabolism	17_biotrophic_mix	cocktail	aerobic	3.528	56	162	0.346
+Biomass	17_biotrophic_mix	cocktail	aerobic	0.063	1	6	0.167
+Cell-wall polysaccharide	17_biotrophic_mix	cocktail	aerobic	0.143	8	18	0.444
+Cofactor / vitamin biosynthesis	17_biotrophic_mix	cocktail	aerobic	3.549	40	117	0.342
+Compatible solute / mannitol	17_biotrophic_mix	cocktail	aerobic	0.025	2	2	1.0
+Exchange	17_biotrophic_mix	cocktail	aerobic	14.045	14	170	0.082
+Fatty-acid biosynthesis	17_biotrophic_mix	cocktail	aerobic	0.0	0	38	0.0
+GAM / maintenance	17_biotrophic_mix	cocktail	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	17_biotrophic_mix	cocktail	aerobic	6.748	27	58	0.466
+Lipid / membrane	17_biotrophic_mix	cocktail	aerobic	0.257	13	35	0.371
+Melanin / DHN	17_biotrophic_mix	cocktail	aerobic	0.0	7	7	1.0
+Nucleotide metabolism	17_biotrophic_mix	cocktail	aerobic	0.42	7	21	0.333
+Other / unassigned	17_biotrophic_mix	cocktail	aerobic	36.367	206	576	0.358
+Oxidative phosphorylation / ETC	17_biotrophic_mix	cocktail	aerobic	19.056	7	24	0.292
+Pectin / D-galacturonate (Ashwell)	17_biotrophic_mix	cocktail	aerobic	0.0	0	6	0.0
+Pentose phosphate pathway	17_biotrophic_mix	cocktail	aerobic	4.35	12	20	0.6
+Pentose-sugar catabolism	17_biotrophic_mix	cocktail	aerobic	0.0	0	6	0.0
+Sink / demand	17_biotrophic_mix	cocktail	aerobic	0.001	1	1	1.0
+Storage (glycogen / trehalose)	17_biotrophic_mix	cocktail	aerobic	0.02	2	7	0.286
+Sulfur / nitrogen assimilation	17_biotrophic_mix	cocktail	aerobic	0.005	1	3	0.333
+TCA cycle	17_biotrophic_mix	cocktail	aerobic	5.722	12	34	0.353
+Transport (inter-compartmental)	17_biotrophic_mix	cocktail	aerobic	37.925	60	256	0.234
+β-oxidation (peroxisomal)	17_biotrophic_mix	cocktail	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	17_biotrophic_mix	cocktail	anaerobic	5.432	51	162	0.315
+Biomass	17_biotrophic_mix	cocktail	anaerobic	0.009	1	6	0.167
+Cell-wall polysaccharide	17_biotrophic_mix	cocktail	anaerobic	0.043	9	18	0.5
+Cofactor / vitamin biosynthesis	17_biotrophic_mix	cocktail	anaerobic	1.297	38	117	0.325
+Compatible solute / mannitol	17_biotrophic_mix	cocktail	anaerobic	0.004	2	2	1.0
+Exchange	17_biotrophic_mix	cocktail	anaerobic	7.299	19	170	0.112
+Fatty-acid biosynthesis	17_biotrophic_mix	cocktail	anaerobic	0.0	0	38	0.0
+GAM / maintenance	17_biotrophic_mix	cocktail	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	17_biotrophic_mix	cocktail	anaerobic	10.435	28	58	0.483
+Lipid / membrane	17_biotrophic_mix	cocktail	anaerobic	0.027	10	35	0.286
+Melanin / DHN	17_biotrophic_mix	cocktail	anaerobic	0.0	7	7	1.0
+Nucleotide metabolism	17_biotrophic_mix	cocktail	anaerobic	0.063	8	21	0.381
+Other / unassigned	17_biotrophic_mix	cocktail	anaerobic	5.217	202	576	0.351
+Oxidative phosphorylation / ETC	17_biotrophic_mix	cocktail	anaerobic	2.499	7	24	0.292
+Pectin / D-galacturonate (Ashwell)	17_biotrophic_mix	cocktail	anaerobic	0.0	0	6	0.0
+Pentose phosphate pathway	17_biotrophic_mix	cocktail	anaerobic	1.097	12	20	0.6
+Pentose-sugar catabolism	17_biotrophic_mix	cocktail	anaerobic	0.0	0	6	0.0
+Sink / demand	17_biotrophic_mix	cocktail	anaerobic	0.011	1	1	1.0
+Storage (glycogen / trehalose)	17_biotrophic_mix	cocktail	anaerobic	0.003	2	7	0.286
+Sulfur / nitrogen assimilation	17_biotrophic_mix	cocktail	anaerobic	0.011	1	3	0.333
+TCA cycle	17_biotrophic_mix	cocktail	anaerobic	5.025	17	34	0.5
+Transport (inter-compartmental)	17_biotrophic_mix	cocktail	anaerobic	10.571	62	256	0.242
+β-oxidation (peroxisomal)	17_biotrophic_mix	cocktail	anaerobic	0.0	0	54	0.0
+Amino-acid metabolism	18_necrotrophic_mix	cocktail	aerobic	9.43	63	162	0.389
+Biomass	18_necrotrophic_mix	cocktail	aerobic	0.446	1	6	0.167
+Cell-wall polysaccharide	18_necrotrophic_mix	cocktail	aerobic	0.96	7	18	0.389
+Cofactor / vitamin biosynthesis	18_necrotrophic_mix	cocktail	aerobic	3.317	33	117	0.282
+Compatible solute / mannitol	18_necrotrophic_mix	cocktail	aerobic	0.178	2	2	1.0
+Exchange	18_necrotrophic_mix	cocktail	aerobic	81.385	41	170	0.241
+Fatty-acid biosynthesis	18_necrotrophic_mix	cocktail	aerobic	0.0	0	38	0.0
+GAM / maintenance	18_necrotrophic_mix	cocktail	aerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	18_necrotrophic_mix	cocktail	aerobic	112.081	27	58	0.466
+Lipid / membrane	18_necrotrophic_mix	cocktail	aerobic	0.814	10	35	0.286
+Melanin / DHN	18_necrotrophic_mix	cocktail	aerobic	0.003	7	7	1.0
+Nucleotide metabolism	18_necrotrophic_mix	cocktail	aerobic	3.01	8	21	0.381
+Other / unassigned	18_necrotrophic_mix	cocktail	aerobic	241.899	198	576	0.344
+Oxidative phosphorylation / ETC	18_necrotrophic_mix	cocktail	aerobic	124.731	8	24	0.333
+Pectin / D-galacturonate (Ashwell)	18_necrotrophic_mix	cocktail	aerobic	5.0	5	6	0.833
+Pentose phosphate pathway	18_necrotrophic_mix	cocktail	aerobic	29.621	11	20	0.55
+Pentose-sugar catabolism	18_necrotrophic_mix	cocktail	aerobic	4.0	5	6	0.833
+Sink / demand	18_necrotrophic_mix	cocktail	aerobic	0.004	1	1	1.0
+Storage (glycogen / trehalose)	18_necrotrophic_mix	cocktail	aerobic	0.144	2	7	0.286
+Sulfur / nitrogen assimilation	18_necrotrophic_mix	cocktail	aerobic	0.004	1	3	0.333
+TCA cycle	18_necrotrophic_mix	cocktail	aerobic	21.164	14	34	0.412
+Transport (inter-compartmental)	18_necrotrophic_mix	cocktail	aerobic	186.527	60	256	0.234
+β-oxidation (peroxisomal)	18_necrotrophic_mix	cocktail	aerobic	0.0	0	54	0.0
+Amino-acid metabolism	18_necrotrophic_mix	cocktail	anaerobic	5.774	54	162	0.333
+Biomass	18_necrotrophic_mix	cocktail	anaerobic	0.088	1	6	0.167
+Cell-wall polysaccharide	18_necrotrophic_mix	cocktail	anaerobic	0.19	7	18	0.389
+Cofactor / vitamin biosynthesis	18_necrotrophic_mix	cocktail	anaerobic	15.688	33	117	0.282
+Compatible solute / mannitol	18_necrotrophic_mix	cocktail	anaerobic	0.035	2	2	1.0
+Exchange	18_necrotrophic_mix	cocktail	anaerobic	46.442	39	170	0.229
+Fatty-acid biosynthesis	18_necrotrophic_mix	cocktail	anaerobic	0.0	0	38	0.0
+GAM / maintenance	18_necrotrophic_mix	cocktail	anaerobic	0.0	0	1	0.0
+Glycolysis / gluconeogenesis	18_necrotrophic_mix	cocktail	anaerobic	136.527	28	58	0.483
+Lipid / membrane	18_necrotrophic_mix	cocktail	anaerobic	0.256	11	35	0.314
+Melanin / DHN	18_necrotrophic_mix	cocktail	anaerobic	0.001	7	7	1.0
+Nucleotide metabolism	18_necrotrophic_mix	cocktail	anaerobic	0.597	8	21	0.381
+Other / unassigned	18_necrotrophic_mix	cocktail	anaerobic	26.048	184	576	0.319
+Oxidative phosphorylation / ETC	18_necrotrophic_mix	cocktail	anaerobic	1.859	5	24	0.208
+Pectin / D-galacturonate (Ashwell)	18_necrotrophic_mix	cocktail	anaerobic	5.0	5	6	0.833
+Pentose phosphate pathway	18_necrotrophic_mix	cocktail	anaerobic	6.761	13	20	0.65
+Pentose-sugar catabolism	18_necrotrophic_mix	cocktail	anaerobic	2.969	4	6	0.667
+Sink / demand	18_necrotrophic_mix	cocktail	anaerobic	0.101	1	1	1.0
+Storage (glycogen / trehalose)	18_necrotrophic_mix	cocktail	anaerobic	0.029	2	7	0.286
+Sulfur / nitrogen assimilation	18_necrotrophic_mix	cocktail	anaerobic	0.001	1	3	0.333
+TCA cycle	18_necrotrophic_mix	cocktail	anaerobic	2.0	12	34	0.353
+Transport (inter-compartmental)	18_necrotrophic_mix	cocktail	anaerobic	56.528	61	256	0.238
+β-oxidation (peroxisomal)	18_necrotrophic_mix	cocktail	anaerobic	0.0	0	54	0.0

@@ -1,0 +1,375 @@
+metabolite_id	name	compartment	formula	k_reactions	z_reporter	p_one_sided
+cpd11421_c0	trdrd	c0	C10H15N4O4R4S2	11	6.272	0.0
+cpd11420_c0	trdox	c0	C10H13N4O4R4S2	11	6.272	0.0
+cpd00067_m0	H+	m0	H	93	5.727	0.0
+cpd00004_m0	NADH	m0	C21H27N7O14P2	25	5.532	0.0
+cpd00003_m0	NAD	m0	C21H26N7O14P2	26	5.365	0.0
+cpd00102_c0	Glyceraldehyde3-phosphate	c0	C3H6O6P	8	5.025	0.0
+cpd00067_e0	H+	e0	H	53	-4.812	0.0
+cpd00070_c0	Malonyl-CoA_c0	c0	C24H33N7O19P3S	11	4.787	0.0
+cpd00001_m0	H2O	m0	H2O	46	4.292	0.0
+cpd00006_m0	NADP	m0	C21H26N7O17P3	27	4.14	0.0
+cpd00005_m0	NADPH	m0	C21H27N7O17P3	27	4.14	0.0
+cpd00011_m0	CO2	m0	CO2	30	4.134	0.0
+cpd00110_m0	Cytochrome c2+	m0	C42H54FeN8O6S2	6	3.998	0.0
+cpd00109_m0	Cytochrome c3+	m0	C42H54FeN8O6S2	6	3.998	0.0
+cpd00011_c0	CO2	c0	CO2	46	3.967	0.0
+cpd11493_m0	ACP_m0	m0	C11H22N2O7PRS	12	3.958	0.0
+cpd00071_c0	Acetaldehyde	c0	C2H4O	8	3.928	0.0
+cpd16874_c0	2-methylpropanal_c0	c0	C4H8O	3	3.904	0.0
+cpd11492_m0	Malonyl-acyl-carrierprotein-_m0	m0	C14H24N2O10PRS	11	3.789	0.0001
+cpd00004_c0	NADH	c0	C21H27N7O14P2	40	3.713	0.0001
+cpd15241_c0	Hexacosanoyl-CoA_c0	c0	C47H83N7O17P3S	5	-3.673	0.0001
+cpd00003_c0	NAD	c0	C21H26N7O14P2	43	3.656	0.0001
+cpd00001_e0	H2O	e0	H2O	18	-3.479	0.0003
+cpd00486_c0	Indoleacetaldehyde	c0	C10H9NO	3	3.23	0.0006
+cpd00236_c0	D-Erythrose4-phosphate	c0	C4H8O7P	4	3.154	0.0008
+cpd15269_e0	octadecenoate_e0	e0	C18H33O2	7	-3.137	0.0009
+cpd03847_e0	Myristic acid_e0	e0	C14H27O2	7	-3.137	0.0009
+cpd01080_e0	ocdca_e0	e0	C18H35O2	7	-3.137	0.0009
+cpd15237_e0	hexadecenoate_e0	e0	C16H29O2	7	-3.137	0.0009
+cpd00214_e0	Palmitate_e0	e0	C16H31O2	7	-3.137	0.0009
+cpd16887_c0	mannose-1D-myo-Inositol 1-phosphate_c0	c0	C12H21O14P	6	-3.132	0.0009
+cpd16886_c0	Mannose-(inositol-P)2_c0	c0	C18H31O22P2	6	-3.132	0.0009
+cpd00072_c0	D-fructose-6-phosphate	c0	C6H12O9P	10	3.087	0.001
+cpd00095_c0	Glycerone-phosphate	c0	C3H6O6P	8	3.045	0.0012
+cpd00305_c0	Thiamin_c0	c0	C12H17N4OS	3	-2.829	0.0023
+cpd15240_e0	hexacosanoate_e0	e0	C26H51O2	5	-2.788	0.0027
+cpd00867_c0	Inositol 1-phosphate	c0	C6H12O9P	8	-2.765	0.0028
+cpd00013_c0	NH3	c0	H4N	37	-2.701	0.0035
+cpd00902_e0	sn-glycero-3-Phospho-1-inositol_e0	e0	C9H18O11P	3	-2.686	0.0036
+cpd15287_c0	phosphatidyl-1D-myo-3-inositol, yeast-specific_c0	c0	C11H16O16P2R2	4	-2.669	0.0038
+cpd00033_m0	Glycine_m0	m0	C2H5NO2	5	2.65	0.004
+cpd00007_m0	O2	m0	O2	10	2.626	0.0043
+cpd11822_c0	1-Phosphatidyl-myo-inositol_c0	c0	C11H16O13PR2	15	-2.602	0.0046
+cpd00282_c0	S-Dihydroorotate_c0	c0	C5H5N2O4	4	-2.592	0.0048
+cpd00012_m0	PPi	m0	H2O7P2	28	-2.564	0.0052
+cpd00007_e0	O2	e0	O2	5	-2.536	0.0056
+cpd00020_c0	Pyruvate	c0	C3H3O3	13	2.494	0.0063
+cpd15192_c0	1,2-Diacylglycerol, yeast-specific_c0	c0	C5H6O5R2	25	-2.39	0.0084
+cpd00247_c0	Orotate_c0	c0	C5H3N2O4	4	-2.39	0.0084
+cpd13384_c0	1-Phosphatidyl-1D-myo-inositol 3,5-bisphosphate_c0	c0	C11H16O19P3R2	3	-2.374	0.0088
+cpd00025_m0	H2O2_m0	m0	H2O2	3	2.371	0.0089
+cpd00978_c0	dUDP_c0	c0	C9H12N2O11P2	3	2.364	0.009
+cpd01170_c0	Ergosterol_c0	c0	C28H44O	3	-2.358	0.0092
+cpd00290_c0	D-fructose-1,6-bisphosphate	c0	C6H12O12P2	3	2.351	0.0094
+cpd15240_c0	hexacosanoate_c0	c0	C26H51O2	6	-2.294	0.0109
+cpd15277_m0	Palmitoyl-ACP_m0	m0	C27H51N2O8PRS	4	2.285	0.0112
+cpd00238_c0	Sedoheptulose7-phosphate	c0	C7H14O10P	3	2.26	0.0119
+cpd00036_c0	Succinate	c0	C4H4O4	9	-2.25	0.0122
+cpd00115_c0	dATP_c0	c0	C10H13N5O12P3	3	2.227	0.013
+cpd00295_c0	dGDP_c0	c0	C10H13N5O10P2	3	2.227	0.013
+cpd00388_c0	Allantoate_c0	c0	C4H7N4O4	3	-2.217	0.0133
+cpd00017_c0	S-Adenosyl-L-methionine_c0	c0	C15H23N6O5S	17	-2.159	0.0154
+cpd00032_m0	Oxaloacetate	m0	C4H2O5	4	2.135	0.0164
+cpd00169_c0	3-Phosphoglycerate	c0	C3H5O7P	3	2.12	0.017
+ptd1ino-SC-c_c0	Phosphatidyl 1D myo inositol  yeast specific C4140H7644O1300P100	c0		9	-2.113	0.0173
+cpd00533_c0	dCDP_c0	c0	C9H13N3O10P2	3	2.051	0.0201
+cpd00006_c0	NADP	c0	C21H25N7O17P3	76	2.036	0.0209
+cpd00005_c0	NADPH	c0	C21H26N7O17P3	76	2.036	0.0209
+cpd00018_m0	AMP	m0	C10H13N5O7P	17	-2.024	0.0215
+cpd15221_c0	Ceramide-1 Sphinganine:n-C26:0)_c0	c0	C44H89NO3	6	-2.018	0.0218
+cpd15227_c0	Ceramide-3 Phytosphingosine:n-C26:0OH)_c0	c0	C44H89NO5	6	-2.018	0.0218
+cpd15226_c0	Ceramide-3 Phytosphingosine:n-C24:0OH)_c0	c0	C42H85NO5	6	-2.018	0.0218
+cpd00177_c0	dADP_c0	c0	C10H13N5O9P2	4	2.013	0.022
+cpd11468_m0	Dodecanoyl-ACP_m0	m0	C23H44N2O8PRS	3	1.979	0.0239
+cpd27551_m0	Myristoyl-ACPs_m0	m0	C25H48N2O8PRS	3	1.979	0.0239
+cpd00507_c0	Glycerophosphocholine_c0	c0	C8H20NO6P	3	-1.969	0.0245
+cpd15238_c0	Hexadecenoyl-CoA_c0	c0	C37H61N7O17P3S	15	-1.968	0.0245
+cpd00073_c0	Urea_c0	c0	CH4N2O	4	-1.967	0.0246
+cpd03309_e0		e0		3	-1.964	0.0248
+cpd11493_c0	ACP_c0	c0	C11H22N2O7PRS	10	1.941	0.0261
+cpd00079_c0	D-glucose-6-phosphate	c0	C6H12O9P	7	1.928	0.0269
+cpd00464_c0	alpha-Tolualdehyde_c0	c0	C8H8O	3	1.91	0.0281
+cpd01499_c0	2-Methylbutanal_c0	c0	C5H10O	3	1.91	0.0281
+cpd00668_m0	ALCTT_m0	m0	C5H7O4	3	1.903	0.0285
+cpd15274_c0	Octadecenoyl-CoA_c0	c0	C39H65N7O17P3S	16	-1.895	0.029
+cpd00007_c0	O2	c0	O2	42	1.887	0.0296
+cpd00125_m0	5-10-Methylenetetrahydrofolate_m0	m0	C20H21N7O6	5	1.847	0.0324
+cpd15224_c0	Ceramide-2 Phytosphingosine:n-C24:0)_c0	c0	C42H85NO4	7	-1.819	0.0345
+cpd15225_c0	Ceramide-2 Phytosphingosine:n-C26:0)_c0	c0	C44H89NO4	7	-1.819	0.0345
+cpd00123_c0	3-Methyl-2-oxobutanoate_c0	c0	C5H7O3	4	1.803	0.0357
+cpd00062_c0	UTP	c0	C9H12N2O15P3	10	1.798	0.0361
+cpd15220_c0	Ceramide-1 Sphinganine:n-C24:0)_c0	c0	C42H85NO3	7	-1.774	0.038
+cpd00863_c0	beta-D-Glucose 6-phosphate	c0	C6H12O9P	3	1.756	0.0395
+cpd00171_c0	D-Ribulose5-phosphate	c0	C5H10O8P	5	1.737	0.0412
+cpd00705_c0	L-2-Aminoadipate_c0	c0	C6H10NO4	4	-1.714	0.0433
+cpd00198_c0	D-Xylulose5-phosphate	c0	C5H10O8P	4	1.71	0.0436
+cpd00347_c0	5-10-Methenyltetrahydrofolate_c0	c0	C20H20N7O6	4	-1.705	0.0441
+cpd00206_c0	dCMP_c0	c0	C9H12N3O7P	3	-1.701	0.0445
+cpd00013_m0	NH3_m0	m0	H4N	5	1.685	0.046
+cpd00050_c0	FMN_c0	c0	C17H18N4O9P	5	-1.683	0.0462
+cpd00061_c0	Phosphoenolpyruvate	c0	C3H3O6P	6	1.681	0.0464
+cpd00009_c0	Phosphate	c0	HO4P	83	-1.67	0.0474
+cpd11829_c0	Phosphatidyl-N-methylethanolamine_c0	c0	C8H13NO8PR2	3	-1.669	0.0475
+cpd15288_c0	phosphatidyl-1D-myo-4-inositol, yeast specific_c0	c0	C11H16O16P2R2	4	-1.667	0.0478
+cpd00009_e0	Phosphate	e0	HO4P	3	1.607	0.0541
+cpd00213_m0	Lipoamide	m0	C8H15NOS2	3	1.595	0.0553
+cpd00022_x0	Acetyl-CoA_x0	x0	C23H34N7O17P3S	25	1.576	0.0575
+cpd00002_m0	ATP	m0	C10H13N5O13P3	30	-1.57	0.0583
+cpd00098_c0	Choline_c0	c0	C5H14NO	4	-1.542	0.0615
+cpd00032_x0	Oxaloacetate	x0	C4H2O5	3	1.534	0.0625
+cpd00047_c0	Formate_c0	c0	CHO2	12	1.522	0.064
+cpd00019_c0	S-Adenosyl-homocysteine_c0	c0	C14H20N6O5S	14	-1.522	0.064
+cpd00943_c0	Inositol 1,3,4,5,6-pentakisphosphate_c0	c0	C6H12O21P5	3	-1.51	0.0655
+cpd00042_m0	GSH_m0	m0	C10H16N3O6S	3	1.472	0.0704
+cpd11255_c0		c0		3	1.469	0.0709
+cpd00096_c0	CDP_c0	c0	C9H13N3O11P2	5	1.459	0.0722
+cpd15244_c0	Inositol phosphorylceramide, ceramide-1 (26C), yeast-specific_c0	c0	C50H99NO11P	3	-1.454	0.073
+cpd15248_c0	Inositol phosphorylceramide, ceramide-3 (26C), yeast-specific_c0	c0	C50H99NO13P	3	-1.454	0.073
+cpd15245_c0	Inositol phosphorylceramide, ceramide-2 (24C), yeast-specific_c0	c0	C48H95NO12P	3	-1.454	0.073
+cpd15246_c0	Inositol phosphorylceramide, ceramide-2 (26C), yeast-specific_c0	c0	C50H99NO12P	3	-1.454	0.073
+cpd15247_c0	Inositol phosphorylceramide, ceramide-3 (24C), yeast-specific_c0	c0	C48H95NO13P	3	-1.454	0.073
+cpd15243_c0	Inositol phosphorylceramide, ceramide-1 (24C), yeast-specific_c0	c0	C48H95NO11P	3	-1.454	0.073
+cpd00299_c0	dUMP_c0	c0	C9H11N2O8P	4	-1.444	0.0743
+cpd00032_c0	Oxaloacetate	c0	C4H2O5	4	1.444	0.0743
+cpd05235_x0	tetracosanoate_x0	x0	C24H47O2	3	-1.42	0.0779
+cpd00201_m0	10-Formyltetrahydrofolate_m0	m0	C20H21N7O7	3	-1.401	0.0806
+cpd00046_c0	CMP_c0	c0	C9H12N3O8P	9	-1.372	0.085
+cpd00029_m0	Acetate	m0	C2H3O2	3	1.371	0.0852
+cpd00644_c0	PAN_c0	c0	C9H16NO5	3	-1.368	0.0856
+cpd03223_c0	5,7,22,24(28)-Ergostatetraenol_c0	c0	C28H42O	3	1.348	0.0888
+cpd14515_c0	5,7,24(28)-Ergostatrienol_c0	c0	C28H45O	3	1.348	0.0888
+cpd00161_c0	L-Threonine_c0	c0	C4H9NO3	5	-1.33	0.0918
+cpd00114_c0	IMP_c0	c0	C10H11N4O8P	7	-1.32	0.0934
+cpd00356_c0	dCTP_c0	c0	C9H13N3O13P3	3	1.319	0.0936
+cpd00358_c0	dUTP_c0	c0	C9H12N2O14P3	3	1.319	0.0936
+cpd00982_m0	FADH2	m0	C27H33N9O15P2	4	1.31	0.0951
+cpd00793_c0	Thiamine phosphate_c0	c0	C12H16N4O4PS	3	-1.305	0.096
+cpd00906_m0	all-trans-Hexaprenyl diphosphate_m0	m0	C30H50O7P2	5	-1.3	0.0967
+cpd15212_c0	intermediate-methylzymosterol-I_c0	c0	C29H45O3	3	1.276	0.101
+cpd00221_c0	D-Lactate_c0	c0	C3H5O3	3	1.269	0.1022
+cpd00020_m0	Pyruvate	m0	C3H3O3	9	1.263	0.1032
+cpd00126_c0	GMP_c0	c0	C10H12N5O8P	7	-1.258	0.1041
+cpd01695_c0	Myristoyl-CoA_c0	c0	C35H58N7O17P3S	17	-1.249	0.1058
+cpd01080_c0	ocdca_c0	c0	C18H35O2	9	-1.23	0.1093
+cpd03847_c0	Myristic acid_c0	c0	C14H27O2	10	-1.218	0.1116
+cpd15237_c0	hexadecenoate_c0	c0	C16H29O2	10	-1.218	0.1116
+cpd00081_c0	Sulfite_c0	c0	HO3S	4	-1.197	0.1157
+cpd00954_m0	6-hydroxymethyl dihydropterin_m0	m0	C7H9N5O2	3	-1.197	0.1157
+cpd00010_c0	CoA	c0	C21H33N7O16P3S	48	1.182	0.1187
+cpd00009_x0	Phosphate_x0	x0	HO4P	7	-1.171	0.1208
+cpd00014_c0	UDP	c0	C9H12N2O12P2	13	1.17	0.1209
+cpd00056_c0	TPP	c0	C12H17N4O7P2S	3	-1.142	0.1268
+cpd00288_c0	D-Glucosamine phosphate_c0	c0	C6H13NO8P	3	1.142	0.1268
+cpd00022_c0	Acetyl-CoA	c0	C23H35N7O17P3S	13	1.134	0.1283
+cpd01260_c0	Lauroyl-CoA_c0	c0	C33H54N7O17P3S	9	1.128	0.1296
+cpd03128_c0	Decanoyl-CoA_c0	c0	C31H50N7O17P3S	9	1.128	0.1296
+cpd00084_c0	L-Cysteine_c0	c0	C3H7NO2S	10	-1.127	0.1298
+cpd15276_c0	Phosphatidate, yeast-specific_c0	c0	C5H6O8PR2	6	-1.111	0.1332
+cpd00089_c0	Glucose-1-phosphate	c0	C6H12O9P	4	1.099	0.1358
+cpd02611_c0	N-Acetyl-D-glucosamine1-phosphate_c0	c0	C8H14NO9P	3	1.096	0.1365
+cpd00060_c0	L-Methionine_c0	c0	C5H11NO2S	9	-1.095	0.1369
+cpd15290_m0	Ubiquinone-6	m0	C39H58O4	9	1.081	0.1399
+cpd00022_m0	Acetyl-CoA	m0	C23H35N7O17P3S	11	1.079	0.1404
+cpd00015_m0	FAD	m0	C27H31N9O15P2	6	1.049	0.1471
+cpd02894_c0	4-Amino-2-methyl-5-diphosphomethylpyrimidine_c0	c0	C6H9N3O7P2	3	-1.049	0.1471
+cpd00092_c0	Uracil_c0	c0	C4H4N2O2	4	-1.046	0.1478
+cpd00294_c0	dAMP_c0	c0	C10H12N5O6P	3	-1.046	0.1478
+cpd00019_m0	S-Adenosyl-homocysteine_m0	m0	C14H20N6O5S	3	1.045	0.148
+cpd00130_m0	L-Malate	m0	C4H4O5	6	1.038	0.1495
+cpd00087_m0	Tetrahydrofolate_m0	m0	C19H21N7O6	7	1.031	0.1512
+cpd00868_c0	p-hydroxyphenylpyruvate_c0	c0	C9H7O4	3	1.014	0.1553
+cpd00207_c0	Guanine_c0	c0	C5H5N5O	4	-1.013	0.1556
+cpd00201_c0	10-Formyltetrahydrofolate_c0	c0	C20H21N7O7	5	-1.012	0.1557
+cpd29685_m0	cdpdag_BS_m0	m0		4	-1.01	0.1563
+cpd00218_c0	Niacin_c0	c0	C6H4NO2	3	-0.993	0.1603
+cpd00009_m0	Phosphate	m0	HO4P	14	0.985	0.1623
+cpd00266_c0	Carnitine_c0	c0	C7H15NO3	3	-0.983	0.1629
+cpd19016_c0	Ornithine_c0	c0	C5H13N2O2	5	0.978	0.1641
+cpd00239_c0	H2S_c0	c0	HS	5	-0.953	0.1703
+cpd00010_m0	CoA	m0	C21H33N7O16P3S	20	0.951	0.1708
+cpd11624_c0	Lecithin_c0	c0	C10H18NO8PR2	6	-0.949	0.1713
+cpd00869_c0	4-methylthio 2-oxobutyrate_c0	c0	C5H7O3S	3	0.943	0.1729
+cpd15291_m0	Ubiquinol-6	m0	C39H60O4	8	0.933	0.1755
+cpd00046_m0	CMP_m0	m0	C9H12N3O8P	3	-0.931	0.176
+cpd00125_c0	5-10-Methylenetetrahydrofolate_c0	c0	C20H21N7O6	6	-0.929	0.1765
+cpd19029_c0	Acyl-sn-glycerol 3-phosphate_c0	c0		3	-0.916	0.1799
+cpd11683_c0	Chitin_c0	c0	C24H41N3O16	3	-0.907	0.1821
+cpd00048_c0	Sulfate_c0	c0	O4S	3	-0.891	0.1864
+cpd00091_c0	UMP_c0	c0	C9H11N2O9P	8	-0.889	0.187
+cpd12582_c0	Phosphatidylinositol-4,5-bisphosphate_c0	c0	C11H16O19P3R2	3	-0.888	0.1871
+cpd00023_c0	L-Glutamate	c0	C5H8NO4	44	0.872	0.1917
+cpd00006_r0	NADP_r0	r0	C21H25N7O17P3	10	-0.864	0.1939
+cpd00005_r0	NADPH_r0	r0	C21H26N7O17P3	10	-0.864	0.1939
+cpd00143_c0	Phenylpyruvate_c0	c0	C9H7O3	3	0.862	0.1944
+cpd00327_c0	strcoa_c0	c0	C39H66N7O17P3S	17	-0.841	0.2001
+cpd00026_c0	UDP-glucose	c0	C15H22N2O17P2	9	0.837	0.2013
+cpd00790_c0	O-Acetyl-L-homoserine_c0	c0	C6H11NO4	4	-0.825	0.2046
+cpd00428_c0	2-Oxopropanal	c0	C3H4O2	4	-0.816	0.2071
+cpd00052_c0	CTP_c0	c0	C9H13N3O14P3	9	0.803	0.2109
+cpd00477_m0	N-Acetyl-L-glutamate	m0	C7H9NO5	3	-0.799	0.212
+cpd00024_m0	2-Oxoglutarate	m0	C5H4O5	11	0.789	0.2152
+cpd00041_m0	L-Aspartate	m0	C4H6NO4	3	-0.789	0.215
+cpd19028_c0	alpha-D-Ribose 5-phosphate	c0	C5H9O8P	7	0.788	0.2152
+cpd00016_c0	Pyridoxal phosphate_c0	c0	C8H8NO6P	5	0.788	0.2153
+cpd00012_x0	PPi_x0	x0	HO7P2	10	-0.788	0.2154
+cpd00040_x0	Glyoxalate	x0	C2HO3	3	-0.779	0.218
+cpd00330_c0	Dihydrofolate_c0	c0	C19H19N7O6	3	-0.777	0.2185
+cpd00008_c0	ADP	c0	C10H13N5O10P2	99	0.776	0.219
+cpd00137_c0	Citrate	c0	C6H5O7	5	0.773	0.2199
+cpd00137_m0	Citrate	m0	C6H5O7	5	0.773	0.2199
+cpd00001_x0	H2O_x0	x0	H2O	41	0.757	0.2245
+cpd00508_m0	3MOP_m0	m0	C6H9O3	3	0.751	0.2263
+cpd00010_x0	CoA_x0	x0	C21H32N7O16P3S	42	0.749	0.227
+cpd29685_c0	cdpdag_BS_c0	c0		3	-0.747	0.2277
+L2aadp6sa-c_c0	L 2 Aminoadipate 6 semialdehyde C6H11NO3	c0		3	-0.737	0.2304
+cpd00069_c0	L-Tyrosine_c0	c0	C9H11NO3	5	-0.733	0.2318
+cpd01646_c0	2-Isopropylmalate_c0	c0	C7H10O5	3	-0.732	0.232
+cpd00121_c0	L-Inositol_c0	c0	C6H12O6	4	-0.731	0.2325
+cpd00017_m0	S-Adenosyl-L-methionine_m0	m0	C15H23N6O5S	5	-0.731	0.2324
+cpd00023_x0	L-Glutamate_x0	x0	C5H8NO4	3	0.73	0.2326
+cpd00113_m0	Isopentenyldiphosphate_m0	m0	C5H10O7P2	4	-0.721	0.2355
+cpd00067_c0	H+	c0	H	413	-0.717	0.2367
+cpd00051_c0	L-Arginine_c0	c0	C6H15N4O2	4	0.705	0.2403
+cpd00008_m0	ADP	m0	C10H13N5O10P2	15	0.698	0.2425
+cpd00155_c0	Glycogen	c0	C24H42O21	4	-0.695	0.2434
+cpd00351_c0	Saccharopine_c0	c0	C11H19N2O6	3	0.692	0.2445
+cpd15209_c0	4,4-dimethylcholesta-8,14,24-trienol_c0	c0	C29H46O	4	0.688	0.2458
+cpd00275_c0	L-Kynurenine_c0	c0	C10H12N2O3	3	-0.675	0.2498
+cpd00080_c0	Glycerol-3-phosphate	c0	C3H8O6P	6	0.671	0.2513
+cpd11295_c0	2,3-diketo5-methylthio-1-phosphopentane_c0	c0	C6H9O6PS	3	0.666	0.2527
+cpd00002_x0	ATP_x0	x0	C10H13N5O13P3	19	-0.665	0.2532
+cpd00066_c0	L-Phenylalanine_c0	c0	C9H11NO2	3	-0.662	0.2538
+cpd00219_c0	Prephenate_c0	c0	C10H8O6	3	-0.66	0.2546
+cpd00065_c0	L-Tryptophan_c0	c0	C11H12N2O2	5	-0.654	0.2564
+cpd00182_c0	Adenosine	c0	C10H13N5O4	5	0.638	0.2617
+cpd00298_c0	dTMP_c0	c0	C10H13N2O8P	3	-0.637	0.2621
+cpd00035_c0	L-Alanine	c0	C3H7NO2	10	-0.631	0.2641
+cpd01188_c0	Lanosterol_c0	c0	C30H50O	5	-0.629	0.2645
+cpd00008_x0	ADP_x0	x0	C10H13N5O10P2	8	-0.619	0.2679
+cpd00001_r0	H2O_r0	r0	H2O	8	-0.618	0.2684
+cpd00348_c0	D-Galactose 1-phosphate	c0	C6H12O9P	3	-0.618	0.2684
+cpd00031_c0	GDP	c0	C10H13N5O11P2	14	0.617	0.2686
+cpd00053_c0	L-Glutamine	c0	C5H10N2O3	15	0.616	0.2688
+cpd00873_c0	Nicotinate ribonucleotide_c0	c0	C11H12NO9P	3	-0.614	0.2695
+cpd00873_m0	Nicotinate ribonucleotide_m0	m0	C11H12NO9P	3	-0.614	0.2695
+cpd00350_m0	Farnesyldiphosphate_m0	m0	C15H26O7P2	3	-0.6	0.2743
+cpd00249_c0	Uridine_c0	c0	C9H12N2O6	5	-0.589	0.2779
+cpd03287_m0	Oxaloglutarate_m0	m0	C7H5O7	3	-0.588	0.2783
+cpd03221_c0	Zymosterol_c0	c0	C27H44O	5	-0.588	0.2783
+cpd00214_c0	Palmitate_c0	c0	C16H31O2	10	-0.57	0.2842
+cpd00087_c0	Tetrahydrofolate_c0	c0	C19H21N7O6	9	-0.569	0.2845
+cpd02755_c0	Fecosterol_c0	c0	C28H46O	4	-0.563	0.2868
+cpd00023_m0	L-Glutamate	m0	C5H8NO4	13	-0.561	0.2873
+cpd00347_m0	5-10-Methenyltetrahydrofolate_m0	m0	C20H20N7O6	4	-0.557	0.2888
+cpd00012_c0	PPi	c0	H2O7P2	72	-0.55	0.291
+cpd00146_c0	Carbamoylphosphate_c0	c0	CH2NO5P	3	-0.548	0.292
+cpd00042_c0	GSH	c0	C10H16N3O6S	9	0.542	0.294
+cpd00024_x0	2-Oxoglutarate_x0	x0	C5H4O5	4	0.539	0.2948
+cpd02693_c0	3-Isopropylmalate_c0	c0	C7H10O5	4	-0.539	0.2948
+cpd15295_x0	Tetradecenoyl-CoA_x0	x0	C35H57N7O17P3S	4	0.532	0.2973
+cpd15238_x0	Hexadecenoyl-CoA_x0	x0	C37H61N7O17P3S	4	0.532	0.2973
+cpd15269_c0	octadecenoate_c0	c0	C18H33O2	11	-0.531	0.2977
+cpd00105_c0	D-Ribose_c0	c0	C5H10O5	3	-0.526	0.2995
+cpd00093_c0	Anthranilate_c0	c0	C7H6NO2	3	-0.523	0.3005
+cpd00260_c0	Isocitrate	c0	C6H5O7	4	0.513	0.3041
+cpd00002_c0	ATP	c0	C10H13N5O13P3	142	0.504	0.3071
+cpd00193_c0	APS_c0	c0	C10H12N5O10PS	3	-0.495	0.3105
+cpd00147_c0	5-Methylthioadenosine_c0	c0	C11H15N5O3S	4	0.492	0.3114
+cpd11677_c0	Triglyceride_c0	c0	C6H5O6R3	3	-0.486	0.3135
+cpd00067_x0	H+_x0	x0	H	42	-0.485	0.3139
+cpd00025_x0	H2O2_x0	x0	H2O2	20	0.481	0.3154
+cpd00260_m0	Isocitrate	m0	C6H5O7	4	0.475	0.3174
+cpd00738_c0	phosphoserine_c0	c0	C3H6NO6P	3	-0.467	0.3203
+cpd00103_c0	PRPP_c0	c0	C5H9O14P3	12	-0.465	0.3211
+cpd00367_c0	Cytidine_c0	c0	C9H13N3O5	4	-0.461	0.3226
+cpd00041_c0	L-Aspartate	c0	C4H6NO4	12	0.454	0.3249
+cpd15298_c0	tetradecenoate_c0	c0	C14H25O2	3	0.434	0.3322
+cpd15272_c0	Octadecynoyl-CoA_c0	c0	C39H63N7O17P3S	9	-0.432	0.3329
+cpd00132_c0	L-Asparagine_c0	c0	C4H8N2O3	4	0.427	0.3347
+cpd00054_c0	L-Serine_c0	c0	C3H7NO3	10	0.427	0.3346
+cpd00039_c0	L-Lysine_c0	c0	C6H15N2O2	3	-0.424	0.3357
+cpd00305_e0	Thiamin_e0	e0	C12H17N4OS	3	-0.423	0.3362
+cpd00774_c0	UroporphyrinogenIII_c0	c0	C40H36N4O16	3	-0.415	0.3389
+cpd14514_c0	Episterol_c0	c0	C28H46O	4	-0.408	0.3418
+cpd02893_c0	5'-Phosphoribosyl-4-carboxy-5-aminoimidazole_c0	c0	C9H12N3O9P	3	0.404	0.343
+cpd00025_c0	H2O2	c0	H2O2	12	-0.403	0.3436
+cpd02775_c0	4-Amino-5-phosphomethyl-2-methylpyrimidine_c0	c0	C6H8N3O4P	3	-0.399	0.3451
+cpd00424_c0	Cystathionine_c0	c0	C7H14N2O4S	5	-0.389	0.3488
+cpd00094_c0	2-Oxobutyrate	c0	C4H5O3	4	-0.387	0.3495
+cpd00135_c0	Homocysteine_c0	c0	C4H9NO2S	8	-0.386	0.3499
+cpd00018_x0	AMP_x0	x0	C10H12N5O7P	12	-0.386	0.3497
+cpd00106_m0	Fumarate	m0	C4H2O4	4	-0.384	0.3506
+cpd00106_c0	Fumarate	c0	C4H2O4	8	-0.369	0.3562
+cpd15272_x0	Octadecynoyl-CoA_x0	x0	C39H63N7O17P3S	4	0.367	0.3569
+cpd00497_c0	XMP_c0	c0	C10H11N4O9P	3	-0.357	0.3606
+cpd00419_c0	PM_c0	c0	C8H13N2O2	3	-0.356	0.361
+cpd00215_c0	Pyridoxal_c0	c0	C8H9NO3	4	-0.35	0.3633
+cpd00094_m0	2-Oxobutyrate_m0	m0	C4H5O3	4	0.348	0.3639
+ocdcya-c_c0	Octadecadienoate  n C182  C18H31O2	c0		4	0.34	0.3671
+cpd00858_c0	L-Glutamate5-semialdehyde_c0	c0	C5H9NO3	3	0.332	0.3699
+cpd00350_c0	Farnesyldiphosphate_c0	c0	C15H26O7P2	3	-0.33	0.3709
+cpd00227_c0	L-Homoserine_c0	c0	C4H9NO3	4	-0.327	0.3717
+cpd03127_x0	(2E)-Tetradecenoyl-CoA_x0	x0	C35H56N7O17P3S	3	0.321	0.3741
+cpd14937_x0	(2E)-Octadecenoyl-CoA_x0	x0	C39H65N7O17P3S	3	0.321	0.3741
+cpd03129_x0	(2E)-Decenoyl-CoA_x0	x0	C31H48N7O17P3S	3	0.321	0.3741
+cpd02060_x0	(2E)-Dodecenoyl-CoA_x0	x0	C33H52N7O17P3S	3	0.321	0.3741
+cpd03126_x0	(2E)-Hexadecenoyl-CoA_x0	x0	C37H60N7O17P3S	3	0.321	0.3741
+cpd00134_c0	Palmitoyl-CoA_c0	c0	C37H62N7O17P3S	19	-0.317	0.3757
+cpd00107_c0	L-Leucine_c0	c0	C6H13NO2	3	-0.313	0.3771
+cpd00027_c0	D-Glucose	c0	C6H12O6	8	-0.303	0.3809
+cpd00242_c0	H2CO3	c0	CHO3	5	0.297	0.3832
+cpd00703_c0	Indoleacetate	c0	C10H8NO2	3	0.295	0.3839
+cpd02097_c0	L-Glutamyl 5-phosphate_c0	c0	C5H8NO7P	3	-0.287	0.3872
+cpd00812_c0	5-phosphomevalonate_c0	c0	C6H10O7P	5	-0.282	0.3891
+cpd01335_x0	Octanoyl-CoA_x0	x0	C29H46N7O17P3S	5	-0.262	0.3965
+cpd00322_c0	L-Isoleucine_c0	c0	C6H13NO2	3	-0.256	0.3992
+cpd08926_r0	Phytosphingosine_r0	r0	C18H40NO3	3	-0.256	0.399
+cpd00623_r0	Sphinganine_r0	r0	C18H40NO2	3	-0.256	0.399
+cpd00018_c0	AMP	c0	C10H13N5O7P	52	0.255	0.3993
+cpd00113_c0	Isopentenyldiphosphate_c0	c0	C5H10O7P2	5	-0.252	0.4006
+cpd00128_c0	Adenine_c0	c0	C5H5N5	6	-0.248	0.4022
+cpd00129_c0	L-Proline_c0	c0	C5H9NO2	3	-0.244	0.4036
+cpd00332_c0	Mevalonic acid_c0	c0	C6H11O4	5	-0.242	0.4043
+cpd02656_c0	6-7-Dimethyl-8--1-D-ribityllumazine_c0	c0	C13H17N4O6	3	0.235	0.4072
+cpd00024_c0	2-Oxoglutarate	c0	C5H4O5	24	0.234	0.4075
+cpd00281_c0	GABA	c0	C4H9NO2	4	0.229	0.4094
+cpd00010_r0	CoA_r0	r0	C21H32N7O16P3S	8	0.224	0.4113
+cpd00623_c0	Sphinganine_c0	c0	C18H40NO2	4	-0.223	0.4119
+cpd00036_m0	Succinate	m0	C4H4O4	6	-0.217	0.414
+cpd00029_c0	Acetate	c0	C2H3O2	8	0.215	0.415
+cpd02625_m0	3-Hydroxy-L-1-pyrroline-5-carboxylate_m0	m0	C5H6NO3	3	0.212	0.416
+cpd00038_c0	GTP	c0	C10H13N5O14P3	15	0.212	0.4159
+cpd15207_x0	3-Oxohexacosyl-CoA_x0	x0	C47H81N7O18P3S	3	0.201	0.4204
+cpd00033_c0	Glycine_c0	c0	C2H5NO2	9	-0.201	0.4204
+cpd15241_r0	Hexacosanoyl-CoA_r0	r0	C47H83N7O17P3S	3	0.199	0.4213
+cpd00156_c0	L-Valine_c0	c0	C5H11NO2	3	-0.191	0.4242
+cpd02851_c0	AICAR_c0	c0	C9H13N4O8P	4	-0.188	0.4256
+cpd00004_x0	NADH_x0	x0	C21H27N7O14P2	21	0.186	0.4261
+cpd00133_c0	Nicotinamide_c0	c0	C6H6N2O	3	0.186	0.4263
+cpd00011_r0	CO2_r0	r0	CO2	4	-0.181	0.4282
+cpd00070_r0	Malonyl-CoA_r0	r0	C24H33N7O19P3S	4	-0.181	0.4282
+cpd00043_c0	UDP-galactose	c0	C15H22N2O17P2	3	-0.168	0.4335
+cpd00216_c0	Chorismate_c0	c0	C10H8O6	4	-0.165	0.4344
+cpd00119_c0	L-Histidine_c0	c0	C6H9N3O2	5	-0.163	0.4352
+cpd00001_c0	H2O	c0	H2O	229	-0.156	0.4378
+cpd00015_x0	FAD_x0	x0	C27H30N9O15P2	7	0.152	0.4394
+cpd00982_x0	FADH2_x0	x0	C27H33N9O15P2	7	0.152	0.4394
+cpd00070_m0	Malonyl-CoA_m0	m0	C24H33N7O19P3S	3	0.151	0.4401
+cpd00159_c0	L-Lactate	c0	C3H5O3	3	0.142	0.4435
+cpd00003_x0	NAD_x0	x0	C21H26N7O14P2	22	0.141	0.444
+cpd00346_c0	L-Aspartate4-semialdehyde_c0	c0	C4H7NO3	3	0.14	0.4444
+cpd00006_x0	NADP_x0	x0	C21H25N7O17P3	7	-0.13	0.4481
+cpd00005_x0	NADPH_x0	x0	C21H26N7O17P3	7	-0.13	0.4481
+cpd29705_r0	tetracosanoyl-CoA  (n-C24:0CoA)_r0	r0	C45H78N7O17P3S	4	0.127	0.4495
+cpd01741_c0	ddca_c0	c0	C12H23O2	4	0.11	0.4564
+cpd00027_e0	D-Glucose	e0	C6H12O6	3	-0.107	0.4575
+cpd29705_x0	tetracosanoyl-CoA  (n-C24:0CoA)_x0	x0	C45H78N7O17P3S	6	-0.104	0.4585
+cpd03128_x0	Decanoyl-CoA_x0	x0	C31H50N7O17P3S	5	0.099	0.4604
+cpd01260_x0	Lauroyl-CoA_x0	x0	C33H54N7O17P3S	5	0.099	0.4604
+cpd01695_x0	Myristoyl-CoA_x0	x0	C35H58N7O17P3S	6	-0.09	0.4641
+cpd00050_m0	FMN_m0	m0	C17H18N4O9P	3	0.087	0.4654
+cpd19042_m0	L-erythro-4-Hydroxyglutamate_m0	m0	C5H8NO5	3	-0.085	0.466
+cpd00220_c0	Riboflavin_c0	c0	C17H19N4O6	3	0.059	0.4764
+cpd00007_x0	O2_x0	x0	O2	19	0.059	0.4764
+cpd00130_c0	L-Malate	c0	C4H4O5	5	-0.055	0.4779
+cpd00837_c0	S-Adenosylmethioninamine_c0	c0	C14H24N6O3S	3	0.05	0.48
+cpd00100_c0	Glycerol_c0	c0	C3H8O3	7	0.044	0.4823
+cpd00067_r0	H+_r0	r0	H	20	-0.037	0.4854
+cpd00134_x0	Palmitoyl-CoA_x0	x0	C37H62N7O17P3S	6	-0.035	0.4862
+cpd00327_x0	strcoa_x0	x0	C39H66N7O17P3S	6	-0.034	0.4865
+cpd15274_x0	Octadecenoyl-CoA_x0	x0	C39H65N7O17P3S	3	0.02	0.4922
+cpd00285_c0	Phosphoethanolamine_c0	c0	C2H7NO4P	4	-0.019	0.4924
+cpd00264_c0	Spermidine_c0	c0	C7H22N3	6	0.001	0.4996
+cpd00118_c0	Putrescine_c0	c0	C4H14N2	5	0.001	0.4994

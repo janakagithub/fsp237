@@ -122,6 +122,68 @@ def build():
                 'n_L_total': None if pd.isna(r.get('n_L_total')) else int(r['n_L_total']),
             })
 
+    # Stage 5 pathway analysis
+    pathway_summary = []
+    ps_path = OUTPUTS / 'pathway_summary.tsv'
+    if ps_path.exists():
+        for _, r in pd.read_csv(ps_path, sep='\t').iterrows():
+            pathway_summary.append({
+                'pathway': r['pathway'],
+                'n_reactions': int(r['n_reactions']),
+                'n_with_gpr': int(r['n_with_gpr']),
+                'n_scored': int(r['n_scored']),
+                'mean_expression': None if pd.isna(r['mean_expression']) else round(float(r['mean_expression']), 3),
+                'median_expression': None if pd.isna(r['median_expression']) else round(float(r['median_expression']), 3),
+                'hi_n': int(r['hi_n']),
+                'med_n': int(r['med_n']),
+                'lo_n': int(r['lo_n']),
+                'absent_n': int(r['absent_n']),
+                'hi_frac': round(float(r['hi_frac']), 3),
+                'odds_ratio': round(float(r['odds_ratio']), 3),
+                'p_fisher_greater': round(float(r['p_fisher_greater']), 5),
+                'bh_q': round(float(r['bh_q']), 4),
+            })
+
+    pathway_matrix = []
+    pm_path = OUTPUTS / 'pathway_condition_matrix.tsv'
+    if pm_path.exists():
+        for _, r in pd.read_csv(pm_path, sep='\t').iterrows():
+            pathway_matrix.append({
+                'pathway': r['pathway'],
+                'condition_id': r['condition_id'],
+                'stage': r['stage'],
+                'O2': r['O2'],
+                'sum_abs_flux': round(float(r['sum_abs_flux']), 3),
+                'n_active': int(r['n_active']),
+                'n_total': int(r['n_total']),
+                'active_rate': round(float(r['active_rate']), 3),
+            })
+
+    reporter_metabolites = []
+    rm_path = OUTPUTS / 'reporter_metabolites.tsv'
+    if rm_path.exists():
+        for _, r in pd.read_csv(rm_path, sep='\t').head(60).iterrows():
+            reporter_metabolites.append({
+                'metabolite_id': r['metabolite_id'],
+                'name': r.get('name', '') or '',
+                'compartment': r.get('compartment', '') or '',
+                'formula': r.get('formula', '') or '',
+                'k_reactions': int(r['k_reactions']),
+                'z_reporter': round(float(r['z_reporter']), 3),
+                'p_one_sided': round(float(r['p_one_sided']), 4),
+            })
+
+    biomass_corr = []
+    bc_path = OUTPUTS / 'biomass_pathway_corr.tsv'
+    if bc_path.exists():
+        for _, r in pd.read_csv(bc_path, sep='\t').iterrows():
+            biomass_corr.append({
+                'pathway': r['pathway'],
+                'n_conditions': int(r['n_conditions']),
+                'pearson_r_flux_vs_biomass': round(float(r['pearson_r_flux_vs_biomass']), 3),
+                'p_value': round(float(r['p_value']), 4),
+            })
+
     # Stage 4 orphan priority
     orphan_priority = []
     op_path = OUTPUTS / 'orphan_priority.tsv'
@@ -150,6 +212,10 @@ def build():
         'per_reaction': per_reaction,
         'stage2_summary': stage2,
         'orphan_priority': orphan_priority,
+        'pathway_summary': pathway_summary,
+        'pathway_matrix': pathway_matrix,
+        'reporter_metabolites': reporter_metabolites,
+        'biomass_pathway_corr': biomass_corr,
     }
     payload = _clean_nan(payload)
     # allow_nan=False makes json.dump raise if any NaN/Inf slipped through
