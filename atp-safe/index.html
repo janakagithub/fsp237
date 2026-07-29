@@ -810,6 +810,23 @@
   }
   function esc(s) { return $('<div>').text(s == null ? '' : s).html(); }
 
+  // Null-safe numeric formatters. Return '&mdash;' when the input is
+  // null/undefined/NaN so the rest of the JS row build doesn't throw.
+  function nfix(v, digits) {
+    if (v == null || (typeof v === 'number' && isNaN(v))) return '&mdash;';
+    return v.toFixed(digits);
+  }
+  function nexp(v, digits) {
+    if (v == null || (typeof v === 'number' && isNaN(v))) return '&mdash;';
+    return v.toExponential(digits);
+  }
+  function nmono(v, digits) {
+    return '<span class="mono">' + nfix(v, digits) + '</span>';
+  }
+  function nmonoExp(v, digits) {
+    return '<span class="mono">' + nexp(v, digits) + '</span>';
+  }
+
   function interpHex(a, b, t) {
     function h(x) { return [parseInt(x.slice(1,3),16), parseInt(x.slice(3,5),16), parseInt(x.slice(5,7),16)]; }
     const A = h(a), B = h(b);
@@ -1429,21 +1446,22 @@
 
       // pathway detail table
       const pwData = pw.map(p => {
-        const qCls = p.bh_q < 0.05 ? 'q-sig' : p.bh_q < 0.20 ? 'q-marginal' : 'q-ns';
+        const q = p.bh_q;
+        const qCls = (q != null && q < 0.05) ? 'q-sig' : (q != null && q < 0.20) ? 'q-marginal' : 'q-ns';
         return [
           '<b>' + esc(p.pathway) + '</b>',
           p.n_reactions,
           p.n_with_gpr,
-          p.mean_expression != null ? '<span class="mono">' + p.mean_expression.toFixed(2) + '</span>' : '&mdash;',
-          p.median_expression != null ? '<span class="mono">' + p.median_expression.toFixed(2) + '</span>' : '&mdash;',
+          nmono(p.mean_expression, 2),
+          nmono(p.median_expression, 2),
           '<span class="expr-badge expr-hi">' + p.hi_n + '</span>',
           '<span class="expr-badge expr-med">' + p.med_n + '</span>',
           '<span class="expr-badge expr-lo">' + p.lo_n + '</span>',
           '<span class="expr-badge expr-absent">' + p.absent_n + '</span>',
-          '<span class="mono">' + (p.hi_frac * 100).toFixed(0) + '%</span>',
-          '<span class="mono">' + p.odds_ratio.toFixed(2) + '</span>',
-          '<span class="mono">' + p.p_fisher_greater.toExponential(1) + '</span>',
-          '<span class="pval-badge ' + qCls + '">' + p.bh_q.toFixed(4) + '</span>',
+          '<span class="mono">' + (p.hi_frac != null ? (p.hi_frac * 100).toFixed(0) + '%' : '&mdash;') + '</span>',
+          nmono(p.odds_ratio, 2),
+          nmonoExp(p.p_fisher_greater, 1),
+          '<span class="pval-badge ' + qCls + '">' + nfix(p.bh_q, 4) + '</span>',
         ];
       });
       $('#tbl-rna-pathway').show();
@@ -1500,14 +1518,20 @@
 
     // ---- reporter metabolites ----
     const rm = d.reporter_metabolites || [];
-    const rmData = rm.map(r => [
-      '<span class="mono">' + esc(r.metabolite_id) + '</span>',
-      esc(r.name),
-      '<span class="mono">' + esc(r.compartment) + '</span>',
-      r.k_reactions,
-      '<span class="mono ' + (r.z_reporter > 0 ? 'flux-pos' : 'flux-neg') + '">' + (r.z_reporter >= 0 ? '+' : '') + r.z_reporter.toFixed(2) + '</span>',
-      '<span class="mono">' + r.p_one_sided.toExponential(1) + '</span>',
-    ]);
+    const rmData = rm.map(r => {
+      const z = r.z_reporter;
+      const zTxt = (z == null || isNaN(z)) ? '&mdash;'
+                    : (z >= 0 ? '+' : '') + z.toFixed(2);
+      const cls = (z == null || isNaN(z)) ? 'flux-zero' : (z > 0 ? 'flux-pos' : 'flux-neg');
+      return [
+        '<span class="mono">' + esc(r.metabolite_id) + '</span>',
+        esc(r.name),
+        '<span class="mono">' + esc(r.compartment) + '</span>',
+        r.k_reactions,
+        '<span class="mono ' + cls + '">' + zTxt + '</span>',
+        nmonoExp(r.p_one_sided, 1),
+      ];
+    });
     $('#tbl-rna-reporter').show();
     const rmDT = new DataTable('#tbl-rna-reporter', {
       data: rmData, pageLength: 15, lengthMenu: [10, 15, 30, 60], deferRender: true,
@@ -1518,7 +1542,7 @@
     window._rnaReporterDT = rmDT;
 
     // ---- biomass-pathway correlation ----
-    const bc = d.biomass_pathway_corr || [];
+    const bc = (d.biomass_pathway_corr || []).filter(p => p.pearson_r_flux_vs_biomass != null && !isNaN(p.pearson_r_flux_vs_biomass));
     const bcTop = bc.slice().sort((a, b) => b.pearson_r_flux_vs_biomass - a.pearson_r_flux_vs_biomass).slice(0, 15);
     svgBar(document.getElementById('chart-biomass-corr'),
       bcTop.map(p => ({
@@ -1529,7 +1553,7 @@
         p: p.p_value,
       })),
       { width: 480, barHeight: 22, marginLeft: 210,
-        valueFmt: r => 'r=' + (r.r >= 0 ? '+' : '') + r.r.toFixed(2) + '  p=' + r.p.toExponential(1) });
+        valueFmt: r => 'r=' + (r.r >= 0 ? '+' : '') + r.r.toFixed(2) + '  p=' + nexp(r.p, 1) });
 
     // ---- orphan priority ----
     const orph = d.orphan_priority || [];
