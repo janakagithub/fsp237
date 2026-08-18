@@ -1,0 +1,10 @@
+# Large regenerable analysis intermediates (147 MB combined).
+# Rebuild from the frozen rna_seq_integration outputs with:
+#   /opt/env/modelseed/bin/python3 scripts/01_build_unified_matrix.py
+# The website does not need these at runtime (it fetches the JSON payloads).
+flux_results/unified_flux_matrix.tsv
+flux_results/unified_flux_matrix_allthresholds.tsv
+
+# Python caches
+__pycache__/
+*.pyc

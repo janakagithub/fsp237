@@ -1,0 +1,5 @@
+method	condition_id	label	stage	composite
+imat	03_palmitate	Palmitate (C16:0)	pre-infection	0.8813
+gimme	07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	0.7605
+pfba	05_hexacosanoate	Hexacosanoate (C26)	pre-infection	0.6303
+eflux	07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	0.5746

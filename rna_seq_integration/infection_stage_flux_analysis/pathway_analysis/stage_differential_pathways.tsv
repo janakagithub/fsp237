@@ -1,0 +1,24 @@
+pathway	pre-infection	biotrophic	necrotrophic	range
+Pentose-sugar catabolism	0.0	0.0	0.2	0.2
+Pectin / D-galacturonate (Ashwell)	0.0	0.0	0.1667	0.1667
+β-oxidation (peroxisomal)	0.1148	0.0	0.0	0.1148
+Cell-wall polysaccharide	0.4444	0.4778	0.4333	0.0445
+Pentose phosphate pathway	0.64	0.61	0.65	0.04
+TCA cycle	0.4294	0.4471	0.4118	0.0353
+Exchange	0.0529	0.0564	0.087	0.0341
+Oxidative phosphorylation / ETC	0.325	0.35	0.3167	0.0333
+Storage (glycogen / trehalose)	0.3143	0.2857	0.2857	0.0286
+Amino-acid metabolism	0.3111	0.3173	0.3308	0.0197
+Glycolysis / gluconeogenesis	0.4276	0.4414	0.4448	0.0172
+Fatty-acid biosynthesis	0.0158	0.0	0.0	0.0158
+Other / unassigned	0.3681	0.3604	0.3556	0.0125
+Transport (inter-compartmental)	0.2352	0.225	0.2227	0.0125
+Lipid / membrane	0.32	0.3314	0.32	0.0114
+Cofactor / vitamin biosynthesis	0.3367	0.3367	0.3265	0.0103
+Nucleotide metabolism	0.381	0.3715	0.3715	0.0095
+Compatible solute / mannitol	1.0	1.0	1.0	0.0
+Biomass	0.1667	0.1667	0.1667	0.0
+GAM / maintenance	0.0	0.0	0.0	0.0
+Melanin / DHN	1.0	1.0	1.0	0.0
+Sink / demand	1.0	1.0	1.0	0.0
+Sulfur / nitrogen assimilation	0.3333	0.3333	0.3333	0.0

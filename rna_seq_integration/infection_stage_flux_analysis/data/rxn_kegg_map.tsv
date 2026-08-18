@@ -1,0 +1,1623 @@
+rxn_id	seed_base	pathway_bucket	kegg_reaction	kegg_pathway_id	kegg_pathway_name	ec_number
+rxn00248_m0	rxn00248	TCA cycle	R00342	rn00020;rn00620;rn00630;rn00680;rn00710;rn00720;rn01110;rn01200	Citrate cycle (TCA cycle;Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Methane metabolism;Carbon fixation in photosynthetic organisms;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism	1.1.1.299|1.1.1.37
+rxn00506_m0	rxn00506	Other / unassigned	R00710	rn00010;rn00620;rn01110	Glycolysis / Gluconeogenesis;Pyruvate metabolism;Biosynthesis of secondary metabolites	1.2.1.3|1.2.1.5
+rxn08067_c0	rxn08067	Other / unassigned				
+rxn00062_c0	rxn00062	GAM / maintenance	R00086;R10531	rn00230	Purine metabolism	3.6.1.15|3.6.1.3|3.6.1.5|3.6.1.8|3.6.3.1|3.6.3.10|3.6.3.11|3.6.3.12|3.6.3.14|3.6.3.15|3.6.3.16|3.6.3.17|3.6.3.18|3.6.3.19|3.6.3.2|3.6.3.20|3.6.3.21|3.6.3.22|3.6.3.23|3.6.3.24|3.6.3.25|3.6.3.26|3.6.3.27|3.6.3.28|3.6.3.29|3.6.3.3|3.6.3.30|3.6.3.31|3.6.3.32|3.6.3.33|3.6.3.34|3.6.3.35|3.6.3.36|3.6.3.37|3.6.3.38|3.6.3.39|3.6.3.4|3.6.3.40|3.6.3.41|3.6.3.42|3.6.3.43|3.6.3.44|3.6.3.46|3.6.3.47|3.6.3.48|3.6.3.49|3.6.3.5|3.6.3.50|3.6.3.51|3.6.3.52|3.6.3.53|3.6.3.54|3.6.3.55|3.6.3.6|3.6.3.7|3.6.3.8|3.6.3.9|3.6.4.1|3.6.4.10|3.6.4.11|3.6.4.12|3.6.4.13|3.6.4.2|3.6.4.3|3.6.4.4|3.6.4.5|3.6.4.6|3.6.4.7|3.6.4.8|3.6.4.9|5.6.1.c|5.6.1.d|5.6.1.f|5.6.1.g|7.3.2.a|7.3.2.f|7.5.2.h|7.5.2.j|7.5.2.l|7.6.2.c|7.6.2.f
+rxn00154_m0	rxn00154	Glycolysis / gluconeogenesis	R00209	rn01200	Carbon metabolism	1.2.1.-|1.2.1.M10|1.2.4.1|1.8.1.4|2.3.1.12
+rxn00515_c0	rxn00515	Other / unassigned	R00722	rn00230	Purine metabolism	2.7.4.6
+rxn00260_m0	rxn00260	TCA cycle	R00355	rn00250;rn00710;rn01110;rn01200;rn01210;rn01230	Alanine, aspartate and glutamate metabolism;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1
+rxn00507_c0	rxn00507	Other / unassigned	R00711	rn00010;rn00620	Glycolysis / Gluconeogenesis;Pyruvate metabolism	1.2.1.3|1.2.1.4|1.2.1.5
+rxn00247_c0	rxn00247	Glycolysis / gluconeogenesis	R00341	rn00010;rn00020;rn00620;rn00710;rn01110;rn01200	Glycolysis / Gluconeogenesis;Citrate cycle (TCA cycle;Pyruvate metabolism;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism	4.1.1.49
+rxn00505_m0	rxn00505	TCA cycle	R00709	rn00020;rn01110;rn01200;rn01210;rn01230	Citrate cycle (TCA cycle;Biosynthesis of secondary metabolites;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.1.1.286|1.1.1.41
+rxn00459_c0	rxn00459	Glycolysis / gluconeogenesis	R00658	rn00010;rn00680;rn01110;rn01200;rn01230	Glycolysis / Gluconeogenesis;Methane metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	4.2.1.11
+rxn00198_m0	rxn00198	TCA cycle	R00267	rn00480;rn00720;rn01200;rn01210;rn01230	Glutathione metabolism;Carbon fixation pathways in prokaryotes;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.1.1.42
+rxn00187_c0	rxn00187	Amino-acid metabolism	R00253	rn00250;rn00330;rn00630;rn00910;rn01230	Alanine, aspartate and glutamate metabolism;Arginine and proline metabolism;Glyoxylate and dicarboxylate metabolism;Nitrogen metabolism;Biosynthesis of amino acids	6.3.1.2
+rxn00006_c0	rxn00006	Other / unassigned	R00009	rn00630;rn01110	Glyoxylate and dicarboxylate metabolism;Biosynthesis of secondary metabolites	1.11.1.21|1.11.1.6
+rxn00168_c0	rxn00168	Glycolysis / gluconeogenesis	R00224			4.1.1.1
+rxn00781_c0	rxn00781	Glycolysis / gluconeogenesis	R01061	rn00010;rn00710;rn01110;rn01200;rn01230	Glycolysis / Gluconeogenesis;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	1.2.1.12|1.2.1.59
+rxn08617_c0	rxn08617	Transport (inter-compartmental)				
+rxn01333_c0	rxn01333	Pentose phosphate pathway	R01827;R08575	rn00030;rn01110;rn01200;rn01230	Pentose phosphate pathway;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.2.1.2
+rxn30674_m0	rxn30674	TCA cycle				
+rxn00545_c0	rxn00545	Glycolysis / gluconeogenesis	R00756	rn00680;rn01200	Methane metabolism;Carbon metabolism	2.7.1.11
+rxn00191_m0	rxn00191	TCA cycle	R00258	rn00250;rn00710;rn01200;rn01210;rn01230	Alanine, aspartate and glutamate metabolism;Carbon fixation in photosynthetic organisms;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.2
+rxn00134_c0	rxn00134	Other / unassigned	R00185	rn00230	Purine metabolism	2.7.1.20|2.7.1.74
+rxn00191_c0	rxn00191	Amino-acid metabolism	R00258	rn00250;rn00710;rn01200;rn01210;rn01230	Alanine, aspartate and glutamate metabolism;Carbon fixation in photosynthetic organisms;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.2
+rxn00161_m0	rxn00161	TCA cycle	R00216	rn00620;rn00710;rn01200	Pyruvate metabolism;Carbon fixation in photosynthetic organisms;Carbon metabolism	1.1.1.40
+rxn01115_c0	rxn01115	Pentose phosphate pathway	R01528	rn00030;rn00480;rn01110;rn01200	Pentose phosphate pathway;Glutathione metabolism;Biosynthesis of secondary metabolites;Carbon metabolism	1.1.1.351|1.1.1.44
+rxn00192_m0	rxn00192	Amino-acid metabolism	R00259	rn00330;rn01110;rn01210;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.3.1.1
+rxn00237_c0	rxn00237	Other / unassigned	R00330	rn00230	Purine metabolism	2.7.4.6
+rxn01116_c0	rxn01116	Pentose phosphate pathway	R01529	rn00030;rn00040;rn00710;rn01110;rn01200;rn01230	Pentose phosphate pathway;Pentose and glucuronate interconversions;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	5.1.3.1
+rxn00559_c0	rxn00559	Glycolysis / gluconeogenesis	R00772			5.3.1.8
+rxn00285_m0	rxn00285	TCA cycle	R00405	rn00020;rn00640;rn00720;rn01110;rn01200	Citrate cycle (TCA cycle;Propanoate metabolism;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism	6.2.1.5
+rxn00786_c0	rxn00786	Glycolysis / gluconeogenesis	R01068	rn00680;rn00710;rn01200	Methane metabolism;Carbon fixation in photosynthetic organisms;Carbon metabolism	4.1.2.13
+rxn00248_c0	rxn00248	TCA cycle	R00342	rn00020;rn00620;rn00630;rn00680;rn00710;rn00720;rn01110;rn01200	Citrate cycle (TCA cycle;Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Methane metabolism;Carbon fixation in photosynthetic organisms;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism	1.1.1.299|1.1.1.37
+rxn00704_c0	rxn00704	Glycolysis / gluconeogenesis	R00959;R08639	rn00010;rn00052;rn00500;rn00520;rn00521;rn01110	Glycolysis / Gluconeogenesis;Galactose metabolism;Starch and sucrose metabolism;Amino sugar and nucleotide sugar metabolism;Streptomycin biosynthesis;Biosynthesis of secondary metabolites	5.4.2.2|5.4.2.5
+rxn01053_c0	rxn01053	Other / unassigned	R01446	rn00620	Pyruvate metabolism	1.2.1.-|1.2.1.21|1.2.1.22
+rxn00547_c0	rxn00547	Glycolysis / gluconeogenesis	R00760			2.7.1.1|2.7.1.4
+rxn01100_c0	rxn01100	Glycolysis / gluconeogenesis	R01512	rn00010;rn00710;rn01110;rn01200;rn01230	Glycolysis / Gluconeogenesis;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.7.2.3
+rxn00558_c0	rxn00558	Glycolysis / gluconeogenesis	R00771			5.3.1.9
+rxn09882_c0	rxn09882	Cofactor / vitamin biosynthesis				1.2.1.5
+rxn00250_c0	rxn00250	Glycolysis / gluconeogenesis	R00344	rn00020;rn00620;rn00720;rn01200;rn01230	Citrate cycle (TCA cycle;Pyruvate metabolism;Carbon fixation pathways in prokaryotes;Carbon metabolism;Biosynthesis of amino acids	6.4.1.1
+rxn00509_c0	rxn00509	Other / unassigned	R00714	rn00250;rn00350;rn00650	Alanine, aspartate and glutamate metabolism;Tyrosine metabolism;Butanoate metabolism	1.2.1.16|1.2.1.79
+rxn00973_c0	rxn00973	Other / unassigned	R01324	rn01200;rn01210;rn01230	Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.3
+rxn00216_c0	rxn00216	Glycolysis / gluconeogenesis	R00299	rn00521;rn00524;rn01110	Streptomycin biosynthesis;Butirosin and neomycin biosynthesis;Biosynthesis of secondary metabolites	2.7.1.1|2.7.1.2
+rxn01977_c0	rxn01977	Glycolysis / gluconeogenesis	R02739	rn00010;rn00030;rn01110	Glycolysis / Gluconeogenesis;Pentose phosphate pathway;Biosynthesis of secondary metabolites	5.1.3.15|5.3.1.9
+rxn01106_c0	rxn01106	Glycolysis / gluconeogenesis	R01518	rn00010;rn00260;rn00680;rn01110;rn01200;rn01230	Glycolysis / Gluconeogenesis;Glycine, serine and threonine metabolism;Methane metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	5.4.2.1|5.4.2.11|5.4.2.12
+rxn01731_m0	rxn01731	Other / unassigned	R02404	rn00660	C5-Branched dibasic acid metabolism	6.2.1.5
+rxn00741_c0	rxn00741	Cofactor / vitamin biosynthesis	R01000	rn00640	Propanoate metabolism	1.1.1.27
+rxn34273_c0	rxn34273	Glycolysis / gluconeogenesis	R01641	rn00030;rn00710;rn01110;rn01200;rn01230	Pentose phosphate pathway;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.2.1.1
+rxn09417_m0	rxn09417	TCA cycle				1.3.5.1
+rxn00198_c0	rxn00198	Cofactor / vitamin biosynthesis	R00267	rn00480;rn00720;rn01200;rn01210;rn01230	Glutathione metabolism;Carbon fixation pathways in prokaryotes;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.1.1.42
+rxn30206_m0	rxn30206	Other / unassigned				
+rxn01241_m0	rxn01241	Cofactor / vitamin biosynthesis	R01698			1.8.1.4
+rxn15115_c0	rxn15115	Other / unassigned	R01057	rn00030;rn00230	Pentose phosphate pathway;Purine metabolism	5.4.2.2|5.4.2.7
+rxn00507_m0	rxn00507	Other / unassigned	R00711	rn00010;rn00620	Glycolysis / Gluconeogenesis;Pyruvate metabolism	1.2.1.3|1.2.1.4|1.2.1.5
+rxn01870_c0	rxn01870	Other / unassigned	R02568	rn00051	Fructose and mannose metabolism	4.1.2.13
+rxn01243_m0	rxn01243	TCA cycle	R01700	rn01110	Biosynthesis of secondary metabolites	1.2.4.2
+rxn00575_e0	rxn00575	Glycolysis / gluconeogenesis	R00801;R06087	rn00052	Galactose metabolism	3.2.1.10|3.2.1.20|3.2.1.48
+rxn09523_m0	rxn09523	Cofactor / vitamin biosynthesis				1.6.5.2|1.6.5.3|1.6.5.9
+rxn00973_m0	rxn00973	TCA cycle	R01324	rn01200;rn01210;rn01230	Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.3
+rxn01334_c0	rxn01334	Pentose phosphate pathway	R01829	rn00710;rn01200	Carbon fixation in photosynthetic organisms;Carbon metabolism	4.1.2.-|4.1.2.13
+rxn02380_c0	rxn02380	Glycolysis / gluconeogenesis	R03321	rn00010;rn01110	Glycolysis / Gluconeogenesis;Biosynthesis of secondary metabolites	5.3.1.9
+rxn00288_m0	rxn00288	TCA cycle	R00408	rn00720;rn01200	Carbon fixation pathways in prokaryotes;Carbon metabolism	1.3.99.1
+rxn09522_m0	rxn09522	Other / unassigned				
+rxn05745_m0	rxn05745	Other / unassigned				
+rxn08032_c0	rxn08032	Transport (inter-compartmental)				
+rxn05469_c0	rxn05469	Transport (inter-compartmental)				
+rxn08428_c0	rxn08428	Transport (inter-compartmental)				
+rxn13377_c0	rxn13377	Transport (inter-compartmental)				
+PIt2r_c0		Transport (inter-compartmental)				
+rxn00001_c0	rxn00001	Other / unassigned	R00004			3.6.1.1
+rxn00001_m0	rxn00001	Other / unassigned	R00004			3.6.1.1
+rxn00014_m0	rxn00014	Other / unassigned	R00017			1.11.1.5
+rxn00068_c0	rxn00068	Cofactor / vitamin biosynthesis	R00092			1.16.1.7
+rxn00077_c0	rxn00077	Cofactor / vitamin biosynthesis	R00104	rn00760	Nicotinate and nicotinamide metabolism	2.7.1.23
+rxn00077_m0	rxn00077	Cofactor / vitamin biosynthesis	R00104	rn00760	Nicotinate and nicotinamide metabolism	2.7.1.23
+rxn00078_c0	rxn00078	Cofactor / vitamin biosynthesis	R00105			2.7.1.86
+rxn00078_m0	rxn00078	Cofactor / vitamin biosynthesis	R00105			2.7.1.86
+rxn00097_c0	rxn00097	Other / unassigned	R00127	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	2.7.4.3
+rxn00097_m0	rxn00097	Other / unassigned	R00127	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	2.7.4.3
+rxn00146_m0	rxn00146	Glycolysis / gluconeogenesis	R00197	rn00620	Pyruvate metabolism	1.1.2.4
+rxn00159_m0	rxn00159	TCA cycle	R00214	rn00620;rn00710;rn01200	Pyruvate metabolism;Carbon fixation in photosynthetic organisms;Carbon metabolism	1.1.1.38|1.1.1.39
+rxn00175_c0	rxn00175	Other / unassigned	R00235	rn00010;rn00680;rn00720;rn01110;rn01200	Glycolysis / Gluconeogenesis;Methane metabolism;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism	6.2.1.1
+rxn00175_m0	rxn00175	Other / unassigned	R00235	rn00010;rn00680;rn00720;rn01110;rn01200	Glycolysis / Gluconeogenesis;Methane metabolism;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism	6.2.1.1
+rxn00179_c0	rxn00179	Amino-acid metabolism	R00239	rn00330;rn01230	Arginine and proline metabolism;Biosynthesis of amino acids	2.7.2.11
+rxn00184_c0	rxn00184	Amino-acid metabolism	R00248	rn00250;rn00330;rn00471;rn00910	Alanine, aspartate and glutamate metabolism;Arginine and proline metabolism;D-Glutamine and D-glutamate metabolism;Nitrogen metabolism	1.4.1.3|1.4.1.4
+rxn00213_c0	rxn00213	Nucleotide metabolism	R00289	rn00040;rn00052;rn00500;rn00520;rn01110	Pentose and glucuronate interconversions;Galactose metabolism;Starch and sucrose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.7.7.9
+rxn00289_m0	rxn00289	TCA cycle	R00409	rn00640	Propanoate metabolism	4.1.3.30
+rxn00336_c0	rxn00336	Pentose phosphate pathway	R00479	rn00630;rn01200	Glyoxylate and dicarboxylate metabolism;Carbon metabolism	4.1.3.1
+rxn00355_c0	rxn00355	Nucleotide metabolism	R00502	rn00052;rn00520;rn01110	Galactose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.7.7.10
+rxn00371_c0	rxn00371	Cofactor / vitamin biosynthesis	R00519	rn00630;rn00680;rn01200	Glyoxylate and dicarboxylate metabolism;Methane metabolism;Carbon metabolism	1.17.1.9|1.2.1.2
+rxn00543_c0	rxn00543	Cofactor / vitamin biosynthesis	R00754	rn00010;rn01110	Glycolysis / Gluconeogenesis;Biosynthesis of secondary metabolites	1.1.1.1|1.1.1.71
+rxn00543_m0	rxn00543	Other / unassigned	R00754	rn00010;rn01110	Glycolysis / Gluconeogenesis;Biosynthesis of secondary metabolites	1.1.1.1|1.1.1.71
+rxn00549_c0	rxn00549	Glycolysis / gluconeogenesis	R00762	rn00680;rn00710;rn01200	Methane metabolism;Carbon fixation in photosynthetic organisms;Carbon metabolism	3.1.3.11
+rxn00604_c0	rxn00604	Glycolysis / gluconeogenesis	R00835			1.1.1.363|1.1.1.49
+rxn00605_c0	rxn00605	Glycolysis / gluconeogenesis	R00836;R06043			2.4.1.15
+rxn00609_c0	rxn00609	Glycolysis / gluconeogenesis				
+rxn00616_m0	rxn00616	Glycolysis / gluconeogenesis	R00848	rn00564	Glycerophospholipid metabolism	1.1.5.3|1.1.99.5
+rxn00634_c0	rxn00634	Cofactor / vitamin biosynthesis	R00875	rn00051	Fructose and mannose metabolism	1.1.1.14|1.1.1.15
+rxn00641_c0	rxn00641	Other / unassigned	R00885	rn00051;rn00520;rn01110	Fructose and mannose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.7.7.13
+rxn00701_c0	rxn00701	Glycolysis / gluconeogenesis	R00955	rn00052;rn00520;rn01110	Galactose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.7.7.12
+rxn00747_c0	rxn00747	Glycolysis / gluconeogenesis	R01015	rn00010;rn00051;rn00562;rn00710;rn01110;rn01200;rn01230	Glycolysis / Gluconeogenesis;Fructose and mannose metabolism;Inositol phosphate metabolism;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	5.3.1.1
+rxn00785_c0	rxn00785	Pentose phosphate pathway	R01067	rn00710;rn01200	Carbon fixation in photosynthetic organisms;Carbon metabolism	2.2.1.1
+rxn00881_c0	rxn00881	Other / unassigned	R01185	rn00562	Inositol phosphate metabolism	3.1.3.25
+rxn00908_m0	rxn00908	Amino-acid metabolism	R01221	rn00630;rn01110;rn01200	Glyoxylate and dicarboxylate metabolism;Biosynthesis of secondary metabolites;Carbon metabolism	1.4.4.2|1.8.1.4|2.1.2.10
+rxn01101_c0	rxn01101	Glycolysis / gluconeogenesis	R01513	rn00260;rn00680;rn01200;rn01230	Glycine, serine and threonine metabolism;Methane metabolism;Carbon metabolism;Biosynthesis of amino acids	1.1.1.95
+rxn01274_c0	rxn01274	Other / unassigned	R01736	rn00620	Pyruvate metabolism	3.1.2.6
+rxn01332_c0	rxn01332	Pentose phosphate pathway	R01826	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.5.1.54|4.1.2.15
+rxn01332_m0	rxn01332	Pentose phosphate pathway	R01826	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.5.1.54|4.1.2.15
+rxn01343_c0	rxn01343	Other / unassigned	R01843			2.7.1.11
+rxn01476_c0	rxn01476	Pentose phosphate pathway	R02035	rn00030;rn01110;rn01200	Pentose phosphate pathway;Biosynthesis of secondary metabolites;Carbon metabolism	3.1.1.31
+rxn01492_c0	rxn01492	Other / unassigned	R02071	rn00051	Fructose and mannose metabolism	2.7.1.56
+rxn01618_c0	rxn01618	Cofactor / vitamin biosynthesis	R02260	rn00620;rn00640	Pyruvate metabolism;Propanoate metabolism	1.1.1.283|1.2.1.49
+rxn01834_c0	rxn01834	Other / unassigned	R02530	rn00620	Pyruvate metabolism	4.4.1.5
+rxn01851_m0	rxn01851	Other / unassigned	R02549	rn00330;rn00410	Arginine and proline metabolism;beta-Alanine metabolism	1.2.1.-|1.2.1.19|1.2.1.3
+rxn02004_c0	rxn02004	Storage (glycogen / trehalose)	R02778;R06228	rn00500	Starch and sucrose metabolism	3.1.3.12
+rxn03956_c0	rxn03956	Cofactor / vitamin biosynthesis	R05686			1.1.1.265
+rxn05232_c0	rxn05232	Other / unassigned	R02014	rn00230	Purine metabolism	1.17.4.2
+rxn05236_c0	rxn05236	Nucleotide metabolism	R02023	rn00240	Pyrimidine metabolism	1.17.4.2
+rxn05289_c0	rxn05289	Cofactor / vitamin biosynthesis	R02016	rn00240	Pyrimidine metabolism	1.6.4.5|1.8.1.9
+rxn05468_c0	rxn05468	Other / unassigned				
+rxn09243_c0	rxn09243	Transport (inter-compartmental)				
+rxn09397_c0	rxn09397	Other / unassigned	R06051			2.4.1.11
+rxn09399_c0	rxn09399	Storage (glycogen / trehalose)				2.4.1.18
+rxn09400_c0	rxn09400	Cell-wall polysaccharide	R06020			2.4.1.34
+rxn09753_c0	rxn09753	TCA cycle				
+rxn12777_m0	rxn12777	Other / unassigned				1.2.1.M8
+rxn13222_m0	rxn13222	Other / unassigned				
+rxn13223_c0	rxn13223	Cofactor / vitamin biosynthesis				
+rxn13224_m0	rxn13224	Other / unassigned				
+rxn13225_c0	rxn13225	Cofactor / vitamin biosynthesis				
+rxn13300_c0	rxn13300	Storage (glycogen / trehalose)				
+rxn18921_x0	rxn18921	Amino-acid metabolism				2.6.1.23
+rxn19316_m0	rxn19316	TCA cycle	R00351	rn00020;rn00630;rn01110;rn01200;rn01210;rn01230	Citrate cycle (TCA cycle;Glyoxylate and dicarboxylate metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.3.3.1|2.3.3.16|2.3.3.3|4.1.3.7
+rxn20162_c0	rxn20162	Pentose phosphate pathway	R00472	rn00620;rn00630;rn01200	Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Carbon metabolism	2.3.3.9|4.1.3.2
+rxn28352_m0	rxn28352	Other / unassigned	R05685			1.1.1.1|1.1.1.265
+rxn30081_m0	rxn30081	Amino-acid metabolism				
+rxn30381_c0	rxn30381	Glycolysis / gluconeogenesis	R00842	rn00564	Glycerophospholipid metabolism	1.1.1.8|1.1.1.94
+rxn30674_c0	rxn30674	TCA cycle				
+rxn32754_c0	rxn32754	Other / unassigned	R01818	rn00051;rn00520;rn01110	Fructose and mannose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	5.4.2.8
+rxn35242_c0	rxn35242	Glycolysis / gluconeogenesis	R00200	rn00010;rn00230;rn00620;rn01110;rn01200;rn01230	Glycolysis / Gluconeogenesis;Purine metabolism;Pyruvate metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.7.1.40
+ACALDCD_c0		Other / unassigned				
+ACtr_c0		Transport (inter-compartmental)				
+H2Otm_c0		Other / unassigned				
+HACNHm_m0		Other / unassigned				
+bio1_m0		Biomass				
+bio2_m0		Biomass				
+rxn05211_c0	rxn05211	Transport (inter-compartmental)				2.A.1.6.-
+rxn05319_c0	rxn05319	Other / unassigned				
+rxn05467_c0	rxn05467	Transport (inter-compartmental)				
+rxn05488_c0	rxn05488	Transport (inter-compartmental)				2.A.1.13.-
+rxn05561_c0	rxn05561	Transport (inter-compartmental)				2.A.56.-.-
+rxn05605_c0	rxn05605	Other / unassigned				2.A.56.-.-
+rxn09681_c0	rxn09681	Transport (inter-compartmental)				
+rxn30341_m0	rxn30341	Other / unassigned	R02570	rn00020;rn01110	Citrate cycle (TCA cycle;Biosynthesis of secondary metabolites	2.3.1.61
+rxn30407_m0	rxn30407	TCA cycle	R00931	rn00640	Propanoate metabolism	2.3.3.5|4.1.3.31
+frxn35348_m0		Oxidative phosphorylation / ETC				
+rxn35347_m0	rxn35347	Oxidative phosphorylation / ETC				
+rxn05469_m0	rxn05469	Transport (inter-compartmental)				
+rxn08428_m0	rxn08428	Transport (inter-compartmental)				
+rxn08032_m0	rxn08032	Transport (inter-compartmental)				
+rxn00145_m0	rxn00145	Oxidative phosphorylation / ETC	R00196	rn00620	Pyruvate metabolism	1.1.2.3
+frxn13726_m0		Oxidative phosphorylation / ETC				
+rxn00083_m0	rxn00083	Cofactor / vitamin biosynthesis	R00112	rn00760	Nicotinate and nicotinamide metabolism	1.6.1.1|1.6.1.2|1.6.1.3
+rxn00102_c0	rxn00102	Other / unassigned	R00132;R10092	rn00910	Nitrogen metabolism	4.2.1.1
+rxn00102_m0	rxn00102	Other / unassigned	R00132;R10092	rn00910	Nitrogen metabolism	4.2.1.1
+rxn00003_m0	rxn00003	Glycolysis / gluconeogenesis	R00006	rn00770	Pantothenate and CoA biosynthesis	2.2.1.6
+rxn00003_c0	rxn00003	Glycolysis / gluconeogenesis	R00006	rn00770	Pantothenate and CoA biosynthesis	2.2.1.6
+rxn08350_m0	rxn08350	Oxidative phosphorylation / ETC				
+rxn19316_x0	rxn19316	TCA cycle	R00351	rn00020;rn00630;rn01110;rn01200;rn01210;rn01230	Citrate cycle (TCA cycle;Glyoxylate and dicarboxylate metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.3.3.1|2.3.3.16|2.3.3.3|4.1.3.7
+rxn09780_c0	rxn09780	Transport (inter-compartmental)				
+rxn09779_c0	rxn09779	Transport (inter-compartmental)				
+rxn09777_c0	rxn09777	Transport (inter-compartmental)				
+rxn09733_c0	rxn09733	Transport (inter-compartmental)				
+rxn08173_m0	rxn08173	Oxidative phosphorylation / ETC				3.6.3.14|7.1.2.2
+rxn09273_c0	rxn09273	TCA cycle				
+rxn13211_c0	rxn13211	Other / unassigned				
+rxn11219_c0	rxn11219	Other / unassigned				
+rxn11319_c0	rxn11319	Transport (inter-compartmental)				
+rxn05511_c0	rxn05511	Transport (inter-compartmental)				
+rxn09121_m0	rxn09121	Transport (inter-compartmental)				
+rxn02185_c0	rxn02185	Glycolysis / gluconeogenesis	R03050			2.2.1.6
+rxn02113_c0	rxn02113	Other / unassigned	R02947			4.1.1.5
+rxn09121_c0	rxn09121	Transport (inter-compartmental)				
+bio1		Biomass				
+bio2		Biomass				
+EX_cpd00076_e0		Exchange				
+EX_cpd00027_e0		Exchange				
+EX_cpd00082_e0		Exchange				
+EX_cpd00130_e0		Exchange				
+EX_cpd00007_e0		Exchange				
+EX_cpd00067_e0		Exchange				
+EX_cpd00029_e0		Exchange				
+EX_cpd00588_e0		Exchange				
+EX_cpd00361_e0		Exchange				
+EX_cpd00363_e0		Exchange				
+EX_cpd00011_e0		Exchange				
+EX_cpd00001_e0		Exchange				
+EX_cpd00020_e0		Exchange				
+EX_cpd00009_e0		Exchange				
+EX_cpd00137_e0		Exchange				
+EX_cpd00071_e0		Exchange				
+EX_cpd09075_e0		Exchange				
+EX_cpd00106_e0		Exchange				
+EX_cpd01947_e0		Exchange				
+SK_cpd11416_c0		Biomass				
+rxn01256_c0	rxn01256	Other / unassigned	R01715	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	5.4.99.5
+rxn00832_c0	rxn00832	Other / unassigned	R01127	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	2.1.2.3|3.5.4.10
+rxn00737_m0	rxn00737	Amino-acid metabolism	R00996	rn00260;rn00290;rn01110;rn01230	Glycine, serine and threonine metabolism;Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.3.1.19
+rxn02175_m0	rxn02175	Other / unassigned	R03035	rn00770	Pantothenate and CoA biosynthesis	2.7.7.3
+rxn13307_c0	rxn13307	Oxidative phosphorylation / ETC				
+rxn01740_c0	rxn01740	Cofactor / vitamin biosynthesis	R02413	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.1.1.25|1.1.1.282
+rxn01671_c0	rxn01671	Other / unassigned	R02324	rn00760	Nicotinate and nicotinamide metabolism	2.7.1.22
+rxn00236_c0	rxn00236	Other / unassigned	R00328	rn00230	Purine metabolism	3.6.1.42|3.6.1.5|3.6.1.6
+rxn00002_c0	rxn00002	Sulfur / nitrogen assimilation	R00005	rn00330;rn00791	Arginine and proline metabolism;Atrazine degradation	3.5.1.54
+rxn09541_c0	rxn09541	Lipid / membrane				
+rxn09771_c0	rxn09771	Transport (inter-compartmental)				
+rxn09730_c0	rxn09730	TCA cycle				
+rxn00860_c0	rxn00860	Amino-acid metabolism	R01159	rn00340	Histidine metabolism	2.1.1.-
+rxn09036_c0	rxn09036	Transport (inter-compartmental)				
+ASPt2r_c0		Amino-acid metabolism				
+rxn09540_c0	rxn09540	Lipid / membrane				
+rxn09564_c0	rxn09564	Other / unassigned				
+rxn06437_c0	rxn06437	Amino-acid metabolism	R03652	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.18
+rxn20661_c0	rxn20661	Other / unassigned	R04292	rn00760	Nicotinate and nicotinamide metabolism	2.5.1.72
+rxn00170_m0	rxn00170	Other / unassigned	R00227	rn00620	Pyruvate metabolism	3.1.2.1
+FACOAL240p_x0		Other / unassigned				
+rxn01521_c0	rxn01521	Other / unassigned	R02102	rn00240	Pyrimidine metabolism	3.1.3.5
+rxn05645_c0	rxn05645	Transport (inter-compartmental)				
+rxn03423_c0	rxn03423	Cofactor / vitamin biosynthesis	R05050	rn00330	Arginine and proline metabolism	1.2.1.3
+CITtap_c0		Transport (inter-compartmental)				
+rxn30330_m0	rxn30330	Other / unassigned	R05051	rn00330	Arginine and proline metabolism	1.5.1.12
+rxn03446_c0	rxn03446	Other / unassigned	R05086	rn00750	Vitamin B6 metabolism	4.2.3.1
+rxn09657_c0	rxn09657	Transport (inter-compartmental)				
+rxn20474_x0	rxn20474	β-oxidation (peroxisomal)	R04737	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	1.1.1.211|1.1.1.35
+rxn00438_c0	rxn00438	Cofactor / vitamin biosynthesis	R00617	rn00730	Thiamine metabolism	2.7.4.16
+rxn00239_c0	rxn00239	Nucleotide metabolism	R00332	rn00230	Purine metabolism	2.7.4.8
+rxn00364_c0	rxn00364	Nucleotide metabolism	R00512	rn00240	Pyrimidine metabolism	2.7.4.14|2.7.4.25
+rxn05736_x0	rxn05736	Cofactor / vitamin biosynthesis				6.2.1.3
+rxn10505_c0	rxn10505	Cofactor / vitamin biosynthesis	R09376	rn00740	Riboflavin metabolism	1.1.1.302
+rxn09670_c0	rxn09670	Transport (inter-compartmental)				
+rxn05466_c0	rxn05466	Other / unassigned				
+rxn13096_c0	rxn13096	Transport (inter-compartmental)				
+rxn05611_c0	rxn05611	Transport (inter-compartmental)				
+rxn00939_c0	rxn00939	Other / unassigned	R01269	rn00760	Nicotinate and nicotinamide metabolism	2.1.1.1
+rxn09177_c0	rxn09177	Amino-acid metabolism	R04231	rn00770	Pantothenate and CoA biosynthesis	6.3.2.5
+rxn09331_c0	rxn09331	Transport (inter-compartmental)				
+PYRt2p_c0		Transport (inter-compartmental)				
+rxn01145_c0	rxn01145	Other / unassigned	R01569	rn00240	Pyrimidine metabolism	3.1.3.35|3.1.3.5
+rxn13326_c0	rxn13326	Other / unassigned				
+rxn09851_x0	rxn09851	Transport (inter-compartmental)				
+rxn28356_m0	rxn28356	Other / unassigned	R02611	rn00360	Phenylalanine metabolism	1.1.1.1|1.1.1.90
+rxn30043_c0	rxn30043	Other / unassigned				2.1.3.3
+rxn02826_c0	rxn02826	Other / unassigned	R04025	rn00330	Arginine and proline metabolism	1.4.3.4
+rxn09760_c0	rxn09760	Transport (inter-compartmental)				
+rxn08633_c0	rxn08633	Transport (inter-compartmental)				
+rxn03091_c0	rxn03091	Other / unassigned	R04481			2.1.1.98
+rxn13406_c0	rxn13406	Transport (inter-compartmental)				
+rxn13222_c0	rxn13222	Cofactor / vitamin biosynthesis				
+rxn08376_c0	rxn08376	Other / unassigned				
+rxn30037_c0	rxn30037	Other / unassigned				5.3.1.23
+rxn00953_c0	rxn00953	Cell-wall polysaccharide	R01289			4.2.1.22
+rxn05303_c0	rxn05303	Oxidative phosphorylation / ETC				
+rxn01268_c0	rxn01268	Cofactor / vitamin biosynthesis	R01728	rn00400;rn00401;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Novobiocin biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.3.1.12
+rxn12916_c0	rxn12916	Other / unassigned				
+rxn09755_c0	rxn09755	Other / unassigned				
+rxn01137_c0	rxn01137	Other / unassigned	R01560	rn00230	Purine metabolism	3.5.4.4
+rxn09445_x0	rxn09445	β-oxidation (peroxisomal)				
+rxn02304_m0	rxn02304	Other / unassigned	R03222	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	1.3.3.4
+rxn02134_c0	rxn02134	Cofactor / vitamin biosynthesis	R02978	rn00600	Sphingolipid metabolism	1.1.1.102
+AGAT_SC_c0		Other / unassigned				
+NMNt2m_c0		Transport (inter-compartmental)				
+rxn05239_c0	rxn05239	Other / unassigned	R02021	rn00920	Sulfur metabolism	1.8.4.8
+rxn13316_c0	rxn13316	Transport (inter-compartmental)				
+PIN3K_SC_c0		Lipid / membrane				
+rxn09648_c0	rxn09648	Transport (inter-compartmental)				
+rxn09511_r0	rxn09511	Cell-wall polysaccharide				
+rxn02302_c0	rxn02302	Amino-acid metabolism	R03217	rn00270	Cysteine and methionine metabolism	2.5.1.48
+rxn01353_c0	rxn01353	Other / unassigned	R01857	rn00230	Purine metabolism	2.7.4.6
+rxn08455_c0	rxn08455	Transport (inter-compartmental)				6.2.1.3
+ASNt2r_c0		Amino-acid metabolism				
+rxn09462_x0	rxn09462	Other / unassigned				
+rxn09308_c0	rxn09308	Transport (inter-compartmental)				
+rxn00137_c0	rxn00137	Other / unassigned	R00188			3.1.3.7
+ASPGLUtp_c0		Amino-acid metabolism				
+rxn08213_c0	rxn08213	Other / unassigned				
+rxn13193_c0	rxn13193	Transport (inter-compartmental)				
+rxn01003_c0	rxn01003	Other / unassigned	R01377	rn00360	Phenylalanine metabolism	4.1.1.-|4.1.1.43|4.1.4.3
+rxn01517_c0	rxn01517	Other / unassigned	R02098	rn00240	Pyrimidine metabolism	2.7.4.4|2.7.4.9
+ERGSTter_c0		Transport (inter-compartmental)				
+rxn13357_c0	rxn13357	Other / unassigned				
+rxn00555_c0	rxn00555	Amino-acid metabolism	R00768	rn00250;rn00520;rn01110	Alanine, aspartate and glutamate metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.6.1.16
+rxn08554_c0	rxn08554	Transport (inter-compartmental)				
+rxn13379_c0	rxn13379	Lipid / membrane				
+rxn09844_x0	rxn09844	Transport (inter-compartmental)				
+rxn30091_c0	rxn30091	Amino-acid metabolism				
+rxn15018_c0	rxn15018	Other / unassigned	R00182	rn00230	Purine metabolism	3.2.2.4
+rxn03084_c0	rxn03084	Amino-acid metabolism	R04463	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	6.3.5.3
+rxn00693_c0	rxn00693	Cell-wall polysaccharide	R00946	rn00270;rn00670;rn01110;rn01230	Cysteine and methionine metabolism;One carbon pool by folate;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.1.1.13
+rxn09841_c0	rxn09841	Transport (inter-compartmental)				
+PIt2p_c0		Transport (inter-compartmental)				
+rxn03004_c0	rxn03004	Cofactor / vitamin biosynthesis	R04325	rn00230;rn00670;rn01110	Purine metabolism;One carbon pool by folate;Biosynthesis of secondary metabolites	2.1.2.2
+rxn06446_c0	rxn06446	Amino-acid metabolism	R03662	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.11
+rxn00105_c0	rxn00105	Other / unassigned	R00137	rn00760	Nicotinate and nicotinamide metabolism	2.7.7.1|2.7.7.18
+rxn01520_c0	rxn01520	Cofactor / vitamin biosynthesis	R02101	rn00240;rn00670	Pyrimidine metabolism;One carbon pool by folate	2.1.1.45
+rxn13318_c0	rxn13318	Transport (inter-compartmental)				
+TTDCAtr_c0		Transport (inter-compartmental)				
+rxn04376_r0	rxn04376	Other / unassigned	R06520	rn00600	Sphingolipid metabolism	3.1.3.-|3.1.3.4
+rxn01385_c0	rxn01385	Pentose-sugar catabolism	R01896	rn00040	Pentose and glucuronate interconversions	1.1.1.9
+rxn08454_c0	rxn08454	Transport (inter-compartmental)				6.2.1.3
+rxn00300_c0	rxn00300	Other / unassigned	R00425	rn00740	Riboflavin metabolism	3.5.4.25
+rxn02895_c0	rxn02895	Amino-acid metabolism	R04144	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	6.3.4.13
+rxn13352_c0	rxn13352	Other / unassigned				
+rxn01485_c0	rxn01485	Other / unassigned	R02060	rn00520	Amino sugar and nucleotide sugar metabolism	5.4.2.10
+rxn05564_c0	rxn05564	Other / unassigned				
+D_LACDcm_c0		Glycolysis / gluconeogenesis				
+rxn13356_c0	rxn13356	Other / unassigned				
+rxn30431_c0	rxn30431	Other / unassigned	R02018	rn00240	Pyrimidine metabolism	1.17.4.1
+rxn00224_m0	rxn00224	Other / unassigned	R00310	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	4.99.1.1
+rxn09602_r0	rxn09602	Lipid / membrane				
+rxn02748_c0	rxn02748	Other / unassigned	R03894			4.1.1.72
+rxn30403_m0	rxn30403	Other / unassigned				1.1.1.86
+rxn00075_m0	rxn00075	Cofactor / vitamin biosynthesis	R00102	rn00760	Nicotinate and nicotinamide metabolism	3.2.2.5|3.2.2.6
+rxn12510_c0	rxn12510	Cofactor / vitamin biosynthesis	R03018	rn00770	Pantothenate and CoA biosynthesis	2.7.1.33
+PLBP1I_SCe_e0		Fatty-acid biosynthesis				
+rxn08449_x0	rxn08449	Transport (inter-compartmental)				6.2.1.3
+rxn00182_c0	rxn00182	Amino-acid metabolism	R00243	rn00250;rn00330;rn00430;rn00471;rn00910	Alanine, aspartate and glutamate metabolism;Arginine and proline metabolism;Taurine and hypotaurine metabolism;D-Glutamine and D-glutamate metabolism;Nitrogen metabolism	1.4.1.2|1.4.1.3|1.4.1.4
+rxn00065_c0	rxn00065	Other / unassigned	R00089	rn00230	Purine metabolism	4.6.1.1
+IPCS124_SC_c0		Other / unassigned				
+rxn05204_c0	rxn05204	Other / unassigned				
+rxn09743_c0	rxn09743	Transport (inter-compartmental)				
+rxn00710_c0	rxn00710	Other / unassigned	R00965	rn00240	Pyrimidine metabolism	4.1.1.23
+FACOAL182_c0		Other / unassigned				
+PIN4K_SC_c0		Lipid / membrane				
+rxn01454_c0	rxn01454	Other / unassigned	R01978	rn00072;rn00280;rn00650;rn00900;rn01110	Synthesis and degradation of ketone bodies;Valine, leucine and isoleucine degradation;Butanoate metabolism;Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.3.3.10|4.1.3.5
+rxn09490_c0	rxn09490	Cell-wall polysaccharide				
+rxn13199_c0	rxn13199	Transport (inter-compartmental)				
+rxn00483_c0	rxn00483	Amino-acid metabolism	R00684	rn00380	Tryptophan metabolism	2.6.1.27
+rxn00440_c0	rxn00440	Cofactor / vitamin biosynthesis	R00619	rn00730	Thiamine metabolism	2.7.6.2
+rxn09502_c0	rxn09502	Glycolysis / gluconeogenesis				
+rxn09475_x0	rxn09475	β-oxidation (peroxisomal)				1.3.3.6
+FAS181ACPm_m0		Fatty-acid biosynthesis				
+FA182ACPH_c0		Fatty-acid biosynthesis				
+rxn00748_c0	rxn00748	Other / unassigned	R01016	rn00640	Propanoate metabolism	4.2.3.3
+CDPDGPm_SC_m0		Glycolysis / gluconeogenesis				
+rxn09686_c0	rxn09686	Other / unassigned				
+rxn00412_c0	rxn00412	Amino-acid metabolism	R00573	rn00240	Pyrimidine metabolism	6.3.4.2
+rxn03167_c0	rxn03167	Other / unassigned	R04620	rn00790	Folate biosynthesis	3.1.3.1
+rxn05669_c0	rxn05669	Oxidative phosphorylation / ETC				
+IPCS224_SC_c0		Other / unassigned				
+rxn05200_c0	rxn05200	Transport (inter-compartmental)				
+rxn09651_c0	rxn09651	Pentose-sugar catabolism				
+rxn18921_c0	rxn18921	Amino-acid metabolism				2.6.1.23
+rxn01960_c0	rxn01960	Other / unassigned				
+rxn09266_c0	rxn09266	Transport (inter-compartmental)				
+rxn00299_c0	rxn00299	Other / unassigned	R00424			3.5.4.16
+rxn00361_c0	rxn00361	Other / unassigned	R00509	rn00230;rn00920	Purine metabolism;Sulfur metabolism	2.7.1.25
+rxn09626_c0	rxn09626	Lipid / membrane				
+rxn13400_m0	rxn13400	Other / unassigned	R08766	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	4.2.1.-
+rxn28352_c0	rxn28352	Other / unassigned	R05685			1.1.1.1|1.1.1.265
+rxn01423_c0	rxn01423	Amino-acid metabolism	R01939	rn00300;rn00310;rn01210;rn01230	Lysine biosynthesis;Lysine degradation;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.39
+rxn09579_r0	rxn09579	Lipid / membrane				
+rxn06445_c0	rxn06445	Amino-acid metabolism	R03661	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.15
+rxn13351_c0	rxn13351	Other / unassigned				
+rxn09562_c0	rxn09562	Other / unassigned				
+rxn01938_m0	rxn01938	Cofactor / vitamin biosynthesis	R02679	rn00380	Tryptophan metabolism	1.1.1.190
+rxn01219_c0	rxn01219	Nucleotide metabolism	R01665	rn00240	Pyrimidine metabolism	2.7.4.14|2.7.4.25
+rxn04137_c0	rxn04137	Amino-acid metabolism	R06126			1.1.1.276
+rxn05595_c0	rxn05595	Other / unassigned				2.A.37.-.-
+rxn01807_c0	rxn01807	Cofactor / vitamin biosynthesis	R02493	rn00750	Vitamin B6 metabolism	2.7.1.35
+rxn02212_c0	rxn02212	Other / unassigned	R03083	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.2.3.4
+rxn09865_c0	rxn09865	Amino-acid metabolism				
+rxn01672_c0	rxn01672	Other / unassigned	R02325	rn00240	Pyrimidine metabolism	3.5.4.13
+rxn09551_c0	rxn09551	Other / unassigned				
+rxn03391_m0	rxn03391	Other / unassigned	R04983	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	2.1.1.201
+rxn00533_c0	rxn00533	Other / unassigned	R00742	rn00061;rn00253;rn00254;rn00620;rn00640;rn00720;rn01110;rn01200;rn01212	Fatty acid biosynthesis;Tetracycline biosynthesis;Aflatoxin biosynthesis;Pyruvate metabolism;Propanoate metabolism;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism;Fatty acid metabolism	6.4.1.2
+rxn01790_m0	rxn01790	Cofactor / vitamin biosynthesis	R02472	rn00770;rn01110	Pantothenate and CoA biosynthesis;Biosynthesis of secondary metabolites	1.1.1.169
+rxn09468_x0	rxn09468	Other / unassigned				
+rxn09837_c0	rxn09837	Transport (inter-compartmental)				
+rxn02303_c0	rxn02303	Other / unassigned	R03220	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	1.3.3.3
+rxn13330_c0	rxn13330	Other / unassigned				
+rxn09412_c0	rxn09412	Other / unassigned				
+rxn09498_m0	rxn09498	Other / unassigned				
+rxn08767_x0	rxn08767	β-oxidation (peroxisomal)				2.3.1.16
+rxn13319_c0	rxn13319	Transport (inter-compartmental)				
+IPCS226_SC_c0		Other / unassigned				
+2MBTOHtm_c0		Transport (inter-compartmental)				
+rxn00272_c0	rxn00272	Amino-acid metabolism	R00369	rn00250	Alanine, aspartate and glutamate metabolism	2.6.1.44
+rxn01726_x0	rxn01726	Other / unassigned	R02396			2.3.1.7
+rxn13355_c0	rxn13355	Other / unassigned				
+rxn09519_c0	rxn09519	Amino-acid metabolism	R03542	rn00460	Cyanoamino acid metabolism	3.5.5.1
+rxn01678_c0	rxn01678	Other / unassigned	R02331	rn00240	Pyrimidine metabolism	2.7.4.6
+rxn01454_m0	rxn01454	Other / unassigned	R01978	rn00072;rn00280;rn00650;rn00900;rn01110	Synthesis and degradation of ketone bodies;Valine, leucine and isoleucine degradation;Butanoate metabolism;Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.3.3.10|4.1.3.5
+rxn13237_c0	rxn13237	Transport (inter-compartmental)				
+rxn01646_c0	rxn01646	Other / unassigned	R02294	rn00760	Nicotinate and nicotinamide metabolism	2.4.2.1
+rxn00728_c0	rxn00728	Amino-acid metabolism	R00987	rn00380	Tryptophan metabolism	3.7.1.3
+rxn09478_x0	rxn09478	β-oxidation (peroxisomal)				1.3.3.6
+rxn00377_c0	rxn00377	Other / unassigned	R00527	rn00680;rn01200	Methane metabolism;Carbon metabolism	3.1.2.12
+rxn08451_x0	rxn08451	Transport (inter-compartmental)				6.2.1.3
+rxn05496_c0	rxn05496	Amino-acid metabolism				
+rxn09458_c0	rxn09458	Other / unassigned				
+rxn00416_c0	rxn00416	Amino-acid metabolism	R00578	rn00250;rn01110	Alanine, aspartate and glutamate metabolism;Biosynthesis of secondary metabolites	6.3.5.4
+rxn00391_e0	rxn00391	Cofactor / vitamin biosynthesis	R00548	rn00740	Riboflavin metabolism	3.1.3.-|3.1.3.102|3.1.3.2
+rxn09532_x0	rxn09532	Fatty-acid biosynthesis	R10747			
+rxn13218_c0	rxn13218	Other / unassigned				
+rxn30090_c0	rxn30090	Amino-acid metabolism				
+rxn08437_c0	rxn08437	Fatty-acid biosynthesis				3.1.2.14
+rxn00342_e0	rxn00342	Amino-acid metabolism	R00485	rn00250;rn00460;rn01110	Alanine, aspartate and glutamate metabolism;Cyanoamino acid metabolism;Biosynthesis of secondary metabolites	3.5.1.1|3.5.1.38
+CYSTtp_c0		Transport (inter-compartmental)				
+rxn09645_c0	rxn09645	Transport (inter-compartmental)				
+rxn09721_c0	rxn09721	Transport (inter-compartmental)				
+rxn09788_c0	rxn09788	Transport (inter-compartmental)				
+rxn09521_c0	rxn09521	Amino-acid metabolism				
+rxn01466_c0	rxn01466	Other / unassigned	R02003	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.10
+3OPHB_5tm_c0		Transport (inter-compartmental)				
+rxn00927_c0	rxn00927	Other / unassigned	R01245	rn00230	Purine metabolism	3.2.2.1|3.2.2.7|3.2.2.8
+rxn00835_c0	rxn00835	Other / unassigned	R01131	rn00230	Purine metabolism	2.7.1.73
+rxn09614_c0	rxn09614	Nucleotide metabolism				
+rxn01987_c0	rxn01987	Other / unassigned	R02750	rn00030	Pentose phosphate pathway	2.7.1.15
+rxn05920_c0	rxn05920	Other / unassigned	R01018	rn00510	N-Glycan biosynthesis	2.7.1.108
+PAPtm_c0		Transport (inter-compartmental)				
+TRPt2r_c0		Amino-acid metabolism				
+rxn01300_c0	rxn01300	Pentose phosphate pathway	R01771	rn00260;rn01230	Glycine, serine and threonine metabolism;Biosynthesis of amino acids	2.7.1.39
+rxn05197_c0	rxn05197	Other / unassigned				2.A.40.-.-
+rxn09722_c0	rxn09722	Transport (inter-compartmental)				
+rxn00708_c0	rxn00708	Other / unassigned	R00963	rn00240	Pyrimidine metabolism	3.1.3.5
+rxn05108_c0	rxn05108	Amino-acid metabolism	R07396	rn00270	Cysteine and methionine metabolism	2.6.1.5|2.6.1.57
+rxn00141_c0	rxn00141	Cell-wall polysaccharide	R00192	rn00270	Cysteine and methionine metabolism	3.3.1.1
+rxn27940_m0	rxn27940	Other / unassigned	R04444	rn00330	Arginine and proline metabolism	1.5.1.12
+rxn09524_c0	rxn09524	Oxidative phosphorylation / ETC				
+rxn00205_c0	rxn00205	Other / unassigned	R00274	rn00480	Glutathione metabolism	1.11.1.9
+rxn09547_c0	rxn09547	Other / unassigned				
+FE2utm_c0		Transport (inter-compartmental)				
+GLNt2r_c0		Amino-acid metabolism				
+PStm_SC_c0		Transport (inter-compartmental)				
+rxn01199_c0	rxn01199	Other / unassigned	R01639	rn00040	Pentose and glucuronate interconversions	2.7.1.17
+rxn02358_c0	rxn02358	Cofactor / vitamin biosynthesis	R03293	rn00330	Arginine and proline metabolism	1.5.1.2
+rxn09673_c0	rxn09673	Glycolysis / gluconeogenesis				
+rxn00806_c0	rxn00806	Amino-acid metabolism	R01090	rn00280;rn00290;rn00966;rn01110;rn01210;rn01230	Valine, leucine and isoleucine degradation;Valine, leucine and isoleucine biosynthesis;Glucosinolate biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.42|2.6.1.6|2.6.1.67
+rxn30365_m0	rxn30365	Other / unassigned				
+rxn03630_c0	rxn03630	TCA cycle	R05320	rn00430;rn00920	Taurine and hypotaurine metabolism;Sulfur metabolism	1.14.11.17
+rxn09655_c0	rxn09655	Storage (glycogen / trehalose)				
+rxn32134_c0	rxn32134	Other / unassigned				
+rxn06438_c0	rxn06438	Amino-acid metabolism	R03654	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.14
+rxn00859_c0	rxn00859	Amino-acid metabolism	R01158	rn01230	Biosynthesis of amino acids	1.1.1.23
+rxn05593_c0	rxn05593	Transport (inter-compartmental)				
+rxn33415_c0	rxn33415	Other / unassigned	R01987	rn00330	Arginine and proline metabolism	3.5.1.63
+rxn01726_m0	rxn01726	Other / unassigned	R02396			2.3.1.7
+rxn01182_m0	rxn01182	Other / unassigned	R01616	rn00130;rn00360;rn00940;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Phenylalanine metabolism;Phenylpropanoid biosynthesis;Biosynthesis of secondary metabolites	6.2.1.12
+rxn01938_c0	rxn01938	Cofactor / vitamin biosynthesis	R02679	rn00380	Tryptophan metabolism	1.1.1.190
+rxn00711_c0	rxn00711	Other / unassigned	R00966	rn00240	Pyrimidine metabolism	2.4.2.9
+rxn08343_c0	rxn08343	Other / unassigned				
+rxn09439_m0	rxn09439	Fatty-acid biosynthesis				
+rxn09768_c0	rxn09768	Transport (inter-compartmental)				
+ACRNtp_c0		Transport (inter-compartmental)				
+rxn15108_c0	rxn15108	Other / unassigned	R01049	rn00030;rn00230;rn01110;rn01200;rn01230	Pentose phosphate pathway;Purine metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.7.6.1
+CRNtp_c0		Transport (inter-compartmental)				
+rxn13188_c0	rxn13188	Transport (inter-compartmental)				
+rxn00646_c0	rxn00646	Amino-acid metabolism	R00894	rn00480	Glutathione metabolism	6.3.2.2
+4ABZtm_c0		Transport (inter-compartmental)				
+rxn01512_c0	rxn01512	Other / unassigned	R02093	rn00240	Pyrimidine metabolism	2.7.4.6
+rxn05465_m0	rxn05465	Fatty-acid biosynthesis	R01626	rn00061;rn01212	Fatty acid biosynthesis;Fatty acid metabolism	2.3.1.39|2.3.1.85|2.3.1.86
+rxn13195_c0	rxn13195	Transport (inter-compartmental)				
+METt2r_c0		Amino-acid metabolism				
+rxn13253_e0	rxn13253	Pectin / D-galacturonate (Ashwell)				
+rxn00075_c0	rxn00075	Cofactor / vitamin biosynthesis	R00102	rn00760	Nicotinate and nicotinamide metabolism	3.2.2.5|3.2.2.6
+rxn08104_c0	rxn08104	Transport (inter-compartmental)				
+rxn05299_c0	rxn05299	Oxidative phosphorylation / ETC				
+rxn06937_c0	rxn06937	Amino-acid metabolism	R05578	rn00860;rn00970;rn01110	Porphyrin and chlorophyll metabolism;Aminoacyl-tRNA biosynthesis;Biosynthesis of secondary metabolites	6.1.1.17|6.1.1.24
+rxn00834_c0	rxn00834	Cofactor / vitamin biosynthesis	R01130	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	1.1.1.205
+rxn30328_m0	rxn30328	Other / unassigned	R03336	rn00130;rn00350;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Tyrosine metabolism;Biosynthesis of secondary metabolites	1.1.1.222|1.1.1.237
+rxn09623_c0	rxn09623	Other / unassigned				
+rxn13255_e0	rxn13255	Fatty-acid biosynthesis				
+FAS160ACPm_m0		Fatty-acid biosynthesis				
+3MBALDtm_c0		Transport (inter-compartmental)				
+rxn01483_c0	rxn01483	Other / unassigned	R02058	rn00520;rn01110	Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.3.1.4
+rxn31870_c0	rxn31870	Cofactor / vitamin biosynthesis	R01224	rn00670	One carbon pool by folate	1.5.1.20
+rxn13407_c0	rxn13407	Transport (inter-compartmental)				
+rxn01827_c0	rxn01827	Other / unassigned	R02521	rn00130;rn00350	Ubiquinone and other terpenoid-quinone biosynthesis;Tyrosine metabolism	1.13.11.27
+rxn09441_c0	rxn09441	Other / unassigned				
+rxn00742_c0	rxn00742	Amino-acid metabolism	R01001	rn00260;rn00270;rn01230	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Biosynthesis of amino acids	4.4.1.1
+FORtm_c0		Transport (inter-compartmental)				
+rxn13358_c0	rxn13358	Other / unassigned				
+rxn09802_c0	rxn09802	Transport (inter-compartmental)				
+rxn02811_c0	rxn02811	Other / unassigned	R04001	rn00290;rn01110;rn01210	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism	4.2.1.33
+rxn00138_c0	rxn00138	Cofactor / vitamin biosynthesis	R00189	rn00760	Nicotinate and nicotinamide metabolism	6.3.1.5|6.3.5.1
+rxn08441_x0	rxn08441	Other / unassigned				3.1.2.2
+rxn00806_m0	rxn00806	TCA cycle	R01090	rn00280;rn00290;rn00966;rn01110;rn01210;rn01230	Valine, leucine and isoleucine degradation;Valine, leucine and isoleucine biosynthesis;Glucosinolate biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.42|2.6.1.6|2.6.1.67
+rxn00717_c0	rxn00717	Other / unassigned	R00974	rn00240	Pyrimidine metabolism	3.5.4.1
+FAO240p_x0		Other / unassigned				
+rxn08564_c0	rxn08564	Transport (inter-compartmental)				
+rxn00604_r0	rxn00604	Glycolysis / gluconeogenesis	R00835			1.1.1.363|1.1.1.49
+rxn09672_c0	rxn09672	Oxidative phosphorylation / ETC				
+rxn09531_c0	rxn09531	Cofactor / vitamin biosynthesis				
+rxn02133_c0	rxn02133	Other / unassigned	R02976	rn00600	Sphingolipid metabolism	2.7.1.91
+rxn05198_c0	rxn05198	Transport (inter-compartmental)				
+rxn00205_m0	rxn00205	Other / unassigned	R00274	rn00480	Glutathione metabolism	1.11.1.9
+rxn09794_c0	rxn09794	Transport (inter-compartmental)				
+rxn00541_c0	rxn00541	Amino-acid metabolism	R00751	rn00260;rn01110;rn01230	Glycine, serine and threonine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.1.2.5
+rxn08677_c0	rxn08677	Transport (inter-compartmental)				
+rxn09611_c0	rxn09611	Cell-wall polysaccharide	R06204			3.2.1.39
+PEtm_SC_c0		Transport (inter-compartmental)				
+rxn08854_c0	rxn08854	Oxidative phosphorylation / ETC				
+rxn01269_c0	rxn01269	Cofactor / vitamin biosynthesis	R01730	rn00400;rn01110	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites	1.3.1.13
+rxn09759_c0	rxn09759	Transport (inter-compartmental)				
+rxn01069_c0	rxn01069	Amino-acid metabolism	R01466	rn00260;rn01230	Glycine, serine and threonine metabolism;Biosynthesis of amino acids	4.2.3.1|4.2.99.2
+rxn13350_c0	rxn13350	Other / unassigned				
+rxn06377_m0	rxn06377	Amino-acid metabolism	R03425	rn00260	Glycine, serine and threonine metabolism	1.4.4.2
+rxn13315_c0	rxn13315	Transport (inter-compartmental)				
+rxn09792_c0	rxn09792	Transport (inter-compartmental)				
+rxn13255_c0	rxn13255	Fatty-acid biosynthesis				
+rxn13208_m0	rxn13208	Other / unassigned				
+rxn05217_c0	rxn05217	Oxidative phosphorylation / ETC				
+rxn06449_c0	rxn06449	Amino-acid metabolism	R03665	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.9
+rxn13324_c0	rxn13324	Transport (inter-compartmental)				
+rxn06440_c0	rxn06440	Amino-acid metabolism	R03656	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.5
+H2Oter_c0		Other / unassigned				
+GCALDtm_c0		Other / unassigned				
+rxn08142_c0	rxn08142	Transport (inter-compartmental)				
+rxn09563_c0	rxn09563	Other / unassigned				
+rxn09640_c0	rxn09640	Transport (inter-compartmental)				
+rxn13238_c0	rxn13238	Transport (inter-compartmental)				
+rxn03075_c0	rxn03075	Other / unassigned	R04448	rn00730	Thiamine metabolism	2.7.1.50
+rxn09611_e0	rxn09611	Cell-wall polysaccharide	R06204			3.2.1.39
+rxn01726_c0	rxn01726	Other / unassigned	R02396			2.3.1.7
+ASPOcm_c0		Oxidative phosphorylation / ETC				
+rxn05205_c0	rxn05205	Transport (inter-compartmental)				
+rxn09470_x0	rxn09470	Other / unassigned				
+rxn02504_m0	rxn02504	Other / unassigned	R03504	rn00790	Folate biosynthesis	4.1.2.25
+rxn08705_c0	rxn08705	Transport (inter-compartmental)				
+NH4tm_c0		Other / unassigned				
+rxn05104_c0	rxn05104	Other / unassigned	R07392	rn00270	Cysteine and methionine metabolism	4.2.1.109
+rxn00689_c0	rxn00689	Amino-acid metabolism	R00942	rn00790	Folate biosynthesis	6.3.2.17
+rxn09061_c0	rxn09061	Transport (inter-compartmental)				
+rxn02358_m0	rxn02358	Cofactor / vitamin biosynthesis	R03293	rn00330	Arginine and proline metabolism	1.5.1.2
+AKGt2r_c0		Transport (inter-compartmental)				
+rxn09680_c0	rxn09680	Other / unassigned				
+IND3ETHtm_c0		Transport (inter-compartmental)				
+rxn05792_c0	rxn05792	Other / unassigned	R00234			2.3.1.88
+rxn00952_c0	rxn00952	Cell-wall polysaccharide	R01287	rn00270	Cysteine and methionine metabolism	2.5.1.49|4.2.99.10
+rxn00790_c0	rxn00790	Amino-acid metabolism	R01072	rn00230;rn00250;rn01110	Purine metabolism;Alanine, aspartate and glutamate metabolism;Biosynthesis of secondary metabolites	2.4.2.14
+rxn05238_c0	rxn05238	Other / unassigned				
+rxn06441_m0	rxn06441	Amino-acid metabolism	R03657	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.4
+rxn05465_c0	rxn05465	Fatty-acid biosynthesis	R01626	rn00061;rn01212	Fatty acid biosynthesis;Fatty acid metabolism	2.3.1.39|2.3.1.85|2.3.1.86
+rxn09464_x0	rxn09464	Other / unassigned				
+rxn06440_m0	rxn06440	Amino-acid metabolism	R03656	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.5
+rxn08570_c0	rxn08570	Transport (inter-compartmental)				
+rxn09216_c0	rxn09216	Transport (inter-compartmental)				
+rxn09658_c0	rxn09658	Other / unassigned				
+rxn09434_m0	rxn09434	Fatty-acid biosynthesis				
+rxn34726_c0	rxn34726	Fatty-acid biosynthesis				
+rxn09793_c0	rxn09793	Transport (inter-compartmental)				
+rxn01791_c0	rxn01791	Other / unassigned	R02473	rn00410;rn00770;rn01110	beta-Alanine metabolism;Pantothenate and CoA biosynthesis;Biosynthesis of secondary metabolites	6.3.2.1
+PHEt2r_c0		Amino-acid metabolism				
+rxn13260_c0	rxn13260	Lipid / membrane				
+rxn09461_x0	rxn09461	β-oxidation (peroxisomal)				
+rxn00392_m0	rxn00392	Cofactor / vitamin biosynthesis	R00549	rn00740	Riboflavin metabolism	2.7.1.26
+rxn39076_c0	rxn39076	Transport (inter-compartmental)				
+rxn00088_m0	rxn00088	Cofactor / vitamin biosynthesis	R00118	rn00760	Nicotinate and nicotinamide metabolism	3.1.3.-|3.1.3.2
+rxn01211_m0	rxn01211	Cofactor / vitamin biosynthesis	R01655	rn00670;rn00720;rn01200	One carbon pool by folate;Carbon fixation pathways in prokaryotes;Carbon metabolism	3.5.4.9
+rxn09784_c0	rxn09784	Other / unassigned				
+rxn13200_c0	rxn13200	Other / unassigned				
+rxn01637_m0	rxn01637	TCA cycle	R02283	rn00330;rn01110;rn01210;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.11
+rxn06444_c0	rxn06444	Amino-acid metabolism	R03660	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.20
+rxn09697_c0	rxn09697	Other / unassigned				
+PACALDtm_c0		Transport (inter-compartmental)				
+rxn09601_c0	rxn09601	Other / unassigned				
+rxn09491_c0	rxn09491	Other / unassigned				
+rxn01368_c0	rxn01368	Other / unassigned	R01878	rn00240	Pyrimidine metabolism	3.5.4.5
+rxn13363_c0	rxn13363	Other / unassigned				
+rxn10832_c0	rxn10832	Transport (inter-compartmental)				
+rxn12585_c0	rxn12585	Transport (inter-compartmental)				
+rxn30333_m0	rxn30333	Glycolysis / gluconeogenesis	R08648	rn00290;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.2.1.6
+rxn03062_c0	rxn03062	Cofactor / vitamin biosynthesis	R04426	rn00290;rn01110;rn01210	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism	1.1.1.85
+rxn09699_c0	rxn09699	TCA cycle				
+2MBALDtm_c0		Transport (inter-compartmental)				
+rxn00214_c0	rxn00214	Other / unassigned	R00291	rn00052;rn00520;rn01110	Galactose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	5.1.3.2
+rxn00119_c0	rxn00119	Nucleotide metabolism	R00158	rn00240	Pyrimidine metabolism	2.7.4.14|2.7.4.22|2.7.4.4
+rxn30365_c0	rxn30365	Other / unassigned				
+OCDCYAt_c0		Transport (inter-compartmental)				
+rxn00510_c0	rxn00510	Amino-acid metabolism	R00715	rn00300;rn00310;rn01110;rn01230	Lysine biosynthesis;Lysine degradation;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.5.1.7
+rxn08857_c0	rxn08857	Amino-acid metabolism				6.1.1.6
+rxn00907_m0	rxn00907	Cofactor / vitamin biosynthesis	R01220	rn00670;rn00720;rn01200	One carbon pool by folate;Carbon fixation pathways in prokaryotes;Carbon metabolism	1.5.1.5
+rxn09756_c0	rxn09756	Transport (inter-compartmental)				
+rxn08747_c0	rxn08747	Transport (inter-compartmental)				
+rxn00737_c0	rxn00737	Amino-acid metabolism	R00996	rn00260;rn00290;rn01110;rn01230	Glycine, serine and threonine metabolism;Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.3.1.19
+rxn01396_c0	rxn01396	Other / unassigned	R01909	rn00750	Vitamin B6 metabolism	2.7.1.-|2.7.1.35
+rxn05235_c0	rxn05235	Other / unassigned	R02022	rn00240	Pyrimidine metabolism	1.17.4.2
+rxn02937_c0	rxn02937	Other / unassigned	R04208	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	6.3.3.1
+rxn00260_c0	rxn00260	TCA cycle	R00355	rn00250;rn00710;rn01110;rn01200;rn01210;rn01230	Alanine, aspartate and glutamate metabolism;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1
+rxn09473_x0	rxn09473	β-oxidation (peroxisomal)				
+rxn09457_c0	rxn09457	Other / unassigned				
+rxn08424_c0	rxn08424	Transport (inter-compartmental)				
+rxn00130_c0	rxn00130	Other / unassigned	R00181	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	3.5.4.17|3.5.4.6
+rxn00363_c0	rxn00363	Other / unassigned	R00511	rn00240	Pyrimidine metabolism	3.1.3.5|3.1.3.91
+rxn01507_c0	rxn01507	Other / unassigned	R02088	rn00230	Purine metabolism	3.1.3.5
+rxn01301_c0	rxn01301	Pentose phosphate pathway	R01773	rn00260;rn00270;rn00300;rn01110;rn01230	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Lysine biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.1.1.3
+rxn09661_c0	rxn09661	Transport (inter-compartmental)				
+rxn21082_c0	rxn21082	Fatty-acid biosynthesis				3.1.2.14
+rxn27497_c0	rxn27497	Other / unassigned	R01213	rn00290;rn00620;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Pyruvate metabolism;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.3.3.13|4.1.3.12
+rxn00194_c0	rxn00194	Amino-acid metabolism	R00261	rn00250;rn00650	Alanine, aspartate and glutamate metabolism;Butanoate metabolism	4.1.1.15
+rxn00369_c0	rxn00369	Nucleotide metabolism	R00517	rn00240	Pyrimidine metabolism	2.7.1.-|2.7.1.48
+rxn00351_c0	rxn00351	Amino-acid metabolism	R00497	rn00480	Glutathione metabolism	6.3.2.3
+rxn00127_c0	rxn00127	Other / unassigned	R00178	rn00270;rn00330	Cysteine and methionine metabolism;Arginine and proline metabolism	4.1.1.50
+rxn09799_c0	rxn09799	Transport (inter-compartmental)				
+rxn01673_c0	rxn01673	Other / unassigned	R02326	rn00240	Pyrimidine metabolism	2.7.4.6
+rxn00917_c0	rxn00917	Amino-acid metabolism	R01231	rn00230	Purine metabolism	6.3.5.2
+rxn00409_c0	rxn00409	Other / unassigned	R00570	rn00240	Pyrimidine metabolism	2.7.4.6
+rxn01917_m0	rxn01917	Other / unassigned	R02649	rn00330;rn01110;rn01210;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.7.2.8
+rxn00132_c0	rxn00132	Other / unassigned	R00183	rn00230	Purine metabolism	3.1.3.5
+rxn09689_c0	rxn09689	Transport (inter-compartmental)				
+rxn13203_c0	rxn13203	Other / unassigned				
+rxn13189_c0	rxn13189	Transport (inter-compartmental)				
+rxn09546_c0	rxn09546	Other / unassigned				
+TYRt2r_c0		Amino-acid metabolism				
+rxn13186_m0	rxn13186	Other / unassigned	R02175	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	2.1.1.114
+rxn05499_c0	rxn05499	Transport (inter-compartmental)				
+rxn06441_c0	rxn06441	Amino-acid metabolism	R03657	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.4
+PETOHM_SC_c0		Lipid / membrane				
+rxn02374_m0	rxn02374	Other / unassigned	R03314	rn00330;rn01110;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	
+rxn00126_c0	rxn00126	Amino-acid metabolism	R00177	rn00270;rn01110;rn01230	Cysteine and methionine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.5.1.6
+rxn01209_c0	rxn01209	Cofactor / vitamin biosynthesis				
+PGPPAm_SC_m0		Lipid / membrane				
+rxn09758_c0	rxn09758	Transport (inter-compartmental)				
+PLBPC_SC_c0		Fatty-acid biosynthesis				
+rxn02175_c0	rxn02175	Other / unassigned	R03035	rn00770	Pantothenate and CoA biosynthesis	2.7.7.3
+rxn06300_c0	rxn06300	Amino-acid metabolism	R03038	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.7
+rxn09559_c0	rxn09559	Other / unassigned				
+rxn09690_c0	rxn09690	Amino-acid metabolism				
+rxn06600_m0	rxn06600	Cofactor / vitamin biosynthesis	R04125	rn00260;rn00670	Glycine, serine and threonine metabolism;One carbon pool by folate	2.1.2.10
+rxn00088_c0	rxn00088	Cofactor / vitamin biosynthesis	R00118	rn00760	Nicotinate and nicotinamide metabolism	3.1.3.-|3.1.3.2
+rxn13930_c0	rxn13930	Cofactor / vitamin biosynthesis	R05706	rn00524;rn00740	Butirosin and neomycin biosynthesis;Riboflavin metabolism	1.5.1.-|1.5.1.29|1.5.1.38|1.5.1.39
+rxn08265_c0	rxn08265	Transport (inter-compartmental)				
+rxn01362_c0	rxn01362	Other / unassigned	R01870	rn00240	Pyrimidine metabolism	2.4.2.10
+rxn08440_x0	rxn08440	Other / unassigned				3.1.2.2
+rxn00452_c0	rxn00452	Cell-wall polysaccharide	R00650	rn00270;rn01110	Cysteine and methionine metabolism;Biosynthesis of secondary metabolites	2.1.1.10
+rxn03137_c0	rxn03137	Cofactor / vitamin biosynthesis	R04560	rn00230;rn00670;rn01110	Purine metabolism;One carbon pool by folate;Biosynthesis of secondary metabolites	2.1.2.3
+SACCD1_c0		Amino-acid metabolism				
+rxn09467_x0	rxn09467	Other / unassigned				
+rxn09647_c0	rxn09647	Transport (inter-compartmental)				
+rxn13234_c0	rxn13234	Cofactor / vitamin biosynthesis				
+rxn05568_c0	rxn05568	Transport (inter-compartmental)				
+rxn08436_c0	rxn08436	Fatty-acid biosynthesis				3.1.2.14
+rxn09460_c0	rxn09460	Other / unassigned				
+rxn05318_c0	rxn05318	Other / unassigned				
+rxn09442_m0	rxn09442	Fatty-acid biosynthesis				
+rxn27497_m0	rxn27497	Other / unassigned	R01213	rn00290;rn00620;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Pyruvate metabolism;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.3.3.13|4.1.3.12
+rxn06449_m0	rxn06449	Amino-acid metabolism	R03665	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.9
+rxn01450_c0	rxn01450	Other / unassigned	R01974	rn00380	Tryptophan metabolism	4.1.1.43|4.1.1.74
+rxn00929_m0	rxn00929	Amino-acid metabolism	R01248	rn00330;rn01110;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.5.1.2
+rxn09385_c0	rxn09385	Transport (inter-compartmental)				
+rxn02911_x0	rxn02911	Other / unassigned	R04170	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	4.2.1.17|4.2.1.74
+rxn09845_x0	rxn09845	Transport (inter-compartmental)				
+rxn13380_c0	rxn13380	Lipid / membrane				
+rxn30050_c0	rxn30050	Other / unassigned				2.7.1.11
+CRNtim_c0		Transport (inter-compartmental)				
+rxn09770_c0	rxn09770	Transport (inter-compartmental)				
+HDCAt_c0		Transport (inter-compartmental)				
+rxn09477_x0	rxn09477	β-oxidation (peroxisomal)				1.3.3.6
+rxn00920_c0	rxn00920	Other / unassigned	R01234	rn00230	Purine metabolism	3.1.4.17|3.1.4.35
+rxn09435_c0	rxn09435	Other / unassigned				
+rxn02200_m0	rxn02200	Other / unassigned	R03066	rn00790	Folate biosynthesis	2.5.1.15
+rxn04680_m0	rxn04680	Other / unassigned	R06866	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	4.1.1.-
+rxn09750_c0	rxn09750	Transport (inter-compartmental)				
+4H2OGLTtp_c0		Transport (inter-compartmental)				
+rxn06556_c0	rxn06556	Other / unassigned	R04014	rn00061	Fatty acid biosynthesis	3.1.2.14|3.1.2.21
+C14STR_c0		Other / unassigned				
+rxn09296_x0	rxn09296	Other / unassigned				1.11.1.-
+rxn00414_c0	rxn00414	Amino-acid metabolism	R00575	rn00240;rn00250	Pyrimidine metabolism;Alanine, aspartate and glutamate metabolism	6.3.5.5
+rxn05317_c0	rxn05317	Transport (inter-compartmental)				
+rxn01652_m0	rxn01652	Cofactor / vitamin biosynthesis	R02300	rn00670	One carbon pool by folate	2.1.2.10
+rxn01653_m0	rxn01653	Cofactor / vitamin biosynthesis	R02301	rn00670	One carbon pool by folate	6.3.3.2
+rxn00241_c0	rxn00241	Other / unassigned	R00335	rn00230	Purine metabolism	3.6.1.15|3.6.1.5|3.6.5.1|3.6.5.2|3.6.5.3|3.6.5.4|3.6.5.5|3.6.5.6
+ID3ACALDtm_c0		Transport (inter-compartmental)				
+rxn09801_c0	rxn09801	Transport (inter-compartmental)				
+IPCS126_SC_c0		Other / unassigned				
+ACtp_c0		Transport (inter-compartmental)				
+rxn00800_c0	rxn00800	Other / unassigned	R01083	rn00230;rn00250	Purine metabolism;Alanine, aspartate and glutamate metabolism	4.3.2.2
+rxn01255_c0	rxn01255	Other / unassigned	R01714	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.2.3.5
+rxn09713_c0	rxn09713	Transport (inter-compartmental)				
+rxn09560_c0	rxn09560	Other / unassigned				
+rxn06493_m0	rxn06493	Cofactor / vitamin biosynthesis	R03815	rn00260	Glycine, serine and threonine metabolism	1.8.1.4
+rxn19830_c0	rxn19830	Amino-acid metabolism	R04558	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.4.2.-|4.1.3.-|4.3.2.10
+rxn09774_c0	rxn09774	Transport (inter-compartmental)				
+rxn07328_c0	rxn07328	Other / unassigned	R07497	rn00100	Steroid biosynthesis	
+rxn09719_c0	rxn09719	Transport (inter-compartmental)				
+rxn09035_c0	rxn09035	Transport (inter-compartmental)				
+rxn02305_c0	rxn02305	Other / unassigned	R03223	rn00730	Thiamine metabolism	2.5.1.3
+rxn09421_c0	rxn09421	Other / unassigned				
+rxn13312_c0	rxn13312	Transport (inter-compartmental)				
+rxn09800_c0	rxn09800	Transport (inter-compartmental)				
+H2Otp_c0		Other / unassigned				
+rxn09296_m0	rxn09296	Other / unassigned				1.11.1.-
+rxn05300_c0	rxn05300	Oxidative phosphorylation / ETC				
+GLYt2r_c0		Amino-acid metabolism				
+rxn13251_c0	rxn13251	TCA cycle	R01867	rn00240	Pyrimidine metabolism	1.3.98.1
+rxn01252_c0	rxn01252	Other / unassigned	R01711	rn00750	Vitamin B6 metabolism	1.1.3.12|1.4.3.5
+rxn13299_c0	rxn13299	Storage (glycogen / trehalose)				2.4.1.1
+rxn13288_e0	rxn13288	Fatty-acid biosynthesis				
+rxn15114_c0	rxn15114	Pentose phosphate pathway	R01056	rn00030;rn00710;rn01110;rn01200;rn01230	Pentose phosphate pathway;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	5.3.1.6
+rxn02275_c0	rxn02275	Other / unassigned	R03180	rn00330	Arginine and proline metabolism	3.5.1.4
+AASAD1_c0		Cofactor / vitamin biosynthesis				
+rxn09616_c0	rxn09616	Other / unassigned				
+rxn01575_c0	rxn01575	Amino-acid metabolism	R02199	rn00280;rn00290;rn00966;rn01110;rn01210;rn01230	Valine, leucine and isoleucine degradation;Valine, leucine and isoleucine biosynthesis;Glucosinolate biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.42
+ARGt2r_c0		Amino-acid metabolism				
+IAMOHtm_c0		Transport (inter-compartmental)				
+rxn13191_c0	rxn13191	Transport (inter-compartmental)				
+rxn00478_c0	rxn00478	Amino-acid metabolism	R00678	rn00380	Tryptophan metabolism	1.13.11.11|1.13.11.52
+rxn09472_x0	rxn09472	Other / unassigned				
+rxn13288_c0	rxn13288	Fatty-acid biosynthesis				
+rxn09769_c0	rxn09769	Transport (inter-compartmental)				
+rxn00139_c0	rxn00139	Other / unassigned	R00190	rn00230	Purine metabolism	2.4.2.7|2.4.2.8
+rxn30417_c0	rxn30417	Other / unassigned	R01652	rn00290;rn01110;rn01210	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism	
+rxn02322_c0	rxn02322	Other / unassigned	R03245	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.7.4.2
+rxn02356_m0	rxn02356	Cofactor / vitamin biosynthesis	R03291	rn00330	Arginine and proline metabolism	1.5.1.2
+rxn00140_c0	rxn00140	Other / unassigned	R00191	rn00230	Purine metabolism	3.1.4.17|3.1.4.53
+rxn03070_m0	rxn03070	Other / unassigned	R04443	rn00330	Arginine and proline metabolism	
+rxn05120_m0	rxn05120	Other / unassigned	R07411	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	2.5.1.-
+rxn02341_c0	rxn02341	Other / unassigned	R03269	rn00770	Pantothenate and CoA biosynthesis	4.1.1.36
+rxn13214_c0	rxn13214	Transport (inter-compartmental)				
+rxn09525_c0	rxn09525	Oxidative phosphorylation / ETC				
+3MOPtm_c0		Transport (inter-compartmental)				
+rxn09378_c0	rxn09378	Transport (inter-compartmental)				
+rxn02288_c0	rxn02288	Other / unassigned	R03197	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	4.1.1.37
+rxn01607_c0	rxn01607	Other / unassigned	R02245	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.7.1.36
+2PHETOHtm_c0		Transport (inter-compartmental)				
+rxn09796_c0	rxn09796	Transport (inter-compartmental)				
+rxn00092_c0	rxn00092	Other / unassigned	R00122	rn00230	Purine metabolism	3.6.1.5
+rxn02476_c0	rxn02476	Glycolysis / gluconeogenesis	R03460	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.5.1.19
+rxn00260_x0	rxn00260	TCA cycle	R00355	rn00250;rn00710;rn01110;rn01200;rn01210;rn01230	Alanine, aspartate and glutamate metabolism;Carbon fixation in photosynthetic organisms;Biosynthesis of secondary metabolites;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1
+HDCEAt_c0		Transport (inter-compartmental)				
+rxn00831_c0	rxn00831	Other / unassigned	R01126	rn00230	Purine metabolism	3.1.3.5|3.1.3.99
+rxn13341_c0	rxn13341	Cofactor / vitamin biosynthesis				
+rxn00938_c0	rxn00938	Other / unassigned	R01268	rn00760	Nicotinate and nicotinamide metabolism	3.5.1.19|3.5.1.4
+rxn30066_c0	rxn30066	Amino-acid metabolism				4.2.1.20
+rxn09741_c0	rxn09741	Transport (inter-compartmental)				
+rxn05306_c0	rxn05306	Oxidative phosphorylation / ETC				2.A.3.1.-
+rxn30390_x0	rxn30390	β-oxidation (peroxisomal)	R04739	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	1.1.1.211|1.1.1.35
+rxn08323_c0	rxn08323	Transport (inter-compartmental)				
+rxn12918_c0	rxn12918	Other / unassigned				
+rxn13353_c0	rxn13353	Other / unassigned				
+rxn09778_c0	rxn09778	Transport (inter-compartmental)				
+rxn09619_c0	rxn09619	Other / unassigned				
+rxn02374_c0	rxn02374	Other / unassigned	R03314	rn00330;rn01110;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	
+rxn00178_m0	rxn00178	Other / unassigned	R00238	rn00071;rn00072;rn00280;rn00310;rn00362;rn00380;rn00620;rn00630;rn00640;rn00650;rn00720;rn00900;rn01110;rn01200;rn01212	Fatty acid degradation;Synthesis and degradation of ketone bodies;Valine, leucine and isoleucine degradation;Lysine degradation;Benzoate degradation;Tryptophan metabolism;Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Butanoate metabolism;Carbon fixation pathways in prokaryotes;Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites;Carbon metabolism;Fatty acid metabolism	2.3.1.9
+rxn06448_c0	rxn06448	Amino-acid metabolism	R03664	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.2
+rxn01000_c0	rxn01000	Other / unassigned	R01373	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.2.1.51|4.2.1.91
+rxn05312_c0	rxn05312	Transport (inter-compartmental)				2.A.20.-.-
+KARA1im_m0		Other / unassigned				
+rxn13290_c0	rxn13290	Transport (inter-compartmental)				
+rxn09625_c0	rxn09625	Lipid / membrane				
+rxn01961_c0	rxn01961	Other / unassigned	R02719	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	3.1.3.5
+rxn30425_m0	rxn30425	Lipid / membrane				
+ORNt2r_c0		Transport (inter-compartmental)				
+rxn00791_c0	rxn00791	Other / unassigned	R01073	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.4.2.18
+rxn05349_c0	rxn05349	Other / unassigned	R01624	rn00061;rn01212	Fatty acid biosynthesis;Fatty acid metabolism	2.3.1.179|2.3.1.180|2.3.1.38|2.3.1.85|2.3.1.86
+rxn13258_c0	rxn13258	Fatty-acid biosynthesis				
+rxn00906_c0	rxn00906	Cofactor / vitamin biosynthesis	R01218	rn00670	One carbon pool by folate	1.5.1.15
+rxn10075_c0	rxn10075	Other / unassigned				
+rxn13349_c0	rxn13349	Other / unassigned				
+rxn00122_c0	rxn00122	Cofactor / vitamin biosynthesis	R00161	rn00740	Riboflavin metabolism	2.7.7.2
+THZPSN2_SC_c0		Amino-acid metabolism				
+rxn30035_c0	rxn30035	Other / unassigned				4.1.1.48
+rxn02503_m0	rxn02503	Other / unassigned	R03503	rn00790	Folate biosynthesis	2.7.6.3
+HICITDm_m0		Other / unassigned				
+TYRt2p_c0		Amino-acid metabolism				
+rxn00808_c0	rxn00808	Glycolysis / gluconeogenesis	R01092	rn00052;rn00520;rn01110	Galactose metabolism;Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.7.1.6
+rxn01843_c0	rxn01843	Other / unassigned	R02540	rn00360;rn00643	Phenylalanine metabolism;Styrene degradation	3.5.1.4
+rxn06444_m0	rxn06444	Amino-acid metabolism	R03660	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.20
+rxn06439_m0	rxn06439	Amino-acid metabolism	R03655	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.21
+rxn05654_c0	rxn05654	Transport (inter-compartmental)				2.A.56.-.-
+rxn00379_c0	rxn00379	Sulfur / nitrogen assimilation	R00529	rn00230;rn00920	Purine metabolism;Sulfur metabolism	2.7.7.4
+rxn09785_c0	rxn09785	Transport (inter-compartmental)				
+rxn01204_c0	rxn01204	Amino-acid metabolism	R01648	rn00250;rn00650	Alanine, aspartate and glutamate metabolism;Butanoate metabolism	2.6.1.19
+rxn09642_c0	rxn09642	Transport (inter-compartmental)				
+rxn30054_c0	rxn30054	Other / unassigned				
+rxn35572_c0	rxn35572	Other / unassigned	R04559	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	4.3.2.2
+HBZOPT6m_m0		Other / unassigned				
+rxn01143_c0	rxn01143	Nucleotide metabolism	R01567	rn00240	Pyrimidine metabolism	2.7.1.21
+rxn00690_m0	rxn00690	Cofactor / vitamin biosynthesis	R00943	rn00670;rn00720;rn01200	One carbon pool by folate;Carbon fixation pathways in prokaryotes;Carbon metabolism	6.3.4.3
+rxn09438_c0	rxn09438	Other / unassigned				
+rxn01018_c0	rxn01018	Amino-acid metabolism	R01397	rn00240;rn00250	Pyrimidine metabolism;Alanine, aspartate and glutamate metabolism	2.1.3.2
+rxn01575_m0	rxn01575	TCA cycle	R02199	rn00280;rn00290;rn00966;rn01110;rn01210;rn01230	Valine, leucine and isoleucine degradation;Valine, leucine and isoleucine biosynthesis;Glucosinolate biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.42
+rxn01518_c0	rxn01518	Other / unassigned	R02099	rn00240	Pyrimidine metabolism	2.7.1.21
+rxn03913_r0	rxn03913	Cofactor / vitamin biosynthesis	R05641	rn00100	Steroid biosynthesis	1.3.1.71
+rxn13417_c0	rxn13417	Fatty-acid biosynthesis				
+L_LACtm_c0		Transport (inter-compartmental)				
+rxn00938_m0	rxn00938	Other / unassigned	R01268	rn00760	Nicotinate and nicotinamide metabolism	3.5.1.19|3.5.1.4
+ADHAPR_SC_c0		Other / unassigned				
+rxn01971_c0	rxn01971	Glycolysis / gluconeogenesis	R02732	rn00051	Fructose and mannose metabolism	2.7.1.105
+rxn09516_c0	rxn09516	Other / unassigned				3.6.1.15
+rxn01303_c0	rxn01303	Pentose phosphate pathway	R01776	rn00270	Cysteine and methionine metabolism	2.3.1.31
+rxn02213_c0	rxn02213	Other / unassigned	R03084	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.2.1.10
+rxn00392_c0	rxn00392	Cofactor / vitamin biosynthesis	R00549	rn00740	Riboflavin metabolism	2.7.1.26
+rxn09664_c0	rxn09664	Transport (inter-compartmental)				
+rxn05652_c0	rxn05652	Transport (inter-compartmental)				
+rxn05040_c0	rxn05040	Pentose phosphate pathway	R07281	rn00740	Riboflavin metabolism	4.1.99.12
+rxn00686_c0	rxn00686	Cofactor / vitamin biosynthesis	R00939	rn00670;rn00790	One carbon pool by folate;Folate biosynthesis	1.5.1.3
+rxn00751_c0	rxn00751	Other / unassigned	R01021	rn00564	Glycerophospholipid metabolism	2.7.1.32
+rxn13417_e0	rxn13417	Fatty-acid biosynthesis				
+rxn00060_c0	rxn00060	Other / unassigned	R00084	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	2.5.1.61|4.3.1.8
+rxn01486_c0	rxn01486	Other / unassigned	R02061	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.29
+rxn09476_x0	rxn09476	β-oxidation (peroxisomal)				1.3.3.6
+rxn13207_m0	rxn13207	Other / unassigned				
+rxn05680_c0	rxn05680	Other / unassigned				
+rxn01420_m0	rxn01420	Cofactor / vitamin biosynthesis	R01936	rn01210	2-Oxocarboxylic acid metabolism	1.1.1.87
+rxn30417_m0	rxn30417	Other / unassigned	R01652	rn00290;rn01110;rn01210	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism	
+rxn02834_c0	rxn02834	Other / unassigned	R04035	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	3.6.1.31
+rxn30427_x0	rxn30427	β-oxidation (peroxisomal)				
+rxn00117_c0	rxn00117	Nucleotide metabolism	R00156	rn00240	Pyrimidine metabolism	2.7.4.6
+rxn09621_c0	rxn09621	Lipid / membrane				
+rxn05491_c0	rxn05491	Other / unassigned				
+rxn09726_c0	rxn09726	Transport (inter-compartmental)				
+rxn08643_c0	rxn08643	Transport (inter-compartmental)				
+rxn00380_c0	rxn00380	Sulfur / nitrogen assimilation	R00530	rn00920	Sulfur metabolism	2.7.7.5
+rxn09459_c0	rxn09459	Other / unassigned				
+rxn05287_c0	rxn05287	Other / unassigned	R07475			2.5.1.81
+rxn01930_c0	rxn01930	Amino-acid metabolism	R02668	rn00380	Tryptophan metabolism	3.7.1.3
+rxn05566_c0	rxn05566	Transport (inter-compartmental)				
+rxn08674_c0	rxn08674	Transport (inter-compartmental)				
+rxn02989_c0	rxn02989	Other / unassigned	R04293	rn00380	Tryptophan metabolism	
+rxn09608_c0	rxn09608	Other / unassigned				
+rxn00410_c0	rxn00410	Nucleotide metabolism	R00571	rn00240	Pyrimidine metabolism	6.3.4.2
+rxn01217_c0	rxn01217	Other / unassigned	R01663	rn00240	Pyrimidine metabolism	3.5.4.12
+rxn05638_c0	rxn05638	Amino-acid metabolism				
+rxn06439_c0	rxn06439	Amino-acid metabolism	R03655	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.21
+rxn01739_c0	rxn01739	Other / unassigned	R02412	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.7.1.71
+rxn05349_m0	rxn05349	Other / unassigned	R01624	rn00061;rn01212	Fatty acid biosynthesis;Fatty acid metabolism	2.3.1.179|2.3.1.180|2.3.1.38|2.3.1.85|2.3.1.86
+rxn06432_c0	rxn06432	Amino-acid metabolism	R03646	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.19
+rxn04381_c0	rxn04381	Cofactor / vitamin biosynthesis	R06525	rn00600	Sphingolipid metabolism	1.14.-.-|1.14.13.169
+rxn00209_c0	rxn00209	Other / unassigned	R00278	rn00750	Vitamin B6 metabolism	1.4.3.5
+rxn13362_c0	rxn13362	Transport (inter-compartmental)				
+rxn13336_c0	rxn13336	Fatty-acid biosynthesis				
+rxn00789_c0	rxn00789	Other / unassigned	R01071	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.4.2.17
+GLUt2r_c0		Amino-acid metabolism				
+rxn13336_e0	rxn13336	Fatty-acid biosynthesis				
+rxn00178_c0	rxn00178	Other / unassigned	R00238	rn00071;rn00072;rn00280;rn00310;rn00362;rn00380;rn00620;rn00630;rn00640;rn00650;rn00720;rn00900;rn01110;rn01200;rn01212	Fatty acid degradation;Synthesis and degradation of ketone bodies;Valine, leucine and isoleucine degradation;Lysine degradation;Benzoate degradation;Tryptophan metabolism;Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Butanoate metabolism;Carbon fixation pathways in prokaryotes;Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites;Carbon metabolism;Fatty acid metabolism	2.3.1.9
+rxn09665_c0	rxn09665	Transport (inter-compartmental)				
+rxn06936_c0	rxn06936	Amino-acid metabolism	R05577	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.12|6.1.1.23
+rxn02473_c0	rxn02473	Other / unassigned	R03457	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.2.1.19
+rxn00912_c0	rxn00912	Cofactor / vitamin biosynthesis	R01226	rn00770;rn01110	Pantothenate and CoA biosynthesis;Biosynthesis of secondary metabolites	2.1.2.11
+VALt2r_c0		Amino-acid metabolism				
+rxn13398_c0	rxn13398	Transport (inter-compartmental)				
+3OPHB5Hm_c0		Other / unassigned				
+rxn01479_c0	rxn01479	Other / unassigned	R02038	rn00564	Glycerophospholipid metabolism	2.7.7.14
+rxn01274_m0	rxn01274	Other / unassigned	R01736	rn00620	Pyruvate metabolism	3.1.2.6
+rxn02264_c0	rxn02264	Other / unassigned	R03165	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	4.2.1.75
+TAGL_SC_c0		Fatty-acid biosynthesis				
+rxn15467_m0	rxn15467	Other / unassigned	R04441	rn00290;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.9
+rxn09839_c0	rxn09839	Transport (inter-compartmental)				
+rxn13258_e0	rxn13258	Fatty-acid biosynthesis				
+HISt2r_c0		Amino-acid metabolism				
+rxn03240_x0	rxn03240	Other / unassigned	R04738	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	4.2.1.17|4.2.1.74
+rxn28987_c0	rxn28987	Other / unassigned	R02864	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	4.99.1.4
+rxn00947_x0	rxn00947	β-oxidation (peroxisomal)	R01280	rn00061;rn00071;rn01212	Fatty acid biosynthesis;Fatty acid degradation;Fatty acid metabolism	6.2.1.3
+rxn00560_c0	rxn00560	Other / unassigned	R00774	rn00330	Arginine and proline metabolism	6.3.4.6
+rxn09296_c0	rxn09296	Other / unassigned				1.11.1.-
+NMNt2p_c0		Transport (inter-compartmental)				
+rxn00839_c0	rxn00839	Other / unassigned	R01137	rn00230	Purine metabolism	2.7.4.6
+rxn00189_c0	rxn00189	Amino-acid metabolism	R00256	rn00250;rn00330;rn00471	Alanine, aspartate and glutamate metabolism;Arginine and proline metabolism;D-Glutamine and D-glutamate metabolism	3.5.1.2|3.5.1.38|6.3.5.4|6.3.5.5
+rxn06443_m0	rxn06443	Amino-acid metabolism	R03659	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.10
+rxn02789_c0	rxn02789	Other / unassigned	R03968	rn00290;rn01110;rn01210	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism	4.2.1.33
+MELIBt2_c0		Transport (inter-compartmental)				
+rxn09193_c0	rxn09193	Transport (inter-compartmental)				
+rxn00838_c0	rxn00838	Amino-acid metabolism	R01135	rn00230;rn00250	Purine metabolism;Alanine, aspartate and glutamate metabolism	6.3.4.4
+rxn09842_c0	rxn09842	Transport (inter-compartmental)				
+rxn01406_c0	rxn01406	Other / unassigned	R01920	rn00270;rn00330;rn00480	Cysteine and methionine metabolism;Arginine and proline metabolism;Glutathione metabolism	2.5.1.16
+IPCS326_SC_c0		Other / unassigned				
+rxn05234_c0	rxn05234	Other / unassigned	R02020	rn00230	Purine metabolism	1.17.4.2
+rxn27926_c0	rxn27926	Amino-acid metabolism	R03243	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.6.1.9
+rxn08063_c0	rxn08063	Transport (inter-compartmental)				
+O2ter_c0		Other / unassigned				
+rxn13390_c0	rxn13390	Transport (inter-compartmental)				
+rxn03974_c0	rxn03974	Cofactor / vitamin biosynthesis	R05705	rn00524;rn00740;rn01057	Butirosin and neomycin biosynthesis;Riboflavin metabolism;Biosynthesis of type II polyketide products	1.5.1.-|1.5.1.29|1.5.1.39|1.5.1.41|1.5.1.42
+rxn30433_c0	rxn30433	Glycolysis / gluconeogenesis	R01787	rn00051	Fructose and mannose metabolism	1.1.1.21
+rxn08066_c0	rxn08066	Other / unassigned				
+rxn09633_c0	rxn09633	Other / unassigned				
+rxn01748_c0	rxn01748	Other / unassigned	R02424			3.5.2.5
+rxn09798_c0	rxn09798	Transport (inter-compartmental)				
+rxn05199_c0	rxn05199	Other / unassigned				
+rxn01302_c0	rxn01302	Pentose phosphate pathway	R01775	rn00260;rn00270;rn00300;rn01110;rn01230	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Lysine biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.1.1.3
+rxn08439_x0	rxn08439	Other / unassigned				3.1.2.2
+rxn05602_c0	rxn05602	Transport (inter-compartmental)				
+rxn06549_c0	rxn06549	Other / unassigned	R03992			2.3.1.97
+rxn13226_c0	rxn13226	Other / unassigned				1.1.1.-
+rxn02290_c0	rxn02290	Lipid / membrane	R03199	rn00100;rn01110	Steroid biosynthesis;Biosynthesis of secondary metabolites	5.4.99.7
+rxn06937_m0	rxn06937	Amino-acid metabolism	R05578	rn00860;rn00970;rn01110	Porphyrin and chlorophyll metabolism;Aminoacyl-tRNA biosynthesis;Biosynthesis of secondary metabolites	6.1.1.17|6.1.1.24
+rxn13313_c0	rxn13313	Transport (inter-compartmental)				
+IBUTOHtm_c0		Transport (inter-compartmental)				
+rxn09653_c0	rxn09653	Transport (inter-compartmental)				
+rxn08447_x0	rxn08447	Other / unassigned				
+PMI12346PS_c0		Other / unassigned				
+PINOS_SC_c0		Lipid / membrane				
+rxn04147_c0	rxn04147	Other / unassigned	R06223			2.5.1.21
+rxn08413_x0	rxn08413	β-oxidation (peroxisomal)				4.2.1.17
+rxn13414_c0	rxn13414	Nucleotide metabolism				3.6.1.5
+rxn05243_c0	rxn05243	Amino-acid metabolism				
+rxn00493_c0	rxn00493	Amino-acid metabolism	R00694	rn00360;rn00400;rn00960;rn01110;rn01210;rn01230	Phenylalanine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Tropane, piperidine and pyridine alkaloid biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1|2.6.1.5|2.6.1.57|2.6.1.58|2.6.1.9
+rxn09791_c0	rxn09791	Transport (inter-compartmental)				
+rxn09466_x0	rxn09466	Other / unassigned				
+rxn00327_c0	rxn00327	Pentose phosphate pathway	R00469	rn00230	Purine metabolism	3.5.1.116|3.5.3.19
+TTCCOAtx_c0		Transport (inter-compartmental)				
+CLPNSm_SC_m0		Lipid / membrane				
+rxn00423_c0	rxn00423	Amino-acid metabolism	R00586	rn00270;rn00920;rn01200;rn01230	Cysteine and methionine metabolism;Sulfur metabolism;Carbon metabolism;Biosynthesis of amino acids	2.3.1.30
+rxn13348_c0	rxn13348	Other / unassigned				
+rxn02402_m0	rxn02402	Other / unassigned	R03348	rn00760	Nicotinate and nicotinamide metabolism	2.4.2.19
+rxn00007_c0	rxn00007	Storage (glycogen / trehalose)	R00010;R06103	rn00500	Starch and sucrose metabolism	3.2.1.28
+rxn09836_c0	rxn09836	TCA cycle				
+rxn00552_c0	rxn00552	Glycolysis / gluconeogenesis	R00765	rn00520	Amino sugar and nucleotide sugar metabolism	3.5.99.6
+rxn30058_c0	rxn30058	Other / unassigned				2.7.1.15
+rxn00931_c0	rxn00931	Amino-acid metabolism	R01251	rn00330;rn01110;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.5.1.2
+rxn09414_c0	rxn09414	Other / unassigned				
+rxn13376_c0	rxn13376	Transport (inter-compartmental)				
+rxn09427_c0	rxn09427	Other / unassigned				
+rxn02222_c0	rxn02222	Other / unassigned	R03096	rn00380	Tryptophan metabolism	3.5.1.4
+rxn09479_x0	rxn09479	β-oxidation (peroxisomal)				1.3.3.6
+rxn09428_m0	rxn09428	Fatty-acid biosynthesis				
+rxn13297_c0	rxn13297	Storage (glycogen / trehalose)				
+rxn09763_c0	rxn09763	Transport (inter-compartmental)				
+rxn00337_c0	rxn00337	Amino-acid metabolism	R00480	rn00260;rn00270;rn00300;rn01110;rn01210;rn01230	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Lysine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.7.2.4
+rxn00122_m0	rxn00122	Cofactor / vitamin biosynthesis	R00161	rn00740	Riboflavin metabolism	2.7.7.2
+rxn09880_c0	rxn09880	Other / unassigned				2.3.1.57
+rxn13125_c0	rxn13125	Transport (inter-compartmental)				
+rxn09847_x0	rxn09847	Transport (inter-compartmental)				
+rxn32133_c0	rxn32133	Cofactor / vitamin biosynthesis	R00115	rn00480	Glutathione metabolism	1.6.4.2|1.8.1.7
+rxn05527_c0	rxn05527	Other / unassigned				
+rxn00453_c0	rxn00453	Amino-acid metabolism	R00651			2.5.1.49|4.2.99.10
+rxn02276_c0	rxn02276	Other / unassigned	R03181	rn00350;rn00643	Tyrosine metabolism;Styrene degradation	5.2.1.2
+AASAD2_c0		Cofactor / vitamin biosynthesis				
+rxn30013_c0	rxn30013	Other / unassigned				
+rxn13235_c0	rxn13235	Transport (inter-compartmental)				
+rxn02219_c0	rxn02219	Other / unassigned	R03093	rn00380	Tryptophan metabolism	3.5.5.1
+rxn09716_c0	rxn09716	Transport (inter-compartmental)				
+rxn02287_c0	rxn02287	Other / unassigned	R03194	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	2.1.1.107
+rxn13399_r0	rxn13399	Cofactor / vitamin biosynthesis				
+rxn01603_c0	rxn01603	Amino-acid metabolism	R02237	rn00790	Folate biosynthesis	6.3.2.12|6.3.2.17
+rxn06443_c0	rxn06443	Amino-acid metabolism	R03659	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.10
+rxn20162_x0	rxn20162	Pentose phosphate pathway	R00472	rn00620;rn00630;rn01200	Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Carbon metabolism	2.3.3.9|4.1.3.2
+rxn20478_x0	rxn20478	β-oxidation (peroxisomal)	R04741	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	1.1.1.211|1.1.1.35
+rxn01380_c0	rxn01380	Other / unassigned	R01890	rn00564	Glycerophospholipid metabolism	2.7.7.15
+rxn06435_c0	rxn06435	Amino-acid metabolism	R03650	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.16
+rxn05231_c0	rxn05231	Other / unassigned	R02017	rn00230	Purine metabolism	1.17.4.1
+rxn01437_c0	rxn01437	Other / unassigned	R01959	rn00380;rn00630	Tryptophan metabolism;Glyoxylate and dicarboxylate metabolism	3.5.1.9
+rxn13187_m0	rxn13187	Other / unassigned				
+rxn34008_c0	rxn34008	Cofactor / vitamin biosynthesis				1.8.1.2
+rxn08350_c0	rxn08350	Transport (inter-compartmental)				
+rxn15049_c0	rxn15049	Other / unassigned	R00510	rn00240	Pyrimidine metabolism	3.2.2.10
+rxn30672_c0	rxn30672	Other / unassigned				
+GAT1_SC_c0		Glycolysis / gluconeogenesis				
+rxn00764_c0	rxn00764	Pentose phosphate pathway	R01039	rn00561	Glycerolipid metabolism	1.1.1.156
+rxn02356_c0	rxn02356	Cofactor / vitamin biosynthesis	R03291	rn00330	Arginine and proline metabolism	1.5.1.2
+rxn05581_c0	rxn05581	Glycolysis / gluconeogenesis				
+rxn08453_c0	rxn08453	Transport (inter-compartmental)				6.2.1.3
+rxn02402_c0	rxn02402	Other / unassigned	R03348	rn00760	Nicotinate and nicotinamide metabolism	2.4.2.19
+rxn04142_c0	rxn04142	Amino-acid metabolism	R06171	rn00260	Glycine, serine and threonine metabolism	4.1.2.48|4.1.2.49|4.1.2.5
+rxn00503_m0	rxn00503	Amino-acid metabolism	R00707	rn00250;rn00330	Alanine, aspartate and glutamate metabolism;Arginine and proline metabolism	1.5.1.12
+rxn05316_c0	rxn05316	Other / unassigned				
+rxn06280_m0	rxn06280	Amino-acid metabolism	R02918	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.1
+rxn09034_c0	rxn09034	Transport (inter-compartmental)				
+rxn09517_c0	rxn09517	Other / unassigned				3.6.1.6
+CRNCARtp_c0		Transport (inter-compartmental)				
+rxn00599_m0	rxn00599	Amino-acid metabolism	R00830	rn00260;rn00860	Glycine, serine and threonine metabolism;Porphyrin and chlorophyll metabolism	2.3.1.37
+rxn00713_c0	rxn00713	Nucleotide metabolism	R00968	rn00240	Pyrimidine metabolism	2.7.1.48
+rxn01360_c0	rxn01360	Other / unassigned	R01867	rn00240	Pyrimidine metabolism	1.3.3.1|1.3.98.1
+rxn30145_m0	rxn30145	Other / unassigned	R05070	rn00290;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.9
+rxn01445_c0	rxn01445	Other / unassigned	R01968	rn00230	Purine metabolism	3.1.3.5
+rxn06434_c0	rxn06434	Amino-acid metabolism	R03648	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.22
+rxn03052_c0	rxn03052	Cell-wall polysaccharide	R04405	rn00270;rn01110;rn01230	Cysteine and methionine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	2.1.1.14
+rxn03063_c0	rxn03063	Lipid / membrane	R04427	rn00100	Steroid biosynthesis	2.1.1.41
+rxn08066_m0	rxn08066	Other / unassigned				
+CERS124er_r0		Other / unassigned				
+rxn01377_c0	rxn01377	Amino-acid metabolism	R01887	rn00460	Cyanoamino acid metabolism	3.5.5.1
+rxn05224_c0	rxn05224	Cofactor / vitamin biosynthesis				
+rxn01213_c0	rxn01213	Other / unassigned	R01658	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.1
+CYSTLp_x0		Cell-wall polysaccharide				
+FAS140ACPm_m0		Fatty-acid biosynthesis				
+rxn08448_x0	rxn08448	Transport (inter-compartmental)				6.2.1.3
+E4HGLUtp_c0		Other / unassigned				
+rxn09806_c0	rxn09806	Transport (inter-compartmental)				
+rxn09790_c0	rxn09790	Transport (inter-compartmental)				
+rxn01537_c0	rxn01537	Cofactor / vitamin biosynthesis	R02133	rn00730	Thiamine metabolism	3.5.99.2
+rxn13327_c0	rxn13327	Other / unassigned				
+rxn00966_c0	rxn00966	Glycolysis / gluconeogenesis	R01302	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	4.1.3.40
+rxn09803_c0	rxn09803	Transport (inter-compartmental)				
+rxn05201_c0	rxn05201	Other / unassigned				
+rxn00830_c0	rxn00830	Other / unassigned	R01123	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	5.3.3.2
+rxn00903_c0	rxn00903	Amino-acid metabolism	R01214	rn00280;rn00290;rn00770;rn00966;rn01110;rn01210;rn01230	Valine, leucine and isoleucine degradation;Valine, leucine and isoleucine biosynthesis;Pantothenate and CoA biosynthesis;Glucosinolate biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.42|2.6.1.6
+rxn09332_c0	rxn09332	Transport (inter-compartmental)				
+rxn13328_c0	rxn13328	Other / unassigned				
+GLXtp_c0		Transport (inter-compartmental)				
+rxn09544_c0	rxn09544	Other / unassigned				
+rxn09600_c0	rxn09600	Other / unassigned				
+rxn09663_c0	rxn09663	Other / unassigned				
+rxn13201_c0	rxn13201	Transport (inter-compartmental)				
+rxn30079_c0	rxn30079	Other / unassigned				
+rxn09425_m0	rxn09425	Fatty-acid biosynthesis				
+rxn05233_c0	rxn05233	Other / unassigned	R02019	rn00230	Purine metabolism	1.17.4.1
+rxn00069_c0	rxn00069	Amino-acid metabolism	R00093	rn00250;rn00910;rn01110	Alanine, aspartate and glutamate metabolism;Nitrogen metabolism;Biosynthesis of secondary metabolites	1.4.1.14
+rxn08525_c0	rxn08525	Transport (inter-compartmental)				
+rxn01833_c0	rxn01833	Other / unassigned	R02529	rn00260	Glycine, serine and threonine metabolism	1.4.3.21|1.4.3.4
+rxn33365_c0	rxn33365	Other / unassigned	R02142	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	2.4.2.22|2.4.2.8
+rxn03390_m0	rxn03390	Other / unassigned	R04982	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	1.14.13.-
+rxn01366_c0	rxn01366	Other / unassigned	R01876	rn00240	Pyrimidine metabolism	2.4.2.2|2.4.2.3
+2MPPALtm_c0		Transport (inter-compartmental)				
+rxn01265_m0	rxn01265	Other / unassigned	R01724	rn00760	Nicotinate and nicotinamide metabolism	2.4.2.11
+rxn09539_c0	rxn09539	Lipid / membrane				
+rxn13387_c0	rxn13387	Other / unassigned				
+rxn00758_c0	rxn00758	Glycolysis / gluconeogenesis	R01030	rn00564	Glycerophospholipid metabolism	3.1.4.2|3.1.4.46
+rxn32133_m0	rxn32133	Cofactor / vitamin biosynthesis	R00115	rn00480	Glutathione metabolism	1.6.4.2|1.8.1.7
+rxn00610_c0	rxn00610	Glycolysis / gluconeogenesis	R00841	rn00561	Glycerolipid metabolism	3.1.3.21
+rxn00727_c0	rxn00727	Amino-acid metabolism	R00986	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	4.1.3.27
+rxn01465_c0	rxn01465	Other / unassigned	R01993	rn00240	Pyrimidine metabolism	3.5.2.3
+THRt2r_c0		Amino-acid metabolism				
+rxn05483_c0	rxn05483	Other / unassigned				
+rxn00208_c0	rxn00208	Other / unassigned	R00277	rn00750	Vitamin B6 metabolism	1.4.3.5
+rxn05307_c0	rxn05307	Oxidative phosphorylation / ETC				2.A.42.-.-
+rxn09566_c0	rxn09566	Cofactor / vitamin biosynthesis				
+rxn01643_c0	rxn01643	Cofactor / vitamin biosynthesis	R02291	rn00260;rn00270;rn00300;rn01110;rn01210;rn01230	Glycine, serine and threonine metabolism;Cysteine and methionine metabolism;Lysine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.2.1.11
+rxn13331_c0	rxn13331	Other / unassigned				
+rxn09807_c0	rxn09807	Transport (inter-compartmental)				
+rxn01225_c0	rxn01225	Other / unassigned	R01676	rn00230	Purine metabolism	3.5.4.3
+rxn00948_c0	rxn00948	Amino-acid metabolism	R01281	rn00600	Sphingolipid metabolism	2.3.1.50
+rxn09486_c0	rxn09486	Nucleotide metabolism				
+rxn01858_c0	rxn01858	Other / unassigned	R02556	rn00230	Purine metabolism	3.5.4.4
+rxn09728_c0	rxn09728	Transport (inter-compartmental)				
+rxn13247_c0	rxn13247	Glycolysis / gluconeogenesis				
+NH4tp_c0		Other / unassigned				
+rxn09581_c0	rxn09581	Lipid / membrane				
+rxn13224_c0	rxn13224	Cofactor / vitamin biosynthesis				
+rxn05301_c0	rxn05301	Oxidative phosphorylation / ETC				2.A.3.1.-
+rxn09609_c0	rxn09609	Other / unassigned				
+rxn05244_c0	rxn05244	Amino-acid metabolism				
+rxn00913_c0	rxn00913	Other / unassigned	R01227	rn00230	Purine metabolism	3.1.3.5
+rxn02914_c0	rxn02914	Amino-acid metabolism	R04173	rn00260;rn00680;rn01200;rn01230	Glycine, serine and threonine metabolism;Methane metabolism;Carbon metabolism;Biosynthesis of amino acids	2.6.1.52
+rxn05209_c0	rxn05209	Other / unassigned				
+rxn12919_c0	rxn12919	Other / unassigned				
+rxn02063_r0	rxn02063	Cofactor / vitamin biosynthesis	R02874	rn00100;rn00909;rn01110	Steroid biosynthesis;Sesquiterpenoid and triterpenoid biosynthesis;Biosynthesis of secondary metabolites	1.14.13.132|1.14.99.7
+rxn20476_x0	rxn20476	β-oxidation (peroxisomal)				1.1.1.35
+rxn06447_c0	rxn06447	Amino-acid metabolism	R03663	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.3
+rxn00124_c0	rxn00124	Cofactor / vitamin biosynthesis	R00174	rn00750	Vitamin B6 metabolism	2.7.1.35
+rxn13354_c0	rxn13354	Other / unassigned				
+CO2tp_c0		Transport (inter-compartmental)				
+rxn13342_c0	rxn13342	Lipid / membrane				
+rxn08065_c0	rxn08065	Transport (inter-compartmental)				
+rxn32479_c0	rxn32479	Other / unassigned	R03313	rn00330;rn01230	Arginine and proline metabolism;Biosynthesis of amino acids	1.2.1.41
+PMI12346PH_c0		Other / unassigned				
+O2tm_c0		Other / unassigned				
+rxn03445_c0	rxn03445	Amino-acid metabolism	R05085	rn00750	Vitamin B6 metabolism	2.6.1.52
+rxn13236_c0	rxn13236	Transport (inter-compartmental)				
+rxn09617_c0	rxn09617	Cofactor / vitamin biosynthesis				
+rxn03892_m0	rxn03892	Other / unassigned	R05613			2.5.1.-|2.5.1.33
+rxn01746_c0	rxn01746	Other / unassigned	R02422	rn00230	Purine metabolism	3.5.3.4
+PYRDC2_c0		Glycolysis / gluconeogenesis				
+rxn09853_x0	rxn09853	Transport (inter-compartmental)				
+rxn30430_c0	rxn30430	Other / unassigned	R02024	rn00240	Pyrimidine metabolism	1.17.4.1
+rxn13360_c0	rxn13360	Transport (inter-compartmental)				
+CO2tm_c0		Transport (inter-compartmental)				
+rxn06936_m0	rxn06936	Amino-acid metabolism	R05577	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.12|6.1.1.23
+rxn30391_m0	rxn30391	TCA cycle	R00271	rn00300;rn00620;rn01210;rn01230	Lysine biosynthesis;Pyruvate metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.3.3.14|4.1.3.21
+rxn09474_x0	rxn09474	β-oxidation (peroxisomal)				
+rxn06280_c0	rxn06280	Amino-acid metabolism	R02918	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.1
+rxn13257_c0	rxn13257	Lipid / membrane				
+rxn02201_m0	rxn02201	Other / unassigned	R03067	rn00790	Folate biosynthesis	2.5.1.15
+rxn02160_c0	rxn02160	Other / unassigned	R03013	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	3.1.3.15
+rxn02666_c0	rxn02666	Other / unassigned	R03758			
+rxn05582_c0	rxn05582	Oxidative phosphorylation / ETC				2.A.3.1.-
+rxn01501_c0	rxn01501	Cofactor / vitamin biosynthesis	R02082	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	1.1.1.34
+rxn13410_c0	rxn13410	Amino-acid metabolism				
+rxn13311_m0	rxn13311	Other / unassigned				
+rxn09431_c0	rxn09431	Other / unassigned				
+GSNt2m_c0		Oxidative phosphorylation / ETC				
+rxn09761_c0	rxn09761	Transport (inter-compartmental)				
+rxn13395_c0	rxn13395	Other / unassigned				
+rxn30044_c0	rxn30044	Other / unassigned				4.1.1.17
+rxn20480_x0	rxn20480	β-oxidation (peroxisomal)	R04743	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	1.1.1.211|1.1.1.35
+ATPtp_H_c0		Transport (inter-compartmental)				
+rxn08067_m0	rxn08067	Other / unassigned				
+rxn05308_c0	rxn05308	Transport (inter-compartmental)				
+rxn30057_c0	rxn30057	Cofactor / vitamin biosynthesis				2.5.1.9
+rxn01265_c0	rxn01265	Other / unassigned	R01724	rn00760	Nicotinate and nicotinamide metabolism	2.4.2.11
+rxn09487_m0	rxn09487	Amino-acid metabolism				
+rxn03245_x0	rxn03245	Other / unassigned	R04744	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	4.2.1.17|4.2.1.74
+rxn00649_c0	rxn00649	Amino-acid metabolism	R00897	rn00270;rn00920;rn01200;rn01230	Cysteine and methionine metabolism;Sulfur metabolism;Carbon metabolism;Biosynthesis of amino acids	2.5.1.47|2.5.1.65
+rxn09286_c0	rxn09286	Transport (inter-compartmental)				
+rxn09456_c0	rxn09456	Other / unassigned	R08163	rn00061	Fatty acid biosynthesis	3.1.2.14
+rxn29991_c0	rxn29991	Amino-acid metabolism				6.3.4.5
+rxn01291_c0	rxn01291	Pentose-sugar catabolism	R01759	rn00040	Pentose and glucuronate interconversions	1.1.1.21
+rxn00061_c0	rxn00061	Other / unassigned	R00085			3.6.1.5
+rxn03241_x0	rxn03241	Other / unassigned	R04740	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	4.2.1.17|4.2.1.74
+LYSt2r_c0		Amino-acid metabolism				
+rxn09561_c0	rxn09561	Other / unassigned				
+rxn00022_c0	rxn00022	Glycolysis / gluconeogenesis	R00028;R06084	rn00500	Starch and sucrose metabolism	3.2.1.20
+rxn00116_c0	rxn00116	Other / unassigned	R00155	rn00240	Pyrimidine metabolism	3.6.1.5|3.6.1.6
+rxn00792_c0	rxn00792	Cofactor / vitamin biosynthesis	R01074	rn00780	Biotin metabolism	6.2.1.11|6.3.4.10|6.3.4.11|6.3.4.15|6.3.4.9
+rxn06538_m0	rxn06538	Cofactor / vitamin biosynthesis	R03940	rn00670;rn00970	One carbon pool by folate;Aminoacyl-tRNA biosynthesis	2.1.2.9
+rxn09578_c0	rxn09578	Lipid / membrane				
+FA181ACPtm_c0		Transport (inter-compartmental)				
+rxn29990_c0	rxn29990	Amino-acid metabolism				4.3.2.1
+rxn13365_c0	rxn13365	Transport (inter-compartmental)				
+rxn00437_c0	rxn00437	Cofactor / vitamin biosynthesis	R00616	rn00730	Thiamine metabolism	2.7.4.15|2.7.6.2
+rxn00914_c0	rxn00914	Nucleotide metabolism	R01228	rn00230	Purine metabolism	2.7.1.73
+rxn13196_c0	rxn13196	Transport (inter-compartmental)				
+rxn09639_c0	rxn09639	Transport (inter-compartmental)				
+rxn13396_c0	rxn13396	Transport (inter-compartmental)				
+rxn09765_c0	rxn09765	Transport (inter-compartmental)				
+rxn10791_c0	rxn10791	Nucleotide metabolism				
+rxn03224_m0	rxn03224	Other / unassigned	R04711	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	2.1.1.114
+rxn01043_c0	rxn01043	Pentose-sugar catabolism	R01431	rn00040	Pentose and glucuronate interconversions	1.1.1.21|1.1.1.307
+rxn00100_m0	rxn00100	Other / unassigned	R00130	rn00770	Pantothenate and CoA biosynthesis	2.7.1.24
+rxn13329_c0	rxn13329	Other / unassigned				
+rxn13332_c0	rxn13332	Transport (inter-compartmental)				
+rxn00686_m0	rxn00686	Cofactor / vitamin biosynthesis	R00939	rn00670;rn00790	One carbon pool by folate;Folate biosynthesis	1.5.1.3
+rxn08318_c0	rxn08318	Transport (inter-compartmental)				
+rxn09849_x0	rxn09849	Transport (inter-compartmental)				
+rxn01513_c0	rxn01513	Nucleotide metabolism	R02094	rn00240	Pyrimidine metabolism	2.7.4.12|2.7.4.13|2.7.4.9
+rxn01505_c0	rxn01505	Other / unassigned	R08193	rn00520;rn01110	Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	5.4.2.3
+rxn09606_r0	rxn09606	Other / unassigned				
+rxn08314_c0	rxn08314	Transport (inter-compartmental)				
+rxn00765_c0	rxn00765	Glycolysis / gluconeogenesis	R01041	rn00561	Glycerolipid metabolism	1.1.1.2|1.1.1.21|1.1.1.372|1.1.1.72
+rxn09631_c0	rxn09631	Amino-acid metabolism				
+rxn08451_c0	rxn08451	Transport (inter-compartmental)				6.2.1.3
+34HPPt2p_c0		Transport (inter-compartmental)				
+FAS161ACPm_m0		Fatty-acid biosynthesis				
+rxn09218_c0	rxn09218	Transport (inter-compartmental)				
+rxn01218_c0	rxn01218	Other / unassigned	R01664	rn00240	Pyrimidine metabolism	3.1.3.-|3.1.3.5
+rxn05663_c0	rxn05663	Oxidative phosphorylation / ETC				2.A.3.1.-
+CITtcp_c0		Transport (inter-compartmental)				
+rxn05203_c0	rxn05203	Other / unassigned				
+rxn12529_c0	rxn12529	Glycolysis / gluconeogenesis				
+rxn09565_c0	rxn09565	Other / unassigned				
+rxn00006_x0	rxn00006	Other / unassigned	R00009	rn00630;rn01110	Glyoxylate and dicarboxylate metabolism;Biosynthesis of secondary metabolites	1.11.1.21|1.11.1.6
+C4STMO1_c0		Lipid / membrane				
+SERt2r_c0		Amino-acid metabolism				
+rxn08457_x0	rxn08457	Transport (inter-compartmental)				6.2.1.3
+rxn00926_c0	rxn00926	Other / unassigned	R01244	rn00230	Purine metabolism	3.5.4.2
+rxn13384_c0	rxn13384	Other / unassigned				
+IPCS324_SC_c0		Other / unassigned				
+rxn39072_r0	rxn39072	Other / unassigned				
+rxn00615_c0	rxn00615	Glycolysis / gluconeogenesis	R00847	rn00561	Glycerolipid metabolism	2.7.1.30
+rxn13375_c0	rxn13375	Lipid / membrane				
+rxn00947_c0	rxn00947	Fatty-acid biosynthesis	R01280	rn00061;rn00071;rn01212	Fatty acid biosynthesis;Fatty acid degradation;Fatty acid metabolism	6.2.1.3
+rxn09264_c0	rxn09264	Other / unassigned				2.3.1.57
+rxn01783_c0	rxn01783	Other / unassigned	R02464	rn00600	Sphingolipid metabolism	4.1.2.27
+rxn00420_c0	rxn00420	Amino-acid metabolism	R00582	rn00260;rn00680;rn01200;rn01230	Glycine, serine and threonine metabolism;Methane metabolism;Carbon metabolism;Biosynthesis of amino acids	3.1.3.3
+rxn08435_c0	rxn08435	Fatty-acid biosynthesis				3.1.2.14
+rxn08682_c0	rxn08682	Transport (inter-compartmental)				
+rxn05736_c0	rxn05736	Cofactor / vitamin biosynthesis				6.2.1.3
+rxn09465_x0	rxn09465	Other / unassigned				
+rxn02835_c0	rxn02835	Other / unassigned	R04037	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	3.5.4.19
+rxn01800_c0	rxn01800	Other / unassigned	R02485	rn00240	Pyrimidine metabolism	3.5.4.14|3.5.4.5
+rxn09422_m0	rxn09422	Fatty-acid biosynthesis				
+rxn06151_c0	rxn06151	Cell-wall polysaccharide				3.5.1.41
+rxn08704_c0	rxn08704	Transport (inter-compartmental)				
+rxn01226_c0	rxn01226	Other / unassigned	R01677	rn00230	Purine metabolism	3.2.2.1|3.2.2.8
+rxn02938_c0	rxn02938	Other / unassigned	R04209	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	4.1.1.21
+rxn08444_x0	rxn08444	Other / unassigned	R08174	rn01040	Biosynthesis of unsaturated fatty acids	3.1.2.2
+rxn30056_c0	rxn30056	Cofactor / vitamin biosynthesis				2.5.1.9
+rxn06434_m0	rxn06434	Amino-acid metabolism	R03648	rn00970	Aminoacyl-tRNA biosynthesis	6.1.1.22
+rxn09843_x0	rxn09843	Transport (inter-compartmental)				
+rxn00943_x0	rxn00943	β-oxidation (peroxisomal)	R01274	rn00062;rn01040;rn01212	Fatty acid elongation;Biosynthesis of unsaturated fatty acids;Fatty acid metabolism	3.1.2.2|3.1.2.22
+rxn09499_m0	rxn09499	Amino-acid metabolism				
+rxn00274_c0	rxn00274	Amino-acid metabolism	R00371	rn00260	Glycine, serine and threonine metabolism	2.3.1.29
+rxn01808_c0	rxn01808	Other / unassigned	R02494	rn00750	Vitamin B6 metabolism	3.1.3.74
+rxn09864_c0	rxn09864	Transport (inter-compartmental)				
+rxn35571_c0	rxn35571	Amino-acid metabolism	R04591	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	6.3.2.6
+rxn01825_c0	rxn01825	Other / unassigned	R02519	rn00350;rn00643	Tyrosine metabolism;Styrene degradation	1.13.11.5
+rxn09742_c0	rxn09742	Transport (inter-compartmental)				
+rxn15113_c0	rxn15113	Other / unassigned	R01055	rn00240	Pyrimidine metabolism	4.2.1.70
+rxn09567_c0	rxn09567	Cofactor / vitamin biosynthesis				1.2.1.1
+rxn09739_c0	rxn09739	Transport (inter-compartmental)				
+rxn09469_x0	rxn09469	Other / unassigned				
+rxn08453_x0	rxn08453	Transport (inter-compartmental)				6.2.1.3
+rxn01127_c0	rxn01127	Nucleotide metabolism	R01547	rn00230	Purine metabolism	2.7.4.11|2.7.4.3
+rxn09729_c0	rxn09729	Transport (inter-compartmental)				
+rxn00709_c0	rxn00709	Nucleotide metabolism	R00964	rn00240	Pyrimidine metabolism	2.7.1.48
+rxn30439_c0	rxn30439	Cofactor / vitamin biosynthesis	R02135	rn00730	Thiamine metabolism	3.1.3.-|3.1.3.100|3.1.3.2
+rxn00829_c0	rxn00829	Other / unassigned	R01121	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	4.1.1.33
+rxn11322_c0	rxn11322	Transport (inter-compartmental)				
+rxn13386_c0	rxn13386	Other / unassigned				
+rxn13378_c0	rxn13378	Lipid / membrane				
+rxn00029_c0	rxn00029	Other / unassigned	R00036	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	4.2.1.24
+rxn09471_x0	rxn09471	Other / unassigned				
+3C3HMPtm_c0		Transport (inter-compartmental)				
+rxn30014_c0	rxn30014	Other / unassigned				
+rxn09615_c0	rxn09615	Other / unassigned				
+rxn01509_c0	rxn01509	Nucleotide metabolism	R02090	rn00230	Purine metabolism	2.7.4.12|2.7.4.8
+rxn05310_c0	rxn05310	Transport (inter-compartmental)				
+rxn08172_c0	rxn08172	Other / unassigned				
+rxn00100_c0	rxn00100	Other / unassigned	R00130	rn00770	Pantothenate and CoA biosynthesis	2.7.1.24
+rxn05508_c0	rxn05508	Oxidative phosphorylation / ETC				
+rxn13347_c0	rxn13347	Other / unassigned				
+rxn28356_c0	rxn28356	Other / unassigned	R02611	rn00360	Phenylalanine metabolism	1.1.1.1|1.1.1.90
+ACACT9p_x0		Other / unassigned				
+rxn08028_c0	rxn08028	Transport (inter-compartmental)				
+rxn01438_c0	rxn01438	Cofactor / vitamin biosynthesis	R01960	rn00380	Tryptophan metabolism	1.14.13.9
+rxn01416_c0	rxn01416	Other / unassigned	R01931	rn00920	Sulfur metabolism	2.8.1.1
+rxn02297_c0	rxn02297	Amino-acid metabolism	R03210	rn00780	Biotin metabolism	2.3.1.47
+rxn13149_c0	rxn13149	Other / unassigned				
+rxn05093_c0	rxn05093	Other / unassigned	R07365	rn00920	Sulfur metabolism	1.13.11.55
+rxn05144_c0	rxn05144	Amino-acid metabolism	R07456	rn00750	Vitamin B6 metabolism	
+rxn09810_c0	rxn09810	Transport (inter-compartmental)				
+rxn09607_c0	rxn09607	Other / unassigned				
+rxn09606_c0	rxn09606	Other / unassigned				
+rxn11720_c0	rxn11720	Other / unassigned	R08185	rn01040	Biosynthesis of unsaturated fatty acids	3.1.2.-
+rxn10638_c0	rxn10638	Fatty-acid biosynthesis				
+rxn05148_c0	rxn05148	Transport (inter-compartmental)				
+rxn05255_c0	rxn05255	Transport (inter-compartmental)				
+rxn10147_c0	rxn10147	Other / unassigned				3.6.3.33
+rxn05687_c0	rxn05687	Transport (inter-compartmental)				
+rxn12666_c0	rxn12666	Transport (inter-compartmental)				
+TRP_malcoa_c0r0		Transport (inter-compartmental)				
+TRP_strcoa_c0r0		Transport (inter-compartmental)				
+TRP_nadh_c0r0		Transport (inter-compartmental)				
+EXP_c20coa_r0c0		Other / unassigned				
+EXP_c22coa_r0c0		Other / unassigned				
+EXP_c24coa_r0c0		Other / unassigned				
+TRP_sphinganine_r0c0		Transport (inter-compartmental)				
+TRP_phytosphingosine_r0c0		Transport (inter-compartmental)				
+TRP_hxccoa_r0c0		Transport (inter-compartmental)				
+EX_cpd03847_e0		Exchange				
+EX_cpd00393_e0		Exchange				
+EX_cpd16883_e0		Exchange				
+EX_cpd00006_e0		Exchange				
+EX_cpd01499_e0		Exchange				
+EX_cpd03221_e0		Exchange				
+EX_cpd00032_e0		Exchange				
+EX_cpd00017_e0		Exchange				
+EX_ocdcya-e_e0		Exchange				
+EX_cpd00104_e0		Exchange				
+EX_cpd00264_e0		Exchange				
+EX_cpd00119_e0		Exchange				
+EX_cpd00132_e0		Exchange				
+EX_cpd00081_e0		Exchange				
+EX_cpd00069_e0		Exchange				
+EX_cpd00306_e0		Exchange				
+EX_cpd00033_e0		Exchange				
+EX_cpd00229_e0		Exchange				
+EX_cpd00210_e0		Exchange				
+EX_cpd00507_e0		Exchange				
+EX_cpd16888_e0		Exchange				
+EX_cpd15240_e0		Exchange				
+EX_cpd00288_e0		Exchange				
+EX_cpd00438_e0		Exchange				
+EX_cpd00040_e0		Exchange				
+EX_cpd01080_e0		Exchange				
+EX_cpd00277_e0		Exchange				
+EX_cpd09068_e0		Exchange				
+EX_cpd01741_e0		Exchange				
+EX_cpd00035_e0		Exchange				
+EX_cpd01170_e0		Exchange				
+EX_cpd00644_e0		Exchange				
+EX_cpd00041_e0		Exchange				
+EX_cpd00023_e0		Exchange				
+EX_cpd16884_e0		Exchange				
+EX_cpd00508_e0		Exchange				
+EX_cpd01092_e0		Exchange				
+EX_cpd00151_e0		Exchange				
+EX_cpd00121_e0		Exchange				
+EX_cpd00220_e0		Exchange				
+EX_cpd00028_e0		Exchange				
+EX_cpd00215_e0		Exchange				
+EX_cpd00357_e0		Exchange				
+EX_orn-e_e0		Exchange				
+EX_cpd00280_e0		Exchange				
+EX_cpd00307_e0		Exchange				
+EX_cpd00128_e0		Exchange				
+EX_cpd16896_e0		Exchange				
+EX_cpd11966_e0		Exchange				
+EX_cpd11608_e0		Exchange				
+EX_cpd11601_e0		Exchange				
+EX_cpd03279_e0		Exchange				
+EX_cpd00053_e0		Exchange				
+EX_cpd00098_e0		Exchange				
+EX_cpd00214_e0		Exchange				
+EX_cpd00108_e0		Exchange				
+EX_cpd00066_e0		Exchange				
+EX_cpd00654_e0		Exchange				
+EX_cpd00054_e0		Exchange				
+EX_cpd16885_e0		Exchange				
+EX_cpd16880_e0		Exchange				
+EX_cpd00417_e0		Exchange				
+EX_cpd16873_e0		Exchange				
+EX_cpd00558_e0		Exchange				
+EX_cpd00185_e0		Exchange				
+EX_cpd02755_e0		Exchange				
+EX_cpd03198_e0		Exchange				
+EX_cpd00218_e0		Exchange				
+EX_cpd03481_e0		Exchange				
+EX_cpd04534_e0		Exchange				
+EX_cpd00092_e0		Exchange				
+EX_cpd00281_e0		Exchange				
+EX_cpd00794_e0		Exchange				
+EX_cpd00226_e0		Exchange				
+EX_cpd00084_e0		Exchange				
+EX_cpd11624_e0		Exchange				
+EX_cpd00036_e0		Exchange				
+EX_cpd00902_e0		Exchange				
+EX_cpd00338_e0		Exchange				
+EX_cpd00138_e0		Exchange				
+EX_cpd16877_e0		Exchange				
+EX_cpd10408_e0		Exchange				
+EX_cpd00704_e0		Exchange				
+EX_cpd01646_e0		Exchange				
+EX_cpd00065_e0		Exchange				
+EX_cpd00367_e0		Exchange				
+EX_cpd00154_e0		Exchange				
+EX_cpd00322_e0		Exchange				
+EX_cpd00388_e0		Exchange				
+EX_cpd00764_e0		Exchange				
+EX_cpd00073_e0		Exchange				
+EX_cpd15269_e0		Exchange				
+EX_cpd16874_e0		Exchange				
+EX_cpd00266_e0		Exchange				
+EX_cpd00060_e0		Exchange				
+EX_cpd04533_e0		Exchange				
+EX_cpd01107_e0		Exchange				
+EX_cpd00221_e0		Exchange				
+EX_cpd10515_e0		Exchange				
+EX_cpd00056_e0		Exchange				
+EX_cpd00971_e0		Exchange				
+EX_cpd00118_e0		Exchange				
+EX_cpd00246_e0		Exchange				
+EX_cpd00205_e0		Exchange				
+EX_cpd00635_e0		Exchange				
+EX_cpd00050_e0		Exchange				
+EX_cpd00184_e0		Exchange				
+EX_cpd15237_e0		Exchange				
+EX_cpd00047_e0		Exchange				
+EX_cpd00048_e0		Exchange				
+EX_cpd00224_e0		Exchange				
+EX_cpd00182_e0		Exchange				
+EX_cpd11791_e0		Exchange				
+EX_cpd01217_e0		Exchange				
+EX_cpd00111_e0		Exchange				
+EX_cpd00355_e0		Exchange				
+EX_cpd00051_e0		Exchange				
+EX_cpd00105_e0		Exchange				
+EX_cpd00309_e0		Exchange				
+EX_cpd00156_e0		Exchange				
+EX_cpd00013_e0		Exchange				
+EX_cpd00311_e0		Exchange				
+EX_cpd00100_e0		Exchange				
+EX_cpd16872_e0		Exchange				
+EX_cpd00800_e0		Exchange				
+EX_cpd00045_e0		Exchange				
+EX_cpd01187_e0		Exchange				
+EX_cpd01031_e0		Exchange				
+EX_cpd00443_e0		Exchange				
+EX_cpd14514_e0		Exchange				
+EX_cpd00039_e0		Exchange				
+EX_cpd03561_e0		Exchange				
+EX_cpd11822_e0		Exchange				
+EX_cpd00179_e0		Exchange				
+EX_cpd16803_e0		Exchange				
+EX_cpd00107_e0		Exchange				
+EX_cpd01188_e0		Exchange				
+EX_cpd00793_e0		Exchange				
+EX_cpd00129_e0		Exchange				
+EX_cpd00024_e0		Exchange				
+EX_cpd00042_e0		Exchange				
+EX_cpd00464_e0		Exchange				
+EX_cpd00207_e0		Exchange				
+EX_cpd00305_e0		Exchange				
+EX_cpd00162_e0		Exchange				
+EX_cpd02027_e0		Exchange				
+EX_cpd00249_e0		Exchange				
+EX_ptd1ino-SC-e_e0		Exchange				
+EX_cpd00412_e0		Exchange				
+EX_cpd00161_e0		Exchange				
+EX_cpd00486_e0		Exchange				
+SK_cpd02701_c0		Sink / demand				
+rxn00735_c0	rxn00735	Cofactor / vitamin biosynthesis	R00994	rn00290;rn00660;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;C5-Branched dibasic acid metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.1.1.85
+rxn08043_m0	rxn08043	Glycolysis / gluconeogenesis	R08648	rn00290;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.2.1.6
+rxn08764_m0	rxn08764	Other / unassigned				1.1.1.86
+rxn03437_m0	rxn03437	Other / unassigned	R05070	rn00290;rn01110;rn01210;rn01230	Valine, leucine and isoleucine biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.9
+rxn02186_m0	rxn02186	Cofactor / vitamin biosynthesis	R03051	rn00770	Pantothenate and CoA biosynthesis	1.1.1.86
+rxn00898_m0	rxn00898	Other / unassigned	R01209	rn00770	Pantothenate and CoA biosynthesis	4.2.1.9
+rxn12193_c0	rxn12193	Other / unassigned	R10170	rn01210;rn01230	2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.33
+rxn00527_c0	rxn00527	Amino-acid metabolism	R00734	rn00130;rn00350;rn00400;rn00401;rn00950;rn01110;rn01210;rn01230	Ubiquinone and other terpenoid-quinone biosynthesis;Tyrosine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Novobiocin biosynthesis;Isoquinoline alkaloid biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1|2.6.1.5|2.6.1.57|2.6.1.9
+rxn00527_m0	rxn00527	TCA cycle	R00734	rn00130;rn00350;rn00400;rn00401;rn00950;rn01110;rn01210;rn01230	Ubiquinone and other terpenoid-quinone biosynthesis;Tyrosine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Novobiocin biosynthesis;Isoquinoline alkaloid biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1|2.6.1.5|2.6.1.57|2.6.1.9
+rxn00527_x0	rxn00527	Amino-acid metabolism	R00734	rn00130;rn00350;rn00400;rn00401;rn00950;rn01110;rn01210;rn01230	Ubiquinone and other terpenoid-quinone biosynthesis;Tyrosine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Novobiocin biosynthesis;Isoquinoline alkaloid biosynthesis;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	2.6.1.1|2.6.1.5|2.6.1.57|2.6.1.9
+rxn02508_c0	rxn02508	Other / unassigned	R03509	rn00400;rn01110;rn01230	Phenylalanine, tyrosine and tryptophan biosynthesis;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	5.3.1.24
+rxn01927_c0	rxn01927	Other / unassigned	R02665	rn00380	Tryptophan metabolism	1.13.11.6
+rxn02465_m0	rxn02465	Cofactor / vitamin biosynthesis	R03443	rn00330;rn01110;rn01210;rn01230	Arginine and proline metabolism;Biosynthesis of secondary metabolites;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.2.1.38
+rxn03175_c0	rxn03175	Other / unassigned	R04640	rn00340;rn01110;rn01230	Histidine metabolism;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	5.3.1.16
+rxn02466_m0	rxn02466	Other / unassigned	R03444	rn00300;rn01210;rn01230	Lysine biosynthesis;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.114
+rxn03034_m0	rxn03034	Other / unassigned	R04371	rn00300;rn01210;rn01230	Lysine biosynthesis;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	4.2.1.114|4.2.1.36
+rxn09638_c0	rxn09638	Other / unassigned				
+rxn01663_c0	rxn01663	Amino-acid metabolism	R02315	rn00300;rn00310;rn01110;rn01230	Lysine biosynthesis;Lysine degradation;Biosynthesis of secondary metabolites;Biosynthesis of amino acids	1.5.1.10
+rxn05035_c0	rxn05035	Amino-acid metabolism	R07274	rn00270;rn01230	Cysteine and methionine metabolism;Biosynthesis of amino acids	2.5.1.65
+rxn01816_c0	rxn01816	Amino-acid metabolism	R02508			2.5.1.48
+rxn00950_c0	rxn00950	Cell-wall polysaccharide	R01285			4.4.1.8
+rxn08703_c0	rxn08703	Cell-wall polysaccharide				2.1.1.10
+rxn00692_c0	rxn00692	Amino-acid metabolism	R00945	rn00260;rn00460;rn00630;rn00670;rn00680;rn01110;rn01200;rn01230	Glycine, serine and threonine metabolism;Cyanoamino acid metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate;Methane metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.1.2.1
+rxn00692_m0	rxn00692	Amino-acid metabolism	R00945	rn00260;rn00460;rn00630;rn00670;rn00680;rn01110;rn01200;rn01230	Glycine, serine and threonine metabolism;Cyanoamino acid metabolism;Glyoxylate and dicarboxylate metabolism;One carbon pool by folate;Methane metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	2.1.2.1
+rxn11084_c0	rxn11084	Other / unassigned				
+rxn05107_c0	rxn05107	Other / unassigned	R07395	rn00270	Cysteine and methionine metabolism	3.1.3.77
+rxn05091_c0	rxn05091	Other / unassigned	R07363	rn00270	Cysteine and methionine metabolism	1.13.11.53
+rxn05092_c0	rxn05092	Other / unassigned	R07364	rn00270	Cysteine and methionine metabolism	1.13.11.54
+rxn13209_c0	rxn13209	Other / unassigned				4.1.1.1
+rxn01840_c0	rxn01840	Cofactor / vitamin biosynthesis	R02536	rn00360;rn00643	Phenylalanine metabolism;Styrene degradation	1.2.1.39|1.2.1.5
+rxn00522_c0	rxn00522	Amino-acid metabolism	R00729	rn00350;rn00400;rn00950	Tyrosine metabolism;Phenylalanine, tyrosine and tryptophan biosynthesis;Isoquinoline alkaloid biosynthesis	1.4.3.2
+rxn01937_m0	rxn01937	Cofactor / vitamin biosynthesis	R02678	rn00380	Tryptophan metabolism	1.2.1.3
+rxn15507_c0	rxn15507	Amino-acid metabolism	R05052	rn00330	Arginine and proline metabolism	2.6.1.1|2.6.1.23
+rxn15507_m0	rxn15507	TCA cycle	R05052	rn00330	Arginine and proline metabolism	2.6.1.1|2.6.1.23
+rxn02061_c0	rxn02061	Other / unassigned	R02869	rn00270;rn00330;rn00410;rn00480	Cysteine and methionine metabolism;Arginine and proline metabolism;beta-Alanine metabolism;Glutathione metabolism	2.5.1.16|2.5.1.22
+rxn00740_c0	rxn00740	Other / unassigned	R00999	rn00270	Cysteine and methionine metabolism	2.5.1.48|4.3.1.-
+rxn02752_c0	rxn02752	Other / unassigned	R03899			1.5.3.11|1.5.3.13|1.5.3.16|1.5.3.17
+rxn13388_c0	rxn13388	Other / unassigned	R09076	rn00330;rn00410	Arginine and proline metabolism;beta-Alanine metabolism	1.5.3.16|1.5.3.17
+rxn09878_c0	rxn09878	Other / unassigned				1.5.3.11
+rxn00165_c0	rxn00165	Amino-acid metabolism	R00220	rn00260;rn01110;rn01200;rn01230	Glycine, serine and threonine metabolism;Biosynthesis of secondary metabolites;Carbon metabolism;Biosynthesis of amino acids	4.2.1.13|4.3.1.17|4.3.1.19
+rxn22781_c0	rxn22781	Other / unassigned	R00904	rn00410	beta-Alanine metabolism	1.2.1.-|1.2.1.19|1.2.1.3|1.2.1.5
+rxn00342_c0	rxn00342	Amino-acid metabolism	R00485	rn00250;rn00460;rn01110	Alanine, aspartate and glutamate metabolism;Cyanoamino acid metabolism;Biosynthesis of secondary metabolites	3.5.1.1|3.5.1.38
+rxn00623_c0	rxn00623	Cofactor / vitamin biosynthesis	R00858	rn00920	Sulfur metabolism	1.8.1.2|1.8.2.2
+rxn03147_c0	rxn03147	Amino-acid metabolism	R04591	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	6.3.2.6
+rxn03136_c0	rxn03136	Other / unassigned	R04559	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	4.3.2.2
+rxn00836_c0	rxn00836	Other / unassigned	R01132	rn00230	Purine metabolism	2.4.2.8
+rxn00095_c0	rxn00095	Other / unassigned	R00125	rn00230	Purine metabolism	3.6.1.41
+rxn00096_c0	rxn00096	Other / unassigned	R00126	rn00230	Purine metabolism	2.7.7.53
+rxn01138_c0	rxn01138	Other / unassigned	R01561	rn00230	Purine metabolism	2.4.2.1
+rxn01138_m0	rxn01138	Other / unassigned	R01561	rn00230	Purine metabolism	2.4.2.1
+rxn01859_c0	rxn01859	Other / unassigned	R02557	rn00230	Purine metabolism	2.4.2.1
+rxn01548_c0	rxn01548	Other / unassigned	R02147	rn00230	Purine metabolism	2.4.2.1|2.4.2.15
+rxn01548_m0	rxn01548	Other / unassigned	R02147	rn00230	Purine metabolism	2.4.2.1|2.4.2.15
+rxn01446_c0	rxn01446	Other / unassigned	R01969	rn00230	Purine metabolism	2.4.2.1|2.4.2.4
+rxn32380_c0	rxn32380	Other / unassigned	R01229	rn00230	Purine metabolism	2.4.2.22|2.4.2.7|2.4.2.8
+rxn01985_c0	rxn01985	Other / unassigned	R02748	rn00230	Purine metabolism	2.4.2.1|2.4.2.4
+rxn01649_c0	rxn01649	Other / unassigned	R02297	rn00230;rn01110	Purine metabolism;Biosynthesis of secondary metabolites	2.4.2.-|2.4.2.1
+rxn01358_c0	rxn01358	Other / unassigned	R01863	rn00230	Purine metabolism	2.4.2.1|2.4.2.15
+rxn01519_c0	rxn01519	Other / unassigned	R02100	rn00240	Pyrimidine metabolism	3.6.1.19|3.6.1.23
+rxn01799_c0	rxn01799	Other / unassigned	R02484	rn00240	Pyrimidine metabolism	2.4.2.1|2.4.2.23|2.4.2.3|2.4.2.4
+rxn01146_c0	rxn01146	Other / unassigned	R01570	rn00240	Pyrimidine metabolism	2.4.2.2|2.4.2.4
+rxn05289_m0	rxn05289	Cofactor / vitamin biosynthesis	R02016	rn00240	Pyrimidine metabolism	1.6.4.5|1.8.1.9
+rxn13185_c0	rxn13185	Other / unassigned				3.1.4.37
+rxn02155_c0	rxn02155	Other / unassigned	R03005	rn00760	Nicotinate and nicotinamide metabolism	2.7.7.1|2.7.7.18
+rxn02155_m0	rxn02155	Other / unassigned	R03005	rn00760	Nicotinate and nicotinamide metabolism	2.7.7.1|2.7.7.18
+rxn00105_m0	rxn00105	Other / unassigned	R00137	rn00760	Nicotinate and nicotinamide metabolism	2.7.7.1|2.7.7.18
+rxn00690_c0	rxn00690	Cofactor / vitamin biosynthesis	R00943	rn00670;rn00720;rn01200	One carbon pool by folate;Carbon fixation pathways in prokaryotes;Carbon metabolism	6.3.4.3
+rxn01211_c0	rxn01211	Cofactor / vitamin biosynthesis	R01655	rn00670;rn00720;rn01200	One carbon pool by folate;Carbon fixation pathways in prokaryotes;Carbon metabolism	3.5.4.9
+rxn00907_c0	rxn00907	Cofactor / vitamin biosynthesis	R01220	rn00670;rn00720;rn01200	One carbon pool by folate;Carbon fixation pathways in prokaryotes;Carbon metabolism	1.5.1.5
+rxn40427_c0	rxn40427	Amino-acid metabolism	R10685	rn00730	Thiamine metabolism	
+rxn27029_c0	rxn27029	Amino-acid metabolism				
+rxn40448_c0	rxn40448	Other / unassigned	R10711	rn00730	Thiamine metabolism	
+rxn40428_c0	rxn40428	Amino-acid metabolism	R10686	rn00730	Thiamine metabolism	
+rxn03108_c0	rxn03108	Other / unassigned	R04509	rn00730	Thiamine metabolism	2.7.4.7
+rxn23042_c0	rxn23042	Cofactor / vitamin biosynthesis	R10712	rn00730	Thiamine metabolism	2.5.1.3
+rxn10506_c0	rxn10506	Other / unassigned	R09377	rn00740	Riboflavin metabolism	3.5.4.-
+rxn00048_c0	rxn00048	Other / unassigned	R00066	rn00740	Riboflavin metabolism	2.5.1.9
+rxn01251_c0	rxn01251	Other / unassigned	R01710	rn00750	Vitamin B6 metabolism	1.4.3.5
+rxn02277_m0	rxn02277	Other / unassigned	R03182	rn00780	Biotin metabolism	6.3.3.3
+rxn02312_m0	rxn02312	Other / unassigned	R03231	rn00780	Biotin metabolism	2.6.1.62
+rxn05927_m0	rxn05927	Amino-acid metabolism				2.8.1.6|2.8.1.6-
+rxn09532_c0	rxn09532	Fatty-acid biosynthesis	R10747			
+rxn01790_c0	rxn01790	Cofactor / vitamin biosynthesis	R02472	rn00770;rn01110	Pantothenate and CoA biosynthesis;Biosynthesis of secondary metabolites	1.1.1.169
+rxn12512_c0	rxn12512	Amino-acid metabolism	R04230	rn00770	Pantothenate and CoA biosynthesis	6.3.2.5|6.3.2.51
+rxn03894_m0	rxn03894	Other / unassigned	R05616	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.-|2.5.1.39
+rxn13204_m0	rxn13204	Other / unassigned				
+rxn03392_m0	rxn03392	Other / unassigned	R04984	rn00130;rn01110	Ubiquinone and other terpenoid-quinone biosynthesis;Biosynthesis of secondary metabolites	1.14.13.-
+rxn01629_c0	rxn01629	Other / unassigned	R02272	rn00860;rn01110	Porphyrin and chlorophyll metabolism;Biosynthesis of secondary metabolites	5.4.3.8
+rxn00024_e0	rxn00024	Amino-acid metabolism	R00031	rn00350;rn00950;rn01110	Tyrosine metabolism;Isoquinoline alkaloid biosynthesis;Biosynthesis of secondary metabolites	1.10.3.1
+rxn00036_e0	rxn00036	Other / unassigned	R00045	rn00350	Tyrosine metabolism	1.10.3.1
+rxn11972_e0	rxn11972	Other / unassigned	R02962	rn00350;rn00965	Tyrosine metabolism;Betalain biosynthesis	
+rxn02611_e0	rxn02611	Other / unassigned	R03674	rn00350	Tyrosine metabolism	
+rxn02610_e0	rxn02610	Other / unassigned	R03673	rn00350	Tyrosine metabolism	5.3.3.12
+rxn03338_e0	rxn03338	Other / unassigned	R04885			4.1.1.-
+rxn03337_e0	rxn03337	Other / unassigned	R04884	rn00350	Tyrosine metabolism	1.14.18.1
+rxn06809_e0	rxn06809	Other / unassigned				
+rxn15499_e0	rxn15499	Other / unassigned	R04886	rn00350	Tyrosine metabolism	
+rxn07120_e0	rxn07120	Other / unassigned				1.14.18.-
+rxn15819_e0	rxn15819	Amino-acid metabolism	R08848	rn00350	Tyrosine metabolism	
+rxn44970_e0	rxn44970	Other / unassigned				
+rxn22818_m0	rxn22818	Other / unassigned				6.2.1.-
+rxn00076_x0	rxn00076	Cofactor / vitamin biosynthesis	R00103	rn00760	Nicotinate and nicotinamide metabolism	3.6.1.22|3.6.1.9
+rxn03841_c0	rxn03841	Glycolysis / gluconeogenesis	R05553	rn00790	Folate biosynthesis	4.1.3.38
+rxn01653_c0	rxn01653	Cofactor / vitamin biosynthesis	R02301	rn00670	One carbon pool by folate	6.3.3.2
+rxn01257_c0	rxn01257	Amino-acid metabolism	R01716	rn00790	Folate biosynthesis	2.6.1.85
+rxn02484_c0	rxn02484	Other / unassigned	R03471	rn00730	Thiamine metabolism	2.7.1.49
+rxn30439_e0	rxn30439	Cofactor / vitamin biosynthesis	R02135	rn00730	Thiamine metabolism	3.1.3.-|3.1.3.100|3.1.3.2
+rxn09632_e0	rxn09632	Cofactor / vitamin biosynthesis				
+rxn00198_x0	rxn00198	Cofactor / vitamin biosynthesis	R00267	rn00480;rn00720;rn01200;rn01210;rn01230	Glutathione metabolism;Carbon fixation pathways in prokaryotes;Carbon metabolism;2-Oxocarboxylic acid metabolism;Biosynthesis of amino acids	1.1.1.42
+rxn06134_c0	rxn06134	Other / unassigned				1.14.19.1
+rxn42762_c0	rxn42762	Other / unassigned				
+rxn10667_c0	rxn10667	Fatty-acid biosynthesis				
+rxn08445_c0	rxn08445	Fatty-acid biosynthesis				
+rxn08053_x0	rxn08053	β-oxidation (peroxisomal)				1.3.99.3
+rxn00946_x0	rxn00946	Other / unassigned	R01279	rn00071;rn01212	Fatty acid degradation;Fatty acid metabolism	1.3.3.6|1.3.8.9|1.3.99.-|1.3.99.13|1.3.99.3
+rxn02804_x0	rxn02804	Other / unassigned	R03991	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	2.3.1.155|2.3.1.16
+rxn02803_x0	rxn02803	Other / unassigned	R03990	rn00071;rn01212	Fatty acid degradation;Fatty acid metabolism	1.3.3.6|1.3.99.-|1.3.99.13|1.3.99.3
+rxn02720_x0	rxn02720	Other / unassigned	R03857	rn00071;rn01212	Fatty acid degradation;Fatty acid metabolism	1.3.3.6|1.3.99.-|1.3.99.13|1.3.99.3
+rxn03253_x0	rxn03253	Other / unassigned	R04754	rn00071;rn01212	Fatty acid degradation;Fatty acid metabolism	1.3.3.6|1.3.99.-|1.3.99.13|1.3.99.3
+rxn09480_x0	rxn09480	Other / unassigned				
+rxn09463_x0	rxn09463	Other / unassigned				
+rxn00533_m0	rxn00533	Other / unassigned	R00742	rn00061;rn00253;rn00254;rn00620;rn00640;rn00720;rn01110;rn01200;rn01212	Fatty acid biosynthesis;Tetracycline biosynthesis;Aflatoxin biosynthesis;Pyruvate metabolism;Propanoate metabolism;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism;Fatty acid metabolism	6.4.1.2
+rxn23551_r0	rxn23551	Other / unassigned				2.3.1.-
+rxn23534_r0	rxn23534	Other / unassigned				1.1.1.-
+rxn23565_r0	rxn23565	Other / unassigned				4.2.1.-|4.2.1.119
+rxn19046_r0	rxn19046	Other / unassigned				1.3.1.-
+rxn23554_r0	rxn23554	Other / unassigned				2.3.1.-|2.3.1.199
+rxn23531_r0	rxn23531	Other / unassigned				1.1.1.-
+rxn22098_r0	rxn22098	Other / unassigned				4.2.1.-|4.2.1.119
+rxn19044_r0	rxn19044	Other / unassigned				1.3.1.-
+rxn23559_r0	rxn23559	Other / unassigned				2.3.1.-
+rxn23535_r0	rxn23535	Other / unassigned				1.1.1.-
+rxn22099_r0	rxn22099	Other / unassigned				4.2.1.-|4.2.1.119
+rxn19045_r0	rxn19045	Other / unassigned				1.3.1.-
+rxn23557_r0	rxn23557	Other / unassigned				2.3.1.-
+rxn23536_r0	rxn23536	Other / unassigned				1.1.1.-
+rxn22100_r0	rxn22100	Other / unassigned				4.2.1.-|4.2.1.119
+rxn09599_c0	rxn09599	Other / unassigned				
+rxn09598_c0	rxn09598	Other / unassigned				
+rxn09597_c0	rxn09597	Other / unassigned				
+rxn09596_c0	rxn09596	Other / unassigned				
+rxn09595_c0	rxn09595	Other / unassigned				
+rxn09594_c0	rxn09594	Other / unassigned				
+rxn09593_c0	rxn09593	Other / unassigned				
+rxn09592_c0	rxn09592	Other / unassigned				
+rxn09591_c0	rxn09591	Other / unassigned				
+rxn09590_c0	rxn09590	Other / unassigned				
+rxn09589_c0	rxn09589	Other / unassigned				
+rxn09588_c0	rxn09588	Other / unassigned				
+rxn09548_c0	rxn09548	Glycolysis / gluconeogenesis				
+rxn09555_c0	rxn09555	Other / unassigned				
+rxn01071_c0	rxn01071	Other / unassigned	R01468	rn00564	Glycerophospholipid metabolism	2.7.1.82
+rxn09543_c0	rxn09543	Lipid / membrane				
+rxn09545_c0	rxn09545	Other / unassigned				
+rxn09535_c0	rxn09535	Lipid / membrane				
+rxn39089_c0	rxn39089	Amino-acid metabolism				
+rxn09552_c0	rxn09552	Other / unassigned				
+rxn09536_c0	rxn09536	Lipid / membrane				
+rxn09537_c0	rxn09537	Lipid / membrane				
+rxn09538_c0	rxn09538	Lipid / membrane				
+rxn16107_m0	rxn16107	Other / unassigned	R09246	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.82
+rxn13477_m0	rxn13477	Other / unassigned	R09245	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.83
+rxn09622_c0	rxn09622	Lipid / membrane				
+rxn13416_c0	rxn13416	Lipid / membrane				
+rxn05918_c0	rxn05918	Other / unassigned	R01009	rn00510	N-Glycan biosynthesis	2.4.1.83
+rxn08017_c0	rxn08017	Other / unassigned				6.2.1.20
+rxn00175_x0	rxn00175	Other / unassigned	R00235	rn00010;rn00680;rn00720;rn01110;rn01200	Glycolysis / Gluconeogenesis;Methane metabolism;Carbon fixation pathways in prokaryotes;Biosynthesis of secondary metabolites;Carbon metabolism	6.2.1.1
+rxn19047_r0	rxn19047	Other / unassigned				1.3.1.-
+rxn09549_c0	rxn09549	Other / unassigned				
+rxn50927_c0	rxn50927	Other / unassigned				
+rxn24251_c0	rxn24251	Other / unassigned	R05801	rn00562	Inositol phosphate metabolism	2.7.1.151
+rxn09629_c0	rxn09629	Other / unassigned				
+rxn15542_m0	rxn15542	Other / unassigned	R05556	rn00900;rn01110	Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites	2.5.1.87
+rxn35521_m0	rxn35521	Other / unassigned				
+rxn05913_m0	rxn05913	Other / unassigned	R01004	rn00510	N-Glycan biosynthesis	3.6.1.43
+rxn13281_c0	rxn13281	Other / unassigned				
+rxn10665_c0	rxn10665	Other / unassigned				
+rxn09587_c0	rxn09587	Other / unassigned				
+rxn09586_c0	rxn09586	Other / unassigned				
+rxn09585_c0	rxn09585	Other / unassigned				
+rxn09584_c0	rxn09584	Other / unassigned				
+rxn09583_c0	rxn09583	Other / unassigned				
+rxn09582_c0	rxn09582	Other / unassigned				
+rxn00744_c0	rxn00744	Pentose phosphate pathway	R01011	rn00561;rn00680;rn01200	Glycerolipid metabolism;Methane metabolism;Carbon metabolism	2.7.1.29
+rxn39089_m0	rxn39089	Amino-acid metabolism				
+rxn13287_c0	rxn13287	Other / unassigned				
+rxn13335_c0	rxn13335	Lipid / membrane				
+rxn13254_c0	rxn13254	Other / unassigned				
+rxn09510_c0	rxn09510	Other / unassigned				
+rxn13381_e0	rxn13381	Fatty-acid biosynthesis				
+ORNt3m_c0		Transport (inter-compartmental)				
+rxn08475_c0	rxn08475	Transport (inter-compartmental)				
+TRP_coa_c0r0		Transport (inter-compartmental)				
+TRP_co2_c0r0		Transport (inter-compartmental)				
+TRP_nadph_c0r0		Transport (inter-compartmental)				
+TRP_nadp_c0r0		Transport (inter-compartmental)				
+bio_gsm		Biomass				
+rxn00024_c0	rxn00024	Melanin / DHN	R00031	rn00350;rn00950;rn01110	Tyrosine metabolism;Isoquinoline alkaloid biosynthesis;Biosynthesis of secondary metabolites	1.10.3.1
+rxn00036_c0	rxn00036	Melanin / DHN	R00045	rn00350	Tyrosine metabolism	1.10.3.1
+rxn11972_c0	rxn11972	Melanin / DHN	R02962	rn00350;rn00965	Tyrosine metabolism;Betalain biosynthesis	
+rxn02609_c0	rxn02609	Melanin / DHN	R03672	rn00350	Tyrosine metabolism	
+rxn02611_c0	rxn02611	Melanin / DHN	R03674	rn00350	Tyrosine metabolism	
+rxn03337_c0	rxn03337	Melanin / DHN	R04884	rn00350	Tyrosine metabolism	1.14.18.1
+rxn06809_c0	rxn06809	Melanin / DHN				
+rxn00293_c0	rxn00293	Cell-wall polysaccharide	R00416	rn00520;rn01110	Amino sugar and nucleotide sugar metabolism;Biosynthesis of secondary metabolites	2.7.7.23
+rxn15558_c0	rxn15558	Cell-wall polysaccharide	R06028			2.4.1.16
+rxn01150_c0	rxn01150	Cofactor / vitamin biosynthesis	R01575			1.1.1.117
+rxn01150_m0	rxn01150	Cofactor / vitamin biosynthesis	R01575			1.1.1.117
+rxn00546_c0	rxn00546	Compatible solute / mannitol	R00758			1.1.1.17
+rxn01560_c0	rxn01560	Compatible solute / mannitol	R02167	rn00051	Fructose and mannose metabolism	3.1.3.22
+rxn15561_c0	rxn15561	Cell-wall polysaccharide	R06045			2.4.1.183
+tx_cpd00496_mc		Transport (inter-compartmental)				
+rxn02679_x0	rxn02679	β-oxidation (peroxisomal)	R03777	rn00071;rn01212	Fatty acid degradation;Fatty acid metabolism	1.3.3.6|1.3.99.-|1.3.99.13|1.3.99.3
+rxn03251_x0	rxn03251	β-oxidation (peroxisomal)	R04751	rn00071;rn01212	Fatty acid degradation;Fatty acid metabolism	1.3.3.6|1.3.8.1|1.3.99.-|1.3.99.13|1.3.99.3
+rxn00868_x0	rxn00868	β-oxidation (peroxisomal)	R01171	rn00310;rn00650;rn01200	Lysine degradation;Butanoate metabolism;Carbon metabolism	1.3.1.44|1.3.8.1
+rxn03247_x0	rxn03247	β-oxidation (peroxisomal)	R04746	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	4.2.1.17|4.2.1.74
+rxn03250_x0	rxn03250	β-oxidation (peroxisomal)	R04749	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	4.2.1.-|4.2.1.17|4.2.1.74
+rxn02167_x0	rxn02167	β-oxidation (peroxisomal)	R03026	rn00071;rn00310;rn00362;rn00380;rn00627;rn00650;rn00720;rn01200;rn01212	Fatty acid degradation;Lysine degradation;Benzoate degradation;Tryptophan metabolism;Aminobenzoate degradation;Butanoate metabolism;Carbon fixation pathways in prokaryotes;Carbon metabolism;Fatty acid metabolism	4.2.1.-|4.2.1.17|4.2.1.55
+rxn03246_x0	rxn03246	β-oxidation (peroxisomal)	R04745	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	1.1.1.211|1.1.1.35
+rxn03249_x0	rxn03249	β-oxidation (peroxisomal)	R04748	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	1.1.1.211|1.1.1.35
+rxn03861_x0	rxn03861	β-oxidation (peroxisomal)	R05576			1.1.1.157|1.1.1.36
+rxn06510_x0	rxn06510	β-oxidation (peroxisomal)	R03858	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	2.3.1.16
+rxn03243_x0	rxn03243	β-oxidation (peroxisomal)	R04742	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	2.3.1.16
+rxn02680_x0	rxn02680	β-oxidation (peroxisomal)	R03778	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	2.3.1.16
+rxn03248_x0	rxn03248	β-oxidation (peroxisomal)	R04747	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	2.3.1.16
+rxn00874_x0	rxn00874	β-oxidation (peroxisomal)	R01177	rn00062;rn00071;rn01212	Fatty acid elongation;Fatty acid degradation;Fatty acid metabolism	2.3.1.16|2.3.1.9
+rxn00178_x0	rxn00178	β-oxidation (peroxisomal)	R00238	rn00071;rn00072;rn00280;rn00310;rn00362;rn00380;rn00620;rn00630;rn00640;rn00650;rn00720;rn00900;rn01110;rn01200;rn01212	Fatty acid degradation;Synthesis and degradation of ketone bodies;Valine, leucine and isoleucine degradation;Lysine degradation;Benzoate degradation;Tryptophan metabolism;Pyruvate metabolism;Glyoxylate and dicarboxylate metabolism;Propanoate metabolism;Butanoate metabolism;Carbon fixation pathways in prokaryotes;Terpenoid backbone biosynthesis;Biosynthesis of secondary metabolites;Carbon metabolism;Fatty acid metabolism	2.3.1.9
+tx_atp_xc		β-oxidation (peroxisomal)				
+tx_ppi_xc		β-oxidation (peroxisomal)				
+tx_coa_xc		β-oxidation (peroxisomal)				
+tx_nad_xc		β-oxidation (peroxisomal)				
+tx_nadh_xc		β-oxidation (peroxisomal)				
+tx_h_xc		β-oxidation (peroxisomal)				
+rxn01391_c0	rxn01391	Pentose-sugar catabolism	R01903	rn00040	Pentose and glucuronate interconversions	1.1.1.12
+rxn33066_c0	rxn33066	Pentose-sugar catabolism	R01904	rn00040	Pentose and glucuronate interconversions	1.1.1.10
+rxn05673_c0	rxn05673	Pectin / D-galacturonate (Ashwell)				2.A.1.14.-
+rxn07491_c0	rxn07491	Pectin / D-galacturonate (Ashwell)	R07676	rn00040;rn00053	Pentose and glucuronate interconversions;Ascorbate and aldarate metabolism	1.1.1.-|1.1.1.365
+rxn21749_c0	rxn21749	Pectin / D-galacturonate (Ashwell)	R10532	rn00040	Pentose and glucuronate interconversions	4.2.1.146
+rxn21750_c0	rxn21750	Pectin / D-galacturonate (Ashwell)	R10550	rn00040	Pentose and glucuronate interconversions	4.1.2.54
+rxn09954_c0	rxn09954	Pectin / D-galacturonate (Ashwell)	R10563	rn00040	Pentose and glucuronate interconversions	
+HXCAt		β-oxidation (peroxisomal)				
+vlcfa_oxC24_x0		β-oxidation (peroxisomal)				
+vlcfa_hyC24_x0		β-oxidation (peroxisomal)				
+vlcfa_dhC24_x0		β-oxidation (peroxisomal)				
+vlcfa_thC24_x0		β-oxidation (peroxisomal)				
+vlcfa_oxC22_x0		β-oxidation (peroxisomal)				
+vlcfa_hyC22_x0		β-oxidation (peroxisomal)				
+vlcfa_dhC22_x0		β-oxidation (peroxisomal)				
+vlcfa_thC22_x0		β-oxidation (peroxisomal)				
+vlcfa_oxC20_x0		β-oxidation (peroxisomal)				
+vlcfa_hyC20_x0		β-oxidation (peroxisomal)				
+vlcfa_dhC20_x0		β-oxidation (peroxisomal)				
+vlcfa_thC20_x0		β-oxidation (peroxisomal)				

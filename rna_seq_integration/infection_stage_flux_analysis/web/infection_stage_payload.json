@@ -1,0 +1,1682 @@
+{
+  "meta": {
+    "model": "FSP237 V10 (1622 rxns / 1268 mets / 1274 genes)",
+    "dataset_label": "S1",
+    "n_methods": 4,
+    "n_conditions_aerobic": 18,
+    "featured_thresholds": {
+      "gimme": "default",
+      "imat": "default"
+    },
+    "best_method_overall": "imat",
+    "best_aligned_stage": "biotrophic",
+    "limitation": "A single S1 transcriptome (technical replicates G1/G2/G3), representing the pathogenic state, is applied to every medium. Expression does NOT vary by infection stage \u2014 only flux (via the medium) does. So there is no differential-expression analysis; instead S1 is a fixed expression prior, and we ask which stage's media the model's flux best matches, and which integration method best reproduces S1.",
+    "kegg_coverage": {
+      "n_reactions": 1622,
+      "kegg_reaction": 714,
+      "kegg_pathway": 660,
+      "distinct_kegg_pathways": 83
+    }
+  },
+  "method_ranking": [
+    {
+      "scope": "overall_aerobic",
+      "method": "imat",
+      "mean_composite": 0.7735,
+      "rank": 1
+    },
+    {
+      "scope": "overall_aerobic",
+      "method": "gimme",
+      "mean_composite": 0.6239,
+      "rank": 2
+    },
+    {
+      "scope": "overall_aerobic",
+      "method": "pfba",
+      "mean_composite": 0.3753,
+      "rank": 3
+    },
+    {
+      "scope": "overall_aerobic",
+      "method": "eflux",
+      "mean_composite": 0.3361,
+      "rank": 4
+    },
+    {
+      "scope": "pre-infection",
+      "method": "imat",
+      "mean_composite": 0.7746,
+      "rank": 1
+    },
+    {
+      "scope": "pre-infection",
+      "method": "gimme",
+      "mean_composite": 0.6513,
+      "rank": 2
+    },
+    {
+      "scope": "pre-infection",
+      "method": "pfba",
+      "mean_composite": 0.4126,
+      "rank": 3
+    },
+    {
+      "scope": "pre-infection",
+      "method": "eflux",
+      "mean_composite": 0.3303,
+      "rank": 4
+    },
+    {
+      "scope": "biotrophic",
+      "method": "imat",
+      "mean_composite": 0.7702,
+      "rank": 1
+    },
+    {
+      "scope": "biotrophic",
+      "method": "gimme",
+      "mean_composite": 0.7323,
+      "rank": 2
+    },
+    {
+      "scope": "biotrophic",
+      "method": "pfba",
+      "mean_composite": 0.4277,
+      "rank": 3
+    },
+    {
+      "scope": "biotrophic",
+      "method": "eflux",
+      "mean_composite": 0.4244,
+      "rank": 4
+    },
+    {
+      "scope": "necrotrophic",
+      "method": "imat",
+      "mean_composite": 0.7445,
+      "rank": 1
+    },
+    {
+      "scope": "necrotrophic",
+      "method": "gimme",
+      "mean_composite": 0.5153,
+      "rank": 2
+    },
+    {
+      "scope": "necrotrophic",
+      "method": "pfba",
+      "mean_composite": 0.2714,
+      "rank": 3
+    },
+    {
+      "scope": "necrotrophic",
+      "method": "eflux",
+      "mean_composite": 0.2584,
+      "rank": 4
+    }
+  ],
+  "concordance": [
+    {
+      "method": "eflux",
+      "condition_id": "01_trehalose",
+      "label": "Trehalose",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1339,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9776,
+      "mcc_active_vs_expr": 0.1603,
+      "agreement_score": 0.574,
+      "composite": 0.3099,
+      "n_flux_nonzero": 464
+    },
+    {
+      "method": "eflux",
+      "condition_id": "02_glycerol",
+      "label": "Glycerol",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1328,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9776,
+      "mcc_active_vs_expr": 0.1603,
+      "agreement_score": 0.5769,
+      "composite": 0.3624,
+      "n_flux_nonzero": 469
+    },
+    {
+      "method": "eflux",
+      "condition_id": "03_palmitate",
+      "label": "Palmitate (C16:0)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1077,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9758,
+      "mcc_active_vs_expr": 0.1607,
+      "agreement_score": 0.5855,
+      "composite": 0.2237,
+      "n_flux_nonzero": 482
+    },
+    {
+      "method": "eflux",
+      "condition_id": "04_oleate",
+      "label": "Oleate (C18:1)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1125,
+      "hi_expr_recall": 0.35,
+      "flux_precision_hi_med": 0.9781,
+      "mcc_active_vs_expr": 0.1643,
+      "agreement_score": 0.5786,
+      "composite": 0.229,
+      "n_flux_nonzero": 482
+    },
+    {
+      "method": "eflux",
+      "condition_id": "05_hexacosanoate",
+      "label": "Hexacosanoate (C26)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1171,
+      "hi_expr_recall": 0.3775,
+      "flux_precision_hi_med": 0.9817,
+      "mcc_active_vs_expr": 0.1801,
+      "agreement_score": 0.601,
+      "composite": 0.5263,
+      "n_flux_nonzero": 497
+    },
+    {
+      "method": "eflux",
+      "condition_id": "06_glucose_low",
+      "label": "Glucose (LOW, -1)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1381,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5766,
+      "composite": 0.4832,
+      "n_flux_nonzero": 463
+    },
+    {
+      "method": "eflux",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1504,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9806,
+      "mcc_active_vs_expr": 0.1691,
+      "agreement_score": 0.5806,
+      "composite": 0.5746,
+      "n_flux_nonzero": 467
+    },
+    {
+      "method": "eflux",
+      "condition_id": "08_glutamate",
+      "label": "L-Glutamate",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1369,
+      "hi_expr_recall": 0.3675,
+      "flux_precision_hi_med": 0.975,
+      "mcc_active_vs_expr": 0.1546,
+      "agreement_score": 0.5811,
+      "composite": 0.3792,
+      "n_flux_nonzero": 477
+    },
+    {
+      "method": "eflux",
+      "condition_id": "09_glutamine",
+      "label": "L-Glutamine",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1325,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9749,
+      "mcc_active_vs_expr": 0.1536,
+      "agreement_score": 0.5778,
+      "composite": 0.3162,
+      "n_flux_nonzero": 473
+    },
+    {
+      "method": "eflux",
+      "condition_id": "10_gaba",
+      "label": "GABA",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1358,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9775,
+      "mcc_active_vs_expr": 0.1598,
+      "agreement_score": 0.5762,
+      "composite": 0.3687,
+      "n_flux_nonzero": 464
+    },
+    {
+      "method": "eflux",
+      "condition_id": "12_xylose",
+      "label": "Xylose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1297,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9777,
+      "mcc_active_vs_expr": 0.1608,
+      "agreement_score": 0.5747,
+      "composite": 0.2941,
+      "n_flux_nonzero": 464
+    },
+    {
+      "method": "eflux",
+      "condition_id": "13_arabinose",
+      "label": "L-Arabinose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1135,
+      "hi_expr_recall": 0.345,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5719,
+      "composite": 0.2952,
+      "n_flux_nonzero": 464
+    },
+    {
+      "method": "eflux",
+      "condition_id": "14_maltose",
+      "label": "Maltose (starch)",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1333,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9749,
+      "mcc_active_vs_expr": 0.1541,
+      "agreement_score": 0.5766,
+      "composite": 0.2878,
+      "n_flux_nonzero": 465
+    },
+    {
+      "method": "eflux",
+      "condition_id": "15_mixed_aa",
+      "label": "Mixed AAs + glc",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1163,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9737,
+      "mcc_active_vs_expr": 0.1454,
+      "agreement_score": 0.5635,
+      "composite": 0.1565,
+      "n_flux_nonzero": 483
+    },
+    {
+      "method": "eflux",
+      "condition_id": "16_pre_infection_mix",
+      "label": "Pre-infection mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1229,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9835,
+      "mcc_active_vs_expr": 0.1783,
+      "agreement_score": 0.5802,
+      "composite": 0.4496,
+      "n_flux_nonzero": 483
+    },
+    {
+      "method": "eflux",
+      "condition_id": "17_biotrophic_mix",
+      "label": "Biotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1254,
+      "hi_expr_recall": 0.35,
+      "flux_precision_hi_med": 0.975,
+      "mcc_active_vs_expr": 0.1546,
+      "agreement_score": 0.5745,
+      "composite": 0.1912,
+      "n_flux_nonzero": 475
+    },
+    {
+      "method": "eflux",
+      "condition_id": "18_necrotrophic_mix",
+      "label": "Necrotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1262,
+      "hi_expr_recall": 0.37,
+      "flux_precision_hi_med": 0.9717,
+      "mcc_active_vs_expr": 0.1437,
+      "agreement_score": 0.5765,
+      "composite": 0.2658,
+      "n_flux_nonzero": 496
+    },
+    {
+      "method": "gimme",
+      "condition_id": "01_trehalose",
+      "label": "Trehalose",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1544,
+      "hi_expr_recall": 0.3675,
+      "flux_precision_hi_med": 0.9861,
+      "mcc_active_vs_expr": 0.1836,
+      "agreement_score": 0.5839,
+      "composite": 0.7321,
+      "n_flux_nonzero": 475
+    },
+    {
+      "method": "gimme",
+      "condition_id": "02_glycerol",
+      "label": "Glycerol",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1415,
+      "hi_expr_recall": 0.3675,
+      "flux_precision_hi_med": 0.9835,
+      "mcc_active_vs_expr": 0.1778,
+      "agreement_score": 0.5852,
+      "composite": 0.6439,
+      "n_flux_nonzero": 484
+    },
+    {
+      "method": "gimme",
+      "condition_id": "03_palmitate",
+      "label": "Palmitate (C16:0)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1151,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9865,
+      "mcc_active_vs_expr": 0.189,
+      "agreement_score": 0.5884,
+      "composite": 0.5788,
+      "n_flux_nonzero": 487
+    },
+    {
+      "method": "gimme",
+      "condition_id": "04_oleate",
+      "label": "Oleate (C18:1)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1179,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9864,
+      "mcc_active_vs_expr": 0.1875,
+      "agreement_score": 0.5845,
+      "composite": 0.5452,
+      "n_flux_nonzero": 485
+    },
+    {
+      "method": "gimme",
+      "condition_id": "05_hexacosanoate",
+      "label": "Hexacosanoate (C26)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1351,
+      "hi_expr_recall": 0.3875,
+      "flux_precision_hi_med": 0.987,
+      "mcc_active_vs_expr": 0.1964,
+      "agreement_score": 0.6086,
+      "composite": 0.7563,
+      "n_flux_nonzero": 505
+    },
+    {
+      "method": "gimme",
+      "condition_id": "06_glucose_low",
+      "label": "Glucose (LOW, -1)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1509,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.9861,
+      "mcc_active_vs_expr": 0.1831,
+      "agreement_score": 0.5822,
+      "composite": 0.7153,
+      "n_flux_nonzero": 469
+    },
+    {
+      "method": "gimme",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1584,
+      "hi_expr_recall": 0.375,
+      "flux_precision_hi_med": 0.9861,
+      "mcc_active_vs_expr": 0.1841,
+      "agreement_score": 0.5875,
+      "composite": 0.7605,
+      "n_flux_nonzero": 476
+    },
+    {
+      "method": "gimme",
+      "condition_id": "08_glutamate",
+      "label": "L-Glutamate",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1458,
+      "hi_expr_recall": 0.3725,
+      "flux_precision_hi_med": 0.9863,
+      "mcc_active_vs_expr": 0.1855,
+      "agreement_score": 0.5885,
+      "composite": 0.7574,
+      "n_flux_nonzero": 479
+    },
+    {
+      "method": "gimme",
+      "condition_id": "09_glutamine",
+      "label": "L-Glutamine",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1347,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.9862,
+      "mcc_active_vs_expr": 0.1846,
+      "agreement_score": 0.5843,
+      "composite": 0.688,
+      "n_flux_nonzero": 478
+    },
+    {
+      "method": "gimme",
+      "condition_id": "10_gaba",
+      "label": "GABA",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1579,
+      "hi_expr_recall": 0.37,
+      "flux_precision_hi_med": 0.9861,
+      "mcc_active_vs_expr": 0.1831,
+      "agreement_score": 0.5842,
+      "composite": 0.7405,
+      "n_flux_nonzero": 476
+    },
+    {
+      "method": "gimme",
+      "condition_id": "11_galacturonate",
+      "label": "D-Galacturonate",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.13,
+      "hi_expr_recall": 0.37,
+      "flux_precision_hi_med": 0.9783,
+      "mcc_active_vs_expr": 0.1659,
+      "agreement_score": 0.5873,
+      "composite": 0.4464,
+      "n_flux_nonzero": 487
+    },
+    {
+      "method": "gimme",
+      "condition_id": "12_xylose",
+      "label": "Xylose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1556,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.986,
+      "mcc_active_vs_expr": 0.1826,
+      "agreement_score": 0.5815,
+      "composite": 0.7059,
+      "n_flux_nonzero": 471
+    },
+    {
+      "method": "gimme",
+      "condition_id": "13_arabinose",
+      "label": "L-Arabinose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1269,
+      "hi_expr_recall": 0.3475,
+      "flux_precision_hi_med": 0.986,
+      "mcc_active_vs_expr": 0.1816,
+      "agreement_score": 0.5735,
+      "composite": 0.4863,
+      "n_flux_nonzero": 469
+    },
+    {
+      "method": "gimme",
+      "condition_id": "14_maltose",
+      "label": "Maltose (starch)",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1431,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1681,
+      "agreement_score": 0.5773,
+      "composite": 0.5095,
+      "n_flux_nonzero": 471
+    },
+    {
+      "method": "gimme",
+      "condition_id": "15_mixed_aa",
+      "label": "Mixed AAs + glc",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1234,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9825,
+      "mcc_active_vs_expr": 0.1674,
+      "agreement_score": 0.5666,
+      "composite": 0.4286,
+      "n_flux_nonzero": 483
+    },
+    {
+      "method": "gimme",
+      "condition_id": "16_pre_infection_mix",
+      "label": "Pre-infection mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.129,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9862,
+      "mcc_active_vs_expr": 0.185,
+      "agreement_score": 0.5812,
+      "composite": 0.5819,
+      "n_flux_nonzero": 489
+    },
+    {
+      "method": "gimme",
+      "condition_id": "17_biotrophic_mix",
+      "label": "Biotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1475,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.9861,
+      "mcc_active_vs_expr": 0.1831,
+      "agreement_score": 0.5822,
+      "composite": 0.7027,
+      "n_flux_nonzero": 476
+    },
+    {
+      "method": "gimme",
+      "condition_id": "18_necrotrophic_mix",
+      "label": "Necrotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1217,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1681,
+      "agreement_score": 0.5802,
+      "composite": 0.4506,
+      "n_flux_nonzero": 507
+    },
+    {
+      "method": "imat",
+      "condition_id": "01_trehalose",
+      "label": "Trehalose",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.3763,
+      "hi_expr_recall": 0.7525,
+      "flux_precision_hi_med": 0.979,
+      "mcc_active_vs_expr": 0.2504,
+      "agreement_score": 0.8498,
+      "composite": 0.8183,
+      "n_flux_nonzero": 766
+    },
+    {
+      "method": "imat",
+      "condition_id": "02_glycerol",
+      "label": "Glycerol",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.3585,
+      "hi_expr_recall": 0.715,
+      "flux_precision_hi_med": 0.9639,
+      "mcc_active_vs_expr": 0.184,
+      "agreement_score": 0.8241,
+      "composite": 0.5987,
+      "n_flux_nonzero": 746
+    },
+    {
+      "method": "imat",
+      "condition_id": "03_palmitate",
+      "label": "Palmitate (C16:0)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.3726,
+      "hi_expr_recall": 0.76,
+      "flux_precision_hi_med": 0.9807,
+      "mcc_active_vs_expr": 0.2561,
+      "agreement_score": 0.8534,
+      "composite": 0.8813,
+      "n_flux_nonzero": 775
+    },
+    {
+      "method": "imat",
+      "condition_id": "04_oleate",
+      "label": "Oleate (C18:1)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.3445,
+      "hi_expr_recall": 0.7475,
+      "flux_precision_hi_med": 0.9778,
+      "mcc_active_vs_expr": 0.2517,
+      "agreement_score": 0.8499,
+      "composite": 0.75,
+      "n_flux_nonzero": 805
+    },
+    {
+      "method": "imat",
+      "condition_id": "05_hexacosanoate",
+      "label": "Hexacosanoate (C26)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.3584,
+      "hi_expr_recall": 0.7575,
+      "flux_precision_hi_med": 0.9795,
+      "mcc_active_vs_expr": 0.258,
+      "agreement_score": 0.855,
+      "composite": 0.8246,
+      "n_flux_nonzero": 794
+    },
+    {
+      "method": "imat",
+      "condition_id": "06_glucose_low",
+      "label": "Glucose (LOW, -1)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.3834,
+      "hi_expr_recall": 0.76,
+      "flux_precision_hi_med": 0.9774,
+      "mcc_active_vs_expr": 0.2454,
+      "agreement_score": 0.8541,
+      "composite": 0.7815,
+      "n_flux_nonzero": 779
+    },
+    {
+      "method": "imat",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.3941,
+      "hi_expr_recall": 0.75,
+      "flux_precision_hi_med": 0.9787,
+      "mcc_active_vs_expr": 0.2454,
+      "agreement_score": 0.8453,
+      "composite": 0.8057,
+      "n_flux_nonzero": 763
+    },
+    {
+      "method": "imat",
+      "condition_id": "08_glutamate",
+      "label": "L-Glutamate",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.3576,
+      "hi_expr_recall": 0.7275,
+      "flux_precision_hi_med": 0.9752,
+      "mcc_active_vs_expr": 0.2322,
+      "agreement_score": 0.8348,
+      "composite": 0.6954,
+      "n_flux_nonzero": 769
+    },
+    {
+      "method": "imat",
+      "condition_id": "09_glutamine",
+      "label": "L-Glutamine",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.3703,
+      "hi_expr_recall": 0.7525,
+      "flux_precision_hi_med": 0.9792,
+      "mcc_active_vs_expr": 0.2529,
+      "agreement_score": 0.8507,
+      "composite": 0.8204,
+      "n_flux_nonzero": 781
+    },
+    {
+      "method": "imat",
+      "condition_id": "10_gaba",
+      "label": "GABA",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.3657,
+      "hi_expr_recall": 0.7175,
+      "flux_precision_hi_med": 0.9781,
+      "mcc_active_vs_expr": 0.2362,
+      "agreement_score": 0.8262,
+      "composite": 0.7479,
+      "n_flux_nonzero": 738
+    },
+    {
+      "method": "imat",
+      "condition_id": "11_galacturonate",
+      "label": "D-Galacturonate",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.3348,
+      "hi_expr_recall": 0.74,
+      "flux_precision_hi_med": 0.9787,
+      "mcc_active_vs_expr": 0.2448,
+      "agreement_score": 0.8399,
+      "composite": 0.7426,
+      "n_flux_nonzero": 766
+    },
+    {
+      "method": "imat",
+      "condition_id": "12_xylose",
+      "label": "Xylose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.3532,
+      "hi_expr_recall": 0.75,
+      "flux_precision_hi_med": 0.9811,
+      "mcc_active_vs_expr": 0.2637,
+      "agreement_score": 0.851,
+      "composite": 0.8498,
+      "n_flux_nonzero": 795
+    },
+    {
+      "method": "imat",
+      "condition_id": "13_arabinose",
+      "label": "L-Arabinose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.3342,
+      "hi_expr_recall": 0.7625,
+      "flux_precision_hi_med": 0.9725,
+      "mcc_active_vs_expr": 0.229,
+      "agreement_score": 0.8563,
+      "composite": 0.6681,
+      "n_flux_nonzero": 784
+    },
+    {
+      "method": "imat",
+      "condition_id": "14_maltose",
+      "label": "Maltose (starch)",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.3346,
+      "hi_expr_recall": 0.755,
+      "flux_precision_hi_med": 0.9738,
+      "mcc_active_vs_expr": 0.2296,
+      "agreement_score": 0.8504,
+      "composite": 0.6744,
+      "n_flux_nonzero": 770
+    },
+    {
+      "method": "imat",
+      "condition_id": "15_mixed_aa",
+      "label": "Mixed AAs + glc",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.3243,
+      "hi_expr_recall": 0.76,
+      "flux_precision_hi_med": 0.9793,
+      "mcc_active_vs_expr": 0.2561,
+      "agreement_score": 0.8556,
+      "composite": 0.7878,
+      "n_flux_nonzero": 801
+    },
+    {
+      "method": "imat",
+      "condition_id": "16_pre_infection_mix",
+      "label": "Pre-infection mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.3573,
+      "hi_expr_recall": 0.75,
+      "flux_precision_hi_med": 0.9822,
+      "mcc_active_vs_expr": 0.258,
+      "agreement_score": 0.8466,
+      "composite": 0.8624,
+      "n_flux_nonzero": 766
+    },
+    {
+      "method": "imat",
+      "condition_id": "17_biotrophic_mix",
+      "label": "Biotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.3631,
+      "hi_expr_recall": 0.7425,
+      "flux_precision_hi_med": 0.9809,
+      "mcc_active_vs_expr": 0.2592,
+      "agreement_score": 0.8456,
+      "composite": 0.8561,
+      "n_flux_nonzero": 799
+    },
+    {
+      "method": "imat",
+      "condition_id": "18_necrotrophic_mix",
+      "label": "Necrotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.3593,
+      "hi_expr_recall": 0.7725,
+      "flux_precision_hi_med": 0.9772,
+      "mcc_active_vs_expr": 0.2428,
+      "agreement_score": 0.8585,
+      "composite": 0.7584,
+      "n_flux_nonzero": 792
+    },
+    {
+      "method": "pfba",
+      "condition_id": "01_trehalose",
+      "label": "Trehalose",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1394,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5757,
+      "composite": 0.4664,
+      "n_flux_nonzero": 467
+    },
+    {
+      "method": "pfba",
+      "condition_id": "02_glycerol",
+      "label": "Glycerol",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1366,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9776,
+      "mcc_active_vs_expr": 0.1603,
+      "agreement_score": 0.5769,
+      "composite": 0.3855,
+      "n_flux_nonzero": 466
+    },
+    {
+      "method": "pfba",
+      "condition_id": "03_palmitate",
+      "label": "Palmitate (C16:0)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1209,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9784,
+      "mcc_active_vs_expr": 0.1674,
+      "agreement_score": 0.5855,
+      "composite": 0.3382,
+      "n_flux_nonzero": 481
+    },
+    {
+      "method": "pfba",
+      "condition_id": "04_oleate",
+      "label": "Oleate (C18:1)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1098,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9781,
+      "mcc_active_vs_expr": 0.1648,
+      "agreement_score": 0.5802,
+      "composite": 0.2426,
+      "n_flux_nonzero": 485
+    },
+    {
+      "method": "pfba",
+      "condition_id": "05_hexacosanoate",
+      "label": "Hexacosanoate (C26)",
+      "stage": "pre-infection",
+      "spearman_expr_vs_flux": 0.1235,
+      "hi_expr_recall": 0.38,
+      "flux_precision_hi_med": 0.9843,
+      "mcc_active_vs_expr": 0.1872,
+      "agreement_score": 0.6026,
+      "composite": 0.6303,
+      "n_flux_nonzero": 497
+    },
+    {
+      "method": "pfba",
+      "condition_id": "06_glucose_low",
+      "label": "Glucose (LOW, -1)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1426,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9777,
+      "mcc_active_vs_expr": 0.1608,
+      "agreement_score": 0.5776,
+      "composite": 0.4181,
+      "n_flux_nonzero": 463
+    },
+    {
+      "method": "pfba",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1505,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9778,
+      "mcc_active_vs_expr": 0.1618,
+      "agreement_score": 0.5799,
+      "composite": 0.4653,
+      "n_flux_nonzero": 467
+    },
+    {
+      "method": "pfba",
+      "condition_id": "08_glutamate",
+      "label": "L-Glutamate",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1323,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5795,
+      "composite": 0.4989,
+      "n_flux_nonzero": 472
+    },
+    {
+      "method": "pfba",
+      "condition_id": "09_glutamine",
+      "label": "L-Glutamine",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1309,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1681,
+      "agreement_score": 0.5792,
+      "composite": 0.4874,
+      "n_flux_nonzero": 476
+    },
+    {
+      "method": "pfba",
+      "condition_id": "10_gaba",
+      "label": "GABA",
+      "stage": "biotrophic",
+      "spearman_expr_vs_flux": 0.1316,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9719,
+      "mcc_active_vs_expr": 0.1453,
+      "agreement_score": 0.5757,
+      "composite": 0.2689,
+      "n_flux_nonzero": 467
+    },
+    {
+      "method": "pfba",
+      "condition_id": "11_galacturonate",
+      "label": "D-Galacturonate",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1219,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9751,
+      "mcc_active_vs_expr": 0.1556,
+      "agreement_score": 0.5787,
+      "composite": 0.2595,
+      "n_flux_nonzero": 477
+    },
+    {
+      "method": "pfba",
+      "condition_id": "12_xylose",
+      "label": "Xylose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1256,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9777,
+      "mcc_active_vs_expr": 0.1608,
+      "agreement_score": 0.5747,
+      "composite": 0.2784,
+      "n_flux_nonzero": 464
+    },
+    {
+      "method": "pfba",
+      "condition_id": "13_arabinose",
+      "label": "L-Arabinose",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1231,
+      "hi_expr_recall": 0.3475,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5728,
+      "composite": 0.3298,
+      "n_flux_nonzero": 466
+    },
+    {
+      "method": "pfba",
+      "condition_id": "14_maltose",
+      "label": "Maltose (starch)",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.1342,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9751,
+      "mcc_active_vs_expr": 0.1551,
+      "agreement_score": 0.5789,
+      "composite": 0.3309,
+      "n_flux_nonzero": 469
+    },
+    {
+      "method": "pfba",
+      "condition_id": "15_mixed_aa",
+      "label": "Mixed AAs + glc",
+      "stage": "necrotrophic",
+      "spearman_expr_vs_flux": 0.117,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9737,
+      "mcc_active_vs_expr": 0.1454,
+      "agreement_score": 0.5635,
+      "composite": 0.1586,
+      "n_flux_nonzero": 483
+    },
+    {
+      "method": "pfba",
+      "condition_id": "16_pre_infection_mix",
+      "label": "Pre-infection mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1234,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9835,
+      "mcc_active_vs_expr": 0.1783,
+      "agreement_score": 0.5812,
+      "composite": 0.479,
+      "n_flux_nonzero": 483
+    },
+    {
+      "method": "pfba",
+      "condition_id": "17_biotrophic_mix",
+      "label": "Biotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1334,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9833,
+      "mcc_active_vs_expr": 0.1763,
+      "agreement_score": 0.5784,
+      "composite": 0.5284,
+      "n_flux_nonzero": 476
+    },
+    {
+      "method": "pfba",
+      "condition_id": "18_necrotrophic_mix",
+      "label": "Necrotrophic mix",
+      "stage": "cocktail",
+      "spearman_expr_vs_flux": 0.1126,
+      "hi_expr_recall": 0.37,
+      "flux_precision_hi_med": 0.9663,
+      "mcc_active_vs_expr": 0.1307,
+      "agreement_score": 0.5762,
+      "composite": 0.1901,
+      "n_flux_nonzero": 504
+    }
+  ],
+  "stage_alignment": [
+    {
+      "method": "eflux",
+      "stage": "biotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.4244,
+      "max_composite": 0.5746,
+      "best_condition": "07_sucrose_low",
+      "best_label": "Sucrose (LOW, -0.5)",
+      "mean_spearman": 0.1387,
+      "mean_mcc": 0.1609
+    },
+    {
+      "method": "eflux",
+      "stage": "pre-infection",
+      "n_conditions": 5,
+      "mean_composite": 0.3303,
+      "max_composite": 0.5263,
+      "best_condition": "05_hexacosanoate",
+      "best_label": "Hexacosanoate (C26)",
+      "mean_spearman": 0.1208,
+      "mean_mcc": 0.1651
+    },
+    {
+      "method": "eflux",
+      "stage": "cocktail",
+      "n_conditions": 3,
+      "mean_composite": 0.3022,
+      "max_composite": 0.4496,
+      "best_condition": "16_pre_infection_mix",
+      "best_label": "Pre-infection mix",
+      "mean_spearman": 0.1248,
+      "mean_mcc": 0.1589
+    },
+    {
+      "method": "eflux",
+      "stage": "necrotrophic",
+      "n_conditions": 4,
+      "mean_composite": 0.2584,
+      "max_composite": 0.2952,
+      "best_condition": "13_arabinose",
+      "best_label": "L-Arabinose",
+      "mean_spearman": 0.1232,
+      "mean_mcc": 0.157
+    },
+    {
+      "method": "gimme",
+      "stage": "biotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.7323,
+      "max_composite": 0.7605,
+      "best_condition": "07_sucrose_low",
+      "best_label": "Sucrose (LOW, -0.5)",
+      "mean_spearman": 0.1495,
+      "mean_mcc": 0.1841
+    },
+    {
+      "method": "gimme",
+      "stage": "pre-infection",
+      "n_conditions": 5,
+      "mean_composite": 0.6513,
+      "max_composite": 0.7563,
+      "best_condition": "05_hexacosanoate",
+      "best_label": "Hexacosanoate (C26)",
+      "mean_spearman": 0.1328,
+      "mean_mcc": 0.1869
+    },
+    {
+      "method": "gimme",
+      "stage": "cocktail",
+      "n_conditions": 3,
+      "mean_composite": 0.5784,
+      "max_composite": 0.7027,
+      "best_condition": "17_biotrophic_mix",
+      "best_label": "Biotrophic mix",
+      "mean_spearman": 0.1327,
+      "mean_mcc": 0.1787
+    },
+    {
+      "method": "gimme",
+      "stage": "necrotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.5153,
+      "max_composite": 0.7059,
+      "best_condition": "12_xylose",
+      "best_label": "Xylose",
+      "mean_spearman": 0.1358,
+      "mean_mcc": 0.1731
+    },
+    {
+      "method": "imat",
+      "stage": "cocktail",
+      "n_conditions": 3,
+      "mean_composite": 0.8256,
+      "max_composite": 0.8624,
+      "best_condition": "16_pre_infection_mix",
+      "best_label": "Pre-infection mix",
+      "mean_spearman": 0.3599,
+      "mean_mcc": 0.2533
+    },
+    {
+      "method": "imat",
+      "stage": "pre-infection",
+      "n_conditions": 5,
+      "mean_composite": 0.7746,
+      "max_composite": 0.8813,
+      "best_condition": "03_palmitate",
+      "best_label": "Palmitate (C16:0)",
+      "mean_spearman": 0.3621,
+      "mean_mcc": 0.24
+    },
+    {
+      "method": "imat",
+      "stage": "biotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.7702,
+      "max_composite": 0.8204,
+      "best_condition": "09_glutamine",
+      "best_label": "L-Glutamine",
+      "mean_spearman": 0.3742,
+      "mean_mcc": 0.2424
+    },
+    {
+      "method": "imat",
+      "stage": "necrotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.7445,
+      "max_composite": 0.8498,
+      "best_condition": "12_xylose",
+      "best_label": "Xylose",
+      "mean_spearman": 0.3362,
+      "mean_mcc": 0.2446
+    },
+    {
+      "method": "pfba",
+      "stage": "biotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.4277,
+      "max_composite": 0.4989,
+      "best_condition": "08_glutamate",
+      "best_label": "L-Glutamate",
+      "mean_spearman": 0.1376,
+      "mean_mcc": 0.1607
+    },
+    {
+      "method": "pfba",
+      "stage": "pre-infection",
+      "n_conditions": 5,
+      "mean_composite": 0.4126,
+      "max_composite": 0.6303,
+      "best_condition": "05_hexacosanoate",
+      "best_label": "Hexacosanoate (C26)",
+      "mean_spearman": 0.126,
+      "mean_mcc": 0.1695
+    },
+    {
+      "method": "pfba",
+      "stage": "cocktail",
+      "n_conditions": 3,
+      "mean_composite": 0.3992,
+      "max_composite": 0.5284,
+      "best_condition": "17_biotrophic_mix",
+      "best_label": "Biotrophic mix",
+      "mean_spearman": 0.1231,
+      "mean_mcc": 0.1618
+    },
+    {
+      "method": "pfba",
+      "stage": "necrotrophic",
+      "n_conditions": 5,
+      "mean_composite": 0.2714,
+      "max_composite": 0.3309,
+      "best_condition": "14_maltose",
+      "best_label": "Maltose (starch)",
+      "mean_spearman": 0.1244,
+      "mean_mcc": 0.1569
+    }
+  ],
+  "stage_robustness": [
+    {
+      "stage": "biotrophic",
+      "eflux": 1,
+      "gimme": 1,
+      "imat": 2,
+      "pfba": 1,
+      "times_ranked_1st": 3
+    },
+    {
+      "stage": "pre-infection",
+      "eflux": 2,
+      "gimme": 2,
+      "imat": 1,
+      "pfba": 2,
+      "times_ranked_1st": 1
+    },
+    {
+      "stage": "necrotrophic",
+      "eflux": 3,
+      "gimme": 3,
+      "imat": 3,
+      "pfba": 3,
+      "times_ranked_1st": 0
+    }
+  ],
+  "best_medium": [
+    {
+      "method": "imat",
+      "condition_id": "03_palmitate",
+      "label": "Palmitate (C16:0)",
+      "stage": "pre-infection",
+      "composite": 0.8813
+    },
+    {
+      "method": "gimme",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "stage": "biotrophic",
+      "composite": 0.7605
+    },
+    {
+      "method": "pfba",
+      "condition_id": "05_hexacosanoate",
+      "label": "Hexacosanoate (C26)",
+      "stage": "pre-infection",
+      "composite": 0.6303
+    },
+    {
+      "method": "eflux",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "stage": "biotrophic",
+      "composite": 0.5746
+    }
+  ],
+  "vanilla_fba_view": [
+    {
+      "stage": "biotrophic",
+      "condition_id": "08_glutamate",
+      "label": "L-Glutamate",
+      "biomass": 0.0527,
+      "spearman_expr_vs_flux": 0.1323,
+      "hi_expr_recall": 0.365,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5795,
+      "composite": 0.4989
+    },
+    {
+      "stage": "biotrophic",
+      "condition_id": "09_glutamine",
+      "label": "L-Glutamine",
+      "biomass": 0.0528,
+      "spearman_expr_vs_flux": 0.1309,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1681,
+      "agreement_score": 0.5792,
+      "composite": 0.4874
+    },
+    {
+      "stage": "biotrophic",
+      "condition_id": "07_sucrose_low",
+      "label": "Sucrose (LOW, -0.5)",
+      "biomass": 0.0364,
+      "spearman_expr_vs_flux": 0.1505,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9778,
+      "mcc_active_vs_expr": 0.1618,
+      "agreement_score": 0.5799,
+      "composite": 0.4653
+    },
+    {
+      "stage": "biotrophic",
+      "condition_id": "06_glucose_low",
+      "label": "Glucose (LOW, -1)",
+      "biomass": 0.0364,
+      "spearman_expr_vs_flux": 0.1426,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9777,
+      "mcc_active_vs_expr": 0.1608,
+      "agreement_score": 0.5776,
+      "composite": 0.4181
+    },
+    {
+      "stage": "biotrophic",
+      "condition_id": "10_gaba",
+      "label": "GABA",
+      "biomass": 0.0496,
+      "spearman_expr_vs_flux": 0.1316,
+      "hi_expr_recall": 0.3625,
+      "flux_precision_hi_med": 0.9719,
+      "mcc_active_vs_expr": 0.1453,
+      "agreement_score": 0.5757,
+      "composite": 0.2689
+    },
+    {
+      "stage": "necrotrophic",
+      "condition_id": "14_maltose",
+      "label": "Maltose (starch)",
+      "biomass": 0.3642,
+      "spearman_expr_vs_flux": 0.1342,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9751,
+      "mcc_active_vs_expr": 0.1551,
+      "agreement_score": 0.5789,
+      "composite": 0.3309
+    },
+    {
+      "stage": "necrotrophic",
+      "condition_id": "13_arabinose",
+      "label": "L-Arabinose",
+      "biomass": 0.1396,
+      "spearman_expr_vs_flux": 0.1231,
+      "hi_expr_recall": 0.3475,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5728,
+      "composite": 0.3298
+    },
+    {
+      "stage": "necrotrophic",
+      "condition_id": "12_xylose",
+      "label": "Xylose",
+      "biomass": 0.1457,
+      "spearman_expr_vs_flux": 0.1256,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9777,
+      "mcc_active_vs_expr": 0.1608,
+      "agreement_score": 0.5747,
+      "composite": 0.2784
+    },
+    {
+      "stage": "necrotrophic",
+      "condition_id": "11_galacturonate",
+      "label": "D-Galacturonate",
+      "biomass": 0.1493,
+      "spearman_expr_vs_flux": 0.1219,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9751,
+      "mcc_active_vs_expr": 0.1556,
+      "agreement_score": 0.5787,
+      "composite": 0.2595
+    },
+    {
+      "stage": "necrotrophic",
+      "condition_id": "15_mixed_aa",
+      "label": "Mixed AAs + glc",
+      "biomass": 0.1424,
+      "spearman_expr_vs_flux": 0.117,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9737,
+      "mcc_active_vs_expr": 0.1454,
+      "agreement_score": 0.5635,
+      "composite": 0.1586
+    },
+    {
+      "stage": "pre-infection",
+      "condition_id": "05_hexacosanoate",
+      "label": "Hexacosanoate (C26)",
+      "biomass": 0.2061,
+      "spearman_expr_vs_flux": 0.1235,
+      "hi_expr_recall": 0.38,
+      "flux_precision_hi_med": 0.9843,
+      "mcc_active_vs_expr": 0.1872,
+      "agreement_score": 0.6026,
+      "composite": 0.6303
+    },
+    {
+      "stage": "pre-infection",
+      "condition_id": "01_trehalose",
+      "label": "Trehalose",
+      "biomass": 0.0728,
+      "spearman_expr_vs_flux": 0.1394,
+      "hi_expr_recall": 0.355,
+      "flux_precision_hi_med": 0.9804,
+      "mcc_active_vs_expr": 0.1676,
+      "agreement_score": 0.5757,
+      "composite": 0.4664
+    },
+    {
+      "stage": "pre-infection",
+      "condition_id": "02_glycerol",
+      "label": "Glycerol",
+      "biomass": 0.0207,
+      "spearman_expr_vs_flux": 0.1366,
+      "hi_expr_recall": 0.36,
+      "flux_precision_hi_med": 0.9776,
+      "mcc_active_vs_expr": 0.1603,
+      "agreement_score": 0.5769,
+      "composite": 0.3855
+    },
+    {
+      "stage": "pre-infection",
+      "condition_id": "03_palmitate",
+      "label": "Palmitate (C16:0)",
+      "biomass": 0.114,
+      "spearman_expr_vs_flux": 0.1209,
+      "hi_expr_recall": 0.3575,
+      "flux_precision_hi_med": 0.9784,
+      "mcc_active_vs_expr": 0.1674,
+      "agreement_score": 0.5855,
+      "composite": 0.3382
+    },
+    {
+      "stage": "pre-infection",
+      "condition_id": "04_oleate",
+      "label": "Oleate (C18:1)",
+      "biomass": 0.128,
+      "spearman_expr_vs_flux": 0.1098,
+      "hi_expr_recall": 0.3525,
+      "flux_precision_hi_med": 0.9781,
+      "mcc_active_vs_expr": 0.1648,
+      "agreement_score": 0.5802,
+      "composite": 0.2426
+    }
+  ],
+  "vanilla_fba_summary": [
+    {
+      "stage": "pre-infection",
+      "n": 5,
+      "mean_biomass": 0.1083,
+      "mean_composite": 0.4126,
+      "mean_spearman": 0.126
+    },
+    {
+      "stage": "biotrophic",
+      "n": 5,
+      "mean_biomass": 0.0456,
+      "mean_composite": 0.4277,
+      "mean_spearman": 0.1376
+    },
+    {
+      "stage": "necrotrophic",
+      "n": 5,
+      "mean_biomass": 0.1882,
+      "mean_composite": 0.2714,
+      "mean_spearman": 0.1244
+    }
+  ],
+  "bootstrap": {
+    "B": 500,
+    "note": "gene-level bootstrap on expression-independent pFBA flux; descriptive intervals only, no p-values (single biological transcriptome)",
+    "stages": [
+      {
+        "stage": "biotrophic",
+        "point_composite": 0.6132,
+        "boot_mean": 0.5849,
+        "ci95_lo": 0.4411,
+        "ci95_hi": 0.7243,
+        "frac_ranked_1st": 0.724
+      },
+      {
+        "stage": "pre-infection",
+        "point_composite": 0.5441,
+        "boot_mean": 0.4881,
+        "ci95_lo": 0.3256,
+        "ci95_hi": 0.6611,
+        "frac_ranked_1st": 0.25
+      },
+      {
+        "stage": "necrotrophic",
+        "point_composite": 0.3309,
+        "boot_mean": 0.4144,
+        "ci95_lo": 0.2794,
+        "ci95_hi": 0.5537,
+        "frac_ranked_1st": 0.026
+      }
+    ]
+  },
+  "stage_diff_pathways": [
+    {
+      "pathway": "Pentose-sugar catabolism",
+      "pre-infection": 0.0,
+      "biotrophic": 0.0,
+      "necrotrophic": 0.2,
+      "range": 0.2
+    },
+    {
+      "pathway": "Pectin / D-galacturonate (Ashwell)",
+      "pre-infection": 0.0,
+      "biotrophic": 0.0,
+      "necrotrophic": 0.1667,
+      "range": 0.1667
+    },
+    {
+      "pathway": "\u03b2-oxidation (peroxisomal)",
+      "pre-infection": 0.1148,
+      "biotrophic": 0.0,
+      "necrotrophic": 0.0,
+      "range": 0.1148
+    },
+    {
+      "pathway": "Cell-wall polysaccharide",
+      "pre-infection": 0.4444,
+      "biotrophic": 0.4778,
+      "necrotrophic": 0.4333,
+      "range": 0.0445
+    },
+    {
+      "pathway": "Pentose phosphate pathway",
+      "pre-infection": 0.64,
+      "biotrophic": 0.61,
+      "necrotrophic": 0.65,
+      "range": 0.04
+    },
+    {
+      "pathway": "TCA cycle",
+      "pre-infection": 0.4294,
+      "biotrophic": 0.4471,
+      "necrotrophic": 0.4118,
+      "range": 0.0353
+    },
+    {
+      "pathway": "Exchange",
+      "pre-infection": 0.0529,
+      "biotrophic": 0.0564,
+      "necrotrophic": 0.087,
+      "range": 0.0341
+    },
+    {
+      "pathway": "Oxidative phosphorylation / ETC",
+      "pre-infection": 0.325,
+      "biotrophic": 0.35,
+      "necrotrophic": 0.3167,
+      "range": 0.0333
+    },
+    {
+      "pathway": "Storage (glycogen / trehalose)",
+      "pre-infection": 0.3143,
+      "biotrophic": 0.2857,
+      "necrotrophic": 0.2857,
+      "range": 0.0286
+    },
+    {
+      "pathway": "Amino-acid metabolism",
+      "pre-infection": 0.3111,
+      "biotrophic": 0.3173,
+      "necrotrophic": 0.3308,
+      "range": 0.0197
+    },
+    {
+      "pathway": "Glycolysis / gluconeogenesis",
+      "pre-infection": 0.4276,
+      "biotrophic": 0.4414,
+      "necrotrophic": 0.4448,
+      "range": 0.0172
+    },
+    {
+      "pathway": "Fatty-acid biosynthesis",
+      "pre-infection": 0.0158,
+      "biotrophic": 0.0,
+      "necrotrophic": 0.0,
+      "range": 0.0158
+    },
+    {
+      "pathway": "Other / unassigned",
+      "pre-infection": 0.3681,
+      "biotrophic": 0.3604,
+      "necrotrophic": 0.3556,
+      "range": 0.0125
+    },
+    {
+      "pathway": "Transport (inter-compartmental)",
+      "pre-infection": 0.2352,
+      "biotrophic": 0.225,
+      "necrotrophic": 0.2227,
+      "range": 0.0125
+    },
+    {
+      "pathway": "Lipid / membrane",
+      "pre-infection": 0.32,
+      "biotrophic": 0.3314,
+      "necrotrophic": 0.32,
+      "range": 0.0114
+    }
+  ],
+  "method_discordant_pathways": [
+    {
+      "pathway": "GAM / maintenance",
+      "mean_method_range": 1.0
+    },
+    {
+      "pathway": "\u03b2-oxidation (peroxisomal)",
+      "mean_method_range": 0.4475
+    },
+    {
+      "pathway": "TCA cycle",
+      "mean_method_range": 0.4215
+    },
+    {
+      "pathway": "Glycolysis / gluconeogenesis",
+      "mean_method_range": 0.3372
+    },
+    {
+      "pathway": "Pentose phosphate pathway",
+      "mean_method_range": 0.3167
+    },
+    {
+      "pathway": "Storage (glycogen / trehalose)",
+      "mean_method_range": 0.2857
+    },
+    {
+      "pathway": "Transport (inter-compartmental)",
+      "mean_method_range": 0.2448
+    },
+    {
+      "pathway": "Nucleotide metabolism",
+      "mean_method_range": 0.2248
+    },
+    {
+      "pathway": "Cofactor / vitamin biosynthesis",
+      "mean_method_range": 0.2222
+    },
+    {
+      "pathway": "Cell-wall polysaccharide",
+      "mean_method_range": 0.1976
+    },
+    {
+      "pathway": "Other / unassigned",
+      "mean_method_range": 0.1965
+    },
+    {
+      "pathway": "Oxidative phosphorylation / ETC",
+      "mean_method_range": 0.1921
+    },
+    {
+      "pathway": "Amino-acid metabolism",
+      "mean_method_range": 0.1557
+    },
+    {
+      "pathway": "Lipid / membrane",
+      "mean_method_range": 0.1127
+    },
+    {
+      "pathway": "Exchange",
+      "mean_method_range": 0.1072
+    }
+  ]
+}

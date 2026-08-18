@@ -387,6 +387,55 @@
     .panel { padding: 14px 16px; }
     .tabs { padding: 0 12px; }
   }
+
+  /* infection-stage flux tab (additive) */
+  .inf-subtabs { display:flex; gap:6px; flex-wrap:wrap; margin:16px 0 4px; border-bottom:2px solid var(--border); }
+  .inf-subtab-btn { border:none; background:none; padding:8px 14px; font-size:13px; font-weight:600;
+    color:#57606a; cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; }
+  .inf-subtab-btn:hover { color:var(--text-strong); }
+  .inf-subtab-btn.active { color:#0969da; border-bottom-color:#0969da; }
+  .inf-sub { display:none; }
+  .inf-sub.active { display:block; }
+  .inf-rank-row { display:grid; grid-template-columns:70px 1fr 60px; align-items:center; gap:10px; margin:5px 0; }
+  .inf-rank-row .nm { font-weight:600; font-size:13px; }
+  .inf-rank-bar { height:16px; background:#eef1f4; border-radius:4px; overflow:hidden; }
+  .inf-rank-bar > span { display:block; height:100%; background:linear-gradient(90deg,#a8dde2 0%,#0969da 100%); }
+  .inf-rank-row .val { text-align:right; font-family:var(--mono); font-size:12px; }
+  table.inf-mini { border-collapse:collapse; width:100%; font-size:12.5px; }
+  table.inf-mini th, table.inf-mini td { padding:5px 9px; border-bottom:1px solid var(--border); text-align:right; }
+  table.inf-mini th:first-child, table.inf-mini td:first-child { text-align:left; }
+  table.inf-mini thead th { color:#57606a; font-weight:600; border-bottom:2px solid var(--border); }
+  table.inf-mini td.win { color:#1a7f37; font-weight:700; }
+  /* M2 viz controls */
+  .inf-viz-controls { display:flex; align-items:center; flex-wrap:wrap; gap:4px; margin:10px 0 6px; }
+  .inf-ctl-lbl { font-size:12px; font-weight:600; color:#57606a; margin-right:6px; }
+  .inf-btn-group { display:inline-flex; gap:0; border:1px solid var(--border); border-radius:6px; overflow:hidden; }
+  .inf-btn-group button { border:none; background:#fff; padding:5px 12px; font-size:12px; font-weight:600;
+    cursor:pointer; color:#57606a; border-right:1px solid var(--border); font-family:inherit; }
+  .inf-btn-group button:last-child { border-right:none; }
+  .inf-btn-group button:hover { background:#f2f5f8; }
+  .inf-btn-group button.active { background:#0969da; color:#fff; }
+  .inf-select { padding:5px 10px; font-size:12.5px; border:1px solid var(--border); border-radius:6px;
+    background:#fff; font-family:inherit; min-width:220px; }
+  /* stage dashboard cards */
+  .inf-stage-cards { display:grid; grid-template-columns:repeat(auto-fill,minmax(230px,1fr)); gap:12px; margin:6px 0 4px; }
+  .inf-stage-card { border:1px solid var(--border); border-radius:8px; padding:12px 14px; background:#fff; }
+  .inf-stage-card .st-name { font-weight:700; font-size:13px; text-transform:capitalize; margin-bottom:2px; }
+  .inf-stage-card .st-count { font-size:11px; color:#57606a; margin-bottom:8px; }
+  .inf-stage-card .st-media { display:flex; flex-wrap:wrap; gap:5px; }
+  .inf-media-chip { font-size:11px; background:#eef2f6; border-radius:4px; padding:2px 7px; color:#1f2328; }
+  .inf-stage-card.st-win { border-color:#1a7f37; box-shadow:0 0 0 1px #1a7f37 inset; }
+  .inf-stage-card.st-win .st-name::after { content:' \2605'; color:#1a7f37; }
+  /* agreement stacked bars */
+  .inf-ag-legend { display:flex; flex-wrap:wrap; gap:12px; margin:6px 0 10px; font-size:11.5px; }
+  .inf-ag-legend .k { display:inline-flex; align-items:center; gap:5px; }
+  .inf-ag-legend .sw { width:12px; height:12px; border-radius:2px; display:inline-block; }
+  table.inf-ag { border-collapse:collapse; width:100%; font-size:12px; }
+  table.inf-ag td, table.inf-ag th { padding:4px 8px; }
+  table.inf-ag th { color:#57606a; font-weight:600; text-align:left; }
+  .inf-ag-bar { display:flex; height:18px; width:100%; border-radius:3px; overflow:hidden; min-width:280px; }
+  .inf-ag-bar > span { display:block; height:100%; }
+  .inf-rxn-note { font-size:11.5px; color:#57606a; margin-top:10px; line-height:1.5; }
 </style>
 </head>
 <body>
@@ -413,6 +462,7 @@
     <button class="tab-btn" data-tab="biomass">Biomass</button>
     <button class="tab-btn" data-tab="simulations">Simulations</button>
     <button class="tab-btn" data-tab="rnaseq">RNA-seq</button>
+    <button class="tab-btn" data-tab="infection">Infection-Stage Flux</button>
     <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
     <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
     <button class="tab-btn" data-tab="map_expression">Escher map &mdash; expression</button>
@@ -695,6 +745,150 @@
   </div>
 </div>
 
+<div id="panel-infection" class="panel">
+  <div class="card card-pad">
+    <div class="loading" id="loading-infection">Loading infection-stage flux analysis&hellip;</div>
+    <div id="inf-content" style="display:none">
+      <div id="inf-limitation" class="rna-callout" style="display:block"></div>
+      <div class="rna-tile-grid" id="inf-tiles"></div>
+      <div class="inf-subtabs">
+        <button class="inf-subtab-btn active" data-sub="methods">Overview &amp; Methods</button>
+        <button class="inf-subtab-btn" data-sub="methodcmp">Method Comparison</button>
+        <button class="inf-subtab-btn" data-sub="stagealign">Stage Alignment</button>
+        <button class="inf-subtab-btn" data-sub="pathways">Pathways</button>
+        <button class="inf-subtab-btn" data-sub="heatmap">Pathway Heatmap</button>
+        <button class="inf-subtab-btn" data-sub="stages">Infection Stages</button>
+        <button class="inf-subtab-btn" data-sub="agreement">Flux&ndash;Expression Agreement</button>
+        <button class="inf-subtab-btn" data-sub="reactions">Reaction &amp; Gene Table</button>
+        <button class="inf-subtab-btn" data-sub="escher">Escher Maps</button>
+      </div>
+
+      <div class="inf-sub active" id="inf-sub-methods">
+        <div class="rna-note" id="inf-methods-note"></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-methodcmp">
+        <div class="rna-section-h">Which integration method best reproduces S1?
+          <span class="h-sub">rank-normalized composite of Spearman &rho;, hi-expr recall, flux precision, and MCC (active vs expressed)</span>
+        </div>
+        <div class="card card-pad"><div id="inf-method-ranking"></div></div>
+        <div class="rna-section-h">Per-condition concordance
+          <span class="h-sub">every method &times; aerobic medium; the S1 expression prior is identical across media</span>
+        </div>
+        <div class="card card-pad">
+          <table id="tbl-inf-conc" style="display:none; width:100%">
+            <thead>
+              <tr><th>Method</th><th>Condition</th><th>Stage</th>
+                <th>Spearman &rho;</th><th>hi_recall</th><th>flux_prec</th>
+                <th>MCC</th><th>agree</th><th>composite</th><th>active fluxes</th></tr>
+              <tr class="filters"><th></th><th></th><th></th><th></th><th></th>
+                <th></th><th></th><th></th><th></th><th></th></tr>
+            </thead>
+          </table>
+        </div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-stagealign">
+        <div id="inf-stage-callout" class="rna-callout" style="display:none"></div>
+        <div class="rna-section-h">Stage alignment &mdash; gene-bootstrap
+          <span class="h-sub">which stage's media does the fixed S1 transcriptome match? (vanilla pFBA flux; descriptive intervals, no p-values)</span>
+        </div>
+        <div class="card card-pad"><div id="inf-bootstrap"></div></div>
+        <div class="rna-section-h">Vanilla FBA across media, grouped by infection stage
+          <span class="h-sub">expression-independent pFBA: biomass and S1-concordance per medium</span>
+        </div>
+        <div class="card card-pad"><div id="inf-fba-view"></div></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-pathways">
+        <div class="rna-section-h">Most stage-differential pathways (FLUX)
+          <span class="h-sub">pFBA active-rate range across major stages &mdash; the niche-switch pathways</span>
+        </div>
+        <div class="card card-pad"><div id="inf-stagediff"></div></div>
+        <div class="rna-section-h">Most method-discordant pathways
+          <span class="h-sub">where E-Flux / GIMME / iMAT / pFBA most disagree on activity</span>
+        </div>
+        <div class="card card-pad"><div id="inf-discord"></div></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-heatmap">
+        <div class="rna-section-h">Pathway &times; medium activity heatmap
+          <span class="h-sub">fraction of a pathway&rsquo;s reactions carrying flux (|v| &gt; 1e-6), per aerobic medium</span>
+        </div>
+        <div class="inf-viz-controls">
+          <span class="inf-ctl-lbl">Method</span>
+          <span id="inf-hm-method" class="inf-btn-group"></span>
+          <span class="inf-ctl-lbl" style="margin-left:14px">Taxonomy</span>
+          <span id="inf-hm-taxo" class="inf-btn-group"></span>
+        </div>
+        <div class="card card-pad"><div id="inf-heatmap" style="overflow-x:auto"></div></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-stages">
+        <div class="rna-section-h">Media by infection stage
+          <span class="h-sub">the 18-condition panel, grouped by the stage each medium represents</span>
+        </div>
+        <div id="inf-stage-cards" class="inf-stage-cards"></div>
+        <div class="rna-section-h">S1 concordance by stage &amp; method
+          <span class="h-sub">mean composite concordance of each method&rsquo;s flux with the fixed S1 prior, per stage</span>
+        </div>
+        <div class="card card-pad"><div id="inf-stage-matrix" style="overflow-x:auto"></div></div>
+        <div class="rna-section-h">Best-aligned medium (per method)
+          <span class="h-sub">single medium whose flux best matches S1 under each method</span>
+        </div>
+        <div class="card card-pad"><div id="inf-best-medium"></div></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-agreement">
+        <div class="rna-section-h">Flux&ndash;expression agreement
+          <span class="h-sub">per aerobic medium, how GPR-carrying reactions split across agreement categories</span>
+        </div>
+        <div class="inf-viz-controls">
+          <span class="inf-ctl-lbl">Method</span>
+          <span id="inf-ag-method" class="inf-btn-group"></span>
+        </div>
+        <div id="inf-ag-legend" class="inf-ag-legend"></div>
+        <div class="card card-pad"><div id="inf-agreement" style="overflow-x:auto"></div></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-reactions">
+        <div class="rna-section-h">Reaction &amp; gene table
+          <span class="h-sub">per reaction: S1 expression, pathway/KEGG, and per-method active fraction across aerobic media</span>
+        </div>
+        <div class="card card-pad">
+          <table id="tbl-inf-rxn" style="display:none; width:100%">
+            <thead>
+              <tr><th>Reaction</th><th>Name</th><th>Pathway</th><th>KEGG pathway</th>
+                <th>Expr bin</th><th>log2TPM</th><th>#genes</th>
+                <th>pFBA</th><th>E-Flux</th><th>GIMME</th><th>iMAT</th><th>Discordant</th></tr>
+              <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th>
+                <th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            </thead>
+          </table>
+          <div class="inf-rxn-note">Active fraction = share of the 18 aerobic media in which the reaction carries flux.
+            Discordant = mean share of media where the reaction is PRIMED_NOT_USED / ORPHAN_FLUX / CONFLICT (averaged over the four methods).</div>
+        </div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-escher">
+        <div class="rna-section-h">Escher flux map
+          <span class="h-sub">central-metabolism map recoloured by |flux|; pick a method and medium</span>
+        </div>
+        <div class="inf-viz-controls">
+          <span class="inf-ctl-lbl">Method</span>
+          <span id="inf-es-method" class="inf-btn-group"></span>
+          <span class="inf-ctl-lbl" style="margin-left:14px">Medium</span>
+          <select id="inf-es-cond" class="inf-select"></select>
+        </div>
+        <div class="card" style="padding:0;overflow:hidden">
+          <iframe id="inf-escher-frame" title="Infection-stage Escher flux map"
+                  style="width:100%;height:640px;border:0;display:block"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div id="panel-map_aerobic" class="panel panel-map">
   <iframe src="map_aerobic.html" title="Escher map &mdash; aerobic"></iframe>
 </div>
@@ -749,6 +943,7 @@
     biomass:       document.getElementById('panel-biomass'),
     simulations:   document.getElementById('panel-simulations'),
     rnaseq:        document.getElementById('panel-rnaseq'),
+    infection:     document.getElementById('panel-infection'),
     map_aerobic:   document.getElementById('panel-map_aerobic'),
     map_anaerobic: document.getElementById('panel-map_anaerobic'),
     map_expression: document.getElementById('panel-map_expression'),
@@ -757,6 +952,7 @@
   let biomassInitialized = false;
   let simulationsInitialized = false;
   let rnaseqInitialized = false;
+  let infectionInitialized = false;
   let anaerobicLoaded = false;
   let expressionMapLoaded = false;
 
@@ -776,6 +972,13 @@
     if (btn.dataset.tab === 'rnaseq' && !rnaseqInitialized) {
       initRnaseqPanel(window._rnaseqData); rnaseqInitialized = true;
     }
+    if (btn.dataset.tab === 'infection' && !infectionInitialized) {
+      infectionInitialized = true;
+      fetch('infection_stage_payload.json?v=' + Date.now())
+        .then(r => r.json()).then(initInfectionPanel)
+        .catch(err => { document.getElementById('loading-infection').textContent =
+          'Failed to load infection_stage_payload.json: ' + err.message; });
+    }
     if (btn.dataset.tab === 'map_anaerobic' && !anaerobicLoaded) {
       const iframe = panels.map_anaerobic.querySelector('iframe');
       iframe.src = iframe.dataset.src; anaerobicLoaded = true;
@@ -793,6 +996,7 @@
         if (window[k]) window[k].columns.adjust();
       });
     }
+    if (btn.dataset.tab === 'infection' && window._infConcDT) window._infConcDT.columns.adjust();
   }));
 
   // -- formatting helpers --------------------------------------------------
@@ -1576,6 +1780,416 @@
     });
     wireHeaderSearch(orphDT, '#tbl-rna-orph');
     window._rnaOrphDT = orphDT;
+  }
+
+  // -- infection-stage flux tab (additive) ---------------------------------
+  function initInfectionPanel(d) {
+    document.getElementById('loading-infection').style.display = 'none';
+    document.getElementById('inf-content').style.display = 'block';
+    const m = d.meta || {};
+
+    // limitation callout (single S1 transcriptome)
+    document.getElementById('inf-limitation').innerHTML =
+      '<span class="lbl">Study design &mdash; single transcriptome</span>' +
+      '<span class="msg">' + esc(m.limitation || '') + '</span>';
+
+    // KPI tiles
+    const kc = m.kegg_coverage || {};
+    const tiles = [
+      ['Methods compared', m.n_methods, 'pFBA, E-Flux, GIMME, iMAT'],
+      ['Aerobic media', m.n_conditions_aerobic, 'across pre-infection / biotrophic / necrotrophic / cocktail'],
+      ['Best method (composite)', m.best_method_overall, 'highest S1-concordance overall'],
+      ['S1 best-aligned stage', m.best_aligned_stage, 'medium-driven flux match to S1'],
+      ['KEGG pathway coverage', (kc.kegg_pathway || 0) + ' / ' + (kc.n_reactions || 0),
+       (kc.distinct_kegg_pathways || 0) + ' KEGG pathways; 23-bucket classifier covers 100%'],
+    ];
+    document.getElementById('inf-tiles').innerHTML = tiles.map(t =>
+      '<div class="rna-tile accent"><div class="label">' + esc(t[0]) +
+      '</div><div class="n">' + esc(String(t[1])) +
+      '</div><div class="sub">' + esc(t[2]) + '</div></div>').join('');
+
+    // ---- Overview & methods note ----
+    document.getElementById('inf-methods-note').innerHTML =
+      '<b>What this tab answers.</b> Because a single S1 transcriptome (the pathogenic ' +
+      'state) is applied to every medium, expression is a <i>fixed prior</i> &mdash; only ' +
+      'flux changes across media. We therefore ask two questions: (1) which transcriptomics ' +
+      'integration method best reproduces S1, and (2) which infection-stage medium the model&rsquo;s ' +
+      'flux matches S1 most closely.<br><br>' +
+      '<b>Methods (four flux solutions).</b> ' +
+      methodChip('pfba') + ' vanilla parsimonious FBA (expression-independent baseline); ' +
+      methodChip('eflux') + ' continuous bound scaling by expression; ' +
+      methodChip('gimme') + ' LP penalising low-expression flux under a biomass floor; ' +
+      methodChip('imat') + ' MILP maximising high&harr;active + low&harr;inactive. GIMME/iMAT shown at the ' +
+      '<span class="mono">default</span> threshold (all thresholds retained in the raw tables).<br><br>' +
+      '<b>Concordance metrics.</b> Per method &times; medium we score flux vs the S1 prior with ' +
+      'Spearman &rho; (|flux| vs aggregated expression), hi-expression recall, flux precision, ' +
+      'and Matthews correlation (active vs expressed). The four are rank-normalised to [0,1] and ' +
+      'averaged into a <b>composite</b>.<br><br>' +
+      '<b>Caveat on iMAT.</b> iMAT <i>optimises</i> an expression-agreement objective, so scoring it ' +
+      'on expression agreement is partly circular &mdash; read its top rank with that in mind; the ' +
+      'expression-independent pFBA baseline is the neutral comparator.<br><br>' +
+      '<b>Pathway taxonomy (how definitions were built).</b> Primary grouping is a validated ' +
+      'rule-based classifier of 23 buckets (subsystem &rarr; id-prefix &rarr; metabolite pattern &rarr; ' +
+      'compartment &rarr; fallback), covering all 1622 reactions. Real KEGG reaction/pathway IDs are ' +
+      'attached where derivable from ModelSEED aliases (' + (kc.kegg_reaction || 0) + ' reactions with a ' +
+      'KEGG id, ' + (kc.kegg_pathway || 0) + ' with a KEGG pathway across ' + (kc.distinct_kegg_pathways || 0) +
+      ' pathways); the remainder keep the classifier bucket only.<br><br>' +
+      '<b>Uncertainty.</b> With one biological transcriptome, no p-value on stage differences is valid. ' +
+      'We report a gene-level bootstrap (B=' + ((d.bootstrap && d.bootstrap.B) || '?') + ', resampling model ' +
+      'genes, not the 3 technical replicates) on the expression-independent pFBA flux: descriptive 95% ' +
+      'intervals and the fraction of resamples in which each stage ranks first.';
+
+    // ---- Method Comparison: ranking bars (overall) ----
+    const ov = (d.method_ranking || []).filter(r => r.scope === 'overall_aerobic')
+                 .sort((a, b) => a.rank - b.rank);
+    const maxc = Math.max.apply(null, ov.map(r => r.mean_composite).concat([0.0001]));
+    document.getElementById('inf-method-ranking').innerHTML =
+      '<div style="font-size:12px;color:#57606a;margin-bottom:8px">Mean composite across aerobic media (higher = closer to S1)</div>' +
+      ov.map(r => '<div class="inf-rank-row"><span class="nm">' + methodChip(r.method) +
+        '</span><span class="inf-rank-bar"><span style="width:' +
+        (100 * r.mean_composite / maxc).toFixed(1) + '%"></span></span>' +
+        '<span class="val">' + r.mean_composite.toFixed(3) + '</span></div>').join('') +
+      infPerStageTable(d.method_ranking || []);
+
+    // ---- Method Comparison: per-condition concordance DataTable ----
+    const conc = d.concordance || [];
+    const cData = conc.map(r => [
+      methodChip(r.method), esc(r.label || r.condition_id), esc(r.stage || ''),
+      nmono(r.spearman_expr_vs_flux, 3), nmono(r.hi_expr_recall, 3),
+      nmono(r.flux_precision_hi_med, 3), nmono(r.mcc_active_vs_expr, 3),
+      nmono(r.agreement_score, 3), nmono(r.composite, 3), (r.n_flux_nonzero || 0),
+    ]);
+    $('#tbl-inf-conc').show();
+    const concDT = new DataTable('#tbl-inf-conc', {
+      data: cData, pageLength: 25, lengthMenu: [10, 25, 50, 100], deferRender: true,
+      order: [[8, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(3), numColDef(4), numColDef(5), numColDef(6),
+                   numColDef(7), numColDef(8), numColDef(9)],
+    });
+    wireHeaderSearch(concDT, '#tbl-inf-conc');
+    window._infConcDT = concDT;
+
+    // ---- Stage Alignment: headline + bootstrap ----
+    const boot = (d.bootstrap && d.bootstrap.stages) || [];
+    const topStage = boot.slice().sort((a, b) => b.frac_ranked_1st - a.frac_ranked_1st)[0];
+    if (topStage) {
+      const co = document.getElementById('inf-stage-callout');
+      co.style.display = 'block';
+      co.innerHTML = '<span class="lbl">Headline finding &mdash; stage alignment</span>' +
+        '<span class="msg">The fixed S1 transcriptome aligns most closely with ' +
+        '<b>' + esc(topStage.stage) + '</b> media, which rank first in <b>' +
+        (100 * topStage.frac_ranked_1st).toFixed(0) + '%</b> of gene-bootstrap resamples ' +
+        '(composite ' + topStage.boot_mean.toFixed(3) + ', 95% CI ' +
+        topStage.ci95_lo.toFixed(3) + '&ndash;' + topStage.ci95_hi.toFixed(3) + '). ' +
+        'This is consistent across pFBA, E-Flux and GIMME.</span>';
+    }
+    document.getElementById('inf-bootstrap').innerHTML = infTable(
+      ['Stage', 'Point', 'Bootstrap mean', '95% CI', 'Ranked #1'],
+      boot.slice().sort((a, b) => b.boot_mean - a.boot_mean).map(r => [
+        [esc(r.stage), r.stage === (topStage && topStage.stage)],
+        r.point_composite.toFixed(3), r.boot_mean.toFixed(3),
+        r.ci95_lo.toFixed(3) + '&ndash;' + r.ci95_hi.toFixed(3),
+        (100 * r.frac_ranked_1st).toFixed(0) + '%']));
+
+    // ---- Stage Alignment: vanilla FBA grouped by stage (user addition) ----
+    const fv = d.vanilla_fba_view || [];
+    document.getElementById('inf-fba-view').innerHTML = infTable(
+      ['Stage', 'Medium', 'Biomass', 'Spearman &rho;', 'hi_recall', 'flux_prec', 'MCC', 'composite'],
+      fv.map(r => [
+        [esc(r.stage), false], esc(r.label || r.condition_id),
+        (r.biomass != null ? r.biomass.toFixed(4) : '&mdash;'),
+        r.spearman_expr_vs_flux.toFixed(3), r.hi_expr_recall.toFixed(3),
+        r.flux_precision_hi_med.toFixed(3), r.mcc_active_vs_expr.toFixed(3),
+        r.composite.toFixed(3)]));
+
+    // ---- Pathways ----
+    const sd = d.stage_diff_pathways || [];
+    document.getElementById('inf-stagediff').innerHTML = infTable(
+      ['Pathway', 'pre-infection', 'biotrophic', 'necrotrophic', 'range'],
+      sd.map(r => [[esc(r.pathway), false],
+        nz(r['pre-infection']), nz(r['biotrophic']), nz(r['necrotrophic']),
+        [nz(r.range), true]]));
+    const dc = d.method_discordant_pathways || [];
+    document.getElementById('inf-discord').innerHTML = infTable(
+      ['Pathway', 'mean active-rate range across methods'],
+      dc.map(r => [[esc(r.pathway), false], [nz(r.mean_method_range), true]]));
+
+    // sub-tab wiring
+    window._infM1 = d;
+    const M2SUBS = { heatmap: initInfHeatmap, stages: initInfStages,
+                     agreement: initInfAgreement, reactions: initInfReactions,
+                     escher: initInfEscher };
+    const subBtns = document.querySelectorAll('.inf-subtab-btn');
+    const subs = document.querySelectorAll('.inf-sub');
+    subBtns.forEach(b => b.addEventListener('click', () => {
+      subBtns.forEach(x => x.classList.toggle('active', x === b));
+      subs.forEach(s => s.classList.toggle('active', s.id === 'inf-sub-' + b.dataset.sub));
+      const sub = b.dataset.sub;
+      if (sub === 'methodcmp' && window._infConcDT) window._infConcDT.columns.adjust();
+      if (M2SUBS[sub]) ensureInfViz(M2SUBS[sub]);
+    }));
+  }
+
+  // Lazy-load the (heavier) M2 visualization payload on first M2 sub-tab open.
+  let _infVizState = 'idle';  // idle | loading | ready | error
+  const _infVizWaiters = [];
+  function ensureInfViz(cb) {
+    if (_infVizState === 'ready') { cb(); return; }
+    _infVizWaiters.push(cb);
+    if (_infVizState === 'loading' || _infVizState === 'error') {
+      if (_infVizState === 'error') _infVizState = 'loading';  // allow retry
+      else return;
+    } else {
+      _infVizState = 'loading';
+    }
+    fetch('infection_stage_viz.json?v=' + Date.now())
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(v => {
+        window._infViz = v; _infVizState = 'ready';
+        while (_infVizWaiters.length) _infVizWaiters.shift()();
+      })
+      .catch(err => {
+        _infVizState = 'error';
+        console.error('infection_stage_viz.json load failed:', err);
+        ['inf-heatmap', 'inf-stage-cards', 'inf-agreement'].forEach(id => {
+          const el = document.getElementById(id);
+          if (el && !el.innerHTML) el.innerHTML =
+            '<div class="rna-note">Could not load visualization data (' +
+            esc(err.message) + '). Run <span class="mono">07_build_viz_payload.py</span>.</div>';
+        });
+      });
+  }
+
+  function nz(v) { return (v == null || isNaN(v)) ? '&mdash;' : Number(v).toFixed(3); }
+
+  // build a compact table; each cell is either a string, or [html, isWinner]
+  function infTable(headers, rows) {
+    let h = '<table class="inf-mini"><thead><tr>' +
+      headers.map(x => '<th>' + x + '</th>').join('') + '</tr></thead><tbody>';
+    h += rows.map(cells => '<tr>' + cells.map(c => {
+      if (Array.isArray(c)) return '<td class="' + (c[1] ? 'win' : '') + '">' + c[0] + '</td>';
+      return '<td>' + c + '</td>';
+    }).join('') + '</tr>').join('');
+    return h + '</tbody></table>';
+  }
+
+  function infPerStageTable(ranking) {
+    const stages = ['pre-infection', 'biotrophic', 'necrotrophic'];
+    const methods = ['pfba', 'eflux', 'gimme', 'imat'];
+    const lookup = {};
+    ranking.filter(r => stages.indexOf(r.scope) >= 0).forEach(r => {
+      lookup[r.scope + '|' + r.method] = r; });
+    let h = '<div style="font-size:12px;color:#57606a;margin:14px 0 6px">Per-stage composite (winner highlighted)</div>';
+    h += '<table class="inf-mini"><thead><tr><th>Stage</th>' +
+      methods.map(mm => '<th>' + mm + '</th>').join('') + '</tr></thead><tbody>';
+    stages.forEach(st => {
+      let bestM = null, bestV = -1;
+      methods.forEach(mm => { const r = lookup[st + '|' + mm];
+        if (r && r.mean_composite > bestV) { bestV = r.mean_composite; bestM = mm; } });
+      h += '<tr><td>' + esc(st) + '</td>' + methods.map(mm => {
+        const r = lookup[st + '|' + mm];
+        const v = r ? r.mean_composite.toFixed(3) : '&mdash;';
+        return '<td class="' + (mm === bestM ? 'win' : '') + '">' + v + '</td>';
+      }).join('') + '</tr>';
+    });
+    return h + '</tbody></table>';
+  }
+
+  // ======================================================================
+  // M2 visualization sub-tabs (data from infection_stage_viz.json)
+  // ======================================================================
+  const METHOD_OPTS = [{ v: 'pfba', label: 'pFBA' }, { v: 'eflux', label: 'E-Flux' },
+                       { v: 'gimme', label: 'GIMME' }, { v: 'imat', label: 'iMAT' }];
+
+  function infBtnGroup(containerId, options, current, onPick) {
+    const el = document.getElementById(containerId);
+    if (!el) return;
+    el.innerHTML = options.map(o => '<button data-v="' + o.v + '"' +
+      (o.v === current ? ' class="active"' : '') + '>' + o.label + '</button>').join('');
+    el.querySelectorAll('button').forEach(btn => btn.addEventListener('click', () => {
+      el.querySelectorAll('button').forEach(x => x.classList.toggle('active', x === btn));
+      onPick(btn.dataset.v);
+    }));
+  }
+
+  // ---- Pathway heatmap ----
+  let _infHmInit = false;
+  function initInfHeatmap() {
+    const v = window._infViz; if (!v) return;
+    if (!_infHmInit) {
+      _infHmInit = true;
+      window._infHm = { method: 'imat', taxo: 'bucket' };
+      infBtnGroup('inf-hm-method', METHOD_OPTS, window._infHm.method,
+        m => { window._infHm.method = m; drawInfHeatmap(); });
+      infBtnGroup('inf-hm-taxo',
+        [{ v: 'bucket', label: '23-bucket' }, { v: 'kegg', label: 'KEGG' }],
+        window._infHm.taxo, t => { window._infHm.taxo = t; drawInfHeatmap(); });
+    }
+    drawInfHeatmap();
+  }
+  function drawInfHeatmap() {
+    const v = window._infViz, st = window._infHm;
+    const taxo = v.heatmap[st.taxo], cells = taxo.cells[st.method] || {};
+    const conds = v.meta.conditions, rows = taxo.pathways;
+    const html = ['<table class="heatmap"><thead><tr><th class="rowh">Pathway (n rxn)</th>'];
+    conds.forEach(c => html.push('<th class="colh" title="' + esc(c.label) + ' · ' +
+      esc(c.stage) + '">' + esc(c.condition_id.replace(/^\d+_/, '')) + '</th>'));
+    html.push('</tr></thead><tbody>');
+    rows.forEach(pw => {
+      html.push('<tr><th class="rowh" title="' + esc(pw.name) + '">' + esc(pw.name) +
+        ' <span style="color:#8b949e">(' + pw.n_rxn + ')</span></th>');
+      conds.forEach(c => {
+        const val = (cells[c.condition_id] || {})[pw.name];
+        if (val == null || val === 0) { html.push('<td class="zero">&middot;</td>'); return; }
+        const t = Math.min(1, val), bg = interpHex('#f7f9fc', '#0969da', t),
+              fg = t > 0.5 ? '#ffffff' : '#1f2328';
+        html.push('<td style="background:' + bg + ';color:' + fg + '" title="' + esc(pw.name) +
+          ' / ' + esc(c.label) + ' = ' + (val * 100).toFixed(0) + '% active">' +
+          (val * 100).toFixed(0) + '</td>');
+      });
+      html.push('</tr>');
+    });
+    html.push('</tbody></table>');
+    if (st.taxo === 'kegg' && taxo.n_omitted)
+      html.push('<div class="inf-rxn-note">' + taxo.n_omitted + ' KEGG pathways with &lt;3 model ' +
+        'reactions are omitted here (full data in kegg_pathway_matrix.tsv).</div>');
+    document.getElementById('inf-heatmap').innerHTML = html.join('');
+  }
+
+  // ---- Infection-stage dashboard ----
+  let _infStagesInit = false;
+  function initInfStages() {
+    const v = window._infViz, d = window._infM1; if (!v || !d) return;
+    if (_infStagesInit) return; _infStagesInit = true;
+    const bestStage = (d.meta && d.meta.best_aligned_stage) || '';
+    const order = ['pre-infection', 'biotrophic', 'necrotrophic', 'cocktail'];
+    const sm = v.stage_media || {};
+    document.getElementById('inf-stage-cards').innerHTML =
+      order.filter(s => sm[s]).map(s => {
+        const media = sm[s];
+        return '<div class="inf-stage-card' + (s === bestStage ? ' st-win' : '') + '">' +
+          '<div class="st-name">' + esc(s) + '</div><div class="st-count">' + media.length +
+          ' medi' + (media.length === 1 ? 'um' : 'a') + '</div><div class="st-media">' +
+          media.map(m => '<span class="inf-media-chip" title="' + esc(m.condition_id) + '">' +
+            esc(m.label) + '</span>').join('') + '</div></div>';
+      }).join('');
+    // stage x method composite matrix (green-tinted)
+    const sa = d.stage_alignment || [], methods = ['pfba', 'eflux', 'gimme', 'imat'];
+    const look = {}; sa.forEach(r => look[r.stage + '|' + r.method] = r);
+    const mh = ['<table class="heatmap"><thead><tr><th class="rowh">Stage</th>'];
+    methods.forEach(m => mh.push('<th class="colh">' + m + '</th>'));
+    mh.push('<th class="colh" style="text-align:left">best medium (any method)</th></tr></thead><tbody>');
+    order.forEach(s => {
+      mh.push('<tr><th class="rowh">' + esc(s) + '</th>');
+      let best = null, bv = -1;
+      methods.forEach(m => {
+        const r = look[s + '|' + m];
+        if (r) {
+          const val = r.mean_composite, t = Math.min(1, Math.max(0, val)),
+                bg = interpHex('#f7f9fc', '#1a7f37', t), fg = t > 0.5 ? '#fff' : '#1f2328';
+          mh.push('<td style="background:' + bg + ';color:' + fg + '" title="' + esc(s) + ' / ' +
+            m + ' composite ' + val.toFixed(3) + '">' + val.toFixed(2) + '</td>');
+          if (val > bv) { bv = val; best = r; }
+        } else { mh.push('<td class="zero">&middot;</td>'); }
+      });
+      mh.push('<td style="text-align:left">' + (best ? esc(best.best_label || best.best_condition) : '&mdash;') + '</td></tr>');
+    });
+    mh.push('</tbody></table>');
+    document.getElementById('inf-stage-matrix').innerHTML = mh.join('');
+    const bm = d.best_medium || [];
+    document.getElementById('inf-best-medium').innerHTML = infTable(
+      ['Method', 'Best medium', 'Stage', 'composite'],
+      bm.slice().sort((a, b) => b.composite - a.composite).map(r => [
+        methodChip(r.method), esc(r.label || r.condition_id),
+        [esc(r.stage), r.stage === bestStage], r.composite.toFixed(3)]));
+  }
+
+  // ---- Flux-expression agreement ----
+  const AG_COLORS = { SUPPORTED: '#1a7f37', WEAK_SUPPORT: '#74c476',
+    PRIMED_NOT_USED: '#d4a72c', SILENT_OK: '#c9d1d9',
+    ORPHAN_FLUX: '#e8590c', CONFLICT_FLUX_NO_EXPR: '#cf222e' };
+  let _infAgInit = false;
+  function initInfAgreement() {
+    const v = window._infViz; if (!v) return;
+    if (!_infAgInit) {
+      _infAgInit = true;
+      window._infAgMethod = 'imat';
+      infBtnGroup('inf-ag-method', METHOD_OPTS, window._infAgMethod,
+        m => { window._infAgMethod = m; drawInfAgreement(); });
+      const gl = v.meta.agreement_glossary || {};
+      document.getElementById('inf-ag-legend').innerHTML = v.agreement.order.map(k =>
+        '<span class="k"><span class="sw" style="background:' + (AG_COLORS[k] || '#999') +
+        '"></span>' + esc(k) + ' &mdash; ' + esc(gl[k] || '') + '</span>').join('');
+    }
+    drawInfAgreement();
+  }
+  function drawInfAgreement() {
+    const v = window._infViz, method = window._infAgMethod, order = v.agreement.order;
+    const rows = v.agreement.summary.filter(r => r.method === method).sort((a, b) =>
+      v.meta.condition_order.indexOf(a.condition_id) - v.meta.condition_order.indexOf(b.condition_id));
+    const h = ['<table class="inf-ag"><thead><tr><th>Medium</th><th>Stage</th>' +
+      '<th style="width:58%">agreement composition (GPR reactions)</th><th>n</th></tr></thead><tbody>'];
+    rows.forEach(r => {
+      const tot = r.total || 1;
+      const bar = order.map(k => { const n = r.cats[k] || 0; if (!n) return '';
+        const pct = (100 * n / tot).toFixed(2);
+        return '<span style="width:' + pct + '%;background:' + (AG_COLORS[k] || '#999') +
+          '" title="' + k + ': ' + n + ' (' + pct + '%)"></span>'; }).join('');
+      h.push('<tr><td>' + esc(r.label || r.condition_id) + '</td><td>' + esc(r.stage) +
+        '</td><td><div class="inf-ag-bar">' + bar + '</div></td><td class="mono">' + tot + '</td></tr>');
+    });
+    h.push('</tbody></table>');
+    document.getElementById('inf-agreement').innerHTML = h.join('');
+  }
+
+  // ---- Reaction & gene DataTable ----
+  let _infRxnDT = null;
+  function initInfReactions() {
+    const v = window._infViz; if (!v) return;
+    if (_infRxnDT) { _infRxnDT.columns.adjust(); return; }
+    const af = (m, mm) => (m[mm] ? m[mm].af : 0);
+    const data = v.reaction_table.map(r => {
+      const m = r.m || {};
+      const meanDisc = ['pfba', 'eflux', 'gimme', 'imat']
+        .reduce((s, mm) => s + ((m[mm] && m[mm].disc) || 0), 0) / 4;
+      return [
+        '<span class="mono">' + esc(r.rxn) + '</span>', esc(r.name || ''),
+        esc(r.path || ''), esc(r.kpath || ''), r.bin || 'absent',
+        (r.log2tpm == null ? '&mdash;' : nmono(r.log2tpm, 2)), r.ngenes || 0,
+        nmono(af(m, 'pfba'), 2), nmono(af(m, 'eflux'), 2),
+        nmono(af(m, 'gimme'), 2), nmono(af(m, 'imat'), 2), nmono(meanDisc, 2)];
+    });
+    $('#tbl-inf-rxn').show();
+    _infRxnDT = new DataTable('#tbl-inf-rxn', {
+      data: data, pageLength: 25, lengthMenu: [10, 25, 50, 100], deferRender: true,
+      order: [[11, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(5), numColDef(6), numColDef(7), numColDef(8),
+                   numColDef(9), numColDef(10), numColDef(11)],
+    });
+    wireHeaderSearch(_infRxnDT, '#tbl-inf-rxn');
+    window._infRxnDT = _infRxnDT;
+  }
+
+  // ---- Escher (dynamic condition x method) ----
+  let _infEsInit = false;
+  function initInfEscher() {
+    const v = window._infViz; if (!v) return;
+    if (_infEsInit) return; _infEsInit = true;
+    window._infEs = { method: 'pfba', cond: v.meta.condition_order[0] };
+    infBtnGroup('inf-es-method', METHOD_OPTS, window._infEs.method,
+      m => { window._infEs.method = m; loadInfEscher(); });
+    const sel = document.getElementById('inf-es-cond');
+    sel.innerHTML = v.meta.conditions.map(c => '<option value="' + esc(c.condition_id) + '">' +
+      esc(c.label) + ' (' + esc(c.stage) + ')</option>').join('');
+    sel.value = window._infEs.cond;
+    sel.addEventListener('change', () => { window._infEs.cond = sel.value; loadInfEscher(); });
+    loadInfEscher();
+  }
+  function loadInfEscher() {
+    const s = window._infEs;
+    document.getElementById('inf-escher-frame').src =
+      'infection_escher.html?method=' + encodeURIComponent(s.method) +
+      '&cond=' + encodeURIComponent(s.cond);
   }
 
   // -- load data -----------------------------------------------------------

@@ -1,0 +1,31 @@
+{
+  "B": 500,
+  "seed": 1234,
+  "note": "gene-level bootstrap on expression-independent pFBA flux; descriptive intervals only, no p-values (single biological transcriptome)",
+  "stages": [
+    {
+      "stage": "pre-infection",
+      "point_composite": 0.5441,
+      "boot_mean": 0.4881,
+      "ci95_lo": 0.3256,
+      "ci95_hi": 0.6611,
+      "frac_ranked_1st": 0.25
+    },
+    {
+      "stage": "biotrophic",
+      "point_composite": 0.6132,
+      "boot_mean": 0.5849,
+      "ci95_lo": 0.4411,
+      "ci95_hi": 0.7243,
+      "frac_ranked_1st": 0.724
+    },
+    {
+      "stage": "necrotrophic",
+      "point_composite": 0.3309,
+      "boot_mean": 0.4144,
+      "ci95_lo": 0.2794,
+      "ci95_hi": 0.5537,
+      "frac_ranked_1st": 0.026
+    }
+  ]
+}
