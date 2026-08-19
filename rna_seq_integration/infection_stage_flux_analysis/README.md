@@ -39,6 +39,8 @@ outputs are reused, not recomputed). Run from `scripts/`:
 | 06 | `06_build_web_payload.py` | `../../atp-safe/infection_stage_payload.json` (+ `web/` copy) — M1 tab |
 | 07 | `07_build_viz_payload.py` | `../../atp-safe/infection_stage_viz.json` (+ `web/` copy) — M2 heatmap / stages / agreement / reaction table |
 | 08 | `08_build_escher.py` | `../../atp-safe/{infection_flux_by_condition.json,infection_escher.html}` (+ `web/` JSON copy) — M2 dynamic Escher map |
+| 09 | `09_build_interp_payload.py` | `../../atp-safe/infection_interp.json` (+ `web/` copy) — M3 biological-interpretation cards (renders `deep_research/pathways/*.md`) |
+| 10 | `10_build_gene_annot.py` | `../../atp-safe/infection_gene_annot.json` (+ `web/` copy) — M4 reaction→gene drill-down + pathogenesis layer; also `data/{fsp237_proteome.faa,gene_annotation.tsv,secretome_predictions.tsv}` |
 
 `_common.py` holds shared paths, constants, and the reusable `concordance()` metric
 (a generalization of the metric block in `../../src/stage1_overlay.py`).
@@ -134,7 +136,80 @@ only when an M2 sub-tab is first opened, so the M1 tab stays fast):
   (log-scaled); grey = no flux. The frozen `map_aerobic/anaerobic/expression` maps are
   not modified.
 
-## Deferred to later milestones
+**M3 sub-tab** (lazy-loads `atp-safe/infection_interp.json`):
+- *Biological Interpretation* — deep-research reading of the six priority pathways (most
+  stage-differential + most method-discordant), as filterable cards with a category badge,
+  a calibrated confidence badge, a one-liner, an expandable full interpretation, and
+  verified key references. Source prose lives in `deep_research/pathways/*.md` (one file per
+  pathway), authored with **tiered evidence** (Tier 1 *Colletotrichum*-specific → Tier 2
+  related phytopathogens → Tier 3 general fungal/biochemical) per `deep_research/
+  RESEARCH_BRIEF.md`. All citations were verified against live NCBI/Europe PMC/Crossref
+  records (no fabricated DOIs); `09_build_interp_payload.py` renders the markdown to HTML.
 
-- **M3** — deep-research biological interpretation (tiered evidence + literature) of the
-  top stage-differential / discordant pathways → `deep_research/` + a new sub-tab.
+### M3 interpretation highlights (with honest caveats)
+- **Plant cell-wall degradation** (pectin/D-galacturonate + pentoses) switches on *only* in
+  necrotrophic media — a substrate-driven signature of the tissue-maceration phase, backed by
+  *C. sublineola*-specific dual-RNA-seq (Vela 2024) and comparative genomics (Buiate 2017).
+  **Annotation flag:** the model's *"Ashwell"* label is the *bacterial oxidative* uronate
+  route; fungi use the *reductive* gaaA–gaaD pathway — flux direction holds, but the reaction
+  annotation should be checked before publication.
+- **Peroxisomal β-oxidation** carries flux *only* pre-infection — matches the storage-lipid →
+  β-oxidation → glyoxylate-cycle → appressorial-turgor program (direct *Colletotrichum*
+  PEX-mutant + *Magnaporthe* evidence). Direction trustworthy; magnitude not (2nd-most
+  method-discordant, single static transcriptome).
+- **GAM / maintenance** (top method-discordance, range 1.0) is a **modeling artifact, not
+  biology**: the maintenance reaction has no GPR, so iMAT leaves it on (~0.001) in all 18/18
+  conditions while pFBA/E-Flux/GIMME force it off — invariant to stage.
+- **Central carbon** (glycolysis/TCA/PPP) is uniformly active but the top discordance hotspot
+  by network topology + method design (incl. the iMAT active-count inflation caveat).
+- **Storage (glycogen/trehalose)** and **fungal cell-wall polysaccharide** give small,
+  medium-driven signals that *corroborate* known appressorial-turgor / wall-masking biology
+  rather than demonstrate stage-specific regulation (Medium / Medium-Low confidence).
+
+## Milestone 4 — Deep enhancements (genes/pathogenesis, glossary, heatmap-by-stage, brighter Escher)
+
+Four publication-review upgrades, all additive; the RNA-seq tab and the frozen model/panel
+stay untouched, and **no FBA/MILP is re-run**.
+
+### Reaction→gene drill-down + pathogenesis layer (`10_build_gene_annot.py`)
+- Extracts the proteome via `blastdbcmd -db gpr-update/blast_db/fsp237 -entry all -outfmt '%f'`
+  (14,857 proteins; titles carry `gene_NNNN len=… func=<description>`) → `data/fsp237_proteome.faa`
+  and `data/gene_annotation.tsv`.
+- Loads per-gene S1 expression (`expression-data/S1_normalized_expression.xlsx`, 13,047 genes),
+  bins on the **model-gene** quartiles (hi ≥ 6.457 = Q75, lo ≥ 3.121 = Q25 of Mean log2(TPM+1)),
+  and maps GPR genes → reactions from `outputs/reaction_expression.tsv`.
+- **Two honest layers** (the GEM's GPR genes are metabolic *enzymes*; canonical fungal effectors
+  are small secreted proteins that sit *outside* a metabolic gene set — so they are reported
+  separately):
+  - `virulence_metabolic` — 62 GPR genes in curated virulence enzyme families (cutinase/lipase,
+    peroxisomal β-oxidation, ROS detox, chitin/glucan synthesis, P450, melanin, glyoxylate,
+    trehalose, pectin/cell-wall degradation).
+  - `candidate_effectors` — top 250 **non-metabolic**, highly-expressed genes predicted
+    secreted/effector-like (e.g. cerato-platanin, HR-inducing proteins, small hypotheticals) —
+    the "highly expressed but not metabolic" layer, explicitly badged as outside the model.
+  - `by_reaction` — per-GPR-reaction gene list (gene, func, log2TPM, bin, secreted, effector,
+    virulence family) powering the client-side drill-down.
+- **Secretome method (documented caveat):** SignalP 6.0 / EffectorP 3.0 are **not runnable here**
+  (no EMBOSS pepstats, no torch, no academic license). A transparent **sequence-feature
+  heuristic** is used instead — N-terminal Kyte-Doolittle hydrophobic signal-peptide core + small
+  + cysteine-rich + non-metabolic function — and flags are labeled *indicative, not definitive*
+  in the payload `meta` and on the page. Manuscript follow-up: rerun with SignalP/EffectorP.
+
+### Website (all in `atp-safe/index.html`, additive)
+- **Reaction & Gene table:** clicking a reaction id expands a DataTables **child row** listing its
+  GPR genes with expression bin + pathogenesis flags (`ensureInfGene` lazy-loads
+  `infection_gene_annot.json`).
+- **New 11th sub-tab "Genes & Pathogenesis":** metabolic virulence-factor table + non-metabolic
+  candidate-effector DataTable + prominent honest caveat callout.
+- **Pathway Heatmap** x-axis now grouped by infection stage (pre-infection → biotrophic →
+  necrotrophic → cocktail) with `colspan` stage-group headers.
+- **Metric glossary + tooltips** (`<abbr>` + collapsible `<details>`) on Point, Bootstrap mean,
+  95% CI, Spearman ρ, hi_recall, flux_prec, MCC, composite, agree, active fluxes, Biomass.
+- **Escher map** recolored with a brighter multi-stop spectrum (blue→cyan→green→yellow→orange→red)
+  with a raised low-flux brightness floor (`08_build_escher.py`), so faint-but-active edges are
+  visible; legend gradient updated to match.
+
+## Deferred / follow-ups
+
+- Verify the D-galacturonate reaction annotation ("Ashwell" oxidative vs fungal reductive
+  gaaA–gaaD) in the model before manuscript submission.

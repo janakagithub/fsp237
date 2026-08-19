@@ -34,6 +34,12 @@ DYNAMIC_RECOLOR = r"""
     var A=h(a),B=h(b),o=[0,1,2].map(function(i){return Math.round(A[i]+(B[i]-A[i])*t);});
     return '#'+o.map(function(v){return v.toString(16).padStart(2,'0');}).join('');
   }
+  // bright multi-stop spectrum (turbo-like): faint flux still clearly visible
+  var STOPS=['#2b1179','#3b4cc0','#00b3d6','#1fd44f','#f2e310','#ff8c00','#e00000'];
+  function ramp(t){
+    t=Math.max(0,Math.min(1,t));var n=STOPS.length-1,s=t*n,i=Math.floor(s);
+    if(i>=n)i=n-1;return interp(STOPS[i],STOPS[i+1],s-i);
+  }
   var q=new URLSearchParams(location.search);
   var method=q.get('method')||'pfba';
   var cond=q.get('cond')||null;
@@ -53,8 +59,8 @@ DYNAMIC_RECOLOR = r"""
           var lab=g.querySelector('.reaction-label');if(!lab)return;
           var rxn=lab.textContent.trim().split(/\s+/)[0];
           var f=fx[rxn],active=(f!==undefined&&Math.abs(f)>1e-6),color,size;
-          if(active){var t=mag(f);color=interp('#dbe6f2','#0969da',t);size=(2+11*t)+'px';}
-          else{color='#e4e8ec';size='1.5px';}
+          if(active){var t=mag(f);color=ramp(0.18+0.82*t);size=(2.5+10*t)+'px';}
+          else{color='#d8dde2';size='1.5px';}
           g.querySelectorAll('path,line,polyline').forEach(function(p){p.style.stroke=color;p.style.strokeWidth=size;});
           lab.style.fill=active?color:'#c4cace';
           n++;
@@ -84,7 +90,7 @@ NEW_LEGEND = """
   <div id="inf-escher-info" style="margin:8px 0;color:#333;line-height:1.5">loading&hellip;</div>
   <div style="display:flex;align-items:center;gap:8px;margin-top:6px">
     <span style="font-size:11px;color:#888">low</span>
-    <span style="flex:1;height:10px;border-radius:3px;background:linear-gradient(90deg,#dbe6f2,#0969da)"></span>
+    <span style="flex:1;height:10px;border-radius:3px;background:linear-gradient(90deg,#3d54c2,#00b3d6,#1fd44f,#f2e310,#ff8c00,#e00000)"></span>
     <span style="font-size:11px;color:#888">high</span>
   </div>
   <i style="color:#999;font-size:11px">edge intensity &amp; width = |flux| (log-scaled); grey = no flux</i>

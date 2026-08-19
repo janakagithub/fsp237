@@ -318,6 +318,24 @@
   .heatmap td { font-family: 'JetBrains Mono', monospace; font-size: 10px;
                  color: rgba(15,23,42,0.85); }
   .heatmap td.zero { background: #f7f9fc; color: #cbd0d6; }
+  .heatmap th.stagehdr { text-align: center; font-weight: 600; font-size: 10px;
+    letter-spacing: .02em; padding: 4px 6px; }
+  .heatmap th.colh.grp, .heatmap td.grp, .heatmap th.stagehdr.grp {
+    border-left: 2px solid #9aa3ad; }
+  abbr.inf-gl { text-decoration: underline dotted; text-underline-offset: 2px;
+    cursor: help; border: none; }
+  details.inf-glossary { margin: 6px 0 12px; font-size: 12px; }
+  details.inf-glossary > summary { cursor: pointer; color: #0969da; font-weight: 500;
+    list-style: none; user-select: none; }
+  details.inf-glossary > summary::-webkit-details-marker { display: none; }
+  details.inf-glossary > summary::before { content: '\25b8'; margin-right: 6px; color: #8b949e; }
+  details.inf-glossary[open] > summary::before { content: '\25be'; }
+  details.inf-glossary dl { margin: 8px 0 2px; padding: 10px 14px; background: #f7f9fc;
+    border: 1px solid var(--border-soft); border-radius: 8px; }
+  details.inf-glossary dt { font-weight: 600; color: #1f2328; margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace; font-size: 11px; }
+  details.inf-glossary dt:first-child { margin-top: 0; }
+  details.inf-glossary dd { margin: 2px 0 0; color: #57606a; line-height: 1.5; }
   .hm-legend { display: inline-flex; align-items: center; gap: 6px; margin-left: 12px;
                font-size: 10.5px; color: var(--muted); vertical-align: middle; }
   .hm-legend .grad { display: inline-block; width: 100px; height: 8px; border-radius: 2px;
@@ -359,6 +377,20 @@
   .expr-med    { background:#dde8fb; color:#1b3a82; border:1px solid #bcd1f5; }
   .expr-lo     { background:#fff1d6; color:#92400e; border:1px solid #fcd9a4; }
   .expr-absent { background:#f1f5f9; color:#475569; border:1px solid #d8dde3; }
+
+  /* Feature A: reaction->gene drill-down + pathogenesis flags */
+  .inf-rxn-name { cursor:pointer; }
+  .inf-rxn-name::before { content:'\25B8'; color:#8250df; margin-right:5px;
+                          display:inline-block; transition:transform 0.12s; }
+  tr.inf-rxn-open .inf-rxn-name::before { transform:rotate(90deg); }
+  tr.inf-gene-childrow > td { background:#f7f5fc; padding:10px 14px !important; }
+  .inf-gene-child { max-width:100%; overflow-x:auto; }
+  .gene-flag { display:inline-block; padding:1px 7px; border-radius:4px; margin:1px 2px;
+               font-size:10px; font-weight:600; letter-spacing:0.02em; }
+  .flag-viru { background:#fde2e1; color:#8a1c13; border:1px solid #f6b8b3; }
+  .flag-eff  { background:#efe0fb; color:#5a1e8a; border:1px solid #d8b8f2; }
+  .flag-sec  { background:#e0f0fb; color:#134a6e; border:1px solid #b3d7f0; }
+  .gene-flag-none { color:#98a1ab; }
 
   .agree-badge { display:inline-block; padding:1px 7px; border-radius:4px;
                  font-size:10px; font-weight:600; letter-spacing:0.02em; }
@@ -436,6 +468,22 @@
   .inf-ag-bar { display:flex; height:18px; width:100%; border-radius:3px; overflow:hidden; min-width:280px; }
   .inf-ag-bar > span { display:block; height:100%; }
   .inf-rxn-note { font-size:11.5px; color:#57606a; margin-top:10px; line-height:1.5; }
+  .inf-interp-card { border:1px solid #d0d7de; border-radius:10px; padding:14px 18px; margin:12px 0; background:#fff; }
+  .inf-interp-head { display:flex; align-items:center; flex-wrap:wrap; gap:8px; }
+  .inf-interp-title { font-size:15px; font-weight:650; color:#1f2328; }
+  .inf-cat, .inf-conf { color:#fff; font-size:10.5px; font-weight:600; padding:2px 8px; border-radius:10px; letter-spacing:.2px; }
+  .inf-interp-why { font-size:12px; color:#57606a; margin:6px 0 2px; }
+  .inf-interp-oneliner { font-size:13.5px; color:#1f2328; margin:6px 0; line-height:1.5; }
+  .inf-interp-details { margin-top:8px; }
+  .inf-interp-details > summary { cursor:pointer; color:#0969da; font-size:12.5px; font-weight:550; }
+  .inf-interp-body { font-size:13px; line-height:1.6; color:#24292f; margin-top:10px; }
+  .inf-interp-body h1, .inf-interp-body h2, .inf-interp-body h3 { font-size:14px; margin:14px 0 4px; color:#1f2328; }
+  .inf-interp-body ul { margin:6px 0 6px 4px; padding-left:18px; }
+  .inf-interp-body li { margin:3px 0; }
+  .inf-interp-body a { color:#0969da; }
+  .inf-interp-body code { background:#eff1f3; padding:1px 5px; border-radius:4px; font-size:12px; }
+  .inf-interp-refs { margin-top:10px; font-size:12px; border-top:1px solid #eaecef; padding-top:8px; }
+  .inf-interp-refs ul { margin:4px 0 0 4px; padding-left:18px; }
 </style>
 </head>
 <body>
@@ -761,6 +809,8 @@
         <button class="inf-subtab-btn" data-sub="agreement">Flux&ndash;Expression Agreement</button>
         <button class="inf-subtab-btn" data-sub="reactions">Reaction &amp; Gene Table</button>
         <button class="inf-subtab-btn" data-sub="escher">Escher Maps</button>
+        <button class="inf-subtab-btn" data-sub="interp">Biological Interpretation</button>
+        <button class="inf-subtab-btn" data-sub="genes">Genes &amp; Pathogenesis</button>
       </div>
 
       <div class="inf-sub active" id="inf-sub-methods">
@@ -771,6 +821,13 @@
         <div class="rna-section-h">Which integration method best reproduces S1?
           <span class="h-sub">rank-normalized composite of Spearman &rho;, hi-expr recall, flux precision, and MCC (active vs expressed)</span>
         </div>
+        <details class="inf-glossary"><summary>What do these metrics mean?</summary><dl>
+          <dt>Spearman &rho;</dt><dd>Spearman rank correlation between |flux| and aggregated S1 expression (log2 TPM+1) across GPR reactions. +1 = higher-expressed reactions carry more flux; 0 = no monotonic relation.</dd>
+          <dt>hi_recall</dt><dd>Highly-expressed recall: fraction of &quot;hi&quot; expression-bin reactions that carry active flux (|v| &gt; 1e-6). How fully the model uses the genes it expresses most.</dd>
+          <dt>flux_prec</dt><dd>Flux precision: of reactions carrying active flux, the fraction that are expressed (bin hi or med). High = little flux through lowly/absent-expressed reactions.</dd>
+          <dt>MCC</dt><dd>Matthews correlation coefficient of active (|v| &gt; 1e-6) vs expressed (bin hi/med) — a balanced binary-agreement score in [-1, 1], robust to class imbalance.</dd>
+          <dt>composite</dt><dd>Mean of the four rank-normalized components above. The overall method-vs-S1 concordance score used for ranking.</dd>
+        </dl></details>
         <div class="card card-pad"><div id="inf-method-ranking"></div></div>
         <div class="rna-section-h">Per-condition concordance
           <span class="h-sub">every method &times; aerobic medium; the S1 expression prior is identical across media</span>
@@ -779,8 +836,13 @@
           <table id="tbl-inf-conc" style="display:none; width:100%">
             <thead>
               <tr><th>Method</th><th>Condition</th><th>Stage</th>
-                <th>Spearman &rho;</th><th>hi_recall</th><th>flux_prec</th>
-                <th>MCC</th><th>agree</th><th>composite</th><th>active fluxes</th></tr>
+                <th><abbr class="inf-gl" title="Spearman rank correlation between |flux| and aggregated S1 expression (log2 TPM+1) across GPR reactions. +1 = higher-expressed reactions carry more flux; 0 = no monotonic relation.">Spearman &rho;</abbr></th>
+                <th><abbr class="inf-gl" title="Highly-expressed recall: fraction of &quot;hi&quot; expression-bin reactions that carry active flux (|v| &gt; 1e-6). How fully the model uses the genes it expresses most.">hi_recall</abbr></th>
+                <th><abbr class="inf-gl" title="Flux precision: of reactions carrying active flux, the fraction that are expressed (bin hi or med). High = little flux through lowly/absent-expressed reactions.">flux_prec</abbr></th>
+                <th><abbr class="inf-gl" title="Matthews correlation coefficient of active (|v| &gt; 1e-6) vs expressed (bin hi/med) over GPR reactions — a balanced binary-agreement score in [-1, 1], robust to class imbalance.">MCC</abbr></th>
+                <th><abbr class="inf-gl" title="Agreement score — share of GPR reactions whose flux/expression status falls in a concordant category.">agree</abbr></th>
+                <th><abbr class="inf-gl" title="Mean of the four rank-normalized components (Spearman &rho;, hi_recall, flux_prec, MCC). The overall method-vs-S1 concordance score used for ranking.">composite</abbr></th>
+                <th><abbr class="inf-gl" title="Number of GPR reactions carrying active flux (|v| &gt; 1e-6) in that method &times; medium.">active fluxes</abbr></th></tr>
               <tr class="filters"><th></th><th></th><th></th><th></th><th></th>
                 <th></th><th></th><th></th><th></th><th></th></tr>
             </thead>
@@ -883,6 +945,45 @@
         <div class="card" style="padding:0;overflow:hidden">
           <iframe id="inf-escher-frame" title="Infection-stage Escher flux map"
                   style="width:100%;height:640px;border:0;display:block"></iframe>
+        </div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-interp">
+        <div class="rna-section-h">Biological interpretation
+          <span class="h-sub">deep-research reading of the most stage-differential &amp; method-discordant pathways &mdash; tiered evidence</span>
+        </div>
+        <div class="rna-note" id="inf-interp-note"></div>
+        <div class="inf-viz-controls">
+          <span class="inf-ctl-lbl">Filter</span>
+          <span id="inf-interp-filter" class="inf-btn-group"></span>
+        </div>
+        <div id="inf-interp-cards"></div>
+      </div>
+
+      <div class="inf-sub" id="inf-sub-genes">
+        <div class="rna-section-h">Genes &amp; pathogenesis
+          <span class="h-sub">which genes drive active-flux reactions, and are any of them linked to pathogenesis?</span>
+        </div>
+        <div class="rna-callout" id="inf-gene-caveat"></div>
+        <div class="rna-section-h">Metabolic virulence factors
+          <span class="h-sub">model GPR genes (metabolic enzymes) in enzyme families with known roles in <i>Colletotrichum</i> pathogenesis &mdash; expand any reaction in the Reaction &amp; Gene table to see its genes</span>
+        </div>
+        <div class="card card-pad"><div id="inf-viru-metab" style="overflow-x:auto"></div></div>
+        <div class="rna-section-h">Highly-expressed candidate effectors (non-metabolic)
+          <span class="h-sub">top S1-expressed genes predicted secreted / effector-like that are <b>not</b> in the metabolic model gene set</span>
+        </div>
+        <div class="card card-pad">
+          <table id="tbl-inf-cand" style="display:none; width:100%">
+            <thead>
+              <tr><th>Gene</th><th>Function</th>
+                <th><abbr class="inf-gl" title="Mean log2(TPM+1) of this gene in the S1 transcriptome.">log2TPM</abbr></th>
+                <th><abbr class="inf-gl" title="Expression percentile of this gene across all 13,047 expressed genes (1.0 = highest-expressed).">Expr pctile</abbr></th>
+                <th>Length (aa)</th>
+                <th><abbr class="inf-gl" title="Heuristic: predicted N-terminal hydrophobic signal-peptide core (SignalP not run here).">Secreted</abbr></th>
+                <th><abbr class="inf-gl" title="Heuristic: small + cysteine-rich + secreted + non-metabolic function (EffectorP not run here).">Effector-like</abbr></th></tr>
+              <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+            </thead>
+          </table>
         </div>
       </div>
     </div>
@@ -1884,7 +1985,7 @@
         'This is consistent across pFBA, E-Flux and GIMME.</span>';
     }
     document.getElementById('inf-bootstrap').innerHTML = infTable(
-      ['Stage', 'Point', 'Bootstrap mean', '95% CI', 'Ranked #1'],
+      ['Stage', gl('Point'), gl('Bootstrap mean'), gl('95% CI'), gl('Ranked #1')],
       boot.slice().sort((a, b) => b.boot_mean - a.boot_mean).map(r => [
         [esc(r.stage), r.stage === (topStage && topStage.stage)],
         r.point_composite.toFixed(3), r.boot_mean.toFixed(3),
@@ -1894,7 +1995,8 @@
     // ---- Stage Alignment: vanilla FBA grouped by stage (user addition) ----
     const fv = d.vanilla_fba_view || [];
     document.getElementById('inf-fba-view').innerHTML = infTable(
-      ['Stage', 'Medium', 'Biomass', 'Spearman &rho;', 'hi_recall', 'flux_prec', 'MCC', 'composite'],
+      ['Stage', 'Medium', gl('Biomass'), gl('Spearman ρ', 'Spearman &rho;'), gl('hi_recall'),
+       gl('flux_prec'), gl('MCC'), gl('composite')],
       fv.map(r => [
         [esc(r.stage), false], esc(r.label || r.condition_id),
         (r.biomass != null ? r.biomass.toFixed(4) : '&mdash;'),
@@ -1927,7 +2029,67 @@
       const sub = b.dataset.sub;
       if (sub === 'methodcmp' && window._infConcDT) window._infConcDT.columns.adjust();
       if (M2SUBS[sub]) ensureInfViz(M2SUBS[sub]);
+      if (sub === 'reactions') ensureInfGene(function(){});
+      if (sub === 'interp') ensureInfInterp(initInfInterp);
+      if (sub === 'genes') ensureInfGene(initInfGenes);
     }));
+  }
+
+  // Lazy-load the M3 interpretation payload on first open of that sub-tab.
+  let _infInterpState = 'idle';
+  const _infInterpWaiters = [];
+  function ensureInfInterp(cb) {
+    if (_infInterpState === 'ready') { cb(); return; }
+    _infInterpWaiters.push(cb);
+    if (_infInterpState === 'loading' || _infInterpState === 'error') {
+      if (_infInterpState === 'error') _infInterpState = 'loading';
+      else return;
+    } else {
+      _infInterpState = 'loading';
+    }
+    fetch('infection_interp.json?v=' + Date.now())
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(v => {
+        window._infInterp = v; _infInterpState = 'ready';
+        while (_infInterpWaiters.length) _infInterpWaiters.shift()();
+      })
+      .catch(err => {
+        _infInterpState = 'error';
+        console.error('infection_interp.json load failed:', err);
+        const el = document.getElementById('inf-interp-cards');
+        if (el && !el.innerHTML) el.innerHTML =
+          '<div class="rna-note">Could not load interpretation data (' +
+          esc(err.message) + '). Run <span class="mono">09_build_interp_payload.py</span>.</div>';
+      });
+  }
+
+  // Lazy-load the gene/pathogenesis payload (Feature A) on first open of the
+  // Genes sub-tab OR the Reaction table (for the reaction->gene drill-down).
+  let _infGeneState = 'idle';  // idle | loading | ready | error
+  const _infGeneWaiters = [];
+  function ensureInfGene(cb) {
+    if (_infGeneState === 'ready') { cb(); return; }
+    _infGeneWaiters.push(cb);
+    if (_infGeneState === 'loading' || _infGeneState === 'error') {
+      if (_infGeneState === 'error') _infGeneState = 'loading';  // allow retry
+      else return;
+    } else {
+      _infGeneState = 'loading';
+    }
+    fetch('infection_gene_annot.json?v=' + Date.now())
+      .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+      .then(v => {
+        window._infGene = v; _infGeneState = 'ready';
+        while (_infGeneWaiters.length) _infGeneWaiters.shift()();
+      })
+      .catch(err => {
+        _infGeneState = 'error';
+        console.error('infection_gene_annot.json load failed:', err);
+        const el = document.getElementById('inf-gene-caveat');
+        if (el && !el.innerHTML) el.innerHTML =
+          '<div class="rna-note">Could not load gene data (' + esc(err.message) +
+          '). Run <span class="mono">10_build_gene_annot.py</span>.</div>';
+      });
   }
 
   // Lazy-load the (heavier) M2 visualization payload on first M2 sub-tab open.
@@ -1971,6 +2133,32 @@
       return '<td>' + c + '</td>';
     }).join('') + '</tr>').join('');
     return h + '</tbody></table>';
+  }
+
+  // ---- metric glossary (tooltips + expandable definitions) ----
+  const GLOSSARY = {
+    'Spearman ρ': 'Spearman rank correlation between |flux| and aggregated S1 expression (log2 TPM+1) across GPR reactions. +1 = higher-expressed reactions carry more flux; 0 = no monotonic relation.',
+    'hi_recall': 'Highly-expressed recall: fraction of "hi" expression-bin reactions that carry active flux (|v| > 1e-6). How fully the model uses the genes it expresses most.',
+    'flux_prec': 'Flux precision: of reactions carrying active flux, the fraction that are expressed (bin hi or med). High = little flux routed through lowly/absent-expressed reactions.',
+    'MCC': 'Matthews correlation coefficient of active (|v| > 1e-6) vs expressed (bin hi/med) over GPR reactions — a balanced binary-agreement score in [-1, 1], robust to class imbalance.',
+    'composite': 'Mean of the four rank-normalized components (Spearman ρ, hi_recall, flux_prec, MCC). The overall method-vs-S1 concordance score used for ranking.',
+    'agree': 'Agreement score — share of GPR reactions whose flux/expression status falls in a concordant category.',
+    'active fluxes': 'Number of GPR reactions carrying active flux (|v| > 1e-6) in that method × medium.',
+    'Point': 'Point estimate computed on the full observed S1 transcriptome (no resampling).',
+    'Bootstrap mean': 'Mean over B = 500 gene-level bootstrap resamples: model genes are resampled with replacement, every GPR re-aggregated, and the score recomputed.',
+    '95% CI': 'Descriptive 2.5–97.5 percentile interval across the 500 bootstrap resamples. Gene-sampling variability only — NOT a significance test (n = 1 biological transcriptome).',
+    'Ranked #1': 'Fraction of bootstrap resamples in which this stage had the highest composite alignment.',
+    'Biomass': 'Biomass-reaction flux (growth-rate proxy) under that medium.',
+  };
+  // gl(key, label?) -> an <abbr> with a dotted underline and the glossary tooltip
+  function gl(key, label) {
+    const def = GLOSSARY[key] || '';
+    return '<abbr class="inf-gl" title="' + esc(def) + '">' + (label || key) + '</abbr>';
+  }
+  function glossaryBlock(keys) {
+    return '<details class="inf-glossary"><summary>What do these terms mean?</summary>' +
+      '<dl>' + keys.map(k => '<dt>' + k + '</dt><dd>' + esc(GLOSSARY[k] || '') + '</dd>').join('') +
+      '</dl></details>';
   }
 
   function infPerStageTable(ranking) {
@@ -2027,25 +2215,46 @@
     }
     drawInfHeatmap();
   }
+  const HM_STAGE_ORDER = ['pre-infection', 'biotrophic', 'necrotrophic', 'cocktail'];
   function drawInfHeatmap() {
     const v = window._infViz, st = window._infHm;
     const taxo = v.heatmap[st.taxo], cells = taxo.cells[st.method] || {};
-    const conds = v.meta.conditions, rows = taxo.pathways;
-    const html = ['<table class="heatmap"><thead><tr><th class="rowh">Pathway (n rxn)</th>'];
-    conds.forEach(c => html.push('<th class="colh" title="' + esc(c.label) + ' · ' +
-      esc(c.stage) + '">' + esc(c.condition_id.replace(/^\d+_/, '')) + '</th>'));
+    const rows = taxo.pathways;
+    // group media columns by infection stage (x-axis grouping)
+    const conds = v.meta.conditions.slice().sort((a, b) => {
+      const d = HM_STAGE_ORDER.indexOf(a.stage) - HM_STAGE_ORDER.indexOf(b.stage);
+      return d !== 0 ? d : a.condition_id.localeCompare(b.condition_id);
+    });
+    const isGrpStart = conds.map((c, i) => i === 0 || conds[i - 1].stage !== c.stage);
+    const groups = [];
+    conds.forEach((c, i) => {
+      if (isGrpStart[i]) groups.push({ stage: c.stage, n: 1 });
+      else groups[groups.length - 1].n++;
+    });
+    const html = ['<table class="heatmap"><thead>'];
+    // stage-group header row
+    html.push('<tr><th class="rowh" rowspan="2">Pathway (n rxn)</th>');
+    groups.forEach(g => html.push('<th class="stagehdr grp ' +
+      (STAGE_CLASS[g.stage] || 'cat-other') + '" colspan="' + g.n + '">' +
+      esc(g.stage) + '</th>'));
+    html.push('</tr><tr>');
+    // per-condition header row
+    conds.forEach((c, i) => html.push('<th class="colh' + (isGrpStart[i] ? ' grp' : '') +
+      '" title="' + esc(c.label) + ' · ' + esc(c.stage) + '">' +
+      esc(c.condition_id.replace(/^\d+_/, '')) + '</th>'));
     html.push('</tr></thead><tbody>');
     rows.forEach(pw => {
       html.push('<tr><th class="rowh" title="' + esc(pw.name) + '">' + esc(pw.name) +
         ' <span style="color:#8b949e">(' + pw.n_rxn + ')</span></th>');
-      conds.forEach(c => {
+      conds.forEach((c, i) => {
+        const gc = isGrpStart[i] ? ' grp' : '';
         const val = (cells[c.condition_id] || {})[pw.name];
-        if (val == null || val === 0) { html.push('<td class="zero">&middot;</td>'); return; }
+        if (val == null || val === 0) { html.push('<td class="zero' + gc + '">&middot;</td>'); return; }
         const t = Math.min(1, val), bg = interpHex('#f7f9fc', '#0969da', t),
               fg = t > 0.5 ? '#ffffff' : '#1f2328';
-        html.push('<td style="background:' + bg + ';color:' + fg + '" title="' + esc(pw.name) +
-          ' / ' + esc(c.label) + ' = ' + (val * 100).toFixed(0) + '% active">' +
-          (val * 100).toFixed(0) + '</td>');
+        html.push('<td class="' + gc.trim() + '" style="background:' + bg + ';color:' + fg +
+          '" title="' + esc(pw.name) + ' / ' + esc(c.label) + ' = ' +
+          (val * 100).toFixed(0) + '% active">' + (val * 100).toFixed(0) + '</td>');
       });
       html.push('</tr>');
     });
@@ -2153,7 +2362,7 @@
       const meanDisc = ['pfba', 'eflux', 'gimme', 'imat']
         .reduce((s, mm) => s + ((m[mm] && m[mm].disc) || 0), 0) / 4;
       return [
-        '<span class="mono">' + esc(r.rxn) + '</span>', esc(r.name || ''),
+        '<span class="mono inf-rxn-name" data-rxn="' + esc(r.rxn) + '">' + esc(r.rxn) + '</span>', esc(r.name || ''),
         esc(r.path || ''), esc(r.kpath || ''), r.bin || 'absent',
         (r.log2tpm == null ? '&mdash;' : nmono(r.log2tpm, 2)), r.ngenes || 0,
         nmono(af(m, 'pfba'), 2), nmono(af(m, 'eflux'), 2),
@@ -2168,6 +2377,72 @@
     });
     wireHeaderSearch(_infRxnDT, '#tbl-inf-rxn');
     window._infRxnDT = _infRxnDT;
+    // reaction -> gene drill-down: click the reaction id to expand a child row
+    $('#tbl-inf-rxn tbody').on('click', 'td:first-child', function () {
+      const tr = $(this).closest('tr');
+      const row = _infRxnDT.row(tr);
+      if (!row || !row.data()) return;
+      if (row.child.isShown()) { row.child.hide(); tr.removeClass('inf-rxn-open'); return; }
+      const rxn = $(this).find('.inf-rxn-name').data('rxn');
+      ensureInfGene(function () {
+        row.child(renderGeneChild(rxn), 'inf-gene-childrow').show();
+        tr.addClass('inf-rxn-open');
+      });
+    });
+  }
+
+  // pathogenesis flag badges for a gene row
+  function geneFlags(x) {
+    const out = [];
+    if (x.viru) out.push('<span class="gene-flag flag-viru" title="Metabolic virulence-factor enzyme family: ' + esc(x.viru) + '">' + esc(x.viru) + '</span>');
+    if (x.effector) out.push('<span class="gene-flag flag-eff" title="Heuristic effector-like: small, cysteine-rich, secreted, non-metabolic function">effector-like</span>');
+    else if (x.secreted) out.push('<span class="gene-flag flag-sec" title="Heuristic secreted: predicted N-terminal signal peptide">secreted</span>');
+    return out.length ? out.join(' ') : '<span class="gene-flag-none">&mdash;</span>';
+  }
+
+  // child-row content: the GPR genes behind a reaction, with expression + pathogenesis flags
+  function renderGeneChild(rxn) {
+    const g = (window._infGene && window._infGene.by_reaction[rxn]) || [];
+    if (!g.length) return '<div class="inf-gene-child"><em>No GPR-mapped genes for this reaction (spontaneous, exchange, or non-gene-associated).</em></div>';
+    const rows = g.slice().sort((a, b) => (b.log2tpm || 0) - (a.log2tpm || 0)).map(x => [
+      '<span class="mono">' + esc(x.gene) + '</span>', esc(x.func || ''),
+      (x.log2tpm == null ? '&mdash;' : nmono(x.log2tpm, 2)), exprBadge(x.bin),
+      geneFlags(x)]);
+    return '<div class="inf-gene-child">' +
+      infTable(['Gene', 'Function', 'log2TPM', 'Expr bin', 'Pathogenesis'], rows) +
+      '</div>';
+  }
+
+  // ---- Genes & Pathogenesis sub-tab (Feature A) ----
+  let _infGenesInit = false, _infCandDT = null;
+  function initInfGenes() {
+    const v = window._infGene; if (!v) return;
+    if (_infGenesInit) { if (_infCandDT) _infCandDT.columns.adjust(); return; }
+    _infGenesInit = true;
+    const cav = document.getElementById('inf-gene-caveat');
+    if (cav) cav.innerHTML = '<b>How to read this.</b> ' + esc(v.meta.note) +
+      '<br><br><b>Secretome method (indicative, not definitive).</b> ' + esc(v.meta.secretome_method);
+    // (i) metabolic virulence factors (GPR genes), highest-expressed first
+    const vm = v.virulence_metabolic.slice().sort((a, b) => (b.log2tpm || 0) - (a.log2tpm || 0));
+    const rows = vm.map(x => [
+      esc(x.family), '<span class="mono">' + esc(x.gene) + '</span>', esc(x.func || ''),
+      nmono(x.log2tpm, 2), exprBadge(x.bin), String(x.n_rxn || 0),
+      (x.rxns || []).map(r => '<span class="mono">' + esc(r) + '</span>').join(', ')]);
+    document.getElementById('inf-viru-metab').innerHTML = infTable(
+      ['Virulence family', 'Gene', 'Function', 'log2TPM', 'Expr bin', '#rxns', 'Reactions gated'], rows);
+    // (ii) non-metabolic candidate effectors (DataTable, ~250 rows)
+    const data = v.candidate_effectors.map(c => [
+      '<span class="mono">' + esc(c.gene) + '</span>', esc(c.func || ''),
+      nmono(c.log2tpm, 2), nmono(c.pctile, 3), c.len || 0,
+      c.secreted ? 'yes' : 'no', c.effector ? 'yes' : 'no']);
+    $('#tbl-inf-cand').show();
+    _infCandDT = new DataTable('#tbl-inf-cand', {
+      data: data, pageLength: 25, lengthMenu: [10, 25, 50, 100], deferRender: true,
+      order: [[2, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(2), numColDef(3), numColDef(4)],
+    });
+    wireHeaderSearch(_infCandDT, '#tbl-inf-cand');
+    window._infCandDT = _infCandDT;
   }
 
   // ---- Escher (dynamic condition x method) ----
@@ -2190,6 +2465,64 @@
     document.getElementById('inf-escher-frame').src =
       'infection_escher.html?method=' + encodeURIComponent(s.method) +
       '&cond=' + encodeURIComponent(s.cond);
+  }
+
+  // ---- M3 Biological Interpretation ----
+  const INTERP_FILTERS = [
+    { v: 'all', label: 'All' },
+    { v: 'stage-differential', label: 'Stage-differential' },
+    { v: 'method-discordant', label: 'Method-discordant' },
+  ];
+  let _infInterpInit = false;
+  function initInfInterp() {
+    const v = window._infInterp; if (!v) return;
+    if (_infInterpInit) return; _infInterpInit = true;
+    const note = document.getElementById('inf-interp-note');
+    if (note) note.innerHTML = esc(v.meta.note);
+    window._infInterpF = 'all';
+    infBtnGroup('inf-interp-filter', INTERP_FILTERS, 'all',
+      f => { window._infInterpF = f; drawInfInterp(); });
+    drawInfInterp();
+  }
+  function confBadge(c) {
+    const k = (c || '').toLowerCase();
+    const col = k.startsWith('high') ? '#1a7f37'
+      : k.startsWith('med') ? '#9a6700'
+      : k.startsWith('low') ? '#6e7781' : '#6e7781';
+    return c ? '<span class="inf-conf" style="background:' + col + '">' +
+      esc(c) + '</span>' : '';
+  }
+  function catBadge(cat) {
+    const map = { 'stage-differential': ['#0a5cad', 'stage-differential'],
+                  'method-discordant': ['#8250df', 'method-discordant'],
+                  'both': ['#1a7f37', 'stage-diff + discordant'] };
+    const m = map[cat] || ['#6e7781', cat || ''];
+    return '<span class="inf-cat" style="background:' + m[0] + '">' + esc(m[1]) + '</span>';
+  }
+  function drawInfInterp() {
+    const v = window._infInterp, f = window._infInterpF || 'all';
+    const match = p => f === 'all' || p.category === f ||
+      (p.category === 'both' && (f === 'stage-differential' || f === 'method-discordant'));
+    const rows = v.pathways.filter(match);
+    const host = document.getElementById('inf-interp-cards');
+    if (!rows.length) { host.innerHTML = '<div class="rna-note">No pathways in this filter.</div>'; return; }
+    host.innerHTML = rows.map(p => {
+      const refs = (p.top_refs || []).map(r =>
+        '<li>' + (r.url ? '<a href="' + esc(r.url) + '" target="_blank" rel="noopener">' +
+          esc(r.cite || r.url) + '</a>' : esc(r.cite || '')) + '</li>').join('');
+      return '<div class="inf-interp-card">' +
+        '<div class="inf-interp-head">' +
+          '<span class="inf-interp-title">' + esc(p.title) + '</span>' +
+          catBadge(p.category) + confBadge(p.confidence) +
+        '</div>' +
+        '<div class="inf-interp-why">' + esc(p.why) + '</div>' +
+        (p.one_liner ? '<div class="inf-interp-oneliner">' + esc(p.one_liner) + '</div>' : '') +
+        '<details class="inf-interp-details"><summary>Full interpretation &amp; evidence</summary>' +
+          '<div class="inf-interp-body">' + p.html + '</div>' +
+          (refs ? '<div class="inf-interp-refs"><b>Key references</b><ul>' + refs + '</ul></div>' : '') +
+        '</details>' +
+      '</div>';
+    }).join('');
   }
 
   // -- load data -----------------------------------------------------------
