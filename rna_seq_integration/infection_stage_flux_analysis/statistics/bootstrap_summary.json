@@ -5,27 +5,27 @@
   "stages": [
     {
       "stage": "pre-infection",
-      "point_composite": 0.5441,
-      "boot_mean": 0.4881,
-      "ci95_lo": 0.3256,
-      "ci95_hi": 0.6611,
-      "frac_ranked_1st": 0.25
+      "point_composite": 0.5375,
+      "boot_mean": 0.4885,
+      "ci95_lo": 0.3074,
+      "ci95_hi": 0.6888,
+      "frac_ranked_1st": 0.31
     },
     {
       "stage": "biotrophic",
-      "point_composite": 0.6132,
-      "boot_mean": 0.5849,
-      "ci95_lo": 0.4411,
-      "ci95_hi": 0.7243,
-      "frac_ranked_1st": 0.724
+      "point_composite": 0.5711,
+      "boot_mean": 0.5511,
+      "ci95_lo": 0.4305,
+      "ci95_hi": 0.6586,
+      "frac_ranked_1st": 0.658
     },
     {
       "stage": "necrotrophic",
-      "point_composite": 0.3309,
-      "boot_mean": 0.4144,
-      "ci95_lo": 0.2794,
-      "ci95_hi": 0.5537,
-      "frac_ranked_1st": 0.026
+      "point_composite": 0.3312,
+      "boot_mean": 0.419,
+      "ci95_lo": 0.2893,
+      "ci95_hi": 0.5469,
+      "frac_ranked_1st": 0.032
     }
   ]
 }

@@ -1,4 +1,4 @@
 stage	point_composite	boot_mean	ci95_lo	ci95_hi	frac_ranked_1st
-biotrophic	0.6132	0.5849	0.4411	0.7243	0.724
-pre-infection	0.5441	0.4881	0.3256	0.6611	0.25
-necrotrophic	0.3309	0.4144	0.2794	0.5537	0.026
+biotrophic	0.5711	0.5511	0.4305	0.6586	0.658
+pre-infection	0.5375	0.4885	0.3074	0.6888	0.31
+necrotrophic	0.3312	0.419	0.2893	0.5469	0.032

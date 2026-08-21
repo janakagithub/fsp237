@@ -1,17 +1,17 @@
 method	stage	n_conditions	mean_composite	max_composite	best_condition	best_label	mean_spearman	mean_mcc
-eflux	biotrophic	5	0.4244	0.5746	07_sucrose_low	Sucrose (LOW, -0.5)	0.1387	0.1609
-eflux	pre-infection	5	0.3303	0.5263	05_hexacosanoate	Hexacosanoate (C26)	0.1208	0.1651
-eflux	cocktail	3	0.3022	0.4496	16_pre_infection_mix	Pre-infection mix	0.1248	0.1589
-eflux	necrotrophic	4	0.2584	0.2952	13_arabinose	L-Arabinose	0.1232	0.157
-gimme	biotrophic	5	0.7323	0.7605	07_sucrose_low	Sucrose (LOW, -0.5)	0.1495	0.1841
-gimme	pre-infection	5	0.6513	0.7563	05_hexacosanoate	Hexacosanoate (C26)	0.1328	0.1869
-gimme	cocktail	3	0.5784	0.7027	17_biotrophic_mix	Biotrophic mix	0.1327	0.1787
-gimme	necrotrophic	5	0.5153	0.7059	12_xylose	Xylose	0.1358	0.1731
-imat	cocktail	3	0.8256	0.8624	16_pre_infection_mix	Pre-infection mix	0.3599	0.2533
-imat	pre-infection	5	0.7746	0.8813	03_palmitate	Palmitate (C16:0)	0.3621	0.24
-imat	biotrophic	5	0.7702	0.8204	09_glutamine	L-Glutamine	0.3742	0.2424
-imat	necrotrophic	5	0.7445	0.8498	12_xylose	Xylose	0.3362	0.2446
-pfba	biotrophic	5	0.4277	0.4989	08_glutamate	L-Glutamate	0.1376	0.1607
-pfba	pre-infection	5	0.4126	0.6303	05_hexacosanoate	Hexacosanoate (C26)	0.126	0.1695
-pfba	cocktail	3	0.3992	0.5284	17_biotrophic_mix	Biotrophic mix	0.1231	0.1618
-pfba	necrotrophic	5	0.2714	0.3309	14_maltose	Maltose (starch)	0.1244	0.1569
+eflux	biotrophic	8	0.413	0.5795	07_sucrose_low	Sucrose (LOW, -0.5)	0.1319	0.1636
+eflux	pre-infection	5	0.3393	0.5341	05_hexacosanoate	Hexacosanoate (C26)	0.1208	0.1651
+eflux	cocktail	3	0.3091	0.4615	16_pre_infection_mix	Pre-infection mix	0.1248	0.1589
+eflux	necrotrophic	4	0.2649	0.3103	12_xylose	Xylose	0.1232	0.157
+gimme	biotrophic	8	0.7235	0.7885	19_pdb_baseline	PDB (baseline)	0.1431	0.1902
+gimme	pre-infection	5	0.6441	0.7483	05_hexacosanoate	Hexacosanoate (C26)	0.1328	0.1869
+gimme	cocktail	3	0.5793	0.6932	17_biotrophic_mix	Biotrophic mix	0.1327	0.1787
+gimme	necrotrophic	5	0.5178	0.6958	12_xylose	Xylose	0.1358	0.1731
+imat	cocktail	3	0.8363	0.8733	16_pre_infection_mix	Pre-infection mix	0.3599	0.2533
+imat	pre-infection	5	0.7853	0.889	03_palmitate	Palmitate (C16:0)	0.3621	0.24
+imat	necrotrophic	5	0.7561	0.8628	12_xylose	Xylose	0.3362	0.2446
+imat	biotrophic	8	0.75	0.8374	09_glutamine	L-Glutamine	0.3584	0.2403
+pfba	pre-infection	5	0.419	0.6302	05_hexacosanoate	Hexacosanoate (C26)	0.126	0.1695
+pfba	biotrophic	8	0.4053	0.5079	08_glutamate	L-Glutamate	0.1295	0.1629
+pfba	cocktail	3	0.405	0.5358	17_biotrophic_mix	Biotrophic mix	0.1231	0.1618
+pfba	necrotrophic	5	0.2799	0.347	13_arabinose	L-Arabinose	0.1244	0.1569

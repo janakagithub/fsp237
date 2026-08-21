@@ -1,16 +1,19 @@
 stage	condition_id	label	biomass	spearman_expr_vs_flux	hi_expr_recall	flux_precision_hi_med	mcc_active_vs_expr	agreement_score	composite
-biotrophic	08_glutamate	L-Glutamate	0.052732	0.1323	0.365	0.9804	0.1676	0.5795	0.4989
-biotrophic	09_glutamine	L-Glutamine	0.052785	0.1309	0.3625	0.9804	0.1681	0.5792	0.4874
-biotrophic	07_sucrose_low	Sucrose (LOW, -0.5)	0.036419	0.1505	0.3625	0.9778	0.1618	0.5799	0.4653
-biotrophic	06_glucose_low	Glucose (LOW, -1)	0.036419	0.1426	0.36	0.9777	0.1608	0.5776	0.4181
-biotrophic	10_gaba	GABA	0.049582	0.1316	0.3625	0.9719	0.1453	0.5757	0.2689
-necrotrophic	14_maltose	Maltose (starch)	0.364194	0.1342	0.36	0.9751	0.1551	0.5789	0.3309
-necrotrophic	13_arabinose	L-Arabinose	0.139608	0.1231	0.3475	0.9804	0.1676	0.5728	0.3298
-necrotrophic	12_xylose	Xylose	0.145678	0.1256	0.3525	0.9777	0.1608	0.5747	0.2784
-necrotrophic	11_galacturonate	D-Galacturonate	0.149263	0.1219	0.36	0.9751	0.1556	0.5787	0.2595
-necrotrophic	15_mixed_aa	Mixed AAs + glc	0.142413	0.117	0.355	0.9737	0.1454	0.5635	0.1586
-pre-infection	05_hexacosanoate	Hexacosanoate (C26)	0.206075	0.1235	0.38	0.9843	0.1872	0.6026	0.6303
-pre-infection	01_trehalose	Trehalose	0.072845	0.1394	0.355	0.9804	0.1676	0.5757	0.4664
-pre-infection	02_glycerol	Glycerol	0.020737	0.1366	0.36	0.9776	0.1603	0.5769	0.3855
-pre-infection	03_palmitate	Palmitate (C16:0)	0.11397	0.1209	0.3575	0.9784	0.1674	0.5855	0.3382
-pre-infection	04_oleate	Oleate (C18:1)	0.128026	0.1098	0.3525	0.9781	0.1648	0.5802	0.2426
+biotrophic	08_glutamate	L-Glutamate	0.052732	0.1323	0.365	0.9804	0.1676	0.5795	0.5079
+biotrophic	09_glutamine	L-Glutamine	0.052785	0.1309	0.3625	0.9804	0.1681	0.5792	0.4983
+biotrophic	07_sucrose_low	Sucrose (LOW, -0.5)	0.036419	0.1505	0.3625	0.9778	0.1618	0.5799	0.4677
+biotrophic	06_glucose_low	Glucose (LOW, -1)	0.036419	0.1426	0.36	0.9777	0.1608	0.5776	0.4196
+biotrophic	20_pdb_half	PDB (1/2 dilution)	0.095736	0.1167	0.3625	0.9786	0.1689	0.5884	0.396
+biotrophic	19_pdb_baseline	PDB (baseline)	0.191472	0.1151	0.3625	0.9786	0.1689	0.5884	0.3881
+biotrophic	21_pdb_onetenth	PDB (1/10 dilution)	0.019147	0.1166	0.3625	0.9759	0.1617	0.5878	0.292
+biotrophic	10_gaba	GABA	0.049582	0.1316	0.3625	0.9719	0.1453	0.5757	0.2727
+necrotrophic	13_arabinose	L-Arabinose	0.139608	0.1231	0.3475	0.9804	0.1676	0.5728	0.347
+necrotrophic	14_maltose	Maltose (starch)	0.364194	0.1342	0.36	0.9751	0.1551	0.5789	0.3295
+necrotrophic	12_xylose	Xylose	0.145678	0.1256	0.3525	0.9777	0.1608	0.5747	0.2946
+necrotrophic	11_galacturonate	D-Galacturonate	0.149263	0.1219	0.36	0.9751	0.1556	0.5787	0.2631
+necrotrophic	15_mixed_aa	Mixed AAs + glc	0.142413	0.117	0.355	0.9737	0.1454	0.5635	0.1652
+pre-infection	05_hexacosanoate	Hexacosanoate (C26)	0.206075	0.1235	0.38	0.9843	0.1872	0.6026	0.6302
+pre-infection	01_trehalose	Trehalose	0.072845	0.1394	0.355	0.9804	0.1676	0.5757	0.472
+pre-infection	02_glycerol	Glycerol	0.020737	0.1366	0.36	0.9776	0.1603	0.5769	0.3925
+pre-infection	03_palmitate	Palmitate (C16:0)	0.11397	0.1209	0.3575	0.9784	0.1674	0.5855	0.3479
+pre-infection	04_oleate	Oleate (C18:1)	0.128026	0.1098	0.3525	0.9781	0.1648	0.5802	0.2526

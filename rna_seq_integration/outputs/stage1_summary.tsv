@@ -1,5 +1,8 @@
 condition_id	label	stage	O2	status	biomass	n_flux_nonzero	n_gpr	SUPPORTED	WEAK_SUPPORT	CONFLICT_FLUX_NO_EXPR	ORPHAN_FLUX	PRIMED_NOT_USED	SILENT_OK	agreement_score	spearman_expr_vs_flux	hi_expr_recall	flux_precision_hi_med
 05_hexacosanoate	Hexacosanoate (C26)	pre-infection	aerobic	optimal	0.206075	497	1045	376	6	0	115	248	877	0.6026	0.1235	0.38	0.9843
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	optimal	0.191472	505	1045	366	7	1	131	255	862	0.5884	0.1149	0.3625	0.9786
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	optimal	0.095736	505	1045	366	7	1	131	255	862	0.5884	0.1167	0.3625	0.9786
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	optimal	0.019147	503	1045	365	8	1	129	255	864	0.5878	0.1166	0.3625	0.9759
 03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	optimal	0.11397	481	1045	363	8	0	110	257	884	0.5855	0.1208	0.3575	0.9784
 16_pre_infection_mix	Pre-infection mix	cocktail	aerobic	optimal	0.069347	483	1045	358	6	0	119	258	881	0.5812	0.1234	0.355	0.9835
 04_oleate	Oleate (C18:1)	pre-infection	aerobic	optimal	0.128026	485	1045	358	8	0	119	259	878	0.5802	0.1097	0.3525	0.9781
@@ -25,8 +28,11 @@ condition_id	label	stage	O2	status	biomass	n_flux_nonzero	n_gpr	SUPPORTED	WEAK_S
 01_trehalose	Trehalose	pre-infection	anaerobic	optimal	0.014816	469	1045	345	6	0	118	259	894	0.5712	0.1243	0.3525	0.9829
 07_sucrose_low	Sucrose (LOW, -0.5)	biotrophic	anaerobic	optimal	0.007406	463	1045	343	6	0	114	259	900	0.5698	0.1324	0.3525	0.9828
 06_glucose_low	Glucose (LOW, -1)	biotrophic	anaerobic	optimal	0.007406	460	1045	342	6	0	112	259	903	0.5691	0.1361	0.3525	0.9828
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	optimal	0.040333	484	1045	338	7	1	138	259	879	0.5652	0.1023	0.3525	0.9769
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	optimal	0.020167	482	1045	338	7	1	136	259	881	0.5652	0.1044	0.3525	0.9769
 18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	optimal	0.088362	478	1045	324	9	1	144	264	880	0.5501	0.0905	0.34	0.9701
 15_mixed_aa	Mixed AAs + glc	necrotrophic	anaerobic	optimal	0.011477	458	1045	318	9	0	131	265	899	0.5455	0.0991	0.3375	0.9725
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	optimal	0.004033	426	1045	306	6	0	114	272	924	0.5294	0.1068	0.32	0.9808
 02_glycerol	Glycerol	pre-infection	anaerobic	optimal	0.000437	357	1045	277	5	0	75	278	987	0.4991	0.1363	0.305	0.9823
 03_palmitate	Palmitate (C16:0)	pre-infection	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			
 04_oleate	Oleate (C18:1)	pre-infection	anaerobic	optimal	0.0	0	1045	0	0	0	0	0	0	0.0			

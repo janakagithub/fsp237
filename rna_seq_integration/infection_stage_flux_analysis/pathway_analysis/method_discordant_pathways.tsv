@@ -1,24 +1,24 @@
 pathway	mean_method_range
 GAM / maintenance	1.0
-β-oxidation (peroxisomal)	0.4475
-TCA cycle	0.4215
-Glycolysis / gluconeogenesis	0.3372
-Pentose phosphate pathway	0.3167
-Storage (glycogen / trehalose)	0.2857
-Transport (inter-compartmental)	0.2448
-Nucleotide metabolism	0.2248
-Cofactor / vitamin biosynthesis	0.2222
-Cell-wall polysaccharide	0.1976
-Other / unassigned	0.1965
-Oxidative phosphorylation / ETC	0.1921
-Amino-acid metabolism	0.1557
-Lipid / membrane	0.1127
-Exchange	0.1072
-Pectin / D-galacturonate (Ashwell)	0.0926
-Fatty-acid biosynthesis	0.0833
-Sulfur / nitrogen assimilation	0.0556
-Compatible solute / mannitol	0.0556
-Sink / demand	0.0556
-Melanin / DHN	0.0556
-Biomass	0.0093
+β-oxidation (peroxisomal)	0.4462
+TCA cycle	0.4145
+Glycolysis / gluconeogenesis	0.3259
+Pentose phosphate pathway	0.3119
+Storage (glycogen / trehalose)	0.2789
+Transport (inter-compartmental)	0.245
+Nucleotide metabolism	0.2222
+Cofactor / vitamin biosynthesis	0.2186
+Other / unassigned	0.1922
+Oxidative phosphorylation / ETC	0.1885
+Cell-wall polysaccharide	0.1826
+Amino-acid metabolism	0.1449
+Lipid / membrane	0.1129
+Exchange	0.1034
+Sulfur / nitrogen assimilation	0.0953
+Fatty-acid biosynthesis	0.0852
+Pectin / D-galacturonate (Ashwell)	0.0794
+Compatible solute / mannitol	0.0476
+Sink / demand	0.0476
+Melanin / DHN	0.0476
+Biomass	0.0079
 Pentose-sugar catabolism	0.0

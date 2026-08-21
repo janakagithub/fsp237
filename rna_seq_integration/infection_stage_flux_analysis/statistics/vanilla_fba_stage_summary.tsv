@@ -1,4 +1,4 @@
 stage	n	mean_biomass	mean_composite	mean_spearman
-pre-infection	5	0.1083	0.4126	0.126
-biotrophic	5	0.0456	0.4277	0.1376
-necrotrophic	5	0.1882	0.2714	0.1244
+pre-infection	5	0.1083	0.419	0.126
+biotrophic	8	0.0668	0.4053	0.1295
+necrotrophic	5	0.1882	0.2799	0.1244

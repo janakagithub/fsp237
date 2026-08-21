@@ -1,0 +1,40 @@
+nutrient	category	modelseed_id	model_metabolite_name	exchange_rxn	pdb_conc_mM	carbon_atoms	confidence	mapping_status	notes
+D-Glucose	carbon	cpd00027	D-Glucose	EX_cpd00027_e0	111.92	6	high	mapped	Anchor carbon source; dextrose in PDB. Uptake fixed at 5.0 (baseline).
+D-Fructose	carbon	cpd00082	D-Fructose	EX_cpd00082_e0	0.460702	6	high	mapped	Minor free sugar in potato infusion; secondary carbon, capped.
+Sucrose	carbon	cpd00076	Sucrose	EX_cpd00076_e0	1.33363	12	high	mapped	Potato disaccharide; secondary carbon, capped.
+L-Alanine	amino_acid	cpd00035	L-Alanine_e0	EX_cpd00035_e0	0.284151	3	high	mapped	Free AA in potato infusion; C+N, capped.
+L-Arginine	amino_acid	cpd00051	L-Arginine_e0	EX_cpd00051_e0	0.628932	6	high	mapped	Free AA; capped.
+L-Asparagine	amino_acid	cpd00132	L-Asparagine_e0	EX_cpd00132_e0	3.41122	4	high	mapped	Abundant free AA in potato; capped.
+L-Aspartate	amino_acid	cpd00041	L-Aspartate_e0	EX_cpd00041_e0	0.795079	4	high	mapped	Free AA; capped.
+L-Cysteine	amino_acid	cpd00084	L-Cysteine_e0	EX_cpd00084_e0	0.167836	3	high	mapped	Free AA; capped.
+L-Glutamate	amino_acid	cpd00023	L-Glutamate_e0	EX_cpd00023_e0	0.820805	5	high	mapped	Free AA; capped.
+L-Glutamine	amino_acid	cpd00053	L-Glutamine_e0	EX_cpd00053_e0	2.31707	5	high	mapped	Abundant free AA; capped.
+Glycine	amino_acid	cpd00033	Glycine_e0	EX_cpd00033_e0	0.270881	2	high	mapped	Free AA; capped.
+L-Histidine	amino_acid	cpd00119	L-Histidine_e0	EX_cpd00119_e0	0.163154	6	high	mapped	Free AA; capped.
+L-Isoleucine	amino_acid	cpd00322	L-Isoleucine_e0	EX_cpd00322_e0	0.243597	6	high	mapped	Free AA; capped.
+L-Leucine	amino_acid	cpd00107	L-Leucine_e0	EX_cpd00107_e0	0.161343	6	high	mapped	Free AA; capped.
+L-Lysine	amino_acid	cpd00039	L-Lysine_e0	EX_cpd00039_e0	0.255489	6	high	mapped	Free AA; capped.
+L-Methionine	amino_acid	cpd00060	L-Methionine_e0	EX_cpd00060_e0	0.191911	5	high	mapped	Free AA; capped.
+L-Phenylalanine	amino_acid	cpd00066	L-Phenylalanine_e0	EX_cpd00066_e0	0.228616	9	high	mapped	Free AA; capped.
+L-Proline	amino_acid	cpd00129	L-Proline_e0	EX_cpd00129_e0	0.306393	5	high	mapped	Free AA; capped.
+L-Serine	amino_acid	cpd00054	L-Serine_e0	EX_cpd00054_e0	0.308022	3	high	mapped	Free AA; capped.
+L-Threonine	amino_acid	cpd00161	L-Threonine_e0	EX_cpd00161_e0	0.229936	4	high	mapped	Free AA; capped.
+L-Tryptophan	amino_acid	cpd00065	L-Tryptophan_e0	EX_cpd00065_e0	0.0995691	11	high	mapped	Free AA; capped.
+L-Tyrosine	amino_acid	cpd00069	L-Tyrosine_e0	EX_cpd00069_e0	0.139715	9	high	mapped	Free AA; capped.
+L-Valine	amino_acid	cpd00156	L-Valine_e0	EX_cpd00156_e0	0.935211	5	high	mapped	Free AA; capped.
+Thiamine (B1)	vitamin	cpd00305	Thiamin_e0	EX_cpd00305_e0	0.000609926	12	high	mapped	Trace vitamin; concentration-scaled, negligible carbon.
+Riboflavin (B2)	vitamin	cpd00220	Riboflavin_e0	EX_cpd00220_e0	0.000165383	17	high	mapped	Trace vitamin; concentration-scaled.
+Niacin (B3)	vitamin	cpd00218	Niacin_e0	EX_cpd00218_e0	0.0166549	6	high	mapped	Trace vitamin; concentration-scaled.
+Pantothenate (B5)	vitamin	cpd00644	PAN_e0	EX_cpd00644_e0	0.00266233	9	high	mapped	Trace vitamin; concentration-scaled.
+Pyridoxal (B6)	vitamin	cpd00215	Pyridoxal_e0	EX_cpd00215_e0	0.00343421	8	medium	mapped	B6 mapped to pyridoxal (cpd00215); model lacks pyridoxine exchange. Trace, scaled.
+Folate (B9)	vitamin	cpd00393	Folate_e0	EX_cpd00393_e0	6.76937e-05	19	high	mapped	Trace vitamin; concentration-scaled.
+Phosphorus (as phosphate)	mineral	cpd00009	Phosphate	EX_cpd00009_e0		0	high	backbone(-1000)	Phosphate species (not elemental P); in minimal-media backbone at -1000.
+Potassium	mineral	cpd00205	K+_e0	EX_cpd00205_e0		0	high	backbone(-1000)	K+ in backbone at -1000.
+Sodium	mineral	cpd00971	Na+_e0	EX_cpd00971_e0		0	high	backbone(-1000)	Na+ in backbone at -1000.
+Iron	mineral	cpd10515	Fe2+_e0	EX_cpd10515_e0		0	high	backbone(-1000)	Fe2+ (ionic form in model) in backbone at -1000.
+Calcium	mineral	cpd00063 (no exchange)					n/a	omitted	Omitted: no transport/consumption pathway in model.
+Magnesium	mineral	cpd00254 (no exchange)					n/a	omitted	Omitted: no transport/consumption pathway in model.
+Zinc	mineral	cpd00034 (no exchange)					n/a	omitted	Omitted: no transport/consumption pathway in model.
+Copper	mineral	cpd00058 (no exchange)					n/a	omitted	Omitted: no transport/consumption pathway in model.
+Manganese	mineral	cpd00030 (no exchange)					n/a	omitted	Omitted: no transport/consumption pathway in model.
+Vitamin C (ascorbate)	vitamin	cpd00059 (absent)					n/a	omitted	Omitted: absent from model; no consumption pathway (per user instruction).

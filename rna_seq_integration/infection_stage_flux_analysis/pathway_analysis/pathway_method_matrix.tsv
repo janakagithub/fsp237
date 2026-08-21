@@ -30,6 +30,12 @@ Amino-acid metabolism	eflux	17_biotrophic_mix	aerobic	cocktail	162	56	3.5276	0.3
 Amino-acid metabolism	eflux	17_biotrophic_mix	anaerobic	cocktail	162	51	5.4322	0.3148
 Amino-acid metabolism	eflux	18_necrotrophic_mix	aerobic	cocktail	162	63	9.2365	0.3889
 Amino-acid metabolism	eflux	18_necrotrophic_mix	anaerobic	cocktail	162	57	6.5919	0.3519
+Amino-acid metabolism	eflux	19_pdb_baseline	aerobic	biotrophic	162	70	3.2219	0.4321
+Amino-acid metabolism	eflux	19_pdb_baseline	anaerobic	biotrophic	162	63	3.9413	0.3889
+Amino-acid metabolism	eflux	20_pdb_half	aerobic	biotrophic	162	70	1.611	0.4321
+Amino-acid metabolism	eflux	20_pdb_half	anaerobic	biotrophic	162	63	1.9706	0.3889
+Amino-acid metabolism	eflux	21_pdb_onetenth	aerobic	biotrophic	162	70	0.3222	0.4321
+Amino-acid metabolism	eflux	21_pdb_onetenth	anaerobic	biotrophic	162	60	0.3941	0.3704
 Amino-acid metabolism	gimme	01_trehalose	aerobic	pre-infection	162	48	1.1945	0.2963
 Amino-acid metabolism	gimme	01_trehalose	anaerobic	pre-infection	162	50	1.2685	0.3086
 Amino-acid metabolism	gimme	02_glycerol	aerobic	pre-infection	162	52	0.4104	0.321
@@ -61,10 +67,16 @@ Amino-acid metabolism	gimme	17_biotrophic_mix	aerobic	cocktail	162	55	3.532	0.33
 Amino-acid metabolism	gimme	17_biotrophic_mix	anaerobic	cocktail	162	54	6.4139	0.3333
 Amino-acid metabolism	gimme	18_necrotrophic_mix	aerobic	cocktail	162	61	8.7754	0.3765
 Amino-acid metabolism	gimme	18_necrotrophic_mix	anaerobic	cocktail	162	58	9.4423	0.358
+Amino-acid metabolism	gimme	19_pdb_baseline	aerobic	biotrophic	162	70	1003.6371	0.4321
+Amino-acid metabolism	gimme	19_pdb_baseline	anaerobic	biotrophic	162	64	3.0707	0.3951
+Amino-acid metabolism	gimme	20_pdb_half	aerobic	biotrophic	162	71	1.849	0.4383
+Amino-acid metabolism	gimme	20_pdb_half	anaerobic	biotrophic	162	66	2001.8228	0.4074
+Amino-acid metabolism	gimme	21_pdb_onetenth	aerobic	biotrophic	162	71	1000.2863	0.4383
+Amino-acid metabolism	gimme	21_pdb_onetenth	anaerobic	biotrophic	162	61	0.3274	0.3765
 Amino-acid metabolism	imat	01_trehalose	aerobic	pre-infection	162	75	79.7111	0.463
 Amino-acid metabolism	imat	01_trehalose	anaerobic	pre-infection	162	75	4001.7972	0.463
 Amino-acid metabolism	imat	02_glycerol	aerobic	pre-infection	162	77	2001.0038	0.4753
-Amino-acid metabolism	imat	02_glycerol	anaerobic	pre-infection	162	58	2001.2903	0.358
+Amino-acid metabolism	imat	02_glycerol	anaerobic	pre-infection	162	60	1.3237	0.3704
 Amino-acid metabolism	imat	03_palmitate	aerobic	pre-infection	162	72	7.288	0.4444
 Amino-acid metabolism	imat	04_oleate	aerobic	pre-infection	162	76	2025.3582	0.4691
 Amino-acid metabolism	imat	05_hexacosanoate	aerobic	pre-infection	162	72	782.8921	0.4444
@@ -73,9 +85,9 @@ Amino-acid metabolism	imat	06_glucose_low	anaerobic	biotrophic	162	77	2000.5492	
 Amino-acid metabolism	imat	07_sucrose_low	aerobic	biotrophic	162	72	0.8789	0.4444
 Amino-acid metabolism	imat	07_sucrose_low	anaerobic	biotrophic	162	74	0.7814	0.4568
 Amino-acid metabolism	imat	08_glutamate	aerobic	biotrophic	162	75	4.3891	0.463
-Amino-acid metabolism	imat	08_glutamate	anaerobic	biotrophic	162	60	8.4097	0.3704
+Amino-acid metabolism	imat	08_glutamate	anaerobic	biotrophic	162	62	9.025	0.3827
 Amino-acid metabolism	imat	09_glutamine	aerobic	biotrophic	162	72	57.5262	0.4444
-Amino-acid metabolism	imat	09_glutamine	anaerobic	biotrophic	162	59	11.0435	0.3642
+Amino-acid metabolism	imat	09_glutamine	anaerobic	biotrophic	162	60	10.4262	0.3704
 Amino-acid metabolism	imat	10_gaba	aerobic	biotrophic	162	73	7.3466	0.4506
 Amino-acid metabolism	imat	11_galacturonate	aerobic	necrotrophic	162	71	3.1685	0.4383
 Amino-acid metabolism	imat	11_galacturonate	anaerobic	necrotrophic	162	75	4006.3302	0.463
@@ -92,6 +104,12 @@ Amino-acid metabolism	imat	17_biotrophic_mix	aerobic	cocktail	162	77	2.0645	0.47
 Amino-acid metabolism	imat	17_biotrophic_mix	anaerobic	cocktail	162	77	2003.8242	0.4753
 Amino-acid metabolism	imat	18_necrotrophic_mix	aerobic	cocktail	162	79	15.8336	0.4877
 Amino-acid metabolism	imat	18_necrotrophic_mix	anaerobic	cocktail	162	78	2008.7657	0.4815
+Amino-acid metabolism	imat	19_pdb_baseline	aerobic	biotrophic	162	87	10.7485	0.537
+Amino-acid metabolism	imat	19_pdb_baseline	anaerobic	biotrophic	162	80	2.1507	0.4938
+Amino-acid metabolism	imat	20_pdb_half	aerobic	biotrophic	162	81	2117.4733	0.5
+Amino-acid metabolism	imat	20_pdb_half	anaerobic	biotrophic	162	79	0.7026	0.4877
+Amino-acid metabolism	imat	21_pdb_onetenth	aerobic	biotrophic	162	81	2000.4057	0.5
+Amino-acid metabolism	imat	21_pdb_onetenth	anaerobic	biotrophic	162	81	3000.4375	0.5
 Amino-acid metabolism	pfba	01_trehalose	aerobic	pre-infection	162	51	1.3338	0.3148
 Amino-acid metabolism	pfba	01_trehalose	anaerobic	pre-infection	162	49	1.605	0.3025
 Amino-acid metabolism	pfba	02_glycerol	aerobic	pre-infection	162	53	0.4609	0.3272
@@ -123,6 +141,12 @@ Amino-acid metabolism	pfba	17_biotrophic_mix	aerobic	cocktail	162	56	3.5276	0.34
 Amino-acid metabolism	pfba	17_biotrophic_mix	anaerobic	cocktail	162	51	5.4322	0.3148
 Amino-acid metabolism	pfba	18_necrotrophic_mix	aerobic	cocktail	162	63	9.4304	0.3889
 Amino-acid metabolism	pfba	18_necrotrophic_mix	anaerobic	cocktail	162	54	5.7743	0.3333
+Amino-acid metabolism	pfba	19_pdb_baseline	aerobic	biotrophic	162	70	3.2217	0.4321
+Amino-acid metabolism	pfba	19_pdb_baseline	anaerobic	biotrophic	162	60	3.94	0.3704
+Amino-acid metabolism	pfba	20_pdb_half	aerobic	biotrophic	162	70	1.6108	0.4321
+Amino-acid metabolism	pfba	20_pdb_half	anaerobic	biotrophic	162	61	1.9707	0.3765
+Amino-acid metabolism	pfba	21_pdb_onetenth	aerobic	biotrophic	162	70	0.3222	0.4321
+Amino-acid metabolism	pfba	21_pdb_onetenth	anaerobic	biotrophic	162	60	0.3941	0.3704
 Biomass	eflux	01_trehalose	aerobic	pre-infection	6	1	0.0728	0.1667
 Biomass	eflux	01_trehalose	anaerobic	pre-infection	6	1	0.0148	0.1667
 Biomass	eflux	02_glycerol	aerobic	pre-infection	6	1	0.0207	0.1667
@@ -154,6 +178,12 @@ Biomass	eflux	17_biotrophic_mix	aerobic	cocktail	6	1	0.0627	0.1667
 Biomass	eflux	17_biotrophic_mix	anaerobic	cocktail	6	1	0.0094	0.1667
 Biomass	eflux	18_necrotrophic_mix	aerobic	cocktail	6	1	0.4127	0.1667
 Biomass	eflux	18_necrotrophic_mix	anaerobic	cocktail	6	1	0.08	0.1667
+Biomass	eflux	19_pdb_baseline	aerobic	biotrophic	6	1	0.1915	0.1667
+Biomass	eflux	19_pdb_baseline	anaerobic	biotrophic	6	1	0.0403	0.1667
+Biomass	eflux	20_pdb_half	aerobic	biotrophic	6	1	0.0957	0.1667
+Biomass	eflux	20_pdb_half	anaerobic	biotrophic	6	1	0.0202	0.1667
+Biomass	eflux	21_pdb_onetenth	aerobic	biotrophic	6	1	0.0191	0.1667
+Biomass	eflux	21_pdb_onetenth	anaerobic	biotrophic	6	1	0.004	0.1667
 Biomass	gimme	01_trehalose	aerobic	pre-infection	6	1	0.0656	0.1667
 Biomass	gimme	01_trehalose	anaerobic	pre-infection	6	1	0.0133	0.1667
 Biomass	gimme	02_glycerol	aerobic	pre-infection	6	1	0.0187	0.1667
@@ -185,6 +215,12 @@ Biomass	gimme	17_biotrophic_mix	aerobic	cocktail	6	1	0.0564	0.1667
 Biomass	gimme	17_biotrophic_mix	anaerobic	cocktail	6	1	0.0084	0.1667
 Biomass	gimme	18_necrotrophic_mix	aerobic	cocktail	6	1	0.401	0.1667
 Biomass	gimme	18_necrotrophic_mix	anaerobic	cocktail	6	1	0.0795	0.1667
+Biomass	gimme	19_pdb_baseline	aerobic	biotrophic	6	1	0.1723	0.1667
+Biomass	gimme	19_pdb_baseline	anaerobic	biotrophic	6	1	0.0363	0.1667
+Biomass	gimme	20_pdb_half	aerobic	biotrophic	6	1	0.0862	0.1667
+Biomass	gimme	20_pdb_half	anaerobic	biotrophic	6	1	0.0181	0.1667
+Biomass	gimme	21_pdb_onetenth	aerobic	biotrophic	6	1	0.0172	0.1667
+Biomass	gimme	21_pdb_onetenth	anaerobic	biotrophic	6	1	0.0036	0.1667
 Biomass	imat	01_trehalose	aerobic	pre-infection	6	1	0.02	0.1667
 Biomass	imat	01_trehalose	anaerobic	pre-infection	6	1	0.0099	0.1667
 Biomass	imat	02_glycerol	aerobic	pre-infection	6	1	0.0026	0.1667
@@ -216,6 +252,12 @@ Biomass	imat	17_biotrophic_mix	aerobic	cocktail	6	1	0.0063	0.1667
 Biomass	imat	17_biotrophic_mix	anaerobic	cocktail	6	1	0.0026	0.1667
 Biomass	imat	18_necrotrophic_mix	aerobic	cocktail	6	1	0.1667	0.1667
 Biomass	imat	18_necrotrophic_mix	anaerobic	cocktail	6	1	0.02	0.1667
+Biomass	imat	19_pdb_baseline	aerobic	biotrophic	6	1	0.125	0.1667
+Biomass	imat	19_pdb_baseline	anaerobic	biotrophic	6	1	0.02	0.1667
+Biomass	imat	20_pdb_half	aerobic	biotrophic	6	1	0.02	0.1667
+Biomass	imat	20_pdb_half	anaerobic	biotrophic	6	1	0.0026	0.1667
+Biomass	imat	21_pdb_onetenth	aerobic	biotrophic	6	1	0.0026	0.1667
+Biomass	imat	21_pdb_onetenth	anaerobic	biotrophic	6	1	0.0009	0.1667
 Biomass	pfba	01_trehalose	aerobic	pre-infection	6	1	0.0728	0.1667
 Biomass	pfba	01_trehalose	anaerobic	pre-infection	6	1	0.0148	0.1667
 Biomass	pfba	02_glycerol	aerobic	pre-infection	6	1	0.0207	0.1667
@@ -247,6 +289,12 @@ Biomass	pfba	17_biotrophic_mix	aerobic	cocktail	6	1	0.0627	0.1667
 Biomass	pfba	17_biotrophic_mix	anaerobic	cocktail	6	1	0.0094	0.1667
 Biomass	pfba	18_necrotrophic_mix	aerobic	cocktail	6	1	0.4455	0.1667
 Biomass	pfba	18_necrotrophic_mix	anaerobic	cocktail	6	1	0.0884	0.1667
+Biomass	pfba	19_pdb_baseline	aerobic	biotrophic	6	1	0.1915	0.1667
+Biomass	pfba	19_pdb_baseline	anaerobic	biotrophic	6	1	0.0403	0.1667
+Biomass	pfba	20_pdb_half	aerobic	biotrophic	6	1	0.0957	0.1667
+Biomass	pfba	20_pdb_half	anaerobic	biotrophic	6	1	0.0202	0.1667
+Biomass	pfba	21_pdb_onetenth	aerobic	biotrophic	6	1	0.0191	0.1667
+Biomass	pfba	21_pdb_onetenth	anaerobic	biotrophic	6	1	0.004	0.1667
 Cell-wall polysaccharide	eflux	01_trehalose	aerobic	pre-infection	18	8	0.1667	0.4444
 Cell-wall polysaccharide	eflux	01_trehalose	anaerobic	pre-infection	18	9	0.0678	0.5
 Cell-wall polysaccharide	eflux	02_glycerol	aerobic	pre-infection	18	8	0.0475	0.4444
@@ -278,6 +326,12 @@ Cell-wall polysaccharide	eflux	17_biotrophic_mix	aerobic	cocktail	18	8	0.1434	0.
 Cell-wall polysaccharide	eflux	17_biotrophic_mix	anaerobic	cocktail	18	9	0.0429	0.5
 Cell-wall polysaccharide	eflux	18_necrotrophic_mix	aerobic	cocktail	18	7	0.8894	0.3889
 Cell-wall polysaccharide	eflux	18_necrotrophic_mix	anaerobic	cocktail	18	7	0.1723	0.3889
+Cell-wall polysaccharide	eflux	19_pdb_baseline	aerobic	biotrophic	18	9	0.4305	0.5
+Cell-wall polysaccharide	eflux	19_pdb_baseline	anaerobic	biotrophic	18	9	0.1763	0.5
+Cell-wall polysaccharide	eflux	20_pdb_half	aerobic	biotrophic	18	9	0.2153	0.5
+Cell-wall polysaccharide	eflux	20_pdb_half	anaerobic	biotrophic	18	9	0.0882	0.5
+Cell-wall polysaccharide	eflux	21_pdb_onetenth	aerobic	biotrophic	18	9	0.0431	0.5
+Cell-wall polysaccharide	eflux	21_pdb_onetenth	anaerobic	biotrophic	18	9	0.0176	0.5
 Cell-wall polysaccharide	gimme	01_trehalose	aerobic	pre-infection	18	8	0.15	0.4444
 Cell-wall polysaccharide	gimme	01_trehalose	anaerobic	pre-infection	18	9	0.061	0.5
 Cell-wall polysaccharide	gimme	02_glycerol	aerobic	pre-infection	18	8	0.0427	0.4444
@@ -309,10 +363,16 @@ Cell-wall polysaccharide	gimme	17_biotrophic_mix	aerobic	cocktail	18	9	0.1298	0.
 Cell-wall polysaccharide	gimme	17_biotrophic_mix	anaerobic	cocktail	18	8	0.0385	0.4444
 Cell-wall polysaccharide	gimme	18_necrotrophic_mix	aerobic	cocktail	18	7	0.8642	0.3889
 Cell-wall polysaccharide	gimme	18_necrotrophic_mix	anaerobic	cocktail	18	8	1.0124	0.4444
+Cell-wall polysaccharide	gimme	19_pdb_baseline	aerobic	biotrophic	18	9	0.3867	0.5
+Cell-wall polysaccharide	gimme	19_pdb_baseline	anaerobic	biotrophic	18	9	0.1579	0.5
+Cell-wall polysaccharide	gimme	20_pdb_half	aerobic	biotrophic	18	9	0.1934	0.5
+Cell-wall polysaccharide	gimme	20_pdb_half	anaerobic	biotrophic	18	9	0.079	0.5
+Cell-wall polysaccharide	gimme	21_pdb_onetenth	aerobic	biotrophic	18	9	0.0387	0.5
+Cell-wall polysaccharide	gimme	21_pdb_onetenth	anaerobic	biotrophic	18	9	0.0158	0.5
 Cell-wall polysaccharide	imat	01_trehalose	aerobic	pre-infection	18	11	0.0505	0.6111
 Cell-wall polysaccharide	imat	01_trehalose	anaerobic	pre-infection	18	11	0.069	0.6111
 Cell-wall polysaccharide	imat	02_glycerol	aerobic	pre-infection	18	12	0.0132	0.6667
-Cell-wall polysaccharide	imat	02_glycerol	anaerobic	pre-infection	18	10	0.0201	0.5556
+Cell-wall polysaccharide	imat	02_glycerol	anaerobic	pre-infection	18	10	0.0101	0.5556
 Cell-wall polysaccharide	imat	03_palmitate	aerobic	pre-infection	18	11	0.1947	0.6111
 Cell-wall polysaccharide	imat	04_oleate	aerobic	pre-infection	18	12	12.3852	0.6667
 Cell-wall polysaccharide	imat	05_hexacosanoate	aerobic	pre-infection	18	12	0.0519	0.6667
@@ -321,9 +381,9 @@ Cell-wall polysaccharide	imat	06_glucose_low	anaerobic	biotrophic	18	11	0.0271	0
 Cell-wall polysaccharide	imat	07_sucrose_low	aerobic	biotrophic	18	10	0.0505	0.5556
 Cell-wall polysaccharide	imat	07_sucrose_low	anaerobic	biotrophic	18	11	0.0337	0.6111
 Cell-wall polysaccharide	imat	08_glutamate	aerobic	biotrophic	18	12	0.1027	0.6667
-Cell-wall polysaccharide	imat	08_glutamate	anaerobic	biotrophic	18	12	1.2411	0.6667
+Cell-wall polysaccharide	imat	08_glutamate	anaerobic	biotrophic	18	12	0.0061	0.6667
 Cell-wall polysaccharide	imat	09_glutamine	aerobic	biotrophic	18	12	0.0505	0.6667
-Cell-wall polysaccharide	imat	09_glutamine	anaerobic	biotrophic	18	12	0.0061	0.6667
+Cell-wall polysaccharide	imat	09_glutamine	anaerobic	biotrophic	18	12	1.2409	0.6667
 Cell-wall polysaccharide	imat	10_gaba	aerobic	biotrophic	18	12	0.0181	0.6667
 Cell-wall polysaccharide	imat	11_galacturonate	aerobic	necrotrophic	18	11	0.2901	0.6111
 Cell-wall polysaccharide	imat	11_galacturonate	anaerobic	necrotrophic	18	11	0.036	0.6111
@@ -340,6 +400,12 @@ Cell-wall polysaccharide	imat	17_biotrophic_mix	aerobic	cocktail	18	12	0.0207	0.
 Cell-wall polysaccharide	imat	17_biotrophic_mix	anaerobic	cocktail	18	11	0.0399	0.6111
 Cell-wall polysaccharide	imat	18_necrotrophic_mix	aerobic	cocktail	18	9	0.3612	0.5
 Cell-wall polysaccharide	imat	18_necrotrophic_mix	anaerobic	cocktail	18	11	0.0498	0.6111
+Cell-wall polysaccharide	imat	19_pdb_baseline	aerobic	biotrophic	18	10	0.2824	0.5556
+Cell-wall polysaccharide	imat	19_pdb_baseline	anaerobic	biotrophic	18	12	0.1028	0.6667
+Cell-wall polysaccharide	imat	20_pdb_half	aerobic	biotrophic	18	12	0.0486	0.6667
+Cell-wall polysaccharide	imat	20_pdb_half	anaerobic	biotrophic	18	11	0.0283	0.6111
+Cell-wall polysaccharide	imat	21_pdb_onetenth	aerobic	biotrophic	18	10	0.0113	0.5556
+Cell-wall polysaccharide	imat	21_pdb_onetenth	anaerobic	biotrophic	18	11	0.0204	0.6111
 Cell-wall polysaccharide	pfba	01_trehalose	aerobic	pre-infection	18	8	0.1667	0.4444
 Cell-wall polysaccharide	pfba	01_trehalose	anaerobic	pre-infection	18	9	0.0678	0.5
 Cell-wall polysaccharide	pfba	02_glycerol	aerobic	pre-infection	18	8	0.0475	0.4444
@@ -371,6 +437,12 @@ Cell-wall polysaccharide	pfba	17_biotrophic_mix	aerobic	cocktail	18	8	0.1434	0.4
 Cell-wall polysaccharide	pfba	17_biotrophic_mix	anaerobic	cocktail	18	9	0.0429	0.5
 Cell-wall polysaccharide	pfba	18_necrotrophic_mix	aerobic	cocktail	18	7	0.9602	0.3889
 Cell-wall polysaccharide	pfba	18_necrotrophic_mix	anaerobic	cocktail	18	7	0.1904	0.3889
+Cell-wall polysaccharide	pfba	19_pdb_baseline	aerobic	biotrophic	18	9	0.4305	0.5
+Cell-wall polysaccharide	pfba	19_pdb_baseline	anaerobic	biotrophic	18	9	0.1763	0.5
+Cell-wall polysaccharide	pfba	20_pdb_half	aerobic	biotrophic	18	9	0.2153	0.5
+Cell-wall polysaccharide	pfba	20_pdb_half	anaerobic	biotrophic	18	9	0.0882	0.5
+Cell-wall polysaccharide	pfba	21_pdb_onetenth	aerobic	biotrophic	18	9	0.0431	0.5
+Cell-wall polysaccharide	pfba	21_pdb_onetenth	anaerobic	biotrophic	18	9	0.0176	0.5
 Cofactor / vitamin biosynthesis	eflux	01_trehalose	aerobic	pre-infection	117	38	1.1291	0.3248
 Cofactor / vitamin biosynthesis	eflux	01_trehalose	anaerobic	pre-infection	117	40	4.1093	0.3419
 Cofactor / vitamin biosynthesis	eflux	02_glycerol	aerobic	pre-infection	117	41	0.8042	0.3504
@@ -402,6 +474,12 @@ Cofactor / vitamin biosynthesis	eflux	17_biotrophic_mix	aerobic	cocktail	117	39	
 Cofactor / vitamin biosynthesis	eflux	17_biotrophic_mix	anaerobic	cocktail	117	37	1.2873	0.3162
 Cofactor / vitamin biosynthesis	eflux	18_necrotrophic_mix	aerobic	cocktail	117	33	2.9713	0.2821
 Cofactor / vitamin biosynthesis	eflux	18_necrotrophic_mix	anaerobic	cocktail	117	35	14.7658	0.2991
+Cofactor / vitamin biosynthesis	eflux	19_pdb_baseline	aerobic	biotrophic	117	36	2.4578	0.3077
+Cofactor / vitamin biosynthesis	eflux	19_pdb_baseline	anaerobic	biotrophic	117	38	10.2093	0.3248
+Cofactor / vitamin biosynthesis	eflux	20_pdb_half	aerobic	biotrophic	117	37	1.3313	0.3162
+Cofactor / vitamin biosynthesis	eflux	20_pdb_half	anaerobic	biotrophic	117	38	5.0419	0.3248
+Cofactor / vitamin biosynthesis	eflux	21_pdb_onetenth	aerobic	biotrophic	117	36	0.2458	0.3077
+Cofactor / vitamin biosynthesis	eflux	21_pdb_onetenth	anaerobic	biotrophic	117	30	1.0084	0.2564
 Cofactor / vitamin biosynthesis	gimme	01_trehalose	aerobic	pre-infection	117	41	1.0826	0.3504
 Cofactor / vitamin biosynthesis	gimme	01_trehalose	anaerobic	pre-infection	117	41	4.6256	0.3504
 Cofactor / vitamin biosynthesis	gimme	02_glycerol	aerobic	pre-infection	117	40	0.6482	0.3419
@@ -433,10 +511,16 @@ Cofactor / vitamin biosynthesis	gimme	17_biotrophic_mix	aerobic	cocktail	117	39	
 Cofactor / vitamin biosynthesis	gimme	17_biotrophic_mix	anaerobic	cocktail	117	38	1.7672	0.3248
 Cofactor / vitamin biosynthesis	gimme	18_necrotrophic_mix	aerobic	cocktail	117	37	7.2418	0.3162
 Cofactor / vitamin biosynthesis	gimme	18_necrotrophic_mix	anaerobic	cocktail	117	39	1018.7598	0.3333
+Cofactor / vitamin biosynthesis	gimme	19_pdb_baseline	aerobic	biotrophic	117	39	1003.8507	0.3333
+Cofactor / vitamin biosynthesis	gimme	19_pdb_baseline	anaerobic	biotrophic	117	41	10.8641	0.3504
+Cofactor / vitamin biosynthesis	gimme	20_pdb_half	aerobic	biotrophic	117	40	2987.9578	0.3419
+Cofactor / vitamin biosynthesis	gimme	20_pdb_half	anaerobic	biotrophic	117	40	4.9825	0.3419
+Cofactor / vitamin biosynthesis	gimme	21_pdb_onetenth	aerobic	biotrophic	117	39	100.3862	0.3333
+Cofactor / vitamin biosynthesis	gimme	21_pdb_onetenth	anaerobic	biotrophic	117	33	1.1412	0.2821
 Cofactor / vitamin biosynthesis	imat	01_trehalose	aerobic	pre-infection	117	65	1676.5481	0.5556
 Cofactor / vitamin biosynthesis	imat	01_trehalose	anaerobic	pre-infection	117	58	2003.7013	0.4957
 Cofactor / vitamin biosynthesis	imat	02_glycerol	aerobic	pre-infection	117	53	36.9877	0.453
-Cofactor / vitamin biosynthesis	imat	02_glycerol	anaerobic	pre-infection	117	35	670.0617	0.2991
+Cofactor / vitamin biosynthesis	imat	02_glycerol	anaerobic	pre-infection	117	35	668.9439	0.2991
 Cofactor / vitamin biosynthesis	imat	03_palmitate	aerobic	pre-infection	117	63	692.3614	0.5385
 Cofactor / vitamin biosynthesis	imat	04_oleate	aerobic	pre-infection	117	64	1017.2216	0.547
 Cofactor / vitamin biosynthesis	imat	05_hexacosanoate	aerobic	pre-infection	117	63	2014.889	0.5385
@@ -445,9 +529,9 @@ Cofactor / vitamin biosynthesis	imat	06_glucose_low	anaerobic	biotrophic	117	51	
 Cofactor / vitamin biosynthesis	imat	07_sucrose_low	aerobic	biotrophic	117	62	1667.9688	0.5299
 Cofactor / vitamin biosynthesis	imat	07_sucrose_low	anaerobic	biotrophic	117	52	1668.4919	0.4444
 Cofactor / vitamin biosynthesis	imat	08_glutamate	aerobic	biotrophic	117	63	3193.1191	0.5385
-Cofactor / vitamin biosynthesis	imat	08_glutamate	anaerobic	biotrophic	117	34	670.4797	0.2906
+Cofactor / vitamin biosynthesis	imat	08_glutamate	anaerobic	biotrophic	117	32	670.198	0.2735
 Cofactor / vitamin biosynthesis	imat	09_glutamine	aerobic	biotrophic	117	65	3949.7734	0.5556
-Cofactor / vitamin biosynthesis	imat	09_glutamine	anaerobic	biotrophic	117	32	1668.9646	0.2735
+Cofactor / vitamin biosynthesis	imat	09_glutamine	anaerobic	biotrophic	117	32	670.8086	0.2735
 Cofactor / vitamin biosynthesis	imat	10_gaba	aerobic	biotrophic	117	58	4010.5954	0.4957
 Cofactor / vitamin biosynthesis	imat	11_galacturonate	aerobic	necrotrophic	117	62	2998.2234	0.5299
 Cofactor / vitamin biosynthesis	imat	11_galacturonate	anaerobic	necrotrophic	117	54	105.4343	0.4615
@@ -464,6 +548,12 @@ Cofactor / vitamin biosynthesis	imat	17_biotrophic_mix	aerobic	cocktail	117	60	3
 Cofactor / vitamin biosynthesis	imat	17_biotrophic_mix	anaerobic	cocktail	117	53	1667.6081	0.453
 Cofactor / vitamin biosynthesis	imat	18_necrotrophic_mix	aerobic	cocktail	117	61	2688.9348	0.5214
 Cofactor / vitamin biosynthesis	imat	18_necrotrophic_mix	anaerobic	cocktail	117	61	9.6629	0.5214
+Cofactor / vitamin biosynthesis	imat	19_pdb_baseline	aerobic	biotrophic	117	62	3691.048	0.5299
+Cofactor / vitamin biosynthesis	imat	19_pdb_baseline	anaerobic	biotrophic	117	59	1772.7706	0.5043
+Cofactor / vitamin biosynthesis	imat	20_pdb_half	aerobic	biotrophic	117	63	2379.6509	0.5385
+Cofactor / vitamin biosynthesis	imat	20_pdb_half	anaerobic	biotrophic	117	50	901.2678	0.4274
+Cofactor / vitamin biosynthesis	imat	21_pdb_onetenth	aerobic	biotrophic	117	53	0.8119	0.453
+Cofactor / vitamin biosynthesis	imat	21_pdb_onetenth	anaerobic	biotrophic	117	53	768.0908	0.453
 Cofactor / vitamin biosynthesis	pfba	01_trehalose	aerobic	pre-infection	117	39	1.207	0.3333
 Cofactor / vitamin biosynthesis	pfba	01_trehalose	anaerobic	pre-infection	117	41	4.1252	0.3504
 Cofactor / vitamin biosynthesis	pfba	02_glycerol	aerobic	pre-infection	117	40	0.782	0.3419
@@ -495,6 +585,12 @@ Cofactor / vitamin biosynthesis	pfba	17_biotrophic_mix	aerobic	cocktail	117	40	3
 Cofactor / vitamin biosynthesis	pfba	17_biotrophic_mix	anaerobic	cocktail	117	38	1.2973	0.3248
 Cofactor / vitamin biosynthesis	pfba	18_necrotrophic_mix	aerobic	cocktail	117	33	3.3169	0.2821
 Cofactor / vitamin biosynthesis	pfba	18_necrotrophic_mix	anaerobic	cocktail	117	33	15.6877	0.2821
+Cofactor / vitamin biosynthesis	pfba	19_pdb_baseline	aerobic	biotrophic	117	37	2.4577	0.3162
+Cofactor / vitamin biosynthesis	pfba	19_pdb_baseline	anaerobic	biotrophic	117	39	10.1269	0.3333
+Cofactor / vitamin biosynthesis	pfba	20_pdb_half	aerobic	biotrophic	117	37	1.2289	0.3162
+Cofactor / vitamin biosynthesis	pfba	20_pdb_half	anaerobic	biotrophic	117	39	5.0635	0.3333
+Cofactor / vitamin biosynthesis	pfba	21_pdb_onetenth	aerobic	biotrophic	117	37	0.2458	0.3162
+Cofactor / vitamin biosynthesis	pfba	21_pdb_onetenth	anaerobic	biotrophic	117	31	1.0127	0.265
 Compatible solute / mannitol	eflux	01_trehalose	aerobic	pre-infection	2	2	0.0291	1.0
 Compatible solute / mannitol	eflux	01_trehalose	anaerobic	pre-infection	2	2	0.0059	1.0
 Compatible solute / mannitol	eflux	02_glycerol	aerobic	pre-infection	2	2	0.0083	1.0
@@ -526,6 +622,12 @@ Compatible solute / mannitol	eflux	17_biotrophic_mix	aerobic	cocktail	2	2	0.0251
 Compatible solute / mannitol	eflux	17_biotrophic_mix	anaerobic	cocktail	2	2	0.0037	1.0
 Compatible solute / mannitol	eflux	18_necrotrophic_mix	aerobic	cocktail	2	2	0.1651	1.0
 Compatible solute / mannitol	eflux	18_necrotrophic_mix	anaerobic	cocktail	2	2	0.032	1.0
+Compatible solute / mannitol	eflux	19_pdb_baseline	aerobic	biotrophic	2	2	0.0766	1.0
+Compatible solute / mannitol	eflux	19_pdb_baseline	anaerobic	biotrophic	2	2	0.0161	1.0
+Compatible solute / mannitol	eflux	20_pdb_half	aerobic	biotrophic	2	2	0.0383	1.0
+Compatible solute / mannitol	eflux	20_pdb_half	anaerobic	biotrophic	2	2	0.0081	1.0
+Compatible solute / mannitol	eflux	21_pdb_onetenth	aerobic	biotrophic	2	2	0.0077	1.0
+Compatible solute / mannitol	eflux	21_pdb_onetenth	anaerobic	biotrophic	2	2	0.0016	1.0
 Compatible solute / mannitol	gimme	01_trehalose	aerobic	pre-infection	2	2	0.0262	1.0
 Compatible solute / mannitol	gimme	01_trehalose	anaerobic	pre-infection	2	2	0.0053	1.0
 Compatible solute / mannitol	gimme	02_glycerol	aerobic	pre-infection	2	2	0.0075	1.0
@@ -557,6 +659,12 @@ Compatible solute / mannitol	gimme	17_biotrophic_mix	aerobic	cocktail	2	2	0.0226
 Compatible solute / mannitol	gimme	17_biotrophic_mix	anaerobic	cocktail	2	2	0.0034	1.0
 Compatible solute / mannitol	gimme	18_necrotrophic_mix	aerobic	cocktail	2	2	0.1604	1.0
 Compatible solute / mannitol	gimme	18_necrotrophic_mix	anaerobic	cocktail	2	2	0.0318	1.0
+Compatible solute / mannitol	gimme	19_pdb_baseline	aerobic	biotrophic	2	2	0.0689	1.0
+Compatible solute / mannitol	gimme	19_pdb_baseline	anaerobic	biotrophic	2	2	0.0145	1.0
+Compatible solute / mannitol	gimme	20_pdb_half	aerobic	biotrophic	2	2	0.0345	1.0
+Compatible solute / mannitol	gimme	20_pdb_half	anaerobic	biotrophic	2	2	0.0073	1.0
+Compatible solute / mannitol	gimme	21_pdb_onetenth	aerobic	biotrophic	2	2	0.0069	1.0
+Compatible solute / mannitol	gimme	21_pdb_onetenth	anaerobic	biotrophic	2	2	0.0015	1.0
 Compatible solute / mannitol	imat	01_trehalose	aerobic	pre-infection	2	2	0.008	1.0
 Compatible solute / mannitol	imat	01_trehalose	anaerobic	pre-infection	2	2	0.0039	1.0
 Compatible solute / mannitol	imat	02_glycerol	aerobic	pre-infection	2	2	0.001	1.0
@@ -588,6 +696,12 @@ Compatible solute / mannitol	imat	17_biotrophic_mix	aerobic	cocktail	2	2	0.0025	
 Compatible solute / mannitol	imat	17_biotrophic_mix	anaerobic	cocktail	2	2	0.001	1.0
 Compatible solute / mannitol	imat	18_necrotrophic_mix	aerobic	cocktail	2	2	0.0667	1.0
 Compatible solute / mannitol	imat	18_necrotrophic_mix	anaerobic	cocktail	2	2	0.008	1.0
+Compatible solute / mannitol	imat	19_pdb_baseline	aerobic	biotrophic	2	2	0.05	1.0
+Compatible solute / mannitol	imat	19_pdb_baseline	anaerobic	biotrophic	2	2	0.008	1.0
+Compatible solute / mannitol	imat	20_pdb_half	aerobic	biotrophic	2	2	0.008	1.0
+Compatible solute / mannitol	imat	20_pdb_half	anaerobic	biotrophic	2	2	0.001	1.0
+Compatible solute / mannitol	imat	21_pdb_onetenth	aerobic	biotrophic	2	2	0.001	1.0
+Compatible solute / mannitol	imat	21_pdb_onetenth	anaerobic	biotrophic	2	2	0.0004	1.0
 Compatible solute / mannitol	pfba	01_trehalose	aerobic	pre-infection	2	2	0.0291	1.0
 Compatible solute / mannitol	pfba	01_trehalose	anaerobic	pre-infection	2	2	0.0059	1.0
 Compatible solute / mannitol	pfba	02_glycerol	aerobic	pre-infection	2	2	0.0083	1.0
@@ -619,6 +733,12 @@ Compatible solute / mannitol	pfba	17_biotrophic_mix	aerobic	cocktail	2	2	0.0251	
 Compatible solute / mannitol	pfba	17_biotrophic_mix	anaerobic	cocktail	2	2	0.0037	1.0
 Compatible solute / mannitol	pfba	18_necrotrophic_mix	aerobic	cocktail	2	2	0.1782	1.0
 Compatible solute / mannitol	pfba	18_necrotrophic_mix	anaerobic	cocktail	2	2	0.0353	1.0
+Compatible solute / mannitol	pfba	19_pdb_baseline	aerobic	biotrophic	2	2	0.0766	1.0
+Compatible solute / mannitol	pfba	19_pdb_baseline	anaerobic	biotrophic	2	2	0.0161	1.0
+Compatible solute / mannitol	pfba	20_pdb_half	aerobic	biotrophic	2	2	0.0383	1.0
+Compatible solute / mannitol	pfba	20_pdb_half	anaerobic	biotrophic	2	2	0.0081	1.0
+Compatible solute / mannitol	pfba	21_pdb_onetenth	aerobic	biotrophic	2	2	0.0077	1.0
+Compatible solute / mannitol	pfba	21_pdb_onetenth	anaerobic	biotrophic	2	2	0.0016	1.0
 Exchange	eflux	01_trehalose	aerobic	pre-infection	170	9	13.1295	0.0529
 Exchange	eflux	01_trehalose	anaerobic	pre-infection	170	12	8.1055	0.0706
 Exchange	eflux	02_glycerol	aerobic	pre-infection	170	9	4.9893	0.0529
@@ -650,6 +770,12 @@ Exchange	eflux	17_biotrophic_mix	aerobic	cocktail	170	14	14.0447	0.0824
 Exchange	eflux	17_biotrophic_mix	anaerobic	cocktail	170	19	7.2985	0.1118
 Exchange	eflux	18_necrotrophic_mix	aerobic	cocktail	170	40	73.4734	0.2353
 Exchange	eflux	18_necrotrophic_mix	anaerobic	cocktail	170	40	43.2142	0.2353
+Exchange	eflux	19_pdb_baseline	aerobic	biotrophic	170	35	38.5301	0.2059
+Exchange	eflux	19_pdb_baseline	anaerobic	biotrophic	170	40	25.474	0.2353
+Exchange	eflux	20_pdb_half	aerobic	biotrophic	170	35	19.2651	0.2059
+Exchange	eflux	20_pdb_half	anaerobic	biotrophic	170	39	12.6743	0.2294
+Exchange	eflux	21_pdb_onetenth	aerobic	biotrophic	170	34	3.853	0.2
+Exchange	eflux	21_pdb_onetenth	anaerobic	biotrophic	170	37	2.5349	0.2176
 Exchange	gimme	01_trehalose	aerobic	pre-infection	170	11	13.0222	0.0647
 Exchange	gimme	01_trehalose	anaerobic	pre-infection	170	12	8.2947	0.0706
 Exchange	gimme	02_glycerol	aerobic	pre-infection	170	10	4.9461	0.0588
@@ -681,10 +807,16 @@ Exchange	gimme	17_biotrophic_mix	aerobic	cocktail	170	15	13.6996	0.0882
 Exchange	gimme	17_biotrophic_mix	anaerobic	cocktail	170	20	7.4248	0.1176
 Exchange	gimme	18_necrotrophic_mix	aerobic	cocktail	170	39	71.4937	0.2294
 Exchange	gimme	18_necrotrophic_mix	anaerobic	cocktail	170	44	48.9568	0.2588
+Exchange	gimme	19_pdb_baseline	aerobic	biotrophic	170	36	45.1533	0.2118
+Exchange	gimme	19_pdb_baseline	anaerobic	biotrophic	170	39	25.4971	0.2294
+Exchange	gimme	20_pdb_half	aerobic	biotrophic	170	38	1006.7666	0.2235
+Exchange	gimme	20_pdb_half	anaerobic	biotrophic	170	37	12.7591	0.2176
+Exchange	gimme	21_pdb_onetenth	aerobic	biotrophic	170	35	103.8251	0.2059
+Exchange	gimme	21_pdb_onetenth	anaerobic	biotrophic	170	36	2.5481	0.2118
 Exchange	imat	01_trehalose	aerobic	pre-infection	170	25	1029.2989	0.1471
 Exchange	imat	01_trehalose	anaerobic	pre-infection	170	36	1008.4009	0.2118
 Exchange	imat	02_glycerol	aerobic	pre-infection	170	33	10.2949	0.1941
-Exchange	imat	02_glycerol	anaerobic	pre-infection	170	25	3.6884	0.1471
+Exchange	imat	02_glycerol	anaerobic	pre-infection	170	25	3.3099	0.1471
 Exchange	imat	03_palmitate	aerobic	pre-infection	170	27	29.6804	0.1588
 Exchange	imat	04_oleate	aerobic	pre-infection	170	29	1021.3066	0.1706
 Exchange	imat	05_hexacosanoate	aerobic	pre-infection	170	28	1084.0759	0.1647
@@ -693,9 +825,9 @@ Exchange	imat	06_glucose_low	anaerobic	biotrophic	170	41	5.0946	0.2412
 Exchange	imat	07_sucrose_low	aerobic	biotrophic	170	27	7.1632	0.1588
 Exchange	imat	07_sucrose_low	anaerobic	biotrophic	170	32	1004.5407	0.1882
 Exchange	imat	08_glutamate	aerobic	biotrophic	170	32	126.8461	0.1882
-Exchange	imat	08_glutamate	anaerobic	biotrophic	170	22	8.5258	0.1294
+Exchange	imat	08_glutamate	anaerobic	biotrophic	170	24	8.5253	0.1412
 Exchange	imat	09_glutamine	aerobic	biotrophic	170	27	921.97	0.1588
-Exchange	imat	09_glutamine	anaerobic	biotrophic	170	22	1011.2854	0.1294
+Exchange	imat	09_glutamine	anaerobic	biotrophic	170	21	11.889	0.1235
 Exchange	imat	10_gaba	aerobic	biotrophic	170	31	1024.8927	0.1824
 Exchange	imat	11_galacturonate	aerobic	necrotrophic	170	24	49.0981	0.1412
 Exchange	imat	11_galacturonate	anaerobic	necrotrophic	170	44	125.434	0.2588
@@ -712,6 +844,12 @@ Exchange	imat	17_biotrophic_mix	aerobic	cocktail	170	42	104.2513	0.2471
 Exchange	imat	17_biotrophic_mix	anaerobic	cocktail	170	34	1006.9677	0.2
 Exchange	imat	18_necrotrophic_mix	aerobic	cocktail	170	44	49.534	0.2588
 Exchange	imat	18_necrotrophic_mix	anaerobic	cocktail	170	50	24.8171	0.2941
+Exchange	imat	19_pdb_baseline	aerobic	biotrophic	170	51	54.3284	0.3
+Exchange	imat	19_pdb_baseline	anaerobic	biotrophic	170	48	117.219	0.2824
+Exchange	imat	20_pdb_half	aerobic	biotrophic	170	47	1042.6877	0.2765
+Exchange	imat	20_pdb_half	anaerobic	biotrophic	170	47	904.1023	0.2765
+Exchange	imat	21_pdb_onetenth	aerobic	biotrophic	170	47	1.639	0.2765
+Exchange	imat	21_pdb_onetenth	anaerobic	biotrophic	170	45	102.8153	0.2647
 Exchange	pfba	01_trehalose	aerobic	pre-infection	170	9	13.1295	0.0529
 Exchange	pfba	01_trehalose	anaerobic	pre-infection	170	12	8.1055	0.0706
 Exchange	pfba	02_glycerol	aerobic	pre-infection	170	9	4.9893	0.0529
@@ -743,6 +881,12 @@ Exchange	pfba	17_biotrophic_mix	aerobic	cocktail	170	14	14.0447	0.0824
 Exchange	pfba	17_biotrophic_mix	anaerobic	cocktail	170	19	7.2985	0.1118
 Exchange	pfba	18_necrotrophic_mix	aerobic	cocktail	170	41	81.3849	0.2412
 Exchange	pfba	18_necrotrophic_mix	anaerobic	cocktail	170	39	46.4416	0.2294
+Exchange	pfba	19_pdb_baseline	aerobic	biotrophic	170	36	38.5298	0.2118
+Exchange	pfba	19_pdb_baseline	anaerobic	biotrophic	170	39	25.3485	0.2294
+Exchange	pfba	20_pdb_half	aerobic	biotrophic	170	36	19.2649	0.2118
+Exchange	pfba	20_pdb_half	anaerobic	biotrophic	170	39	12.6742	0.2294
+Exchange	pfba	21_pdb_onetenth	aerobic	biotrophic	170	35	3.853	0.2059
+Exchange	pfba	21_pdb_onetenth	anaerobic	biotrophic	170	37	2.5348	0.2176
 Fatty-acid biosynthesis	eflux	01_trehalose	aerobic	pre-infection	38	0	0.0	0.0
 Fatty-acid biosynthesis	eflux	01_trehalose	anaerobic	pre-infection	38	0	0.0	0.0
 Fatty-acid biosynthesis	eflux	02_glycerol	aerobic	pre-infection	38	0	0.0	0.0
@@ -774,6 +918,12 @@ Fatty-acid biosynthesis	eflux	17_biotrophic_mix	aerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	eflux	17_biotrophic_mix	anaerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	eflux	18_necrotrophic_mix	aerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	eflux	18_necrotrophic_mix	anaerobic	cocktail	38	0	0.0	0.0
+Fatty-acid biosynthesis	eflux	19_pdb_baseline	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	eflux	19_pdb_baseline	anaerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	eflux	20_pdb_half	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	eflux	20_pdb_half	anaerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	eflux	21_pdb_onetenth	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	eflux	21_pdb_onetenth	anaerobic	biotrophic	38	0	0.0	0.0
 Fatty-acid biosynthesis	gimme	01_trehalose	aerobic	pre-infection	38	0	0.0	0.0
 Fatty-acid biosynthesis	gimme	01_trehalose	anaerobic	pre-infection	38	0	0.0	0.0
 Fatty-acid biosynthesis	gimme	02_glycerol	aerobic	pre-infection	38	0	0.0	0.0
@@ -805,6 +955,12 @@ Fatty-acid biosynthesis	gimme	17_biotrophic_mix	aerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	gimme	17_biotrophic_mix	anaerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	gimme	18_necrotrophic_mix	aerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	gimme	18_necrotrophic_mix	anaerobic	cocktail	38	0	0.0	0.0
+Fatty-acid biosynthesis	gimme	19_pdb_baseline	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	gimme	19_pdb_baseline	anaerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	gimme	20_pdb_half	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	gimme	20_pdb_half	anaerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	gimme	21_pdb_onetenth	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	gimme	21_pdb_onetenth	anaerobic	biotrophic	38	0	0.0	0.0
 Fatty-acid biosynthesis	imat	01_trehalose	aerobic	pre-infection	38	3	0.0249	0.0789
 Fatty-acid biosynthesis	imat	01_trehalose	anaerobic	pre-infection	38	4	0.0245	0.1053
 Fatty-acid biosynthesis	imat	02_glycerol	aerobic	pre-infection	38	8	0.0267	0.2105
@@ -817,7 +973,7 @@ Fatty-acid biosynthesis	imat	06_glucose_low	anaerobic	biotrophic	38	5	0.0257	0.1
 Fatty-acid biosynthesis	imat	07_sucrose_low	aerobic	biotrophic	38	4	0.0161	0.1053
 Fatty-acid biosynthesis	imat	07_sucrose_low	anaerobic	biotrophic	38	3	0.0254	0.0789
 Fatty-acid biosynthesis	imat	08_glutamate	aerobic	biotrophic	38	2	0.002	0.0526
-Fatty-acid biosynthesis	imat	08_glutamate	anaerobic	biotrophic	38	2	0.0	0.0526
+Fatty-acid biosynthesis	imat	08_glutamate	anaerobic	biotrophic	38	0	0.0	0.0
 Fatty-acid biosynthesis	imat	09_glutamine	aerobic	biotrophic	38	3	0.0249	0.0789
 Fatty-acid biosynthesis	imat	09_glutamine	anaerobic	biotrophic	38	2	0.0	0.0526
 Fatty-acid biosynthesis	imat	10_gaba	aerobic	biotrophic	38	3	0.0274	0.0789
@@ -836,6 +992,12 @@ Fatty-acid biosynthesis	imat	17_biotrophic_mix	aerobic	cocktail	38	2	0.0065	0.05
 Fatty-acid biosynthesis	imat	17_biotrophic_mix	anaerobic	cocktail	38	3	0.0254	0.0789
 Fatty-acid biosynthesis	imat	18_necrotrophic_mix	aerobic	cocktail	38	6	0.0159	0.1579
 Fatty-acid biosynthesis	imat	18_necrotrophic_mix	anaerobic	cocktail	38	2	0.002	0.0526
+Fatty-acid biosynthesis	imat	19_pdb_baseline	aerobic	biotrophic	38	4	0.0684	0.1053
+Fatty-acid biosynthesis	imat	19_pdb_baseline	anaerobic	biotrophic	38	3	0.0141	0.0789
+Fatty-acid biosynthesis	imat	20_pdb_half	aerobic	biotrophic	38	3	0.016	0.0789
+Fatty-acid biosynthesis	imat	20_pdb_half	anaerobic	biotrophic	38	2	0.0141	0.0526
+Fatty-acid biosynthesis	imat	21_pdb_onetenth	aerobic	biotrophic	38	4	0.0241	0.1053
+Fatty-acid biosynthesis	imat	21_pdb_onetenth	anaerobic	biotrophic	38	3	0.0254	0.0789
 Fatty-acid biosynthesis	pfba	01_trehalose	aerobic	pre-infection	38	0	0.0	0.0
 Fatty-acid biosynthesis	pfba	01_trehalose	anaerobic	pre-infection	38	0	0.0	0.0
 Fatty-acid biosynthesis	pfba	02_glycerol	aerobic	pre-infection	38	0	0.0	0.0
@@ -867,6 +1029,12 @@ Fatty-acid biosynthesis	pfba	17_biotrophic_mix	aerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	pfba	17_biotrophic_mix	anaerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	pfba	18_necrotrophic_mix	aerobic	cocktail	38	0	0.0	0.0
 Fatty-acid biosynthesis	pfba	18_necrotrophic_mix	anaerobic	cocktail	38	0	0.0	0.0
+Fatty-acid biosynthesis	pfba	19_pdb_baseline	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	pfba	19_pdb_baseline	anaerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	pfba	20_pdb_half	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	pfba	20_pdb_half	anaerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	pfba	21_pdb_onetenth	aerobic	biotrophic	38	0	0.0	0.0
+Fatty-acid biosynthesis	pfba	21_pdb_onetenth	anaerobic	biotrophic	38	0	0.0	0.0
 GAM / maintenance	eflux	01_trehalose	aerobic	pre-infection	1	0	0.0	0.0
 GAM / maintenance	eflux	01_trehalose	anaerobic	pre-infection	1	0	0.0	0.0
 GAM / maintenance	eflux	02_glycerol	aerobic	pre-infection	1	0	0.0	0.0
@@ -898,6 +1066,12 @@ GAM / maintenance	eflux	17_biotrophic_mix	aerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	eflux	17_biotrophic_mix	anaerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	eflux	18_necrotrophic_mix	aerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	eflux	18_necrotrophic_mix	anaerobic	cocktail	1	0	0.0	0.0
+GAM / maintenance	eflux	19_pdb_baseline	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	eflux	19_pdb_baseline	anaerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	eflux	20_pdb_half	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	eflux	20_pdb_half	anaerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	eflux	21_pdb_onetenth	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	eflux	21_pdb_onetenth	anaerobic	biotrophic	1	0	0.0	0.0
 GAM / maintenance	gimme	01_trehalose	aerobic	pre-infection	1	0	0.0	0.0
 GAM / maintenance	gimme	01_trehalose	anaerobic	pre-infection	1	0	0.0	0.0
 GAM / maintenance	gimme	02_glycerol	aerobic	pre-infection	1	0	0.0	0.0
@@ -929,6 +1103,12 @@ GAM / maintenance	gimme	17_biotrophic_mix	aerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	gimme	17_biotrophic_mix	anaerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	gimme	18_necrotrophic_mix	aerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	gimme	18_necrotrophic_mix	anaerobic	cocktail	1	0	0.0	0.0
+GAM / maintenance	gimme	19_pdb_baseline	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	gimme	19_pdb_baseline	anaerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	gimme	20_pdb_half	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	gimme	20_pdb_half	anaerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	gimme	21_pdb_onetenth	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	gimme	21_pdb_onetenth	anaerobic	biotrophic	1	0	0.0	0.0
 GAM / maintenance	imat	01_trehalose	aerobic	pre-infection	1	1	0.001	1.0
 GAM / maintenance	imat	01_trehalose	anaerobic	pre-infection	1	1	0.001	1.0
 GAM / maintenance	imat	02_glycerol	aerobic	pre-infection	1	1	0.001	1.0
@@ -941,7 +1121,7 @@ GAM / maintenance	imat	06_glucose_low	anaerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	imat	07_sucrose_low	aerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	imat	07_sucrose_low	anaerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	imat	08_glutamate	aerobic	biotrophic	1	1	0.001	1.0
-GAM / maintenance	imat	08_glutamate	anaerobic	biotrophic	1	1	0.0011	1.0
+GAM / maintenance	imat	08_glutamate	anaerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	imat	09_glutamine	aerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	imat	09_glutamine	anaerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	imat	10_gaba	aerobic	biotrophic	1	1	0.001	1.0
@@ -960,6 +1140,12 @@ GAM / maintenance	imat	17_biotrophic_mix	aerobic	cocktail	1	1	0.001	1.0
 GAM / maintenance	imat	17_biotrophic_mix	anaerobic	cocktail	1	1	0.001	1.0
 GAM / maintenance	imat	18_necrotrophic_mix	aerobic	cocktail	1	1	0.001	1.0
 GAM / maintenance	imat	18_necrotrophic_mix	anaerobic	cocktail	1	1	0.001	1.0
+GAM / maintenance	imat	19_pdb_baseline	aerobic	biotrophic	1	1	0.001	1.0
+GAM / maintenance	imat	19_pdb_baseline	anaerobic	biotrophic	1	1	0.001	1.0
+GAM / maintenance	imat	20_pdb_half	aerobic	biotrophic	1	1	0.001	1.0
+GAM / maintenance	imat	20_pdb_half	anaerobic	biotrophic	1	1	0.001	1.0
+GAM / maintenance	imat	21_pdb_onetenth	aerobic	biotrophic	1	1	0.001	1.0
+GAM / maintenance	imat	21_pdb_onetenth	anaerobic	biotrophic	1	1	0.001	1.0
 GAM / maintenance	pfba	01_trehalose	aerobic	pre-infection	1	0	0.0	0.0
 GAM / maintenance	pfba	01_trehalose	anaerobic	pre-infection	1	0	0.0	0.0
 GAM / maintenance	pfba	02_glycerol	aerobic	pre-infection	1	0	0.0	0.0
@@ -991,6 +1177,12 @@ GAM / maintenance	pfba	17_biotrophic_mix	aerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	pfba	17_biotrophic_mix	anaerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	pfba	18_necrotrophic_mix	aerobic	cocktail	1	0	0.0	0.0
 GAM / maintenance	pfba	18_necrotrophic_mix	anaerobic	cocktail	1	0	0.0	0.0
+GAM / maintenance	pfba	19_pdb_baseline	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	pfba	19_pdb_baseline	anaerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	pfba	20_pdb_half	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	pfba	20_pdb_half	anaerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	pfba	21_pdb_onetenth	aerobic	biotrophic	1	0	0.0	0.0
+GAM / maintenance	pfba	21_pdb_onetenth	anaerobic	biotrophic	1	0	0.0	0.0
 Glycolysis / gluconeogenesis	eflux	01_trehalose	aerobic	pre-infection	58	27	23.6128	0.4655
 Glycolysis / gluconeogenesis	eflux	01_trehalose	anaerobic	pre-infection	58	25	31.9699	0.431
 Glycolysis / gluconeogenesis	eflux	02_glycerol	aerobic	pre-infection	58	26	6.9125	0.4483
@@ -1022,6 +1214,12 @@ Glycolysis / gluconeogenesis	eflux	17_biotrophic_mix	aerobic	cocktail	58	27	6.74
 Glycolysis / gluconeogenesis	eflux	17_biotrophic_mix	anaerobic	cocktail	58	27	10.4351	0.4655
 Glycolysis / gluconeogenesis	eflux	18_necrotrophic_mix	aerobic	cocktail	58	27	107.7272	0.4655
 Glycolysis / gluconeogenesis	eflux	18_necrotrophic_mix	anaerobic	cocktail	58	26	129.9479	0.4483
+Glycolysis / gluconeogenesis	eflux	19_pdb_baseline	aerobic	biotrophic	58	30	59.4517	0.5172
+Glycolysis / gluconeogenesis	eflux	19_pdb_baseline	anaerobic	biotrophic	58	29	80.6899	0.5
+Glycolysis / gluconeogenesis	eflux	20_pdb_half	aerobic	biotrophic	58	31	29.7259	0.5345
+Glycolysis / gluconeogenesis	eflux	20_pdb_half	anaerobic	biotrophic	58	28	40.345	0.4828
+Glycolysis / gluconeogenesis	eflux	21_pdb_onetenth	aerobic	biotrophic	58	30	5.9452	0.5172
+Glycolysis / gluconeogenesis	eflux	21_pdb_onetenth	anaerobic	biotrophic	58	28	8.069	0.4828
 Glycolysis / gluconeogenesis	gimme	01_trehalose	aerobic	pre-infection	58	28	23.8899	0.4828
 Glycolysis / gluconeogenesis	gimme	01_trehalose	anaerobic	pre-infection	58	25	32.173	0.431
 Glycolysis / gluconeogenesis	gimme	02_glycerol	aerobic	pre-infection	58	26	6.9486	0.4483
@@ -1053,10 +1251,16 @@ Glycolysis / gluconeogenesis	gimme	17_biotrophic_mix	aerobic	cocktail	58	26	6.22
 Glycolysis / gluconeogenesis	gimme	17_biotrophic_mix	anaerobic	cocktail	58	28	10.5966	0.4828
 Glycolysis / gluconeogenesis	gimme	18_necrotrophic_mix	aerobic	cocktail	58	26	105.8972	0.4483
 Glycolysis / gluconeogenesis	gimme	18_necrotrophic_mix	anaerobic	cocktail	58	29	3114.5797	0.5
+Glycolysis / gluconeogenesis	gimme	19_pdb_baseline	aerobic	biotrophic	58	32	78.8129	0.5517
+Glycolysis / gluconeogenesis	gimme	19_pdb_baseline	anaerobic	biotrophic	58	28	81.5393	0.4828
+Glycolysis / gluconeogenesis	gimme	20_pdb_half	aerobic	biotrophic	58	31	1029.8495	0.5345
+Glycolysis / gluconeogenesis	gimme	20_pdb_half	anaerobic	biotrophic	58	28	40.752	0.4828
+Glycolysis / gluconeogenesis	gimme	21_pdb_onetenth	aerobic	biotrophic	58	31	1007.477	0.5345
+Glycolysis / gluconeogenesis	gimme	21_pdb_onetenth	anaerobic	biotrophic	58	25	7.2087	0.431
 Glycolysis / gluconeogenesis	imat	01_trehalose	aerobic	pre-infection	58	43	115.7441	0.7414
 Glycolysis / gluconeogenesis	imat	01_trehalose	anaerobic	pre-infection	58	46	2032.8197	0.7931
 Glycolysis / gluconeogenesis	imat	02_glycerol	aerobic	pre-infection	58	43	2029.8878	0.7414
-Glycolysis / gluconeogenesis	imat	02_glycerol	anaerobic	pre-infection	58	40	7.8088	0.6897
+Glycolysis / gluconeogenesis	imat	02_glycerol	anaerobic	pre-infection	58	40	8.0753	0.6897
 Glycolysis / gluconeogenesis	imat	03_palmitate	aerobic	pre-infection	58	43	3061.0696	0.7414
 Glycolysis / gluconeogenesis	imat	04_oleate	aerobic	pre-infection	58	44	1043.7219	0.7586
 Glycolysis / gluconeogenesis	imat	05_hexacosanoate	aerobic	pre-infection	58	43	4665.796	0.7414
@@ -1065,9 +1269,9 @@ Glycolysis / gluconeogenesis	imat	06_glucose_low	anaerobic	biotrophic	58	42	16.5
 Glycolysis / gluconeogenesis	imat	07_sucrose_low	aerobic	biotrophic	58	45	1017.0796	0.7759
 Glycolysis / gluconeogenesis	imat	07_sucrose_low	anaerobic	biotrophic	58	44	2015.4492	0.7586
 Glycolysis / gluconeogenesis	imat	08_glutamate	aerobic	biotrophic	58	43	1027.1342	0.7414
-Glycolysis / gluconeogenesis	imat	08_glutamate	anaerobic	biotrophic	58	39	0.3352	0.6724
+Glycolysis / gluconeogenesis	imat	08_glutamate	anaerobic	biotrophic	58	39	0.3392	0.6724
 Glycolysis / gluconeogenesis	imat	09_glutamine	aerobic	biotrophic	58	44	3005.7781	0.7586
-Glycolysis / gluconeogenesis	imat	09_glutamine	anaerobic	biotrophic	58	39	2.6309	0.6724
+Glycolysis / gluconeogenesis	imat	09_glutamine	anaerobic	biotrophic	58	39	1.8402	0.6724
 Glycolysis / gluconeogenesis	imat	10_gaba	aerobic	biotrophic	58	43	1010.6409	0.7414
 Glycolysis / gluconeogenesis	imat	11_galacturonate	aerobic	necrotrophic	58	42	3079.7865	0.7241
 Glycolysis / gluconeogenesis	imat	11_galacturonate	anaerobic	necrotrophic	58	45	1042.0668	0.7759
@@ -1084,6 +1288,12 @@ Glycolysis / gluconeogenesis	imat	17_biotrophic_mix	aerobic	cocktail	58	45	2802.
 Glycolysis / gluconeogenesis	imat	17_biotrophic_mix	anaerobic	cocktail	58	42	11.6333	0.7241
 Glycolysis / gluconeogenesis	imat	18_necrotrophic_mix	aerobic	cocktail	58	41	1077.8572	0.7069
 Glycolysis / gluconeogenesis	imat	18_necrotrophic_mix	anaerobic	cocktail	58	42	5040.5783	0.7241
+Glycolysis / gluconeogenesis	imat	19_pdb_baseline	aerobic	biotrophic	58	43	2043.6534	0.7414
+Glycolysis / gluconeogenesis	imat	19_pdb_baseline	anaerobic	biotrophic	58	42	1050.9531	0.7241
+Glycolysis / gluconeogenesis	imat	20_pdb_half	aerobic	biotrophic	58	47	2031.2133	0.8103
+Glycolysis / gluconeogenesis	imat	20_pdb_half	anaerobic	biotrophic	58	46	2011.7545	0.7931
+Glycolysis / gluconeogenesis	imat	21_pdb_onetenth	aerobic	biotrophic	58	46	1001.8899	0.7931
+Glycolysis / gluconeogenesis	imat	21_pdb_onetenth	anaerobic	biotrophic	58	46	1008.0615	0.7931
 Glycolysis / gluconeogenesis	pfba	01_trehalose	aerobic	pre-infection	58	28	23.6128	0.4828
 Glycolysis / gluconeogenesis	pfba	01_trehalose	anaerobic	pre-infection	58	26	31.9699	0.4483
 Glycolysis / gluconeogenesis	pfba	02_glycerol	aerobic	pre-infection	58	26	6.9125	0.4483
@@ -1115,6 +1325,12 @@ Glycolysis / gluconeogenesis	pfba	17_biotrophic_mix	aerobic	cocktail	58	27	6.747
 Glycolysis / gluconeogenesis	pfba	17_biotrophic_mix	anaerobic	cocktail	58	28	10.4351	0.4828
 Glycolysis / gluconeogenesis	pfba	18_necrotrophic_mix	aerobic	cocktail	58	27	112.0812	0.4655
 Glycolysis / gluconeogenesis	pfba	18_necrotrophic_mix	anaerobic	cocktail	58	28	136.5266	0.4828
+Glycolysis / gluconeogenesis	pfba	19_pdb_baseline	aerobic	biotrophic	58	31	59.4522	0.5345
+Glycolysis / gluconeogenesis	pfba	19_pdb_baseline	anaerobic	biotrophic	58	29	80.6901	0.5
+Glycolysis / gluconeogenesis	pfba	20_pdb_half	aerobic	biotrophic	58	31	29.7261	0.5345
+Glycolysis / gluconeogenesis	pfba	20_pdb_half	anaerobic	biotrophic	58	29	40.3451	0.5
+Glycolysis / gluconeogenesis	pfba	21_pdb_onetenth	aerobic	biotrophic	58	31	5.9452	0.5345
+Glycolysis / gluconeogenesis	pfba	21_pdb_onetenth	anaerobic	biotrophic	58	28	8.069	0.4828
 Lipid / membrane	eflux	01_trehalose	aerobic	pre-infection	35	10	0.1331	0.2857
 Lipid / membrane	eflux	01_trehalose	anaerobic	pre-infection	35	10	0.0271	0.2857
 Lipid / membrane	eflux	02_glycerol	aerobic	pre-infection	35	11	0.0601	0.3143
@@ -1146,6 +1362,12 @@ Lipid / membrane	eflux	17_biotrophic_mix	aerobic	cocktail	35	12	0.1901	0.3429
 Lipid / membrane	eflux	17_biotrophic_mix	anaerobic	cocktail	35	9	0.0171	0.2571
 Lipid / membrane	eflux	18_necrotrophic_mix	aerobic	cocktail	35	10	0.7542	0.2857
 Lipid / membrane	eflux	18_necrotrophic_mix	anaerobic	cocktail	35	11	0.2317	0.3143
+Lipid / membrane	eflux	19_pdb_baseline	aerobic	biotrophic	35	10	0.3499	0.2857
+Lipid / membrane	eflux	19_pdb_baseline	anaerobic	biotrophic	35	10	0.0737	0.2857
+Lipid / membrane	eflux	20_pdb_half	aerobic	biotrophic	35	11	0.2774	0.3143
+Lipid / membrane	eflux	20_pdb_half	anaerobic	biotrophic	35	10	0.0369	0.2857
+Lipid / membrane	eflux	21_pdb_onetenth	aerobic	biotrophic	35	10	0.035	0.2857
+Lipid / membrane	eflux	21_pdb_onetenth	anaerobic	biotrophic	35	9	0.0074	0.2571
 Lipid / membrane	gimme	01_trehalose	aerobic	pre-infection	35	10	0.1378	0.2857
 Lipid / membrane	gimme	01_trehalose	anaerobic	pre-infection	35	12	0.0412	0.3429
 Lipid / membrane	gimme	02_glycerol	aerobic	pre-infection	35	11	0.0593	0.3143
@@ -1177,6 +1399,12 @@ Lipid / membrane	gimme	17_biotrophic_mix	aerobic	cocktail	35	10	0.1129	0.2857
 Lipid / membrane	gimme	17_biotrophic_mix	anaerobic	cocktail	35	9	0.0154	0.2571
 Lipid / membrane	gimme	18_necrotrophic_mix	aerobic	cocktail	35	12	1.2168	0.3429
 Lipid / membrane	gimme	18_necrotrophic_mix	anaerobic	cocktail	35	10	0.1453	0.2857
+Lipid / membrane	gimme	19_pdb_baseline	aerobic	biotrophic	35	10	0.3149	0.2857
+Lipid / membrane	gimme	19_pdb_baseline	anaerobic	biotrophic	35	11	0.1052	0.3143
+Lipid / membrane	gimme	20_pdb_half	aerobic	biotrophic	35	10	0.1742	0.2857
+Lipid / membrane	gimme	20_pdb_half	anaerobic	biotrophic	35	11	0.0526	0.3143
+Lipid / membrane	gimme	21_pdb_onetenth	aerobic	biotrophic	35	11	0.0547	0.3143
+Lipid / membrane	gimme	21_pdb_onetenth	anaerobic	biotrophic	35	11	0.0106	0.3143
 Lipid / membrane	imat	01_trehalose	aerobic	pre-infection	35	13	0.0579	0.3714
 Lipid / membrane	imat	01_trehalose	anaerobic	pre-infection	35	11	0.02	0.3143
 Lipid / membrane	imat	02_glycerol	aerobic	pre-infection	35	17	0.0287	0.4857
@@ -1189,9 +1417,9 @@ Lipid / membrane	imat	06_glucose_low	anaerobic	biotrophic	35	10	0.0078	0.2857
 Lipid / membrane	imat	07_sucrose_low	aerobic	biotrophic	35	13	0.069	0.3714
 Lipid / membrane	imat	07_sucrose_low	anaerobic	biotrophic	35	14	0.0287	0.4
 Lipid / membrane	imat	08_glutamate	aerobic	biotrophic	35	11	0.0113	0.3143
-Lipid / membrane	imat	08_glutamate	anaerobic	biotrophic	35	1	0.0	0.0286
+Lipid / membrane	imat	08_glutamate	anaerobic	biotrophic	35	2	0.0001	0.0571
 Lipid / membrane	imat	09_glutamine	aerobic	biotrophic	35	11	0.0375	0.3143
-Lipid / membrane	imat	09_glutamine	anaerobic	biotrophic	35	1	0.0	0.0286
+Lipid / membrane	imat	09_glutamine	anaerobic	biotrophic	35	2	0.0001	0.0571
 Lipid / membrane	imat	10_gaba	aerobic	biotrophic	35	10	0.0135	0.2857
 Lipid / membrane	imat	11_galacturonate	aerobic	necrotrophic	35	13	0.7871	0.3714
 Lipid / membrane	imat	11_galacturonate	anaerobic	necrotrophic	35	14	0.0311	0.4
@@ -1208,6 +1436,12 @@ Lipid / membrane	imat	17_biotrophic_mix	aerobic	cocktail	35	11	0.013	0.3143
 Lipid / membrane	imat	17_biotrophic_mix	anaerobic	cocktail	35	10	0.0065	0.2857
 Lipid / membrane	imat	18_necrotrophic_mix	aerobic	cocktail	35	14	0.3192	0.4
 Lipid / membrane	imat	18_necrotrophic_mix	anaerobic	cocktail	35	13	0.0577	0.3714
+Lipid / membrane	imat	19_pdb_baseline	aerobic	biotrophic	35	17	0.637	0.4857
+Lipid / membrane	imat	19_pdb_baseline	anaerobic	biotrophic	35	13	0.0395	0.3714
+Lipid / membrane	imat	20_pdb_half	aerobic	biotrophic	35	13	0.0377	0.3714
+Lipid / membrane	imat	20_pdb_half	anaerobic	biotrophic	35	12	0.0177	0.3429
+Lipid / membrane	imat	21_pdb_onetenth	aerobic	biotrophic	35	12	0.018	0.3429
+Lipid / membrane	imat	21_pdb_onetenth	anaerobic	biotrophic	35	12	0.0229	0.3429
 Lipid / membrane	pfba	01_trehalose	aerobic	pre-infection	35	11	0.2111	0.3143
 Lipid / membrane	pfba	01_trehalose	anaerobic	pre-infection	35	11	0.0429	0.3143
 Lipid / membrane	pfba	02_glycerol	aerobic	pre-infection	35	10	0.0379	0.2857
@@ -1239,6 +1473,12 @@ Lipid / membrane	pfba	17_biotrophic_mix	aerobic	cocktail	35	13	0.2572	0.3714
 Lipid / membrane	pfba	17_biotrophic_mix	anaerobic	cocktail	35	10	0.0272	0.2857
 Lipid / membrane	pfba	18_necrotrophic_mix	aerobic	cocktail	35	10	0.8142	0.2857
 Lipid / membrane	pfba	18_necrotrophic_mix	anaerobic	cocktail	35	11	0.256	0.3143
+Lipid / membrane	pfba	19_pdb_baseline	aerobic	biotrophic	35	10	0.3499	0.2857
+Lipid / membrane	pfba	19_pdb_baseline	anaerobic	biotrophic	35	11	0.1169	0.3143
+Lipid / membrane	pfba	20_pdb_half	aerobic	biotrophic	35	10	0.1749	0.2857
+Lipid / membrane	pfba	20_pdb_half	anaerobic	biotrophic	35	11	0.0584	0.3143
+Lipid / membrane	pfba	21_pdb_onetenth	aerobic	biotrophic	35	10	0.035	0.2857
+Lipid / membrane	pfba	21_pdb_onetenth	anaerobic	biotrophic	35	10	0.0117	0.2857
 Melanin / DHN	eflux	01_trehalose	aerobic	pre-infection	7	7	0.0004	1.0
 Melanin / DHN	eflux	01_trehalose	anaerobic	pre-infection	7	7	0.0001	1.0
 Melanin / DHN	eflux	02_glycerol	aerobic	pre-infection	7	7	0.0001	1.0
@@ -1270,6 +1510,12 @@ Melanin / DHN	eflux	17_biotrophic_mix	aerobic	cocktail	7	7	0.0004	1.0
 Melanin / DHN	eflux	17_biotrophic_mix	anaerobic	cocktail	7	7	0.0001	1.0
 Melanin / DHN	eflux	18_necrotrophic_mix	aerobic	cocktail	7	7	0.0025	1.0
 Melanin / DHN	eflux	18_necrotrophic_mix	anaerobic	cocktail	7	7	0.0005	1.0
+Melanin / DHN	eflux	19_pdb_baseline	aerobic	biotrophic	7	7	0.0011	1.0
+Melanin / DHN	eflux	19_pdb_baseline	anaerobic	biotrophic	7	7	0.0002	1.0
+Melanin / DHN	eflux	20_pdb_half	aerobic	biotrophic	7	7	0.0006	1.0
+Melanin / DHN	eflux	20_pdb_half	anaerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	eflux	21_pdb_onetenth	aerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	eflux	21_pdb_onetenth	anaerobic	biotrophic	7	7	0.0	1.0
 Melanin / DHN	gimme	01_trehalose	aerobic	pre-infection	7	7	0.0004	1.0
 Melanin / DHN	gimme	01_trehalose	anaerobic	pre-infection	7	7	0.0001	1.0
 Melanin / DHN	gimme	02_glycerol	aerobic	pre-infection	7	7	0.0001	1.0
@@ -1301,6 +1547,12 @@ Melanin / DHN	gimme	17_biotrophic_mix	aerobic	cocktail	7	7	0.0003	1.0
 Melanin / DHN	gimme	17_biotrophic_mix	anaerobic	cocktail	7	7	0.0001	1.0
 Melanin / DHN	gimme	18_necrotrophic_mix	aerobic	cocktail	7	7	0.0024	1.0
 Melanin / DHN	gimme	18_necrotrophic_mix	anaerobic	cocktail	7	7	0.0005	1.0
+Melanin / DHN	gimme	19_pdb_baseline	aerobic	biotrophic	7	7	0.001	1.0
+Melanin / DHN	gimme	19_pdb_baseline	anaerobic	biotrophic	7	7	0.0002	1.0
+Melanin / DHN	gimme	20_pdb_half	aerobic	biotrophic	7	7	0.0005	1.0
+Melanin / DHN	gimme	20_pdb_half	anaerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	gimme	21_pdb_onetenth	aerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	gimme	21_pdb_onetenth	anaerobic	biotrophic	7	7	0.0	1.0
 Melanin / DHN	imat	01_trehalose	aerobic	pre-infection	7	7	0.0001	1.0
 Melanin / DHN	imat	01_trehalose	anaerobic	pre-infection	7	7	0.0001	1.0
 Melanin / DHN	imat	02_glycerol	aerobic	pre-infection	7	7	0.0	1.0
@@ -1332,6 +1584,12 @@ Melanin / DHN	imat	17_biotrophic_mix	aerobic	cocktail	7	7	0.0	1.0
 Melanin / DHN	imat	17_biotrophic_mix	anaerobic	cocktail	7	7	0.0	1.0
 Melanin / DHN	imat	18_necrotrophic_mix	aerobic	cocktail	7	7	0.001	1.0
 Melanin / DHN	imat	18_necrotrophic_mix	anaerobic	cocktail	7	7	0.0001	1.0
+Melanin / DHN	imat	19_pdb_baseline	aerobic	biotrophic	7	7	0.0007	1.0
+Melanin / DHN	imat	19_pdb_baseline	anaerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	imat	20_pdb_half	aerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	imat	20_pdb_half	anaerobic	biotrophic	7	7	0.0	1.0
+Melanin / DHN	imat	21_pdb_onetenth	aerobic	biotrophic	7	7	0.0	1.0
+Melanin / DHN	imat	21_pdb_onetenth	anaerobic	biotrophic	7	0	0.0	0.0
 Melanin / DHN	pfba	01_trehalose	aerobic	pre-infection	7	7	0.0004	1.0
 Melanin / DHN	pfba	01_trehalose	anaerobic	pre-infection	7	7	0.0001	1.0
 Melanin / DHN	pfba	02_glycerol	aerobic	pre-infection	7	7	0.0001	1.0
@@ -1363,6 +1621,12 @@ Melanin / DHN	pfba	17_biotrophic_mix	aerobic	cocktail	7	7	0.0004	1.0
 Melanin / DHN	pfba	17_biotrophic_mix	anaerobic	cocktail	7	7	0.0001	1.0
 Melanin / DHN	pfba	18_necrotrophic_mix	aerobic	cocktail	7	7	0.0027	1.0
 Melanin / DHN	pfba	18_necrotrophic_mix	anaerobic	cocktail	7	7	0.0005	1.0
+Melanin / DHN	pfba	19_pdb_baseline	aerobic	biotrophic	7	7	0.0011	1.0
+Melanin / DHN	pfba	19_pdb_baseline	anaerobic	biotrophic	7	7	0.0002	1.0
+Melanin / DHN	pfba	20_pdb_half	aerobic	biotrophic	7	7	0.0006	1.0
+Melanin / DHN	pfba	20_pdb_half	anaerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	pfba	21_pdb_onetenth	aerobic	biotrophic	7	7	0.0001	1.0
+Melanin / DHN	pfba	21_pdb_onetenth	anaerobic	biotrophic	7	7	0.0	1.0
 Nucleotide metabolism	eflux	01_trehalose	aerobic	pre-infection	21	8	0.4885	0.381
 Nucleotide metabolism	eflux	01_trehalose	anaerobic	pre-infection	21	8	0.0993	0.381
 Nucleotide metabolism	eflux	02_glycerol	aerobic	pre-infection	21	8	0.1401	0.381
@@ -1394,6 +1658,12 @@ Nucleotide metabolism	eflux	17_biotrophic_mix	aerobic	cocktail	21	7	0.4202	0.333
 Nucleotide metabolism	eflux	17_biotrophic_mix	anaerobic	cocktail	21	8	0.0633	0.381
 Nucleotide metabolism	eflux	18_necrotrophic_mix	aerobic	cocktail	21	8	2.7865	0.381
 Nucleotide metabolism	eflux	18_necrotrophic_mix	anaerobic	cocktail	21	8	0.5401	0.381
+Nucleotide metabolism	eflux	19_pdb_baseline	aerobic	biotrophic	21	8	1.2928	0.381
+Nucleotide metabolism	eflux	19_pdb_baseline	anaerobic	biotrophic	21	8	0.2724	0.381
+Nucleotide metabolism	eflux	20_pdb_half	aerobic	biotrophic	21	8	0.6467	0.381
+Nucleotide metabolism	eflux	20_pdb_half	anaerobic	biotrophic	21	8	0.1362	0.381
+Nucleotide metabolism	eflux	21_pdb_onetenth	aerobic	biotrophic	21	8	0.1293	0.381
+Nucleotide metabolism	eflux	21_pdb_onetenth	anaerobic	biotrophic	21	8	0.0272	0.381
 Nucleotide metabolism	gimme	01_trehalose	aerobic	pre-infection	21	9	0.4582	0.4286
 Nucleotide metabolism	gimme	01_trehalose	anaerobic	pre-infection	21	10	0.2229	0.4762
 Nucleotide metabolism	gimme	02_glycerol	aerobic	pre-infection	21	9	0.1315	0.4286
@@ -1425,10 +1695,16 @@ Nucleotide metabolism	gimme	17_biotrophic_mix	aerobic	cocktail	21	8	0.3884	0.381
 Nucleotide metabolism	gimme	17_biotrophic_mix	anaerobic	cocktail	21	9	0.057	0.4286
 Nucleotide metabolism	gimme	18_necrotrophic_mix	aerobic	cocktail	21	9	2.7112	0.4286
 Nucleotide metabolism	gimme	18_necrotrophic_mix	anaerobic	cocktail	21	10	0.5384	0.4762
+Nucleotide metabolism	gimme	19_pdb_baseline	aerobic	biotrophic	21	10	6.4143	0.4762
+Nucleotide metabolism	gimme	19_pdb_baseline	anaerobic	biotrophic	21	9	0.5983	0.4286
+Nucleotide metabolism	gimme	20_pdb_half	aerobic	biotrophic	21	8	1.3225	0.381
+Nucleotide metabolism	gimme	20_pdb_half	anaerobic	biotrophic	21	9	0.2795	0.4286
+Nucleotide metabolism	gimme	21_pdb_onetenth	aerobic	biotrophic	21	9	0.1212	0.4286
+Nucleotide metabolism	gimme	21_pdb_onetenth	anaerobic	biotrophic	21	10	0.0593	0.4762
 Nucleotide metabolism	imat	01_trehalose	aerobic	pre-infection	21	12	1000.1616	0.5714
 Nucleotide metabolism	imat	01_trehalose	anaerobic	pre-infection	21	12	0.1003	0.5714
 Nucleotide metabolism	imat	02_glycerol	aerobic	pre-infection	21	13	2000.0318	0.619
-Nucleotide metabolism	imat	02_glycerol	anaerobic	pre-infection	21	9	0.0133	0.4286
+Nucleotide metabolism	imat	02_glycerol	anaerobic	pre-infection	21	9	0.013	0.4286
 Nucleotide metabolism	imat	03_palmitate	aerobic	pre-infection	21	10	0.5906	0.4762
 Nucleotide metabolism	imat	04_oleate	aerobic	pre-infection	21	13	0.1585	0.619
 Nucleotide metabolism	imat	05_hexacosanoate	aerobic	pre-infection	21	13	3000.0972	0.619
@@ -1437,9 +1713,9 @@ Nucleotide metabolism	imat	06_glucose_low	anaerobic	biotrophic	21	13	0.0393	0.61
 Nucleotide metabolism	imat	07_sucrose_low	aerobic	biotrophic	21	12	0.1624	0.5714
 Nucleotide metabolism	imat	07_sucrose_low	anaerobic	biotrophic	21	11	0.0348	0.5238
 Nucleotide metabolism	imat	08_glutamate	aerobic	biotrophic	21	13	0.1023	0.619
-Nucleotide metabolism	imat	08_glutamate	anaerobic	biotrophic	21	9	0.0135	0.4286
+Nucleotide metabolism	imat	08_glutamate	anaerobic	biotrophic	21	9	0.013	0.4286
 Nucleotide metabolism	imat	09_glutamine	aerobic	biotrophic	21	12	3000.0883	0.5714
-Nucleotide metabolism	imat	09_glutamine	anaerobic	biotrophic	21	9	0.0135	0.4286
+Nucleotide metabolism	imat	09_glutamine	anaerobic	biotrophic	21	9	0.013	0.4286
 Nucleotide metabolism	imat	10_gaba	aerobic	biotrophic	21	12	1034.597	0.5714
 Nucleotide metabolism	imat	11_galacturonate	aerobic	necrotrophic	21	11	0.8645	0.5238
 Nucleotide metabolism	imat	11_galacturonate	anaerobic	necrotrophic	21	13	1000.0496	0.619
@@ -1456,6 +1732,12 @@ Nucleotide metabolism	imat	17_biotrophic_mix	aerobic	cocktail	21	12	1000.0639	0.
 Nucleotide metabolism	imat	17_biotrophic_mix	anaerobic	cocktail	21	11	0.057	0.5238
 Nucleotide metabolism	imat	18_necrotrophic_mix	aerobic	cocktail	21	11	1.1501	0.5238
 Nucleotide metabolism	imat	18_necrotrophic_mix	anaerobic	cocktail	21	12	2000.0872	0.5714
+Nucleotide metabolism	imat	19_pdb_baseline	aerobic	biotrophic	21	11	1001.8256	0.5238
+Nucleotide metabolism	imat	19_pdb_baseline	anaerobic	biotrophic	21	13	1000.1593	0.619
+Nucleotide metabolism	imat	20_pdb_half	aerobic	biotrophic	21	12	3000.0872	0.5714
+Nucleotide metabolism	imat	20_pdb_half	anaerobic	biotrophic	21	12	3000.0175	0.5714
+Nucleotide metabolism	imat	21_pdb_onetenth	aerobic	biotrophic	21	14	1000.0596	0.6667
+Nucleotide metabolism	imat	21_pdb_onetenth	anaerobic	biotrophic	21	13	1000.0231	0.619
 Nucleotide metabolism	pfba	01_trehalose	aerobic	pre-infection	21	8	0.4887	0.381
 Nucleotide metabolism	pfba	01_trehalose	anaerobic	pre-infection	21	8	0.0994	0.381
 Nucleotide metabolism	pfba	02_glycerol	aerobic	pre-infection	21	8	0.1401	0.381
@@ -1487,6 +1769,12 @@ Nucleotide metabolism	pfba	17_biotrophic_mix	aerobic	cocktail	21	7	0.4204	0.3333
 Nucleotide metabolism	pfba	17_biotrophic_mix	anaerobic	cocktail	21	8	0.0633	0.381
 Nucleotide metabolism	pfba	18_necrotrophic_mix	aerobic	cocktail	21	8	3.0095	0.381
 Nucleotide metabolism	pfba	18_necrotrophic_mix	anaerobic	cocktail	21	8	0.5969	0.381
+Nucleotide metabolism	pfba	19_pdb_baseline	aerobic	biotrophic	21	8	1.2934	0.381
+Nucleotide metabolism	pfba	19_pdb_baseline	anaerobic	biotrophic	21	8	0.2724	0.381
+Nucleotide metabolism	pfba	20_pdb_half	aerobic	biotrophic	21	8	0.6467	0.381
+Nucleotide metabolism	pfba	20_pdb_half	anaerobic	biotrophic	21	8	0.1362	0.381
+Nucleotide metabolism	pfba	21_pdb_onetenth	aerobic	biotrophic	21	8	0.1293	0.381
+Nucleotide metabolism	pfba	21_pdb_onetenth	anaerobic	biotrophic	21	8	0.0272	0.381
 Other / unassigned	eflux	01_trehalose	aerobic	pre-infection	576	208	40.5576	0.3611
 Other / unassigned	eflux	01_trehalose	anaerobic	pre-infection	576	206	4.9145	0.3576
 Other / unassigned	eflux	02_glycerol	aerobic	pre-infection	576	205	12.387	0.3559
@@ -1518,6 +1806,12 @@ Other / unassigned	eflux	17_biotrophic_mix	aerobic	cocktail	576	208	36.2559	0.36
 Other / unassigned	eflux	17_biotrophic_mix	anaerobic	cocktail	576	203	4.9973	0.3524
 Other / unassigned	eflux	18_necrotrophic_mix	aerobic	cocktail	576	197	224.8501	0.342
 Other / unassigned	eflux	18_necrotrophic_mix	anaerobic	cocktail	576	184	24.396	0.3194
+Other / unassigned	eflux	19_pdb_baseline	aerobic	biotrophic	576	198	106.868	0.3438
+Other / unassigned	eflux	19_pdb_baseline	anaerobic	biotrophic	576	182	14.3631	0.316
+Other / unassigned	eflux	20_pdb_half	aerobic	biotrophic	576	196	53.2289	0.3403
+Other / unassigned	eflux	20_pdb_half	anaerobic	biotrophic	576	183	7.1816	0.3177
+Other / unassigned	eflux	21_pdb_onetenth	aerobic	biotrophic	576	198	10.6868	0.3438
+Other / unassigned	eflux	21_pdb_onetenth	anaerobic	biotrophic	576	152	1.4363	0.2639
 Other / unassigned	gimme	01_trehalose	aerobic	pre-infection	576	211	40.2795	0.3663
 Other / unassigned	gimme	01_trehalose	anaerobic	pre-infection	576	208	5.4437	0.3611
 Other / unassigned	gimme	02_glycerol	aerobic	pre-infection	576	209	13.4413	0.3628
@@ -1549,10 +1843,16 @@ Other / unassigned	gimme	17_biotrophic_mix	aerobic	cocktail	576	207	34.6116	0.35
 Other / unassigned	gimme	17_biotrophic_mix	anaerobic	cocktail	576	205	4.9994	0.3559
 Other / unassigned	gimme	18_necrotrophic_mix	aerobic	cocktail	576	201	219.1821	0.349
 Other / unassigned	gimme	18_necrotrophic_mix	anaerobic	cocktail	576	195	5028.5082	0.3385
+Other / unassigned	gimme	19_pdb_baseline	aerobic	biotrophic	576	219	3164.5937	0.3802
+Other / unassigned	gimme	19_pdb_baseline	anaerobic	biotrophic	576	196	15.3789	0.3403
+Other / unassigned	gimme	20_pdb_half	aerobic	biotrophic	576	216	4057.5325	0.375
+Other / unassigned	gimme	20_pdb_half	anaerobic	biotrophic	576	198	4006.6185	0.3438
+Other / unassigned	gimme	21_pdb_onetenth	aerobic	biotrophic	576	216	3003.1859	0.375
+Other / unassigned	gimme	21_pdb_onetenth	anaerobic	biotrophic	576	166	2.1476	0.2882
 Other / unassigned	imat	01_trehalose	aerobic	pre-infection	576	309	3771.7982	0.5365
 Other / unassigned	imat	01_trehalose	anaerobic	pre-infection	576	307	8004.5812	0.533
 Other / unassigned	imat	02_glycerol	aerobic	pre-infection	576	285	6021.3913	0.4948
-Other / unassigned	imat	02_glycerol	anaerobic	pre-infection	576	197	1669.7808	0.342
+Other / unassigned	imat	02_glycerol	anaerobic	pre-infection	576	194	1669.1004	0.3368
 Other / unassigned	imat	03_palmitate	aerobic	pre-infection	576	312	1818.8122	0.5417
 Other / unassigned	imat	04_oleate	aerobic	pre-infection	576	319	3009142.3184	0.5538
 Other / unassigned	imat	05_hexacosanoate	aerobic	pre-infection	576	322	3008177.9505	0.559
@@ -1561,9 +1861,9 @@ Other / unassigned	imat	06_glucose_low	anaerobic	biotrophic	576	271	5003.0619	0.
 Other / unassigned	imat	07_sucrose_low	aerobic	biotrophic	576	304	3680.1466	0.5278
 Other / unassigned	imat	07_sucrose_low	anaerobic	biotrophic	576	260	1672.0989	0.4514
 Other / unassigned	imat	08_glutamate	aerobic	biotrophic	576	307	3008015.4202	0.533
-Other / unassigned	imat	08_glutamate	anaerobic	biotrophic	576	144	1675.3934	0.25
+Other / unassigned	imat	08_glutamate	anaerobic	biotrophic	576	145	3674.8542	0.2517
 Other / unassigned	imat	09_glutamine	aerobic	biotrophic	576	313	7111.0839	0.5434
-Other / unassigned	imat	09_glutamine	anaerobic	biotrophic	576	148	3676.7402	0.2569
+Other / unassigned	imat	09_glutamine	anaerobic	biotrophic	576	144	2678.3739	0.25
 Other / unassigned	imat	10_gaba	aerobic	biotrophic	576	288	3008039.3225	0.5
 Other / unassigned	imat	11_galacturonate	aerobic	necrotrophic	576	308	3004135.8658	0.5347
 Other / unassigned	imat	11_galacturonate	anaerobic	necrotrophic	576	277	3007006.5737	0.4809
@@ -1580,6 +1880,12 @@ Other / unassigned	imat	17_biotrophic_mix	aerobic	cocktail	576	311	3006003.5506	
 Other / unassigned	imat	17_biotrophic_mix	anaerobic	cocktail	576	276	2671.7499	0.4792
 Other / unassigned	imat	18_necrotrophic_mix	aerobic	cocktail	576	311	1801.7127	0.5399
 Other / unassigned	imat	18_necrotrophic_mix	anaerobic	cocktail	576	302	6020.0744	0.5243
+Other / unassigned	imat	19_pdb_baseline	aerobic	biotrophic	576	305	3853.1766	0.5295
+Other / unassigned	imat	19_pdb_baseline	anaerobic	biotrophic	576	294	7686.8913	0.5104
+Other / unassigned	imat	20_pdb_half	aerobic	biotrophic	576	299	9265.9326	0.5191
+Other / unassigned	imat	20_pdb_half	anaerobic	biotrophic	576	269	3010000.4444	0.467
+Other / unassigned	imat	21_pdb_onetenth	aerobic	biotrophic	576	274	8002.8507	0.4757
+Other / unassigned	imat	21_pdb_onetenth	anaerobic	biotrophic	576	253	3008666.5776	0.4392
 Other / unassigned	pfba	01_trehalose	aerobic	pre-infection	576	206	40.3994	0.3576
 Other / unassigned	pfba	01_trehalose	anaerobic	pre-infection	576	204	4.8827	0.3542
 Other / unassigned	pfba	02_glycerol	aerobic	pre-infection	576	207	12.4313	0.3594
@@ -1611,6 +1917,12 @@ Other / unassigned	pfba	17_biotrophic_mix	aerobic	cocktail	576	206	36.3668	0.357
 Other / unassigned	pfba	17_biotrophic_mix	anaerobic	cocktail	576	202	5.2167	0.3507
 Other / unassigned	pfba	18_necrotrophic_mix	aerobic	cocktail	576	198	241.899	0.3438
 Other / unassigned	pfba	18_necrotrophic_mix	anaerobic	cocktail	576	184	26.0482	0.3194
+Other / unassigned	pfba	19_pdb_baseline	aerobic	biotrophic	576	197	106.8988	0.342
+Other / unassigned	pfba	19_pdb_baseline	anaerobic	biotrophic	576	179	14.3298	0.3108
+Other / unassigned	pfba	20_pdb_half	aerobic	biotrophic	576	197	53.4494	0.342
+Other / unassigned	pfba	20_pdb_half	anaerobic	biotrophic	576	179	7.1649	0.3108
+Other / unassigned	pfba	21_pdb_onetenth	aerobic	biotrophic	576	197	10.6867	0.342
+Other / unassigned	pfba	21_pdb_onetenth	anaerobic	biotrophic	576	151	1.433	0.2622
 Oxidative phosphorylation / ETC	eflux	01_trehalose	aerobic	pre-infection	24	8	20.3753	0.3333
 Oxidative phosphorylation / ETC	eflux	01_trehalose	anaerobic	pre-infection	24	5	0.4005	0.2083
 Oxidative phosphorylation / ETC	eflux	02_glycerol	aerobic	pre-infection	24	9	6.8194	0.375
@@ -1642,6 +1954,12 @@ Oxidative phosphorylation / ETC	eflux	17_biotrophic_mix	aerobic	cocktail	24	7	19
 Oxidative phosphorylation / ETC	eflux	17_biotrophic_mix	anaerobic	cocktail	24	7	2.4988	0.2917
 Oxidative phosphorylation / ETC	eflux	18_necrotrophic_mix	aerobic	cocktail	24	8	115.7281	0.3333
 Oxidative phosphorylation / ETC	eflux	18_necrotrophic_mix	anaerobic	cocktail	24	5	1.7969	0.2083
+Oxidative phosphorylation / ETC	eflux	19_pdb_baseline	aerobic	biotrophic	24	7	52.7213	0.2917
+Oxidative phosphorylation / ETC	eflux	19_pdb_baseline	anaerobic	biotrophic	24	4	1.0126	0.1667
+Oxidative phosphorylation / ETC	eflux	20_pdb_half	aerobic	biotrophic	24	7	26.3607	0.2917
+Oxidative phosphorylation / ETC	eflux	20_pdb_half	anaerobic	biotrophic	24	4	0.5063	0.1667
+Oxidative phosphorylation / ETC	eflux	21_pdb_onetenth	aerobic	biotrophic	24	7	5.2721	0.2917
+Oxidative phosphorylation / ETC	eflux	21_pdb_onetenth	anaerobic	biotrophic	24	4	0.1013	0.1667
 Oxidative phosphorylation / ETC	gimme	01_trehalose	aerobic	pre-infection	24	9	19.8175	0.375
 Oxidative phosphorylation / ETC	gimme	01_trehalose	anaerobic	pre-infection	24	6	0.3748	0.25
 Oxidative phosphorylation / ETC	gimme	02_glycerol	aerobic	pre-infection	24	10	6.6027	0.4167
@@ -1673,10 +1991,16 @@ Oxidative phosphorylation / ETC	gimme	17_biotrophic_mix	aerobic	cocktail	24	8	18
 Oxidative phosphorylation / ETC	gimme	17_biotrophic_mix	anaerobic	cocktail	24	7	1.5207	0.2917
 Oxidative phosphorylation / ETC	gimme	18_necrotrophic_mix	aerobic	cocktail	24	8	113.2934	0.3333
 Oxidative phosphorylation / ETC	gimme	18_necrotrophic_mix	anaerobic	cocktail	24	6	2.227	0.25
+Oxidative phosphorylation / ETC	gimme	19_pdb_baseline	aerobic	biotrophic	24	7	2069.0588	0.2917
+Oxidative phosphorylation / ETC	gimme	19_pdb_baseline	anaerobic	biotrophic	24	4	0.9047	0.1667
+Oxidative phosphorylation / ETC	gimme	20_pdb_half	aerobic	biotrophic	24	8	1028.3398	0.3333
+Oxidative phosphorylation / ETC	gimme	20_pdb_half	anaerobic	biotrophic	24	6	0.515	0.25
+Oxidative phosphorylation / ETC	gimme	21_pdb_onetenth	aerobic	biotrophic	24	8	3004.4097	0.3333
+Oxidative phosphorylation / ETC	gimme	21_pdb_onetenth	anaerobic	biotrophic	24	4	0.0725	0.1667
 Oxidative phosphorylation / ETC	imat	01_trehalose	aerobic	pre-infection	24	10	86.4627	0.4167
 Oxidative phosphorylation / ETC	imat	01_trehalose	anaerobic	pre-infection	24	10	1000.0762	0.4167
 Oxidative phosphorylation / ETC	imat	02_glycerol	aerobic	pre-infection	24	13	1023.7803	0.5417
-Oxidative phosphorylation / ETC	imat	02_glycerol	anaerobic	pre-infection	24	10	1000.7398	0.4167
+Oxidative phosphorylation / ETC	imat	02_glycerol	anaerobic	pre-infection	24	9	0.7439	0.375
 Oxidative phosphorylation / ETC	imat	03_palmitate	aerobic	pre-infection	24	11	51.0329	0.4583
 Oxidative phosphorylation / ETC	imat	04_oleate	aerobic	pre-infection	24	11	1071.8215	0.4583
 Oxidative phosphorylation / ETC	imat	05_hexacosanoate	aerobic	pre-infection	24	13	1194.3902	0.5417
@@ -1685,9 +2009,9 @@ Oxidative phosphorylation / ETC	imat	06_glucose_low	anaerobic	biotrophic	24	13	0
 Oxidative phosphorylation / ETC	imat	07_sucrose_low	aerobic	biotrophic	24	12	1006.4007	0.5
 Oxidative phosphorylation / ETC	imat	07_sucrose_low	anaerobic	biotrophic	24	12	0.077	0.5
 Oxidative phosphorylation / ETC	imat	08_glutamate	aerobic	biotrophic	24	12	1076.4476	0.5
-Oxidative phosphorylation / ETC	imat	08_glutamate	anaerobic	biotrophic	24	7	2.4201	0.2917
+Oxidative phosphorylation / ETC	imat	08_glutamate	anaerobic	biotrophic	24	7	2.5622	0.2917
 Oxidative phosphorylation / ETC	imat	09_glutamine	aerobic	biotrophic	24	12	81.3589	0.5
-Oxidative phosphorylation / ETC	imat	09_glutamine	anaerobic	biotrophic	24	8	3.9974	0.3333
+Oxidative phosphorylation / ETC	imat	09_glutamine	anaerobic	biotrophic	24	8	2.4185	0.3333
 Oxidative phosphorylation / ETC	imat	10_gaba	aerobic	biotrophic	24	13	1062.1854	0.5417
 Oxidative phosphorylation / ETC	imat	11_galacturonate	aerobic	necrotrophic	24	12	1075.5099	0.5
 Oxidative phosphorylation / ETC	imat	11_galacturonate	anaerobic	necrotrophic	24	12	2000.1099	0.5
@@ -1704,6 +2028,12 @@ Oxidative phosphorylation / ETC	imat	17_biotrophic_mix	aerobic	cocktail	24	12	10
 Oxidative phosphorylation / ETC	imat	17_biotrophic_mix	anaerobic	cocktail	24	12	1.2645	0.5
 Oxidative phosphorylation / ETC	imat	18_necrotrophic_mix	aerobic	cocktail	24	11	1078.2124	0.4583
 Oxidative phosphorylation / ETC	imat	18_necrotrophic_mix	anaerobic	cocktail	24	12	1997.862	0.5
+Oxidative phosphorylation / ETC	imat	19_pdb_baseline	aerobic	biotrophic	24	11	80.6935	0.4583
+Oxidative phosphorylation / ETC	imat	19_pdb_baseline	anaerobic	biotrophic	24	11	999.8543	0.4583
+Oxidative phosphorylation / ETC	imat	20_pdb_half	aerobic	biotrophic	24	11	1174.3039	0.4583
+Oxidative phosphorylation / ETC	imat	20_pdb_half	anaerobic	biotrophic	24	11	1000.0766	0.4583
+Oxidative phosphorylation / ETC	imat	21_pdb_onetenth	aerobic	biotrophic	24	11	1002.3408	0.4583
+Oxidative phosphorylation / ETC	imat	21_pdb_onetenth	anaerobic	biotrophic	24	11	3000.0019	0.4583
 Oxidative phosphorylation / ETC	pfba	01_trehalose	aerobic	pre-infection	24	8	20.3753	0.3333
 Oxidative phosphorylation / ETC	pfba	01_trehalose	anaerobic	pre-infection	24	6	0.4005	0.25
 Oxidative phosphorylation / ETC	pfba	02_glycerol	aerobic	pre-infection	24	9	6.8194	0.375
@@ -1735,6 +2065,12 @@ Oxidative phosphorylation / ETC	pfba	17_biotrophic_mix	aerobic	cocktail	24	7	19.
 Oxidative phosphorylation / ETC	pfba	17_biotrophic_mix	anaerobic	cocktail	24	7	2.4988	0.2917
 Oxidative phosphorylation / ETC	pfba	18_necrotrophic_mix	aerobic	cocktail	24	8	124.731	0.3333
 Oxidative phosphorylation / ETC	pfba	18_necrotrophic_mix	anaerobic	cocktail	24	5	1.8585	0.2083
+Oxidative phosphorylation / ETC	pfba	19_pdb_baseline	aerobic	biotrophic	24	7	52.7213	0.2917
+Oxidative phosphorylation / ETC	pfba	19_pdb_baseline	anaerobic	biotrophic	24	5	1.0127	0.2083
+Oxidative phosphorylation / ETC	pfba	20_pdb_half	aerobic	biotrophic	24	7	26.3606	0.2917
+Oxidative phosphorylation / ETC	pfba	20_pdb_half	anaerobic	biotrophic	24	4	0.5064	0.1667
+Oxidative phosphorylation / ETC	pfba	21_pdb_onetenth	aerobic	biotrophic	24	7	5.2721	0.2917
+Oxidative phosphorylation / ETC	pfba	21_pdb_onetenth	anaerobic	biotrophic	24	4	0.1013	0.1667
 Pectin / D-galacturonate (Ashwell)	eflux	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	eflux	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	eflux	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -1766,6 +2102,12 @@ Pectin / D-galacturonate (Ashwell)	eflux	17_biotrophic_mix	aerobic	cocktail	6	0	
 Pectin / D-galacturonate (Ashwell)	eflux	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	eflux	18_necrotrophic_mix	aerobic	cocktail	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	eflux	18_necrotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	eflux	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	eflux	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	eflux	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	eflux	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	eflux	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	eflux	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	gimme	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	gimme	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	gimme	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -1797,6 +2139,12 @@ Pectin / D-galacturonate (Ashwell)	gimme	17_biotrophic_mix	aerobic	cocktail	6	0	
 Pectin / D-galacturonate (Ashwell)	gimme	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	gimme	18_necrotrophic_mix	aerobic	cocktail	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	gimme	18_necrotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	gimme	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	gimme	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	gimme	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	gimme	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	gimme	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	gimme	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	imat	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	imat	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	imat	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -1828,6 +2176,12 @@ Pectin / D-galacturonate (Ashwell)	imat	17_biotrophic_mix	aerobic	cocktail	6	0	0
 Pectin / D-galacturonate (Ashwell)	imat	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	imat	18_necrotrophic_mix	aerobic	cocktail	6	5	0.005	0.8333
 Pectin / D-galacturonate (Ashwell)	imat	18_necrotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	imat	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	imat	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	imat	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	imat	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	imat	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	imat	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	pfba	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	pfba	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	pfba	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -1859,6 +2213,12 @@ Pectin / D-galacturonate (Ashwell)	pfba	17_biotrophic_mix	aerobic	cocktail	6	0	0
 Pectin / D-galacturonate (Ashwell)	pfba	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pectin / D-galacturonate (Ashwell)	pfba	18_necrotrophic_mix	aerobic	cocktail	6	5	5.0	0.8333
 Pectin / D-galacturonate (Ashwell)	pfba	18_necrotrophic_mix	anaerobic	cocktail	6	5	5.0	0.8333
+Pectin / D-galacturonate (Ashwell)	pfba	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	pfba	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	pfba	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	pfba	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	pfba	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pectin / D-galacturonate (Ashwell)	pfba	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pentose phosphate pathway	eflux	01_trehalose	aerobic	pre-infection	20	13	4.2272	0.65
 Pentose phosphate pathway	eflux	01_trehalose	anaerobic	pre-infection	20	11	0.977	0.55
 Pentose phosphate pathway	eflux	02_glycerol	aerobic	pre-infection	20	14	2.9465	0.7
@@ -1890,6 +2250,12 @@ Pentose phosphate pathway	eflux	17_biotrophic_mix	aerobic	cocktail	20	12	4.3504	
 Pentose phosphate pathway	eflux	17_biotrophic_mix	anaerobic	cocktail	20	12	1.0967	0.6
 Pentose phosphate pathway	eflux	18_necrotrophic_mix	aerobic	cocktail	20	9	24.253	0.45
 Pentose phosphate pathway	eflux	18_necrotrophic_mix	anaerobic	cocktail	20	12	4.177	0.6
+Pentose phosphate pathway	eflux	19_pdb_baseline	aerobic	biotrophic	20	12	10.5954	0.6
+Pentose phosphate pathway	eflux	19_pdb_baseline	anaerobic	biotrophic	20	11	2.5481	0.55
+Pentose phosphate pathway	eflux	20_pdb_half	aerobic	biotrophic	20	12	5.2977	0.6
+Pentose phosphate pathway	eflux	20_pdb_half	anaerobic	biotrophic	20	11	1.274	0.55
+Pentose phosphate pathway	eflux	21_pdb_onetenth	aerobic	biotrophic	20	12	1.0595	0.6
+Pentose phosphate pathway	eflux	21_pdb_onetenth	anaerobic	biotrophic	20	10	0.2548	0.5
 Pentose phosphate pathway	gimme	01_trehalose	aerobic	pre-infection	20	12	4.2427	0.6
 Pentose phosphate pathway	gimme	01_trehalose	anaerobic	pre-infection	20	11	0.8794	0.55
 Pentose phosphate pathway	gimme	02_glycerol	aerobic	pre-infection	20	13	2.8524	0.65
@@ -1921,10 +2287,16 @@ Pentose phosphate pathway	gimme	17_biotrophic_mix	aerobic	cocktail	20	12	3.9647	
 Pentose phosphate pathway	gimme	17_biotrophic_mix	anaerobic	cocktail	20	13	1.147	0.65
 Pentose phosphate pathway	gimme	18_necrotrophic_mix	aerobic	cocktail	20	11	22.4555	0.55
 Pentose phosphate pathway	gimme	18_necrotrophic_mix	anaerobic	cocktail	20	12	4.1599	0.6
+Pentose phosphate pathway	gimme	19_pdb_baseline	aerobic	biotrophic	20	12	8.0189	0.6
+Pentose phosphate pathway	gimme	19_pdb_baseline	anaerobic	biotrophic	20	11	2.2839	0.55
+Pentose phosphate pathway	gimme	20_pdb_half	aerobic	biotrophic	20	11	4.4177	0.55
+Pentose phosphate pathway	gimme	20_pdb_half	anaerobic	biotrophic	20	13	1.222	0.65
+Pentose phosphate pathway	gimme	21_pdb_onetenth	aerobic	biotrophic	20	12	0.821	0.6
+Pentose phosphate pathway	gimme	21_pdb_onetenth	anaerobic	biotrophic	20	11	1.1438	0.55
 Pentose phosphate pathway	imat	01_trehalose	aerobic	pre-infection	20	16	82.7282	0.8
 Pentose phosphate pathway	imat	01_trehalose	anaerobic	pre-infection	20	18	1.489	0.9
 Pentose phosphate pathway	imat	02_glycerol	aerobic	pre-infection	20	17	24.2895	0.85
-Pentose phosphate pathway	imat	02_glycerol	anaerobic	pre-infection	20	14	2.469	0.7
+Pentose phosphate pathway	imat	02_glycerol	anaerobic	pre-infection	20	14	2.4691	0.7
 Pentose phosphate pathway	imat	03_palmitate	aerobic	pre-infection	20	18	24.2328	0.9
 Pentose phosphate pathway	imat	04_oleate	aerobic	pre-infection	20	18	16.1423	0.9
 Pentose phosphate pathway	imat	05_hexacosanoate	aerobic	pre-infection	20	18	24.0743	0.9
@@ -1933,9 +2305,9 @@ Pentose phosphate pathway	imat	06_glucose_low	anaerobic	biotrophic	20	17	0.6436	
 Pentose phosphate pathway	imat	07_sucrose_low	aerobic	biotrophic	20	18	1.1693	0.9
 Pentose phosphate pathway	imat	07_sucrose_low	anaerobic	biotrophic	20	17	1.4219	0.85
 Pentose phosphate pathway	imat	08_glutamate	aerobic	biotrophic	20	18	19.5489	0.9
-Pentose phosphate pathway	imat	08_glutamate	anaerobic	biotrophic	20	16	1.2614	0.8
+Pentose phosphate pathway	imat	08_glutamate	anaerobic	biotrophic	20	16	1.2613	0.8
 Pentose phosphate pathway	imat	09_glutamine	aerobic	biotrophic	20	18	1.0172	0.9
-Pentose phosphate pathway	imat	09_glutamine	anaerobic	biotrophic	20	16	1.5564	0.8
+Pentose phosphate pathway	imat	09_glutamine	anaerobic	biotrophic	20	16	1.5548	0.8
 Pentose phosphate pathway	imat	10_gaba	aerobic	biotrophic	20	18	3.7372	0.9
 Pentose phosphate pathway	imat	11_galacturonate	aerobic	necrotrophic	20	18	32.9458	0.9
 Pentose phosphate pathway	imat	11_galacturonate	anaerobic	necrotrophic	20	18	10.1904	0.9
@@ -1952,6 +2324,12 @@ Pentose phosphate pathway	imat	17_biotrophic_mix	aerobic	cocktail	20	18	1.4295	0
 Pentose phosphate pathway	imat	17_biotrophic_mix	anaerobic	cocktail	20	16	2.0981	0.8
 Pentose phosphate pathway	imat	18_necrotrophic_mix	aerobic	cocktail	20	17	24.5527	0.85
 Pentose phosphate pathway	imat	18_necrotrophic_mix	anaerobic	cocktail	20	17	8.295	0.85
+Pentose phosphate pathway	imat	19_pdb_baseline	aerobic	biotrophic	20	17	4.6551	0.85
+Pentose phosphate pathway	imat	19_pdb_baseline	anaerobic	biotrophic	20	17	10.4105	0.85
+Pentose phosphate pathway	imat	20_pdb_half	aerobic	biotrophic	20	18	8.9741	0.9
+Pentose phosphate pathway	imat	20_pdb_half	anaerobic	biotrophic	20	16	0.8827	0.8
+Pentose phosphate pathway	imat	21_pdb_onetenth	aerobic	biotrophic	20	17	1.0097	0.85
+Pentose phosphate pathway	imat	21_pdb_onetenth	anaerobic	biotrophic	20	16	0.174	0.8
 Pentose phosphate pathway	pfba	01_trehalose	aerobic	pre-infection	20	13	4.2272	0.65
 Pentose phosphate pathway	pfba	01_trehalose	anaerobic	pre-infection	20	11	0.977	0.55
 Pentose phosphate pathway	pfba	02_glycerol	aerobic	pre-infection	20	14	2.9465	0.7
@@ -1983,6 +2361,12 @@ Pentose phosphate pathway	pfba	17_biotrophic_mix	aerobic	cocktail	20	12	4.3504	0
 Pentose phosphate pathway	pfba	17_biotrophic_mix	anaerobic	cocktail	20	12	1.0967	0.6
 Pentose phosphate pathway	pfba	18_necrotrophic_mix	aerobic	cocktail	20	11	29.6211	0.55
 Pentose phosphate pathway	pfba	18_necrotrophic_mix	anaerobic	cocktail	20	13	6.7609	0.65
+Pentose phosphate pathway	pfba	19_pdb_baseline	aerobic	biotrophic	20	12	10.5953	0.6
+Pentose phosphate pathway	pfba	19_pdb_baseline	anaerobic	biotrophic	20	11	2.5482	0.55
+Pentose phosphate pathway	pfba	20_pdb_half	aerobic	biotrophic	20	12	5.2977	0.6
+Pentose phosphate pathway	pfba	20_pdb_half	anaerobic	biotrophic	20	11	1.2741	0.55
+Pentose phosphate pathway	pfba	21_pdb_onetenth	aerobic	biotrophic	20	12	1.0595	0.6
+Pentose phosphate pathway	pfba	21_pdb_onetenth	anaerobic	biotrophic	20	10	0.2548	0.5
 Pentose-sugar catabolism	eflux	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	eflux	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	eflux	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -2014,6 +2398,12 @@ Pentose-sugar catabolism	eflux	17_biotrophic_mix	aerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	eflux	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	eflux	18_necrotrophic_mix	aerobic	cocktail	6	5	4.0	0.8333
 Pentose-sugar catabolism	eflux	18_necrotrophic_mix	anaerobic	cocktail	6	4	3.4458	0.6667
+Pentose-sugar catabolism	eflux	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	eflux	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	eflux	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	eflux	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	eflux	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	eflux	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pentose-sugar catabolism	gimme	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	gimme	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	gimme	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -2045,6 +2435,12 @@ Pentose-sugar catabolism	gimme	17_biotrophic_mix	aerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	gimme	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	gimme	18_necrotrophic_mix	aerobic	cocktail	6	5	4.0	0.8333
 Pentose-sugar catabolism	gimme	18_necrotrophic_mix	anaerobic	cocktail	6	4	3.4285	0.6667
+Pentose-sugar catabolism	gimme	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	gimme	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	gimme	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	gimme	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	gimme	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	gimme	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pentose-sugar catabolism	imat	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	imat	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	imat	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -2076,6 +2472,12 @@ Pentose-sugar catabolism	imat	17_biotrophic_mix	aerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	imat	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	imat	18_necrotrophic_mix	aerobic	cocktail	6	5	4.0	0.8333
 Pentose-sugar catabolism	imat	18_necrotrophic_mix	anaerobic	cocktail	6	4	3.5	0.6667
+Pentose-sugar catabolism	imat	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	imat	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	imat	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	imat	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	imat	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	imat	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Pentose-sugar catabolism	pfba	01_trehalose	aerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	pfba	01_trehalose	anaerobic	pre-infection	6	0	0.0	0.0
 Pentose-sugar catabolism	pfba	02_glycerol	aerobic	pre-infection	6	0	0.0	0.0
@@ -2107,6 +2509,12 @@ Pentose-sugar catabolism	pfba	17_biotrophic_mix	aerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	pfba	17_biotrophic_mix	anaerobic	cocktail	6	0	0.0	0.0
 Pentose-sugar catabolism	pfba	18_necrotrophic_mix	aerobic	cocktail	6	5	4.0	0.8333
 Pentose-sugar catabolism	pfba	18_necrotrophic_mix	anaerobic	cocktail	6	4	2.9691	0.6667
+Pentose-sugar catabolism	pfba	19_pdb_baseline	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	pfba	19_pdb_baseline	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	pfba	20_pdb_half	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	pfba	20_pdb_half	anaerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	pfba	21_pdb_onetenth	aerobic	biotrophic	6	0	0.0	0.0
+Pentose-sugar catabolism	pfba	21_pdb_onetenth	anaerobic	biotrophic	6	0	0.0	0.0
 Sink / demand	eflux	01_trehalose	aerobic	pre-infection	1	1	0.0006	1.0
 Sink / demand	eflux	01_trehalose	anaerobic	pre-infection	1	1	0.017	1.0
 Sink / demand	eflux	02_glycerol	aerobic	pre-infection	1	1	0.0002	1.0
@@ -2138,6 +2546,12 @@ Sink / demand	eflux	17_biotrophic_mix	aerobic	cocktail	1	1	0.0005	1.0
 Sink / demand	eflux	17_biotrophic_mix	anaerobic	cocktail	1	1	0.0107	1.0
 Sink / demand	eflux	18_necrotrophic_mix	aerobic	cocktail	1	1	0.0033	1.0
 Sink / demand	eflux	18_necrotrophic_mix	anaerobic	cocktail	1	1	0.0915	1.0
+Sink / demand	eflux	19_pdb_baseline	aerobic	biotrophic	1	1	0.0015	1.0
+Sink / demand	eflux	19_pdb_baseline	anaerobic	biotrophic	1	1	0.0462	1.0
+Sink / demand	eflux	20_pdb_half	aerobic	biotrophic	1	1	0.0008	1.0
+Sink / demand	eflux	20_pdb_half	anaerobic	biotrophic	1	1	0.0231	1.0
+Sink / demand	eflux	21_pdb_onetenth	aerobic	biotrophic	1	1	0.0002	1.0
+Sink / demand	eflux	21_pdb_onetenth	anaerobic	biotrophic	1	1	0.0046	1.0
 Sink / demand	gimme	01_trehalose	aerobic	pre-infection	1	1	0.0005	1.0
 Sink / demand	gimme	01_trehalose	anaerobic	pre-infection	1	1	0.0153	1.0
 Sink / demand	gimme	02_glycerol	aerobic	pre-infection	1	1	0.0001	1.0
@@ -2169,6 +2583,12 @@ Sink / demand	gimme	17_biotrophic_mix	aerobic	cocktail	1	1	0.0005	1.0
 Sink / demand	gimme	17_biotrophic_mix	anaerobic	cocktail	1	1	0.0097	1.0
 Sink / demand	gimme	18_necrotrophic_mix	aerobic	cocktail	1	1	0.0032	1.0
 Sink / demand	gimme	18_necrotrophic_mix	anaerobic	cocktail	1	1	0.091	1.0
+Sink / demand	gimme	19_pdb_baseline	aerobic	biotrophic	1	1	0.0014	1.0
+Sink / demand	gimme	19_pdb_baseline	anaerobic	biotrophic	1	1	0.0415	1.0
+Sink / demand	gimme	20_pdb_half	aerobic	biotrophic	1	1	0.0007	1.0
+Sink / demand	gimme	20_pdb_half	anaerobic	biotrophic	1	1	0.0208	1.0
+Sink / demand	gimme	21_pdb_onetenth	aerobic	biotrophic	1	1	0.0001	1.0
+Sink / demand	gimme	21_pdb_onetenth	anaerobic	biotrophic	1	1	0.0042	1.0
 Sink / demand	imat	01_trehalose	aerobic	pre-infection	1	1	0.0002	1.0
 Sink / demand	imat	01_trehalose	anaerobic	pre-infection	1	1	0.0206	1.0
 Sink / demand	imat	02_glycerol	aerobic	pre-infection	1	1	0.0	1.0
@@ -2200,6 +2620,12 @@ Sink / demand	imat	17_biotrophic_mix	aerobic	cocktail	1	1	0.0001	1.0
 Sink / demand	imat	17_biotrophic_mix	anaerobic	cocktail	1	1	0.0141	1.0
 Sink / demand	imat	18_necrotrophic_mix	aerobic	cocktail	1	1	0.0013	1.0
 Sink / demand	imat	18_necrotrophic_mix	anaerobic	cocktail	1	1	0.0448	1.0
+Sink / demand	imat	19_pdb_baseline	aerobic	biotrophic	1	1	0.001	1.0
+Sink / demand	imat	19_pdb_baseline	anaerobic	biotrophic	1	1	0.0301	1.0
+Sink / demand	imat	20_pdb_half	aerobic	biotrophic	1	1	0.0002	1.0
+Sink / demand	imat	20_pdb_half	anaerobic	biotrophic	1	1	0.0102	1.0
+Sink / demand	imat	21_pdb_onetenth	aerobic	biotrophic	1	1	0.0	1.0
+Sink / demand	imat	21_pdb_onetenth	anaerobic	biotrophic	1	1	0.0065	1.0
 Sink / demand	pfba	01_trehalose	aerobic	pre-infection	1	1	0.0006	1.0
 Sink / demand	pfba	01_trehalose	anaerobic	pre-infection	1	1	0.017	1.0
 Sink / demand	pfba	02_glycerol	aerobic	pre-infection	1	1	0.0002	1.0
@@ -2231,6 +2657,12 @@ Sink / demand	pfba	17_biotrophic_mix	aerobic	cocktail	1	1	0.0005	1.0
 Sink / demand	pfba	17_biotrophic_mix	anaerobic	cocktail	1	1	0.0107	1.0
 Sink / demand	pfba	18_necrotrophic_mix	aerobic	cocktail	1	1	0.0036	1.0
 Sink / demand	pfba	18_necrotrophic_mix	anaerobic	cocktail	1	1	0.1011	1.0
+Sink / demand	pfba	19_pdb_baseline	aerobic	biotrophic	1	1	0.0015	1.0
+Sink / demand	pfba	19_pdb_baseline	anaerobic	biotrophic	1	1	0.0462	1.0
+Sink / demand	pfba	20_pdb_half	aerobic	biotrophic	1	1	0.0008	1.0
+Sink / demand	pfba	20_pdb_half	anaerobic	biotrophic	1	1	0.0231	1.0
+Sink / demand	pfba	21_pdb_onetenth	aerobic	biotrophic	1	1	0.0002	1.0
+Sink / demand	pfba	21_pdb_onetenth	anaerobic	biotrophic	1	1	0.0046	1.0
 Storage (glycogen / trehalose)	eflux	01_trehalose	aerobic	pre-infection	7	3	2.0201	0.4286
 Storage (glycogen / trehalose)	eflux	01_trehalose	anaerobic	pre-infection	7	3	2.0041	0.4286
 Storage (glycogen / trehalose)	eflux	02_glycerol	aerobic	pre-infection	7	2	0.0067	0.2857
@@ -2262,6 +2694,12 @@ Storage (glycogen / trehalose)	eflux	17_biotrophic_mix	aerobic	cocktail	7	2	0.02
 Storage (glycogen / trehalose)	eflux	17_biotrophic_mix	anaerobic	cocktail	7	2	0.003	0.2857
 Storage (glycogen / trehalose)	eflux	18_necrotrophic_mix	aerobic	cocktail	7	2	0.1335	0.2857
 Storage (glycogen / trehalose)	eflux	18_necrotrophic_mix	anaerobic	cocktail	7	2	0.0259	0.2857
+Storage (glycogen / trehalose)	eflux	19_pdb_baseline	aerobic	biotrophic	7	2	0.0619	0.2857
+Storage (glycogen / trehalose)	eflux	19_pdb_baseline	anaerobic	biotrophic	7	2	0.013	0.2857
+Storage (glycogen / trehalose)	eflux	20_pdb_half	aerobic	biotrophic	7	2	0.031	0.2857
+Storage (glycogen / trehalose)	eflux	20_pdb_half	anaerobic	biotrophic	7	2	0.0065	0.2857
+Storage (glycogen / trehalose)	eflux	21_pdb_onetenth	aerobic	biotrophic	7	2	0.0062	0.2857
+Storage (glycogen / trehalose)	eflux	21_pdb_onetenth	anaerobic	biotrophic	7	2	0.0013	0.2857
 Storage (glycogen / trehalose)	gimme	01_trehalose	aerobic	pre-infection	7	3	2.0181	0.4286
 Storage (glycogen / trehalose)	gimme	01_trehalose	anaerobic	pre-infection	7	3	2.0037	0.4286
 Storage (glycogen / trehalose)	gimme	02_glycerol	aerobic	pre-infection	7	2	0.006	0.2857
@@ -2293,6 +2731,12 @@ Storage (glycogen / trehalose)	gimme	17_biotrophic_mix	aerobic	cocktail	7	2	0.01
 Storage (glycogen / trehalose)	gimme	17_biotrophic_mix	anaerobic	cocktail	7	2	0.0027	0.2857
 Storage (glycogen / trehalose)	gimme	18_necrotrophic_mix	aerobic	cocktail	7	2	0.1297	0.2857
 Storage (glycogen / trehalose)	gimme	18_necrotrophic_mix	anaerobic	cocktail	7	2	0.0257	0.2857
+Storage (glycogen / trehalose)	gimme	19_pdb_baseline	aerobic	biotrophic	7	2	0.0557	0.2857
+Storage (glycogen / trehalose)	gimme	19_pdb_baseline	anaerobic	biotrophic	7	2	0.0117	0.2857
+Storage (glycogen / trehalose)	gimme	20_pdb_half	aerobic	biotrophic	7	2	0.0279	0.2857
+Storage (glycogen / trehalose)	gimme	20_pdb_half	anaerobic	biotrophic	7	2	0.0059	0.2857
+Storage (glycogen / trehalose)	gimme	21_pdb_onetenth	aerobic	biotrophic	7	2	0.0056	0.2857
+Storage (glycogen / trehalose)	gimme	21_pdb_onetenth	anaerobic	biotrophic	7	2	0.0012	0.2857
 Storage (glycogen / trehalose)	imat	01_trehalose	aerobic	pre-infection	7	5	2.0095	0.7143
 Storage (glycogen / trehalose)	imat	01_trehalose	anaerobic	pre-infection	7	5	2.0067	0.7143
 Storage (glycogen / trehalose)	imat	02_glycerol	aerobic	pre-infection	7	4	0.0048	0.5714
@@ -2307,7 +2751,7 @@ Storage (glycogen / trehalose)	imat	07_sucrose_low	anaerobic	biotrophic	7	4	0.00
 Storage (glycogen / trehalose)	imat	08_glutamate	aerobic	biotrophic	7	4	0.0057	0.5714
 Storage (glycogen / trehalose)	imat	08_glutamate	anaerobic	biotrophic	7	4	0.004	0.5714
 Storage (glycogen / trehalose)	imat	09_glutamine	aerobic	biotrophic	7	4	0.0105	0.5714
-Storage (glycogen / trehalose)	imat	09_glutamine	anaerobic	biotrophic	7	3	0.002	0.4286
+Storage (glycogen / trehalose)	imat	09_glutamine	anaerobic	biotrophic	7	4	0.004	0.5714
 Storage (glycogen / trehalose)	imat	10_gaba	aerobic	biotrophic	7	5	34.5423	0.7143
 Storage (glycogen / trehalose)	imat	11_galacturonate	aerobic	necrotrophic	7	4	0.0444	0.5714
 Storage (glycogen / trehalose)	imat	11_galacturonate	anaerobic	necrotrophic	7	4	0.0048	0.5714
@@ -2324,6 +2768,12 @@ Storage (glycogen / trehalose)	imat	17_biotrophic_mix	aerobic	cocktail	7	4	0.005
 Storage (glycogen / trehalose)	imat	17_biotrophic_mix	anaerobic	cocktail	7	4	0.0047	0.5714
 Storage (glycogen / trehalose)	imat	18_necrotrophic_mix	aerobic	cocktail	7	3	0.0559	0.4286
 Storage (glycogen / trehalose)	imat	18_necrotrophic_mix	anaerobic	cocktail	7	4	0.0095	0.5714
+Storage (glycogen / trehalose)	imat	19_pdb_baseline	aerobic	biotrophic	7	3	0.0424	0.4286
+Storage (glycogen / trehalose)	imat	19_pdb_baseline	anaerobic	biotrophic	7	4	0.0095	0.5714
+Storage (glycogen / trehalose)	imat	20_pdb_half	aerobic	biotrophic	7	4	0.0095	0.5714
+Storage (glycogen / trehalose)	imat	20_pdb_half	anaerobic	biotrophic	7	4	0.0047	0.5714
+Storage (glycogen / trehalose)	imat	21_pdb_onetenth	aerobic	biotrophic	7	4	0.0047	0.5714
+Storage (glycogen / trehalose)	imat	21_pdb_onetenth	anaerobic	biotrophic	7	4	0.0043	0.5714
 Storage (glycogen / trehalose)	pfba	01_trehalose	aerobic	pre-infection	7	3	2.0201	0.4286
 Storage (glycogen / trehalose)	pfba	01_trehalose	anaerobic	pre-infection	7	3	2.0041	0.4286
 Storage (glycogen / trehalose)	pfba	02_glycerol	aerobic	pre-infection	7	2	0.0067	0.2857
@@ -2355,6 +2805,12 @@ Storage (glycogen / trehalose)	pfba	17_biotrophic_mix	aerobic	cocktail	7	2	0.020
 Storage (glycogen / trehalose)	pfba	17_biotrophic_mix	anaerobic	cocktail	7	2	0.003	0.2857
 Storage (glycogen / trehalose)	pfba	18_necrotrophic_mix	aerobic	cocktail	7	2	0.1441	0.2857
 Storage (glycogen / trehalose)	pfba	18_necrotrophic_mix	anaerobic	cocktail	7	2	0.0286	0.2857
+Storage (glycogen / trehalose)	pfba	19_pdb_baseline	aerobic	biotrophic	7	2	0.0619	0.2857
+Storage (glycogen / trehalose)	pfba	19_pdb_baseline	anaerobic	biotrophic	7	2	0.013	0.2857
+Storage (glycogen / trehalose)	pfba	20_pdb_half	aerobic	biotrophic	7	2	0.031	0.2857
+Storage (glycogen / trehalose)	pfba	20_pdb_half	anaerobic	biotrophic	7	2	0.0065	0.2857
+Storage (glycogen / trehalose)	pfba	21_pdb_onetenth	aerobic	biotrophic	7	2	0.0062	0.2857
+Storage (glycogen / trehalose)	pfba	21_pdb_onetenth	anaerobic	biotrophic	7	2	0.0013	0.2857
 Sulfur / nitrogen assimilation	eflux	01_trehalose	aerobic	pre-infection	3	1	0.006	0.3333
 Sulfur / nitrogen assimilation	eflux	01_trehalose	anaerobic	pre-infection	3	1	0.018	0.3333
 Sulfur / nitrogen assimilation	eflux	02_glycerol	aerobic	pre-infection	3	1	0.0017	0.3333
@@ -2386,6 +2842,12 @@ Sulfur / nitrogen assimilation	eflux	17_biotrophic_mix	aerobic	cocktail	3	1	0.00
 Sulfur / nitrogen assimilation	eflux	17_biotrophic_mix	anaerobic	cocktail	3	1	0.0114	0.3333
 Sulfur / nitrogen assimilation	eflux	18_necrotrophic_mix	aerobic	cocktail	3	1	0.0033	0.3333
 Sulfur / nitrogen assimilation	eflux	18_necrotrophic_mix	anaerobic	cocktail	3	1	0.0006	0.3333
+Sulfur / nitrogen assimilation	eflux	19_pdb_baseline	aerobic	biotrophic	3	1	0.0085	0.3333
+Sulfur / nitrogen assimilation	eflux	19_pdb_baseline	anaerobic	biotrophic	3	1	0.042	0.3333
+Sulfur / nitrogen assimilation	eflux	20_pdb_half	aerobic	biotrophic	3	1	0.0042	0.3333
+Sulfur / nitrogen assimilation	eflux	20_pdb_half	anaerobic	biotrophic	3	1	0.021	0.3333
+Sulfur / nitrogen assimilation	eflux	21_pdb_onetenth	aerobic	biotrophic	3	1	0.0008	0.3333
+Sulfur / nitrogen assimilation	eflux	21_pdb_onetenth	anaerobic	biotrophic	3	1	0.0042	0.3333
 Sulfur / nitrogen assimilation	gimme	01_trehalose	aerobic	pre-infection	3	1	0.0054	0.3333
 Sulfur / nitrogen assimilation	gimme	01_trehalose	anaerobic	pre-infection	3	1	0.0162	0.3333
 Sulfur / nitrogen assimilation	gimme	02_glycerol	aerobic	pre-infection	3	1	0.0015	0.3333
@@ -2417,6 +2879,12 @@ Sulfur / nitrogen assimilation	gimme	17_biotrophic_mix	aerobic	cocktail	3	1	0.00
 Sulfur / nitrogen assimilation	gimme	17_biotrophic_mix	anaerobic	cocktail	3	1	0.0103	0.3333
 Sulfur / nitrogen assimilation	gimme	18_necrotrophic_mix	aerobic	cocktail	3	1	0.0032	0.3333
 Sulfur / nitrogen assimilation	gimme	18_necrotrophic_mix	anaerobic	cocktail	3	1	0.0006	0.3333
+Sulfur / nitrogen assimilation	gimme	19_pdb_baseline	aerobic	biotrophic	3	1	0.0069	0.3333
+Sulfur / nitrogen assimilation	gimme	19_pdb_baseline	anaerobic	biotrophic	3	1	0.037	0.3333
+Sulfur / nitrogen assimilation	gimme	20_pdb_half	aerobic	biotrophic	3	1	0.0035	0.3333
+Sulfur / nitrogen assimilation	gimme	20_pdb_half	anaerobic	biotrophic	3	1	0.0185	0.3333
+Sulfur / nitrogen assimilation	gimme	21_pdb_onetenth	aerobic	biotrophic	3	1	0.0007	0.3333
+Sulfur / nitrogen assimilation	gimme	21_pdb_onetenth	anaerobic	biotrophic	3	1	0.0037	0.3333
 Sulfur / nitrogen assimilation	imat	01_trehalose	aerobic	pre-infection	3	1	0.0016	0.3333
 Sulfur / nitrogen assimilation	imat	01_trehalose	anaerobic	pre-infection	3	1	0.0647	0.3333
 Sulfur / nitrogen assimilation	imat	02_glycerol	aerobic	pre-infection	3	1	0.001	0.3333
@@ -2431,7 +2899,7 @@ Sulfur / nitrogen assimilation	imat	07_sucrose_low	anaerobic	biotrophic	3	1	0.09
 Sulfur / nitrogen assimilation	imat	08_glutamate	aerobic	biotrophic	3	1	0.001	0.3333
 Sulfur / nitrogen assimilation	imat	08_glutamate	anaerobic	biotrophic	3	1	0.0	0.3333
 Sulfur / nitrogen assimilation	imat	09_glutamine	aerobic	biotrophic	3	1	0.0016	0.3333
-Sulfur / nitrogen assimilation	imat	09_glutamine	anaerobic	biotrophic	3	1	0.001	0.3333
+Sulfur / nitrogen assimilation	imat	09_glutamine	anaerobic	biotrophic	3	1	0.0011	0.3333
 Sulfur / nitrogen assimilation	imat	10_gaba	aerobic	biotrophic	3	1	0.001	0.3333
 Sulfur / nitrogen assimilation	imat	11_galacturonate	aerobic	necrotrophic	3	1	0.0102	0.3333
 Sulfur / nitrogen assimilation	imat	11_galacturonate	anaerobic	necrotrophic	3	1	0.0669	0.3333
@@ -2448,6 +2916,12 @@ Sulfur / nitrogen assimilation	imat	17_biotrophic_mix	aerobic	cocktail	3	1	0.001
 Sulfur / nitrogen assimilation	imat	17_biotrophic_mix	anaerobic	cocktail	3	1	0.0501	0.3333
 Sulfur / nitrogen assimilation	imat	18_necrotrophic_mix	aerobic	cocktail	3	1	0.0013	0.3333
 Sulfur / nitrogen assimilation	imat	18_necrotrophic_mix	anaerobic	cocktail	3	2	0.0032	0.6667
+Sulfur / nitrogen assimilation	imat	19_pdb_baseline	aerobic	biotrophic	3	2	0.0075	0.6667
+Sulfur / nitrogen assimilation	imat	19_pdb_baseline	anaerobic	biotrophic	3	1	0.0609	0.3333
+Sulfur / nitrogen assimilation	imat	20_pdb_half	aerobic	biotrophic	3	2	0.002	0.6667
+Sulfur / nitrogen assimilation	imat	20_pdb_half	anaerobic	biotrophic	3	2	0.0639	0.6667
+Sulfur / nitrogen assimilation	imat	21_pdb_onetenth	aerobic	biotrophic	3	2	0.0018	0.6667
+Sulfur / nitrogen assimilation	imat	21_pdb_onetenth	anaerobic	biotrophic	3	2	0.0445	0.6667
 Sulfur / nitrogen assimilation	pfba	01_trehalose	aerobic	pre-infection	3	1	0.006	0.3333
 Sulfur / nitrogen assimilation	pfba	01_trehalose	anaerobic	pre-infection	3	1	0.018	0.3333
 Sulfur / nitrogen assimilation	pfba	02_glycerol	aerobic	pre-infection	3	1	0.0017	0.3333
@@ -2479,6 +2953,12 @@ Sulfur / nitrogen assimilation	pfba	17_biotrophic_mix	aerobic	cocktail	3	1	0.005
 Sulfur / nitrogen assimilation	pfba	17_biotrophic_mix	anaerobic	cocktail	3	1	0.0114	0.3333
 Sulfur / nitrogen assimilation	pfba	18_necrotrophic_mix	aerobic	cocktail	3	1	0.0036	0.3333
 Sulfur / nitrogen assimilation	pfba	18_necrotrophic_mix	anaerobic	cocktail	3	1	0.0007	0.3333
+Sulfur / nitrogen assimilation	pfba	19_pdb_baseline	aerobic	biotrophic	3	1	0.0085	0.3333
+Sulfur / nitrogen assimilation	pfba	19_pdb_baseline	anaerobic	biotrophic	3	1	0.042	0.3333
+Sulfur / nitrogen assimilation	pfba	20_pdb_half	aerobic	biotrophic	3	1	0.0042	0.3333
+Sulfur / nitrogen assimilation	pfba	20_pdb_half	anaerobic	biotrophic	3	1	0.021	0.3333
+Sulfur / nitrogen assimilation	pfba	21_pdb_onetenth	aerobic	biotrophic	3	1	0.0008	0.3333
+Sulfur / nitrogen assimilation	pfba	21_pdb_onetenth	anaerobic	biotrophic	3	1	0.0042	0.3333
 TCA cycle	eflux	01_trehalose	aerobic	pre-infection	34	15	3.1744	0.4412
 TCA cycle	eflux	01_trehalose	anaerobic	pre-infection	34	14	0.3858	0.4118
 TCA cycle	eflux	02_glycerol	aerobic	pre-infection	34	12	0.1318	0.3529
@@ -2510,6 +2990,12 @@ TCA cycle	eflux	17_biotrophic_mix	aerobic	cocktail	34	13	5.9672	0.3824
 TCA cycle	eflux	17_biotrophic_mix	anaerobic	cocktail	34	18	5.2643	0.5294
 TCA cycle	eflux	18_necrotrophic_mix	aerobic	cocktail	34	15	19.0198	0.4412
 TCA cycle	eflux	18_necrotrophic_mix	anaerobic	cocktail	34	11	1.4098	0.3235
+TCA cycle	eflux	19_pdb_baseline	aerobic	biotrophic	34	15	8.3679	0.4412
+TCA cycle	eflux	19_pdb_baseline	anaerobic	biotrophic	34	12	0.92	0.3529
+TCA cycle	eflux	20_pdb_half	aerobic	biotrophic	34	15	4.1839	0.4412
+TCA cycle	eflux	20_pdb_half	anaerobic	biotrophic	34	12	0.46	0.3529
+TCA cycle	eflux	21_pdb_onetenth	aerobic	biotrophic	34	15	0.8368	0.4412
+TCA cycle	eflux	21_pdb_onetenth	anaerobic	biotrophic	34	12	0.092	0.3529
 TCA cycle	gimme	01_trehalose	aerobic	pre-infection	34	14	2.992	0.4118
 TCA cycle	gimme	01_trehalose	anaerobic	pre-infection	34	13	0.4458	0.3824
 TCA cycle	gimme	02_glycerol	aerobic	pre-infection	34	16	0.1572	0.4706
@@ -2541,10 +3027,16 @@ TCA cycle	gimme	17_biotrophic_mix	aerobic	cocktail	34	14	5.1833	0.4118
 TCA cycle	gimme	17_biotrophic_mix	anaerobic	cocktail	34	16	4.5937	0.4706
 TCA cycle	gimme	18_necrotrophic_mix	aerobic	cocktail	34	14	22.0721	0.4118
 TCA cycle	gimme	18_necrotrophic_mix	anaerobic	cocktail	34	12	5999.6853	0.3529
+TCA cycle	gimme	19_pdb_baseline	aerobic	biotrophic	34	17	5012.3477	0.5
+TCA cycle	gimme	19_pdb_baseline	anaerobic	biotrophic	34	10	0.7656	0.2941
+TCA cycle	gimme	20_pdb_half	aerobic	biotrophic	34	14	3002.7843	0.4118
+TCA cycle	gimme	20_pdb_half	anaerobic	biotrophic	34	11	0.5209	0.3235
+TCA cycle	gimme	21_pdb_onetenth	aerobic	biotrophic	34	15	8000.3356	0.4412
+TCA cycle	gimme	21_pdb_onetenth	anaerobic	biotrophic	34	14	0.127	0.4118
 TCA cycle	imat	01_trehalose	aerobic	pre-infection	34	26	38.9031	0.7647
 TCA cycle	imat	01_trehalose	anaerobic	pre-infection	34	29	5000.103	0.8529
 TCA cycle	imat	02_glycerol	aerobic	pre-infection	34	29	5002.4173	0.8529
-TCA cycle	imat	02_glycerol	anaerobic	pre-infection	34	21	2001.127	0.6176
+TCA cycle	imat	02_glycerol	anaerobic	pre-infection	34	20	1.1321	0.5882
 TCA cycle	imat	03_palmitate	aerobic	pre-infection	34	27	20.6291	0.7941
 TCA cycle	imat	04_oleate	aerobic	pre-infection	34	28	3023.6359	0.8235
 TCA cycle	imat	05_hexacosanoate	aerobic	pre-infection	34	29	7763.952	0.8529
@@ -2553,9 +3045,9 @@ TCA cycle	imat	06_glucose_low	anaerobic	biotrophic	34	26	3000.1428	0.7647
 TCA cycle	imat	07_sucrose_low	aerobic	biotrophic	34	27	7000.3843	0.7941
 TCA cycle	imat	07_sucrose_low	anaerobic	biotrophic	34	26	0.1601	0.7647
 TCA cycle	imat	08_glutamate	aerobic	biotrophic	34	29	5005.5118	0.8529
-TCA cycle	imat	08_glutamate	anaerobic	biotrophic	34	25	7.7763	0.7353
+TCA cycle	imat	08_glutamate	anaerobic	biotrophic	34	24	4005.1658	0.7059
 TCA cycle	imat	09_glutamine	aerobic	biotrophic	34	27	4151.8912	0.7941
-TCA cycle	imat	09_glutamine	anaerobic	biotrophic	34	24	4003.6622	0.7059
+TCA cycle	imat	09_glutamine	anaerobic	biotrophic	34	24	4004.766	0.7059
 TCA cycle	imat	10_gaba	aerobic	biotrophic	34	29	5010.0536	0.8529
 TCA cycle	imat	11_galacturonate	aerobic	necrotrophic	34	27	1028.6291	0.7941
 TCA cycle	imat	11_galacturonate	anaerobic	necrotrophic	34	26	3000.1384	0.7647
@@ -2572,6 +3064,12 @@ TCA cycle	imat	17_biotrophic_mix	aerobic	cocktail	34	27	1001.3784	0.7941
 TCA cycle	imat	17_biotrophic_mix	anaerobic	cocktail	34	26	2.1404	0.7647
 TCA cycle	imat	18_necrotrophic_mix	aerobic	cocktail	34	25	2015.0978	0.7353
 TCA cycle	imat	18_necrotrophic_mix	anaerobic	cocktail	34	29	8000.6122	0.8529
+TCA cycle	imat	19_pdb_baseline	aerobic	biotrophic	34	26	21.6751	0.7647
+TCA cycle	imat	19_pdb_baseline	anaerobic	biotrophic	34	27	3000.2414	0.7941
+TCA cycle	imat	20_pdb_half	aerobic	biotrophic	34	29	7124.0594	0.8529
+TCA cycle	imat	20_pdb_half	anaerobic	biotrophic	34	28	1000.1276	0.8235
+TCA cycle	imat	21_pdb_onetenth	aerobic	biotrophic	34	26	5000.0315	0.7647
+TCA cycle	imat	21_pdb_onetenth	anaerobic	biotrophic	34	28	4000.0536	0.8235
 TCA cycle	pfba	01_trehalose	aerobic	pre-infection	34	14	3.1733	0.4118
 TCA cycle	pfba	01_trehalose	anaerobic	pre-infection	34	15	0.3873	0.4412
 TCA cycle	pfba	02_glycerol	aerobic	pre-infection	34	11	0.1318	0.3235
@@ -2603,6 +3101,12 @@ TCA cycle	pfba	17_biotrophic_mix	aerobic	cocktail	34	12	5.7221	0.3529
 TCA cycle	pfba	17_biotrophic_mix	anaerobic	cocktail	34	17	5.0249	0.5
 TCA cycle	pfba	18_necrotrophic_mix	aerobic	cocktail	34	14	21.1644	0.4118
 TCA cycle	pfba	18_necrotrophic_mix	anaerobic	cocktail	34	12	1.9995	0.3529
+TCA cycle	pfba	19_pdb_baseline	aerobic	biotrophic	34	14	8.3362	0.4118
+TCA cycle	pfba	19_pdb_baseline	anaerobic	biotrophic	34	13	0.8683	0.3824
+TCA cycle	pfba	20_pdb_half	aerobic	biotrophic	34	14	4.1681	0.4118
+TCA cycle	pfba	20_pdb_half	anaerobic	biotrophic	34	12	0.4335	0.3529
+TCA cycle	pfba	21_pdb_onetenth	aerobic	biotrophic	34	15	0.8368	0.4412
+TCA cycle	pfba	21_pdb_onetenth	anaerobic	biotrophic	34	12	0.0867	0.3529
 Transport (inter-compartmental)	eflux	01_trehalose	aerobic	pre-infection	256	54	28.8979	0.2109
 Transport (inter-compartmental)	eflux	01_trehalose	anaerobic	pre-infection	256	60	10.1281	0.2344
 Transport (inter-compartmental)	eflux	02_glycerol	aerobic	pre-infection	256	59	9.9806	0.2305
@@ -2634,6 +3138,12 @@ Transport (inter-compartmental)	eflux	17_biotrophic_mix	aerobic	cocktail	256	58	
 Transport (inter-compartmental)	eflux	17_biotrophic_mix	anaerobic	cocktail	256	61	10.5711	0.2383
 Transport (inter-compartmental)	eflux	18_necrotrophic_mix	aerobic	cocktail	256	60	171.5916	0.2344
 Transport (inter-compartmental)	eflux	18_necrotrophic_mix	anaerobic	cocktail	256	64	52.5114	0.25
+Transport (inter-compartmental)	eflux	19_pdb_baseline	aerobic	biotrophic	256	58	78.0184	0.2266
+Transport (inter-compartmental)	eflux	19_pdb_baseline	anaerobic	biotrophic	256	62	26.1702	0.2422
+Transport (inter-compartmental)	eflux	20_pdb_half	aerobic	biotrophic	256	60	39.0092	0.2344
+Transport (inter-compartmental)	eflux	20_pdb_half	anaerobic	biotrophic	256	64	13.2106	0.25
+Transport (inter-compartmental)	eflux	21_pdb_onetenth	aerobic	biotrophic	256	57	7.8018	0.2227
+Transport (inter-compartmental)	eflux	21_pdb_onetenth	anaerobic	biotrophic	256	50	2.6421	0.1953
 Transport (inter-compartmental)	gimme	01_trehalose	aerobic	pre-infection	256	59	27.835	0.2305
 Transport (inter-compartmental)	gimme	01_trehalose	anaerobic	pre-infection	256	63	10.1194	0.2461
 Transport (inter-compartmental)	gimme	02_glycerol	aerobic	pre-infection	256	64	11.2817	0.25
@@ -2665,10 +3175,16 @@ Transport (inter-compartmental)	gimme	17_biotrophic_mix	aerobic	cocktail	256	59	
 Transport (inter-compartmental)	gimme	17_biotrophic_mix	anaerobic	cocktail	256	63	11.437	0.2461
 Transport (inter-compartmental)	gimme	18_necrotrophic_mix	aerobic	cocktail	256	63	175.5999	0.2461
 Transport (inter-compartmental)	gimme	18_necrotrophic_mix	anaerobic	cocktail	256	68	6042.5109	0.2656
+Transport (inter-compartmental)	gimme	19_pdb_baseline	aerobic	biotrophic	256	71	7058.1956	0.2773
+Transport (inter-compartmental)	gimme	19_pdb_baseline	anaerobic	biotrophic	256	74	26.8953	0.2891
+Transport (inter-compartmental)	gimme	20_pdb_half	aerobic	biotrophic	256	62	5002.0803	0.2422
+Transport (inter-compartmental)	gimme	20_pdb_half	anaerobic	biotrophic	256	73	15.5707	0.2852
+Transport (inter-compartmental)	gimme	21_pdb_onetenth	aerobic	biotrophic	256	71	15196.8115	0.2773
+Transport (inter-compartmental)	gimme	21_pdb_onetenth	anaerobic	biotrophic	256	53	2.6093	0.207
 Transport (inter-compartmental)	imat	01_trehalose	aerobic	pre-infection	256	114	3121.7623	0.4453
 Transport (inter-compartmental)	imat	01_trehalose	anaerobic	pre-infection	256	124	8012.2169	0.4844
 Transport (inter-compartmental)	imat	02_glycerol	aerobic	pre-infection	256	105	8072.4572	0.4102
-Transport (inter-compartmental)	imat	02_glycerol	anaerobic	pre-infection	256	73	4003.2758	0.2852
+Transport (inter-compartmental)	imat	02_glycerol	anaerobic	pre-infection	256	72	1003.293	0.2812
 Transport (inter-compartmental)	imat	03_palmitate	aerobic	pre-infection	256	123	136.9815	0.4805
 Transport (inter-compartmental)	imat	04_oleate	aerobic	pre-infection	256	122	4001143.0616	0.4766
 Transport (inter-compartmental)	imat	05_hexacosanoate	aerobic	pre-infection	256	119	8827.7923	0.4648
@@ -2677,9 +3193,9 @@ Transport (inter-compartmental)	imat	06_glucose_low	anaerobic	biotrophic	256	111
 Transport (inter-compartmental)	imat	07_sucrose_low	aerobic	biotrophic	256	116	10008.9494	0.4531
 Transport (inter-compartmental)	imat	07_sucrose_low	anaerobic	biotrophic	256	103	1005.3475	0.4023
 Transport (inter-compartmental)	imat	08_glutamate	aerobic	biotrophic	256	111	12826.3506	0.4336
-Transport (inter-compartmental)	imat	08_glutamate	anaerobic	biotrophic	256	53	16.6476	0.207
+Transport (inter-compartmental)	imat	08_glutamate	anaerobic	biotrophic	256	58	2012.1217	0.2266
 Transport (inter-compartmental)	imat	09_glutamine	aerobic	biotrophic	256	122	7192.3749	0.4766
-Transport (inter-compartmental)	imat	09_glutamine	anaerobic	biotrophic	256	58	5009.3114	0.2266
+Transport (inter-compartmental)	imat	09_glutamine	anaerobic	biotrophic	256	50	2013.4959	0.1953
 Transport (inter-compartmental)	imat	10_gaba	aerobic	biotrophic	256	105	10100.7293	0.4102
 Transport (inter-compartmental)	imat	11_galacturonate	aerobic	necrotrophic	256	117	4138.7957	0.457
 Transport (inter-compartmental)	imat	11_galacturonate	anaerobic	necrotrophic	256	114	10220.2565	0.4453
@@ -2696,6 +3212,12 @@ Transport (inter-compartmental)	imat	17_biotrophic_mix	aerobic	cocktail	256	116	
 Transport (inter-compartmental)	imat	17_biotrophic_mix	anaerobic	cocktail	256	102	2009.0942	0.3984
 Transport (inter-compartmental)	imat	18_necrotrophic_mix	aerobic	cocktail	256	114	1144.821	0.4453
 Transport (inter-compartmental)	imat	18_necrotrophic_mix	anaerobic	cocktail	256	123	13019.3896	0.4805
+Transport (inter-compartmental)	imat	19_pdb_baseline	aerobic	biotrophic	256	120	3131.3212	0.4688
+Transport (inter-compartmental)	imat	19_pdb_baseline	anaerobic	biotrophic	256	125	10818.6085	0.4883
+Transport (inter-compartmental)	imat	20_pdb_half	aerobic	biotrophic	256	126	10953.7807	0.4922
+Transport (inter-compartmental)	imat	20_pdb_half	anaerobic	biotrophic	256	111	3804.5374	0.4336
+Transport (inter-compartmental)	imat	21_pdb_onetenth	aerobic	biotrophic	256	118	4009998.199	0.4609
+Transport (inter-compartmental)	imat	21_pdb_onetenth	anaerobic	biotrophic	256	110	10202.6484	0.4297
 Transport (inter-compartmental)	pfba	01_trehalose	aerobic	pre-infection	256	57	28.901	0.2227
 Transport (inter-compartmental)	pfba	01_trehalose	anaerobic	pre-infection	256	62	10.1281	0.2422
 Transport (inter-compartmental)	pfba	02_glycerol	aerobic	pre-infection	256	57	9.9806	0.2227
@@ -2727,6 +3249,12 @@ Transport (inter-compartmental)	pfba	17_biotrophic_mix	aerobic	cocktail	256	60	3
 Transport (inter-compartmental)	pfba	17_biotrophic_mix	anaerobic	cocktail	256	62	10.5711	0.2422
 Transport (inter-compartmental)	pfba	18_necrotrophic_mix	aerobic	cocktail	256	60	186.527	0.2344
 Transport (inter-compartmental)	pfba	18_necrotrophic_mix	anaerobic	cocktail	256	61	56.5276	0.2383
+Transport (inter-compartmental)	pfba	19_pdb_baseline	aerobic	biotrophic	256	60	78.0185	0.2344
+Transport (inter-compartmental)	pfba	19_pdb_baseline	anaerobic	biotrophic	256	67	26.4213	0.2617
+Transport (inter-compartmental)	pfba	20_pdb_half	aerobic	biotrophic	256	60	39.0092	0.2344
+Transport (inter-compartmental)	pfba	20_pdb_half	anaerobic	biotrophic	256	66	13.2107	0.2578
+Transport (inter-compartmental)	pfba	21_pdb_onetenth	aerobic	biotrophic	256	58	7.8018	0.2266
+Transport (inter-compartmental)	pfba	21_pdb_onetenth	anaerobic	biotrophic	256	52	2.6421	0.2031
 β-oxidation (peroxisomal)	eflux	01_trehalose	aerobic	pre-infection	54	0	0.0	0.0
 β-oxidation (peroxisomal)	eflux	01_trehalose	anaerobic	pre-infection	54	0	0.0	0.0
 β-oxidation (peroxisomal)	eflux	02_glycerol	aerobic	pre-infection	54	0	0.0	0.0
@@ -2758,6 +3286,12 @@ Transport (inter-compartmental)	pfba	18_necrotrophic_mix	anaerobic	cocktail	256	
 β-oxidation (peroxisomal)	eflux	17_biotrophic_mix	anaerobic	cocktail	54	0	0.0	0.0
 β-oxidation (peroxisomal)	eflux	18_necrotrophic_mix	aerobic	cocktail	54	0	0.0	0.0
 β-oxidation (peroxisomal)	eflux	18_necrotrophic_mix	anaerobic	cocktail	54	0	0.0	0.0
+β-oxidation (peroxisomal)	eflux	19_pdb_baseline	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	eflux	19_pdb_baseline	anaerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	eflux	20_pdb_half	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	eflux	20_pdb_half	anaerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	eflux	21_pdb_onetenth	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	eflux	21_pdb_onetenth	anaerobic	biotrophic	54	0	0.0	0.0
 β-oxidation (peroxisomal)	gimme	01_trehalose	aerobic	pre-infection	54	0	0.0	0.0
 β-oxidation (peroxisomal)	gimme	01_trehalose	anaerobic	pre-infection	54	0	0.0	0.0
 β-oxidation (peroxisomal)	gimme	02_glycerol	aerobic	pre-infection	54	2	1.1318	0.037
@@ -2789,10 +3323,16 @@ Transport (inter-compartmental)	pfba	18_necrotrophic_mix	anaerobic	cocktail	256	
 β-oxidation (peroxisomal)	gimme	17_biotrophic_mix	anaerobic	cocktail	54	0	0.0	0.0
 β-oxidation (peroxisomal)	gimme	18_necrotrophic_mix	aerobic	cocktail	54	0	0.0	0.0
 β-oxidation (peroxisomal)	gimme	18_necrotrophic_mix	anaerobic	cocktail	54	0	0.0	0.0
+β-oxidation (peroxisomal)	gimme	19_pdb_baseline	aerobic	biotrophic	54	3	8.8824	0.0556
+β-oxidation (peroxisomal)	gimme	19_pdb_baseline	anaerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	gimme	20_pdb_half	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	gimme	20_pdb_half	anaerobic	biotrophic	54	2	1.1333	0.037
+β-oxidation (peroxisomal)	gimme	21_pdb_onetenth	aerobic	biotrophic	54	1	0.0004	0.0185
+β-oxidation (peroxisomal)	gimme	21_pdb_onetenth	anaerobic	biotrophic	54	0	0.0	0.0
 β-oxidation (peroxisomal)	imat	01_trehalose	aerobic	pre-infection	54	26	2000.1711	0.4815
 β-oxidation (peroxisomal)	imat	01_trehalose	anaerobic	pre-infection	54	24	0.8213	0.4444
 β-oxidation (peroxisomal)	imat	02_glycerol	aerobic	pre-infection	54	24	0.2805	0.4444
-β-oxidation (peroxisomal)	imat	02_glycerol	anaerobic	pre-infection	54	18	2000.024	0.3333
+β-oxidation (peroxisomal)	imat	02_glycerol	anaerobic	pre-infection	54	19	2000.024	0.3519
 β-oxidation (peroxisomal)	imat	03_palmitate	aerobic	pre-infection	54	23	26.2548	0.4259
 β-oxidation (peroxisomal)	imat	04_oleate	aerobic	pre-infection	54	37	2021.7904	0.6852
 β-oxidation (peroxisomal)	imat	05_hexacosanoate	aerobic	pre-infection	54	29	2018.5622	0.537
@@ -2801,9 +3341,9 @@ Transport (inter-compartmental)	pfba	18_necrotrophic_mix	anaerobic	cocktail	256	
 β-oxidation (peroxisomal)	imat	07_sucrose_low	aerobic	biotrophic	54	24	2000.0214	0.4444
 β-oxidation (peroxisomal)	imat	07_sucrose_low	anaerobic	biotrophic	54	23	2000.1456	0.4259
 β-oxidation (peroxisomal)	imat	08_glutamate	aerobic	biotrophic	54	24	0.231	0.4444
-β-oxidation (peroxisomal)	imat	08_glutamate	anaerobic	biotrophic	54	1	0.001	0.0185
+β-oxidation (peroxisomal)	imat	08_glutamate	anaerobic	biotrophic	54	2	0.003	0.037
 β-oxidation (peroxisomal)	imat	09_glutamine	aerobic	biotrophic	54	26	2000.2141	0.4815
-β-oxidation (peroxisomal)	imat	09_glutamine	anaerobic	biotrophic	54	2	0.003	0.037
+β-oxidation (peroxisomal)	imat	09_glutamine	anaerobic	biotrophic	54	1	0.001	0.0185
 β-oxidation (peroxisomal)	imat	10_gaba	aerobic	biotrophic	54	25	5.2543	0.463
 β-oxidation (peroxisomal)	imat	11_galacturonate	aerobic	necrotrophic	54	25	8.7957	0.463
 β-oxidation (peroxisomal)	imat	11_galacturonate	anaerobic	necrotrophic	54	37	0.6403	0.6852
@@ -2820,6 +3360,12 @@ Transport (inter-compartmental)	pfba	18_necrotrophic_mix	anaerobic	cocktail	256	
 β-oxidation (peroxisomal)	imat	17_biotrophic_mix	anaerobic	cocktail	54	24	0.235	0.4444
 β-oxidation (peroxisomal)	imat	18_necrotrophic_mix	aerobic	cocktail	54	23	0.2323	0.4259
 β-oxidation (peroxisomal)	imat	18_necrotrophic_mix	anaerobic	cocktail	54	24	0.231	0.4444
+β-oxidation (peroxisomal)	imat	19_pdb_baseline	aerobic	biotrophic	54	21	2000.1132	0.3889
+β-oxidation (peroxisomal)	imat	19_pdb_baseline	anaerobic	biotrophic	54	23	1.3914	0.4259
+β-oxidation (peroxisomal)	imat	20_pdb_half	aerobic	biotrophic	54	25	0.3314	0.463
+β-oxidation (peroxisomal)	imat	20_pdb_half	anaerobic	biotrophic	54	24	0.3266	0.4444
+β-oxidation (peroxisomal)	imat	21_pdb_onetenth	aerobic	biotrophic	54	25	2000.2313	0.463
+β-oxidation (peroxisomal)	imat	21_pdb_onetenth	anaerobic	biotrophic	54	25	2000.0775	0.463
 β-oxidation (peroxisomal)	pfba	01_trehalose	aerobic	pre-infection	54	0	0.0	0.0
 β-oxidation (peroxisomal)	pfba	01_trehalose	anaerobic	pre-infection	54	0	0.0	0.0
 β-oxidation (peroxisomal)	pfba	02_glycerol	aerobic	pre-infection	54	0	0.0	0.0
@@ -2851,3 +3397,9 @@ Transport (inter-compartmental)	pfba	18_necrotrophic_mix	anaerobic	cocktail	256	
 β-oxidation (peroxisomal)	pfba	17_biotrophic_mix	anaerobic	cocktail	54	0	0.0	0.0
 β-oxidation (peroxisomal)	pfba	18_necrotrophic_mix	aerobic	cocktail	54	0	0.0	0.0
 β-oxidation (peroxisomal)	pfba	18_necrotrophic_mix	anaerobic	cocktail	54	0	0.0	0.0
+β-oxidation (peroxisomal)	pfba	19_pdb_baseline	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	pfba	19_pdb_baseline	anaerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	pfba	20_pdb_half	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	pfba	20_pdb_half	anaerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	pfba	21_pdb_onetenth	aerobic	biotrophic	54	0	0.0	0.0
+β-oxidation (peroxisomal)	pfba	21_pdb_onetenth	anaerobic	biotrophic	54	0	0.0	0.0

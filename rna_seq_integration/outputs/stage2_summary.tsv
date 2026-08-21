@@ -21,8 +21,8 @@ condition_id	label	stage	O2	method	threshold	status	biomass	n_active	n_H_active	
 02_glycerol	Glycerol	pre-infection	anaerobic	gimme	default	optimal	0.000393	377					0.0
 02_glycerol	Glycerol	pre-infection	anaerobic	gimme	strict	optimal	0.000393	372					0.0
 02_glycerol	Glycerol	pre-infection	anaerobic	gimme	narrow	optimal	0.000393	376					0.362
-02_glycerol	Glycerol	pre-infection	anaerobic	imat	default	optimal	4.4e-05	524	90.0	400.0	87.0	88.0	283.0
-02_glycerol	Glycerol	pre-infection	anaerobic	imat	strict	optimal	4.4e-05	507	57.0	198.0	14.0	14.0	134.0
+02_glycerol	Glycerol	pre-infection	anaerobic	imat	default	optimal	4.4e-05	521	83.0	400.0	88.0	88.0	283.0
+02_glycerol	Glycerol	pre-infection	anaerobic	imat	strict	optimal	4.4e-05	503	58.0	198.0	14.0	14.0	134.0
 03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	eflux	p99	optimal	0.11397	482					
 03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	gimme	default	optimal	0.102573	487					0.014
 03_palmitate	Palmitate (C16:0)	pre-infection	aerobic	gimme	strict	optimal	0.102573	501					0.0
@@ -78,8 +78,8 @@ condition_id	label	stage	O2	method	threshold	status	biomass	n_active	n_H_active	
 08_glutamate	L-Glutamate	biotrophic	anaerobic	gimme	default	optimal	0.000238	345					0.0
 08_glutamate	L-Glutamate	biotrophic	anaerobic	gimme	strict	optimal	0.000238	356					0.0
 08_glutamate	L-Glutamate	biotrophic	anaerobic	gimme	narrow	optimal	0.000238	352					1.114
-08_glutamate	L-Glutamate	biotrophic	anaerobic	imat	default	optimal	2.6e-05	435	70.0	400.0	88.0	88.0	245.0
-08_glutamate	L-Glutamate	biotrophic	anaerobic	imat	strict	optimal	2.6e-05	428	44.0	198.0	14.0	14.0	120.0
+08_glutamate	L-Glutamate	biotrophic	anaerobic	imat	default	optimal	2.6e-05	442	69.0	400.0	87.0	88.0	245.0
+08_glutamate	L-Glutamate	biotrophic	anaerobic	imat	strict	optimal	2.6e-05	423	49.0	198.0	14.0	14.0	120.0
 09_glutamine	L-Glutamine	biotrophic	aerobic	eflux	p99	optimal	0.052785	473					
 09_glutamine	L-Glutamine	biotrophic	aerobic	gimme	default	optimal	0.047507	478					0.006
 09_glutamine	L-Glutamine	biotrophic	aerobic	gimme	strict	optimal	0.047507	481					0.0
@@ -90,8 +90,8 @@ condition_id	label	stage	O2	method	threshold	status	biomass	n_active	n_H_active	
 09_glutamine	L-Glutamine	biotrophic	anaerobic	gimme	default	optimal	0.000241	342					0.0
 09_glutamine	L-Glutamine	biotrophic	anaerobic	gimme	strict	optimal	0.000241	362					0.0
 09_glutamine	L-Glutamine	biotrophic	anaerobic	gimme	narrow	optimal	0.000241	368					1.334
-09_glutamine	L-Glutamine	biotrophic	anaerobic	imat	default	optimal	2.7e-05	441	71.0	400.0	88.0	88.0	247.0
-09_glutamine	L-Glutamine	biotrophic	anaerobic	imat	strict	optimal	2.7e-05	427	45.0	198.0	14.0	14.0	121.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	imat	default	optimal	2.7e-05	430	80.0	400.0	87.0	88.0	247.0
+09_glutamine	L-Glutamine	biotrophic	anaerobic	imat	strict	optimal	2.7e-05	426	49.0	198.0	14.0	14.0	121.0
 10_gaba	GABA	biotrophic	aerobic	eflux	p99	optimal	0.049582	464					
 10_gaba	GABA	biotrophic	aerobic	gimme	default	optimal	0.044624	476					0.006
 10_gaba	GABA	biotrophic	aerobic	gimme	strict	optimal	0.044624	476					0.0
@@ -190,3 +190,39 @@ condition_id	label	stage	O2	method	threshold	status	biomass	n_active	n_H_active	
 18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	gimme	narrow	optimal	0.079526	499					16.852
 18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	imat	default	optimal	0.02	798	126.0	400.0	84.0	88.0	357.0
 18_necrotrophic_mix	Necrotrophic mix	cocktail	anaerobic	imat	strict	optimal	0.033964	648	87.0	198.0	14.0	14.0	166.0
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	eflux	p99	optimal	0.191469	502					
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	gimme	default	optimal	0.172325	549					0.022
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	gimme	strict	optimal	0.172325	524					0.0
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	gimme	narrow	optimal	0.172325	539					1.938
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	imat	default	optimal	0.125	802	145.0	400.0	86.0	88.0	365.0
+19_pdb_baseline	PDB (baseline)	biotrophic	aerobic	imat	strict	optimal	0.188197	715	77.0	198.0	13.0	14.0	165.0
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	eflux	p99	optimal	0.040333	482					
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	gimme	default	optimal	0.0363	510					0.016
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	gimme	strict	optimal	0.0363	488					0.0
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	gimme	narrow	optimal	0.0363	491					0.943
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	imat	default	optimal	0.02	784	138.0	400.0	86.0	88.0	360.0
+19_pdb_baseline	PDB (baseline)	biotrophic	anaerobic	imat	strict	optimal	0.02	687	70.0	198.0	14.0	14.0	165.0
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	eflux	p99	optimal	0.095735	505					
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	gimme	default	optimal	0.086163	532					0.011
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	gimme	strict	optimal	0.086163	507					0.0
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	gimme	narrow	optimal	0.086163	524					0.969
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	imat	default	optimal	0.02	804	142.0	400.0	86.0	88.0	361.0
+20_pdb_half	PDB (1/2 dilution)	biotrophic	aerobic	imat	strict	optimal	0.094354	717	85.0	198.0	14.0	14.0	165.0
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	eflux	p99	optimal	0.020166	483					
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	gimme	default	optimal	0.01815	517					0.008
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	gimme	strict	optimal	0.01815	505					0.0
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	gimme	narrow	optimal	0.01815	489					0.471
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	imat	default	optimal	0.002553	736	127.0	400.0	87.0	88.0	352.0
+20_pdb_half	PDB (1/2 dilution)	biotrophic	anaerobic	imat	strict	optimal	0.018861	692	72.0	198.0	14.0	14.0	163.0
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	eflux	p99	optimal	0.019147	500					
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	gimme	default	optimal	0.017233	542					0.002
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	gimme	strict	optimal	0.017233	525					0.0
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	gimme	narrow	optimal	0.017233	531					0.194
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	imat	default	optimal	0.002553	756	131.0	400.0	86.0	88.0	358.0
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	aerobic	imat	strict	optimal	0.001915	629	74.0	198.0	14.0	14.0	161.0
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	eflux	p99	optimal	0.004033	423					
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	gimme	default	optimal	0.00363	447					0.002
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	gimme	strict	optimal	0.00363	440					0.0
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	gimme	narrow	optimal	0.00363	425					0.094
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	imat	default	optimal	0.000935	718	124.0	400.0	86.0	88.0	346.0
+21_pdb_onetenth	PDB (1/10 dilution)	biotrophic	anaerobic	imat	strict	optimal	0.001238	610	63.0	198.0	14.0	14.0	163.0
