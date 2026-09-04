@@ -511,6 +511,7 @@
     <button class="tab-btn" data-tab="simulations">Simulations</button>
     <button class="tab-btn" data-tab="rnaseq">RNA-seq</button>
     <button class="tab-btn" data-tab="infection">Infection-Stage Flux</button>
+    <button class="tab-btn" data-tab="proteomics">Proteomics Flux</button>
     <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
     <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
     <button class="tab-btn" data-tab="map_expression">Escher map &mdash; expression</button>
@@ -990,6 +991,135 @@
   </div>
 </div>
 
+<div id="panel-proteomics" class="panel">
+  <div id="prot-summary-card" class="card card-pad">
+    <div class="loading" id="loading-proteomics">Loading proteomics analyses&hellip;</div>
+    <div id="prot-content" style="display:none">
+      <div class="rna-note" id="prot-dataset-note"></div>
+      <div class="rna-tile-grid" id="prot-coverage-tiles"></div>
+      <div class="rna-note" id="prot-methods-note">
+        <b>Methods.</b> TMT proteomics is <b>relative</b> (log2), not absolute, so
+        the analysis is staged from relative-safe to kcat-based. <b>Stage&nbsp;1
+        &mdash; E-Flux</b> (Colijn 2009) caps each reaction's flux by its
+        GPR-aggregated abundance (max-of-OR / min-of-AND), then a global
+        <i>capacity titration</i> shrinks all ceilings together to reveal which
+        enzyme becomes limiting first per medium. <b>Stage&nbsp;2 &mdash;
+        enzyme-capacity model</b> (GECKO/sMOMENT-style) converts abundance into
+        capacity properly: cost <span class="mono">c=MW/k<sub>cat</sub></span>,
+        ceiling <span class="mono">v&le;share&middot;B&middot;k<sub>cat</sub>/MW</span>,
+        with a single enzyme-budget knob <span class="mono">B</span> swept per
+        condition. k<sub>cat</sub> is an EC-class prior (Bar-Even 2011,
+        order-of-magnitude, swappable for BRENDA/DLKcat); MW is from the FSP237
+        proteome sequences. Because the measured proteome differs by medium, the
+        binding enzymes and flux state differ by medium &mdash; the genuine
+        proteomics-driven prediction.
+      </div>
+    </div>
+  </div>
+
+  <div class="rna-section-h">Stage 1 &mdash; E-Flux capacity titration
+    <span class="h-sub">biomass as the global capacity ceiling shrinks; where does each medium hit its first enzyme bottleneck?</span>
+  </div>
+  <div class="rna-downloads">
+    Raw outputs (browse on GitHub):
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/eflux/eflux_summary.tsv" target="_blank">eflux_summary.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/eflux/eflux_titration.tsv" target="_blank">eflux_titration.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/eflux/eflux_bottlenecks.tsv" target="_blank">eflux_bottlenecks.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/tree/main/proteomics_integration" target="_blank">full folder&nbsp;&rarr;</a>
+  </div>
+  <div class="pathway-charts-row">
+    <div class="card card-pad">
+      <div class="rna-chart-title">Capacity titration &mdash; biomass vs global ceiling
+        <span class="chart-note">cell = % of medium's own uncapped biomass; rows = capacity multiplier C (high&rarr;low)</span>
+      </div>
+      <div id="chart-prot-titration" style="overflow-x:auto"></div>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">E-Flux &harr; proteome DE concordance
+        <span class="chart-note">reactions with |&Delta;flux|&gt;0 &amp; |proteome logFC|&gt;0.5 whose flux change agrees in sign</span>
+      </div>
+      <div id="chart-prot-concordance"></div>
+    </div>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Bottleneck reactions under titration
+      <span class="chart-note">reactions pinned at their capacity ceiling; the earliest-appearing (highest C) are the primary limits</span>
+    </div>
+    <table id="tbl-prot-bottleneck" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Condition</th><th>Capacity C</th><th>Rxn ID</th><th>Name</th>
+          <th>Flux</th><th>Ceiling</th><th>Expr (norm)</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
+
+  <div class="rna-section-h">Stage 2 &mdash; proteome-allocated enzyme capacity
+    <span class="h-sub">measured abundance &rarr; per-reaction flux ceilings; budget swept per medium</span>
+  </div>
+  <div class="rna-downloads">
+    Raw outputs (browse on GitHub):
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/ec/ec_growth_curve.tsv" target="_blank">ec_growth_curve.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/ec/reaction_enzyme_cost.tsv" target="_blank">reaction_enzyme_cost.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/ec/ec_saturated_enzymes.tsv" target="_blank">ec_saturated_enzymes.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/ec/ec_flux_matrix.tsv" target="_blank">ec_flux_matrix.tsv</a>
+  </div>
+  <div class="pathway-charts-row">
+    <div class="card card-pad">
+      <div class="rna-chart-title">Enzyme-budget growth curve
+        <span class="chart-note">cell = % of medium's own uncapped biomass; rows = budget B (high&rarr;low). Richer medium needs more enzyme.</span>
+      </div>
+      <div id="chart-prot-growth" style="overflow-x:auto"></div>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">Costliest enzymes (MW / k<sub>cat</sub>)
+        <span class="chart-note">protein mass required per unit flux &mdash; the heaviest, slowest steps</span>
+      </div>
+      <div id="chart-prot-cost"></div>
+    </div>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Capacity utilization at each medium's knee
+      <span class="chart-note">|flux| / ceiling; <b>saturated</b> (&ge;0.98) rows are the budget-limiting enzymes for that medium</span>
+    </div>
+    <table id="tbl-prot-util" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Condition</th><th>Rxn ID</th><th>Name</th><th>EC</th>
+          <th>k<sub>cat</sub></th><th>MW (kDa)</th><th>Flux</th>
+          <th>Ceiling</th><th>Utilization</th><th>Saturated</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Proteome-based fluxes &mdash; top differentiating reactions
+      <span class="chart-note">pFBA flux at each medium's enzyme knee; ranked by across-medium range</span>
+    </div>
+    <table id="tbl-prot-flux" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Rxn ID</th><th>Name</th><th>Subsystem</th>
+          <th>Flux (full PDB)</th><th>Flux (&frac12; PDB)</th><th>Flux (1/10 PDB)</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
+  <div class="rna-note" style="margin-top:14px">
+    <b>Caveat.</b> k<sub>cat</sub> values are order-of-magnitude EC-class priors,
+    so absolute budgets and fluxes are relative, not calibrated. The robust
+    signals are <i>comparative</i>: which enzyme saturates first, how the
+    bottleneck shifts across media, and the shape of the budget&ndash;growth
+    curve. Cross-method concordance &mdash; glucose transport (rxn08617_c0) is
+    the primary limit in both the Stage&nbsp;1 titration and the Stage&nbsp;2
+    capacity model &mdash; supports these being real, not artefacts of one method.
+  </div>
+</div>
+
 <div id="panel-map_aerobic" class="panel panel-map">
   <iframe src="map_aerobic.html" title="Escher map &mdash; aerobic"></iframe>
 </div>
@@ -1045,6 +1175,7 @@
     simulations:   document.getElementById('panel-simulations'),
     rnaseq:        document.getElementById('panel-rnaseq'),
     infection:     document.getElementById('panel-infection'),
+    proteomics:    document.getElementById('panel-proteomics'),
     map_aerobic:   document.getElementById('panel-map_aerobic'),
     map_anaerobic: document.getElementById('panel-map_anaerobic'),
     map_expression: document.getElementById('panel-map_expression'),
@@ -1054,6 +1185,7 @@
   let simulationsInitialized = false;
   let rnaseqInitialized = false;
   let infectionInitialized = false;
+  let proteomicsInitialized = false;
   let anaerobicLoaded = false;
   let expressionMapLoaded = false;
 
@@ -1080,6 +1212,13 @@
         .catch(err => { document.getElementById('loading-infection').textContent =
           'Failed to load infection_stage_payload.json: ' + err.message; });
     }
+    if (btn.dataset.tab === 'proteomics' && !proteomicsInitialized) {
+      proteomicsInitialized = true;
+      fetch('proteomics_payload.json?v=' + Date.now())
+        .then(r => r.json()).then(initProteomicsPanel)
+        .catch(err => { document.getElementById('loading-proteomics').textContent =
+          'Failed to load proteomics_payload.json: ' + err.message; });
+    }
     if (btn.dataset.tab === 'map_anaerobic' && !anaerobicLoaded) {
       const iframe = panels.map_anaerobic.querySelector('iframe');
       iframe.src = iframe.dataset.src; anaerobicLoaded = true;
@@ -1098,6 +1237,11 @@
       });
     }
     if (btn.dataset.tab === 'infection' && window._infConcDT) window._infConcDT.columns.adjust();
+    if (btn.dataset.tab === 'proteomics') {
+      ['_protUtilDT','_protCostDT','_protBotDT','_protFluxDT'].forEach(k => {
+        if (window[k]) window[k].columns.adjust();
+      });
+    }
   }));
 
   // -- formatting helpers --------------------------------------------------
@@ -2523,6 +2667,174 @@
         '</details>' +
       '</div>';
     }).join('');
+  }
+
+  // -- proteomics panel ----------------------------------------------------
+  function initProteomicsPanel(d) {
+    if (!d) {
+      document.getElementById('loading-proteomics').textContent =
+        'No proteomics payload available.'; return;
+    }
+    const m = d.meta, CL = m.cond_labels;
+    const CONDS = m.conditions;
+
+    // local single-series horizontal bar chart (rnaseq svgBar is out of scope)
+    function bar(container, rows, opts) {
+      opts = opts || {};
+      const W = opts.width || 480, BH = opts.barHeight || 22, ML = opts.marginLeft || 230;
+      const H = rows.length * BH + 8;
+      const vmax = Math.max.apply(null, rows.map(r => r.value)) || 1;
+      const scale = (W - ML - 70) / vmax;
+      const svg = ['<svg class="svg-chart" viewBox="0 0 ' + W + ' ' + H + '" preserveAspectRatio="xMinYMin meet">'];
+      rows.forEach((r, i) => {
+        const y = i * BH + 4, bh = BH - 6, bw = Math.max(1, r.value * scale);
+        svg.push('<text class="tick-label" x="' + (ML - 6) + '" y="' + (y + bh - 2) + '" text-anchor="end">' + esc(r.label) + '</text>');
+        svg.push('<rect class="bar ' + (r.extraClass || '') + '" x="' + ML + '" y="' + y + '" width="' + bw + '" height="' + bh + '" rx="2"></rect>');
+        svg.push('<text class="value-label" x="' + (ML + bw + 5) + '" y="' + (y + bh - 2) + '">' + esc(opts.valueFmt(r)) + '</text>');
+      });
+      svg.push('</svg>');
+      container.innerHTML = svg.join('');
+    }
+
+    // generic heatmap: rowKeys (top→bottom), cols = conditions; val in 0..1
+    function heat(containerId, rowKeys, rowLabel, getVal, hi, unit) {
+      const html = ['<table class="heatmap"><thead><tr><th class="rowh">' + rowLabel + '</th>'];
+      CONDS.forEach(c => html.push('<th class="colh">' + esc(CL[c]) + '</th>'));
+      html.push('</tr></thead><tbody>');
+      rowKeys.forEach(rk => {
+        html.push('<tr><th class="rowh mono" title="' + esc(String(rk.label)) + '">' + esc(String(rk.label)) + '</th>');
+        CONDS.forEach(c => {
+          const v = getVal(rk.key, c);
+          if (v == null) { html.push('<td class="zero">&middot;</td>'); return; }
+          const t = Math.max(0, Math.min(1, v));
+          const bg = interpHex('#f7f9fc', hi, t);
+          const fg = t > 0.5 ? '#ffffff' : '#1f2328';
+          html.push('<td style="background:' + bg + ';color:' + fg + '" title="' +
+            esc(CL[c]) + ' = ' + (v * 100).toFixed(1) + '%">' + (v * 100).toFixed(0) + '</td>');
+        });
+        html.push('</tr>');
+      });
+      html.push('</tbody></table>');
+      html.push('<div class="hm-legend"><span>0%</span><span class="grad"></span><span>100%</span> &nbsp; ' + unit + '</div>');
+      document.getElementById(containerId).innerHTML = html.join('');
+    }
+
+    // ---- header + coverage tiles ----
+    document.getElementById('prot-dataset-note').innerHTML =
+      '<b>Dataset.</b> MPLEx TMT proteomics, <b>' + CL.PDA + ' / ' + CL.half +
+      ' / ' + CL.onetenth + '</b> (&times;5 reps), condition-matched 1:1 to the ' +
+      'PDB FBA media. ' + m.n_proteins_dataset + ' <i>C. sublineola</i> proteins ' +
+      '(native gene IDs), covering ' + m.n_model_genes_covered + '/' + m.n_model_genes +
+      ' model genes. k<sub>cat</sub> source: ' + esc(m.kcat_source) + '.';
+    const tiles = [
+      { v: m.n_catalyzed, l: 'GPR reactions costed', s: 'MW &amp; k<sub>cat</sub> assigned', cls: 'accent' },
+      { v: m.ec_pct + '%', l: 'EC-covered', s: m.n_ec + ' / ' + m.n_catalyzed + ' reactions', cls: 'pos' },
+      { v: m.n_prot_covered.PDA, l: 'reactions with abundance', s: 'per condition (of ' + m.n_catalyzed + ')', cls: 'warm' },
+      { v: CONDS.length, l: 'media conditions', s: 'matched to FBA panel 19/20/21', cls: '' },
+    ];
+    document.getElementById('prot-coverage-tiles').innerHTML = tiles.map(t =>
+      '<div class="rna-tile ' + t.cls + '"><div class="n">' + t.v + '</div>' +
+      '<div class="label">' + t.l + '</div><div class="sub">' + t.s + '</div></div>').join('');
+
+    document.getElementById('loading-proteomics').style.display = 'none';
+    document.getElementById('prot-content').style.display = 'block';
+
+    // ---- Stage 1: titration heatmap ----
+    const tit = d.eflux.titration;
+    const caps = Array.from(new Set(tit.map(r => r.capacity))).sort((a, b) => b - a);
+    const titGrid = {};
+    tit.forEach(r => { titGrid[r.condition + '|' + r.capacity] = r.frac_of_baseline; });
+    heat('chart-prot-titration',
+      caps.map(c => ({ key: c, label: 'C=' + c })), 'Capacity',
+      (rk, c) => { const v = titGrid[c + '|' + rk]; return v == null ? null : v; },
+      '#1a7f37', 'biomass vs uncapped baseline');
+
+    // ---- Stage 1: DE concordance bars ----
+    const conc = d.eflux.concordance;
+    const cKeys = [['half_vs_PDA', '½ vs full'], ['onetenth_vs_PDA', '1/10 vs full'],
+                   ['onetenth_vs_half', '1/10 vs ½']];
+    bar(document.getElementById('chart-prot-concordance'),
+      cKeys.filter(k => conc[k[0]]).map(k => ({
+        label: k[1], value: conc[k[0]].rate,
+        n: conc[k[0]].n, c: conc[k[0]].concordant })),
+      { width: 460, barHeight: 30, marginLeft: 110,
+        valueFmt: r => (r.value * 100).toFixed(0) + '%  (' + r.c + '/' + r.n + ')' });
+
+    // ---- Stage 1: bottleneck table ----
+    const botData = d.eflux.bottlenecks.map(r => [
+      '<b>' + esc(CL[r.condition] || r.condition) + '</b>',
+      '<span class="mono">' + r.capacity + '</span>',
+      '<span class="mono">' + esc(r.rxn_id) + '</span>',
+      esc(r.name),
+      fmtFlux(r.flux),
+      '<span class="mono">' + nfix(r.ceiling, 4) + '</span>',
+      '<span class="mono">' + nfix(r.expr_norm, 4) + '</span>',
+    ]);
+    $('#tbl-prot-bottleneck').show();
+    window._protBotDT = new DataTable('#tbl-prot-bottleneck', {
+      data: botData, pageLength: 15, lengthMenu: [10, 15, 25, 50], deferRender: true,
+      order: [[1, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(1), numColDef(4), numColDef(5), numColDef(6)],
+    });
+    wireHeaderSearch(window._protBotDT, '#tbl-prot-bottleneck');
+
+    // ---- Stage 2: growth-curve heatmap ----
+    const gc = d.ec.growth_curve;
+    const budgets = Array.from(new Set(gc.map(r => r.budget))).sort((a, b) => b - a);
+    const gcGrid = {};
+    gc.forEach(r => { gcGrid[r.condition + '|' + r.budget] = r.frac_of_baseline; });
+    function bfmt(b) { return 'B=' + Number(b).toExponential(0).replace('e+', 'e'); }
+    heat('chart-prot-growth',
+      budgets.map(b => ({ key: b, label: bfmt(b) })), 'Budget',
+      (rk, c) => { const v = gcGrid[c + '|' + rk]; return v == null ? null : v; },
+      '#1a7f37', 'biomass vs uncapped baseline');
+
+    // ---- Stage 2: costliest enzymes bars ----
+    const costTop = d.ec.cost_top.slice(0, 12);
+    bar(document.getElementById('chart-prot-cost'),
+      costTop.map(r => ({
+        label: (r.name && r.name.length > 30) ? r.name.slice(0, 28) + '…' : (r.name || r.rxn_id),
+        value: r.cost, ec: r.ec, mw: r.mw_kDa, kcat: r.kcat })),
+      { width: 500, barHeight: 22, marginLeft: 240,
+        valueFmt: r => Math.round(r.value).toLocaleString() + '  (' + r.mw + ' kDa / ' + r.kcat + ')' });
+
+    // ---- Stage 2: capacity utilization table ----
+    const utilData = d.ec.utilization.map(r => [
+      '<b>' + esc(CL[r.condition] || r.condition) + '</b>',
+      '<span class="mono">' + esc(r.rxn_id) + '</span>',
+      esc(r.name),
+      '<span class="mono">' + esc(r.ec || '') + '</span>',
+      '<span class="mono">' + nfix(r.kcat, 1) + '</span>',
+      '<span class="mono">' + nfix(r.mw_kDa, 1) + '</span>',
+      fmtFlux(r.flux),
+      '<span class="mono">' + nfix(r.ceiling, 4) + '</span>',
+      '<span class="mono">' + (r.utilization * 100).toFixed(0) + '%</span>',
+      r.saturated ? '<span class="expr-badge expr-hi">yes</span>' : '<span class="flux-zero">&mdash;</span>',
+    ]);
+    $('#tbl-prot-util').show();
+    window._protUtilDT = new DataTable('#tbl-prot-util', {
+      data: utilData, pageLength: 20, lengthMenu: [15, 20, 50, 100], deferRender: true,
+      order: [[8, 'desc']], autoWidth: false,
+      columnDefs: [numColDef(4), numColDef(5), numColDef(6), numColDef(7), numColDef(8)],
+    });
+    wireHeaderSearch(window._protUtilDT, '#tbl-prot-util');
+
+    // ---- Stage 2: proteome-based flux differentiators ----
+    const fluxData = d.ec.flux_diff.map(r => [
+      '<span class="mono">' + esc(r.rxn_id) + '</span>',
+      esc(r.name),
+      esc(r.subsystem || ''),
+      fmtFlux(r.flux_PDA),
+      fmtFlux(r.flux_half),
+      fmtFlux(r.flux_onetenth),
+    ]);
+    $('#tbl-prot-flux').show();
+    window._protFluxDT = new DataTable('#tbl-prot-flux', {
+      data: fluxData, pageLength: 20, lengthMenu: [15, 20, 45], deferRender: true,
+      order: [], autoWidth: false,
+      columnDefs: [numColDef(3), numColDef(4), numColDef(5)],
+    });
+    wireHeaderSearch(window._protFluxDT, '#tbl-prot-flux');
   }
 
   // -- load data -----------------------------------------------------------

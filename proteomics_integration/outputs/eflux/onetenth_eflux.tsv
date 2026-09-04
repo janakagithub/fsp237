@@ -1,0 +1,1623 @@
+rxn_id	name	subsystem	gpr	expr_linear	eflux_scale	flux_baseline	flux_eflux	dflux
+rxn00248_m0	(S)-malate:NAD+ oxidoreductase		gene_10386 or gene_2140 or gene_1284 or gene_4455	1858564142.261338	0.21490928529430348	0.10243565894100304	0.10243565894100304	0.0
+rxn00506_m0			gene_12607 or gene_7676 or gene_3513 or gene_6404 or gene_10955 or gene_5820 or gene_9629 or gene_9702 or gene_12737 or gene_11813 or gene_3583 or gene_727	1084836731.568297	0.12544172210203341	0.0	0.0	0.0
+rxn08067_c0	adentylate kinase (ITP)_c0		gene_8746 or gene_2710	341242926.8012119	0.03945856472909007	0.0	0.0	0.0
+rxn00062_c0			gene_3910 or gene_4354 or gene_2396 or gene_4661 or gene_5993 or gene_980 or gene_11716 or gene_2283 or gene_5772 or gene_1868 or gene_8021 or gene_7306 or gene_11953 or gene_8988 or gene_10811 or gene_7206 or gene_5561 or gene_9705 or gene_4468 or gene_4172 or gene_11586 or gene_5186 or gene_489 or gene_1035 or gene_2984 or gene_2929 or gene_22 or gene_11923 or gene_302 or gene_8303 or gene_12758 or gene_9725 or gene_7453 or gene_11631 or gene_8601 or gene_7364 or gene_4311 or gene_4544 or gene_6513 or gene_11280 or gene_11393 or gene_1798 or gene_5658 or gene_9791 or gene_1801 or gene_11248 or gene_10107 or gene_4099 or gene_1068 or gene_5630 or gene_8678 or gene_8963 or gene_174 or gene_240 or gene_8926 or gene_6595 or gene_2238 or gene_6576 or gene_8263 or gene_5157 or gene_4257 or gene_2924 or gene_4798 or gene_7547 or gene_2594 or gene_10644 or gene_1521 or gene_11495 or gene_304 or gene_5783 or gene_12109 or gene_12188 or gene_785 or gene_11658 or gene_9829 or gene_12696 or gene_8102 or gene_2566 or gene_9149 or gene_9888 or gene_1509 or gene_12989 or gene_12901 or gene_273 or gene_10515 or gene_11749 or gene_700 or gene_11548 or gene_12854 or gene_9241 or gene_10391 or gene_5252 or gene_2294 or gene_12956 or gene_11046 or gene_5677 or gene_2297 or gene_9975 or gene_2601 or gene_73 or gene_1858 or gene_9996 or gene_7404 or gene_12309 or gene_2265 or gene_6598 or gene_3440 or gene_4217 or gene_10935 or gene_10064 or gene_7872 or gene_7303 or gene_10924 or gene_412 or gene_10617 or gene_5996 or gene_3036 or gene_4003 or gene_6632 or gene_705 or gene_12577 or gene_5332 or gene_2026 or gene_7800 or gene_431 or gene_7247 or gene_8795 or gene_8201 or gene_7653	1618129941.7571874	0.18710742416091	0.0	0.0	0.0
+rxn00154_m0			gene_7709 or gene_2933 or gene_1362 or gene_5732 or gene_1088 or gene_3311	286285638.2624524	0.033103749561286804	0.11830537419953047	0.11830537419953047	0.0
+rxn00515_c0	ATP:IDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.0	0.0	0.0
+rxn00260_m0	L-Aspartate:2-oxoglutarate aminotransferase		gene_10110 or gene_378 or gene_11255 or gene_8831	464344333.71008885	0.053693013127153466	0.003648785832419704	0.003648785832419704	0.0
+rxn00507_c0			gene_7676 or gene_3513 or gene_3583 or gene_12607 or gene_5820 or gene_11813 or gene_10727	3746091270.1884966	0.4331676153742539	0.49261084895326046	0.49261084895326046	0.0
+rxn00247_c0			gene_6589 or gene_10907 or gene_2480 or gene_9217	400646415.1742961	0.046327502389059666	0.0	0.0	0.0
+rxn00505_m0	Isocitrate:NAD+ oxidoreductase (decarboxylating)		gene_11629 or gene_11776 or gene_8372	278788158.4086932	0.0322368017921776	0.08888616069931786	0.08888616069931786	0.0
+rxn00459_c0	2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)_c0		gene_5039 or gene_7580	740238335.7161266	0.08559515814323086	0.6676088623236577	0.6676088623236577	0.0
+rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		gene_11358	240418223.38788873	0.027800013669236154	0.013586640496467257	0.013586640496467257	0.0
+rxn00187_c0			gene_9169 or gene_3137 or gene_4403	161023117.83606312	0.018619407521714027	0.010310880821926471	0.010310880821926471	0.0
+rxn00006_c0			gene_5065 or gene_1038 or gene_9660 or gene_3404 or gene_12385 or gene_6939 or gene_8541 or gene_11200	783968312.3441108	0.09065173801010705	0.0	0.0	0.0
+rxn00168_c0			gene_8168 or gene_11837 or gene_12109 or gene_7361	98330828.73727854	0.011370179616514752	0.49261084895326046	0.49261084895326046	0.0
+rxn00781_c0	D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)_c0		gene_11328	2284875921.30293	0.2642045222264539	0.7012775594476655	0.7012775594476655	0.0
+rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		gene_13019 or gene_331 or gene_6660	83072586.27099667	0.009605840195177344	0.50265603	0.50265603	0.0
+rxn01333_c0	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase_c0		gene_2227 or gene_90 or gene_5138 or gene_11682 or gene_1776	596019605.8328716	0.0689188737683737	0.0	0.0	0.0
+rxn30674_m0	Fumarase_m0		gene_4086 or gene_9437	240220003.45879862	0.027777093124110384	0.09603828413679637	0.09603828413679637	0.0
+rxn00545_c0			gene_4384 or gene_7620 or gene_3381 or gene_1776	596019605.8328716	0.0689188737683737	0.21144312755746345	0.21144312755746345	0.0
+rxn00191_m0	L-Alanine:2-oxoglutarate aminotransferase_m0		gene_3840	90837901.68978474	0.010503758297000874	0.0	0.0	0.0
+rxn00134_c0			gene_10947 or gene_4315	367588338.07116365	0.042504934438946276	0.0005973941691707947	0.0005973941691707947	0.0
+rxn00191_c0	L-Alanine:2-oxoglutarate aminotransferase_c0		gene_3840	90837901.68978474	0.010503758297000874	-0.008793178910205847	-0.008793178910205847	0.0
+rxn00161_m0			gene_6725 or gene_4455 or gene_2140 or gene_8151	203193542.79875004	0.023495653481275726	0.0	0.0	0.0
+rxn01115_c0			gene_12740 or gene_342 or gene_4358	845799652.006557	0.09780141270439971	0.2851316961177316	0.2851316961177316	0.0
+rxn00192_m0			gene_3939 or gene_395 or gene_12310	263867013.82392013	0.030511441636146112	0.0	0.0	0.0
+rxn00237_c0	ATP:GDP phosphotransferase_c0		gene_11925 or gene_12313	3754942378.645335	0.4341910857777058	0.03395060604692844	0.03395060604692844	0.0
+rxn01116_c0	D-Ribulose-5-phosphate 3-epimerase_c0		gene_1379 or gene_377	506142304.7057279	0.05852619153039941	0.18464374340206088	0.18464374340206088	0.0
+rxn00559_c0	D-mannose-6-phosphate aldose-ketose-isomerase_c0		gene_5224 or gene_8063 or gene_12263 or gene_5676 or gene_9101 or gene_10978 or gene_10142	307597247.51473135	0.035568051227682945	-0.031575728345498856	-0.031575728345498856	0.0
+rxn00285_m0	Succinate:CoA ligase (ADP-forming)_m0		gene_11823 or gene_11965 or gene_12874	506688477.7488713	0.05858934655189151	-0.09561602441553586	-0.09561602441553586	0.0
+rxn00786_c0	D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)_c0		gene_12807 or gene_6755	635354834.0905669	0.07346728057313649	0.21144312755746345	0.21144312755746345	0.0
+rxn00248_c0	S)-malate:NAD+ oxidoreductase		gene_10386 or gene_1284	1858564142.261338	0.21490928529430348	0.0	0.0	0.0
+rxn00704_c0	alpha-D-Glucose 1-phosphate 1,6-phosphomutase_c0		gene_895	266800379.96541378	0.030850632308472268	-0.028877880959724322	-0.028877880959724322	0.0
+rxn01053_c0			gene_12607 or gene_3601 or gene_5820 or gene_7676 or gene_3513 or gene_11959 or gene_900 or gene_3583 or gene_2524 or gene_8794	1084836731.568297	0.12544172210203341	0.0	0.0	0.0
+rxn00547_c0			gene_3281 or gene_9152	161898090.43202716	0.018720582257078254	0.0035735590000000005	0.0035735590000000005	0.0
+rxn01100_c0	ATP:3-phospho-D-glycerate 1-phosphotransferase_c0		gene_8456 or gene_9532	1379900097.295288	0.15956045688390935	-0.7012775594476655	-0.7012775594476655	0.0
+rxn00558_c0	D-glucose-6-phosphate aldose-ketose-isomerase_c0		gene_83 or gene_8161	340104495.32891303	0.03932692574579912	0.0	0.0	0.0
+rxn09882_c0	RXN-5581.c.metaexp.NADP_c0		gene_12607 or gene_3583 or gene_3513 or gene_5820 or gene_7676 or gene_10727	3746091270.1884966	0.4331676153742539	0.0	0.0	0.0
+rxn00250_c0			gene_10796 or gene_12451 or gene_10336 or gene_2859 or gene_10986 or gene_9951	292181188.8641197	0.033785463222607705	0.019944201875152553	0.019944201875152553	0.0
+rxn00509_c0			gene_4885 or gene_9629 or gene_9044 or gene_1298 or gene_2577 or gene_5648 or gene_9774 or gene_6685 or gene_9702 or gene_10841 or gene_427	201524509.86492917	0.023302660047912874	1.104650353911385e-06	1.104650353911385e-06	0.0
+rxn00973_c0	citrate hydroxymutase		gene_8740 or gene_1061 or gene_2525 or gene_11562 or gene_2729 or gene_937 or gene_2402 or gene_3048 or gene_3224 or gene_10853 or gene_1325 or gene_8029	696375110.123185	0.08052317044663601	0.004818243764993554	0.004818243764993554	0.0
+rxn00216_c0			gene_3062 or gene_9203 or gene_3281 or gene_4527 or gene_9152 or gene_7207	161898090.43202716	0.018720582257078254	0.3485167492466743	0.3485167492466743	0.0
+rxn01977_c0	alpha-D-Glucose 6-phosphate ketol-isomerase_c0		gene_83	340104495.32891303	0.03932692574579912	0.0	0.0	0.0
+rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0		gene_12325 or gene_10855	183149785.58978397	0.021177955943460138	-0.6676088623236577	-0.6676088623236577	0.0
+rxn01731_m0	Itaconate:CoA ligase (ADP-forming)_m0		gene_12874 or gene_11965 or gene_11823	506688477.7488713	0.05858934655189151	0.0	0.0	0.0
+rxn00741_c0	2-Hydroxybutyrate:NAD+ oxidoreductase_c0					0.0	0.0	0.0
+rxn34273_c0	Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase_c0		gene_9804 or gene_6121 or gene_4126	1503801617.122416	0.17388742385128447	0.0945509149994532	0.0945509149994532	0.0
+rxn09417_m0	Succinic dehydrogenase_m0		gene_10255	408064486.8763794	0.04718526804347335	0.09603828413679637	0.09603828413679637	0.0
+rxn00198_c0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		gene_11358	240418223.38788873	0.027800013669236154	0.004397088694086962	0.004397088694086962	0.0
+rxn30206_m0	2-Hydroxybutane-1,2,4-tricarboxylate hydro-lyase_m0		gene_7602 or gene_1085	92023714.54055484	0.010640876078656627	0.004971112667201367	0.004971112667201367	0.0
+rxn01241_m0	Dihydrolipoamide:NAD+ oxidoreductase		gene_7657 or gene_2255 or gene_1343 or gene_8838 or gene_12238 or gene_9051 or gene_42	284496074.6587778	0.03289681893871142	0.0956772956123739	0.0956772956123739	0.0
+rxn15115_c0	D-Ribose 1,5-phosphomutase_c0		gene_895	266800379.96541378	0.030850632308472268	-7.658899053214485e-06	-7.658899053214485e-06	0.0
+rxn00507_m0			gene_7676 or gene_3583 or gene_12607 or gene_3513 or gene_5820 or gene_10727	3746091270.1884966	0.4331676153742539	0.0	0.0	0.0
+rxn01870_c0	D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase_c0		gene_6755 or gene_12807	635354834.0905669	0.07346728057313649	0.0	0.0	0.0
+rxn01243_m0	 succinyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating)_m0		gene_7657 or gene_1343 or gene_42 or gene_12238	284496074.6587778	0.03289681893871142	0.0956772956123739	0.0956772956123739	0.0
+rxn00575_e0			gene_3917 or gene_8978 or gene_6114 or gene_1328 or gene_8420 or gene_9006 or gene_8890 or gene_9129	306598849.13853014	0.03545260453601949	0.00265603	0.00265603	0.0
+rxn09523_m0	Mitochondrial matrix NADH dehydrogenase		gene_2864 or gene_10074 or gene_10177 or gene_9661	134851602.82639888	0.015593145765177244	0.0	0.0	0.0
+rxn00973_m0	citrate hydroxymutase_m0		gene_11562 or gene_1061 or gene_2525 or gene_8740 or gene_2402 or gene_937 or gene_1325 or gene_8029 or gene_3048 or gene_2729 or gene_10853 or gene_3224	696375110.123185	0.08052317044663601	0.10247280119578511	0.10247280119578511	0.0
+rxn01334_c0	Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase_c0		gene_6755 or gene_12807	635354834.0905669	0.07346728057313649	0.0945509149994532	0.0945509149994532	0.0
+rxn02380_c0	beta-D-Glucose 6-phosphate ketol-isomerase_c0		gene_83 or gene_8161	340104495.32891303	0.03932692574579912	0.15413928075332575	0.15413928075332575	0.0
+rxn00288_m0	[Succinate:(acceptor) oxidoreductase_m0		gene_10255 or gene_364 or gene_2716 or gene_8693 or gene_1870	672782649.3097997	0.0777951296023908	0.0	0.0	0.0
+rxn09522_m0	sn-Glycerol-3-phosphate:(acceptor) 2-oxidoreductase; (succinate dehydrogenase (ubiquinone-6), mitochondrial)		gene_10255 or gene_9266 or gene_7897	415408693.6495716	0.048034492556521334	0.0	0.0	0.0
+rxn05745_m0	aconitase, mitochondrial		gene_8562	522533177.204574	0.06042149910358391	0.0	0.0	0.0
+rxn08032_c0	acetaldehyde transport via diffusion (extracellular to periplasm)					0.0	0.0	0.0
+rxn05469_c0	pyruvate reversible transport via proton symport_c0					0.0	0.0	0.0
+rxn08428_c0	ethanol transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn13377_c0	Phenethyl acetate transport (extracellular)_c0					0.0	0.0	0.0
+PIt2r_c0	Inorganic phosphate transporter_c0					-0.027400053774703573	-0.027400053774703573	0.0
+rxn00001_c0	diphosphate phosphohydrolase_c0		gene_4271 or gene_12967	1705412136.090811	0.1972000292944271	0.6397901359342661	0.6397901359342661	0.0
+rxn00001_m0	CustomReaction_m0		gene_12967 or gene_4271	1705412136.090811	0.1972000292944271	1.1488349407131116e-05	1.1488349407131116e-05	0.0
+rxn00014_m0	CustomReaction_m0		gene_11615 or gene_3749 or gene_4700	312415379.14515585	0.036125180896551166	0.0	0.0	0.0
+rxn00068_c0	Fe2+:NAD+ oxidoreductase_c0		gene_188 or gene_6417 or gene_12859 or gene_12975 or gene_5389 or gene_12725			0.0	0.0	0.0
+rxn00077_c0	ATP:NAD+ 2'-phosphotransferase_c0		gene_10811 or gene_7857 or gene_3559 or gene_3929 or gene_12936 or gene_9151	54570178.13541208	0.0063100528600509185	0.0	0.0	0.0
+rxn00077_m0	ATP:NAD+ 2'-phosphotransferase_m0		gene_12936 or gene_3559 or gene_3929	34231572.82375969	0.003958261478725792	0.0	0.0	0.0
+rxn00078_c0	NADH kinase		gene_3929 or gene_10811 or gene_12936 or gene_2929 or gene_3559	34231572.82375969	0.003958261478725792	3.829449802372764e-06	3.829449802372764e-06	0.0
+rxn00078_m0	NADH kinase mitochondrial		gene_12936 or gene_9151 or gene_10811 or gene_3929 or gene_3559 or gene_7857	54570178.13541208	0.0063100528600509185	0.0	0.0	0.0
+rxn00097_c0	ATP:AMP phosphotransferase_c0		gene_2414 or gene_10931 or gene_7383 or gene_2710 or gene_3711 or gene_8746 or gene_1190	341289083.38083667	0.03946390190164884	0.5098983234778022	0.5098983234778022	0.0
+rxn00097_m0	CustomReaction_m0		gene_8746 or gene_2710 or gene_1190	341242926.8012119	0.03945856472909007	0.0	0.0	0.0
+rxn00146_m0	CustomReaction_m0		gene_3121 or gene_12885 or gene_5176	100750706.3999935	0.01164999464531487	0.0	0.0	0.0
+rxn00159_m0	CustomReaction_m0		gene_2140 or gene_4455	203193542.79875004	0.023495653481275726	0.0	0.0	0.0
+rxn00175_c0	Acetate:CoA ligase (AMP-forming)_c0		gene_11906 or gene_2224 or gene_9278	307566158.6695314	0.035564456365740536	0.49330391405579027	0.49330391405579027	0.0
+rxn00175_m0	CustomReaction_m0		gene_5109 or gene_9278	307566158.6695314	0.035564456365740536	0.0	0.0	0.0
+rxn00179_c0	ATP:L-glutamate 5-phosphotransferase_c0		gene_2152 or gene_2036 or gene_10235 or gene_5545	90468139.7886646	0.010461002029357559	0.0025433429122573904	0.0025433429122573904	0.0
+rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)_c0		gene_6359 or gene_5380	265720833.72819582	0.030725802336233385	-0.09190904588871171	-0.09190904588871171	0.0
+rxn00213_c0	UTP:alpha-D-glucose-1-phosphate uridylyltransferase_c0		gene_6844 or gene_11318 or gene_743	386932089.5753717	0.04474168899379414	0.028877880959724322	0.028877880959724322	0.0
+rxn00289_m0	CustomReaction_m0		gene_10190 or gene_8576 or gene_7509 or gene_3638 or gene_5089 or gene_11213	510390484.5536828	0.0590174165971947	0.0	0.0	0.0
+rxn00336_c0	isocitrate glyoxylate-lyase (succinate-forming)_c0		gene_7509 or gene_8576 or gene_10190 or gene_3638 or gene_180 or gene_5089 or gene_11213	510390484.5536828	0.0590174165971947	0.0004211550709065917	0.0004211550709065917	0.0
+rxn00355_c0	UTP:alpha-D-galactose-1-phosphate uridylyltransferase_c0		gene_3469	48225309.18984632	0.00557638366921068	0.0	0.0	0.0
+rxn00371_c0	Formate:NAD+ oxidoreductase_c0		gene_5421	715719789.8940399	0.08276003233871108	0.0	0.0	0.0
+rxn00543_c0	ethanol:NAD+ oxidoreductase_c0		gene_12293 or gene_10982 or gene_4949 or gene_7652 or gene_11353 or gene_11790 or gene_3527 or gene_12544 or gene_12913 or gene_12777 or gene_8037 or gene_10551 or gene_1509 or gene_8488 or gene_2673 or gene_12477 or gene_4125 or gene_3264	1908966244.11177	0.22073737561397777	0.0	0.0	0.0
+rxn00543_m0	CustomReaction_m0		gene_12293 or gene_1998 or gene_11062 or gene_2904 or gene_11790 or gene_10551 or gene_8783 or gene_4949 or gene_3264 or gene_2673 or gene_10611 or gene_12777 or gene_8037 or gene_3527 or gene_12913 or gene_9877 or gene_4125 or gene_4844 or gene_12477 or gene_11353	1908966244.11177	0.22073737561397777	0.0	0.0	0.0
+rxn00549_c0	D-Fructose-1,6-bisphosphate 1-phosphohydrolase_c0		gene_6205	142493917.39468083	0.016476841046129658	0.0	0.0	0.0
+rxn00604_c0	D-glucose-6-phosphate:NADP+ 1-oxidoreductase_c0		gene_12711 or gene_7732 or gene_3092 or gene_11859 or gene_4021	310826242.07158536	0.035941425972548284	0.0630925376763132	0.0630925376763132	0.0
+rxn00605_c0	UDP-glucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase_c0		gene_7984 or gene_10094 or gene_9268 or gene_2427 or gene_467	218890161.9044541	0.025310683222159125	0.0004480456268780991	0.0004480456268780991	0.0
+rxn00609_c0	myo-Inositol-1-phosphate synthase_c0		gene_8547 or gene_9231	167291887.57249483	0.019344277217140264	-0.034059126542340286	-0.034059126542340286	0.0
+rxn00616_m0	CustomReaction_m0		gene_6712 or gene_5145	130609358.84591387	0.015102607073958968	0.0	0.0	0.0
+rxn00634_c0	D-Glucitol:NAD+ 2-oxidoreductase_c0		gene_11062 or gene_5784 or gene_9877 or gene_8783 or gene_4844 or gene_10611 or gene_2904 or gene_11353 or gene_10551	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn00641_c0	GTP:alpha-D-mannose-1-phosphate guanylyltransferase_c0		gene_3827 or gene_12800 or gene_9209	203681615.47176534	0.023552090247134005	0.031575728345498856	0.031575728345498856	0.0
+rxn00701_c0	UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase_c0		gene_3469	48225309.18984632	0.00557638366921068	0.0	0.0	0.0
+rxn00747_c0	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase_c0		gene_6374 or gene_5786	825092503.4074233	0.09540700596603005	-0.3048452076162036	-0.3048452076162036	0.0
+rxn00785_c0	D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase_c0		gene_1838 or gene_5123 or gene_4126 or gene_9804 or gene_6121 or gene_4882 or gene_9836 or gene_10506	1503801617.122416	0.17388742385128447	-0.09009282840260768	-0.09009282840260768	0.0
+rxn00881_c0	1D-myo-Inositol 1-phosphate phosphohydrolase_c0		gene_2458 or gene_1753 or gene_5750	190885523.923903	0.022072453991069354	0.034059126542340286	0.034059126542340286	0.0
+rxn00908_m0	CustomReaction_m0		gene_2255 or gene_8838 or gene_9051 or gene_3442 or gene_885	371455078.70345	0.04295205296814163	0.0	0.0	0.0
+rxn01101_c0	3-Phospho-D-glycerate:NAD+ 2-oxidoreductase_c0		gene_11370 or gene_9465 or gene_1399 or gene_6795 or gene_9121 or gene_3527	304468919.61262393	0.03520631675841134	0.033668697124007725	0.033668697124007725	0.0
+rxn01274_c0	(R)-S-Lactoylglutathione hydrolase_c0		gene_12612 or gene_4517 or gene_7690 or gene_1209	268630801.15716076	0.031062287371195724	0.0	0.0	0.0
+rxn01332_c0	Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming)_c0		gene_5766 or gene_10716 or gene_10803 or gene_8788 or gene_8442	235637465.1320736	0.027247205554326553	0.004458086596845509	0.004458086596845509	0.0
+rxn01332_m0	CustomReaction_m0		gene_8442 or gene_8788 or gene_10803	235637465.1320736	0.027247205554326553	0.0	0.0	0.0
+rxn01343_c0	ATP:Sedoheptulose 7-phosphate 1-phosphotransferase_c0		gene_7620 or gene_3381 or gene_1656 or gene_493 or gene_6941 or gene_11482 or gene_12317 or gene_12883 or gene_776 or gene_1973 or gene_12617 or gene_3832 or gene_7552 or gene_10960 or gene_9798 or gene_8056 or gene_8841 or gene_2576 or gene_8267 or gene_4001 or gene_3400 or gene_5312 or gene_6348 or gene_11109 or gene_10106 or gene_9816 or gene_2817 or gene_2763 or gene_2337 or gene_6010 or gene_3780 or gene_4705 or gene_8146 or gene_8778 or gene_12961 or gene_5836 or gene_117 or gene_12243 or gene_6914 or gene_3801 or gene_8193 or gene_12624 or gene_2914 or gene_3033 or gene_340 or gene_8339	802879142.0490668	0.0928384329988899	0.0945509149994532	0.0945509149994532	0.0
+rxn01476_c0	6-Phospho-D-glucono-1,5-lactone lactonohydrolase_c0		gene_4365 or gene_4017 or gene_12627	170140301.4326025	0.019673644696571624	0.2851316961177316	0.2851316961177316	0.0
+rxn01492_c0	ATP:D-fructose-1-phosphate 6-phosphotransferase_c0					0.0	0.0	0.0
+rxn01618_c0	(S)-Lactaldehyde:NADP+ oxidoreductase_c0		gene_12711 or gene_356 or gene_4021 or gene_2865 or gene_7744 or gene_11124	365938007.97528297	0.04231410365009125	0.0	0.0	0.0
+rxn01834_c0	(R)-S-Lactoylglutathione methylglyoxal-lyase (isomerizing)_c0		gene_7951	80083801.95742352	0.00926024141484829	0.0	0.0	0.0
+rxn01851_m0	Aminobutyraldehyde dehydrogenase		gene_5820 or gene_3513 or gene_12607 or gene_7676 or gene_3583	1084836731.568297	0.12544172210203341	0.0	0.0	0.0
+rxn02004_c0	Trehalose-6-phosphate phosphohydrolase_c0		gene_10094 or gene_467 or gene_9268 or gene_7984	218890161.9044541	0.025310683222159125	0.0004480456268780991	0.0004480456268780991	0.0
+rxn03956_c0	3-Methylbutanol:NADP oxidoreductase_c0		gene_8488 or gene_10551 or gene_11353	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn05232_c0	2'-Deoxyadenosine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase_c0		gene_47 or gene_9547 or gene_2076 or gene_10209	8648133279.658728	1.0	5.4378187193752205e-05	5.4378187193752205e-05	0.0
+rxn05236_c0	2'-Deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase_c0		gene_47 or gene_9547 or gene_2076 or gene_10209	8648133279.658728	1.0	0.0	0.0	0.0
+rxn05289_c0	NADPH:oxidized-thioredoxin oxidoreductase_c0		gene_47 or gene_10956	8648133279.658728	1.0	0.0010749054324135853	0.0010749054324135853	0.0
+rxn05468_c0	TRANS-RXNAVI-26568.ce_c0					0.6637911161545226	0.6637911161545226	0.0
+rxn09243_c0	D-sorbitol transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn09397_c0	CustomReaction_c0		gene_10234 or gene_8289	168872376.9248717	0.019527032188793435	0.0	0.0	0.0
+rxn09399_c0	CustomReaction_c0		gene_516	283868449.5939844	0.03282424546597488	0.0	0.0	0.0
+rxn09400_c0	CustomReaction_c0		gene_2303 or gene_10353 or gene_12797 or gene_10344 or gene_8997 or gene_5001 or gene_3539 or gene_2897 or gene_2079 or gene_5561 or gene_3401 or gene_4937 or gene_3298 or gene_7786 or gene_10989 or gene_12844	423810626.1246776	0.049006023892060324	0.02172829817868662	0.02172829817868662	0.0
+rxn09753_c0	CustomReaction_c0		gene_364 or gene_1870 or gene_8693 or gene_2716	672782649.3097997	0.0777951296023908	0.0	0.0	0.0
+rxn12777_m0	CustomReaction_m0		gene_7657 or gene_1343 or gene_12238 or gene_42	284496074.6587778	0.03289681893871142	0.0	0.0	0.0
+rxn13222_m0	CustomReaction_m0		gene_10551 or gene_11353 or gene_391	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn13223_c0	aldehyde dehydrogenase (2-methylbutanol, NADP)_c0		gene_8488	50911624.767591946	0.005887007417813642	0.0	0.0	0.0
+rxn13224_m0	CustomReaction_m0		gene_11062 or gene_2904 or gene_10551 or gene_9877 or gene_4844 or gene_8783 or gene_11353 or gene_10611	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn13225_c0	aldehyde dehydrogenase (isobutyl alcohol, NADP)_c0		gene_11353 or gene_10551 or gene_8488	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn13300_c0	CustomReaction_c0		gene_8289 or gene_10234	168872376.9248717	0.019527032188793435	0.005744174703565373	0.005744174703565373	0.0
+rxn18921_x0	CustomReaction_x0		gene_8831	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+rxn19316_m0	CustomReaction_m0		gene_4823 or gene_954 or gene_8677 or gene_2727	1046685653.2751151	0.12103024079624493	0.10729104496077867	0.10729104496077867	0.0
+rxn20162_c0	acetyl-CoA:glyoxylate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_c0		gene_2406 or gene_4519 or gene_5781 or gene_8346 or gene_1507 or gene_7298	368698844.99083275	0.04263334445342664	0.0	0.0	0.0
+rxn28352_m0	CustomReaction_m0		gene_11062 or gene_10551 or gene_11790 or gene_11353 or gene_8783 or gene_9877 or gene_3264 or gene_4844 or gene_2904 or gene_10611	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn30081_m0	CustomReaction_m0		gene_3939	106013218.94323826	0.01225850891921288	0.001824392916209852	0.001824392916209852	0.0
+rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		gene_9499 or gene_7012	168129924.1952594	0.019441180976097785	-0.0011488349407130706	-0.0011488349407130706	0.0
+rxn30674_c0	(S)-malate hydro-lyase (fumarate-forming)_c0		gene_9437 or gene_4086	240220003.45879862	0.027777093124110384	-0.006397374804206678	-0.006397374804206678	0.0
+rxn32754_c0	D-mannose 6-phosphate 1,6-phosphomutase_c0		gene_1247 or gene_1839 or gene_10016	315245314.44951373	0.036452411665648374	0.031575728345498856	0.031575728345498856	0.0
+rxn35242_c0	ATP:pyruvate 2-O-phosphotransferase_c0		gene_11925	426612603.47985256	0.04933002183064037	-0.6586926891299667	-0.6586926891299667	0.0
+ACALDCD_c0	CustomReaction_c0					0.0	0.0	0.0
+ACtr_c0	Acetate transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+H2Otm_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_m0					-3.3039271364661484	-3.3039271364661484	0.0
+HACNHm_m0	CustomReaction_m0					0.004971112667201367	0.004971112667201367	0.0
+bio1_m0	CustomReaction_m0					0.0	0.0	0.0
+bio2_m0	CustomReaction_m0					0.0	0.0	0.0
+rxn05211_c0	Transport of citrate, extracellular_c0					0.0	0.0	0.0
+rxn05319_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_c0					-1.4057346627280054	-1.4057346627280054	0.0
+rxn05467_c0	CO2 transporter via diffusion_c0					-1.123690861809143	-1.123690861809143	0.0
+rxn05488_c0	acetate reversible transport via proton symport_c0					0.0	0.0	0.0
+rxn05561_c0	Transport of dicarboxylates, extracellular_c0					0.0	0.0	0.0
+rxn05605_c0	Maltose permease MAL31_c0					0.0	0.0	0.0
+rxn09681_c0	D-fructose transport in via proton symport_c0					0.0035735590000000005	0.0035735590000000005	0.0
+rxn30341_m0	CustomReaction_m0					0.0956772956123739	0.0956772956123739	0.0
+rxn30407_m0	CustomReaction_m0					0.0	0.0	0.0
+frxn35348_m0	ubiquinol-cytochrome c oxidoreductase Complex III		gene_5298 or gene_9484 or gene_10373 or gene_8583 or gene_4339 or gene_12242	386055495.29887235	0.04464032674044391	1.24055798555003	1.24055798555003	0.0
+rxn35347_m0	cytochrome c oxidase Complex IV		gene_8032 or gene_8058	631458523.8508347	0.0730167428543323	0.620278992775015	0.620278992775015	0.0
+rxn05469_m0	Pyruvate transport via proton symport_m0					0.13862533947545513	0.13862533947545513	0.0
+rxn08428_m0	Ethanol transport					0.0	0.0	0.0
+rxn08032_m0	Acetaldehyde transport					0.0	0.0	0.0
+rxn00145_m0	(S)-Lactate:ferricytochrome-c 2-oxidoreductase		gene_8616 or gene_6190 or gene_8519 or gene_3210 or gene_3121 or gene_12885 or gene_5176 or gene_12402	192231078.86456075	0.02222804305256343	0.0	0.0	0.0
+frxn13726_m0	NADH dehydrogenase-Complex-I (ubiquinone-6)		gene_2528 or gene_1095 or gene_7993 or gene_11913 or gene_910 or gene_10116 or gene_12112 or gene_10187 or gene_9415 or gene_5161 or gene_7271 or gene_8921 or gene_1739 or gene_658 or gene_2602 or gene_1389 or gene_8874 or gene_8546 or gene_9714 or gene_3875 or gene_5629 or gene_6133 or gene_5834	1802023600.310099	0.20837139554135206	0.4102717726696242	0.4102717726696242	0.0
+rxn00083_m0	NADPH:NAD+ oxidoreductase_m0		gene_3389 or gene_7669	513943400.45479035	0.05942824697945353	0.0	0.0	0.0
+rxn00102_c0	carbonate hydro-lyase (carbon-dioxide-forming)[c0]		gene_10957 or gene_1132 or gene_9399 or gene_935	302097298.3410385	0.03493208170734389	-0.4680469305856646	-0.4680469305856646	0.0
+rxn00102_m0	carbonate hydro-lyase (carbon-dioxide-forming)[m0]		gene_9399 or gene_1132 or gene_10957	302097298.3410385	0.03493208170734389	0.0	0.0	0.0
+rxn00003_m0	pyruvate:pyruvate acetaldehydetransferase (decarboxylating)_m0		gene_11737 or gene_7035 or gene_6894 or gene_7460	224675017.08426276	0.02597959696258623	-0.008557717695667247	-0.008557717695667247	0.0
+rxn00003_c0	pyruvate:pyruvate acetaldehydetransferase (decarboxylating)		gene_11737 or gene_7035 or gene_3484 or gene_10768 or gene_7460 or gene_6894	227831604.30936494	0.026344599110798582	0.0	0.0	0.0
+rxn08350_m0	D-Lactate-proton symporter					0.0	0.0	0.0
+rxn19316_x0	citrate condensing enzyme		gene_4823 or gene_954 or gene_2727	1046685653.2751151	0.12103024079624493	0.0	0.0	0.0
+rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		gene_12891	530208371.1411517	0.06130899628804921	2.358972473761236	2.358972473761236	0.0
+rxn09779_c0	Tricarboxylate transport protein_c0		gene_4406	89571937.13345623	0.010357372422108522	-0.004818243764993554	-0.004818243764993554	0.0
+rxn09777_c0	Tricarboxylate transport protein_c0		gene_4406	89571937.13345623	0.010357372422108522	0.0	0.0	0.0
+rxn09733_c0	Mitochondrial oxaloacetate transport protein_c0		gene_11652 or gene_7618 or gene_11408 or gene_4152 or gene_2219 or gene_1181 or gene_1637 or gene_12376 or gene_1228 or gene_11087	696831168.9088254	0.08057590538617644	0.0012066001873559176	0.0012066001873559176	0.0
+rxn08173_m0	F(1)-ATPase		gene_7697 or gene_10240 or gene_10935 or gene_9272 or gene_5353 or gene_8123 or gene_2000 or gene_7687 or gene_11334 or gene_6907 or gene_12165 or gene_1565 or gene_3187 or gene_7693 or gene_9147 or gene_1242 or gene_4039 or gene_7471 or gene_9647 or gene_7078 or gene_1773 or gene_3458 or gene_13011 or gene_7453 or gene_443 or gene_4385 or gene_10617 or gene_1262 or gene_3899 or gene_808 or gene_6532	2762368114.942245	0.31941784725261	2.26518084226191	2.26518084226191	0.0
+rxn09273_c0	TRANS-RXN-106.cp		gene_1024	158622721.3461794	0.01834184513775659	0.0	0.0	0.0
+rxn13211_c0	Acetaldehyde condensation[c0]		gene_12109 or gene_7361	15485335.080656294	0.001790598569645006	0.0	0.0	0.0
+rxn11219_c0	Acetolate conversion to Diacetyl					0.0	0.0	0.0
+rxn11319_c0	ACTN transporter					0.0	0.0	0.0
+rxn05511_c0	Butanediol transport in/out via proton symport					0.0	0.0	0.0
+rxn09121_m0	Inorganic phosphate transporter					-0.06586304758978434	-0.06586304758978434	0.0
+rxn02185_c0	2-Acetolactate pyruvate-lyase (carboxylating)					0.0	0.0	0.0
+rxn02113_c0	2-Acetolactate carboxy-lyase					0.0	0.0	0.0
+rxn09121_c0	phosphate transport cytosol/mito					2.295087840233111	2.295087840233111	0.0
+bio1	Biomass					0.0	0.0	0.0
+bio2	Biomass					0.0	0.0	0.0
+EX_cpd00076_e0	Exchange for Sucrose					-0.00265603	-0.00265603	0.0
+EX_cpd00027_e0	Exchange for D-Glucose					-0.5	-0.5	0.0
+EX_cpd00082_e0	Exchange for D-Fructose					-0.000917529	-0.000917529	0.0
+EX_cpd00130_e0	Exchange for L-Malate					0.0	0.0	0.0
+EX_cpd00007_e0	Exchange for O2					-0.6637911161545226	-0.6637911161545226	0.0
+EX_cpd00067_e0	Exchange for H+					0.0	0.0	0.0
+EX_cpd00029_e0	Exchange for Acetate					0.0	0.0	0.0
+EX_cpd00588_e0	Exchange for Sorbitol					0.0	0.0	0.0
+EX_cpd00361_e0	Exchange for ACTN					0.0	0.0	0.0
+EX_cpd00363_e0	Exchange for Ethanol					0.0	0.0	0.0
+EX_cpd00011_e0	Exchange for CO2					1.123690861809143	1.123690861809143	0.0
+EX_cpd00001_e0	Exchange for H2O					1.4030786327280054	1.4030786327280054	0.0
+EX_cpd00020_e0	Exchange for Pyruvate					0.0	0.0	0.0
+EX_cpd00009_e0	Exchange for Phosphate					-0.03846299381508077	-0.03846299381508077	0.0
+EX_cpd00137_e0	Exchange for Citrate					0.0	0.0	0.0
+EX_cpd00071_e0	Exchange for Acetaldehyde					0.0	0.0	0.0
+EX_cpd09075_e0	Exchange for Phenethyl acetate					-0.0	-0.0	0.0
+EX_cpd00106_e0	Exchange for Fumarate					0.0	0.0	0.0
+EX_cpd01947_e0	Exchange for BDOH					-0.0	-0.0	0.0
+SK_cpd11416_c0	Sink for Biomass					0.0	0.0	0.0
+rxn01256_c0	Chorismate pyruvatemutase_c0		gene_1620	75005316.16465177	0.008673006502001045	0.0038024202909154566	0.0038024202909154566	0.0
+rxn00832_c0	IMP 1,2-hydrolase (decyclizing)_c0		gene_3819	294824701.84378207	0.03409113762587808	-0.0033161564628538262	-0.0033161564628538262	0.0
+rxn00737_m0	L-threonine ammonia-lyase (2-oxobutanoate-forming)_m0		gene_11775 or gene_10382	65719368.88960518	0.007599254863958178	0.0	0.0	0.0
+rxn02175_m0	ATP:pantetheine-4'-phosphate adenylyltransferase_m0					0.0	0.0	0.0
+rxn13307_c0	GTP/GDP translocase, mitochondrial (electroneutral)_m0		gene_10368	241161367.16692746	0.027885944789283378	0.0	0.0	0.0
+rxn01740_c0	Shikimate:NADP+ 3-oxidoreductase_c0		gene_7443	95296242.60590923	0.011019284685407832	0.004458086596845509	0.004458086596845509	0.0
+rxn01671_c0	ATP:N-ribosylnicotinamide 5'-phosphotransferase_c0		gene_5936	30896355.17818539	0.0035726039573021726	7.658899053214485e-06	7.658899053214485e-06	0.0
+rxn00236_c0	GDP phosphohydrolase_c0		gene_12109			0.0	0.0	0.0
+rxn00002_c0	urea-1-carboxylate amidohydrolase_c0		gene_9951			0.0	0.0	0.0
+rxn09541_c0	phosphatidylinositol-3-phosphate 4-kinase, yeast-specific_c0					0.0	0.0	0.0
+rxn09771_c0	Transport of glycerone phosphate, mitochondrial_m0					0.0	0.0	0.0
+rxn09730_c0	Mitochondrial 2-oxodicarboxylate carrier 1_m0		gene_1165 or gene_7017	120391546.07641773	0.013921102067146751	0.0	0.0	0.0
+rxn00860_c0	S-adenosyl-L-methionine:L-histidine N-methyltransferase_c0		gene_1974	181761192.6562897	0.021017390317493157	0.0	0.0	0.0
+rxn09036_c0	Octanoate transport via diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+ASPt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE_c0		gene_6605 or gene_5741 or gene_12204	281632534.8550949	0.032565702417829606	0.00158347	0.00158347	0.0
+rxn09540_c0	1-phosphatidylinositol-4,5-bisphosphate phosphodiesterase, yeast-specific_c0		gene_1734 or gene_10704 or gene_12864 or gene_2078	106155553.73027255	0.01227496735971461	0.0	0.0	0.0
+rxn09564_c0	5',5'''-P-1,P-4-tetraphosphate phosphorylase_c0		gene_641	99553418.62762024	0.011511549996781363	0.0	0.0	0.0
+rxn06437_c0	L-Glutamine:tRNA(Gln) ligase (AMP-forming)_c0		gene_11626	89911607.16653794	0.010396649110163348	0.0	0.0	0.0
+rxn20661_c0	quinolinate synthase_c0					0.0	0.0	0.0
+rxn00170_m0	Acetyl-CoA hydrolase_m0		gene_319	180356980.89391068	0.020855018656815605	0.0	0.0	0.0
+FACOAL240p_x0	Fatty acid  CoA ligase  n C240   peroxisomal		gene_8073			0.0	0.0	0.0
+rxn01521_c0	2'-Deoxyuridine 5'-monophosphate phosphohydrolase_c0		gene_996	121363540.7081785	0.014033495643925569	0.0	0.0	0.0
+rxn05645_c0	riboflavin transport in via proton symport_c0					7.388e-07	7.388e-07	0.0
+rxn03423_c0	N4-Acetylaminobutanal:NAD+ oxidoreductase_c0		gene_12607 or gene_3583 or gene_7676	1084836731.568297	0.12544172210203341	0.0	0.0	0.0
+CITtap_c0	Tricarboxylate transport protein_x0					0.0	0.0	0.0
+rxn30330_m0	L-4-hydroxyglutamate semialdehyde dehydrogenase, mitochondrial_m0		gene_2608	144214468.5335333	0.016675791626932963	0.0	0.0	0.0
+rxn03446_c0	O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)_c0		gene_10801	315082564.6954987	0.036433592603921164	0.0	0.0	0.0
+rxn09657_c0	Thiamine transporter_c0		gene_9010			2.7248e-06	2.7248e-06	0.0
+rxn20474_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA), peroxisomal_x0		gene_2331 or gene_7220	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn00438_c0	ATP:thiamin-phosphate phosphotransferase_c0					1.1046498023769153e-06	1.1046498023769153e-06	0.0
+rxn00239_c0	ATP:GMP phosphotransferase_c0		gene_2010	242631649.6550603	0.02805595633288332	0.0003174884785775126	0.0003174884785775126	0.0
+rxn00364_c0	ATP:CMP phosphotransferase_c0		gene_10931	341289083.38083667	0.03946390190164884	0.06745767299377055	0.06745767299377055	0.0
+rxn05736_x0	acyl-coenzyme A ligase_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+rxn10505_c0	2,5-diamino-6-(5-phospho-D-ribitylamino)pyrimidin-4(3H)-one:NADP+ 1'-oxidoreductase_c0		gene_11066	21573379.60309975	0.0024945706669256	5.005374703565373e-06	5.005374703565373e-06	0.0
+rxn09670_c0	Transport of nicotinamide mononucleotide, extracellular_c0					0.0	0.0	0.0
+rxn05466_c0	TRANS-RXN-173.ce_c0		gene_9895 or gene_11345			0.09485326860747692	0.09485326860747692	0.0
+rxn13096_c0	thiamine diphosphate transport  (Mitochondrial membrane)_m0		gene_11286			0.0	0.0	0.0
+rxn05611_c0	D-mannose transport in via proton symport_c0		gene_331 or gene_6660			0.0	0.0	0.0
+rxn00939_c0	S-Adenosyl-L-methionine:nicotinamide N-methyltransferase_c0		gene_740 or gene_5822	39631084.83096184	0.004582617259631984	0.0	0.0	0.0
+rxn09177_c0	(R)-4'-Phosphopantothenate:L-cysteine ligase_c0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn09331_c0	Tetradecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+PYRt2p_c0	pyruvate reversible transport via proton symport_x0					0.0	0.0	0.0
+rxn01145_c0	Thymidylate 5'-phosphohydrolase_c0		gene_996	121363540.7081785	0.014033495643925569	0.0	0.0	0.0
+rxn13326_c0	inositol phosphorylceramide, ceramide-1 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09851_x0	fatty acid peroxisomal transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn28356_m0	RXN-7700.d_m0		gene_10551	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn30043_c0	ornithine carbamoyltransferase_c0		gene_3484	227831604.30936494	0.026344599110798582	0.001824392916209852	0.001824392916209852	0.0
+rxn02826_c0	N-Acetylputrescine:oxygen oxidoreductase(deaminating)(flavin-containing)_c0		gene_9890 or gene_12033	48332495.047791585	0.005588777772594513	0.0	0.0	0.0
+rxn09760_c0	fatty-acyl-ACP mitochondrial transport_m0					0.0	0.0	0.0
+rxn08633_c0	L-glutamate transport via diffusion (extracellular to periplasm)_m0		gene_6768 or gene_10093	144833475.1123614	0.01674736852784452	0.0	0.0	0.0
+rxn03091_c0	S-Adenosyl-L-methionine:2-(3-carboxy-3-aminopropyl)-L-histidine methyltransferase_c0		gene_12145	84623573.36376423	0.00978518376477931	0.0	0.0	0.0
+rxn13406_c0	oxidized thioredoxin peroxisomal transport via diffusion_x0					0.0	0.0	0.0
+rxn13222_c0	aldehyde dehydrogenase (2-methylbutanol, NAD)_c0		gene_12477 or gene_11790	667578793.1431006	0.07719339787619978	0.0	0.0	0.0
+rxn08376_c0	TRANS-RXN-108F.cp_c0					0.0	0.0	0.0
+rxn30037_c0	5-methylthioribose-1-phosphate isomerase_c0		gene_1276	89264114.27904497	0.010321778283528895	0.0	0.0	0.0
+rxn00953_c0	L-Serine hydro-lyase (adding homocysteine)_c0		gene_12685	173145663.0249837	0.02002116033898779	0.0	0.0	0.0
+rxn05303_c0	TRANS-RXNBWI-115637.ce.maizeexp.ARG_ARG_m0					0.0	0.0	0.0
+rxn01268_c0	Prephenate:NAD+ oxidoreductase(decarboxylating)_c0					0.0	0.0	0.0
+rxn12916_c0	3-keto-steroid reductase_c0		gene_4814	109101906.80151084	0.012615659735278296	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn09755_c0	Mitochondrial FAD carrier protein FLX1_m0		gene_8485	81519079.84764001	0.009426205310616687	0.0	0.0	0.0
+rxn01137_c0	Adenosine aminohydrolase_c0		gene_9546 or gene_8329 or gene_3336 or gene_9012	129200493.11719665	0.01493969726635563	0.0	0.0	0.0
+rxn09445_x0	fatty-acid--CoA ligase (n-C26:0), peroxisomal_x0		gene_8073 or gene_12030			0.0	0.0	0.0
+rxn02304_m0	protoporphyrinogen-IX:oxygen oxidoreductase_m0		gene_5504	62602729.47482104	0.0072388719565722815	1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn02134_c0	Sphinganine:NADP+ 3-oxidoreductase_c0		gene_11003 or gene_7208	82718026.67329444	0.009564841798617453	0.022501847038766756	0.022501847038766756	0.0
+AGAT_SC_c0	1 Acyl glycerol 3 phosphate acyltransferase  yeast specific		gene_5300	66779373.85586208	0.0077218252420940174	0.0011488349407130706	0.0011488349407130706	0.0
+NMNt2m_c0	Transport of nicotinamide mononucleotide, extracellular_m0					0.0	0.0	0.0
+rxn05239_c0	adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)_c0		gene_5059 or gene_47	8648133279.658728	1.0	0.0008451384442709703	0.0008451384442709703	0.0
+rxn13316_c0	isoamyl alcohol transport (extracellular)_c0					0.0	0.0	0.0
+PIN3K_SC_c0	1 phosphatidylinositol 3 kinase  yeast specific		gene_9402 or gene_1463	56229449.88596793	0.006501917589339795	0.0	0.0	0.0
+rxn09648_c0	6-phospho-D-glucono-1,5-lactone endoplasmic reticular transport via diffusion_g0					-0.22203915844141836	-0.22203915844141836	0.0
+rxn09511_r0	Dolichyl-phosphate-mannose--protein mannosyltransferase 1_r0		gene_8849 or gene_1017 or gene_10636	459725342.57054067	0.05315891044971064	0.01546906247670155	0.01546906247670155	0.0
+rxn02302_c0	O-Acetyl-L-homoserine succinate-lyase (adding cysteine)_c0		gene_6399 or gene_9039	123288901.14069217	0.01425612871053687	0.0	0.0	0.0
+rxn01353_c0	ATP:dGDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.0	0.0	0.0
+rxn08455_c0	fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling)_c0		gene_1869 or gene_7011 or gene_8106	447264202.6982464	0.05171800528910169	0.0	0.0	0.0
+ASNt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.ASN_ASN_c0		gene_5741 or gene_12204	281632534.8550949	0.032565702417829606	0.00679375	0.00679375	0.0
+rxn09462_x0	fatty acid oxidation (octanoyl-CoA), peroxisomal_x0		gene_2331 or gene_1935 or gene_1810 or gene_7999 or gene_128 or gene_2093 or gene_6597 or gene_7220 or gene_5400 or gene_4956	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn09308_c0	thymine transport out via proton antiport (periplasm)_c0					0.0	0.0	0.0
+rxn00137_c0	Adenosine 3',5'-bisphosphate 3'-phosphohydrolase_c0		gene_5633	320898198.85831	0.03710606537633902	0.0008451384442709703	0.0008451384442709703	0.0
+ASPGLUtp_c0	aspartate-glutamate peroxisomal shuttle_x0					0.0	0.0	0.0
+rxn08213_c0	TRANS-RXN-99.cp_c0		gene_4980			0.0	0.0	0.0
+rxn13193_c0	2-methylpropanal transport (extracellular)_c0					0.0	0.0	0.0
+rxn01003_c0	phenylpyruvate carboxy-lyase (phenylacetaldehyde-forming)_c0		gene_7361 or gene_11837	98330828.73727854	0.011370179616514752	0.0	0.0	0.0
+rxn01517_c0	ATP:dUMP phosphotransferase_c0		gene_10931 or gene_10389	341289083.38083667	0.03946390190164884	-0.00011488349407130747	-0.00011488349407130747	0.0
+ERGSTter_c0	ergosterol endoplasmic reticular transport_g0					1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn13357_c0	Mannose-inositol phosphorylceramide, ceramide-3 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn00555_c0	L-glutamine:D-fructose-6-phosphate isomerase (deaminating)_c0		gene_11978	333225348.6495387	0.03853147701057267	0.0009573624505942289	0.0009573624505942289	0.0
+rxn08554_c0	glycero-3-phosphocholine transport via diffusion (extracellular to periplasm)_c0		gene_6863			0.0	0.0	0.0
+rxn13379_c0	phosphatidylinositol-3-phosphate 5-kinase, yeast-specfic_c0		gene_11614	35252368.949634716	0.004076298064525879	0.0	0.0	0.0
+rxn09844_x0	fatty acyl-CoA peroxisomal transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn30091_c0	Ornithine aminotransferase_c0		gene_2491	175835134.95091963	0.020332149062098917	0.0	0.0	0.0
+rxn15018_c0	AMP phosphoribohydrolase_c0		gene_11513	95519174.83157909	0.01104506276010451	0.0	0.0	0.0
+rxn03084_c0	5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)_c0		gene_1542	78659588.4004465	0.009095556908848954	0.002648405887358409	0.002648405887358409	0.0
+rxn00693_c0	5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase_c0		gene_2689	708564961.741245	0.08193270603355067	0.001492308678263496	0.001492308678263496	0.0
+rxn09841_c0	fatty acid peroxisomal transport_x0		gene_8073			0.0	0.0	0.0
+PIt2p_c0	Inorganic phosphate transporter_x0					0.0	0.0	0.0
+rxn03004_c0	10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase_c0		gene_10696	140901120.6899483	0.016292662952057155	0.002648405887358409	0.002648405887358409	0.0
+rxn06446_c0	L-Serine:tRNA(Ser) ligase (AMP-forming)_c0		gene_99 or gene_11426	215634399.3842685	0.024934213247090227	0.0	0.0	0.0
+rxn00105_c0	ATP:nicotinamide-nucleotide adenylyltransferase_c0		gene_1340	35831556.504176855	0.004143270616383336	7.658899053214485e-06	7.658899053214485e-06	0.0
+rxn01520_c0	5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase_c0		gene_7654	38993817.15774217	0.004508928793854221	5.4378187193752205e-05	5.4378187193752205e-05	0.0
+rxn13318_c0	Isobutyl acetate transport (extracellular)_c0					0.0	0.0	0.0
+TTDCAtr_c0	Tetradecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn04376_r0	3-sn-phosphatidate phosphohydrolase_r0		gene_7948	20891980.453410417	0.0024157791950952514	0.0	0.0	0.0
+rxn01385_c0	Xylitol:NAD+ 2-oxidoreductase (D-xylulose-forming)_c0		gene_8783	145605655.0405254	0.01683665715270652	0.0	0.0	0.0
+rxn08454_c0	fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupling)_c0		gene_1869 or gene_7011 or gene_8106	447264202.6982464	0.05171800528910169	0.0	0.0	0.0
+rxn00300_c0	GTP 7,8-8,9-dihydrolase (diphosphate-forming)_c0		gene_1783	28398573.249347948	0.0032837807109361073	5.005374703565373e-06	5.005374703565373e-06	0.0
+rxn02895_c0	5-Phospho-D-ribosylamine:glycine ligase (ADP-forming)_c0		gene_598 or gene_6341	113232675.90825973	0.013093308376108666	0.002648405887358409	0.002648405887358409	0.0
+rxn13352_c0	Mannose-(inositol-P)2-ceramide, ceramide-3 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn01485_c0	D-Glucosamine 1-phosphate 1,6-phosphomutase_c0		gene_8511	354769633.9559478	0.04102268344897059	0.0	0.0	0.0
+rxn05564_c0	Proline-specific permease_c0		gene_3268			0.0	0.0	0.0
+D_LACDcm_c0	D lactate dehydrogenase  cytosolicmitochondrial		gene_9783 or gene_11615	218741174.89560845	0.025293455572673644	0.0	0.0	0.0
+rxn13356_c0	Mannose-inositol phosphorylceramide, ceramide-2 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn30431_c0	ribonucleoside-diphosphate reductase (UDP), nuclear_c0		gene_47 or gene_2076 or gene_9237	8648133279.658728	1.0	0.00011488349407130747	0.00011488349407130747	0.0
+rxn00224_m0	protoheme ferro-lyase (protoporphyrin-forming)_m0		gene_11350	121152579.51871134	0.01400910180277567	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn09602_r0	Ceramide-2 synthase (phytosphingosine + C26:0-CoA), ER_r0		gene_9741 or gene_6240	56512152.65036269	0.006534607044422513	0.0204875564427165	0.0204875564427165	0.0
+rxn02748_c0	(3S)-3-Methyl-2-oxopentanoate carboxy-lyase_c0		gene_7361	15485335.080656294	0.001790598569645006	0.0	0.0	0.0
+rxn30403_m0	ketol-acid reductoisomerase (2-Aceto-2-hydroxybutanoate), mitochondrial_m0		gene_11182	758839817.767277	0.08774608267799756	0.0032045298845901583	0.0032045298845901583	0.0
+rxn00075_m0	NAD nucleosidase, mitochondrial_m0					0.0	0.0	0.0
+rxn12510_c0	ATP:pantothenate 4'-phosphotransferase_c0		gene_1066	50208209.08384788	0.005805670132529363	3.829449802377101e-06	3.829449802377101e-06	0.0
+PLBP1I_SCe_e0	Phospholipase B  phosphatidylinositol   yeast specific  extracellular 		gene_6735	86903279.49709095	0.010048790494648843	0.0	0.0	0.0
+rxn08449_x0	fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A coupling)_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+rxn00182_c0	L-glutamate:NAD+ oxidoreductase (deaminating)_c0		gene_5322	59711211.599308066	0.006904520278353572	0.0	0.0	0.0
+rxn00065_c0	ATP diphosphate-lyase (cyclizing; 3',5'-cyclic-AMP-forming)_c0		gene_3213	68028518.75582722	0.007866266228324335	0.0	0.0	0.0
+IPCS124_SC_c0	Inositol phosphorylceramide synthase  ceramide 1  24C   yeast specific		gene_8702			0.0004959137494078106	0.0004959137494078106	0.0
+rxn05204_c0	TRANS-RXNBWI-115572.ce.maizeexp.GUANOSINE_GUANOSINE_c0					0.0	0.0	0.0
+rxn09743_c0	Transport of (S)-3-hydroxy-3-methylglutaryl-CoA, mitochondrial_m0					-0.00022976698814261603	-0.00022976698814261603	0.0
+rxn00710_c0	orotidine-5'-phosphate carboxy-lyase (UMP-forming)_c0		gene_1225	40900989.57122064	0.0047294587454409205	0.0021176857407144366	0.0021176857407144366	0.0
+FACOAL182_c0	Fatty acid  CoA ligase  octadecynoate 		gene_1869	377129331.1813663	0.04360817750905992	0.0	0.0	0.0
+PIN4K_SC_c0	Phosphatidylinositol 4 kinase  yeast specific		gene_1982 or gene_1865	181691436.5655305	0.021009324288848195	0.0	0.0	0.0
+rxn01454_c0	acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_c0		gene_3587 or gene_7585	182757993.2214429	0.021132652251244548	0.0	0.0	0.0
+rxn09490_c0	Chitin synthase 1_c0		gene_11093 or gene_12527 or gene_542	61258439.58237855	0.007083429174994852	0.0	0.0	0.0
+rxn13199_c0	3-Hexaprenyl-4,5-dihydroxybenzoate transport, mitochondrial_m0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn00483_c0	L-Tryptophan:2-oxoglutarate aminotransferase_c0		gene_12910	36809578.89051026	0.004256361193818562	0.0	0.0	0.0
+rxn00440_c0	ATP:thiamine diphosphotransferase_c0		gene_6040			2.7248e-06	2.7248e-06	0.0
+rxn09502_c0	Glucokinase_c0		gene_9152	161898090.43202716	0.018720582257078254	0.15413928075332575	0.15413928075332575	0.0
+rxn09475_x0	acyl-CoA oxidase_x0		gene_1810	100259834.45624089	0.01159323419448935	0.0	0.0	0.0
+FAS181ACPm_m0	Fatty acyl ACP synthase  n C181ACP   mitochondrial		gene_11955 or gene_11385 or gene_10177	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+FA182ACPH_c0	Fatty acyl ACP hydrolase		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn00748_c0	glycerone-phosphate phosphate-lyase (methylglyoxal-forming)_c0		gene_13023	96434241.58030853	0.011150873658149036	0.0	0.0	0.0
+CDPDGPm_SC_m0	CDP diacylglycerol  serine O phosphatidyltransferae  yeast specific  mitochondrial		gene_1290	47000738.912394494	0.005434784293038698	0.0	0.0	0.0
+rxn09686_c0	TRANS-RXNAVI-26378.ce.brachyexp.TTP_TTP_c0					0.0	0.0	0.0
+rxn00412_c0	UTP:L-glutamine amido-ligase (ADP-forming)_c0		gene_2791	127560005.03794211	0.014750004528488937	0.0	0.0	0.0
+rxn03167_c0	2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum)_c0		gene_892 or gene_5844 or gene_7754 or gene_6175 or gene_11412	164986753.11871764	0.019077730162506044	0.00030635598419015333	0.00030635598419015333	0.0
+rxn05669_c0	TRANS-RXNBWI-115637.ce.maizeexp.VAL_VAL_m0					0.0	0.0	0.0
+IPCS224_SC_c0	Inositol phosphorylceramide synthase  ceramide 2  24C   yeast specific		gene_8702			0.0005016579241113759	0.0005016579241113759	0.0
+rxn05200_c0	Transport of thymidine, extracellular_c0					0.0	0.0	0.0
+rxn09651_c0	TRANS-RXNAVI-26433.ce.brachyexp.XYLITOL_XYLITOL_c0					0.0	0.0	0.0
+rxn18921_c0	4-hydroxy-L-glutamate:2-oxoglutarate aminotransferase_c0		gene_8831	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+rxn01960_c0	D-arabinono-1,4-lactone oxidase_c0		gene_10666 or gene_655	82925755.6618408	0.009588861894264562	0.0	0.0	0.0
+rxn09266_c0	spermidine transport via diffusion (extracellular to periplasm)_c0		gene_11732			0.0	0.0	0.0
+rxn00299_c0	GTP 7,8-8,9-dihydrolase_c0		gene_953	77168863.13562149	0.008923181528334023	0.00030635598419015333	0.00030635598419015333	0.0
+rxn00361_c0	ATP:adenylylsulfate 3'-phosphotransferase_c0		gene_3295	320812627.89119405	0.037096170643643685	0.0008451384442709703	0.0008451384442709703	0.0
+rxn09626_c0	C-3 sterol dehydrogenase (4-methylzymosterol)_c0		gene_8865	119110133.11564071	0.013772929864043566	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn13400_m0	3-(4-hydroxyphenyl)lactate hydro-lyase (4-coumarate-forming)_m0					0.0	0.0	0.0
+rxn28352_c0	RXN-7693.d_c0		gene_12477 or gene_11790	667578793.1431006	0.07719339787619978	0.0	0.0	0.0
+rxn01423_c0	L-2-aminoadipate:2-oxoglutarate aminotransferase_c0		gene_12910	36809578.89051026	0.004256361193818562	0.004971112667201367	0.004971112667201367	0.0
+rxn09579_r0	Sphingosine-1-phosphate phosphatase 1_r0		gene_7948	20891980.453410417	0.0024157791950952514	0.0	0.0	0.0
+rxn06445_c0	L-proline:tRNA(Pro) ligase (AMP-forming)_c0		gene_10876 or gene_4419	341544132.4087278	0.03949339370290161	0.0	0.0	0.0
+rxn13351_c0	Mannose-(inositol-P)2-ceramide, ceramide-3 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09562_c0	Guanylate kinase_c0		gene_2010	242631649.6550603	0.02805595633288332	5.4378187193752205e-05	5.4378187193752205e-05	0.0
+rxn01938_m0	indole-3-ethanol:NAD+ oxidoreductase_m0		gene_10551	871131442.9201187	0.10073057557624682	0.0	0.0	0.0
+rxn01219_c0	ATP:dCMP phosphotransferase_c0		gene_10931	341289083.38083667	0.03946390190164884	0.0	0.0	0.0
+rxn04137_c0	L-serine:NADP+ 3-oxidoreductase_c0		gene_9892	285694374.6804859	0.03303538063554913	0.0	0.0	0.0
+rxn05595_c0	TRANS-RXN-3.ce_c0					0.0	0.0	0.0
+rxn01807_c0	ATP:pyridoxal 5'-phosphotransferase_c0		gene_8846	52860982.609395154	0.0061124153502270205	0.0	0.0	0.0
+rxn02212_c0	2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing)_c0		gene_7443 or gene_11435	95296242.60590923	0.011019284685407832	0.004458086596845509	0.004458086596845509	0.0
+rxn09865_c0	aspartate-glutamate peroxisomal shuttle_m0		gene_6768	144833475.1123614	0.01674736852784452	0.0	0.0	0.0
+rxn01672_c0	dCTP aminohydrolase_c0		gene_5452			0.0	0.0	0.0
+rxn09551_c0	diacylglycerol pyrophosphate phosphatase, yeast-specific_c0		gene_12654 or gene_8476 or gene_2692	103550003.99043308	0.011973682717632604	0.0	0.0	0.0
+rxn03391_m0	R04983_m0		gene_3869 or gene_12639 or gene_11580 or gene_11038 or gene_9719 or gene_2152 or gene_12934	85541921.16902022	0.009891374057592679	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		gene_10589	96838770.45529236	0.011197650096705472	0.44416065005358774	0.44416065005358774	0.0
+rxn01790_m0	(R)-Pantoate:NADP+ 2-oxidoreductase_m0		gene_11182 or gene_12725	758839817.767277	0.08774608267799756	0.0	0.0	0.0
+rxn09468_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn09837_c0	Homocysteine peroxisomal transport via proton symport_x0					0.0	0.0	0.0
+rxn02303_c0	Coproporphyrinogen:oxygen oxidoreductase(decarboxylating)_c0		gene_9796	112372986.57942407	0.012993900873814763	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn13330_c0	inositol phosphorylceramide, ceramide-3 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09412_c0	glutamate-5-semialdehyde dehydrogenase_c0		gene_2036	41453366.13797495	0.0047933310920956086	0.0025433429122573904	0.0025433429122573904	0.0
+rxn09498_m0	glycine-cleavage system (lipoamide) irreversible, mitochondrial_m0		gene_885 or gene_2255 or gene_3442 or gene_8838	371455078.70345	0.04295205296814163	0.0	0.0	0.0
+rxn08767_x0	3-ketoacyl-CoA thiolase_x0		gene_1935 or gene_5400	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn13319_c0	isobutyl alcohol transport (extracellular)_c0					0.0	0.0	0.0
+IPCS226_SC_c0	Inositol phosphoryceramide synthase  ceramide 2  26C   yeast specific		gene_8702			0.0005131462735185067	0.0005131462735185067	0.0
+2MBTOHtm_c0	2-methyl-1-butanol transport (extracellular)_m0					0.0	0.0	0.0
+rxn00272_c0	L-Alanine:glyoxylate aminotransferase_c0		gene_10565	424826046.8038981	0.049123438904801725	0.0004211550709065917	0.0004211550709065917	0.0
+rxn01726_x0	Acetyl-CoA:carnitine O-acetyltransferase_x0		gene_8338	374716263.22545385	0.043329149899530794	0.0	0.0	0.0
+rxn13355_c0	Mannose-inositol phosphorylceramide, ceramide-2 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09519_c0	alpha-Aminopropiononitrile aminohydrolase_c0		gene_4909 or gene_2245 or gene_10825	161924597.30594853	0.01872364729701973	0.0	0.0	0.0
+rxn01678_c0	ATP:dUDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.0	0.0	0.0
+rxn01454_m0	acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_m0		gene_3587	150813574.4793567	0.01743885872273561	-0.00022976698814261603	-0.00022976698814261603	0.0
+rxn13237_c0	ceramide-2 (C24) endoplasmic reticular transport_g0					0.0	0.0	0.0
+rxn01646_c0	N-Ribosylnicotinamide:orthophosphate ribosyltransferase_c0					-7.658899053214485e-06	-7.658899053214485e-06	0.0
+rxn00728_c0	L-Kynurenine hydrolase_c0		gene_11861 or gene_8241	207151068.27013746	0.02395326963304063	0.0	0.0	0.0
+rxn09478_x0	acyl-CoA oxidase_x0		gene_1810	100259834.45624089	0.01159323419448935	0.0	0.0	0.0
+rxn00377_c0	S-Formylglutathione hydrolase_c0		gene_8206	636282128.2051785	0.07357450534461323	0.0	0.0	0.0
+rxn08451_x0	fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0		gene_5741 or gene_12204 or gene_3268	281632534.8550949	0.032565702417829606	0.000565912	0.000565912	0.0
+rxn09458_c0	stearoyl-CoA desaturase (n-C18:0CoA -> n-C18:1CoA)_c0		gene_1461	39675293.728518255	0.004587729218031191	0.0008214169826098458	0.0008214169826098458	0.0
+rxn00416_c0	L-aspartate:L-glutamine amido-ligase (AMP-forming)_c0		gene_5682 or gene_7143 or gene_521 or gene_11394	347275431.8506231	0.040156114692109286	0.0	0.0	0.0
+rxn00391_e0	riboflavin-5-phosphate phosphohydrolase (acid optimum)_e0		gene_3329 or gene_3348 or gene_11454 or gene_12528	75042616.05757514	0.008677319559133399	0.0	0.0	0.0
+rxn09532_x0	acyl carrier protein synthase, mitochondrial_x0		gene_5870	31907797.08791516	0.003689558897405696	0.0	0.0	0.0
+rxn13218_c0	trans-aconitate 3-methyltransferase_c0		gene_4658	41192709.02544314	0.004763190817414031	0.0	0.0	0.0
+rxn30090_c0	Arginase_c0		gene_4094	76915306.20361225	0.008893862260948814	0.0	0.0	0.0
+rxn08437_c0	fatty-acyl-ACP hydrolase_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn00342_e0	L-Asparagine amidohydrolase_e0		gene_9918 or gene_8769	52418176.20100304	0.0060612128081207785	0.0	0.0	0.0
+CYSTtp_c0	Cystathione peroxisomal transport					0.0	0.0	0.0
+rxn09645_c0	Ergosta-5,6,22,24,(28)-tetraen-3beta-ol endoplamic reticular transport_g0					1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn09721_c0	protoporphyrinogen IX mitochondrial transport_m0					3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn09788_c0	Transport of O-acetylcarnitine, mitochondrial_m0					0.0	0.0	0.0
+rxn09521_c0	g-glutamyltransferase_c0		gene_3933	63589667.33578226	0.007352993447192991	0.0	0.0	0.0
+rxn01466_c0	Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase_c0		gene_2662 or gene_367	96147850.00789306	0.011117757659221371	7.275954624516157e-05	7.275954624516157e-05	0.0
+3OPHB_5tm_c0	3 Octaprenyl 4 hydroxybenzoate mitochondrial transport					-3.829449802377101e-06	-3.829449802377101e-06	0.0
+rxn00927_c0	Adenosine ribohydrolase_c0		gene_4816	38955547.719719484	0.004504503626389156	0.0	0.0	0.0
+rxn00835_c0	ATP:inosine 5'-phosphotransferase_c0					0.0	0.0	0.0
+rxn09614_c0	Mevalonate kinase_c0		gene_1800	169624008.31882566	0.019613944747798723	0.0	0.0	0.0
+rxn01987_c0	R02750_c0		gene_8118	211645944.30848983	0.024473020646698658	0.0	0.0	0.0
+rxn05920_c0	CTP:dolichol O-phosphotransferase_c0		gene_8867	23582552.44264992	0.0027268951206057884	0.0	0.0	0.0
+PAPtm_c0	Transport of adenosine 3',5'-bisphosphate, extracellular_m0					0.0	0.0	0.0
+TRPt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.TRP_TRP_c0		gene_12204			0.000198301	0.000198301	0.0
+rxn01300_c0	ATP:L-homoserine O-phosphotransferase_c0		gene_5498	293897971.3894787	0.03398397803150838	0.006614328402381674	0.006614328402381674	0.0
+rxn05197_c0	Uracil permease_c0		gene_2449			0.0	0.0	0.0
+rxn09722_c0	phosphate transport via hydroxide ion symport, mitochondrial_m0		gene_2195	465751965.0363277	0.05385578019846466	0.0	0.0	0.0
+rxn00708_c0	Uridine 5'-monophosphate phosphohydrolase_c0		gene_10380 or gene_5707	60437871.79397528	0.006988545370378505	0.0	0.0	0.0
+rxn05108_c0	R07396_c0		gene_12910	36809578.89051026	0.004256361193818562	0.0	0.0	0.0
+rxn00141_c0	S-Adenosyl-L-homocysteine hydrolase_c0		gene_12543	377620671.5348669	0.043664992122990104	0.0005973941691707947	0.0005973941691707947	0.0
+rxn27940_m0	L-1-pyrroline-3-hydroxy-5-carboxylate dehydrogenase_m0		gene_2608	144214468.5335333	0.016675791626932963	0.0	0.0	0.0
+rxn09524_c0	NADH dehydrogenase, cytosolic/mitochondrial_m0		gene_2864 or gene_10074 or gene_10177 or gene_9661	134851602.82639888	0.015593145765177244	0.7321302430028949	0.7321302430028949	0.0
+rxn00205_c0	glutathione:hydrogen-peroxide oxidoreductase_c0		gene_12158 or gene_867	355486938.16940045	0.04110562669120065	0.0	0.0	0.0
+rxn09547_c0	glycerol 3-phosphate acyltransferase (glycerone phosphate), yeast-specific_c0		gene_8048	92777490.6965117	0.010728036640546881	0.0	0.0	0.0
+FE2utm_c0	iron (II) transport via diffusion (extracellular to periplasm)_m0					3.829449802376915e-06	3.829449802376915e-06	0.0
+GLNt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLN_GLN_c0		gene_5741 or gene_12204	281632534.8550949	0.032565702417829606	0.00461466	0.00461466	0.0
+PStm_SC_c0	Phosphatidylserine mitochondrial  transport  yeast specific					3.829449802376899e-06	3.829449802376899e-06	0.0
+rxn01199_c0	ATP:D-xylulose 5-phosphotransferase_c0		gene_7642	137454989.3257938	0.01589418026767715	0.0	0.0	0.0
+rxn02358_c0	trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase_c0		gene_9941			0.0	0.0	0.0
+rxn09673_c0	TRANS-RXNAVI-26524.ce.brachyexp.CPD-3609_CPD-3609_c0		gene_9623			0.0	0.0	0.0
+rxn00806_c0	L-Leucine:2-oxoglutarate aminotransferase_c0		gene_622 or gene_12086 or gene_4156 or gene_3566	124122985.68352382	0.014352575483020534	-0.005353915607122588	-0.005353915607122588	0.0
+rxn30365_m0	CDP-Diacylglycerol synthetase, yeast-specific, mitochondrial_m0		gene_12742	93503055.17621714	0.01081193503297939	0.0	0.0	0.0
+rxn03630_c0	Taurine, 2-oxoglutarate:O2 oxidoreductase (sulfite-forming)_c0		gene_420			0.0	0.0	0.0
+rxn09655_c0	TRANS-RXNAVI-26524.ce.brachyexp.TREHALOSE_TREHALOSE_c0					0.0	0.0	0.0
+rxn32134_c0	-_m0					0.0	0.0	0.0
+rxn06438_c0	glycine:tRNA(Gly) ligase (AMP-forming)_c0		gene_205	143238540.53609952	0.016562943227645538	0.0	0.0	0.0
+rxn00859_c0	L-Histidinol:NAD+ oxidoreductase_c0		gene_1605	62860680.365787394	0.007268699305738267	0.0008066909173928709	0.0008066909173928709	0.0
+rxn05593_c0	Myo-inositol transporter 1_c0		gene_2077			0.0	0.0	0.0
+rxn33415_c0	4-acetamidobutanoate amidohydrolase_c0					0.0	0.0	0.0
+rxn01726_m0	Acetyl-CoA:carnitine O-acetyltransferase_m0		gene_8338 or gene_12234	374716263.22545385	0.043329149899530794	0.0	0.0	0.0
+rxn01182_m0	4-Coumarate:CoA ligase (AMP-forming)_m0		gene_12998	41206101.54416352	0.00476473941967157	0.0	0.0	0.0
+rxn01938_c0	indole-3-ethanol:NAD+ oxidoreductase_c0		gene_12477 or gene_11790	667578793.1431006	0.07719339787619978	0.0	0.0	0.0
+rxn00711_c0	UMP:diphosphate phospho-alpha-D-ribosyltransferase_c0		gene_11668 or gene_1425	166228607.63099787	0.019221328147426237	0.0	0.0	0.0
+rxn08343_c0	TRANS-RXN-108E.cp_c0					0.0	0.0	0.0
+rxn09439_m0	fatty-acyl-ACP synthase (n-C12:0ACP), mitochondrial_m0		gene_11955 or gene_11385 or gene_10177 or gene_1258	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn09768_c0	Dihydropteroate mitochondrial transport via diffusion_m0					-0.00030635598419015333	-0.00030635598419015333	0.0
+ACRNtp_c0	Transport of O-acetylcarnitine, mitochondrial_x0					0.0	0.0	0.0
+rxn15108_c0	ATP:D-ribose-5-phosphate diphosphotransferase_c0		gene_11428 or gene_7927 or gene_11990	114421710.95926467	0.013230798746868985	0.005918263417403239	0.005918263417403239	0.0
+CRNtp_c0	L-carnitine transport via diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+rxn13188_c0	2-methylbutyl transport (extracellular)_c0					0.0	0.0	0.0
+rxn00646_c0	L-glutamate:L-cysteine gamma-ligase (ADP-forming)_c0		gene_11290	110295675.3746058	0.012753697452146377	0.0	0.0	0.0
+4ABZtm_c0	4-Aminobenzoate mitochondrial transport via diffusion_m0					0.00030635598419015333	0.00030635598419015333	0.0
+rxn01512_c0	ATP:dTDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.0	0.0	0.0
+rxn05465_m0	Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase_m0		gene_11955 or gene_11385 or gene_10177 or gene_12765	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn13195_c0	2obut transporter (mitochondrial)_m0					0.0032045298845901583	0.0032045298845901583	0.0
+METt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.MET_MET_c0		gene_6365 or gene_12204			0.000382207	0.000382207	0.0
+rxn13253_e0	Endopolygalacturonase (extracellular)_e0		gene_7052			0.0	0.0	0.0
+rxn00075_c0	NAD nucleosidase, mitochondrial_c0					0.0	0.0	0.0
+rxn08104_c0	L-alanine transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn05299_c0	TRANS-RXNBWI-115637.ce.maizeexp.HIS_HIS_m0					0.0	0.0	0.0
+rxn06937_c0	L-glutamate:tRNA(Glu) ligase (AMP-forming)_c0		gene_9650	260640921.18439668	0.03013840244546764	0.0	0.0	0.0
+rxn00834_c0	IMP:NAD+ oxidoreductase_c0		gene_1625	173877617.22388092	0.020105797586729892	0.0012526401203179554	0.0012526401203179554	0.0
+rxn30328_m0	3-(4-hydroxyphenyl-)lactate formation_m0					0.0	0.0	0.0
+rxn09623_c0	3-keto-steroid reductase_c0		gene_4814	109101906.80151084	0.012615659735278296	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn13255_e0	episterol ester hydrolase, yeast-specific_e0		gene_6533	42209881.33028228	0.004880808373937082	0.0	0.0	0.0
+FAS160ACPm_m0	Fatty acyl ACP synthase  n C160ACP   mitochondrial		gene_11955 or gene_11385 or gene_10177	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+3MBALDtm_c0	3-methylbutanal transport (extracellular)_m0					0.0	0.0	0.0
+rxn01483_c0	acetyl-CoA:D-glucosamine-6-phosphate N-acetyltransferase_c0		gene_4606	79655865.60563035	0.0092107583254977	0.0009573624505942289	0.0009573624505942289	0.0
+rxn31870_c0	5,10-methylenetetrahydrofolate reductase (FADH)-(NADP)_c0		gene_12702 or gene_780	63608399.52174556	0.00735515948526821	0.0016454866703585727	0.0016454866703585727	0.0
+rxn13407_c0	reduced thioredoxin peroxisomal transport via diffusion_x0					0.0	0.0	0.0
+rxn01827_c0	4-Hydroxyphenylpyruvate:oxygen oxidoreductase (hydroxylating,decarboxylating)_c0		gene_9268	140257078.82570365	0.016218191173764898	0.0	0.0	0.0
+rxn09441_c0	fatty acyl-CoA synthase (n-C10:0CoA)_c0		gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	1813032737.5321305	0.20964440289057112	0.04749283644907851	0.04749283644907851	0.0
+rxn00742_c0	L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming)_c0		gene_5593	159648614.8041983	0.018460471137708732	0.0	0.0	0.0
+FORtm_c0	formate transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn13358_c0	Mannose-inositol phosphorylceramide, ceramide-3 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09802_c0	3-(4-hydroxyphenyl)pyruvate mitochondrial transport via proton symport_m0					0.0	0.0	0.0
+rxn02811_c0	3-Isopropylmalate hydro-lyase_c0		gene_5179	174232769.82862797	0.020146864553815428	0.0	0.0	0.0
+rxn00138_c0	deamido-NAD+:ammonia ligase (AMP-forming)_c0		gene_9483	72509415.24461286	0.00838440076023831	0.0	0.0	0.0
+rxn08441_x0	myristoyl-CoA hydrolase_x0		gene_5256			0.0	0.0	0.0
+rxn00806_m0	L-Leucine:2-oxoglutarate aminotransferase_m0		gene_622 or gene_4156	124122985.68352382	0.014352575483020534	0.0	0.0	0.0
+rxn00717_c0	Cytosine aminohydrolase_c0		gene_6997	85227784.09738241	0.009855049794138426	0.0	0.0	0.0
+FAO240p_x0	Fatty acid oxidation  tetradecansoyl CoA   peroxisomal		gene_2331 or gene_1935 or gene_1810	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn08564_c0	glycero-3-phospho-1-inositol transport via diffusion (extracellular to periplasm)_c0		gene_6863			0.0	0.0	0.0
+rxn00604_r0	D-glucose-6-phosphate:NADP+ 1-oxidoreductase_r0					0.22203915844141836	0.22203915844141836	0.0
+rxn09672_c0	TRANS-RXNBWI-115637.ce.maizeexp.MET_MET_m0					0.0	0.0	0.0
+rxn09531_c0	biotin synthase_c0		gene_6484			0.00015317799209507664	0.00015317799209507664	0.0
+rxn02133_c0	ATP:sphinganine 1-phosphotransferase_c0		gene_9205	27807042.30450339	0.0032153808695234063	0.0	0.0	0.0
+rxn05198_c0	Transport of cytidine, extracellular_c0		gene_9040			0.0	0.0	0.0
+rxn00205_m0	glutathione:hydrogen-peroxide oxidoreductase_m0		gene_4674	431630034.4078152	0.04991019685404851	0.0	0.0	0.0
+rxn09794_c0	4-Aminobenzoate mitochondrial transport via diffusion_c0					0.0	0.0	0.0
+rxn00541_c0	L-threonine acetaldehyde-lyase (glycine-forming)_c0		gene_7813 or gene_5507	378560754.1711843	0.043773695655407736	0.0	0.0	0.0
+rxn08677_c0	glutathione transport via diffusion (extracellular to periplasm)_c0		gene_12965			0.0	0.0	0.0
+rxn09611_c0	R06204_c0		gene_11490	234190429.6430036	0.027079882105175562	0.0	0.0	0.0
+PEtm_SC_c0	Phosphatidylethanolamine mitochondrial transport  yeast specific					-3.829449802376899e-06	-3.829449802376899e-06	0.0
+rxn08854_c0	TRANS-RXN-58.cp_m0					0.0	0.0	0.0
+rxn01269_c0	Prephenate:NADP+ oxidoreductase(decarboxylating)_c0		gene_788	30988507.576299522	0.0035832597133057123	0.0016939116482241115	0.0016939116482241115	0.0
+rxn09759_c0	fatty-acyl-ACP mitochondrial transport_m0					0.0	0.0	0.0
+rxn01069_c0	O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming)_c0		gene_10801	315082564.6954987	0.036433592603921164	0.006614328402381674	0.006614328402381674	0.0
+rxn13350_c0	Mannose-(inositol-P)2-ceramide, ceramide-2 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn06377_m0	glycine:lipoylprotein oxidoreductase (decarboxylating and acceptor-aminomethylating)_m0		gene_885 or gene_2255 or gene_3442 or gene_8838	371455078.70345	0.04295205296814163	0.0	0.0	0.0
+rxn13315_c0	Isoamyl acetate transport (extracellular)_c0					0.0	0.0	0.0
+rxn09792_c0	4-Hydroxybenzoate mitochondrial transport_m0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn13255_c0	episterol ester hydrolase, yeast-specific_c0		gene_11810	424941038.0781379	0.04913673556322745	0.0	0.0	0.0
+rxn13208_m0	4-hydroxybenzoate formation_m0					0.0	0.0	0.0
+rxn05217_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE_m0					0.003648785832419704	0.003648785832419704	0.0
+rxn06449_c0	L-Valine:tRNAVal ligase (AMP-forming)_c0		gene_6968	315064793.5608437	0.036431537694025545	0.0	0.0	0.0
+rxn13324_c0	Tryptophol transport (extracellular_c0					0.0	0.0	0.0
+rxn06440_c0	L-Isoleucine:tRNA(Ile) ligase (AMP-forming)_c0		gene_6331	102603200.82179697	0.01186420207735812	0.0	0.0	0.0
+H2Oter_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_g0					-0.08853304998115191	-0.08853304998115191	0.0
+GCALDtm_c0	RXN0-1683.ce.maizeexp.GLYCOLALDEHYDE_GLYCOLALDEHYDE_m0					-0.00030635598419015333	-0.00030635598419015333	0.0
+rxn08142_c0	L-arabinose transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn09563_c0	dihydoorotic acid (ubiquinone-6), irreversible_m0		gene_4133	42168711.895980865	0.004876047874420007	0.0021176857407144366	0.0021176857407144366	0.0
+rxn09640_c0	Squalene-2,3-epoxide endoplamic reticular transport_g0					3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn13238_c0	ceramide-2 (C26) endoplasmic reticular transport_g0					-0.0204875564427165	-0.0204875564427165	0.0
+rxn03075_c0	ATP:4-methyl-5-(2-hydroxyethyl)-thiazole 2-phosphotransferase_c0		gene_2821	70497907.90766373	0.008151806364210626	0.0	0.0	0.0
+rxn09611_e0	R06204_e0		gene_10526			0.0	0.0	0.0
+rxn01726_c0	Acetyl-CoA:carnitine O-acetyltransferase_c0		gene_12234 or gene_8338	374716263.22545385	0.043329149899530794	0.0	0.0	0.0
+ASPOcm_c0	Aspartate oxidase					0.0	0.0	0.0
+rxn05205_c0	Transport of deoxycytidine, extracellular_c0					0.0	0.0	0.0
+rxn09470_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_5400 or gene_4956	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn02504_m0	2-amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine glycolaldehyde-lyase_m0		gene_2704	65737565.82114947	0.007601359009553054	0.00030635598419015333	0.00030635598419015333	0.0
+rxn08705_c0	Hexadecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+NH4tm_c0	TRANS-RXN-173.ce_m0					0.0	0.0	0.0
+rxn05104_c0	S-methyl-5-thio-D-ribulose-1-phosphate hydro-lyase_c0		gene_1703	65348419.93205376	0.007556361334735643	0.0	0.0	0.0
+rxn00689_c0	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)_c0		gene_2758 or gene_7878	3088129370.319115	0.3570862370475607	0.0	0.0	0.0
+rxn09061_c0	phenethylacetaldehyde transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn02358_m0	trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase_m0		gene_2608 or gene_9941 or gene_5611	144214468.5335333	0.016675791626932963	0.0	0.0	0.0
+AKGt2r_c0	Transport of a-ketoglutarate, extracellular_c0					0.0	0.0	0.0
+rxn09680_c0	RXN0-1683.ce.maizeexp.GLYCOLALDEHYDE_GLYCOLALDEHYDE_c0					-0.00044529632608760687	-0.00044529632608760687	0.0
+IND3ETHtm_c0	Tryptophol transport (extracellular_m0					0.0	0.0	0.0
+rxn05792_c0	Acetyl-CoA:peptide Nalpha-acetyltransferase_c0		gene_1679	72424511.80830172	0.008374583215391857	0.0	0.0	0.0
+rxn00952_c0	O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase_c0		gene_11855 or gene_9039 or gene_6399	123288901.14069217	0.01425612871053687	0.0006919604521758932	0.0006919604521758932	0.0
+rxn00790_c0	5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating)_c0		gene_742	63768263.3312626	0.00737364483977738	0.002648405887358409	0.002648405887358409	0.0
+rxn05238_c0	TRANS-RXNBWI-115353.ce_c0		gene_9669 or gene_9297			0.0012280834245086618	0.0012280834245086618	0.0
+rxn06441_m0	L-Leucine:tRNA(Leu) ligase (AMP-forming)_m0		gene_1198	42492169.392971486	0.004913449876277613	0.0	0.0	0.0
+rxn05465_c0	Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn09464_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_434 or gene_5400 or gene_4395	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn06440_m0	L-Isoleucine:tRNA(Ile) ligase (AMP-forming)_m0		gene_12351	59182127.76525926	0.006843341314415392	0.0	0.0	0.0
+rxn08570_c0	glucose 6-phosphate transport via diffusion (extracellular to periplasm)_g0					0.22203915844141836	0.22203915844141836	0.0
+rxn09216_c0	putrescine transport via diffusion (extracellular to periplasm)_c0		gene_11732			0.0	0.0	0.0
+rxn09658_c0	TRANS-RXNAVI-26524.ce.brachyexp.SUCROSE_SUCROSE_c0					0.0	0.0	0.0
+rxn09434_m0	fatty-acyl-ACP synthase (n-C14:1ACP), mitochondrial_m0		gene_11955 or gene_11385 or gene_10177 or gene_1258	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn34726_c0	oleoyl-[acyl-carrier-protein] hydrolase ((11Z)-n-C18:1)_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn09793_c0	4-hydroxy-2-oxoglutarate mitochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn01791_c0	(R)-Pantoate:beta-alanine ligase (AMP-forming)_c0		gene_3724	446270898.5273218	0.05160314765002472	0.0	0.0	0.0
+PHEt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.PHE_PHE_c0		gene_12204			0.000455308	0.000455308	0.0
+rxn13260_c0	UDP-glucose:ergosterol glucosyltransferase_c0		gene_3212	83598830.1877219	0.009666690774106671	0.0	0.0	0.0
+rxn09461_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosyl-CoA), peroxisomal_x0		gene_2331	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn00392_m0	ATP:riboflavin 5'-phosphotransferase_m0		gene_1087	177271714.35029596	0.020498263453831905	0.0	0.0	0.0
+rxn39076_c0	fatty-acyl-ACP mitochondrial transport_m0					0.0	0.0	0.0
+rxn00088_m0	NADP+ 2'-phosphohydrolase_m0					0.0	0.0	0.0
+rxn01211_m0	5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)_m0		gene_5937	188475672.12430087	0.021793798271774377	0.0	0.0	0.0
+rxn09784_c0	TRANS-RXNBWI-115551.cm_m0		gene_8015			1.1488349407131303e-05	1.1488349407131303e-05	0.0
+rxn13200_c0	3-Isopropylmalate 3-methyltransferase_c0		gene_4658	41192709.02544314	0.004763190817414031	0.0	0.0	0.0
+rxn01637_m0	N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase_m0		gene_1711	26907692.00063592	0.0031113872937094406	0.001824392916209852	0.001824392916209852	0.0
+rxn06444_c0	L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)_c0		gene_6629	146481516.77797258	0.01693793470118132	0.0	0.0	0.0
+rxn09697_c0	Allantoate permease_c0		gene_762			0.0	0.0	0.0
+PACALDtm_c0	phenethylacetaldehyde transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn09601_c0	Ceramide-3 synthase (24C)_c0		gene_31	48452779.088206664	0.005602686443578805	0.0005093168237161298	0.0005093168237161298	0.0
+rxn09491_c0	triglycerol synthesis_c0		gene_7067 or gene_4118 or gene_2907	114372981.48485522	0.013225164065622333	0.00019147249011884578	0.00019147249011884578	0.0
+rxn01368_c0	Cytidine aminohydrolase_c0		gene_12988	115917230.45610063	0.013403728493494605	0.0	0.0	0.0
+rxn13363_c0	N-formyltyrosine oxidase_c0		gene_513 or gene_5143	215059665.80589318	0.024867755716916965	0.0	0.0	0.0
+rxn10832_c0	CoA transporter_m0		gene_12495			0.0002297669881426149	0.0002297669881426149	0.0
+rxn12585_c0	2-hydroxybutyrate cotransport with proton_c0					0.0	0.0	0.0
+rxn30333_m0	2-aceto-2-hydroxybutanoate synthase, mitochondrial_m0		gene_6894 or gene_7035	224675017.08426276	0.02597959696258623	0.0032045298845901583	0.0032045298845901583	0.0
+rxn03062_c0	3-Isopropylmalate:NAD+ oxidoreductase_c0		gene_6043 or gene_2846	256812908.37665495	0.029695762087837446	0.005353915607122588	0.005353915607122588	0.0
+rxn09699_c0	a-ketoglutarate/malate translocator, extracellular_c0					0.0	0.0	0.0
+2MBALDtm_c0	2-Methylbutanal transport (extracellular)_m0					0.0	0.0	0.0
+rxn00214_c0	UDP-glucose 4-epimerase_c0		gene_1133	120468795.75587474	0.013930034593619106	0.0	0.0	0.0
+rxn00119_c0	ATP:UMP phosphotransferase_c0		gene_10931	341289083.38083667	0.03946390190164884	0.0009707655249025504	0.0009707655249025504	0.0
+rxn30365_c0	CDP-Diacylglycerol synthetase, yeast-specific, mitochondrial_c0		gene_12742	93503055.17621714	0.01081193503297939	0.034633544012696825	0.034633544012696825	0.0
+OCDCYAt_c0	Octadecynoate  n C182  transport in via uniport					0.0	0.0	0.0
+rxn00510_c0	N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-forming)_c0		gene_5491	552591626.203042	0.06389721438530471	0.004971112667201367	0.004971112667201367	0.0
+rxn08857_c0	Lysyl-tRNA synthetase_c0		gene_10191	165884604.33481312	0.019181550395966983	0.0	0.0	0.0
+rxn00907_m0	5,10-methylenetetrahydrofolate:NADP+ oxidoreductase_m0		gene_5937	188475672.12430087	0.021793798271774377	0.0	0.0	0.0
+rxn09756_c0	fatty-acyl-ACP mitochondrial transport_m0					0.0	0.0	0.0
+rxn08747_c0	L-isoleucine transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn00737_c0	L-threonine ammonia-lyase (2-oxobutanoate-forming)_c0		gene_10382 or gene_11775	65719368.88960518	0.007599254863958178	0.0034074839415069664	0.0034074839415069664	0.0
+rxn01396_c0	ATP:pyridoxine 5'-phosphotransferase_c0		gene_8846	52860982.609395154	0.0061124153502270205	0.0	0.0	0.0
+rxn05235_c0	2'-Deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase_c0		gene_47 or gene_2076	8648133279.658728	1.0	0.0	0.0	0.0
+rxn02937_c0	2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)_c0		gene_598 or gene_6341	113232675.90825973	0.013093308376108666	0.002648405887358409	0.002648405887358409	0.0
+rxn00260_c0	L-Aspartate:2-oxoglutarate aminotransferase_c0		gene_8831	464344333.71008885	0.053693013127153466	-0.018737601687796635	-0.018737601687796635	0.0
+rxn09473_x0	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexacosyl-CoA), peroxisomal_x0		gene_2331	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn09457_c0	Oleoyl-CoA desaturase (n-C18:1CoA -> n-C18:2CoA)_c0					0.00022402281343904883	0.00022402281343904883	0.0
+rxn08424_c0	ethanolamine transport via diffusion (extracellular)_c0					0.0	0.0	0.0
+rxn00130_c0	AMP aminohydrolase_c0		gene_11513	95519174.83157909	0.01104506276010451	0.0	0.0	0.0
+rxn00363_c0	Cytidine-5'-monophosphate phosphohydrolase_c0		gene_10380 or gene_5707	60437871.79397528	0.006988545370378505	0.0	0.0	0.0
+rxn01507_c0	2'-Deoxyadenosine 5'-monophosphate phosphohydrolase_c0		gene_996	121363540.7081785	0.014033495643925569	0.0	0.0	0.0
+rxn01301_c0	L-Homoserine:NAD+ oxidoreductase_c0		gene_6703	389734610.66386807	0.04506574980528604	0.007307393504911497	0.007307393504911497	0.0
+rxn09661_c0	L-sorbitol transport via passive diffusion_c0					0.0	0.0	0.0
+rxn21082_c0	myristoyl-ACP hydrolase activity_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn27497_c0	3-carboxy-3-hydroxy-4-methylpentanoate 3-methyl-2-oxobutanoate-lyase (CoA-acetylating)_c0		gene_11047	127875555.10673098	0.014786492179474968	0.0	0.0	0.0
+rxn00194_c0	L-glutamate 1-carboxy-lyase (4-aminobutanoate-forming)_c0		gene_5167	241855884.2154376	0.02796625310855312	0.0	0.0	0.0
+rxn00369_c0	GTP:cytidine 5'-phosphotransferase_c0		gene_5199	89326856.36541352	0.010329033269586535	0.0	0.0	0.0
+rxn00351_c0	gamma-L-glutamyl-L-cysteine:glycine ligase (ADP-forming)_c0		gene_1757	42849994.46644259	0.004954825865973881	0.0	0.0	0.0
+rxn00127_c0	S-adenosyl-L-methionine carboxy-lyase [(5-deoxy-5-adenosyl)(3-aminopropyl)methylsulfonium-forming]_c0		gene_10717	293397955.2001328	0.033926160214278155	0.0	0.0	0.0
+rxn09799_c0	Transport of (R)-2-oxoisovalerate, mitochondrial_m0					-0.003203802088544659	-0.003203802088544659	0.0
+rxn01673_c0	ATP:dCDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.0	0.0	0.0
+rxn00917_c0	Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)_c0		gene_2345	104169677.50565857	0.012045336737660605	0.0012526401203179554	0.0012526401203179554	0.0
+rxn00409_c0	ATP:CDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.06745767299377055	0.06745767299377055	0.0
+rxn01917_m0	ATP:N-acetyl-L-glutamate 5-phosphotransferase_m0		gene_853	184932928.9190138	0.02138414417756425	0.001824392916209852	0.001824392916209852	0.0
+rxn00132_c0	Adenosine 5'-monophosphate phosphohydrolase_c0					0.0	0.0	0.0
+rxn09689_c0	Transport of 7,8-diaminononanoate, extracellular_c0					0.0	0.0	0.0
+rxn13203_c0	3-Methyl-2-oxobutanoate decarboxylase_c0		gene_7361	15485335.080656294	0.001790598569645006	0.0	0.0	0.0
+rxn13189_c0	2-Methylbutanal transport (extracellular)_c0					0.0	0.0	0.0
+rxn09546_c0	lipid phosphate phosphatase, yeast-specific_c0		gene_12654			0.0	0.0	0.0
+TYRt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR_c0		gene_12204			0.000278255	0.000278255	0.0
+rxn13186_m0	S-adenosyl-L-methionine:2-hexaprenyl-3-methyl-5-hydroxy-6-methoxy-1,4-benzoquinone 3-O-methyltransferase_m0		gene_3869 or gene_12639 or gene_11580 or gene_11038 or gene_9719 or gene_2152 or gene_12934	85541921.16902022	0.009891374057592679	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn05499_c0	Transport of arabinose (low affinity), extracellular_c0					0.0	0.0	0.0
+rxn06441_c0	L-Leucine:tRNA(Leu) ligase (AMP-forming)_c0		gene_5898	188450907.5015158	0.021790934691625432	0.0	0.0	0.0
+PETOHM_SC_c0	Phosphatidylethanolamine N methyltransferase  yeast specific		gene_4508	84328325.3192753	0.009751043675243065	0.0001914724901188442	0.0001914724901188442	0.0
+rxn02374_m0	R03314_m0					0.0	0.0	0.0
+rxn00126_c0	ATP:L-methionine S-adenosyltransferase_c0		gene_5089	395858303.9848885	0.04577384404053841	0.0009037501533609479	0.0009037501533609479	0.0
+rxn01209_c0	5-Formyltetrahydrofolate:10-Formyltetrahydrofolate isomerase_c0					0.0	0.0	0.0
+PGPPAm_SC_m0	Phosphatidylglycerol phosphate phosphatase A  yeast specific  mitochondrial					0.0	0.0	0.0
+rxn09758_c0	Acyl-[acyl-carrier-protein] transporter, mitochondrial_m0					0.0	0.0	0.0
+PLBPC_SC_c0	Phospholipase B  phosphatidylcholine   yeast specific		gene_1203	118960955.86177471	0.013755680216166737	0.0	0.0	0.0
+rxn02175_c0	ATP:pantetheine-4'-phosphate adenylyltransferase_c0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn06300_c0	L-Alanine:tRNA(Ala) ligase (AMP-forming)_c0		gene_10594	285366854.7876673	0.03299750889118217	0.0	0.0	0.0
+rxn09559_c0	3',5'-cyclic-nucleotide phosphodiesterase 2_c0		gene_581	99848193.4862456	0.01154563537094167	0.0	0.0	0.0
+rxn09690_c0	TRANS-RXNBWI-115637.ce.maizeexp.CYS_CYS_c0		gene_12204			0.00033426	0.00033426	0.0
+rxn06600_m0	S-aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)_m0		gene_885 or gene_2255 or gene_3442 or gene_8838	371455078.70345	0.04295205296814163	0.0	0.0	0.0
+rxn00088_c0	NADP+ 2'-phosphohydrolase_c0					0.0	0.0	0.0
+rxn13930_c0	FMN reductase_c0		gene_10251 or gene_4113	254066131.40305504	0.02937814707373254	0.0	0.0	0.0
+rxn08265_c0	L-carnitine transport via diffusion (extracellular to periplasm)_c0		gene_6929			0.0	0.0	0.0
+rxn01362_c0	Orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase_c0		gene_6854 or gene_1225	277359130.81871766	0.03207156063044195	-0.0021176857407144366	-0.0021176857407144366	0.0
+rxn08440_x0	lauroyl-CoA hydrolase_x0		gene_5256			0.0	0.0	0.0
+rxn00452_c0	S-Adenosyl-L-methionine:L-homocysteine S-methyltransferase_c0		gene_637	122481796.02377331	0.014162801620074788	0.0	0.0	0.0
+rxn03137_c0	10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase_c0		gene_3819	294824701.84378207	0.03409113762587808	0.0033161564628538262	0.0033161564628538262	0.0
+SACCD1_c0	Saccharopine dehydrogenase  NADP  L glutamate forming 		gene_2120	305606757.6541153	0.03533788712217617	0.004971112667201367	0.004971112667201367	0.0
+rxn09467_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_434 or gene_5400 or gene_4395	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn09647_c0	dolichol phosphate endoplasmic reticular transport via proton symport_g0					-0.01546906247670155	-0.01546906247670155	0.0
+rxn13234_c0	C-22 sterol desaturase (NAD)_c0		gene_12185 or gene_10554 or gene_5397	454991666.5902817	0.052611546547330336	0.0	0.0	0.0
+rxn05568_c0	Transport of D-glucosamine 6-phosphate, extracellular_c0					0.0	0.0	0.0
+rxn08436_c0	RXN-9549.c_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn09460_c0	Myristicoyl-CoA desaturase (n-C14:0CoA -> n-C14:1CoA)_c0					0.0	0.0	0.0
+rxn05318_c0	TRANS-RXN-203.ce_c0		gene_9040			0.0	0.0	0.0
+rxn09442_m0	fatty-acyl-ACP synthase (n-C10:0ACP), mitochondrial_m0		gene_11955 or gene_11385 or gene_10177 or gene_1258	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn27497_m0	3-carboxy-3-hydroxy-4-methylpentanoate 3-methyl-2-oxobutanoate-lyase (CoA-acetylating)_m0		gene_11047	127875555.10673098	0.014786492179474968	0.005353915607122588	0.005353915607122588	0.0
+rxn06449_m0	L-Valine:tRNAVal ligase (AMP-forming)_m0		gene_6968	315064793.5608437	0.036431537694025545	0.0	0.0	0.0
+rxn01450_c0	3-(indol-3-yl)pyruvate carboxy-lyase [(2-indol-3-yl)acetaldehyde-forming]_c0		gene_7361	15485335.080656294	0.001790598569645006	0.0	0.0	0.0
+rxn00929_m0	L-Proline:NAD+ 5-oxidoreductase_m0		gene_11192 or gene_9941 or gene_5611			0.0	0.0	0.0
+rxn09385_c0	D-xylose transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn02911_x0	(S)-3-Hydroxydodecanoyl-CoA hydro-lyase_x0		gene_2331 or gene_7999 or gene_2093	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn09845_x0	fatty acyl-CoA transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn13380_c0	1-phosphatidylinositol-4,5-bisphosphate 5-phosphatase, yeast-specific_c0		gene_7169	109090197.76904172	0.012614305797718538	0.0	0.0	0.0
+rxn30050_c0	Phosphofructokinase_c0		gene_7620	137847906.11708578	0.01593961397904422	0.0	0.0	0.0
+CRNtim_c0	L-carnitine transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn09770_c0	Transport of dihydrofolate, mitochondrial_m0					0.0	0.0	0.0
+HDCAt_c0	Hexadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn09477_x0	acyl-CoA oxidase_x0		gene_1810	100259834.45624089	0.01159323419448935	0.0	0.0	0.0
+rxn00920_c0	Guanosine 3',5'-cyclic phosphate 5'-nucleotidohydrolase_c0		gene_581	99848193.4862456	0.01154563537094167	0.0	0.0	0.0
+rxn09435_c0	fatty-acyl-CoA synthase (n-C14:0CoA)_c0		gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	1813032737.5321305	0.20964440289057112	0.04729370505935491	0.04729370505935491	0.0
+rxn02200_m0	2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase_m0		gene_2704	65737565.82114947	0.007601359009553054	0.00030635598419015333	0.00030635598419015333	0.0
+rxn04680_m0	R06866_m0		gene_11580			3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn09750_c0	Transport of glutamate, mitochondrial_m0					0.0	0.0	0.0
+4H2OGLTtp_c0	4-hydroxy-2-oxoglutarate mitochondrial transport via diffusion_x0					0.0	0.0	0.0
+rxn06556_c0	Dodecanoyl-[acyl-carrier-protein] hydrolase_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+C14STR_c0	C 14 sterol reductase		gene_7936	269145319.14057493	0.031121782058288992	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn09296_x0	hydrogen peroxide reductase (thioredoxin)_x0		gene_47 or gene_9939	8648133279.658728	1.0	0.0	0.0	0.0
+rxn00414_c0	hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)_c0		gene_4589 or gene_3969 or gene_2309	249093212.2546135	0.028803119031537774	0.003942078656924288	0.003942078656924288	0.0
+rxn05317_c0	Transport of deoxyadenosine, extracellular_c0					0.0	0.0	0.0
+rxn01652_m0	S-Aminomethyldihydrolipoylprotein:(6S)-tetrahydrofolate aminomethyltransferase (ammonia-forming)_m0		gene_885 or gene_2255 or gene_7709 or gene_8838	312198140.581039	0.036100061190703456	0.0	0.0	0.0
+rxn01653_m0	5-Formyltetrahydrofolate cyclo-ligase (ADP-forming)_m0		gene_5937	188475672.12430087	0.021793798271774377	0.0	0.0	0.0
+rxn00241_c0	GTP phosphohydrolase_c0		gene_12109			0.0	0.0	0.0
+ID3ACALDtm_c0	indole-3-acetaldehyde mitochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn09801_c0	Transport of 2-isopropylmalate, mitochondrial_c0					0.0	0.0	0.0
+IPCS126_SC_c0	Inositol phosphorylceramide synthase  ceramide 1  26C   yeast specific		gene_8702			0.0005074020988149413	0.0005074020988149413	0.0
+ACtp_c0	Acetate transport via diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+rxn00800_c0	N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)_c0		gene_370	173245516.97549844	0.02003270664005482	0.002063516342535871	0.002063516342535871	0.0
+rxn01255_c0	5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-forming)_c0		gene_6415	148422756.99486685	0.017162403977280506	0.004458086596845509	0.004458086596845509	0.0
+rxn09713_c0	Mitochondrial dicarboxylate transporter_m0		gene_1614			0.00042225972126050393	0.00042225972126050393	0.0
+rxn09560_c0	3',5'-cyclic-nucleotide phosphodiesterase 2_c0		gene_581	99848193.4862456	0.01154563537094167	0.0	0.0	0.0
+rxn06493_m0	dihydrolipoylprotein:NAD+ oxidoreductase_m0		gene_885 or gene_2255 or gene_3442 or gene_8838	371455078.70345	0.04295205296814163	0.0	0.0	0.0
+rxn19830_c0	GLUTAMIDOTRANS-RXN.d_c0		gene_8889	92571940.0788649	0.01070426843404499	0.0008066909173928709	0.0008066909173928709	0.0
+rxn09774_c0	Transport of L-carnitine and O-acyl-L-carnitine_m0		gene_4744	327279738.13762975	0.03784397482719471	0.0	0.0	0.0
+rxn07328_c0	R07497_c0		gene_4664	32222826.69607429	0.003725986366545205	1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn09719_c0	Transport of 5-phospho-alpha-D-ribose 1-diphosphate, mitochondrial_m0					0.0	0.0	0.0
+rxn09035_c0	Octadecenoate (n-C18:1) transport via facilitated irreversible diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn02305_c0	2-methyl-4-amino-5-hydroxymethylpyrimidine-diphosphate:4-methyl-5-(2-phosphoethyl)-thiazole 2-methyl-4-aminopyridine-5-methenyltransferase_c0		gene_2821	70497907.90766373	0.008151806364210626	1.104650353911385e-06	1.104650353911385e-06	0.0
+rxn09421_c0	fatty acyl-CoA synthase (n-C8:0CoA), lumped reaction_c0		gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	1813032737.5321305	0.20964440289057112	0.04749283644907851	0.04749283644907851	0.0
+rxn13312_c0	fatty acid intracellular transport_x0					0.0	0.0	0.0
+rxn09800_c0	3-Carboxy-4-methyl-2-oxopentanoate transport, diffusion, mitochondrial_m0					0.0	0.0	0.0
+H2Otp_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_x0					0.0	0.0	0.0
+rxn09296_m0	hydrogen peroxide reductase (thioredoxin)_m0		gene_12498	1462329174.113158	0.1690918868644985	0.0	0.0	0.0
+rxn05300_c0	TRANS-RXNBWI-115637.ce.maizeexp.THR_THR_m0					0.0	0.0	0.0
+GLYt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY_c0		gene_5741 or gene_12204 or gene_3268	281632534.8550949	0.032565702417829606	0.000539483	0.000539483	0.0
+rxn13251_c0	Fumarate dependent DHORD_c0		gene_4133	42168711.895980865	0.004876047874420007	0.0	0.0	0.0
+rxn01252_c0	Pyridoxine:oxygen oxidoreductase (deaminating)_c0		gene_166	96489186.70903988	0.01115722706725532	0.0	0.0	0.0
+rxn13299_c0	glycogen phosphorylase_c0		gene_12299	343234639.58407634	0.0396888702434083	0.0	0.0	0.0
+rxn13288_e0	fecosterol ester hydrolase, yeast-specific_e0		gene_6533	42209881.33028228	0.004880808373937082	0.0	0.0	0.0
+rxn15114_c0	D-ribose-5-phosphate aldose-ketose-isomerase_c0		gene_12409	221819922.0427063	0.025649456925513497	-0.10047794196626356	-0.10047794196626356	0.0
+rxn02275_c0	4-Guanidinobutanamide amidohydrolase_c0		gene_6335 or gene_9121 or gene_187 or gene_2440 or gene_1738 or gene_4671 or gene_9547 or gene_6227 or gene_3244	39708409.25584113	0.00459155842905882	0.0	0.0	0.0
+AASAD1_c0	L aminoadipate semialdehyde dehydrogenase  NADPH 		gene_8310	131221427.38926373	0.015173381716712163	0.0	0.0	0.0
+rxn09616_c0	Mevalonate kinase_c0		gene_1800	169624008.31882566	0.019613944747798723	0.0	0.0	0.0
+rxn01575_c0	L-Isoleucine:2-oxoglutarate aminotransferase_c0		gene_622 or gene_12086 or gene_4156 or gene_3566	124122985.68352382	0.014352575483020534	-0.0032045298845901583	-0.0032045298845901583	0.0
+ARGt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.ARG_ARG_c0		gene_12204 or gene_632			0.00125257	0.00125257	0.0
+IAMOHtm_c0	isoamyl alcohol transport (extracellular)_m0					0.0	0.0	0.0
+rxn13191_c0	2-methyl-1-butanol transport (extracellular)_c0					0.0	0.0	0.0
+rxn00478_c0	L-tryptophan:oxygen 2,3-oxidoreductase (decyclizing)_c0		gene_3951 or gene_11934 or gene_4944	100078294.04155879	0.011572242333146382	0.0	0.0	0.0
+rxn09472_x0	fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_5400 or gene_4956	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn13288_c0	fecosterol ester hydrolase, yeast-specific_c0		gene_11810 or gene_6533	424941038.0781379	0.04913673556322745	0.0	0.0	0.0
+rxn09769_c0	dhnpt mitochondrial transport_m0					0.00030635598419015333	0.00030635598419015333	0.0
+rxn00139_c0	AMP:diphosphate phospho-D-ribosyltransferase_c0		gene_9091	171425362.395348	0.0198222387250388	0.0	0.0	0.0
+rxn30417_c0	2-oxo-4-methyl-3-carboxypentanoate decarboxylation_c0		gene_622	124122985.68352382	0.014352575483020534	0.005353915607122588	0.005353915607122588	0.0
+rxn02322_c0	ATP:(R)-5-phosphomevalonate phosphotransferase_c0		gene_9490	96268047.6501036	0.011131656339817941	0.00022976698814261603	0.00022976698814261603	0.0
+rxn02356_m0	trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase_m0		gene_2608 or gene_9941 or gene_5611	144214468.5335333	0.016675791626932963	0.0	0.0	0.0
+rxn00140_c0	adenosine 3',5'-phosphate 5'-nucleotidohydrolase_c0		gene_888 or gene_581	99848193.4862456	0.01154563537094167	0.0	0.0	0.0
+rxn03070_m0	R04443_m0					0.0	0.0	0.0
+rxn05120_m0	protoheme IX farnesyltransferase_m0		gene_5893			3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn02341_c0	N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase_c0		gene_9328	70926014.83898541	0.00820130917799457	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn13214_c0	acetic ester transport (extracellular)_c0					0.0	0.0	0.0
+rxn09525_c0	formate  dehydrogenase, cytosolic/mitochondrial_m0					0.0	0.0	0.0
+3MOPtm_c0	Transport of 3-methyl-2-oxopentanoate, mitochondrial_m0					-0.0032045298845901583	-0.0032045298845901583	0.0
+rxn09378_c0	xanthine transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn02288_c0	Uroporphyrinogen-III carboxy-lyase_c0		gene_11836	113295380.82352719	0.013100559064001618	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn01607_c0	ATP:(R)-mevalonate 5-phosphotransferase_c0		gene_1800	169624008.31882566	0.019613944747798723	0.00022976698814261603	0.00022976698814261603	0.0
+2PHETOHtm_c0	2-phenylethanol reversible transport_m0					0.0	0.0	0.0
+rxn09796_c0	4-aminobutanal mitochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn00092_c0	ADP phosphohydrolase_c0		gene_12109			0.0	0.0	0.0
+rxn02476_c0	Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase_c0		gene_7443	95296242.60590923	0.011019284685407832	0.004458086596845509	0.004458086596845509	0.0
+rxn00260_x0	L-Aspartate:2-oxoglutarate aminotransferase_x0		gene_8831 or gene_11255	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+HDCEAt_c0	Hexadecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn00831_c0	Inosine 5'-monophosphate phosphohydrolase_c0		gene_11588	68651411.97340453	0.007938292548621967	0.0	0.0	0.0
+rxn13341_c0	cytochrome P450 lanosterol 14-alpha-demethylase (NAD)_c0		gene_12185 or gene_10554 or gene_4061 or gene_7797 or gene_2828	454991666.5902817	0.052611546547330336	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn00938_c0	Nicotinamide amidohydrolase_c0		gene_9922	34358490.11735837	0.003972937165315545	-7.658899604748955e-06	-7.658899604748955e-06	0.0
+rxn30066_c0	tryptophan synthase (indoleglycerol phosphate)_c0		gene_10958	138508652.58346736	0.016016017342060804	0.0003454808719375221	0.0003454808719375221	0.0
+rxn09741_c0	indole-3-acetate mitochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn05306_c0	TRANS-RXNBWI-115637.ce.maizeexp.PHE_PHE_m0					0.0	0.0	0.0
+rxn30390_x0	3-Hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA), peroxisomal_x0		gene_2331 or gene_7220	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn08323_c0	deoxyguanosine transport in via proton symport (periplasm)_c0					0.0	0.0	0.0
+rxn12918_c0	RXN3O-218.c_c0		gene_7255 or gene_3606			0.0	0.0	0.0
+rxn13353_c0	Mannose-inositol phosphorylceramide, ceramide-1 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09778_c0	Tricarboxylate transport protein_m0		gene_9679 or gene_4406	89571937.13345623	0.010357372422108522	0.0	0.0	0.0
+rxn09619_c0	cholestenol delta-isomerase, lumped reaction_c0		gene_7255 or gene_3606 or gene_4664 or gene_5397 or gene_9005 or gene_8534 or gene_5761	76520856.90569529	0.008848251342943567	1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn02374_c0	R03314_c0					0.0025433429122573904	0.0025433429122573904	0.0
+rxn00178_m0	Acetyl-CoA:acetyl-CoA C-acetyltransferase_m0		gene_9875	416192748.88157153	0.04812515434521556	0.00022976698814261603	0.00022976698814261603	0.0
+rxn06448_c0	L-Tryptophan -tRNA(Trp) ligase (AMP-forming)_c0		gene_10776	129918052.32781397	0.01502266999438991	0.0	0.0	0.0
+rxn01000_c0	prephenate hydro-lyase (decarboxylating; phenylpyruvate-forming)_c0		gene_902	20728379.828150343	0.0023968617455174474	0.002108508642691345	0.002108508642691345	0.0
+rxn05312_c0	Inorganic phosphate transporter_m0		gene_4577	184543353.79005262	0.02133909686892974	0.0	0.0	0.0
+KARA1im_m0	Acetohydroxy acid isomeroreductase  mitochondrial		gene_11182	758839817.767277	0.08774608267799756	0.008557717695667247	0.008557717695667247	0.0
+rxn13290_c0	farnesyl diphosphate transport (mitochondrial)_m0					3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn09625_c0	C-3 sterol dehydrogenase (zymosterol)_c0		gene_8865	119110133.11564071	0.013772929864043566	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn01961_c0	Xanthosine 5'-phosphate phosphohydrolase_c0					0.0	0.0	0.0
+rxn30425_m0	phosphatidylserine decarboxylase, yeast-specific, mitochondrial_m0		gene_3762	139931672.99443245	0.016180563882331196	0.0003829449802376899	0.0003829449802376899	0.0
+ORNt2r_c0	Orntithine reversible transport in via proton symport		gene_12204 or gene_632			0.0	0.0	0.0
+rxn00791_c0	N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase_c0		gene_159	63074956.841464005	0.0072934764996999525	0.0003454808719375221	0.0003454808719375221	0.0
+rxn05349_c0	acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn13258_c0	ergosterol ester hydrolase, yeast-specific_c0		gene_11810 or gene_6533	424941038.0781379	0.04913673556322745	0.0	0.0	0.0
+rxn00906_c0	5,10-methylenetetrahydrofolate:NAD+ oxidoreductase_c0		gene_3021	135357811.80154812	0.015651679665937064	0.0	0.0	0.0
+rxn10075_c0	2,3-diketo-5-methylthio-1-phosphopentane degradation reaction_c0		gene_7944 or gene_385	447649984.73626095	0.05176261399545939	0.0	0.0	0.0
+rxn13349_c0	Mannose-(inositol-P)2-ceramide, ceramide-2 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn00122_c0	ATP:FMN adenylyltransferase_c0		gene_12791	79251945.29080406	0.009164052255902732	3.829449802376915e-06	3.829449802376915e-06	0.0
+THZPSN2_SC_c0	Thiazole phosphate synthesis  ribose 5 phosphate   yeast specifc					1.104650353911385e-06	1.104650353911385e-06	0.0
+rxn30035_c0	indole-3-glycerol-phosphate synthase_c0		gene_4436	97368041.74236293	0.011258850736190928	0.0003454808719375221	0.0003454808719375221	0.0
+rxn02503_m0	ATP:2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine 6'-pyrophosphotransferase_m0		gene_2704	65737565.82114947	0.007601359009553054	0.0	0.0	0.0
+HICITDm_m0	Homoisocitrate dehydrogenase		gene_1480	187171934.97494996	0.021643044680543608	0.004971112667201367	0.004971112667201367	0.0
+TYRt2p_c0	TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR_x0					0.0	0.0	0.0
+rxn00808_c0	ATP:D-galactose 1-phosphotransferase_c0		gene_4189	75125446.91922651	0.00868689744825384	0.0	0.0	0.0
+rxn01843_c0	2-phenylacetamide amidohydrolase_c0		gene_6335 or gene_187 or gene_2440 or gene_1738 or gene_4671 or gene_9547 or gene_6227 or gene_3244	39708409.25584113	0.00459155842905882	0.0	0.0	0.0
+rxn06444_m0	L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)_m0		gene_2161	14848759.26850353	0.0017169901050703386	0.0	0.0	0.0
+rxn06439_m0	L-Histidine:tRNA(His) ligase (AMP-forming)_m0		gene_1950	113827501.27030516	0.013162089157210238	0.0	0.0	0.0
+rxn05654_c0	Transport of succinate, extracellular_c0					0.0	0.0	0.0
+rxn00379_c0	ATP:sulfate adenylyltransferase_c0		gene_12060	247706680.37387598	0.028642791728997377	0.0008451384442709703	0.0008451384442709703	0.0
+rxn09785_c0	Transport of S-adenosyl-L-homocysteine, mitochondrial_m0					-1.1488349407131303e-05	-1.1488349407131303e-05	0.0
+rxn01204_c0	4-aminobutanoate:2-oxoglutarate aminotransferase_c0		gene_2273	243248346.60746858	0.028127266167325724	1.104650353911385e-06	1.104650353911385e-06	0.0
+rxn09642_c0	mannan endoplasmic reticulum transport via diffusion_g0					-0.01546906247670155	-0.01546906247670155	0.0
+rxn30054_c0	pyrimidine phosphatase_c0					5.005374703565373e-06	5.005374703565373e-06	0.0
+rxn35572_c0	Adenylosuccinate lyase_c0		gene_370	173245516.97549844	0.02003270664005482	0.0025094655454609553	0.0025094655454609553	0.0
+HBZOPT6m_m0	Hydroxybenzoate octaprenyltransferase  mitochondrial		gene_1089			3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn01143_c0	ATP:thymidine 5'-phosphotransferase_c0					0.0	0.0	0.0
+rxn00690_m0	Formate:tetrahydrofolate ligase (ADP-forming)_m0		gene_5937	188475672.12430087	0.021793798271774377	0.0	0.0	0.0
+rxn09438_c0	fatty-acyl-CoA synthase (n-C12:0CoA)_c0		gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	1813032737.5321305	0.20964440289057112	0.047443053601647606	0.047443053601647606	0.0
+rxn01018_c0	carbamoyl-phosphate:L-aspartate carbamoyltransferase_c0		gene_2309	150512176.2319843	0.017404007473613287	0.0021176857407144366	0.0021176857407144366	0.0
+rxn01575_m0	L-Isoleucine:2-oxoglutarate aminotransferase_m0		gene_622 or gene_12086 or gene_4156 or gene_3566	124122985.68352382	0.014352575483020534	0.0	0.0	0.0
+rxn01518_c0	ATP:deoxyuridine 5'-phosphotransferase_c0					0.0	0.0	0.0
+rxn03913_r0	ergosterol:NADP+ Delta24(24(1))-oxidoreductase_r0		gene_646	5561269.464500897	0.0006430601014882087	1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn13417_c0	zymosterol ester hydrolase, yeast-specific_c0		gene_11810 or gene_6533	424941038.0781379	0.04913673556322745	0.0	0.0	0.0
+L_LACtm_c0	L-lactate reversible transport via proton symport_m0					0.0	0.0	0.0
+rxn00938_m0	Nicotinamide amidohydrolase_m0		gene_9922	34358490.11735837	0.003972937165315545	0.0	0.0	0.0
+ADHAPR_SC_c0	Acyldihydroxyacetonephosphate reductase  yeast specific		gene_11988			0.0	0.0	0.0
+rxn01971_c0	ATP:D-fructose-6-phosphate 2-phosphotransferase_c0		gene_3493	105075711.67087816	0.01215010318099823	0.0	0.0	0.0
+rxn09516_c0	nucleoside triphosphate phosphohydrolase_c0					0.0	0.0	0.0
+rxn01303_c0	Acetyl-CoA:L-homoserine O-acetyltransferase_c0		gene_4007	40492589.57829599	0.004682234682198828	0.0006930651025298107	0.0006930651025298107	0.0
+rxn02213_c0	3-Dehydroquinate hydro-lyase_c0		gene_7443 or gene_11517 or gene_2760	160568211.31943697	0.018566805821218023	0.004458086596845509	0.004458086596845509	0.0
+rxn00392_c0	ATP:riboflavin 5'-phosphotransferase_c0		gene_1087	177271714.35029596	0.020498263453831905	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn09664_c0	Peptide transporter PTR2_c0		gene_6282			0.0	0.0	0.0
+rxn05652_c0	spermidine transport in via proton antiport_c0		gene_12888 or gene_10460			0.0	0.0	0.0
+rxn05040_c0	D-ribulose 5-phosphate formate-lyase (L-3,4-dihydroxybutan-2-one 4-phosphate-forming)_c0		gene_12503	95655140.20852493	0.011060784693676653	1.0010749407130746e-05	1.0010749407130746e-05	0.0
+rxn00686_c0	5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase_c0		gene_10181	67879613.24867845	0.007849048003034143	0.0003607341713839055	0.0003607341713839055	0.0
+rxn00751_c0	ATP:choline phosphotransferase_c0		gene_9170	78561018.20750222	0.009084159051096677	0.0336761815621026	0.0336761815621026	0.0
+rxn13417_e0	zymosterol ester hydrolase, yeast-specific_e0		gene_6533	42209881.33028228	0.004880808373937082	0.0	0.0	0.0
+rxn00060_c0	porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing)_c0		gene_4370	266242380.69377995	0.03078610979782291	7.65889960475383e-06	7.65889960475383e-06	0.0
+rxn01486_c0	trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase_c0		gene_367	74143095.19923952	0.008573306261783856	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn09476_x0	acyl-CoA oxidase_x0		gene_1810	100259834.45624089	0.01159323419448935	0.0	0.0	0.0
+rxn13207_m0	4-hydroxybenzoyl-CoA formation_m0					0.0	0.0	0.0
+rxn05680_c0	TRANS-RXNBWI-115572.ce.maizeexp.XANTHOSINE_XANTHOSINE_c0					0.0	0.0	0.0
+rxn01420_m0	(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)_m0		gene_1480	187171934.97494996	0.021643044680543608	0.004971112667201367	0.004971112667201367	0.0
+rxn30417_m0	2-oxo-4-methyl-3-carboxypentanoate decarboxylation_m0		gene_622	124122985.68352382	0.014352575483020534	0.0	0.0	0.0
+rxn02834_c0	Phosphoribosyl-ATP pyrophosphohydrolase_c0		gene_1605	62860680.365787394	0.007268699305738267	0.0008066909173928709	0.0008066909173928709	0.0
+rxn30427_x0	peroxisomal acyl-CoA thioesterase_x0		gene_5256			0.0	0.0	0.0
+rxn00117_c0	ATP:UDP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.030691125441149793	0.030691125441149793	0.0
+rxn09621_c0	C-4 sterol methyl oxidase (4-methylzymosterol)_c0		gene_12719 or gene_1482			3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn05491_c0	TRANS-RXN-198.ce_c0		gene_4689			0.0	0.0	0.0
+rxn09726_c0	phosphatidate reversible transport, mitochondrial, yeast-specific_m0					0.0	0.0	0.0
+rxn08643_c0	Glycerol-3-phosphate transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn00380_c0	ADP:sulfate adenylyltransferase_c0		gene_641	99553418.62762024	0.011511549996781363	0.0	0.0	0.0
+rxn09459_c0	Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA)_c0		gene_1461	39675293.728518255	0.004587729218031191	0.0004231542031626478	0.0004231542031626478	0.0
+rxn05287_c0	geranylgeranyl-diphosphate:isopentenyl-diphosphate transtransferase_c0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn01930_c0	3-Hydroxy-L-kynurenine hydrolase_c0		gene_11861 or gene_8241	207151068.27013746	0.02395326963304063	0.0	0.0	0.0
+rxn05566_c0	D-galactose transport in via proton symport_c0		gene_331 or gene_6660 or gene_8848			0.0	0.0	0.0
+rxn08674_c0	glutathione (ox) transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn02989_c0	R04293_c0					0.0	0.0	0.0
+rxn09608_c0	Ceramide-1 hydroxylase (26C)_c0		gene_11213 or gene_31	48452779.088206664	0.005602686443578805	0.0	0.0	0.0
+rxn00410_c0	UTP:ammonia ligase (ADP-forming)_c0		gene_2791	127560005.03794211	0.014750004528488937	0.0008558820308312426	0.0008558820308312426	0.0
+rxn01217_c0	dCMP aminohydrolase_c0		gene_5452			-6.0505306877555266e-05	-6.0505306877555266e-05	0.0
+rxn05638_c0	TRANS-RXNBWI-115637.ce.maizeexp.PRO_PRO_c0		gene_12204 or gene_3268			0.000610209	0.000610209	0.0
+rxn06439_c0	L-Histidine:tRNA(His) ligase (AMP-forming)_c0		gene_1950	113827501.27030516	0.013162089157210238	0.0	0.0	0.0
+rxn01739_c0	ATP:shikimate 3-phosphotransferase_c0		gene_7443	95296242.60590923	0.011019284685407832	0.004458086596845509	0.004458086596845509	0.0
+rxn05349_m0	acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase_m0		gene_11955 or gene_11385 or gene_10177 or gene_12063 or gene_313 or gene_12865	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn06432_c0	L-Arginine:tRNA(Arg) ligase (AMP-forming)_c0		gene_2734	152656459.66882876	0.017651955021078594	0.0	0.0	0.0
+rxn04381_c0	Sphinganine, NADPH: oxygen oxidoreductase (4-hydroxylating)_c0		gene_11213 or gene_7028			0.0204875564427165	0.0204875564427165	0.0
+rxn00209_c0	Pyridoxine 5-phosphate:oxygen oxidoreductase_c0		gene_166	96489186.70903988	0.01115722706725532	0.0	0.0	0.0
+rxn13362_c0	N,N-bisformyl-dityrosine transport (extracellular)_c0		gene_8386			0.0	0.0	0.0
+rxn13336_c0	lanosterol ester hydrolase, yeast-specific_c0		gene_11810 or gene_6533	424941038.0781379	0.04913673556322745	0.0	0.0	0.0
+rxn00789_c0	1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase_c0		gene_12319	59159829.59548708	0.006840762934891036	0.0008066909173928709	0.0008066909173928709	0.0
+GLUt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLT_GLT_c0		gene_6605 or gene_5741 or gene_8848 or gene_12204	281632534.8550949	0.032565702417829606	0.00163471	0.00163471	0.0
+rxn13336_e0	lanosterol ester hydrolase, yeast-specific_e0		gene_6533	42209881.33028228	0.004880808373937082	0.0	0.0	0.0
+rxn00178_c0	Acetyl-CoA:acetyl-CoA C-acetyltransferase_c0		gene_9875	416192748.88157153	0.04812515434521556	0.0	0.0	0.0
+rxn09665_c0	Transport of adenosine 3',5'-bisphosphate, extracellular_c0					0.0	0.0	0.0
+rxn06936_c0	L-Aspartate:tRNA(Asp) ligase (AMP-forming)_c0		gene_9337	317774009.10408115	0.036744809408929595	0.0	0.0	0.0
+rxn02473_c0	D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase_c0		gene_4690	49110213.151825525	0.005678706787202002	0.0008066909173928709	0.0008066909173928709	0.0
+rxn00912_c0	5,10-Methylenetetrahydrofolate:3-methyl-2-oxobutanoate hydroxymethyltransferase_c0		gene_11759			0.0	0.0	0.0
+VALt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.VAL_VAL_c0		gene_12204			0.00186256	0.00186256	0.0
+rxn13398_c0	spermine transport via proton antiport irreversible_c0		gene_12888 or gene_1694 or gene_10460			0.0	0.0	0.0
+3OPHB5Hm_c0	3 Hexaprenyl 4 5 dihydroxybenzoate hydroxylase  mitochondrial					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn01479_c0	CTP:ethanolamine-phosphate cytidylyltransferase_c0		gene_9286	92921816.14238083	0.010744725264692927	0.0	0.0	0.0
+rxn01274_m0	(R)-S-Lactoylglutathione hydrolase_m0		gene_7690	268630801.15716076	0.031062287371195724	0.0	0.0	0.0
+rxn02264_c0	Hydroxymethylbilane hydro-lyase(cyclizing)_c0		gene_2500	32277657.920088824	0.0037323266046337534	7.65889960475383e-06	7.65889960475383e-06	0.0
+TAGL_SC_c0	Triacylglycerol lipase  yeast specific		gene_8245			0.0	0.0	0.0
+rxn15467_m0	(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase_m0		gene_8326	200338270.2128853	0.023165492914418988	0.008557717695667247	0.008557717695667247	0.0
+rxn09839_c0	glyoxylate transport, peroxisomal_c0					0.0	0.0	0.0
+rxn13258_e0	ergosterol ester hydrolase, yeast-specific_e0		gene_6533	42209881.33028228	0.004880808373937082	0.0	0.0	0.0
+HISt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.HIS_HIS_c0		gene_12204			0.000324936	0.000324936	0.0
+rxn03240_x0	(S)-3-Hydroxyhexadecanoyl-CoA hydro-lyase_x0		gene_2331 or gene_7999 or gene_2093	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn28987_c0	sirohydrochlorin ferrochelatase_c0		gene_1218	48832171.33366944	0.005646556286144153	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn00947_x0	Palmitate:CoA ligase (AMP-forming)_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+rxn00560_c0	Urea:carbon-dioxide ligase (ADP-forming)_c0		gene_9951			0.0	0.0	0.0
+rxn09296_c0	hydrogen peroxide reductase (thioredoxin)_c0		gene_47	8648133279.658728	1.0	0.0	0.0	0.0
+NMNt2p_c0	Transport of nicotinamide mononucleotide, extracellular_x0					0.0	0.0	0.0
+rxn00839_c0	ATP:dADP phosphotransferase_c0		gene_12313	3754942378.645335	0.4341910857777058	0.0	0.0	0.0
+rxn00189_c0	L-Glutamine amidohydrolase_c0					0.0	0.0	0.0
+rxn06443_m0	L-Methionine:tRNAMet ligase (AMP-forming)_m0		gene_11239	74550449.36931747	0.008620409394553108	0.0	0.0	0.0
+rxn02789_c0	2-Isopropylmalate hydro-lyase_c0		gene_5179	174232769.82862797	0.020146864553815428	0.0	0.0	0.0
+MELIBt2_c0	Melibiose transport in via symport					0.0	0.0	0.0
+rxn09193_c0	L-proline transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn00838_c0	IMP:L-aspartate ligase (GDP-forming)_c0		gene_10535	215618279.12570077	0.02493234923111748	0.002063516342535871	0.002063516342535871	0.0
+rxn09842_c0	fatty acid peroxisomal transport_x0		gene_8073			0.0	0.0	0.0
+rxn01406_c0	S-adenosylmethioninamine:putrescine 3-aminopropyltransferase_c0		gene_7762	734140250.9123068	0.08489002506923406	0.0	0.0	0.0
+IPCS326_SC_c0	Inositol phosphorylceramide synthase  ceramide 3  26C   yeast specific		gene_8702			0.03153168967277153	0.03153168967277153	0.0
+rxn05234_c0	2'-Deoxyguanosine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase_c0		gene_47 or gene_2076	8648133279.658728	1.0	0.0	0.0	0.0
+rxn27926_c0	Histidinol-phosphate aminotransferase_c0		gene_11623	44206024.820816256	0.005111626219359181	0.0008066909173928709	0.0008066909173928709	0.0
+rxn08063_c0	Acetate transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+O2ter_c0	TRANS-RXNAVI-26568.ce_g0					3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn13390_c0	phytosphinganine 1-phosphate endoplasmic reticular transport_g0					0.0	0.0	0.0
+rxn03974_c0	FMNH2:NAD+ oxidoreductase_c0		gene_10251 or gene_4113	254066131.40305504	0.02937814707373254	0.0	0.0	0.0
+rxn30433_c0	D-sorbitol reductase_c0		gene_11124	317809192.2911636	0.036748877707364035	0.0	0.0	0.0
+rxn08066_c0	adentylate kinase (GTP)_c0		gene_8746	341242926.8012119	0.03945856472909007	0.0	0.0	0.0
+rxn09633_c0	4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase_c0					0.00013894034189745357	0.00013894034189745357	0.0
+rxn01748_c0	Allantoin amidohydrolase_c0		gene_11159			0.0	0.0	0.0
+rxn09798_c0	Transport of 3-methyl-2-oxopentanoate, mitochondrial_c0					0.0	0.0	0.0
+rxn05199_c0	Uridine permease_c0		gene_9040			0.0	0.0	0.0
+rxn01302_c0	L-homoserine:NADP+ oxidoreductase_c0		gene_6703	389734610.66386807	0.04506574980528604	0.0	0.0	0.0
+rxn08439_x0	decanoyl-CoA hydrolase_x0		gene_5256			0.0	0.0	0.0
+rxn05602_c0	L-lactate reversible transport via proton symport_c0		gene_984			0.0	0.0	0.0
+rxn06549_c0	Tetradecanoyl-CoA:glycylpeptide N-tetradecanoyltransferase_c0		gene_2321	153225022.65519553	0.017717699034032707	0.0	0.0	0.0
+rxn13226_c0	phenylacetaldehyde reductase_c0		gene_8488	50911624.767591946	0.005887007417813642	0.0	0.0	0.0
+rxn02290_c0	(S)-2,3-Epoxysqualene mutase (cyclizing, lanosterol-forming)_c0		gene_8185	14182890.170859126	0.0016399944025167488	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn06937_m0	L-glutamate:tRNA(Glu) ligase (AMP-forming)_m0		gene_4282			0.0	0.0	0.0
+rxn13313_c0	all-trans-hexaprenyl diphosphate transport, mitochondrial_m0					0.0	0.0	0.0
+IBUTOHtm_c0	isobutyl alcohol transport (extracellular)_m0					0.0	0.0	0.0
+rxn09653_c0	Urea active transporter_c0		gene_6436			0.0	0.0	0.0
+rxn08447_x0	fatty-acid-CoA thioesterase (octanoate)_x0		gene_5256			0.0	0.0	0.0
+PMI12346PS_c0	5 diphosphoinositol 1 2 3 4 6 pentakisphosphate synthase		gene_2178	60245576.86641522	0.0069663099443805785	0.0	0.0	0.0
+PINOS_SC_c0	Phosphatidylinositol synthase  yeast specific		gene_10850	176645057.92734155	0.020425801986982364	0.034059126542340286	0.034059126542340286	0.0
+rxn04147_c0	squalene synthase_c0		gene_6706	92973017.77391252	0.010750645806141117	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn08413_x0	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctadecanoyl-CoA)_x0		gene_2331 or gene_7999 or gene_2093	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn13414_c0	ATP diphosphohydrolase (phosphate-forming)_c0		gene_12109			0.0	0.0	0.0
+rxn05243_c0	TRANS-RXNBWI-115637.ce.maizeexp.LEU_LEU_c0		gene_12204			0.000321329	0.000321329	0.0
+rxn00493_c0	L-Phenylalanine:2-oxoglutarate aminotransferase_c0		gene_12910 or gene_8831 or gene_11623 or gene_11255	464344333.71008885	0.053693013127153466	-0.002108508642691345	-0.002108508642691345	0.0
+rxn09791_c0	trans-4-hydroxy-L-proline mitochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn09466_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_434 or gene_5400 or gene_4395	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn00327_c0	(S)-ureidoglycolate amidohydrolase (decarboxylating)_c0		gene_3178	110402332.45554838	0.012766030412045761	0.0	0.0	0.0
+TTCCOAtx_c0	Fatty acid intracellular transport					0.0	0.0	0.0
+CLPNSm_SC_m0	Cardiolipin synthase  yeast specific  mitochondrial		gene_11277	72165805.84972067	0.008344668556330167	0.0	0.0	0.0
+rxn00423_c0	acetyl-CoA:L-serine O-acetyltransferase_c0					0.0	0.0	0.0
+rxn13348_c0	Mannose-(inositol-P)2-ceramide, ceramide-1 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn02402_m0	Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)_m0		gene_7923	147332320.6173045	0.017036314757526323	0.0	0.0	0.0
+rxn00007_c0	alpha,alpha-trehalose glucohydrolase_c0		gene_2694	114682565.63162838	0.013260961865767404	0.0	0.0	0.0
+rxn09836_c0	malate/oxaloacetate shuttle_x0					0.0	0.0	0.0
+rxn00552_c0	D-glucosamine-6-phosphate aminohydrolase (ketol isomerizing)_c0					0.0	0.0	0.0
+rxn30058_c0	ribokinase_c0		gene_8118	211645944.30848983	0.024473020646698658	0.0	0.0	0.0
+rxn00931_c0	L-Proline:NADP+ 5-oxidoreductase_c0		gene_9941 or gene_5611			0.0025433429122573904	0.0025433429122573904	0.0
+rxn09414_c0	deoxyhypusine synthase, cytosolic/mitochondrial_m0		gene_8684	30417841.04346825	0.0035172724632972583	0.0	0.0	0.0
+rxn13376_c0	all-trans-Pentaprenyl diphosphate transport, mitochondrial_m0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn09427_c0	fatty-acyl-CoA synthase (n-C18:0CoA)_c0		gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	1813032737.5321305	0.20964440289057112	0.023447721139953855	0.023447721139953855	0.0
+rxn02222_c0	Indole-3-acetamide amidohydrolase_c0		gene_6335 or gene_187 or gene_2440 or gene_1738 or gene_4671 or gene_9547 or gene_6227 or gene_3244	39708409.25584113	0.00459155842905882	0.0	0.0	0.0
+rxn09479_x0	acyl-CoA oxidase_x0		gene_1810	100259834.45624089	0.01159323419448935	0.0	0.0	0.0
+rxn09428_m0	fatty-acyl-ACP synthase (n-C18:0ACP), mitochondrial_m0		gene_11955 or gene_11385 or gene_10177 or gene_1258	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn13297_c0	glucan 1,4-alpha-glucosidase, vacuole_c0		gene_4701	147171315.22773194	0.017017697399957232	0.0	0.0	0.0
+rxn09763_c0	Acyl-[acyl-carrier-protein] transporter, mitochondrial_m0					0.0	0.0	0.0
+rxn00337_c0	ATP:L-aspartate 4-phosphotransferase_c0		gene_1548 or gene_8697	55043780.37239926	0.0063648163820356155	0.007307393504911497	0.007307393504911497	0.0
+rxn00122_m0	ATP:FMN adenylyltransferase_m0		gene_12791	79251945.29080406	0.009164052255902732	0.0	0.0	0.0
+rxn09880_c0	RXN-9939.c_c0					0.0	0.0	0.0
+rxn13125_c0	Transport of sorbose, extracellular_c0					0.0	0.0	0.0
+rxn09847_x0	fatty acyl-CoA peroxisomal transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn32133_c0	Glutathione reductase (NADPH)_c0		gene_12158 or gene_5166 or gene_8096	444117022.73383576	0.051354090920227066	0.0	0.0	0.0
+rxn05527_c0	TRANS-RXN-199.ce_c0		gene_4689			0.0	0.0	0.0
+rxn00453_c0	O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase_c0		gene_11855	94718731.63939781	0.010952506000593876	0.0	0.0	0.0
+rxn02276_c0	4-Maleylacetoacetate cis-trans-isomerase_c0					0.0	0.0	0.0
+AASAD2_c0	L aminoadipate semialdehyde dehydrogenase  NADH 		gene_8310	131221427.38926373	0.015173381716712163	0.004971112667201367	0.004971112667201367	0.0
+rxn30013_c0	Dihydroneopterin monophosphate dephosphorylase_c0		gene_5630	157468028.25436038	0.018208325792658735	0.0	0.0	0.0
+rxn13235_c0	ceramide-1 (C24) endoplasmic reticular transport_g0					-0.0015068884972353164	-0.0015068884972353164	0.0
+rxn02219_c0	3-Indoleacetonitrile aminohydrolase_c0		gene_4909 or gene_2245 or gene_10825 or gene_3110 or gene_2001 or gene_11061	161924597.30594853	0.01872364729701973	0.0	0.0	0.0
+rxn09716_c0	Transport of pyridine-2,3-dicarboxylate, mitochondrial_m0					0.0	0.0	0.0
+rxn02287_c0	S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase_c0		gene_5126	23360889.938987125	0.0027012638662651358	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn13399_r0	Squalene epoxidase, endoplasmic reticular (NAD)_r0		gene_12185 or gene_10554 or gene_3496	454991666.5902817	0.052611546547330336	0.0	0.0	0.0
+rxn01603_c0	7,8-dihydropteroate:L-glutamate ligase (ADP-forming)_c0		gene_7878	3088129370.319115	0.3570862370475607	0.00030635598419015333	0.00030635598419015333	0.0
+rxn06443_c0	L-Methionine:tRNAMet ligase (AMP-forming)_c0		gene_6315	264875603.3369336	0.030628066748225016	0.0	0.0	0.0
+rxn20162_x0	malate synthase_x0		gene_5781	368698844.99083275	0.04263334445342664	0.0	0.0	0.0
+rxn20478_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA), peroxisomal_x0		gene_2331 or gene_7220	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn01380_c0	CTP:choline-phosphate cytidylyltransferase_c0		gene_9244	133553085.3157201	0.015442995730633602	0.0336761815621026	0.0336761815621026	0.0
+rxn06435_c0	L-Cysteine:tRNA(Cys) ligase (AMP-forming)_c0		gene_4187 or gene_1886	144842974.66996548	0.01674846697964873	0.0	0.0	0.0
+rxn05231_c0	2'-Deoxyadenosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase_c0		gene_47 or gene_2076 or gene_9237	8648133279.658728	1.0	0.0	0.0	0.0
+rxn01437_c0	N-Formyl-L-kynurenine amidohydrolase_c0		gene_4876 or gene_7723	171980080.98762944	0.01988638188453267	0.0	0.0	0.0
+rxn13187_m0	2-hexaprenyl-3-methyl-6-methoxy-1,4-benzoquinone monooxygenase, mitochondrial_m0		gene_3869 or gene_12639 or gene_11580 or gene_11038 or gene_9719 or gene_2152 or gene_12934	85541921.16902022	0.009891374057592679	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn34008_c0	Sulfite Reductase (NADPH)_c0		gene_3061 or gene_8471	118082287.70768672	0.013654078156430365	0.035476272357751214	0.035476272357751214	0.0
+rxn08350_c0	D-lactate transport via proton symport (periplasm)_c0		gene_984			0.0	0.0	0.0
+rxn15049_c0	Cytidine-5'-monophosphate phosphoribohydrolase_c0					0.0	0.0	0.0
+rxn30672_c0	FUMARYLACETOACETASE-RXN_c0					0.0	0.0	0.0
+GAT1_SC_c0	Glycerol 3 phosphate acyltransferase  glycerol 3 phosphate   yeast specific		gene_8048	92777490.6965117	0.010728036640546881	0.0011488349407130706	0.0011488349407130706	0.0
+rxn00764_c0	glycerol:NADP+ 2-oxidoreductase (glycerone-forming)_c0		gene_2865 or gene_6709 or gene_1922	546717420.086666	0.06321796882716874	0.0	0.0	0.0
+rxn02356_c0	trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase_c0		gene_9941			0.0	0.0	0.0
+rxn05581_c0	RXN0-1683.ce.maizeexp.GLYCEROL_GLYCEROL_c0		gene_4522	144485375.66229525	0.016707117130368387	0.0	0.0	0.0
+rxn08453_c0	fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)_c0		gene_1869 or gene_7011 or gene_8106	447264202.6982464	0.05171800528910169	0.0	0.0	0.0
+rxn02402_c0	Nicotinate-nucleotide:pyrophosphate phosphoribosyltransferase (carboxylating)_c0		gene_7923	147332320.6173045	0.017036314757526323	0.0	0.0	0.0
+rxn04142_c0	L-Allothreonine acetaldehyde-lyase_c0		gene_7813 or gene_5507	378560754.1711843	0.043773695655407736	0.0	0.0	0.0
+rxn00503_m0	(S)-1-pyrroline-5-carboxylate:NAD+ oxidoreductase_m0					0.0	0.0	0.0
+rxn05316_c0	TRANS-RXNBWI-115572.ce.maizeexp.INOSINE_INOSINE_c0					0.0	0.0	0.0
+rxn06280_m0	L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)_m0		gene_11726	66983892.036428876	0.007745474065944575	0.0	0.0	0.0
+rxn09034_c0	Octadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn09517_c0	NDPase_c0					0.0	0.0	0.0
+CRNCARtp_c0	Transport of L-carnitine and O-acyl-L-carnitine_x0					0.0	0.0	0.0
+rxn00599_m0	succinyl-CoA:glycine C-succinyltransferase (decarboxylating)_m0		gene_2512	32309648.25633984	0.0037360257076906244	6.127119683803065e-05	6.127119683803065e-05	0.0
+rxn00713_c0	GTP:uridine 5'-phosphotransferase_c0		gene_5199	89326856.36541352	0.010329033269586535	0.0	0.0	0.0
+rxn01360_c0	(S)-dihydroorotate:fumarate oxidoreductase_c0		gene_4133	42168711.895980865	0.004876047874420007	0.0	0.0	0.0
+rxn30145_m0	Dihydroxy-acid dehydratase, mitochondrial_m0		gene_8326	200338270.2128853	0.023165492914418988	0.0032045298845901583	0.0032045298845901583	0.0
+rxn01445_c0	2'-Deoxyguanosine 5'-monophosphate phosphohydrolase_c0		gene_996	121363540.7081785	0.014033495643925569	0.0	0.0	0.0
+rxn06434_c0	L-Asparagine:tRNA(Asn) ligase (AMP-forming)_c0		gene_12618	161470818.28041178	0.01867117597044986	0.0	0.0	0.0
+rxn03052_c0	5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase_c0		gene_2689	708564961.741245	0.08193270603355067	0.0	0.0	0.0
+rxn03063_c0	S-Adenosyl-L-methionine:zymosterol C-methyltransferase_c0		gene_9005 or gene_8534 or gene_5761	76520856.90569529	0.008848251342943567	1.9147249011884577e-06	1.9147249011884577e-06	0.0
+rxn08066_m0	adentylate kinase (GTP)_m0		gene_7383			0.0	0.0	0.0
+CERS124er_r0	Ceramide-1 synthase (24C)_r0		gene_9741 or gene_9020	62310971.806996785	0.007205135465888159	0.0015068884972353164	0.0015068884972353164	0.0
+rxn01377_c0	gamma-Amino-gamma-cyanobutanoate aminohydrolase_c0		gene_4909 or gene_2245 or gene_10825	161924597.30594853	0.01872364729701973	0.0	0.0	0.0
+rxn05224_c0	Riboflavin permease_m0					0.0	0.0	0.0
+rxn01213_c0	GPPSYN-RXN_c0		gene_2662	96147850.00789306	0.011117757659221371	7.275954624516157e-05	7.275954624516157e-05	0.0
+CYSTLp_x0	Cystathione b lyase  peroxisomal		gene_6518	62446945.456630126	0.007220858356046798	0.0	0.0	0.0
+FAS140ACPm_m0	Fatty acyl ACP synthase  n C140ACP   mitochondrial		gene_11955 or gene_11385 or gene_10177	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn08448_x0	fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling)_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+E4HGLUtp_c0	-_x0					0.0	0.0	0.0
+rxn09806_c0	2-Dehydropantoate mitochondrial transport_m0					0.0	0.0	0.0
+rxn09790_c0	5-Aminolevulinate mitochondrial transport_m0					-6.127119683803065e-05	-6.127119683803065e-05	0.0
+rxn01537_c0	Thiamin hydrolase_c0					0.0	0.0	0.0
+rxn13327_c0	inositol phosphorylceramide, ceramide-1 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn00966_c0	chorismate pyruvate-lyase (4-hydroxybenzoate-forming)_c0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn09803_c0	Transport of 2-oxoadipate, mitochondrial_m0					0.004971112667201367	0.004971112667201367	0.0
+rxn05201_c0	TRANS-RXNBWI-115572.ce.maizeexp.HYPOXANTHINE_HYPOXANTHINE_c0					0.0	0.0	0.0
+rxn00830_c0	Isopentenyl-diphosphate delta3-delta2-isomerase_c0		gene_619	121103675.53258024	0.014003446942408735	7.275954624516157e-05	7.275954624516157e-05	0.0
+rxn00903_c0	L-Valine:2-oxoglutarate aminotransferase_c0		gene_622 or gene_12086 or gene_4156 or gene_3566	124122985.68352382	0.014352575483020534	-0.003203802088544659	-0.003203802088544659	0.0
+rxn09332_c0	Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+rxn13328_c0	inositol phosphorylceramide, ceramide-2 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+GLXtp_c0	glyoxylate transport, peroxisomal_x0					-0.0004211550709065917	-0.0004211550709065917	0.0
+rxn09544_c0	phosphatidate kinase, yeast-specific_c0					0.0	0.0	0.0
+rxn09600_c0	Ceramide-3 synthase (26C)_c0		gene_31	48452779.088206664	0.005602686443578805	0.019974410169197994	0.019974410169197994	0.0
+rxn09663_c0	TRANS-RXNAVI-26524.ce.brachyexp.CPD-10330_CPD-10330_c0					0.0	0.0	0.0
+rxn13201_c0	3-methylbutanal transport (extracellular)_c0					0.0	0.0	0.0
+rxn30079_c0	5'-methylthioadenosine phosphorylase_c0		gene_12740	138966303.61445963	0.016068936395941334	0.0	0.0	0.0
+rxn09425_m0	fatty-acyl-ACP synthase (n-C18:2ACP), mitochondrial_m0		gene_11955 or gene_11385 or gene_10177 or gene_1258	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn05233_c0	2'-Deoxyguanosine 5'-diphosphate:oxidized-thioredoxin 2'-oxidoreductase_c0		gene_47 or gene_2076 or gene_9237	8648133279.658728	1.0	6.0505306877555266e-05	6.0505306877555266e-05	0.0
+rxn00069_c0	L-glutamate:NAD+ oxidoreductase (transaminating)_c0		gene_2680	148733495.1118669	0.017198335213184434	0.0	0.0	0.0
+rxn08525_c0	formate transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn01833_c0	aminoacetone:oxygen oxidoreductase(deaminating)_c0		gene_9890 or gene_12033	48332495.047791585	0.005588777772594513	0.0	0.0	0.0
+rxn33365_c0	XMP:pyrophosphate phosphoribosyltransferase_c0		gene_6720	258474477.86150578	0.029887892508486606	0.0	0.0	0.0
+rxn03390_m0	R04982_m0		gene_3869 or gene_12639 or gene_11580 or gene_11038 or gene_9719 or gene_2152 or gene_12934	85541921.16902022	0.009891374057592679	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn01366_c0	Uridine:phosphate alpha-D-ribosyltransferase_c0					0.0	0.0	0.0
+2MPPALtm_c0	2-methylpropanal transport (extracellular)_m0					0.0	0.0	0.0
+rxn01265_m0	Nicotinate D-ribonucleotide:diphosphate phosphoribosyltransferase_m0		gene_6824	97976308.4214061	0.011329185762187102	0.0	0.0	0.0
+rxn09539_c0	phosphatidylinositol-4-phosphate 5-kinase, yeast-specfic_c0		gene_8915	74531921.66286708	0.008618267000830526	0.0	0.0	0.0
+rxn13387_c0	diphosphoinositol-1,3,4,6-tetrakisphosphate synthase_c0		gene_2178	60245576.86641522	0.0069663099443805785	0.0	0.0	0.0
+rxn00758_c0	sn-Glycero-3-phosphocholine glycerophosphohydrolase_c0		gene_4019 or gene_4313	28839113.327313874	0.003334721192970782	0.0	0.0	0.0
+rxn32133_m0	Glutathione reductase (NADPH)_m0		gene_8096 or gene_4674	444117022.73383576	0.051354090920227066	0.0	0.0	0.0
+rxn00610_c0	sn-glycerol-3-phosphate phosphohydrolase_c0		gene_2606	106808895.2936489	0.012350514479798094	0.0	0.0	0.0
+rxn00727_c0	Chorismate pyruvate-lyase (amino-accepting)_c0		gene_4436	97368041.74236293	0.011258850736190928	0.0003454808719375221	0.0003454808719375221	0.0
+rxn01465_c0	(S)-dihydroorotate amidohydrolase_c0		gene_2309 or gene_610	150512176.2319843	0.017404007473613287	-0.0021176857407144366	-0.0021176857407144366	0.0
+THRt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.THR_THR_c0		gene_12204			0.000457939	0.000457939	0.0
+rxn05483_c0	RXN0-1683.ce.maizeexp.L-ARABITOL_L-ARABITOL_c0					0.0	0.0	0.0
+rxn00208_c0	Pyridoxamine-5'-phosphate:oxygen oxidoreductase (deaminating)_c0		gene_166	96489186.70903988	0.01115722706725532	0.0	0.0	0.0
+rxn05307_c0	TRANS-RXNBWI-115637.ce.maizeexp.SER_SER_m0					0.0	0.0	0.0
+rxn09566_c0	pyridoxal oxidase_c0		gene_166	96489186.70903988	0.01115722706725532	0.0	0.0	0.0
+rxn01643_c0	L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)_c0		gene_4716	111031117.35082385	0.012838737998173562	-0.007307393504911497	-0.007307393504911497	0.0
+rxn13331_c0	inositol phosphorylceramide, ceramide-3 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn09807_c0	2-Dehydro-3-deoxy-D-arabino-heptonate7-phohsphate mitochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn01225_c0	Guanine aminohydrolase_c0		gene_3227 or gene_4889	43481121.755814694	0.005027804307559254	0.0	0.0	0.0
+rxn00948_c0	Palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating)_c0		gene_7097 or gene_11973	88164980.93889599	0.010194683417549637	0.022501847038766756	0.022501847038766756	0.0
+rxn09486_c0	UDP-N-acetylglucosamine pyrophosphorylase_c0		gene_5274	289071949.9428408	0.033425936048276095	0.0	0.0	0.0
+rxn01858_c0	Deoxyadenosine aminohydrolase_c0		gene_9546 or gene_8329 or gene_3336 or gene_9012	129200493.11719665	0.01493969726635563	0.0	0.0	0.0
+rxn09728_c0	pantothenate mitochondrial transport_m0					0.0	0.0	0.0
+rxn13247_c0	D-lactate/pyruvate antiport, mitochondrial_m0					0.0	0.0	0.0
+NH4tp_c0	TRANS-RXN-173.ce_x0					0.0	0.0	0.0
+rxn09581_c0	phytosphingosine phosphate lyase_c0		gene_4570 or gene_9205	81702566.14600013	0.009447422178167943	0.0	0.0	0.0
+rxn13224_c0	aldehyde dehydrogenase (isobutyl alcohol, NAD)_c0		gene_12477 or gene_11790	667578793.1431006	0.07719339787619978	0.0	0.0	0.0
+rxn05301_c0	TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR_m0					0.0	0.0	0.0
+rxn09609_c0	Ceramide-1 hydroxylase (24C)_c0		gene_11213 or gene_31	48452779.088206664	0.005602686443578805	0.0010109747478275056	0.0010109747478275056	0.0
+rxn05244_c0	TRANS-RXNBWI-115637.ce.maizeexp.ILE_ILE_c0		gene_12204			0.000485145	0.000485145	0.0
+rxn00913_c0	Guanosine 5'-monophosphate phosphohydrolase_c0					0.0	0.0	0.0
+rxn02914_c0	3-Phosphoserine:2-oxoglutarate aminotransferase_c0		gene_8144	129903599.81978017	0.015020998823564202	0.033668697124007725	0.033668697124007725	0.0
+rxn05209_c0	TRANS-RXNBWI-115525.ce.maizeexp.NA+_NA+_c0		gene_3662	15756101.743066205	0.0018219078306905986	0.0	0.0	0.0
+rxn12919_c0	RXN3O-227.c_c0		gene_5143 or gene_5397	215059665.80589318	0.024867755716916965	0.0	0.0	0.0
+rxn02063_r0	squalene,NADPH:oxygen oxidoreductase (2,3-epoxidizing)_r0		gene_5143 or gene_3496	215059665.80589318	0.024867755716916965	3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn20476_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA), peroxisomal_x0		gene_2331 or gene_7220	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn06447_c0	L-Threonine:tRNA(Thr) ligase (AMP-forming)_c0		gene_6744	193054088.25695783	0.02232320918446531	0.0	0.0	0.0
+rxn00124_c0	ATP:pyridoxal 5'-phosphotransferase_c0		gene_8846	52860982.609395154	0.0061124153502270205	1.53423e-05	1.53423e-05	0.0
+rxn13354_c0	Mannose-inositol phosphorylceramide, ceramide-1 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+CO2tp_c0	CO2 transporter via diffusion_x0					0.0	0.0	0.0
+rxn13342_c0	Lyso-phosphatidylcholine acyltransferase acyltransferase, yeast-specific_c0		gene_2347			0.0	0.0	0.0
+rxn08065_c0	adenine transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn32479_c0	Glutamate-5-semialdehyde dehydrogenase_c0		gene_2036	41453366.13797495	0.0047933310920956086	0.0	0.0	0.0
+PMI12346PH_c0	5 diphosphoinositol 1 2 3 4 6 pentakisphosphate diphosphohydrolase		gene_6037			0.0	0.0	0.0
+O2tm_c0	TRANS-RXNAVI-26568.ce_m0					0.6202943105742245	0.6202943105742245	0.0
+rxn03445_c0	O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase_c0		gene_8144	129903599.81978017	0.015020998823564202	0.0	0.0	0.0
+rxn13236_c0	ceramide-1 (C26) endoplasmic reticular transport_g0					-0.0005074020988149413	-0.0005074020988149413	0.0
+rxn09617_c0	cytochrome P450 lanosterol 14-alpha-demethylase (NADP)_c0		gene_5143 or gene_4061 or gene_11718	215059665.80589318	0.024867755716916965	0.0	0.0	0.0
+rxn03892_m0	R05613_m0		gene_11727	10818046.963692619	0.0012509112214005472	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn01746_c0	Allantoate amidinohydrolase_c0		gene_3806	35984137.376407534	0.004160913831086047	0.0	0.0	0.0
+PYRDC2_c0	Pyruvate decarboxylase  acetoin forming 		gene_7361	15485335.080656294	0.001790598569645006	0.0	0.0	0.0
+rxn09853_x0	fatty acid peroxisomal transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn30430_c0	ribonucleoside-diphosphate reductase (CDP), nuclear_c0		gene_47 or gene_2076 or gene_9237	8648133279.658728	1.0	0.0	0.0	0.0
+rxn13360_c0	NADP transporter_c0					0.0	0.0	0.0
+CO2tm_c0	CO2 transporter via diffusion_m0					-0.3336368768820263	-0.3336368768820263	0.0
+rxn06936_m0	L-Aspartate:tRNA(Asp) ligase (AMP-forming)_m0		gene_3432	44927418.98342758	0.0051950423901423156	0.0	0.0	0.0
+rxn30391_m0	homocitrate synthase_m0					0.004971112667201367	0.004971112667201367	0.0
+rxn09474_x0	acyl-CoA oxidase (hexacanoyl-CoA), peroxisomal_x0		gene_1810	100259834.45624089	0.01159323419448935	0.0	0.0	0.0
+rxn06280_c0	L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)_c0		gene_1196	152544531.27771592	0.017639012529619066	0.0	0.0	0.0
+rxn13257_c0	Acyl-CoA:ergosterol acyltransferase, yeast-specific_c0		gene_7067 or gene_7466	19110696.71449491	0.00220980598893465	0.0	0.0	0.0
+rxn02201_m0	2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine-diphosphate:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase_m0		gene_2704	65737565.82114947	0.007601359009553054	0.0	0.0	0.0
+rxn02160_c0	L-Histidinol-phosphate phosphohydrolase_c0		gene_4721	56589252.73738533	0.006543522273238885	0.0008066909173928709	0.0008066909173928709	0.0
+rxn02666_c0	R03758_c0					0.0	0.0	0.0
+rxn05582_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY_m0					6.127119683803065e-05	6.127119683803065e-05	0.0
+rxn01501_c0	(R)-Mevalonate:NADP+ oxidoreductase (CoA acylating)_c0		gene_3103			-0.00022976698814261603	-0.00022976698814261603	0.0
+rxn13410_c0	L-tyrosine N-formyltransferase_c0		gene_977			0.0	0.0	0.0
+rxn13311_m0	Heme O monooxygenase, mitochondrial_m0		gene_12589 or gene_7612 or gene_353 or gene_5893	100047107.73528597	0.011568636201595869	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn09431_c0	fatty-acyl-CoA synthase (n-C16:0CoA)_c0		gene_10612 or gene_12865 or gene_313 or gene_10589 or gene_12063	1813032737.5321305	0.20964440289057112	0.04704479082220041	0.04704479082220041	0.0
+GSNt2m_c0	TRANS-RXNBWI-115572.ce.maizeexp.GUANOSINE_GUANOSINE_m0					0.0	0.0	0.0
+rxn09761_c0	fatty-acyl-ACP mitochondrial transport_m0					0.0	0.0	0.0
+rxn13395_c0	sirohydrochlorin dehydrogenase_c0		gene_1218	48832171.33366944	0.005646556286144153	3.829449802376915e-06	3.829449802376915e-06	0.0
+rxn30044_c0	Ornithine Decarboxylase_c0		gene_5526			0.0	0.0	0.0
+rxn20480_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA), peroxisomal_x0		gene_2331 or gene_7220	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+ATPtp_H_c0	ADP/ATP transporter, mitochondrial_x0		gene_12199	189078324.50548425	0.02186348410589547	0.0	0.0	0.0
+rxn08067_m0	adentylate kinase (ITP)_m0		gene_7383			0.0	0.0	0.0
+rxn05308_c0	Pantothenate reversible transport via proton symport_c0		gene_9493			5.744174703565558e-06	5.744174703565558e-06	0.0
+rxn30057_c0	riboflavin synthase_c0		gene_6102	347333443.4173339	0.040162822679236085	5.005374703565373e-06	5.005374703565373e-06	0.0
+rxn01265_c0	Nicotinate D-ribonucleotide:diphosphate phosphoribosyltransferase_c0		gene_6824	97976308.4214061	0.011329185762187102	0.0	0.0	0.0
+rxn09487_m0	Delta-1-pyrroline-5-carboxylate dehydrogenase, mitochondrial_m0		gene_2608	144214468.5335333	0.016675791626932963	0.0	0.0	0.0
+rxn03245_x0	(S)-Hydroxydecanoyl-CoA hydro-lyase_x0		gene_2331 or gene_7999 or gene_2093	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+rxn00649_c0	O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase_c0		gene_11438 or gene_4548 or gene_11855	123087554.71204254	0.014232846642356536	0.0	0.0	0.0
+rxn09286_c0	taurine transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn09456_c0	R08163_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn29991_c0	argininosuccinate synthase_c0		gene_9929	272721957.8325365	0.031535355551701054	0.001824392916209852	0.001824392916209852	0.0
+rxn01291_c0	L-Arabitol:NADP+ 1-oxidoreductase_c0		gene_11124	317809192.2911636	0.036748877707364035	0.0	0.0	0.0
+rxn00061_c0	ATP diphosphohydrolase (phosphate-forming)_c0		gene_12109			0.0	0.0	0.0
+rxn03241_x0	(S)-3-Hydroxytetradecanoyl-CoA hydro-lyase_x0		gene_2331 or gene_7999 or gene_2093	496432153.5702999	0.057403388398043986	0.0	0.0	0.0
+LYSt2r_c0	TRANS-RXN-58.cp_c0		gene_12204			0.00050883	0.00050883	0.0
+rxn09561_c0	3',5'-cyclic-nucleotide phosphodiesterase 2_c0		gene_581	99848193.4862456	0.01154563537094167	0.0	0.0	0.0
+rxn00022_c0	maltose glucohydrolase_c0		gene_8420	38876380.2471641	0.0044953493418753415	0.0	0.0	0.0
+rxn00116_c0	UDP phosphohydrolase_c0		gene_12109			0.0	0.0	0.0
+rxn00792_c0	biotin:CoA ligase (AMP-forming)_c0		gene_9972	148979124.63099486	0.017226737818831796	0.0	0.0	0.0
+rxn06538_m0	10-Formyltetrahydrofolate:L-methionyl-tRNA N-formyltransferase_m0		gene_1965	21470119.554401904	0.002482630512286596	0.0	0.0	0.0
+rxn09578_c0	Sphingoid long chain base kinase 4_c0		gene_9205	27807042.30450339	0.0032153808695234063	0.0	0.0	0.0
+FA181ACPtm_c0	Fatty acyl ACP mitochondrial transport					0.0	0.0	0.0
+rxn29990_c0	argininosuccinate lyase_c0		gene_5005 or gene_9929 or gene_7393	272721957.8325365	0.031535355551701054	0.001824392916209852	0.001824392916209852	0.0
+rxn13365_c0	Oxaloacetate transport_c0					0.0	0.0	0.0
+rxn00437_c0	ATP:thiamine-diphosphate phosphotransferase_c0		gene_6040 or gene_8746	341242926.8012119	0.03945856472909007	0.0	0.0	0.0
+rxn00914_c0	ATP:guanosine 5'-phosphotransferase_c0					0.0	0.0	0.0
+rxn13196_c0	2-phenylethanol reversible transport_c0					0.0	0.0	0.0
+rxn09639_c0	squalene endoplamic reticular transport_g0					3.255032332020378e-05	3.255032332020378e-05	0.0
+rxn13396_c0	sphinganine 1-phosphate endoplasmic reticular transport_g0					0.0	0.0	0.0
+rxn09765_c0	D-erythrose 4-phosphate mtiochondrial transport via diffusion_m0					0.0	0.0	0.0
+rxn10791_c0	GTP diphosphohydrolase_c0		gene_12109			0.0	0.0	0.0
+rxn03224_m0	S-adenosyl-L-methionine:3-hexaprenyl-4,5-dihydroxylate O-methyltransferase_m0		gene_3869 or gene_12639 or gene_11580 or gene_11038 or gene_9719 or gene_2152 or gene_12934	85541921.16902022	0.009891374057592679	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn01043_c0	xylitol:NADP+ oxidoreductase_c0		gene_11124	317809192.2911636	0.036748877707364035	0.0	0.0	0.0
+rxn00100_m0	ATP:dephospho-CoA 3'-phosphotransferase_m0		gene_13023	96434241.58030853	0.011150873658149036	0.0	0.0	0.0
+rxn13329_c0	inositol phosphorylceramide, ceramide-2 (26C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn13332_c0	Isopentenyl diphosphate transport, mitochondrial_m0					3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn00686_m0	5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase_m0		gene_10181	67879613.24867845	0.007849048003034143	0.0	0.0	0.0
+rxn08318_c0	Fatty acid (dodecanoate) transport via facilitated irreversible diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+rxn09849_x0	fatty acyl-CoA peroxisomal transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn01513_c0	ATP:dTMP phosphotransferase_c0		gene_10389	93166584.14773177	0.0107730282518736	0.0	0.0	0.0
+rxn01505_c0	N-Acetyl-D-glucosamine 1-phosphate 1,6-phosphomutase_c0		gene_8511	354769633.9559478	0.04102268344897059	0.0009573624505942289	0.0009573624505942289	0.0
+rxn09606_r0	Ceramide-1 synthase (sphinganine + C26:0-CoA), ER_r0		gene_9741 or gene_6240	56512152.65036269	0.006534607044422513	0.0005074020988149413	0.0005074020988149413	0.0
+rxn08314_c0	Decanoate transport via diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+rxn00765_c0	Glycerol:NADP+ oxidoreductase_c0		gene_11124 or gene_2865 or gene_8678 or gene_8514 or gene_8488 or gene_8237 or gene_463	398504432.6524953	0.04607982090075063	0.0	0.0	0.0
+rxn09631_c0	thiazole phosphate synthesis (xylulose 5-phosphate), yeast-specific_c0					0.0	0.0	0.0
+rxn08451_c0	fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)_c0		gene_1869 or gene_7011 or gene_8106	447264202.6982464	0.05171800528910169	0.0	0.0	0.0
+34HPPt2p_c0	3-(4-hydroxyphenyl)pyruvate mitochondrial transport via proton symport_x0					0.0	0.0	0.0
+FAS161ACPm_m0	Fatty acyl ACP synthase  n C161ACP   mitochondrial		gene_11955 or gene_11385 or gene_10177	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn09218_c0	pyruvate transport via diffusion (extracellular to periplasm)_c0					0.0	0.0	0.0
+rxn01218_c0	2'-Deoxycytidine 5'-monophosphate phosphohydrolase_c0		gene_996	121363540.7081785	0.014033495643925569	0.0	0.0	0.0
+rxn05663_c0	TRANS-RXNBWI-115637.ce.maizeexp.TRP_TRP_m0					0.0	0.0	0.0
+CITtcp_c0	Tricarboxylate transport protein_x0					0.0	0.0	0.0
+rxn05203_c0	TRANS-RXNBWI-115572.ce.maizeexp.GUANINE_GUANINE_c0		gene_4689			0.0	0.0	0.0
+rxn12529_c0	TRANS-RXNAVI-26524.ce.brachyexp.GLYCEROL_GLYCEROL_c0		gene_9947			0.0	0.0	0.0
+rxn09565_c0	ATP adenylyltransferase_c0		gene_641	99553418.62762024	0.011511549996781363	0.0	0.0	0.0
+rxn00006_x0	hydrogen-peroxide:hydrogen-peroxide oxidoreductase_x0		gene_12385 or gene_11200	143109673.84438106	0.016548042128465956	0.0	0.0	0.0
+C4STMO1_c0	C 4 sterol methyl oxidase  4 4 dimethylzymosterol 		gene_12719			3.255032332020378e-05	3.255032332020378e-05	0.0
+SERt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.SER_SER_c0		gene_6605 or gene_5741 or gene_12204	281632534.8550949	0.032565702417829606	0.000613453	0.000613453	0.0
+rxn08457_x0	fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling)_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+rxn00926_c0	Adenine aminohydrolase_c0		gene_9546 or gene_9012			0.0	0.0	0.0
+rxn13384_c0	phospholipase D, yeast-specific_c0		gene_6154 or gene_6132 or gene_6873	139973026.41122767	0.01618534565609184	0.0336761815621026	0.0336761815621026	0.0
+IPCS324_SC_c0	Inositol phosphorylceramide synthase  ceramide 3  24C   yeast specific		gene_8702			0.0005093168237161298	0.0005093168237161298	0.0
+rxn39072_r0			gene_9741 or gene_6240 or gene_9020	62310971.806996785	0.007205135465888159	0.0	0.0	0.0
+rxn00615_c0	ATP:glycerol 3-phosphotransferase_c0		gene_2374 or gene_11125	717951918.6564299	0.08301813760723652	0.0	0.0	0.0
+rxn13375_c0	phosphatidylcholine-diacylglycerol acyltransferase_c0		gene_4234	128303606.24593541	0.014835988541910922	0.0	0.0	0.0
+rxn00947_c0	Palmitate:CoA ligase (AMP-forming)_c0		gene_1869 or gene_7011 or gene_8106	447264202.6982464	0.05171800528910169	0.0	0.0	0.0
+rxn09264_c0	SPERMACTRAN-RXN.c_c0					0.0	0.0	0.0
+rxn01783_c0	Sphinganine-1-phosphate pamlmitaldehyde-lyase_c0		gene_4570	81702566.14600013	0.009447422178167943	0.0	0.0	0.0
+rxn00420_c0	O-phospho-L-serine phosphohydrolase_c0		gene_9884	125772437.96316358	0.014543304768324154	0.033668697124007725	0.033668697124007725	0.0
+rxn08435_c0	fatty-acyl-ACP hydrolase_c0		gene_12865 or gene_313	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn08682_c0	Guanine transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn05736_c0	acyl-coenzyme A ligase_c0		gene_1869 or gene_7011 or gene_8106	447264202.6982464	0.05171800528910169	0.0	0.0	0.0
+rxn09465_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_2434 or gene_434 or gene_5400 or gene_4395	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn02835_c0	1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase_c0		gene_1605	62860680.365787394	0.007268699305738267	0.0008066909173928709	0.0008066909173928709	0.0
+rxn01800_c0	Deoxycytidine aminohydrolase_c0		gene_12988	115917230.45610063	0.013403728493494605	0.0	0.0	0.0
+rxn09422_m0	fatty acyl-ACP synthase (n-C8:0ACP), mitochondrial, lumped reaction_m0		gene_11955 or gene_11385 or gene_10177 or gene_1258	1637069584.806687	0.18929745089119268	0.0	0.0	0.0
+rxn06151_c0	Chitin amidohydrolase_c0		gene_525 or gene_1695	146710741.54776183	0.016964440394650268	0.0	0.0	0.0
+rxn08704_c0	Hexadecanoate transport via facilitated irreversible diffusion (extracellular to periplasm)_x0					0.0	0.0	0.0
+rxn01226_c0	Guanosine ribohydrolase_c0		gene_4816	38955547.719719484	0.004504503626389156	0.0	0.0	0.0
+rxn02938_c0	1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase_c0		gene_4557	93442692.8124611	0.01080495521874618	0.0025094655454609553	0.0025094655454609553	0.0
+rxn08444_x0	Stearoyl-CoA hydrolase_x0		gene_5256			0.0	0.0	0.0
+rxn30056_c0	riboflavin synthase_c0		gene_9556	565721513.1311408	0.06541544803220994	1.0010749407130746e-05	1.0010749407130746e-05	0.0
+rxn06434_m0	L-Asparagine:tRNA(Asn) ligase (AMP-forming)_m0		gene_10615			0.0	0.0	0.0
+rxn09843_x0	fatty acyl-CoA peroxisomal transport via ABC system_x0		gene_10045 or gene_11634	145128043.402824	0.01678143001613766	0.0	0.0	0.0
+rxn00943_x0	Palmitoyl-CoA hydrolase_x0		gene_5256 or gene_6014	517732797.4024751	0.059866422112183945	0.0	0.0	0.0
+rxn09499_m0	glycine-cleavage complex (lipoamide), mitochondrial_m0		gene_885 or gene_2255 or gene_3442 or gene_8838	371455078.70345	0.04295205296814163	0.0	0.0	0.0
+rxn00274_c0	Acetyl-CoA:glycine C-acetyltransferase_c0					0.0	0.0	0.0
+rxn01808_c0	pyridoxamine-5'-phosphate phosphohydrolase_c0					0.0	0.0	0.0
+rxn09864_c0	AMP/ATP transporter, peroxisomal_x0		gene_12199	189078324.50548425	0.02186348410589547	0.0	0.0	0.0
+rxn35571_c0	Phosphoribosylaminoimidazole-succinocarboxamide synthase_c0		gene_919	151093455.43197942	0.017471221886388628	0.0025094655454609553	0.0025094655454609553	0.0
+rxn01825_c0	Homogentisate:oxygen 1,2-oxidoreductase (decyclizing)_c0		gene_4435 or gene_3452 or gene_9074	163641055.7552118	0.018922124632388806	0.0	0.0	0.0
+rxn09742_c0	indole-3-acetaldehyde mitochondrial transport via diffusion_c0					0.0	0.0	0.0
+rxn15113_c0	uracil hydro-lyase (adding D-ribose 5-phosphate;pseudouridine-5'-phosphate-forming)_c0		gene_5255 or gene_5687 or gene_12215	61305348.19676052	0.007088853306754282	0.0	0.0	0.0
+rxn09567_c0	NAD-linked formaldehyde dehydrogenase_c0		gene_11790	667578793.1431006	0.07719339787619978	0.0	0.0	0.0
+rxn09739_c0	Mitochondrial dicarboxylate transporter_m0		gene_1614			0.0015791310392131172	0.0015791310392131172	0.0
+rxn09469_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_2434 or gene_5400 or gene_4956	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn08453_x0	fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)_x0		gene_8106	416843688.1750803	0.04820042368629288	0.0	0.0	0.0
+rxn01127_c0	ATP:dAMP phosphotransferase_c0		gene_1190 or gene_8746	341242926.8012119	0.03945856472909007	-5.4378187193752205e-05	-5.4378187193752205e-05	0.0
+rxn09729_c0	Transport of pantetheine 4'-phosphate, mitochondrial_m0					0.0	0.0	0.0
+rxn00709_c0	ATP:uridine 5'-phosphotransferase_c0		gene_5199	89326856.36541352	0.010329033269586535	0.0	0.0	0.0
+rxn30439_c0	thiamin phosphatase, extracellular_c0		gene_3348 or gene_7754	75042616.05757514	0.008677319559133399	0.0	0.0	0.0
+rxn00829_c0	ATP:(R)-5-diphosphomevalonate carboxy-lyase (adding ATP; isopentenyl-diphosphate-forming)_c0		gene_10621	155681650.87889308	0.018001763599674377	0.00022976698814261603	0.00022976698814261603	0.0
+rxn11322_c0	(R,R)-butanediol transport_c0					0.0	0.0	0.0
+rxn13386_c0	diphosphoinositol-1,3,4,6-tetrakisphosphate diphosphohydrolase_c0		gene_6037			0.0	0.0	0.0
+rxn13378_c0	1-phosphatidylinositol-3,5-bisphosphate 5-phosphatase, yeast-specific_c0		gene_1855 or gene_7169 or gene_8822	148866276.304181	0.017213688953468066	0.0	0.0	0.0
+rxn00029_c0	5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing; porphobilinogen-forming)_c0		gene_6560	29201281.862441175	0.003376599425349457	3.063559841901532e-05	3.063559841901532e-05	0.0
+rxn09471_x0	Fatty acid oxidation_x0		gene_2331 or gene_1935 or gene_128 or gene_1810 or gene_7999 or gene_2093 or gene_6597 or gene_7220 or gene_2434 or gene_5400 or gene_4956	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+3C3HMPtm_c0	Transport of 2-isopropylmalate, mitochondrial_m0					-0.005353915607122588	-0.005353915607122588	0.0
+rxn30014_c0	Dihydroneopterin triphosphate pyrophosphatase_c0					0.0	0.0	0.0
+rxn09615_c0	Mevalonate kinase_c0		gene_1800	169624008.31882566	0.019613944747798723	0.0	0.0	0.0
+rxn01509_c0	ATP:dGMP phosphotransferase_c0		gene_2010	242631649.6550603	0.02805595633288332	-6.0505306877555266e-05	-6.0505306877555266e-05	0.0
+rxn05310_c0	Nicotinate transport (Plasma membrane)_c0		gene_4621			7.658899604748955e-06	7.658899604748955e-06	0.0
+rxn08172_c0	L-allo-threonine dehydrogenase_c0		gene_9892	285694374.6804859	0.03303538063554913	0.0	0.0	0.0
+rxn00100_c0	ATP:dephospho-CoA 3'-phosphotransferase_c0		gene_13023	96434241.58030853	0.011150873658149036	3.829449802377101e-06	3.829449802377101e-06	0.0
+rxn05508_c0	TRANS-RXNBWI-115637.ce.maizeexp.ASN_ASN_m0					0.0	0.0	0.0
+rxn13347_c0	Mannose-(inositol-P)2-ceramide, ceramide-1 (24C) phospholipase C_c0		gene_5890			0.0	0.0	0.0
+rxn28356_c0	RXN-7700.d_c0		gene_12477 or gene_11790	667578793.1431006	0.07719339787619978	0.0	0.0	0.0
+ACACT9p_x0	Acetyl CoA acyltransferase  tetracosanoyl CoA   peroxisomal		gene_1935	405092648.9167164	0.04684162880208319	0.0	0.0	0.0
+rxn08028_c0	4-aminobutyrate transport via diffusion (extracellular to periplasm)_m0					0.0	0.0	0.0
+rxn01438_c0	L-Kynurenine,NADPH:oxygen oxidoreductase (3-hydroxylating)_c0		gene_10562	51769168.894257344	0.0059861668663251984	0.0	0.0	0.0
+rxn01416_c0	thiosulfate:cyanide sulfurtranserase					0.0	0.0	0.0
+rxn02297_c0	6-Carboxyhexanoyl-CoA:L-alanine C-carboxyhexanoyltransferase (decarboxylating)_c0		gene_10991			0.00015317799209507664	0.00015317799209507664	0.0
+rxn13149_c0	Hypothetical enzyme_c0					0.00015317799209507664	0.00015317799209507664	0.0
+rxn05093_c0	sulfur:oxygen oxidoreductase (hydrogen-sulfide- and sulfite-forming)_c0					-3.829449802376916e-05	-3.829449802376916e-05	0.0
+rxn05144_c0	Pyridoxal 5-phosphate synthase_c0		gene_4566 or gene_4076	204704385.91368476	0.023670355126830654	0.0	0.0	0.0
+rxn09810_c0	phosphatidyl-1D-myo-insoitol nuclear transport, yeast-specific					0.0	0.0	0.0
+rxn09607_c0	alkaline ceramidase (ceramide-1), endoplasmic reticulum_c0		gene_9741 or gene_9020	62310971.806996785	0.007205135465888159	0.0	0.0	0.0
+rxn09606_c0	alkaline ceramidase (ceramide-1), endoplasmic reticulum_c0					0.0	0.0	0.0
+rxn11720_c0	R08185_c0					0.0	0.0	0.0
+rxn10638_c0	Hexacosanoic acid:CoA ligase (AMP-forming)_c0					0.0	0.0	0.0
+rxn05148_c0	Heme transport via ABC system_c0					0.0	0.0	0.0
+rxn05255_c0	folate transport via proton simport_c0					0.0	0.0	0.0
+rxn10147_c0	ABC-5-RXN.cp_c0					0.0	0.0	0.0
+rxn05687_c0	Transport of putrescine, extracellular_c0		gene_12888 or gene_10460			0.0	0.0	0.0
+rxn12666_c0	Pyridoxal transport_c0					1.53423e-05	1.53423e-05	0.0
+TRP_malcoa_c0r0	Malonyl-CoA transport c0→r0					0.08850049965783172	0.08850049965783172	0.0
+TRP_strcoa_c0r0	Stearoyl-CoA (C18) transport c0→r0					0.02250184703876676	0.02250184703876676	0.0
+TRP_nadh_c0r0	NADH transport c0→r0					0.0	0.0	0.0
+EXP_c20coa_r0c0	Icosanoyl-CoA (C20) export r0→c0					0.0	0.0	0.0
+EXP_c22coa_r0c0	Behenoyl-CoA (C22) export r0→c0					0.0	0.0	0.0
+EXP_c24coa_r0c0	Tetracosanoyl-CoA (C24) export r0→c0					0.0	0.0	0.0
+TRP_sphinganine_r0c0	Sphinganine transport r0→c0					-0.0020142905960502575	-0.0020142905960502575	0.0
+TRP_phytosphingosine_r0c0	Phytosphingosine transport r0→c0					-0.0204875564427165	-0.0204875564427165	0.0
+TRP_hxccoa_r0c0	Hexacosanoyl-CoA r0→c0					0.0	0.0	0.0
+EX_cpd03847_e0	Exchange for Myristic acid_e0					0.0	0.0	0.0
+EX_cpd00393_e0	Exchange for Folate_e0					-0.0	-0.0	0.0
+EX_cpd16883_e0	Exchange for fecosterol ester, yeast-specific_e0					0.0	0.0	0.0
+EX_cpd00006_e0	Exchange for NADP_e0					0.0	0.0	0.0
+EX_cpd01499_e0	Exchange for 2-Methylbutanal_e0					0.0	0.0	0.0
+EX_cpd03221_e0	Exchange for Zymosterol_e0					-0.0	-0.0	0.0
+EX_cpd00032_e0	Exchange for Oxaloacetate_e0					0.0	0.0	0.0
+EX_cpd00017_e0	Exchange for S-Adenosyl-L-methionine_e0					-0.0	-0.0	0.0
+EX_ocdcya-e_e0	Exchange for Octadecadienoate  n C182  C18H31O2					0.0	0.0	0.0
+EX_cpd00104_e0	Exchange for BIOT_e0					-0.0	-0.0	0.0
+EX_cpd00264_e0	Exchange for Spermidine_e0					0.0	0.0	0.0
+EX_cpd00119_e0	Exchange for L-Histidine_e0					-0.000324936	-0.000324936	0.0
+EX_cpd00132_e0	Exchange for L-Asparagine_e0					-0.00679375	-0.00679375	0.0
+EX_cpd00081_e0	Exchange for Sulfite_e0					-0.0	-0.0	0.0
+EX_cpd00069_e0	Exchange for L-Tyrosine_e0					-0.000278255	-0.000278255	0.0
+EX_cpd00306_e0	Exchange for Xylitol_e0					0.0	0.0	0.0
+EX_cpd00033_e0	Exchange for Glycine_e0					-0.000539483	-0.000539483	0.0
+EX_cpd00229_e0	Exchange for Glycolaldehyde_e0					0.00044529632608760687	0.00044529632608760687	0.0
+EX_cpd00210_e0	Exchange for Taurine_e0					-0.0	-0.0	0.0
+EX_cpd00507_e0	Exchange for Glycerophosphocholine_e0					0.0	0.0	0.0
+EX_cpd16888_e0	Exchange for octadecadienoate (n-C18:2)_e0					-0.0	-0.0	0.0
+EX_cpd15240_e0	Exchange for hexacosanoate_e0					0.0	0.0	0.0
+EX_cpd00288_e0	Exchange for D-Glucosamine phosphate_e0					0.0	0.0	0.0
+EX_cpd00438_e0	Exchange for Deoxyadenosine_e0					0.0	0.0	0.0
+EX_cpd00040_e0	Exchange for Glyoxalate_e0					0.0	0.0	0.0
+EX_cpd01080_e0	Exchange for ocdca_e0					0.0	0.0	0.0
+EX_cpd00277_e0	Exchange for Deoxyguanosine_e0					0.0	0.0	0.0
+EX_cpd09068_e0	Exchange for Isoamyl acetate_e0					-0.0	-0.0	0.0
+EX_cpd01741_e0	Exchange for ddca_e0					-0.0	-0.0	0.0
+EX_cpd00035_e0	Exchange for L-Alanine_e0					-0.000565912	-0.000565912	0.0
+EX_cpd01170_e0	Exchange for Ergosterol_e0					-0.0	-0.0	0.0
+EX_cpd00644_e0	Exchange for PAN_e0					-5.744174703565558e-06	-5.744174703565558e-06	0.0
+EX_cpd00041_e0	Exchange for L-Aspartate_e0					-0.00158347	-0.00158347	0.0
+EX_cpd00023_e0	Exchange for L-Glutamate_e0					-0.00163471	-0.00163471	0.0
+EX_cpd16884_e0	Exchange for isobutyl acetate_e0					-0.0	-0.0	0.0
+EX_cpd00508_e0	Exchange for 3MOP_e0					0.0	0.0	0.0
+EX_cpd01092_e0	Exchange for Allantoin_e0					-0.0	-0.0	0.0
+EX_cpd00151_e0	Exchange for Thymine_e0					0.0	0.0	0.0
+EX_cpd00121_e0	Exchange for L-Inositol_e0					0.0	0.0	0.0
+EX_cpd00220_e0	Exchange for Riboflavin_e0					-7.388e-07	-7.388e-07	0.0
+EX_cpd00028_e0	Exchange for Heme_e0					-0.0	-0.0	0.0
+EX_cpd00215_e0	Exchange for Pyridoxal_e0					-1.53423e-05	-1.53423e-05	0.0
+EX_cpd00357_e0	Exchange for TTP_e0					0.0	0.0	0.0
+EX_orn-e_e0	Exchange for Ornithine					0.0	0.0	0.0
+EX_cpd00280_e0	Exchange for D-Galacturonate_e0					0.0	0.0	0.0
+EX_cpd00307_e0	Exchange for Cytosine_e0					0.0	0.0	0.0
+EX_cpd00128_e0	Exchange for Adenine_e0					0.0	0.0	0.0
+EX_cpd16896_e0	Exchange for zymosterol ester, yeast-specific_e0					0.0	0.0	0.0
+EX_cpd11966_e0	Exchange for Acetic ester_e0					-0.0	-0.0	0.0
+EX_cpd11608_e0	Exchange for Peptide_e0					-0.0	-0.0	0.0
+EX_cpd11601_e0	Exchange for Pectin_e0					0.0	0.0	0.0
+EX_cpd03279_e0	Exchange for Deoxyinosine_e0					0.0	0.0	0.0
+EX_cpd00053_e0	Exchange for L-Glutamine_e0					-0.00461466	-0.00461466	0.0
+EX_cpd00098_e0	Exchange for Choline_e0					0.0	0.0	0.0
+EX_cpd00214_e0	Exchange for Palmitate_e0					0.0	0.0	0.0
+EX_cpd00108_e0	Exchange for Galactose_e0					0.0	0.0	0.0
+EX_cpd00066_e0	Exchange for L-Phenylalanine_e0					-0.000455308	-0.000455308	0.0
+EX_cpd00654_e0	Exchange for Deoxycytidine_e0					0.0	0.0	0.0
+EX_cpd00054_e0	Exchange for L-Serine_e0					-0.000613453	-0.000613453	0.0
+EX_cpd16885_e0	Exchange for lanosterol ester, yeast-specific_e0					0.0	0.0	0.0
+EX_cpd16880_e0	Exchange for episterol ester, yeast-specific_e0					0.0	0.0	0.0
+EX_cpd00417_e0	Exchange for L-Lyxitol_e0					0.0	0.0	0.0
+EX_cpd16873_e0	Exchange for 2-methyl-1-butanol_e0					0.0	0.0	0.0
+EX_cpd00558_e0	Exchange for Spermine_e0					-0.0	-0.0	0.0
+EX_cpd00185_e0	Exchange for D-Arabinose_e0					-0.0	-0.0	0.0
+EX_cpd02755_e0	Exchange for Fecosterol_e0					-0.0	-0.0	0.0
+EX_cpd03198_e0	Exchange for Melibiose_e0					-0.0	-0.0	0.0
+EX_cpd00218_e0	Exchange for Niacin_e0					-7.658899604748955e-06	-7.658899604748955e-06	0.0
+EX_cpd03481_e0	Exchange for 2-phenylethanol_e0					0.0	0.0	0.0
+EX_cpd04534_e0	Exchange for 3-Methylbutanal_e0					0.0	0.0	0.0
+EX_cpd00092_e0	Exchange for Uracil_e0					0.0	0.0	0.0
+EX_cpd00281_e0	Exchange for GABA_e0					0.0	0.0	0.0
+EX_cpd00794_e0	Exchange for TRHL_e0					0.0	0.0	0.0
+EX_cpd00226_e0	Exchange for HYXN_e0					0.0	0.0	0.0
+EX_cpd00084_e0	Exchange for L-Cysteine_e0					-0.00033426	-0.00033426	0.0
+EX_cpd11624_e0	Exchange for Lecithin_e0					-0.0	-0.0	0.0
+EX_cpd00036_e0	Exchange for Succinate_e0					0.0	0.0	0.0
+EX_cpd00902_e0	Exchange for sn-glycero-3-Phospho-1-inositol_e0					-0.0	-0.0	0.0
+EX_cpd00338_e0	Exchange for 5-Aminolevulinate_e0					-0.0	-0.0	0.0
+EX_cpd00138_e0	Exchange for D-Mannose_e0					-0.0	-0.0	0.0
+EX_cpd16877_e0	Exchange for N,N-bisformyl-dityrosine_e0					-0.0	-0.0	0.0
+EX_cpd10408_e0	Exchange for Isobutyl alcohol_e0					-0.0	-0.0	0.0
+EX_cpd00704_e0	Exchange for Tryptophol_e0					0.0	0.0	0.0
+EX_cpd01646_e0	Exchange for 2-Isopropylmalate_e0					0.0	0.0	0.0
+EX_cpd00065_e0	Exchange for L-Tryptophan_e0					-0.000198301	-0.000198301	0.0
+EX_cpd00367_e0	Exchange for Cytidine_e0					0.0	0.0	0.0
+EX_cpd00154_e0	Exchange for Xylose_e0					0.0	0.0	0.0
+EX_cpd00322_e0	Exchange for L-Isoleucine_e0					-0.000485145	-0.000485145	0.0
+EX_cpd00388_e0	Exchange for Allantoate_e0					0.0	0.0	0.0
+EX_cpd00764_e0	Exchange for 7-8-Diaminononanoate_e0					0.0	0.0	0.0
+EX_cpd00073_e0	Exchange for Urea_e0					-0.0	-0.0	0.0
+EX_cpd15269_e0	Exchange for octadecenoate_e0					0.0	0.0	0.0
+EX_cpd16874_e0	Exchange for 2-methylpropanal_e0					-0.0	-0.0	0.0
+EX_cpd00266_e0	Exchange for Carnitine_e0					0.0	0.0	0.0
+EX_cpd00060_e0	Exchange for L-Methionine_e0					-0.000382207	-0.000382207	0.0
+EX_cpd04533_e0	Exchange for Isoamyl alcohol_e0					0.0	0.0	0.0
+EX_cpd01107_e0	Exchange for Decanoate_e0					-0.0	-0.0	0.0
+EX_cpd00221_e0	Exchange for D-Lactate_e0					0.0	0.0	0.0
+EX_cpd10515_e0	Exchange for Fe2+_e0					-7.65889960475383e-06	-7.65889960475383e-06	0.0
+EX_cpd00056_e0	Exchange for TPP_e0					0.0	0.0	0.0
+EX_cpd00971_e0	Exchange for Na+_e0					0.0	0.0	0.0
+EX_cpd00118_e0	Exchange for Putrescine_e0					0.0	0.0	0.0
+EX_cpd00246_e0	Exchange for Inosine_e0					0.0	0.0	0.0
+EX_cpd00205_e0	Exchange for K+_e0					0.0	0.0	0.0
+EX_cpd00635_e0	Exchange for Cbl_e0					-0.0	-0.0	0.0
+EX_cpd00050_e0	Exchange for FMN_e0					0.0	0.0	0.0
+EX_cpd00184_e0	Exchange for Thymidine_e0					0.0	0.0	0.0
+EX_cpd15237_e0	Exchange for hexadecenoate_e0					0.0	0.0	0.0
+EX_cpd00047_e0	Exchange for Formate_e0					0.0	0.0	0.0
+EX_cpd00048_e0	Exchange for Sulfate_e0					-0.0012280834245086618	-0.0012280834245086618	0.0
+EX_cpd00224_e0	Exchange for L-Arabinose_e0					0.0	0.0	0.0
+EX_cpd00182_e0	Exchange for Adenosine_e0					0.0	0.0	0.0
+EX_cpd11791_e0	Exchange for 1,3-beta-Glucan_e0					0.0	0.0	0.0
+EX_cpd01217_e0	Exchange for Xanthosine_e0					0.0	0.0	0.0
+EX_cpd00111_e0	Exchange for Oxidized glutathione_e0					-0.0	-0.0	0.0
+EX_cpd00355_e0	Exchange for Nicotinamide ribonucleotide_e0					0.0	0.0	0.0
+EX_cpd00051_e0	Exchange for L-Arginine_e0					-0.00125257	-0.00125257	0.0
+EX_cpd00105_e0	Exchange for D-Ribose_e0					0.0	0.0	0.0
+EX_cpd00309_e0	Exchange for XAN_e0					0.0	0.0	0.0
+EX_cpd00156_e0	Exchange for L-Valine_e0					-0.00186256	-0.00186256	0.0
+EX_cpd00013_e0	Exchange for NH3_e0					-0.09485326860747692	-0.09485326860747692	0.0
+EX_cpd00311_e0	Exchange for Guanosine_e0					0.0	0.0	0.0
+EX_cpd00100_e0	Exchange for Glycerol_e0					0.0	0.0	0.0
+EX_cpd16872_e0	Exchange for 2-methylbutyl acetate_e0					-0.0	-0.0	0.0
+EX_cpd00800_e0	Exchange for 8-Amino-7-oxononanoate_e0					-0.0	-0.0	0.0
+EX_cpd00045_e0	Exchange for Adenosine 3-5-bisphosphate_e0					0.0	0.0	0.0
+EX_cpd01187_e0	Exchange for D-Gulitol_e0					-0.0	-0.0	0.0
+EX_cpd01031_e0	Exchange for Sorbose_e0					-0.0	-0.0	0.0
+EX_cpd00443_e0	Exchange for ABEE_e0					0.0	0.0	0.0
+EX_cpd14514_e0	Exchange for Episterol_e0					-0.0	-0.0	0.0
+EX_cpd00039_e0	Exchange for L-Lysine_e0					-0.00050883	-0.00050883	0.0
+EX_cpd03561_e0	Exchange for 2-Hydroxybutyrate_e0					0.0	0.0	0.0
+EX_cpd11822_e0	Exchange for 1-Phosphatidyl-myo-inositol_e0					0.0	0.0	0.0
+EX_cpd00179_e0	Exchange for Maltose_e0					0.0	0.0	0.0
+EX_cpd16803_e0	Exchange for ergosterol-ester_e0					0.0	0.0	0.0
+EX_cpd00107_e0	Exchange for L-Leucine_e0					-0.000321329	-0.000321329	0.0
+EX_cpd01188_e0	Exchange for Lanosterol_e0					-0.0	-0.0	0.0
+EX_cpd00793_e0	Exchange for Thiamine phosphate_e0					0.0	0.0	0.0
+EX_cpd00129_e0	Exchange for L-Proline_e0					-0.000610209	-0.000610209	0.0
+EX_cpd00024_e0	Exchange for 2-Oxoglutarate_e0					0.0	0.0	0.0
+EX_cpd00042_e0	Exchange for GSH_e0					-0.0	-0.0	0.0
+EX_cpd00464_e0	Exchange for alpha-Tolualdehyde_e0					-0.0	-0.0	0.0
+EX_cpd00207_e0	Exchange for Guanine_e0					0.0	0.0	0.0
+EX_cpd00305_e0	Exchange for Thiamin_e0					-2.7248e-06	-2.7248e-06	0.0
+EX_cpd00162_e0	Exchange for Aminoethanol_e0					0.0	0.0	0.0
+EX_cpd02027_e0	Exchange for S-Methyl-L-methionine_e0					-0.0	-0.0	0.0
+EX_cpd00249_e0	Exchange for Uridine_e0					0.0	0.0	0.0
+EX_ptd1ino-SC-e_e0	Exchange for Phosphatidyl 1D myo inositol  yeast specific C4140H7644O1300P100					0.0	0.0	0.0
+EX_cpd00412_e0	Exchange for Deoxyuridine_e0					0.0	0.0	0.0
+EX_cpd00161_e0	Exchange for L-Threonine_e0					-0.000457939	-0.000457939	0.0
+EX_cpd00486_e0	Exchange for Indoleacetaldehyde_e0					0.0	0.0	0.0
+SK_cpd02701_c0	Sink for S-Adenosyl-4-methylthio-2-oxobutanoate_c0					0.00015317799209507664	0.00015317799209507664	0.0
+rxn00735_c0	(2R,3S)-3-methylmalate:NAD+ oxidoreductase		gene_6043 or gene_2846	256812908.37665495	0.029695762087837446	0.0	0.0	0.0
+rxn08043_m0	pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating)		gene_7035 or gene_6894	224675017.08426276	0.02597959696258623	0.0	0.0	0.0
+rxn08764_m0	ketol-acid reductoisomerase (2-Acetolactate)					0.0	0.0	0.0
+rxn03437_m0	(R)-2,3-Dihydroxy-3-methylpentanoate hydro-lyase		gene_4147 or gene_8326	200338270.2128853	0.023165492914418988	0.0	0.0	0.0
+rxn02186_m0	2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)		gene_11182	758839817.767277	0.08774608267799756	0.0	0.0	0.0
+rxn00898_m0	2,3-Dihydroxy-3-methylbutanoate hydro-lyase					0.0	0.0	0.0
+rxn12193_c0	3-isopropylmalate dehydratase		gene_5179	174232769.82862797	0.020146864553815428	0.005353915607122588	0.005353915607122588	0.0
+rxn00527_c0	tyrosine transaminase, irreversible (mitochondrial)		gene_12910 or gene_8831 or gene_11623 or gene_11255	464344333.71008885	0.053693013127153466	-0.0016939116482241115	-0.0016939116482241115	0.0
+rxn00527_m0	tyrosine transaminase, irreversible (mitochondrial)		gene_12910 or gene_8831 or gene_11623 or gene_11255	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+rxn00527_x0	tyrosine transaminase, irreversible (mitochondrial)		gene_12910 or gene_8831 or gene_11623 or gene_11255	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+rxn02508_c0	N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase_c0		gene_4436	97368041.74236293	0.011258850736190928	0.0003454808719375221	0.0003454808719375221	0.0
+rxn01927_c0	3-Hydroxyanthranilate:oxygen 3,4-oxidoreductase (decyclizing)_c0					0.0	0.0	0.0
+rxn02465_m0	N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)		gene_853	184932928.9190138	0.02138414417756425	-0.001824392916209852	-0.001824392916209852	0.0
+rxn03175_c0	N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase_c0					0.0008066909173928709	0.0008066909173928709	0.0
+rxn02466_m0	2-Hydroxybutane-1,2,4-tricarboxylate hydro-lyase		gene_2525	108584369.53885429	0.012555815923218432	0.0	0.0	0.0
+rxn03034_m0	Homoisocitrate hydro-lyase		gene_1085	92023714.54055484	0.010640876078656627	0.0	0.0	0.0
+rxn09638_c0	L-aminoadipate-semialdehyde dehydrogenase		gene_8310	131221427.38926373	0.015173381716712163	0.0	0.0	0.0
+rxn01663_c0	 N6-(L-1,3-Dicarboxypropyl)-L-lysine:NADP+ oxidoreductase		gene_2120	305606757.6541153	0.03533788712217617	0.0	0.0	0.0
+rxn05035_c0	 O-phospho-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase		gene_4548 or gene_11438	123087554.71204254	0.014232846642356536	0.0	0.0	0.0
+rxn01816_c0	rxn01816 [R02508]		gene_9039 or gene_6399	123288901.14069217	0.01425612871053687	-0.00020295405691680805	-0.00020295405691680805	0.0
+rxn00950_c0	Cystathionine L-homocysteine-lyase (deaminating)_c0		gene_6518	62446945.456630126	0.007220858356046798	0.00020295405691680805	0.00020295405691680805	0.0
+rxn08703_c0	S-methylmethionine homocysteine transmethylase		gene_637	122481796.02377331	0.014162801620074788	0.0	0.0	0.0
+rxn00692_c0	 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase		gene_6981	498800972.43200153	0.05767729940115877	-0.007310504776143507	-0.007310504776143507	0.0
+rxn00692_m0	 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase		gene_5492	359902598.22713983	0.04161621781126647	0.0	0.0	0.0
+rxn11084_c0	spermidine synthase		gene_7762	734140250.9123068	0.08489002506923406	0.0	0.0	0.0
+rxn05107_c0	5-(methylthio)-2,3-dioxopentyl-phosphate phosphohydrolase (isomerizing)		gene_385	80180336.81544898	0.009271403922976203	0.0	0.0	0.0
+rxn05091_c0	1,2-dihydroxy-5-(methylthio)pent-1-en-3-one:oxygen oxidoreductase (formate- and CO-forming)		gene_7944	447649984.73626095	0.05176261399545939	0.0	0.0	0.0
+rxn05092_c0	1,2-dihydroxy-5-(methylthio)pent-1-en-3-one:oxygen oxidoreductase (formate-forming)		gene_7944	447649984.73626095	0.05176261399545939	0.0	0.0	0.0
+rxn13209_c0	RXN-7692.c_c0					0.0	0.0	0.0
+rxn01840_c0	Phenylacetaldehyde:NAD+ oxidoreductase_c0					0.0	0.0	0.0
+rxn00522_c0	L-Tyrosine:oxygen oxidoreductase (deaminating)					0.0	0.0	0.0
+rxn01937_m0	Indole-3-acetaldehyde:NAD+ oxidoreductase_m0		gene_12607 or gene_3583 or gene_7676	1084836731.568297	0.12544172210203341	0.0	0.0	0.0
+rxn15507_c0	 [L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase]		gene_8831 or gene_11255	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+rxn15507_m0	nan		gene_8831 or gene_11255	464344333.71008885	0.053693013127153466	0.0	0.0	0.0
+rxn02061_c0	S-adenosylmethioninamine:spermidine 3-aminopropyltransferase_c0		gene_7762	734140250.9123068	0.08489002506923406	0.0	0.0	0.0
+rxn00740_c0	O-Succinyl-L-homoserine succinate-lyase (deaminating; 2-oxobutanoate-forming)_c0		gene_9039 or gene_6399	123288901.14069217	0.01425612871053687	-0.00020295405691680805	-0.00020295405691680805	0.0
+rxn02752_c0	N1-acetylspermine:oxygen oxidoreductase (3-acetamidopropanal-forming)_c0					0.0	0.0	0.0
+rxn13388_c0	spermidine:oxygen oxidoreductase (spermidine-forming)_c0					0.0	0.0	0.0
+rxn09878_c0	Polyamine oxidase_c0					0.0	0.0	0.0
+rxn00165_c0	L-serine ammonia-lyase_c0		gene_11775 or gene_10382	65719368.88960518	0.007599254863958178	0.0	0.0	0.0
+rxn22781_c0	RXN-12332.x_c0		gene_12607 or gene_3583 or gene_7676	1084836731.568297	0.12544172210203341	0.0	0.0	0.0
+rxn00342_c0	L-Asparagine amidohydrolase_c0		gene_9918 or gene_8769	52418176.20100304	0.0060612128081207785	0.004846474775491339	0.004846474775491339	0.0
+rxn00623_c0	hydrogen-sulfide:NADP+ oxidoreductase		gene_3061 or gene_8471	118082287.70768672	0.013654078156430365	0.03470772290952778	0.03470772290952778	0.0
+rxn03147_c0	 1-(5-Phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming)		gene_919	151093455.43197942	0.017471221886388628	0.0	0.0	0.0
+rxn03136_c0	1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase		gene_370	173245516.97549844	0.02003270664005482	0.0	0.0	0.0
+rxn00836_c0	IMP:diphosphate phospho-D-ribosyltransferase_c0		gene_6720	258474477.86150578	0.029887892508486606	0.0	0.0	0.0
+rxn00095_c0	P1,P4-bis(5'-adenosyl)-tetraphosphate nucleotidebisphosphohydrolase_c0		gene_11350	121152579.51871134	0.01400910180277567	0.0	0.0	0.0
+rxn00096_c0	ADP:ATP adenylyltransferase_c0					0.0	0.0	0.0
+rxn01138_c0	Adenosine:phosphate alpha-D-ribosyltransferase_c0					0.0	0.0	0.0
+rxn01138_m0	Adenosine:phosphate alpha-D-ribosyltransferase_m0					0.0	0.0	0.0
+rxn01859_c0	Deoxyadenosine:orthophosphate ribosyltransferase_c0					0.0	0.0	0.0
+rxn01548_c0	guanosine:phosphate alpha-D-ribosyltransferase_c0					0.0	0.0	0.0
+rxn01548_m0	guanosine:phosphate alpha-D-ribosyltransferase_m0					0.0	0.0	0.0
+rxn01446_c0	Deoxyguanosine:orthophosphate ribosyltransferase_c0					0.0	0.0	0.0
+rxn32380_c0	diphosphate 5-phospho-alpha-D-ribosyltransferase_c0		gene_6720	258474477.86150578	0.029887892508486606	0.0	0.0	0.0
+rxn01985_c0	Deoxyinosine:orthophosphate ribosyltransferase_c0					0.0	0.0	0.0
+rxn01649_c0	Xanthosine:orthophosphate ribosyltransferase_c0					0.0	0.0	0.0
+rxn01358_c0	inosine:phosphate alpha-D-ribosyltransferase_c0					0.0	0.0	0.0
+rxn01519_c0	dUTP nucleotidohydrolase_c0					0.0	0.0	0.0
+rxn01799_c0	deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase_c0					0.0	0.0	0.0
+rxn01146_c0	thymidine:phosphate deoxy-alpha-D-ribosyltransferase_c0					0.0	0.0	0.0
+rxn05289_m0	NADPH:oxidized-thioredoxin oxidoreductase_m0		gene_10956 or gene_47	8648133279.658728	1.0	0.0	0.0	0.0
+rxn13185_c0	RXN-12057.c_c0					0.0	0.0	0.0
+rxn02155_c0	ATP:nicotinamide-nucleotide adenylyltransferase_c0		gene_1340	35831556.504176855	0.004143270616383336	0.0	0.0	0.0
+rxn02155_m0	ATP:nicotinamide-nucleotide adenylyltransferase_m0		gene_1340	35831556.504176855	0.004143270616383336	0.0	0.0	0.0
+rxn00105_m0	ATP:nicotinamide-nucleotide adenylyltransferase_m0		gene_1340	35831556.504176855	0.004143270616383336	0.0	0.0	0.0
+rxn00690_c0	Formate:tetrahydrofolate ligase (ADP-forming)_c0		gene_5937	188475672.12430087	0.021793798271774377	0.00035392243162105325	0.00035392243162105325	0.0
+rxn01211_c0	5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)_c0		gene_5937	188475672.12430087	0.021793798271774377	0.005610639918591182	0.005610639918591182	0.0
+rxn00907_c0	5,10-methylenetetrahydrofolate:NADP+ oxidoreductase_c0		gene_5937	188475672.12430087	0.021793798271774377	0.005610639918591182	0.005610639918591182	0.0
+rxn40427_c0	SUICIDAL ENZYME					0.0	0.0	0.0
+rxn27029_c0	 [RXNQT-4300.c]		gene_168	85266505.96390475	0.009859527276766198	-5.515344697299503e-13	-5.515344697299503e-13	0.0
+rxn40448_c0	NUDIX 					-5.515344697299503e-13	-5.515344697299503e-13	0.0
+rxn40428_c0	  NMT1 protein [THI5]		gene_7550	199676674.76188257	0.023088991381705695	-0.00013783569209507664	-0.00013783569209507664	0.0
+rxn03108_c0	ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase_c0		gene_6295	66977488.71986113	0.007744733638344689	1.1046498023769267e-06	1.1046498023769267e-06	0.0
+rxn23042_c0	 thiamine-phosphate diphosphorylase (thiamine phosphate synthase)		gene_2821	70497907.90766373	0.008151806364210626	-5.515344697299503e-13	-5.515344697299503e-13	0.0
+rxn10506_c0	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase_c0					5.005374703565373e-06	5.005374703565373e-06	0.0
+rxn00048_c0	6,7-Dimethyl-8-(1-D-ribityl)lumazine:6,7-dimethyl-8-(1-D-ribityl)lumazine 2,3-butanediyltransferase		gene_6102	347333443.4173339	0.040162822679236085	0.0	0.0	0.0
+rxn01251_c0	 Pyridoxamine:oxygen oxidoreductase (deaminating)		gene_166	96489186.70903988	0.01115722706725532	0.0	0.0	0.0
+rxn02277_m0	7,8-Diaminononanoate:carbon-dioxide cyclo-ligase_c0		gene_10620			0.00015317799209507664	0.00015317799209507664	0.0
+rxn02312_m0	S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase_c0		gene_10620			0.00015317799209507664	0.00015317799209507664	0.0
+rxn05927_m0	 biotin synthase		gene_6484			0.0	0.0	0.0
+rxn09532_c0	acyl carrier protein synthase, mitochondrial_m0		gene_4273	80137563.24226445	0.009266457933847528	0.0	0.0	0.0
+rxn01790_c0	(R)-Pantoate:NADP+ 2-oxidoreductase_c0		gene_12725			0.0	0.0	0.0
+rxn12512_c0	phosphopantothenate---cysteine ligase (ATP) 		gene_6161	163092769.90857407	0.018858725303434503	0.0	0.0	0.0
+rxn03894_m0	rxn03894 [R05616] (Hydroxybenzoate octaprenyltransferase mitochondrial)		gene_1089			0.0	0.0	0.0
+rxn13204_m0	 3-Hexaprenyl-4,5-dihydroxybenzoate hydroxylase, mitochondrial		gene_3869	47188664.075718306	0.005456514434937162	0.0	0.0	0.0
+rxn03392_m0	2-hexaprenyl-3-methyl-6-methoxy-1,4-benzoquinone monooxygenase, mitochondrial_m0					0.0	0.0	0.0
+rxn01629_c0	(S)-4-Amino-5-oxopentanoate 4,5-aminomutase		gene_11582	22733740.522317164	0.0026287453936202844	0.0	0.0	0.0
+rxn00024_e0	 1,2-Benzenediol:oxygen oxidoreductase		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	0.0	0.0	0.0
+rxn00036_e0	 3,4-dihydroxy-L-phenylalanine:oxygen oxidoreductase		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	0.0	0.0	0.0
+rxn11972_e0	rxn11972 [R02962]					0.0	0.0	0.0
+rxn02611_e0	rxn02611 [R03674]					0.0	0.0	0.0
+rxn02610_e0	 L-Dopachrome delta7-delta2-isomerase					0.0	0.0	0.0
+rxn03338_e0	 R04885					0.0	0.0	0.0
+rxn03337_e0	 5,6-dihydroxyindole:oxygen oxidoreductase		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	0.0	0.0	0.0
+rxn06809_e0	rxn06809 [rxn06809]		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	0.0	0.0	0.0
+rxn15499_e0	rxn15499 [R04886]		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	0.0	0.0	0.0
+rxn07120_e0	rxn07120 [rxn07120]		gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_3742 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	0.0	0.0	0.0
+rxn15819_e0	rxn15819 [R08848]					0.0	0.0	0.0
+rxn44970_e0	rxn44970 []					0.0	0.0	0.0
+rxn22818_m0	RXN-12359.c		gene_8040	69332047.22459948	0.008016995689425297	0.0	0.0	0.0
+rxn00076_x0	NAD+ phosphohydrolase_x0		gene_8159	149745069.39598843	0.017315305459989126	0.0	0.0	0.0
+rxn03841_c0	4-amino-4-deoxychorismate pyruvate-lyase_c0		gene_11538 or gene_8973 or gene_4521	132338603.69538292	0.0153025629249559	0.00030635598419015333	0.00030635598419015333	0.0
+rxn01653_c0	5-Formyltetrahydrofolate cyclo-ligase (ADP-forming)_c0		gene_5937	188475672.12430087	0.021793798271774377	0.0	0.0	0.0
+rxn01257_c0	chorismate:L-glutamine aminotransferase_c0		gene_12834	211295042.44814038	0.024432445201223646	0.00030635598419015333	0.00030635598419015333	0.0
+rxn02484_c0	ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase_c0		gene_6295	66977488.71986113	0.007744733638344689	0.00013894034189745357	0.00013894034189745357	0.0
+rxn30439_e0	thiamin phosphatase, extracellular_e0		gene_3348 or gene_7754 or gene_11454 or gene_892 or gene_3329 or gene_12528	129010659.32523224	0.014917746426119285	0.0	0.0	0.0
+rxn09632_e0	thiamin diphosphatase, extracellular_e0		gene_3348 or gene_7754 or gene_11454 or gene_892 or gene_3329 or gene_12528	129010659.32523224	0.014917746426119285	0.0	0.0	0.0
+rxn00198_x0	Isocitrate:NADP+ oxidoreductase (decarboxylating)_x0		gene_11358	240418223.38788873	0.027800013669236154	0.0	0.0	0.0
+rxn06134_c0	 MGDG specific palmitate delta-7 desaturase SP:A8J015_CHLRE		gene_1461	39675293.728518255	0.004587729218031191	0.0	0.0	0.0
+rxn42762_c0	palmitoyl-CoA Z11-desaturase 		gene_1461	39675293.728518255	0.004587729218031191	0.0	0.0	0.0
+rxn10667_c0	fatty acid synthase (n-C18:1)_c0		gene_1461 or gene_5256 or gene_12063 or gene_313 or gene_12865	48967762.92428113	0.005662234998095854	0.0	0.0	0.0
+rxn08445_c0	fatty-acid-CoA thioesterase (octadecenoate)		gene_5256			0.0	0.0	0.0
+rxn08053_x0	acyl-CoA dehydrogenase (octadecanoyl-CoA)		gene_6597 or gene_4956	234137402.18379274	0.02707375043982119	0.0	0.0	0.0
+rxn00946_x0	 Palmitoyl-CoA:oxygen 2-oxidoreductase		gene_6597 or gene_4956	234137402.18379274	0.02707375043982119	0.0	0.0	0.0
+rxn02804_x0	 myristoyl-CoA:acetylCoA C-myristoyltransferase		gene_4118 or gene_1935 or gene_434 or gene_5400 or gene_9875 or gene_4395	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn02803_x0	Tetradecanoyl-CoA:(acceptor) 2,3-oxidoreductase		gene_6597 or gene_4956	234137402.18379274	0.02707375043982119	0.0	0.0	0.0
+rxn02720_x0	 Lauroyl-CoA:(acceptor) 2,3-oxidoreductase		gene_6597 or gene_4956	234137402.18379274	0.02707375043982119	0.0	0.0	0.0
+rxn03253_x0	 Decanoyl-CoA:(acceptor) 2,3-oxidoreductase		gene_6597 or gene_4956	234137402.18379274	0.02707375043982119	0.0	0.0	0.0
+rxn09480_x0	acetyl-CoA acyltransferase (tetracosanoyl-CoA), peroxisomal		gene_5400 or gene_1935	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn09463_x0	fatty acid oxidation (tetradecansoyl-CoA), peroxisomal		gene_5400 or gene_2331 or gene_1810 or gene_1935	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn00533_m0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_m0		gene_10589	96838770.45529236	0.011197650096705472	0.0	0.0	0.0
+rxn23551_r0	3-oxo-arachidonyl-CoA-synthase		gene_3062 or gene_12844 or gene_6755	40644027.86804943	0.004699745777929699	0.02250184703876676	0.02250184703876676	0.0
+rxn23534_r0	3-oxoarachidoyl-CoA-reductase		gene_5506	91798344.79840146	0.010614816149320956	-0.02250184703876676	-0.02250184703876676	0.0
+rxn23565_r0	3-hydroxy-arachidoyl-CoA dehydratase		gene_7317 or gene_6410	583529865.4347687	0.06747466147489761	0.02250184703876676	0.02250184703876676	0.0
+rxn19046_r0	trans-arachidon-2-enoyl-CoA reductase		gene_9021	271927683.79511523	0.031443512143217806	-0.02250184703876676	-0.02250184703876676	0.0
+rxn23554_r0	3-oxo-behenoyl-CoA-synthase		gene_3062 or gene_12844 or gene_6755	40644027.86804943	0.004699745777929699	0.02250184703876676	0.02250184703876676	0.0
+rxn23531_r0	3-oxo-behenoyl-CoA-reductase		gene_5506	91798344.79840146	0.010614816149320956	-0.02250184703876676	-0.02250184703876676	0.0
+rxn22098_r0	trans-arachidon-2-enoyl-CoA reductase		gene_7317 or gene_6410	583529865.4347687	0.06747466147489761	0.02250184703876676	0.02250184703876676	0.0
+rxn19044_r0	trans-docosan-2-enoyl-CoA reductase		gene_9021	271927683.79511523	0.031443512143217806	-0.02250184703876676	-0.02250184703876676	0.0
+rxn23559_r0	3-oxo-lignoceronyl-CoA-synthase		gene_3062 or gene_12844 or gene_6755	40644027.86804943	0.004699745777929699	0.02250184703876676	0.02250184703876676	0.0
+rxn23535_r0	3-oxo-lignoceronyl-CoA-reductase		gene_5506	91798344.79840146	0.010614816149320956	-0.02250184703876676	-0.02250184703876676	0.0
+rxn22099_r0	3-hydroxy-lignoceroyl-CoA dehydratase		gene_7317 or gene_6410	583529865.4347687	0.06747466147489761	0.02250184703876676	0.02250184703876676	0.0
+rxn19045_r0	trans-lignocero-2-enoyl-CoA reductase		gene_9021	271927683.79511523	0.031443512143217806	-0.02250184703876676	-0.02250184703876676	0.0
+rxn23557_r0	3-oxo-cerotoyl-CoA-synthase		gene_3062 or gene_12844 or gene_6755	40644027.86804943	0.004699745777929699	0.020994958541531442	0.020994958541531442	0.0
+rxn23536_r0	3-hydroxy-lignoceroyl-CoA dehydratase		gene_5506	91798344.79840146	0.010614816149320956	-0.020994958541531442	-0.020994958541531442	0.0
+rxn22100_r0	3-hydroxy-cerotoyl-CoA dehydratase		gene_7317 or gene_6410	583529865.4347687	0.06747466147489761	0.020994958541531442	0.020994958541531442	0.0
+rxn09599_c0	Inositol phosphorylceramide synthase (ceramide-1, 24C), yeast-specific		gene_8702			0.0	0.0	0.0
+rxn09598_c0	Inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific		gene_8702			0.0	0.0	0.0
+rxn09597_c0	Inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific		gene_8702			0.0	0.0	0.0
+rxn09596_c0	Inositol phosphoryceramide synthase (ceramide-2, 26C), yeast-specific		gene_8702			0.0	0.0	0.0
+rxn09595_c0	Inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific		gene_8702			0.0	0.0	0.0
+rxn09594_c0	Inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific		gene_8702			-0.011557279503573532	-0.011557279503573532	0.0
+rxn09593_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 24C), yeast-specific		gene_8702			0.0004959137494078106	0.0004959137494078106	0.0
+rxn09592_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 26C), yeast-specific		gene_8702			0.0005074020988149413	0.0005074020988149413	0.0
+rxn09591_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 26C), yeast specific		gene_8702			0.0005016579241113759	0.0005016579241113759	0.0
+rxn09590_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 24C), yeast-specific		gene_8702			0.0005131462735185067	0.0005131462735185067	0.0
+rxn09589_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 24C), yeast specific		gene_8702			0.0005093168237161298	0.0005093168237161298	0.0
+rxn09588_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 26C), yeast-specific		gene_8702			0.008838370143885922	0.008838370143885922	0.0
+rxn09548_c0	glycerol 3-phosphate acyltransferase (glycerol 3-phosphate), yeast-specific		gene_8048	92777490.6965117	0.010728036640546881	0.0	0.0	0.0
+rxn09555_c0	 1-Acyl-glycerol-3-phosphate acyltransferase, yeast-specific		gene_12907 or gene_5300 or gene_4408	106391825.44984527	0.012302287905308936	0.0	0.0	0.0
+rxn01071_c0	ATP:ethanolamine O-phosphotransferase_c0		gene_11004	54491604.82480363	0.006300967279606261	0.0	0.0	0.0
+rxn09543_c0	Phosphatidylethanolamine N methyltransferase yeast specific		gene_4508	84328325.3192753	0.009751043675243065	0.0	0.0	0.0
+rxn09545_c0	methylene-fatty-acyl-phospholipid synthase, yeast-specific_c0		gene_9731			0.0001914724901188442	0.0001914724901188442	0.0
+rxn09535_c0	Phosphatidyl-N-methylethanolamine N-methyltransferase, yeast-specific_c0		gene_9731			0.0001914724901188442	0.0001914724901188442	0.0
+rxn39089_c0	phosphatidylserine synthase, yeast-specific, mitochondrial_c0		gene_11289	131396347.42341232	0.015193608050938535	0.0005744174703565356	0.0005744174703565356	0.0
+rxn09552_c0	diacylglycerol cholinephosphotransferase, yeast-specific_c0		gene_4879 or gene_7353	310980749.4139889	0.03595929194863898	0.0336761815621026	0.0336761815621026	0.0
+rxn09536_c0	phosphatidylinositol synthase, yeast-specific		gene_10850	176645057.92734155	0.020425801986982364	0.0	0.0	0.0
+rxn09537_c0	phosphatidylinositol 4-kinase, yeast-specific		gene_1982 or gene_5035 or gene_1865	181691436.5655305	0.021009324288848195	0.0	0.0	0.0
+rxn09538_c0	1-phosphatidylinositol 3-kinase, yeast-specific		gene_9402	45509578.28355336	0.005262358570559548	0.0	0.0	0.0
+rxn16107_m0	 geranylgeranyl-diphosphate:isopentenyl-diphosphate transferase (adding 2 isopentenyl units)		gene_11727	10818046.963692619	0.0012509112214005472	0.0	0.0	0.0
+rxn13477_m0	(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 3 isopentenyl units)		gene_11727	10818046.963692619	0.0012509112214005472	0.0	0.0	0.0
+rxn09622_c0	 C-4 sterol methyl oxidase (4,4-dimethylzymosterol)		gene_12719 or gene_1482			0.0	0.0	0.0
+rxn13416_c0	Acyl-CoA:zymosterol acyltransferase, yeast-specific_c0		gene_7067 or gene_7466	19110696.71449491	0.00220980598893465	0.0	0.0	0.0
+rxn05918_c0	GDPmannose:dolichyl-phosphate O-beta-D-mannosyltransferase		gene_1904 or gene_9799			0.0	0.0	0.0
+rxn08017_c0	acyl-[acyl-carrier-protein] synthetase (n-C16:1)					0.0	0.0	0.0
+rxn00175_x0	Acetate:CoA ligase (AMP-forming)_x0		gene_9278	307566158.6695314	0.035564456365740536	0.0	0.0	0.0
+rxn19047_r0	trans-cerot-2-enoyl-CoA reductase		gene_9021	271927683.79511523	0.031443512143217806	-0.020994958541531442	-0.020994958541531442	0.0
+rxn09549_c0	 Ethanolaminephosphotransferase, yeast-specific		gene_4879 or gene_7353	310980749.4139889	0.03595929194863898	0.0	0.0	0.0
+rxn50927_c0	nan		gene_10178	87411039.89358392	0.010107503789191525	0.0	0.0	0.0
+rxn24251_c0	IP3/IP4 6-/3-kinase		gene_12935	58826142.13108915	0.00680217802256287	0.0	0.0	0.0
+rxn09629_c0	 C-14 sterol reductase		gene_7936 or gene_4914	269145319.14057493	0.031121782058288992	0.0	0.0	0.0
+rxn15542_m0	(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 10-55 isopentenyl units)		gene_556			0.0	0.0	0.0
+rxn35521_m0	dehydrodolichol diphosphate saturase					0.0	0.0	0.0
+rxn05913_m0	Dolichyl-diphosphate phosphohydrolase		gene_10841			0.0	0.0	0.0
+rxn13281_c0	fatty acid synthase (n-C14:1)_c0		gene_12844 or gene_6755	40644027.86804943	0.004699745777929699	0.0	0.0	0.0
+rxn10665_c0	fatty acid synthase (n-C16:1)_c0		gene_12844 or gene_6755	40644027.86804943	0.004699745777929699	0.0	0.0	0.0
+rxn09587_c0	mannose-inositiol phophorylceramide synthase (ceramide-1, 24C), yeast-specific_c0					0.0004959137494078106	0.0004959137494078106	0.0
+rxn09586_c0	mannose-inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific_c0					0.0005074020988149413	0.0005074020988149413	0.0
+rxn09585_c0	mannose-inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific_c0					0.0005016579241113759	0.0005016579241113759	0.0
+rxn09584_c0	mannose-inositol phosphorylceramide synthase (ceramide-2, 26C), yeast-specific_c0					0.0005131462735185067	0.0005131462735185067	0.0
+rxn09583_c0	mannose-inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific_c0					0.0005093168237161298	0.0005093168237161298	0.0
+rxn09582_c0	mannose-inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific_c0					0.013579228999228542	0.013579228999228542	0.0
+rxn00744_c0	ATP:glycerone phosphotransferase_c0		gene_699 or gene_2665	212902763.59252712	0.02461834903646729	0.0	0.0	0.0
+rxn39089_m0	phosphatidylserine synthase, yeast-specific, mitochondrial_m0		gene_11289	131396347.42341232	0.015193608050938535	0.0	0.0	0.0
+rxn13287_c0	Acyl-CoA:fecosterol acyltransferase, yeast-specific_c0		gene_7067 or gene_7466	19110696.71449491	0.00220980598893465	0.0	0.0	0.0
+rxn13335_c0	Acyl-CoA:lanosterol acyltransferase, yeast-specific_c0		gene_7067 or gene_7466	19110696.71449491	0.00220980598893465	0.0	0.0	0.0
+rxn13254_c0	Acyl-CoA:episterol acyltransferase, yeast-specific_c0		gene_7067 or gene_7466	19110696.71449491	0.00220980598893465	0.0	0.0	0.0
+rxn09510_c0	Dolichyl-phosphate D-mannosyltransferase_g0					0.01546906247670155	0.01546906247670155	0.0
+rxn13381_e0	phospholipase B (phosphatidylinositol), yeast-specific (extracellular)		gene_7096 or gene_6735	86903279.49709095	0.010048790494648843	0.0	0.0	0.0
+ORNt3m_c0	Ornithine mitochondrial transport via proton antiport					0.001824392916209852	0.001824392916209852	0.0
+rxn08475_c0	iron (II) transport via diffusion (extracellular to periplasm)_c0					7.65889960475383e-06	7.65889960475383e-06	0.0
+TRP_coa_c0r0	CoA c0↔r0 transport (diffusion)					-0.11100234669659848	-0.11100234669659848	0.0
+TRP_co2_c0r0	CO2 c0↔r0 transport (diffusion)					-0.08850049965783172	-0.08850049965783172	0.0
+TRP_nadph_c0r0	NADPH c0↔r0 transport (diffusion)					-0.04500369407753352	-0.04500369407753352	0.0
+TRP_nadp_c0r0	NADP c0↔r0 transport (diffusion)					0.04500369407753352	0.04500369407753352	0.0
+bio_gsm	biomass [from GSM]					0.019147249011884578	0.019147249011884578	0.0
+rxn00024_c0	1,2-Benzenediol:oxygen oxidoreductase	Melanin biosynthesis/tyrosine metabolism	gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	9.57362450594229e-06	9.57362450594229e-06	0.0
+rxn00036_c0	3,4-dihydroxy-L-phenylalanine:oxygen oxidoreductase	Melanin biosynthesis/tyrosine metabolism	gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	1.914724901188458e-05	1.914724901188458e-05	0.0
+rxn11972_c0	R02962	Melanin biosynthesis/tyrosine metabolism				1.914724901188458e-05	1.914724901188458e-05	0.0
+rxn02609_c0	R03672	Melanin biosynthesis/tyrosine metabolism				-1.914724901188458e-05	-1.914724901188458e-05	0.0
+rxn02611_c0	R03674	Melanin biosynthesis/tyrosine metabolism				1.914724901188458e-05	1.914724901188458e-05	0.0
+rxn03337_c0	5,6-dihydroxyindole:oxygen oxidoreductase	Melanin biosynthesis/tyrosine metabolism	gene_744 or gene_7359 or gene_9611 or gene_12715 or gene_6198 or gene_7087 or gene_2759 or gene_6887 or gene_2487 or gene_6642 or gene_1985 or gene_4687 or gene_4355 or gene_2006 or gene_3783	127142078.46867876	0.014701678889215274	9.57362450594229e-06	9.57362450594229e-06	0.0
+rxn06809_c0	rxn06809	Melanin biosynthesis/tyrosine metabolism				1.914724901188458e-05	1.914724901188458e-05	0.0
+rxn00293_c0	UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase	chitin synthesis/ amino sugar metabolism	gene_5274	289071949.9428408	0.033425936048276095	0.0009573624505942289	0.0009573624505942289	0.0
+rxn15558_c0	UDP-N-acetyl-D-glucosamine:chitin 4-beta-N-acetylglucosaminyl-transferase	chitin synthesis/ amino sugar metabolism	gene_542 or gene_1689 or gene_2238 or gene_7871 or gene_12527	61258439.58237855	0.007083429174994852	0.0009573624505942289	0.0009573624505942289	0.0
+rxn01150_c0	D-Arabinose:NADP+ 1-oxidoreductase	Ascorbate and aldarate metabolism	gene_2958 or gene_1406	52994352.81758851	0.006127837199530275	0.0	0.0	0.0
+rxn01150_m0	D-Arabinose:NADP+ 1-oxidoreductase	Ascorbate and aldarate metabolism	gene_2958 or gene_1406	52994352.81758851	0.006127837199530275	0.0	0.0	0.0
+rxn00546_c0	D-Mannitol-1-phosphate 5-dehydrogenase (NADP), fungal	mannitol biosynthesis (compatible solute, NADPH sink)				-0.0038294498023769157	-0.0038294498023769157	0.0
+rxn01560_c0	D-Mannitol-1-phosphate phosphohydrolase	mannitol biosynthesis (compatible solute)				0.0038294498023769157	0.0038294498023769157	0.0
+rxn15561_c0	UDP-glucose:alpha-D-(1-3)-glucan 3-alpha-D-glucosyltransferase	cell wall polysaccharide / alpha-1,3-glucan	gene_5001	20932659.097083457	0.0024204829435641516	0.0009573624505942289	0.0009573624505942289	0.0
+tx_cpd00496_mc	D-Arabinono-1,4-lactone transport (mito -> cyto)					0.0	0.0	0.0
+rxn02679_x0	Octanoyl-CoA:oxygen 2-oxidoreductase (C8)_x0	beta-oxidation (acyl-CoA oxidase)	gene_8837			0.0	0.0	0.0
+rxn03251_x0	Hexanoyl-CoA:(acceptor) 2,3-oxidoreductase (C6)_x0	beta-oxidation (acyl-CoA oxidase)	gene_8837			0.0	0.0	0.0
+rxn00868_x0	Butanoyl-CoA:(acceptor) 2,3-oxidoreductase (C4)_x0	beta-oxidation (acyl-CoA dehydrogenase)	gene_11751			0.0	0.0	0.0
+rxn03247_x0	(S)-Hydroxyoctanoyl-CoA hydro-lyase (C8)_x0	beta-oxidation (enoyl-CoA hydratase)	gene_2621	178377979.36323595	0.020626182968618068	0.0	0.0	0.0
+rxn03250_x0	(S)-Hydroxyhexanoyl-CoA hydro-lyase (C6)_x0	beta-oxidation (enoyl-CoA hydratase)	gene_2953			0.0	0.0	0.0
+rxn02167_x0	(S)-3-Hydroxybutanoyl-CoA hydro-lyase (C4)_x0	beta-oxidation (enoyl-CoA hydratase)	gene_2621	178377979.36323595	0.020626182968618068	0.0	0.0	0.0
+rxn03246_x0	(S)-hydroxyoctanoyl-CoA:NAD+ oxidoreductase (C8)_x0	beta-oxidation (3-OH-acyl-CoA DH)	gene_11751			0.0	0.0	0.0
+rxn03249_x0	(S)-hydroxyhexanoyl-CoA:NAD+ oxidoreductase (C6)_x0	beta-oxidation (3-OH-acyl-CoA DH)	gene_11751			0.0	0.0	0.0
+rxn03861_x0	(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase (C4)_x0	beta-oxidation (acetoacetyl-CoA reductase)	gene_11942	250128428.44415623	0.028922823036560186	0.0	0.0	0.0
+rxn06510_x0	Lauroyl-CoA:acetyl-CoA C-acyltransferase (C14->C12)_x0	beta-oxidation (thiolase)	gene_4118 or gene_1935 or gene_5400	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn03243_x0	Decanoyl-CoA:acetyl-CoA C-acyltransferase (C12->C10)_x0	beta-oxidation (thiolase)	gene_4118 or gene_1935 or gene_5400	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn02680_x0	Octanoyl-CoA:acetyl-CoA C-acyltransferase (C10->C8)_x0	beta-oxidation (thiolase)	gene_4118 or gene_1935 or gene_5400	636789975.42434	0.07363322867862519	0.0	0.0	0.0
+rxn03248_x0	Hexanoyl-CoA:acetyl-CoA C-acyltransferase (C8->C6)_x0	beta-oxidation (thiolase)	gene_4118	114372981.48485522	0.013225164065622333	0.0	0.0	0.0
+rxn00874_x0	butanoyl-CoA:acetyl-CoA C-butanoyltransferase (C6->C4)_x0	beta-oxidation (thiolase)	gene_4118	114372981.48485522	0.013225164065622333	0.0	0.0	0.0
+rxn00178_x0	Acetyl-CoA:acetyl-CoA C-acetyltransferase (C4->2 AcCoA)_x0	beta-oxidation (thiolase, terminal)	gene_9875	416192748.88157153	0.04812515434521556	0.0	0.0	0.0
+tx_atp_xc	ATP/AMP antiport (Ant1-like) peroxisomal	peroxisomal cofactor transport				0.0	0.0	0.0
+tx_ppi_xc	PPi peroxisomal export	peroxisomal cofactor transport				0.0	0.0	0.0
+tx_coa_xc	CoA peroxisomal equilibration	peroxisomal cofactor transport				0.0	0.0	0.0
+tx_nad_xc	NAD peroxisomal equilibration	peroxisomal cofactor transport				0.0	0.0	0.0
+tx_nadh_xc	NADH peroxisomal equilibration	peroxisomal cofactor transport				0.0	0.0	0.0
+tx_h_xc	H+ peroxisomal equilibration	peroxisomal cofactor transport				0.0	0.0	0.0
+rxn01391_c0	L-arabitol:NAD+ 4-oxidoreductase (L-xylulose-forming)_c0	L-arabinose assimilation (Penttilae)	gene_8784	181430111.33327365	0.020979106758219762	0.0	0.0	0.0
+rxn33066_c0	L-xylulose reductase_c0	L-arabinose assimilation (Penttilae)				0.0	0.0	0.0
+rxn05673_c0	D-galacturonate transport via proton symport_c0	galU transport	gene_5858			0.0	0.0	0.0
+rxn07491_c0	D-galacturonate reductase (NADPH; GAR1, fungal)_c0	fungal Ashwell pathway				0.0	0.0	0.0
+rxn21749_c0	L-galactonate dehydratase (LGD1)_c0	fungal Ashwell pathway				0.0	0.0	0.0
+rxn21750_c0	2-keto-3-deoxy-L-galactonate aldolase (LGA1)_c0	fungal Ashwell pathway				0.0	0.0	0.0
+rxn09954_c0	L-glyceraldehyde reductase (GLD1)_c0	fungal Ashwell pathway	gene_11942	250128428.44415623	0.028922823036560186	0.0	0.0	0.0
+HXCAt	Hexacosanoate transport via facilitated diffusion (e0 -> c0)	VLCFA transport				0.0	0.0	0.0
+vlcfa_oxC24_x0	C24 acyl-CoA dehydrogenase (FAD)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_hyC24_x0	C24 enoyl-CoA hydratase	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_dhC24_x0	C24 3-OH-acyl-CoA dehydrogenase (NAD)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_thC24_x0	3-ketoacyl-CoA thiolase (C24->C22)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_oxC22_x0	C22 acyl-CoA dehydrogenase (FAD)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_hyC22_x0	C22 enoyl-CoA hydratase	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_dhC22_x0	C22 3-OH-acyl-CoA dehydrogenase (NAD)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_thC22_x0	3-ketoacyl-CoA thiolase (C22->C20)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_oxC20_x0	C20 acyl-CoA dehydrogenase (FAD)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_hyC20_x0	C20 enoyl-CoA hydratase	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_dhC20_x0	C20 3-OH-acyl-CoA dehydrogenase (NAD)	beta-oxidation (VLCFA)				0.0	0.0	0.0
+vlcfa_thC20_x0	3-ketoacyl-CoA thiolase (C20->C18)	beta-oxidation (VLCFA)				0.0	0.0	0.0

@@ -1,0 +1,17 @@
+{
+  "half_vs_PDA": {
+    "n": 120,
+    "concordant": 40,
+    "rate": 0.333
+  },
+  "onetenth_vs_PDA": {
+    "n": 163,
+    "concordant": 82,
+    "rate": 0.503
+  },
+  "onetenth_vs_half": {
+    "n": 160,
+    "concordant": 86,
+    "rate": 0.538
+  }
+}

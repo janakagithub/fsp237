@@ -1,0 +1,4 @@
+condition	media_key	glucose_uptake	baseline_biomass	eflux_biomass	eflux_status	biomass_ratio	n_active_baseline	n_active_eflux	n_rxn_scaled	n_rxn_throttled	p99_linear
+PDA	19_pdb_baseline	5.0	0.191472	0.191472	optimal	1.0	509	509	882	869	13611404157.237934
+half	20_pdb_half	2.5	0.095736	0.095736	optimal	1.0	509	509	882	869	15176211649.374285
+onetenth	21_pdb_onetenth	0.5	0.019147	0.019147	optimal	1.0	507	507	882	869	8648133279.658728

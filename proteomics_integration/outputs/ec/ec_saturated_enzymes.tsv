@@ -1,0 +1,118 @@
+condition	rxn_id	name	subsystem	ec	kcat	mw_kDa	flux	ceiling	utilization	saturated
+PDA	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0			10.0	58.08	2.52498	2.52498	1.0	True
+PDA	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0			10.0	50.66	12.30208	41.63126	0.2955	False
+PDA	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		2.1.3.15	28.0	254.28	2.3273	15.90023	0.1464	False
+PDA	rxn00175_c0	Acetate:CoA ligase (AMP-forming)_c0		6.2.1.17	15.0	56.32	2.58138	45.28576	0.057	False
+PDA	rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0		5.4.2.12	12.0	58.77	-3.35187	72.02757	0.0465	False
+PDA	rxn09524_c0	NADH dehydrogenase, cytosolic/mitochondrial_m0		1.6.5.9	27.9	29.48	3.68022	85.7664	0.0429	False
+PDA	rxn00216_c0			2.7.1.1	28.0	41.2	2.52498	73.49661	0.0344	False
+PDA	rxn00168_c0			1.8.3.2	23.57	55.35	2.58117	130.9773	0.0197	False
+PDA	rxn35242_c0	ATP:pyruvate 2-O-phosphotransferase_c0		2.7.1.40	28.0	57.7	-3.31402	187.69372	0.0177	False
+PDA	rxn00751_c0	ATP:choline phosphotransferase_c0		2.7.1.32	28.0	89.09	0.17646	10.65218	0.0166	False
+PDA	rxn00102_c0	carbonate hydro-lyase (carbon-dioxide-forming)[c0]		4.2.1.1	15.0	18.48	-2.35927	175.02035	0.0135	False
+PDA	rxn09417_m0	Succinic dehydrogenase_m0		1.3.5.1	13.7	70.36	0.53559	43.6683	0.0123	False
+PDA	rxn23551_r0	3-oxo-arachidonyl-CoA-synthase		2.3.1.199	28.0	37.3	0.1179	10.25714	0.0115	False
+PDA	rxn23554_r0	3-oxo-behenoyl-CoA-synthase		2.3.1.199	28.0	37.3	0.1179	10.25714	0.0115	False
+PDA	rxn23559_r0	3-oxo-lignoceronyl-CoA-synthase		2.3.1.199	28.0	37.3	0.1179	10.25714	0.0115	False
+PDA	rxn02134_c0	Sphinganine:NADP+ 3-oxidoreductase_c0		1.1.1.102	13.7	35.94	0.1179	10.43822	0.0113	False
+PDA	rxn35347_m0	cytochrome c oxidase Complex IV			10.0	7.42	3.20232	291.01011	0.011	False
+PDA	rxn23557_r0	3-oxo-cerotoyl-CoA-synthase		2.3.1.199	28.0	37.3	0.11001	10.25714	0.0107	False
+PDA	rxn15114_c0	D-ribose-5-phosphate aldose-ketose-isomerase_c0		5.3.1.6	12.0	35.87	-0.50234	48.79937	0.0103	False
+PDA	rxn34008_c0	Sulfite Reductase (NADPH)_c0		1.8.1.2	13.7	126.9	0.08647	8.43503	0.0103	False
+PDA	rxn00623_c0	hydrogen-sulfide:NADP+ oxidoreductase		1.8.1.2	13.7	126.9	0.08586	8.43503	0.0102	False
+PDA	rxn23534_r0	3-oxoarachidoyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.1179	11.58562	0.0102	False
+PDA	rxn23531_r0	3-oxo-behenoyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.1179	11.58562	0.0102	False
+PDA	rxn23535_r0	3-oxo-lignoceronyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.1179	11.58562	0.0102	False
+PDA	frxn35348_m0	ubiquinol-cytochrome c oxidoreductase Complex III		3.5.2.9	31.0	11.97	6.40465	637.95381	0.01	False
+half	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0			10.0	58.08	1.65972	1.65972	1.0	True
+half	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0			10.0	50.66	7.94345	17.82268	0.4457	False
+half	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		2.1.3.15	28.0	254.28	1.49939	10.73782	0.1396	False
+half	rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0		5.4.2.12	12.0	58.77	-2.20381	22.05338	0.0999	False
+half	rxn00175_c0	Acetate:CoA ligase (AMP-forming)_c0		6.2.1.17	15.0	56.32	1.66412	18.45689	0.0902	False
+half	rxn09524_c0	NADH dehydrogenase, cytosolic/mitochondrial_m0		1.6.5.9	27.9	29.48	2.4183	28.36781	0.0852	False
+half	rxn00216_c0			2.7.1.1	28.0	41.2	1.65972	21.99335	0.0755	False
+half	rxn00168_c0			1.8.3.2	23.57	55.35	1.66295	43.18588	0.0385	False
+half	rxn35242_c0	ATP:pyruvate 2-O-phosphotransferase_c0		2.7.1.40	28.0	57.7	-2.17673	57.32446	0.038	False
+half	rxn01116_c0	D-Ribulose-5-phosphate 3-epimerase_c0		5.1.3.1	12.85	27.89	0.61007	18.22622	0.0335	False
+half	frxn35348_m0	ubiquinol-cytochrome c oxidoreductase Complex III		3.5.2.9	31.0	11.97	4.15523	130.61967	0.0318	False
+half	rxn00751_c0	ATP:choline phosphotransferase_c0		2.7.1.32	28.0	89.09	0.11368	3.87101	0.0294	False
+half	rxn30365_c0	CDP-Diacylglycerol synthetase, yeast-specific, mitochondrial_c0		2.7.7.41	28.0	85.45	0.11692	4.06514	0.0288	False
+half	rxn00102_c0	carbonate hydro-lyase (carbon-dioxide-forming)[c0]		4.2.1.1	15.0	18.48	-1.54823	53.86991	0.0287	False
+half	rxn09600_c0	Ceramide-3 synthase (26C)_c0		1.14.18.6	13.7	89.32	0.06743	2.51935	0.0268	False
+half	ASNt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.ASN_ASN_c0			10.0	62.88	0.03397	1.31988	0.0257	False
+half	rxn09417_m0	Succinic dehydrogenase_m0		1.3.5.1	13.7	70.36	0.33861	13.30265	0.0255	False
+half	rxn34008_c0	Sulfite Reductase (NADPH)_c0		1.8.1.2	13.7	126.9	0.08584	3.53737	0.0243	False
+half	rxn00623_c0	hydrogen-sulfide:NADP+ oxidoreductase		1.8.1.2	13.7	126.9	0.08441	3.53737	0.0239	False
+half	rxn02134_c0	Sphinganine:NADP+ 3-oxidoreductase_c0		1.1.1.102	13.7	35.94	0.07596	3.40196	0.0223	False
+half	rxn15114_c0	D-ribose-5-phosphate aldose-ketose-isomerase_c0		5.3.1.6	12.0	35.87	-0.33095	15.03198	0.022	False
+half	rxn00097_c0	ATP:AMP phosphotransferase_c0		2.7.4.3	24.43	27.62	1.71476	91.80331	0.0187	False
+half	rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)_c0		1.4.1.4	13.7	38.16	-0.26593	15.14367	0.0176	False
+half	GLNt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLN_GLN_c0			10.0	62.88	0.02307	1.31988	0.0175	False
+half	rxn23534_r0	3-oxoarachidoyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.07596	4.33364	0.0175	False
+half	rxn23531_r0	3-oxo-behenoyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.07596	4.33364	0.0175	False
+half	rxn23535_r0	3-oxo-lignoceronyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.07596	4.33364	0.0175	False
+half	rxn00459_c0	2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)_c0		4.2.1.11	15.0	47.37	2.20381	128.09568	0.0172	False
+half	rxn00747_c0	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase_c0		5.3.1.1	12.0	26.91	-1.006	59.09568	0.017	False
+half	rxn35347_m0	cytochrome c oxidase Complex IV			10.0	7.42	2.07762	125.56338	0.0165	False
+half	rxn23536_r0	3-hydroxy-lignoceroyl-CoA dehydratase		1.1.1.330	13.7	37.45	-0.07087	4.33364	0.0164	False
+half	rxn00505_m0	Isocitrate:NAD+ oxidoreductase (decarboxylating)		1.1.1.41	13.7	40.8	0.31059	20.68602	0.015	False
+half	rxn30674_m0	Fumarase_m0		4.2.1.2	15.0	29.38	0.34515	23.10495	0.0149	False
+half	rxn00558_c0	D-glucose-6-phosphate aldose-ketose-isomerase_c0		2.7.11.25	20.0	60.84	0.5047	36.19455	0.0139	False
+half	rxn09608_c0	Ceramide-1 hydroxylase (26C)_c0		1.14.18.5	13.7	42.38	0.06916	5.30899	0.013	False
+half	rxn02914_c0	3-Phosphoserine:2-oxoglutarate aminotransferase_c0		2.6.1.52	28.0	45.93	0.11119	8.83393	0.0126	False
+half	rxn13384_c0	phospholipase D, yeast-specific_c0		3.1.4.4	42.0	97.85	0.11368	10.59575	0.0107	False
+half	rxn00948_c0	Palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating)_c0		2.3.1.50	28.0	56.85	0.07596	7.48189	0.0102	False
+onetenth	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		2.1.3.15	28.0	254.28	0.26265	0.26265	1.0	True
+onetenth	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0			10.0	58.08	0.28884	0.35234	0.8198	False
+onetenth	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0			10.0	50.66	1.38968	2.57807	0.539	False
+onetenth	rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0		5.4.2.12	12.0	58.77	-0.3823	0.9211	0.415	False
+onetenth	rxn00168_c0			1.8.3.2	23.57	55.35	0.2913	1.03127	0.2825	False
+onetenth	rxn00175_c0	Acetate:CoA ligase (AMP-forming)_c0		6.2.1.17	15.0	56.32	0.29142	2.01765	0.1444	False
+onetenth	rxn09524_c0	NADH dehydrogenase, cytosolic/mitochondrial_m0		1.6.5.9	27.9	29.48	0.42004	3.14335	0.1336	False
+onetenth	rxn00216_c0			2.7.1.1	28.0	41.2	0.28884	2.71031	0.1066	False
+onetenth	rxn35242_c0	ATP:pyruvate 2-O-phosphotransferase_c0		2.7.1.40	28.0	57.7	-0.37779	5.09878	0.0741	False
+onetenth	rxn00459_c0	2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)_c0		4.2.1.11	15.0	47.37	0.3823	5.77341	0.0662	False
+onetenth	rxn09600_c0	Ceramide-3 synthase (26C)_c0		1.14.18.6	13.7	89.32	0.01181	0.18306	0.0645	False
+onetenth	rxn00102_c0	carbonate hydro-lyase (carbon-dioxide-forming)[c0]		4.2.1.1	15.0	18.48	-0.26878	6.04141	0.0445	False
+onetenth	rxn00097_c0	ATP:AMP phosphotransferase_c0		2.7.4.3	24.43	27.62	0.29988	7.43483	0.0403	False
+onetenth	rxn34008_c0	Sulfite Reductase (NADPH)_c0		1.8.1.2	13.7	126.9	0.01255	0.31401	0.04	False
+onetenth	rxn00623_c0	hydrogen-sulfide:NADP+ oxidoreductase		1.8.1.2	13.7	126.9	0.01239	0.31401	0.0394	False
+onetenth	rxn00751_c0	ATP:choline phosphotransferase_c0		2.7.1.32	28.0	89.09	0.01991	0.60816	0.0327	False
+onetenth	rxn00558_c0	D-glucose-6-phosphate aldose-ketose-isomerase_c0		2.7.11.25	20.0	60.84	0.08883	2.75404	0.0323	False
+onetenth	rxn09608_c0	Ceramide-1 hydroxylase (26C)_c0		1.14.18.5	13.7	42.38	0.01212	0.38576	0.0314	False
+onetenth	rxn15114_c0	D-ribose-5-phosphate aldose-ketose-isomerase_c0		5.3.1.6	12.0	35.87	-0.05712	1.82787	0.0313	False
+onetenth	rxn09417_m0	Succinic dehydrogenase_m0		1.3.5.1	13.7	70.36	0.05994	1.95711	0.0306	False
+onetenth	frxn35348_m0	ubiquinol-cytochrome c oxidoreductase Complex III		3.5.2.9	31.0	11.97	0.72549	24.63173	0.0295	False
+onetenth	rxn30365_c0	CDP-Diacylglycerol synthetase, yeast-specific, mitochondrial_c0		2.7.7.41	28.0	85.45	0.02048	0.75471	0.0271	False
+onetenth	rxn01476_c0	6-Phospho-D-glucono-1,5-lactone lactonohydrolase_c0		3.1.1.31	42.0	28.39	0.16253	6.19974	0.0262	False
+onetenth	rxn00505_m0	Isocitrate:NAD+ oxidoreductase (decarboxylating)		1.1.1.41	13.7	40.8	0.05435	2.30565	0.0236	False
+onetenth	rxn00781_c0	D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)_c0		1.2.1.12	13.7	40.43	0.4018	19.07111	0.0211	False
+onetenth	rxn30674_m0	Fumarase_m0		4.2.1.2	15.0	29.38	0.0608	3.02124	0.0201	False
+onetenth	rxn00747_c0	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase_c0		5.3.1.1	12.0	26.91	-0.17471	9.06183	0.0193	False
+onetenth	rxn01100_c0	ATP:3-phospho-D-glycerate 1-phosphotransferase_c0		2.7.2.3	28.0	44.57	-0.4018	21.35255	0.0188	False
+onetenth	rxn01116_c0	D-Ribulose-5-phosphate 3-epimerase_c0		5.1.3.1	12.85	27.89	0.10541	5.74406	0.0184	False
+onetenth	rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)_c0		1.4.1.4	13.7	38.16	-0.0432	2.3499	0.0184	False
+onetenth	rxn23551_r0	3-oxo-arachidonyl-CoA-synthase		2.3.1.199	28.0	37.3	0.01331	0.75153	0.0177	False
+onetenth	rxn23554_r0	3-oxo-behenoyl-CoA-synthase		2.3.1.199	28.0	37.3	0.01331	0.75153	0.0177	False
+onetenth	rxn23559_r0	3-oxo-lignoceronyl-CoA-synthase		2.3.1.199	28.0	37.3	0.01331	0.75153	0.0177	False
+onetenth	rxn35347_m0	cytochrome c oxidase Complex IV			10.0	7.42	0.36274	20.95726	0.0173	False
+onetenth	rxn02134_c0	Sphinganine:NADP+ 3-oxidoreductase_c0		1.1.1.102	13.7	35.94	0.01331	0.77664	0.0171	False
+onetenth	rxn23557_r0	3-oxo-cerotoyl-CoA-synthase		2.3.1.199	28.0	37.3	0.01242	0.75153	0.0165	False
+onetenth	rxn23534_r0	3-oxoarachidoyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.01331	0.82706	0.0161	False
+onetenth	rxn23531_r0	3-oxo-behenoyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.01331	0.82706	0.0161	False
+onetenth	rxn23535_r0	3-oxo-lignoceronyl-CoA-reductase		1.1.1.330	13.7	37.45	-0.01331	0.82706	0.0161	False
+onetenth	rxn01241_m0	Dihydrolipoamide:NAD+ oxidoreductase		2.7.11.1	25.57	47.63	0.05862	3.76157	0.0156	False
+onetenth	rxn23536_r0	3-hydroxy-lignoceroyl-CoA dehydratase		1.1.1.330	13.7	37.45	-0.01242	0.82706	0.015	False
+onetenth	rxn00154_m0			2.3.1.168	20.85	30.99	0.06799	4.74409	0.0143	False
+onetenth	rxn01243_m0	 succinyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating)_m0		2.3.1.61	27.9	47.63	0.05862	4.10487	0.0143	False
+onetenth	rxn00609_c0	myo-Inositol-1-phosphate synthase_c0		5.5.1.4	12.0	35.08	-0.02014	1.40969	0.0143	False
+onetenth	rxn00786_c0	D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)_c0		4.1.2.13	21.5	37.3	0.12156	9.02089	0.0135	False
+onetenth	rxn13384_c0	phospholipase D, yeast-specific_c0		3.1.4.4	42.0	97.85	0.01991	1.47979	0.0135	False
+onetenth	rxn01115_c0			2.4.2.28	20.85	34.26	0.16253	12.68001	0.0128	False
+onetenth	rxn00948_c0	Palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating)_c0		2.3.1.50	28.0	56.85	0.01331	1.06959	0.0124	False
+onetenth	rxn01740_c0	Shikimate:NADP+ 3-oxidoreductase_c0		1.1.1.25	13.7	170.47	0.00226	0.18864	0.012	False
+onetenth	rxn02476_c0	Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase_c0		1.1.1.25	13.7	170.47	0.00226	0.18864	0.012	False
+onetenth	rxn01739_c0	ATP:shikimate 3-phosphotransferase_c0		1.1.1.25	13.7	170.47	0.00226	0.18864	0.012	False
+onetenth	rxn00545_c0			2.2.1.2	28.0	38.49	0.12156	10.67994	0.0114	False
+onetenth	rxn01380_c0	CTP:choline-phosphate cytidylyltransferase_c0		2.7.7.15	28.0	52.2	0.01991	1.76465	0.0113	False
+onetenth	rxn15561_c0	UDP-glucose:alpha-D-(1-3)-glucan 3-alpha-D-glucosyltransferase	cell wall polysaccharide / alpha-1,3-glucan	2.4.1.183	28.0	271.64	0.00057	0.05315	0.0107	False

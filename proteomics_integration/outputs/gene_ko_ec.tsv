@@ -1,0 +1,5282 @@
+gene	ko	ko_source	ec
+S1_only_classu|MSTRG.10017.1.p1	K21752	kofam	
+S1_only_classu|MSTRG.10022.1.p1	K03350	kofam	
+S1_only_classu|MSTRG.10059.1.p1	K02155	kofam	
+S1_only_classu|MSTRG.10061.1.p1	K19833	kofam	2.7.11.1
+S1_only_classu|MSTRG.10079.1.p1	K17974	kofam	
+S1_only_classu|MSTRG.10098.1.p1	K24983	kofam	
+S1_only_classu|MSTRG.10108.1.p1	K09413	kofam	
+S1_only_classu|MSTRG.10108.1.p5	K19730	kofam	
+S1_only_classu|MSTRG.10108.2.p1	K19730	kofam	
+S1_only_classu|MSTRG.10116.1.p2	K28035	kofam	2.7.11.1
+S1_only_classu|MSTRG.10124.1.p1	K03020	kofam	
+S1_only_classu|MSTRG.10133.1.p1	K03265	kofam	
+S1_only_classu|MSTRG.10140.1.p1	K04640	kofam	
+S1_only_classu|MSTRG.10163.1.p1	K13525	kofam	
+S1_only_classu|MSTRG.10171.1.p2	K15456	kofam	
+S1_only_classu|MSTRG.10182.1.p1	K01803	kofam	5.3.1.1
+S1_only_classu|MSTRG.10185.1.p1	K14815	kofam	
+S1_only_classu|MSTRG.10194.1.p1	K04728	kofam	2.7.11.1
+S1_only_classu|MSTRG.10214.1.p2	K03469	kofam	3.1.26.4
+S1_only_classu|MSTRG.10219.1.p1	K03426	kofam	3.6.1.22
+S1_only_classu|MSTRG.10219.1.p2	K12863	kofam	
+S1_only_classu|MSTRG.10219.1.p5	K03678	kofam	
+S1_only_classu|MSTRG.10219.1.p6	K07952	kofam	
+S1_only_classu|MSTRG.10229.1.p1	K03781	kofam	1.11.1.6
+S1_only_classu|MSTRG.10229.1.p2	K03781	kofam	1.11.1.6
+S1_only_classu|MSTRG.1024.1.p1	K20352	kofam	
+S1_only_classu|MSTRG.1026.1.p1	K09051	kofam	
+S1_only_classu|MSTRG.10272.1.p1	K17944	kofam	
+S1_only_classu|MSTRG.10294.1.p1	K03448	kofam	
+S1_only_classu|MSTRG.10340.1.p1	K03260	kofam	
+S1_only_classu|MSTRG.10355.1.p1	K28026	kofam	
+S1_only_classu|MSTRG.10413.1.p1	K16794	kofam	
+S1_only_classu|MSTRG.10414.1.p1	K24394	kofam	
+S1_only_classu|MSTRG.10442.1.p1	K23516	kofam	1.14.11.48
+S1_only_classu|MSTRG.10442.1.p3	K10734	kofam	
+S1_only_classu|MSTRG.10496.1.p1	K02882	kofam	
+S1_only_classu|MSTRG.10496.2.p1	K02882	kofam	
+S1_only_classu|MSTRG.10608.1.p3	K07127	kofam	3.5.2.17
+S1_only_classu|MSTRG.10608.2.p3	K07127	kofam	3.5.2.17
+S1_only_classu|MSTRG.10652.1.p1	K03850	kofam	2.4.1.256
+S1_only_classu|MSTRG.10652.1.p2	K03850	kofam	2.4.1.256
+S1_only_classu|MSTRG.10728.1.p1	K00669	kofam	2.3.1.87
+S1_only_classu|MSTRG.10729.1.p1	K00059	kofam	1.1.1.100
+S1_only_classu|MSTRG.10802.1.p1	K03380	kofam	1.14.13.7
+S1_only_classu|MSTRG.10859.1.p1	K03671	kofam	
+S1_only_classu|MSTRG.1086.1.p3	K14396	kofam	
+S1_only_classu|MSTRG.10882.1.p1	K11246	kofam	
+S1_only_classu|MSTRG.10928.1.p1	K09602	kofam	3.4.19.12
+S1_only_classu|MSTRG.10933.1.p1	K07975	kofam	
+S1_only_classu|MSTRG.10952.1.p1	K15394	kofam	
+S1_only_classu|MSTRG.10956.1.p1	K07375	kofam	
+S1_only_classu|MSTRG.11011.1.p1	K07300	kofam	
+S1_only_classu|MSTRG.11032.1.p1	K06072	kofam	1.14.99.29
+S1_only_classu|MSTRG.11033.1.p2	K03593	kofam	
+S1_only_classu|MSTRG.11104.1.p1	K00382	kofam	1.8.1.4
+S1_only_classu|MSTRG.11108.1.p1	K18587	kofam	
+S1_only_classu|MSTRG.11197.1.p1	K15026	kofam	
+S1_only_classu|MSTRG.11210.1.p1	K15561	kofam	
+S1_only_classu|MSTRG.11258.1.p1	K05767	kofam	
+S1_only_classu|MSTRG.11277.1.p1	K09275	kofam	
+S1_only_classu|MSTRG.11293.1.p1	K08735	kofam	
+S1_only_classu|MSTRG.11326.1.p1	K03033	kofam	
+S1_only_classu|MSTRG.11332.1.p2	K02128	kofam	
+S1_only_classu|MSTRG.11374.2.p1	K11229	kofam	2.7.11.25
+S1_only_classu|MSTRG.11414.1.p1	K24139	kofam	
+S1_only_classu|MSTRG.11631.1.p1	K01487	kofam	3.5.4.3
+S1_only_classu|MSTRG.11647.1.p1	K06215	kofam	4.3.3.6
+S1_only_classu|MSTRG.11655.1.p1	K06677	kofam	
+S1_only_classu|MSTRG.11844.1.p1	K01858	kofam	5.5.1.4
+S1_only_classu|MSTRG.11874.1.p1	K20360	kofam	
+S1_only_classu|MSTRG.11879.1.p1	K17066	kofam	1.1.3.13
+S1_only_classu|MSTRG.11880.1.p1	K13303	kofam	2.7.11.1
+S1_only_classu|MSTRG.11880.1.p2	K01810	kofam	5.3.1.9
+S1_only_classu|MSTRG.11880.2.p1	K13303	kofam	2.7.11.1
+S1_only_classu|MSTRG.11880.2.p2	K01810	kofam	5.3.1.9
+S1_only_classu|MSTRG.11880.3.p1	K01810	kofam	5.3.1.9
+S1_only_classu|MSTRG.11891.1.p1	K00254	kofam	1.3.5.2
+S1_only_classu|MSTRG.11904.1.p1	K12462	kofam	
+S1_only_classu|MSTRG.11938.1.p1	K01181	kofam	3.2.1.8
+S1_only_classu|MSTRG.12028.1.p1	K22210	kofam	4.2.1.48
+S1_only_classu|MSTRG.12041.1.p1	K01264	kofam	3.4.11.15
+S1_only_classu|MSTRG.12090.1.p1	K00318	kofam	1.5.5.2
+S1_only_classu|MSTRG.12167.1.p1	K14561	kofam	
+S1_only_classu|MSTRG.12183.1.p6	K01792	kofam	5.1.3.15
+S1_only_classu|MSTRG.12199.1.p1	K23499	kofam	
+S1_only_classu|MSTRG.12202.1.p1	K19846	kofam	
+S1_only_classu|MSTRG.12228.1.p1	K16073	kofam	
+S1_only_classu|MSTRG.12242.1.p2	K00227	kofam	1.14.19.20
+S1_only_classu|MSTRG.12271.1.p1	K09272	kofam	
+S1_only_classu|MSTRG.12278.1.p3	K03111	kofam	
+S1_only_classu|MSTRG.12299.1.p1	K00161;K03361	kofam	1.2.4.1
+S1_only_classu|MSTRG.12299.1.p2	K10747	kofam	6.5.1.1;6.5.1.6;6.5.1.7
+S1_only_classu|MSTRG.12319.1.p1	K04345	kofam	2.7.11.11
+S1_only_classu|MSTRG.1234.1.p1	K23451	kofam	3.1.3.114
+S1_only_classu|MSTRG.12350.1.p1	K06269	kofam	3.1.3.16
+S1_only_classu|MSTRG.12396.1.p1	K17656	kofam	
+S1_only_classu|MSTRG.12397.1.p1	K12830	kofam	
+S1_only_classu|MSTRG.12402.1.p1	K01070	kofam	3.1.2.12
+S1_only_classu|MSTRG.12404.1.p1	K11155	kofam	2.3.1.20;2.3.1.75;2.3.1.76
+S1_only_classu|MSTRG.12404.1.p2	K00587	kofam	2.1.1.100
+S1_only_classu|MSTRG.12404.1.p3	K00661	kofam	2.3.1.79
+S1_only_classu|MSTRG.12419.1.p1	K04393	kofam	
+S1_only_classu|MSTRG.12429.1.p1	K05012	kofam	
+S1_only_classu|MSTRG.12449.1.p1	K01279	kofam	3.4.14.9
+S1_only_classu|MSTRG.12470.1.p1	K20410	kofam	
+S1_only_classu|MSTRG.12480.1.p1	K11853	kofam	3.4.19.12
+S1_only_classu|MSTRG.12502.1.p1	K20407	kofam	
+S1_only_classu|MSTRG.12502.1.p2	K20407	kofam	
+S1_only_classu|MSTRG.12502.1.p3	K15206	kofam	
+S1_only_classu|MSTRG.12515.1.p4	K01057	kofam	3.1.1.31
+S1_only_classu|MSTRG.1258.1.p1	K11339	kofam	
+S1_only_classu|MSTRG.12591.1.p1	K09554	kofam	
+S1_only_classu|MSTRG.12630.1.p1	K11341	kofam	
+S1_only_classu|MSTRG.12638.1.p1	K15174	kofam	
+S1_only_classu|MSTRG.12641.1.p1	K24976	kofam	
+S1_only_classu|MSTRG.12655.1.p1	K11664	kofam	
+S1_only_classu|MSTRG.12655.1.p2	K17900	kofam	3.1.1.3
+S1_only_classu|MSTRG.1266.1.p1	K06027	kofam	3.6.4.6
+S1_only_classu|MSTRG.12660.1.p1	K11559	kofam	
+S1_only_classu|MSTRG.12663.1.p1	K12817	kofam	
+S1_only_classu|MSTRG.1267.1.p4	K09550	kofam	
+S1_only_classu|MSTRG.12715.1.p1	K11680	kofam	
+S1_only_classu|MSTRG.12716.1.p1	K23499	kofam	
+S1_only_classu|MSTRG.12748.1.p1	K03392;K06176	kofam	4.1.1.45;5.4.99.27
+S1_only_classu|MSTRG.12795.1.p2	K02134	kofam	
+S1_only_classu|MSTRG.12816.1.p1	K08287	kofam	2.7.12.1
+S1_only_classu|MSTRG.12845.1.p1	K01433	kofam	3.5.1.10
+S1_only_classu|MSTRG.1289.1.p1	K06681	kofam	
+S1_only_classu|MSTRG.12936.1.p1	K03854	kofam	2.4.1.-
+S1_only_classu|MSTRG.12946.1.p1	K17922	kofam	
+S1_only_classu|MSTRG.12971.1.p1	K26118	kofam	
+S1_only_classu|MSTRG.12988.1.p1	K15505	kofam	5.6.2.-
+S1_only_classu|MSTRG.13006.1.p1	K01183	kofam	3.2.1.14
+S1_only_classu|MSTRG.13021.1.p1	K06893	kofam	
+S1_only_classu|MSTRG.13023.1.p1	K05917	kofam	1.14.14.154;1.14.15.36
+S1_only_classu|MSTRG.13023.2.p1	K05917	kofam	1.14.14.154;1.14.15.36
+S1_only_classu|MSTRG.13076.1.p1	K00698	kofam	2.4.1.16
+S1_only_classu|MSTRG.13108.1.p2	K15323	kofam	4.6.1.16
+S1_only_classu|MSTRG.1315.1.p2	K11251	kofam	
+S1_only_classu|MSTRG.1319.1.p2	K19356	kofam	1.14.99.54
+S1_only_classu|MSTRG.1321.1.p1	K23319	kofam	1.14.14.-
+S1_only_classu|MSTRG.13212.1.p1	K16369	kofam	2.1.1.17
+S1_only_classu|MSTRG.13212.1.p2	K07404	kofam	3.1.1.31
+S1_only_classu|MSTRG.13222.1.p1	K14360	kofam	
+S1_only_classu|MSTRG.13238.1.p1	K17606	kofam	
+S1_only_classu|MSTRG.1326.1.p1	K15317	kofam	
+S1_only_classu|MSTRG.13295.1.p1	K03062	kofam	
+S1_only_classu|MSTRG.13295.1.p2	K20523	kofam	
+S1_only_classu|MSTRG.13340.1.p1	K23322	kofam	1.-.-.-
+S1_only_classu|MSTRG.13362.1.p1	K24766	kofam	
+S1_only_classu|MSTRG.13439.1.p1	K00963	kofam	2.7.7.9
+S1_only_classu|MSTRG.13456.1.p1	K02179	kofam	
+S1_only_classu|MSTRG.13460.1.p1	K07297	kofam	
+S1_only_classu|MSTRG.13483.1.p1	K19770	kofam	3.1.-.-
+S1_only_classu|MSTRG.13513.1.p1	K15378	kofam	
+S1_only_classu|MSTRG.13522.1.p2	K22684	kofam	3.4.22.-
+S1_only_classu|MSTRG.13528.1.p3	K13974	kofam	
+S1_only_classu|MSTRG.1353.1.p2	K10847	kofam	
+S1_only_classu|MSTRG.1353.1.p4	K10847;K27165	kofam	
+S1_only_classu|MSTRG.13537.1.p1	K11126	kofam	2.7.7.49
+S1_only_classu|MSTRG.13542.1.p1	K20705	kofam	
+S1_only_classu|MSTRG.13568.1.p1	K01179	kofam	3.2.1.4
+S1_only_classu|MSTRG.13627.1.p1	K00021	kofam	1.1.1.34
+S1_only_classu|MSTRG.13692.1.p1	K06067	kofam	3.5.1.98
+S1_only_classu|MSTRG.13702.1.p1	K01062	kofam	3.1.1.47
+S1_only_classu|MSTRG.13727.1.p3	K14686	kofam	
+S1_only_classu|MSTRG.13789.1.p1	K01181	kofam	3.2.1.8
+S1_only_classu|MSTRG.13929.1.p1	K00872;K01933	kofam	2.7.1.39;6.3.3.1
+S1_only_classu|MSTRG.13947.1.p1	K03857	kofam	2.4.1.198
+S1_only_classu|MSTRG.13996.1.p1	K02995	kofam	
+S1_only_classu|MSTRG.14011.1.p1	K07561	kofam	2.5.1.108
+S1_only_classu|MSTRG.14032.1.p1	K02898	kofam	
+S1_only_classu|MSTRG.14063.1.p1	K00077	kofam	1.1.1.169
+S1_only_classu|MSTRG.14098.2.p1	K18328	kofam	3.1.-.-
+S1_only_classu|MSTRG.14146.1.p3	K12734	kofam	5.2.1.8
+S1_only_classu|MSTRG.14152.1.p2	K03036	kofam	
+S1_only_classu|MSTRG.14155.1.p1	K20823	kofam	
+S1_only_classu|MSTRG.14155.1.p3	K13354	kofam	
+S1_only_classu|MSTRG.14186.1.p1	K10756	kofam	
+S1_only_classu|MSTRG.14188.1.p1	K01889	kofam	6.1.1.20
+S1_only_classu|MSTRG.14242.1.p1	K04077	kofam	5.6.1.7
+S1_only_classu|MSTRG.14243.1.p2	K23388	kofam	
+S1_only_classu|MSTRG.14245.1.p1	K00336;K03934	kofam	7.1.1.2
+S1_only_classu|MSTRG.14248.1.p1	K25304	kofam	
+S1_only_classu|MSTRG.14277.1.p1	K22386	kofam	
+S1_only_classu|MSTRG.14279.1.p1	K14005	kofam	
+S1_only_classu|MSTRG.14288.1.p1	K10524	kofam	2.7.1.173;2.7.1.22
+S1_only_classu|MSTRG.14311.1.p1	K03510	kofam	2.7.7.7
+S1_only_classu|MSTRG.14347.1.p1	K05532	kofam	2.4.1.-
+S1_only_classu|MSTRG.14351.1.p1	K11592	kofam	3.1.26.-
+S1_only_classu|MSTRG.14413.1.p1	K00164	kofam	1.2.4.2
+S1_only_classu|MSTRG.14461.1.p1	K27833	kofam	
+S1_only_classu|MSTRG.14486.1.p1	K28214	kofam	5.4.99.9
+S1_only_classu|MSTRG.14515.1.p2	K01875	kofam	6.1.1.11
+S1_only_classu|MSTRG.14516.1.p2	K01875	kofam	6.1.1.11
+S1_only_classu|MSTRG.14517.1.p1	K15338	kofam	3.1.-.-
+S1_only_classu|MSTRG.14549.1.p1	K00456	kofam	1.13.11.20
+S1_only_classu|MSTRG.147.1.p1	K10413	kofam	
+S1_only_classu|MSTRG.14722.1.p1	K01764	kofam	4.4.1.17
+S1_only_classu|MSTRG.14722.1.p3	K17417	kofam	
+S1_only_classu|MSTRG.14795.1.p2	K22134	kofam	
+S1_only_classu|MSTRG.14795.1.p5	K05972	kofam	3.1.1.72
+S1_only_classu|MSTRG.14795.1.p6	K05972	kofam	3.1.1.72
+S1_only_classu|MSTRG.14796.1.p1	K01930	kofam	6.3.2.17
+S1_only_classu|MSTRG.14796.1.p2	K01930	kofam	6.3.2.17
+S1_only_classu|MSTRG.148.1.p2	K00997	kofam	2.7.8.7
+S1_only_classu|MSTRG.14850.1.p2	K10866	kofam	3.6.-.-
+S1_only_classu|MSTRG.14878.1.p1	K27388	kofam	
+S1_only_classu|MSTRG.14908.1.p1	K19487	kofam	
+S1_only_classu|MSTRG.14908.1.p2	K19487	kofam	
+S1_only_classu|MSTRG.14919.1.p1	K14552	kofam	
+S1_only_classu|MSTRG.14940.1.p1	K20178	kofam	
+S1_only_classu|MSTRG.1495.1.p1	K18468	kofam	
+S1_only_classu|MSTRG.14953.1.p1	K07126;K14026	kofam	
+S1_only_classu|MSTRG.14953.2.p1	K07126;K14026	kofam	
+S1_only_classu|MSTRG.14953.2.p2	K07126	kofam	
+S1_only_classu|MSTRG.14968.1.p1	K12852	kofam	
+S1_only_classu|MSTRG.14979.1.p1	K09265	kofam	
+S1_only_classu|MSTRG.14980.1.p1	K11644	kofam	
+S1_only_classu|MSTRG.14982.1.p1	K01872	kofam	6.1.1.7
+S1_only_classu|MSTRG.14991.1.p4	K03145	kofam	
+S1_only_classu|MSTRG.15006.1.p1	K00759	kofam	2.4.2.7
+S1_only_classu|MSTRG.15036.1.p1	K20813	kofam	3.2.2.29
+S1_only_classu|MSTRG.15040.1.p1	K23093	kofam	3.1.4.-
+S1_only_classu|MSTRG.15072.1.p2	K12184	kofam	
+S1_only_classu|MSTRG.15092.1.p1	K11446	kofam	1.14.11.67
+S1_only_classu|MSTRG.15145.1.p2	K03098	kofam	
+S1_only_classu|MSTRG.1518.1.p1	K05349	kofam	3.2.1.21
+S1_only_classu|MSTRG.15235.1.p1	K22884	kofam	2.3.1.-
+S1_only_classu|MSTRG.15235.1.p2	K12389	kofam	
+S1_only_classu|MSTRG.15256.1.p1	K08744;K21631	kofam	2.7.8.41
+S1_only_classu|MSTRG.15261.1.p1	K08066	kofam	
+S1_only_classu|MSTRG.15266.1.p1	K08337	kofam	
+S1_only_classu|MSTRG.15278.1.p1	K08967	kofam	1.13.11.53;1.13.11.54
+S1_only_classu|MSTRG.15279.1.p1	K13989	kofam	
+S1_only_classu|MSTRG.15319.1.p1	K13025	kofam	5.6.2.7
+S1_only_classu|MSTRG.1559.1.p2	K12826	kofam	
+S1_only_classu|MSTRG.156.1.p1	K15449	kofam	4.1.3.44
+S1_only_classu|MSTRG.156.1.p3	K17770	kofam	
+S1_only_classu|MSTRG.1586.1.p1	K00683	kofam	2.3.2.5
+S1_only_classu|MSTRG.1632.1.p1	K15430	kofam	2.1.1.214
+S1_only_classu|MSTRG.1718.1.p1	K15196	kofam	
+S1_only_classu|MSTRG.1781.1.p1	K01426	kofam	3.5.1.4
+S1_only_classu|MSTRG.1840.1.p1	K00641	kofam	2.3.1.31;2.3.1.46
+S1_only_classu|MSTRG.1842.1.p2	K01501;K10675	kofam	3.5.5.1;4.2.1.66
+S1_only_classu|MSTRG.1866.1.p1	K23114	kofam	3.1.3.-
+S1_only_classu|MSTRG.1914.1.p1	K00276	kofam	1.4.3.21
+S1_only_classu|MSTRG.1914.2.p1	K00276	kofam	1.4.3.21
+S1_only_classu|MSTRG.1916.1.p1	K05528	kofam	2.4.1.232
+S1_only_classu|MSTRG.1937.1.p1	K16261	kofam	
+S1_only_classu|MSTRG.1953.1.p1	K00844	kofam	2.7.1.1
+S1_only_classu|MSTRG.1953.1.p2	K20793	kofam	2.3.1.258;2.3.1.309
+S1_only_classu|MSTRG.1967.1.p1	K01974	kofam	6.5.1.4
+S1_only_classu|MSTRG.197.1.p1	K04486	kofam	3.1.3.15
+S1_only_classu|MSTRG.2051.1.p1	K20832	kofam	3.2.1.181
+S1_only_classu|MSTRG.209.1.p2	K19366	kofam	
+S1_only_classu|MSTRG.2129.1.p1	K06699	kofam	
+S1_only_classu|MSTRG.2135.1.p1	K07542	kofam	2.4.1.-
+S1_only_classu|MSTRG.2260.1.p2	K00988	kofam	2.7.7.5;2.7.7.53
+S1_only_classu|MSTRG.2260.1.p3	K28100	kofam	3.6.1.-
+S1_only_classu|MSTRG.2314.1.p1	K26405	kofam	
+S1_only_classu|MSTRG.2403.1.p1	K20195	kofam	
+S1_only_classu|MSTRG.2416.1.p1	K09549	kofam	
+S1_only_classu|MSTRG.2417.1.p1	K08065	kofam	
+S1_only_classu|MSTRG.2420.1.p1	K15263	kofam	
+S1_only_classu|MSTRG.2420.1.p2	K13346	kofam	2.3.2.27
+S1_only_classu|MSTRG.2425.1.p1	K01950	kofam	6.3.5.1
+S1_only_classu|MSTRG.2449.1.p1	K14553	kofam	
+S1_only_classu|MSTRG.2468.1.p1	K27103	kofam	
+S1_only_classu|MSTRG.2474.1.p1	K12488	kofam	
+S1_only_classu|MSTRG.2500.1.p2	K13993	kofam	
+S1_only_classu|MSTRG.2615.1.p1	K10585	kofam	2.3.2.23
+S1_only_classu|MSTRG.2619.1.p1	K14015	kofam	
+S1_only_classu|MSTRG.2621.1.p1	K12854	kofam	5.6.2.6
+S1_only_classu|MSTRG.2621.2.p1	K12854	kofam	5.6.2.6
+S1_only_classu|MSTRG.2636.1.p1	K01191	kofam	3.2.1.24
+S1_only_classu|MSTRG.264.1.p1	K01338	kofam	3.4.21.53
+S1_only_classu|MSTRG.2641.1.p2	K15443	kofam	
+S1_only_classu|MSTRG.2641.1.p5	K02941	kofam	
+S1_only_classu|MSTRG.2642.1.p1	K15443	kofam	
+S1_only_classu|MSTRG.266.1.p1	K00389	kofam	
+S1_only_classu|MSTRG.2674.1.p1	K10901	kofam	5.6.2.4
+S1_only_classu|MSTRG.2705.1.p1	K19800	kofam	2.7.11.1
+S1_only_classu|MSTRG.2712.1.p2	K14319	kofam	
+S1_only_classu|MSTRG.2713.1.p1	K01183	kofam	3.2.1.14
+S1_only_classu|MSTRG.2714.1.p1	K01183	kofam	3.2.1.14
+S1_only_classu|MSTRG.2764.1.p1	K11498	kofam	
+S1_only_classu|MSTRG.2766.1.p1	K03321	kofam	
+S1_only_classu|MSTRG.277.1.p1	K00327	kofam	1.6.2.4
+S1_only_classu|MSTRG.2781.1.p1	K01277	kofam	3.4.14.4
+S1_only_classu|MSTRG.2818.1.p1	K01892	kofam	6.1.1.21
+S1_only_classu|MSTRG.282.1.p1	K27804	kofam	
+S1_only_classu|MSTRG.282.1.p7	K12859	kofam	
+S1_only_classu|MSTRG.2824.1.p1	K03163	kofam	5.6.2.1
+S1_only_classu|MSTRG.283.1.p1	K27804	kofam	
+S1_only_classu|MSTRG.2872.1.p1	K11872	kofam	3.4.19.12
+S1_only_classu|MSTRG.3074.1.p1	K22684	kofam	3.4.22.-
+S1_only_classu|MSTRG.3094.1.p1	K00799	kofam	2.5.1.18
+S1_only_classu|MSTRG.3101.1.p1	K04079	kofam	
+S1_only_classu|MSTRG.3131.1.p1	K21292;K23322	kofam	1.-.-.-;1.14.14.86
+S1_only_classu|MSTRG.3156.1.p1	K20177	kofam	
+S1_only_classu|MSTRG.3156.1.p2	K17878	kofam	2.1.1.-
+S1_only_classu|MSTRG.3157.1.p1	K17878	kofam	2.1.1.-
+S1_only_classu|MSTRG.3166.1.p2	K08489	kofam	
+S1_only_classu|MSTRG.3172.1.p1	K15559	kofam	
+S1_only_classu|MSTRG.32.1.p1	K14548	kofam	
+S1_only_classu|MSTRG.3217.1.p2	K01736	kofam	4.2.3.5
+S1_only_classu|MSTRG.3232.1.p2	K13212	kofam	
+S1_only_classu|MSTRG.3244.1.p1	K14262	kofam	3.4.-.-
+S1_only_classu|MSTRG.3265.1.p1	K00107	kofam	1.1.3.37
+S1_only_classu|MSTRG.3296.1.p1	K22696	kofam	2.1.1.-
+S1_only_classu|MSTRG.3320.1.p1	K04464	kofam	2.7.11.24
+S1_only_classu|MSTRG.3400.1.p1	K07497	kofam	
+S1_only_classu|MSTRG.3412.1.p1	K10531	kofam	1.14.13.195;1.14.13.196
+S1_only_classu|MSTRG.356.1.p1	K01807	kofam	5.3.1.6
+S1_only_classu|MSTRG.3623.1.p1	K17862	kofam	1.13.11.62
+S1_only_classu|MSTRG.3647.1.p1	K03457	kofam	
+S1_only_classu|MSTRG.3697.1.p1	K00928	kofam	2.7.2.4
+S1_only_classu|MSTRG.3742.1.p1	K01469	kofam	3.5.2.9
+S1_only_classu|MSTRG.3764.1.p1	K17805	kofam	
+S1_only_classu|MSTRG.381.1.p1	K10884	kofam	
+S1_only_classu|MSTRG.3822.1.p1	K22745	kofam	
+S1_only_classu|MSTRG.3827.1.p1	K14782	kofam	
+S1_only_classu|MSTRG.3855.1.p1	K04705;K08331	kofam	
+S1_only_classu|MSTRG.3858.1.p1	K01610	kofam	4.1.1.49
+S1_only_classu|MSTRG.3876.1.p1	K12471	kofam	
+S1_only_classu|MSTRG.3885.1.p1	K10838;K12604	kofam	
+S1_only_classu|MSTRG.3892.1.p3	K00477	kofam	1.14.11.18
+S1_only_classu|MSTRG.3892.1.p4	K02730	kofam	3.4.25.1
+S1_only_classu|MSTRG.3900.1.p1	K15040	kofam	
+S1_only_classu|MSTRG.3936.1.p1	K22746	kofam	
+S1_only_classu|MSTRG.3941.1.p1	K01598	kofam	4.1.1.36
+S1_only_classu|MSTRG.3941.2.p1	K01598	kofam	4.1.1.36
+S1_only_classu|MSTRG.3948.1.p1	K19572	kofam	3.5.4.4
+S1_only_classu|MSTRG.3950.1.p1	K04070	kofam	1.97.1.4
+S1_only_classu|MSTRG.3959.1.p1	K00797	kofam	2.5.1.16
+S1_only_classu|MSTRG.3986.1.p1	K21546	kofam	
+S1_only_classu|MSTRG.4007.1.p1	K18655	kofam	5.6.2.7
+S1_only_classu|MSTRG.4010.1.p3	K12663	kofam	5.3.3.21
+S1_only_classu|MSTRG.402.1.p2	K02976	kofam	
+S1_only_classu|MSTRG.4029.1.p1	K01194	kofam	3.2.1.28
+S1_only_classu|MSTRG.403.1.p1	K02977	kofam	
+S1_only_classu|MSTRG.4087.1.p1	K11226	kofam	2.7.12.2
+S1_only_classu|MSTRG.4090.1.p1	K14545	kofam	
+S1_only_classu|MSTRG.4123.1.p1	K12763	kofam	
+S1_only_classu|MSTRG.4141.1.p1	K09659	kofam	
+S1_only_classu|MSTRG.4153.1.p1	K07101	kofam	
+S1_only_classu|MSTRG.4160.1.p1	K07497	kofam	
+S1_only_classu|MSTRG.4208.2.p1	K02873	kofam	
+S1_only_classu|MSTRG.4270.1.p1	K00864	kofam	2.7.1.30
+S1_only_classu|MSTRG.4280.1.p1	K09827	kofam	1.1.1.270
+S1_only_classu|MSTRG.4294.1.p1	K03942	kofam	7.1.1.2
+S1_only_classu|MSTRG.4321.1.p1	K12486	kofam	
+S1_only_classu|MSTRG.4324.1.p1	K20523	kofam	
+S1_only_classu|MSTRG.4327.1.p2	K14334	kofam	5.5.1.5
+S1_only_classu|MSTRG.4355.1.p1	K04567	kofam	6.1.1.6
+S1_only_classu|MSTRG.4364.1.p2	K09529	kofam	
+S1_only_classu|MSTRG.4372.1.p1	K00565	kofam	2.1.1.56
+S1_only_classu|MSTRG.4379.1.p1	K00814	kofam	2.6.1.2
+S1_only_classu|MSTRG.4382.1.p1	K20062	kofam	
+S1_only_classu|MSTRG.4390.1.p1	K00059	kofam	1.1.1.100
+S1_only_classu|MSTRG.4403.1.p1	K03183	kofam	2.1.1.163;2.1.1.201
+S1_only_classu|MSTRG.4431.1.p1	K09043	kofam	
+S1_only_classu|MSTRG.4446.1.p1	K01210	kofam	3.2.1.58
+S1_only_classu|MSTRG.4449.1.p1	K27389	kofam	
+S1_only_classu|MSTRG.4451.1.p1	K00167	kofam	1.2.4.4
+S1_only_classu|MSTRG.452.1.p1	K28105	kofam	
+S1_only_classu|MSTRG.452.2.p1	K28105	kofam	
+S1_only_classu|MSTRG.4555.1.p1	K00761	kofam	2.4.2.9
+S1_only_classu|MSTRG.460.1.p1	K13719	kofam	3.1.2.-
+S1_only_classu|MSTRG.4617.1.p1	K00262	kofam	1.4.1.4
+S1_only_classu|MSTRG.4619.1.p1	K02327	kofam	2.7.7.7
+S1_only_classu|MSTRG.4624.1.p1	K15562	kofam	2.7.11.22;2.7.11.23
+S1_only_classu|MSTRG.4645.1.p1	K17279	kofam	
+S1_only_classu|MSTRG.4665.1.p1	K01273	kofam	3.4.13.19
+S1_only_classu|MSTRG.4665.1.p2	K02952	kofam	
+S1_only_classu|MSTRG.4698.1.p1	K15289	kofam	
+S1_only_classu|MSTRG.4701.1.p1	K01526	kofam	3.6.1.42
+S1_only_classu|MSTRG.4701.1.p2	K07897	kofam	3.6.5.2
+S1_only_classu|MSTRG.4709.1.p1	K16912	kofam	
+S1_only_classu|MSTRG.4709.1.p2	K01069	kofam	3.1.2.6
+S1_only_classu|MSTRG.4710.1.p1	K00858	kofam	2.7.1.23
+S1_only_classu|MSTRG.4750.1.p1	K14558	kofam	
+S1_only_classu|MSTRG.4777.1.p3	K00787	kofam	2.5.1.1;2.5.1.10
+S1_only_classu|MSTRG.478.1.p1	K11366	kofam	3.4.19.12
+S1_only_classu|MSTRG.4858.1.p3	K12161	kofam	
+S1_only_classu|MSTRG.4859.1.p1	K11374	kofam	
+S1_only_classu|MSTRG.4877.1.p2	K14845	kofam	
+S1_only_classu|MSTRG.4915.1.p1	K01952	kofam	6.3.5.3
+S1_only_classu|MSTRG.4953.1.p1	K13950	kofam	2.6.1.85
+S1_only_classu|MSTRG.4953.1.p4	K28212	kofam	
+S1_only_classu|MSTRG.4996.1.p1	K17439	kofam	
+S1_only_classu|MSTRG.5013.1.p1	K02930	kofam	
+S1_only_classu|MSTRG.5030.1.p2	K18723	kofam	
+S1_only_classu|MSTRG.5030.1.p6	K08499	kofam	
+S1_only_classu|MSTRG.5065.1.p1	K12948	kofam	3.4.-.-
+S1_only_classu|MSTRG.5091.1.p1	K01113	kofam	3.1.3.1
+S1_only_classu|MSTRG.5099.1.p1	K01749	kofam	2.5.1.61
+S1_only_classu|MSTRG.5099.1.p4	K02437	kofam	
+S1_only_classu|MSTRG.5104.1.p1	K06682	kofam	
+S1_only_classu|MSTRG.5144.1.p1	K11870	kofam	3.4.19.12
+S1_only_classu|MSTRG.5145.1.p1	K13110	kofam	
+S1_only_classu|MSTRG.5146.1.p1	K02321	kofam	
+S1_only_classu|MSTRG.5146.1.p2	K13110	kofam	
+S1_only_classu|MSTRG.5149.1.p1	K15202	kofam	
+S1_only_classu|MSTRG.515.2.p1	K20295	kofam	
+S1_only_classu|MSTRG.5151.1.p1	K01581	kofam	4.1.1.17
+S1_only_classu|MSTRG.5157.1.p1	K26808	kofam	
+S1_only_classu|MSTRG.5178.1.p1	K15082	kofam	
+S1_only_classu|MSTRG.5178.1.p2	K20028	kofam	2.3.1.225
+S1_only_classu|MSTRG.5191.1.p1	K02328	kofam	
+S1_only_classu|MSTRG.5192.1.p1	K11501	kofam	
+S1_only_classu|MSTRG.5192.1.p2	K12608	kofam	
+S1_only_classu|MSTRG.5200.1.p1	K00869;K05955	kofam	2.5.1.58;2.5.1.59;2.7.1.36
+S1_only_classu|MSTRG.5348.1.p1	K07168	kofam	
+S1_only_classu|MSTRG.5368.1.p1	K14708	kofam	
+S1_only_classu|MSTRG.5405.1.p1	K20523	kofam	
+S1_only_classu|MSTRG.5427.1.p1	K05925	kofam	2.1.1.348
+S1_only_classu|MSTRG.5448.1.p1	K00111	kofam	1.1.5.3
+S1_only_classu|MSTRG.5517.1.p1	K14684	kofam	
+S1_only_classu|MSTRG.5549.1.p3	K14686	kofam	
+S1_only_classu|MSTRG.5554.1.p1	K12183	kofam	
+S1_only_classu|MSTRG.5567.1.p1	K09250	kofam	
+S1_only_classu|MSTRG.5645.1.p2	K01046	kofam	3.1.1.3
+S1_only_classu|MSTRG.5678.1.p1	K00661	kofam	2.3.1.79
+S1_only_classu|MSTRG.5692.1.p1	K25817	kofam	
+S1_only_classu|MSTRG.571.1.p1	K20303	kofam	
+S1_only_classu|MSTRG.5768.1.p1	K00698	kofam	2.4.1.16
+S1_only_classu|MSTRG.5768.1.p3	K10579	kofam	2.3.2.34
+S1_only_classu|MSTRG.5768.2.p1	K00698	kofam	2.4.1.16
+S1_only_classu|MSTRG.5768.2.p3	K10579	kofam	2.3.2.34
+S1_only_classu|MSTRG.5813.1.p1	K03013	kofam	
+S1_only_classu|MSTRG.5847.1.p1	K17679	kofam	5.6.2.7
+S1_only_classu|MSTRG.5847.1.p2	K13341	kofam	
+S1_only_classu|MSTRG.59.1.p1	K03358	kofam	
+S1_only_classu|MSTRG.5909.1.p1	K23801	kofam	
+S1_only_classu|MSTRG.5909.1.p2	K00626	kofam	2.3.1.9
+S1_only_classu|MSTRG.5920.1.p1	K09184	kofam	
+S1_only_classu|MSTRG.5951.2.p1	K02180	kofam	
+S1_only_classu|MSTRG.5972.1.p1	K11672	kofam	
+S1_only_classu|MSTRG.5974.1.p1	K11667	kofam	
+S1_only_classu|MSTRG.5974.1.p3	K26683	kofam	
+S1_only_classu|MSTRG.5997.1.p1	K03686	kofam	
+S1_only_classu|MSTRG.6031.1.p1	K02729	kofam	3.4.25.1
+S1_only_classu|MSTRG.6035.1.p1	K11885	kofam	3.4.23.-
+S1_only_classu|MSTRG.6062.1.p1	K20523	kofam	
+S1_only_classu|MSTRG.6077.2.p1	K03347	kofam	
+S1_only_classu|MSTRG.6094.1.p1	K14327	kofam	
+S1_only_classu|MSTRG.6143.1.p1	K14376	kofam	2.7.7.19
+S1_only_classu|MSTRG.615.1.p1	K23553	kofam	
+S1_only_classu|MSTRG.6156.1.p1	K01939	kofam	6.3.4.4
+S1_only_classu|MSTRG.6173.1.p1	K01886	kofam	6.1.1.18
+S1_only_classu|MSTRG.6245.1.p2	K05994	kofam	3.4.11.10
+S1_only_classu|MSTRG.6252.1.p1	K22134	kofam	
+S1_only_classu|MSTRG.629.1.p2	K13237	kofam	1.3.1.124
+S1_only_classu|MSTRG.6298.1.p1	K01940	kofam	6.3.4.5
+S1_only_classu|MSTRG.6333.1.p1	K12481	kofam	
+S1_only_classu|MSTRG.6336.1.p2	K05972	kofam	3.1.1.72
+S1_only_classu|MSTRG.6337.1.p1	K00799	kofam	2.5.1.18
+S1_only_classu|MSTRG.6362.1.p1	K05349	kofam	3.2.1.21
+S1_only_classu|MSTRG.6463.1.p1	K03846	kofam	2.4.1.259;2.4.1.261
+S1_only_classu|MSTRG.6479.1.p1	K17807	kofam	
+S1_only_classu|MSTRG.648.1.p1	K17893	kofam	1.10.3.11
+S1_only_classu|MSTRG.648.2.p1	K17893	kofam	1.10.3.11
+S1_only_classu|MSTRG.6497.1.p1	K21451	kofam	
+S1_only_classu|MSTRG.6513.1.p1	K16261	kofam	
+S1_only_classu|MSTRG.6516.1.p1	K14338	kofam	1.14.14.1;1.6.2.4
+S1_only_classu|MSTRG.6518.1.p1	K00844	kofam	2.7.1.1
+S1_only_classu|MSTRG.655.1.p1	K08991	kofam	3.1.22.-
+S1_only_classu|MSTRG.655.1.p2	K00793	kofam	2.5.1.9
+S1_only_classu|MSTRG.6552.1.p1	K00344	kofam	1.6.5.5
+S1_only_classu|MSTRG.6579.1.p1	K08192	kofam	
+S1_only_classu|MSTRG.6589.1.p1	K12346	kofam	
+S1_only_classu|MSTRG.6609.1.p2	K02738	kofam	3.4.25.1
+S1_only_classu|MSTRG.6609.1.p3	K17891	kofam	1.8.3.2
+S1_only_classu|MSTRG.6609.1.p5	K01529	kofam	3.6.1.73
+S1_only_classu|MSTRG.6646.1.p1	K19305	kofam	3.4.24.39
+S1_only_classu|MSTRG.6649.1.p1	K19356	kofam	1.14.99.54
+S1_only_classu|MSTRG.668.1.p1	K03320	kofam	
+S1_only_classu|MSTRG.6716.1.p1	K18715	kofam	
+S1_only_classu|MSTRG.6830.1.p1	K22745	kofam	
+S1_only_classu|MSTRG.6832.2.p1	K10862	kofam	3.1.4.-
+S1_only_classu|MSTRG.6844.1.p1	K03164	kofam	5.6.2.2
+S1_only_classu|MSTRG.6844.1.p6	K01673	kofam	4.2.1.1
+S1_only_classu|MSTRG.685.1.p1	K02326	kofam	2.7.7.7
+S1_only_classu|MSTRG.6858.1.p1	K00459	kofam	1.13.12.16
+S1_only_classu|MSTRG.6861.1.p1	K12769	kofam	
+S1_only_classu|MSTRG.6872.1.p1	K12275	kofam	
+S1_only_classu|MSTRG.6954.1.p1	K12879	kofam	
+S1_only_classu|MSTRG.6955.1.p1	K00641	kofam	2.3.1.31;2.3.1.46
+S1_only_classu|MSTRG.7061.1.p1	K20794	kofam	2.3.1.257
+S1_only_classu|MSTRG.709.1.p1	K00294	kofam	1.2.1.88
+S1_only_classu|MSTRG.7132.1.p1	K02994	kofam	
+S1_only_classu|MSTRG.7154.1.p1	K05291	kofam	
+S1_only_classu|MSTRG.716.1.p1	K01512	kofam	3.6.1.7
+S1_only_classu|MSTRG.719.1.p1	K23905	kofam	
+S1_only_classu|MSTRG.7222.1.p1	K04797	kofam	
+S1_only_classu|MSTRG.7223.1.p1	K26400	kofam	4.2.1.118
+S1_only_classu|MSTRG.7283.1.p1	K11396	kofam	
+S1_only_classu|MSTRG.7331.1.p1	K01318	kofam	3.4.21.19
+S1_only_classu|MSTRG.7391.1.p1	K02138;K03626	kofam	
+S1_only_classu|MSTRG.7401.1.p1	K07126	kofam	
+S1_only_classu|MSTRG.7401.2.p1	K07126	kofam	
+S1_only_classu|MSTRG.7430.1.p1	K23678	kofam	
+S1_only_classu|MSTRG.746.1.p1	K01771	kofam	4.6.1.13
+S1_only_classu|MSTRG.7488.1.p1	K01937	kofam	6.3.4.2
+S1_only_classu|MSTRG.7488.1.p2	K01439	kofam	3.5.1.18
+S1_only_classu|MSTRG.749.1.p1	K00789	kofam	2.5.1.6
+S1_only_classu|MSTRG.75.1.p2	K10842	kofam	
+S1_only_classu|MSTRG.75.1.p3	K25866	kofam	
+S1_only_classu|MSTRG.7540.1.p1	K01803	kofam	5.3.1.1
+S1_only_classu|MSTRG.7549.1.p1	K06689	kofam	2.3.2.23
+S1_only_classu|MSTRG.7556.1.p1	K14007	kofam	
+S1_only_classu|MSTRG.7556.2.p1	K14007	kofam	
+S1_only_classu|MSTRG.758.1.p1	K00295	kofam	1.5.1.15
+S1_only_classu|MSTRG.759.1.p1	K15075	kofam	
+S1_only_classu|MSTRG.7604.1.p2	K03146	kofam	2.4.2.60
+S1_only_classu|MSTRG.7650.1.p1	K08073	kofam	2.7.1.78;3.1.3.32
+S1_only_classu|MSTRG.7650.2.p1	K08073	kofam	2.7.1.78;3.1.3.32
+S1_only_classu|MSTRG.7728.1.p1	K11121	kofam	2.3.1.286
+S1_only_classu|MSTRG.7742.1.p1	K18123	kofam	4.1.3.16
+S1_only_classu|MSTRG.7759.1.p1	K02309	kofam	
+S1_only_classu|MSTRG.7761.1.p1	K10576	kofam	2.3.2.23
+S1_only_classu|MSTRG.7765.1.p1	K01262;K18573	kofam	3.4.11.26;3.4.11.9
+S1_only_classu|MSTRG.7791.1.p1	K22736	kofam	
+S1_only_classu|MSTRG.7806.1.p1	K08900	kofam	
+S1_only_classu|MSTRG.7808.1.p2	K25178	kofam	
+S1_only_classu|MSTRG.7829.1.p1	K12606	kofam	
+S1_only_classu|MSTRG.7849.1.p2	K00390	kofam	1.8.4.10;1.8.4.8
+S1_only_classu|MSTRG.7918.1.p3	K18182	kofam	
+S1_only_classu|MSTRG.7919.1.p1	K21751	kofam	
+S1_only_classu|MSTRG.7972.1.p1	K01164	kofam	3.1.26.5
+S1_only_classu|MSTRG.7980.1.p1	K10706	kofam	5.6.2.3;5.6.2.5
+S1_only_classu|MSTRG.7994.1.p1	K03681	kofam	
+S1_only_classu|MSTRG.8015.1.p1	K17738	kofam	1.1.1.250
+S1_only_classu|MSTRG.8025.1.p2	K06133	kofam	2.7.8.-
+S1_only_classu|MSTRG.8062.1.p1	K25656	kofam	
+S1_only_classu|MSTRG.8107.1.p1	K08869	kofam	
+S1_only_classu|MSTRG.8167.1.p1	K02150	kofam	
+S1_only_classu|MSTRG.8219.1.p2	K00850	kofam	2.7.1.11
+S1_only_classu|MSTRG.8219.1.p3	K15134	kofam	
+S1_only_classu|MSTRG.8266.1.p1	K03263	kofam	
+S1_only_classu|MSTRG.8290.1.p1	K26089	kofam	
+S1_only_classu|MSTRG.8297.1.p1	K08832	kofam	2.7.11.1
+S1_only_classu|MSTRG.8357.1.p1	K01694;K01695;K01696	kofam	4.2.1.20
+S1_only_classu|MSTRG.8357.1.p5	K02902	kofam	
+S1_only_classu|MSTRG.8369.1.p1	K13179	kofam	5.6.2.7
+S1_only_classu|MSTRG.8411.1.p1	K01647	kofam	2.3.3.1
+S1_only_classu|MSTRG.8480.1.p1	K00900	kofam	2.7.1.105
+S1_only_classu|MSTRG.8484.1.p1	K03469;K15442	kofam	3.1.26.4
+S1_only_classu|MSTRG.8485.1.p1	K24160	kofam	
+S1_only_classu|MSTRG.8488.1.p1	K00264;K00265;K00266	kofam	1.4.1.13;1.4.1.14
+S1_only_classu|MSTRG.8513.1.p2	K08504	kofam	
+S1_only_classu|MSTRG.8531.1.p4	K02877	kofam	
+S1_only_classu|MSTRG.8540.1.p1	K12620	kofam	
+S1_only_classu|MSTRG.8556.1.p1	K06653	kofam	
+S1_only_classu|MSTRG.8563.1.p1	K00830	kofam	2.6.1.44;2.6.1.45;2.6.1.51
+S1_only_classu|MSTRG.8569.1.p1	K14290	kofam	
+S1_only_classu|MSTRG.8570.1.p1	K12589	kofam	
+S1_only_classu|MSTRG.8570.1.p9	K08738	kofam	
+S1_only_classu|MSTRG.8581.1.p1	K24730	kofam	
+S1_only_classu|MSTRG.8600.1.p1	K03144	kofam	
+S1_only_classu|MSTRG.8646.1.p1	K20289	kofam	
+S1_only_classu|MSTRG.8646.1.p2	K02863	kofam	
+S1_only_classu|MSTRG.8699.1.p2	K05019	kofam	
+S1_only_classu|MSTRG.8752.1.p1	K01883	kofam	6.1.1.16
+S1_only_classu|MSTRG.8830.1.p1	K08064	kofam	
+S1_only_classu|MSTRG.8851.1.p1	K11369	kofam	
+S1_only_classu|MSTRG.8886.1.p1	K15429	kofam	2.1.1.228
+S1_only_classu|MSTRG.8953.1.p1	K07126	kofam	
+S1_only_classu|MSTRG.9052.1.p1	K02555	kofam	3.1.3.48
+S1_only_classu|MSTRG.9062.1.p1	K02111;K02132	kofam	7.1.2.2;7.2.2.1
+S1_only_classu|MSTRG.9075.1.p1	K17742	kofam	1.1.1.289
+S1_only_classu|MSTRG.9113.2.p3	K01051	kofam	3.1.1.11
+S1_only_classu|MSTRG.9147.1.p1	K08257	kofam	3.2.1.101
+S1_only_classu|MSTRG.9161.1.p2	K00615	kofam	2.2.1.1
+S1_only_classu|MSTRG.9189.1.p1	K17617	kofam	3.1.3.16
+S1_only_classu|MSTRG.9201.1.p1	K15115	kofam	
+S1_only_classu|MSTRG.9210.1.p1	K12840	kofam	
+S1_only_classu|MSTRG.9211.1.p1	K22133	kofam	6.2.1.8
+S1_only_classu|MSTRG.9219.1.p1	K20457	kofam	6.3.2.12
+S1_only_classu|MSTRG.9255.1.p1	K05884	kofam	1.1.1.337
+S1_only_classu|MSTRG.9256.1.p1	K01756	kofam	4.3.2.2
+S1_only_classu|MSTRG.9260.2.p1	K23319	kofam	1.14.14.-
+S1_only_classu|MSTRG.9316.1.p1	K28035	kofam	2.7.11.1
+S1_only_classu|MSTRG.9327.1.p1	K02889	kofam	
+S1_only_classu|MSTRG.9356.1.p1	K20223	kofam	
+S1_only_classu|MSTRG.9383.1.p2	K22315	kofam	3.1.3.37
+S1_only_classu|MSTRG.9387.1.p1	K18726	kofam	
+S1_only_classu|MSTRG.9390.1.p1	K12825	kofam	
+S1_only_classu|MSTRG.9393.1.p1	K00728	kofam	2.4.1.109
+S1_only_classu|MSTRG.9402.1.p1	K00065	kofam	1.1.1.127
+S1_only_classu|MSTRG.9405.1.p1	K08490	kofam	
+S1_only_classu|MSTRG.9407.1.p1	K11233	kofam	
+S1_only_classu|MSTRG.9490.1.p1	K01230	kofam	3.2.1.113
+S1_only_classu|MSTRG.9534.1.p1	K15371	kofam	1.4.1.2
+S1_only_classu|MSTRG.9544.1.p1	K19841	kofam	
+S1_only_classu|MSTRG.9568.1.p1	K19704	kofam	3.1.3.16
+S1_only_classu|MSTRG.9568.2.p1	K19704	kofam	3.1.3.16
+S1_only_classu|MSTRG.9612.1.p2	K02431	kofam	5.1.3.29
+S1_only_classu|MSTRG.9651.1.p3	K02912	kofam	
+S1_only_classu|MSTRG.9655.1.p1	K02871	kofam	
+S1_only_classu|MSTRG.9657.1.p1	K12823	kofam	5.6.2.7
+S1_only_classu|MSTRG.9665.1.p1	K01077	kofam	3.1.3.1
+S1_only_classu|MSTRG.9669.1.p1	K21455	kofam	
+S1_only_classu|MSTRG.9686.1.p3	K17362	kofam	3.1.2.-
+S1_only_classu|MSTRG.972.1.p1	K00800;K01735;K13830	kofam	1.1.1.25;2.5.1.19;2.7.1.71;4.2.1.10;4.2.3.4
+S1_only_classu|MSTRG.975.1.p1	K12843	kofam	
+S1_only_classu|MSTRG.977.1.p1	K02999	kofam	2.7.7.6
+S1_only_classu|MSTRG.9989.1.p1	K04708	kofam	1.1.1.102
+S2_only_classu|MSTRG.1077.1.p1	K11370	kofam	
+S2_only_classu|MSTRG.1078.1.p1	K11370	kofam	
+S2_only_classu|MSTRG.1133.1.p1	K11361	kofam	
+S2_only_classu|MSTRG.1280.1.p3	K22243	kofam	
+S2_only_classu|MSTRG.136.1.p2	K04078	kofam	
+S2_only_classu|MSTRG.1433.1.p1	K20224	kofam	
+S2_only_classu|MSTRG.1706.1.p1	K19953	kofam	
+S2_only_classu|MSTRG.1711.1.p3	K13280	kofam	3.4.21.89
+S2_only_classu|MSTRG.1769.1.p1	K07497	kofam	
+S2_only_classu|MSTRG.1906.1.p1	K16945	kofam	
+S2_only_classu|MSTRG.2219.1.p1	K19356	kofam	1.14.99.54
+S2_only_classu|MSTRG.2258.1.p1	K03362	kofam	
+S2_only_classu|MSTRG.2322.1.p1	K17739	kofam	1.1.1.252
+S2_only_classu|MSTRG.2443.1.p1	K14675	kofam	2.3.1.-;3.1.1.3
+S2_only_classu|MSTRG.2501.1.p1	K01537	kofam	7.2.2.10
+S2_only_classu|MSTRG.2501.1.p2	K20291	kofam	
+S2_only_classu|MSTRG.2783.1.p1	K02918	kofam	
+S2_only_classu|MSTRG.2790.1.p1	K01588;K01589;K11808	kofam	4.1.1.21;5.4.99.18;6.3.4.18
+S2_only_classu|MSTRG.2807.1.p1	K10694	kofam	2.3.2.27
+S2_only_classu|MSTRG.3850.1.p2	K03115	kofam	
+S2_only_classu|MSTRG.3918.1.p1	K03424	kofam	3.1.21.-
+S2_only_classu|MSTRG.405.1.p1	K14564	kofam	
+S2_only_classu|MSTRG.4096.1.p1	K04739	kofam	
+S2_only_classu|MSTRG.415.1.p1	K06675	kofam	
+S2_only_classu|MSTRG.4348.1.p1	K06656	kofam	
+S2_only_classu|MSTRG.4397.1.p1	K00166	kofam	1.2.4.4
+S2_only_classu|MSTRG.4622.1.p1	K01424;K13278	kofam	3.1.1.47;3.1.1.5;3.5.1.1
+S2_only_classu|MSTRG.4691.1.p3	K03259	kofam	
+S2_only_classu|MSTRG.4851.1.p1	K12831	kofam	
+S2_only_classu|MSTRG.4855.1.p1	K22952	kofam	4.1.99.24
+S2_only_classu|MSTRG.508.1.p2	K03965	kofam	
+S2_only_classu|MSTRG.5096.1.p1	K04348;K28606	kofam	1.1.1.10;3.1.3.16
+S2_only_classu|MSTRG.510.1.p1	K12862	kofam	
+S2_only_classu|MSTRG.5459.1.p1	K03441	kofam	
+S2_only_classu|MSTRG.5503.1.p2	K17842	kofam	1.13.11.59
+S2_only_classu|MSTRG.5891.1.p1	K22686	kofam	3.4.21.-
+S2_only_classu|MSTRG.5895.1.p1	K11313	kofam	
+S2_only_classu|MSTRG.6073.1.p1	K18551	kofam	3.1.3.-
+S2_only_classu|MSTRG.6201.1.p1	K00737	kofam	2.4.1.144
+S2_only_classu|MSTRG.6392.1.p1	K23785	kofam	2.7.11.1
+S2_only_classu|MSTRG.6665.1.p1	K20307	kofam	
+S2_only_classu|MSTRG.7163.1.p2	K25010	kofam	3.1.1.117
+S2_only_classu|MSTRG.7195.1.p1	K08737	kofam	
+S2_only_classu|MSTRG.7349.1.p1	K00549	kofam	2.1.1.14
+S2_only_classu|MSTRG.736.2.p1	K07151	kofam	2.4.99.18
+S2_only_classu|MSTRG.7360.1.p1	K08597	kofam	3.4.22.68
+S2_only_classu|MSTRG.7550.1.p1	K00252	kofam	1.3.8.6
+S2_only_classu|MSTRG.771.1.p1	K13350	kofam	
+S2_only_classu|MSTRG.8148.1.p2	K11552	kofam	
+S2_only_classu|MSTRG.8415.1.p1	K00728	kofam	2.4.1.109
+S2_only_classu|MSTRG.8437.1.p1	K03544	kofam	
+S2_only_classu|MSTRG.8444.1.p1	K07904	kofam	
+S2_only_classu|MSTRG.8835.1.p3	K15363	kofam	3.1.21.-;3.1.4.1
+S2_only_classu|MSTRG.893.1.p1	K16365	kofam	
+S2_only_classu|MSTRG.9118.1.p2	K19356	kofam	1.14.99.54
+S2_only_classu|MSTRG.958.1.p1	K08827	kofam	2.7.11.1
+Shared_classu|MSTRG.1091.1.p1	K12349	kofam	3.5.1.23
+Shared_classu|MSTRG.1282.1.p1	K16368	kofam	2.7.1.174
+Shared_classu|MSTRG.1425.1.p1	K10838	kofam	
+Shared_classu|MSTRG.1436.1.p1	K20827	kofam	3.1.3.16
+Shared_classu|MSTRG.1437.1.p1	K20521	kofam	
+Shared_classu|MSTRG.1476.1.p2	K19355	kofam	3.2.1.78
+Shared_classu|MSTRG.1786.1.p1	K03317	kofam	
+Shared_classu|MSTRG.1789.1.p1	K11826	kofam	
+Shared_classu|MSTRG.1917.1.p1	K00767	kofam	2.4.2.19
+Shared_classu|MSTRG.2541.1.p1	K03380	kofam	1.14.13.7
+Shared_classu|MSTRG.2831.1.p1	K20182	kofam	
+Shared_classu|MSTRG.4387.1.p1	K24765	kofam	
+Shared_classu|MSTRG.442.1.p1	K07126	kofam	
+Shared_classu|MSTRG.5595.1.p1	K11979	kofam	2.3.2.27
+Shared_classu|MSTRG.5840.1.p1	K02606	kofam	
+Shared_classu|MSTRG.5919.1.p1	K26750	kofam	
+Shared_classu|MSTRG.6286.1.p1	K00469	kofam	1.13.99.1
+Shared_classu|MSTRG.6768.1.p1	K08197	kofam	
+Shared_classu|MSTRG.68.1.p1	K01183	kofam	3.2.1.14
+Shared_classu|MSTRG.6871.1.p1	K00555	kofam	2.1.1.215;2.1.1.216
+Shared_classu|MSTRG.7915.1.p1	K02433	kofam	6.3.5.6;6.3.5.7
+Shared_classu|MSTRG.7915.1.p3	K12849	kofam	
+Shared_classu|MSTRG.8149.1.p4	K11552	kofam	
+Shared_classu|MSTRG.8318.1.p1	K11360	kofam	
+Shared_classu|MSTRG.8903.1.p1	K09650	kofam	3.4.21.105
+gene_10	K13343	kofam+xlsx	
+gene_10000	K10416	kofam+xlsx	
+gene_10004	K05533	kofam+xlsx	2.4.1.-
+gene_10007	K07575	kofam+xlsx	
+gene_10009	K28508	kofam	
+gene_10016	K17497	kofam+xlsx	5.4.2.8
+gene_10019	K10597	kofam+xlsx	2.3.2.27
+gene_10020	K15325	kofam+xlsx	
+gene_10021	K03448	xlsx	
+gene_10025	K11374	kofam+xlsx	
+gene_10026	K06884	kofam+xlsx	
+gene_10027	K15160	kofam+xlsx	
+gene_10030	K10215	kofam+xlsx	1.14.13.-
+gene_10035	K01459;K16841	kofam+xlsx	3.5.1.77;5.1.99.3
+gene_10036	K15146	kofam+xlsx	
+gene_10038	K02291;K17841	kofam+xlsx	2.5.1.32;5.5.1.19
+gene_10039	K10846	kofam+xlsx	
+gene_1004	K23323	kofam+xlsx	2.1.1.-
+gene_10040	K22745	kofam+xlsx	
+gene_10045	K15628	kofam+xlsx	7.6.2.4
+gene_10046	K22148	kofam+xlsx	
+gene_10047	K03141	kofam+xlsx	
+gene_10049	K01176	kofam+xlsx	3.2.1.1
+gene_1005	K24781	kofam+xlsx	
+gene_10053	K18443	kofam+xlsx	
+gene_10057	K02324	kofam+xlsx	2.7.7.7
+gene_10058	K21632	kofam+xlsx	
+gene_10059	K09272	kofam+xlsx	
+gene_10064	K17686	kofam+xlsx	7.2.2.8
+gene_10070	K01372	kofam+xlsx	3.4.22.40
+gene_10072	K22278	kofam+xlsx	3.5.1.104
+gene_10075	K08192	kofam	
+gene_10077	K17362	kofam+xlsx	3.1.2.-
+gene_10082	K04348;K28606	kofam+xlsx	1.1.1.10;3.1.3.16
+gene_10087	K14845	kofam+xlsx	
+gene_10094	K00697	kofam+xlsx	2.4.1.15;2.4.1.347
+gene_10095	K03448	kofam+xlsx	
+gene_10096	K26550	kofam	
+gene_10098	K15280	kofam+xlsx	
+gene_10102	K03809	kofam+xlsx	1.6.5.2
+gene_10103	K16568	xlsx	
+gene_10105	K03039	kofam+xlsx	
+gene_10106	K01410	kofam+xlsx	3.4.24.59
+gene_10107	K06158	kofam+xlsx	
+gene_10110	K03360	kofam+xlsx	
+gene_10116	K03564	kofam+xlsx	1.11.1.24
+gene_10120	K07300	kofam+xlsx	
+gene_10121	K09051	kofam+xlsx	
+gene_10126	K06877;K15304	kofam+xlsx	
+gene_10128	K17922	kofam+xlsx	
+gene_10130	K08192	kofam+xlsx	
+gene_10137	K20224	kofam+xlsx	
+gene_10139	K22386	kofam+xlsx	
+gene_10142	K01809	kofam+xlsx	5.3.1.8
+gene_10144	K19525	kofam+xlsx	
+gene_10145	K19356;K22032	kofam+xlsx	1.14.99.54;1.14.99.56
+gene_10151	K13192	xlsx	
+gene_10152	K05986	kofam+xlsx	3.1.30.1
+gene_10155	K08192	kofam+xlsx	
+gene_10164	K02890	kofam	
+gene_1017	K00728	kofam+xlsx	2.4.1.109
+gene_10172	K18724;K27894	kofam+xlsx	
+gene_10173	K03021	kofam+xlsx	2.7.7.6
+gene_10175	K03790	xlsx	2.3.1.267
+gene_10177	K09458;K17662	kofam+xlsx	2.3.1.179
+gene_10178	K18083	kofam+xlsx	3.1.3.64;3.1.3.95
+gene_10179	K14288;K28415	kofam+xlsx	
+gene_1018	K24175	kofam+xlsx	
+gene_10180	K10754	kofam+xlsx	
+gene_10181	K00287	kofam+xlsx	1.5.1.3
+gene_10182	K14818	kofam+xlsx	
+gene_10185	K19842	kofam+xlsx	
+gene_10186	K24160	kofam+xlsx	
+gene_10187	K03950	kofam+xlsx	
+gene_1019	K00232	kofam+xlsx	1.3.3.6
+gene_10190	K01637	kofam+xlsx	4.1.3.1;4.1.3.30
+gene_10191	K04567	kofam+xlsx	6.1.1.6
+gene_10192	K11484	kofam+xlsx	3.5.1.98
+gene_10197	K03362	kofam+xlsx	
+gene_1020	K07277	xlsx	
+gene_10204	K01209	kofam+xlsx	3.2.1.55
+gene_10205	K27817	kofam	
+gene_10207	K06867	xlsx	
+gene_10208	K17741	kofam+xlsx	1.1.1.283
+gene_10209	K14794	kofam+xlsx	
+gene_1021	K13174	kofam+xlsx	
+gene_10210	K10839	kofam+xlsx	
+gene_10211	K10734	kofam+xlsx	
+gene_10212	K12572	kofam+xlsx	
+gene_10213	K27165	kofam	
+gene_10215	K03593	kofam+xlsx	
+gene_10221	K06035	kofam	4.2.1.69
+gene_10225	K02973	kofam+xlsx	
+gene_10227	K19356	kofam+xlsx	1.14.99.54
+gene_1023	K03850	kofam+xlsx	2.4.1.256
+gene_10232	K13348	kofam+xlsx	
+gene_10234	K00693	kofam+xlsx	2.4.1.11
+gene_10238	K00306;K21293	kofam+xlsx	1.5.3.1;1.5.3.7
+gene_1024	K15100	kofam+xlsx	
+gene_10245	K03106	kofam+xlsx	3.6.5.4
+gene_10246	K15178	kofam+xlsx	
+gene_10247	K23334;K28544	kofam+xlsx	
+gene_10249	K12827	kofam+xlsx	
+gene_10252	K22278	kofam+xlsx	3.5.1.104
+gene_10255	K00234;K00239	kofam+xlsx	1.3.5.1
+gene_1026	K23322	kofam+xlsx	1.-.-.-
+gene_10269	K20181	kofam+xlsx	
+gene_10270	K15275	kofam+xlsx	
+gene_10271	K08192	kofam+xlsx	
+gene_10272	K03457	kofam+xlsx	
+gene_10277	K04441	kofam+xlsx	2.7.11.24
+gene_10278	K11599	kofam+xlsx	
+gene_10279	K01907;K16124	kofam+xlsx	6.2.1.16
+gene_1028	K13206	kofam+xlsx	
+gene_10280	K18102;K18334	kofam+xlsx	4.2.1.146;4.2.1.68
+gene_10282	K22539	kofam+xlsx	4.2.2.2
+gene_10285	K19356	kofam+xlsx	1.14.99.54
+gene_10288	K15193	kofam+xlsx	
+gene_10290	K21768	kofam+xlsx	
+gene_10300	K00459;K23948	kofam+xlsx	1.13.12.16;1.6.5.9
+gene_10301	K18802	kofam+xlsx	
+gene_10305	K08764	xlsx	2.3.1.176
+gene_10309	K18289	kofam+xlsx	2.8.3.-;2.8.3.22
+gene_10314	K28507	kofam	
+gene_1032	K05542	kofam+xlsx	1.3.1.88
+gene_10322	K06944;K27705	kofam+xlsx	3.6.5.-
+gene_10323	K03381	kofam+xlsx	1.13.11.1
+gene_10324	K01811	kofam+xlsx	3.2.1.177
+gene_10328	K11319;K11396	kofam+xlsx	
+gene_10332	K18467	kofam+xlsx	
+gene_10333	K05527;K22066	kofam+xlsx	
+gene_10343	K08098	kofam+xlsx	2.4.1.-
+gene_10344	K00749	kofam+xlsx	2.4.1.183
+gene_1035	K24104	kofam+xlsx	
+gene_10350	K28359	kofam	
+gene_10352	K12161	kofam+xlsx	
+gene_10353	K22834	kofam+xlsx	2.4.1.-
+gene_10359	K01061	kofam+xlsx	3.1.1.45
+gene_10361	K14168	kofam+xlsx	2.7.7.-
+gene_10362	K01293	kofam+xlsx	3.4.17.4
+gene_10365	K17421	kofam+xlsx	
+gene_1037	K03007	kofam+xlsx	
+gene_10376	K03509	kofam+xlsx	2.7.7.7
+gene_10378	K09022	xlsx	3.5.99.10
+gene_10380	K18551	kofam+xlsx	3.1.3.-
+gene_10381	K17408	kofam+xlsx	
+gene_10382	K01754	kofam+xlsx	4.3.1.19
+gene_10383	K08711	kofam+xlsx	
+gene_10387	K00236	kofam+xlsx	
+gene_10388	K08838	kofam+xlsx	2.7.11.1
+gene_10389	K00943	kofam+xlsx	2.7.4.9
+gene_10391	K11498	kofam+xlsx	
+gene_10393	K20063	kofam+xlsx	
+gene_10396	K06676	kofam+xlsx	
+gene_10398	K14786	kofam+xlsx	
+gene_1040	K14263	kofam+xlsx	3.5.1.9
+gene_10400	K16073	kofam+xlsx	
+gene_10401	K01426	xlsx	3.5.1.4
+gene_10402	K18588	kofam+xlsx	
+gene_10404	K01915	kofam	6.3.1.2
+gene_10405	K18123	kofam+xlsx	4.1.3.16
+gene_10406	K21845	kofam+xlsx	
+gene_10407	K11768;K20523	kofam+xlsx	
+gene_10409	K03534	kofam+xlsx	5.1.3.32
+gene_10411	K11548	kofam+xlsx	
+gene_10412	K09244	kofam+xlsx	
+gene_10413	K22804	kofam+xlsx	
+gene_10414	K10742	kofam+xlsx	3.1.-.-;5.6.2.3
+gene_10416	K15196	kofam+xlsx	
+gene_10417	K12399	kofam+xlsx	
+gene_1042	K14131	xlsx	2.5.1.80
+gene_10421	K00387;K07300	kofam+xlsx	1.8.3.1
+gene_10424	K05528	kofam+xlsx	2.4.1.232
+gene_10425	K14774;K28433	kofam+xlsx	
+gene_1043	K09499	kofam+xlsx	
+gene_10432	K03013	kofam+xlsx	
+gene_10434	K13124	kofam+xlsx	
+gene_10435	K10591	xlsx	2.3.2.26
+gene_10437	K18581	kofam+xlsx	3.2.1.180
+gene_10440	K02877	kofam+xlsx	
+gene_10442	K03259	kofam+xlsx	
+gene_10446	K05658	kofam+xlsx	7.6.2.2
+gene_10447	K13354	kofam+xlsx	
+gene_10448	K14640	kofam+xlsx	
+gene_10455	K06018	kofam+xlsx	3.6.1.10
+gene_10457	K24278	kofam+xlsx	2.3.2.37;6.1.1.12
+gene_10460	K08157	kofam+xlsx	
+gene_10463	K12580	kofam+xlsx	
+gene_10465	K08286	kofam+xlsx	2.7.11.-
+gene_10467	K26680	kofam	
+gene_10468	K23146	kofam+xlsx	1.1.1.31;1.1.1.59
+gene_10470	K22684	xlsx	3.4.22.-
+gene_10471	K12883	kofam+xlsx	
+gene_10472	K01887	kofam+xlsx	6.1.1.19
+gene_10474	K06867	xlsx	
+gene_10479	K02510	kofam+xlsx	4.1.2.52
+gene_1048	K28476	kofam	
+gene_10484	K15777	kofam+xlsx	1.13.11.-
+gene_10491	K01224	kofam+xlsx	3.2.1.89
+gene_10495	K10845	kofam+xlsx	
+gene_10498	K19791	xlsx	
+gene_10499	K21452	kofam+xlsx	
+gene_10501	K11407	xlsx	3.5.1.98
+gene_10503	K18187	kofam+xlsx	
+gene_10504	K09709	kofam	4.2.1.153
+gene_10506	K01621	kofam+xlsx	4.1.2.22;4.1.2.9
+gene_10510	K01381	kofam+xlsx	3.4.23.25
+gene_10513	K18045	kofam+xlsx	3.1.3.48
+gene_10515	K06027	kofam+xlsx	3.6.4.6
+gene_10516	K14554	kofam+xlsx	
+gene_10523	K07393	kofam+xlsx	1.8.5.7
+gene_10526	K01210	kofam+xlsx	3.2.1.58
+gene_10533	K17677	kofam+xlsx	5.6.2.-
+gene_10534	K13099	kofam+xlsx	
+gene_10535	K01939	kofam+xlsx	6.3.4.4
+gene_10536	K17782	kofam+xlsx	
+gene_10538	K01969	kofam+xlsx	6.4.1.4
+gene_10541	K23496	xlsx	
+gene_10544	K00012	kofam+xlsx	1.1.1.22
+gene_10546	K00477	kofam+xlsx	1.14.11.18
+gene_10551	K13953	kofam+xlsx	1.1.1.1
+gene_10552	K13095	kofam+xlsx	
+gene_10554	K00326	kofam+xlsx	1.6.2.2
+gene_10555	K03136	kofam+xlsx	
+gene_10559	K14310	kofam+xlsx	
+gene_1056	K14338	kofam+xlsx	1.14.14.1;1.6.2.4
+gene_10560	K11517	kofam+xlsx	1.1.3.15
+gene_10562	K00486	kofam+xlsx	1.14.13.9
+gene_10563	K01824	kofam+xlsx	5.3.3.5
+gene_10564	K02930	kofam+xlsx	
+gene_10565	K00830	kofam+xlsx	2.6.1.44;2.6.1.45;2.6.1.51
+gene_10567	K10756	kofam+xlsx	
+gene_1057	K13104	kofam+xlsx	
+gene_10571	K08095	kofam+xlsx	3.1.1.74
+gene_1058	K03355	kofam+xlsx	
+gene_10582	K03320	kofam+xlsx	
+gene_10584	K23166	kofam+xlsx	
+gene_10585	K22134	kofam+xlsx	
+gene_10586	K08176	kofam+xlsx	
+gene_10588	K17740	kofam+xlsx	4.2.1.94
+gene_10589	K11262	kofam+xlsx	2.1.3.15;6.3.4.14;6.4.1.2
+gene_1059	K03767	xlsx	5.2.1.8
+gene_10594	K01872	kofam+xlsx	6.1.1.7
+gene_1060	K08711	kofam+xlsx	
+gene_10601	K11751	kofam+xlsx	3.1.3.5;3.6.1.45
+gene_10606	K05275	kofam+xlsx	1.1.1.65
+gene_10607	K01262	kofam+xlsx	3.4.11.9
+gene_10608	K07112	kofam+xlsx	
+gene_10609	K02882	kofam+xlsx	
+gene_10610	K24767	kofam+xlsx	
+gene_10611	K05841;K05989	kofam+xlsx	2.4.1.173;3.2.1.40
+gene_10612	K08762	kofam	
+gene_10613	K15147	kofam+xlsx	
+gene_10615	K01893	kofam+xlsx	6.1.1.22
+gene_10619	K00784	kofam+xlsx	3.1.26.11
+gene_10620	K19562	kofam+xlsx	2.6.1.127;6.3.3.3
+gene_10621	K01597	kofam+xlsx	4.1.1.33
+gene_10624	K09500	kofam+xlsx	
+gene_10630	K12373	kofam+xlsx	3.2.1.52
+gene_10631	K14360	xlsx	
+gene_10636	K00728	kofam+xlsx	2.4.1.109
+gene_10637	K11593	kofam+xlsx	
+gene_10639	K22485	kofam+xlsx	
+gene_10640	K01193	xlsx	3.2.1.26
+gene_10643	K20224	kofam+xlsx	
+gene_10644	K01536	kofam+xlsx	7.2.2.-;7.2.2.3
+gene_10648	K07055	kofam+xlsx	2.5.1.114
+gene_10649	K23309	kofam+xlsx	
+gene_10652	K12345	kofam+xlsx	1.3.1.22;1.3.1.94
+gene_10656	K11853	kofam+xlsx	3.4.19.12
+gene_10658	K12615	kofam+xlsx	
+gene_1066	K09680	kofam+xlsx	2.7.1.33
+gene_10663	K07942	kofam+xlsx	
+gene_10666	K00107	kofam+xlsx	1.1.3.37
+gene_10667	K00555	kofam+xlsx	2.1.1.215;2.1.1.216
+gene_10674	K22008	kofam+xlsx	2.7.11.1
+gene_10677	K09191	xlsx	
+gene_1068	K03063	kofam+xlsx	
+gene_10680	K21820	xlsx	1.11.2.1
+gene_10691	K18667	kofam+xlsx	
+gene_10692	K00456;K15711	kofam+xlsx	1.13.11.20;2.3.2.27;5.6.2.
+gene_10694	K10746	kofam+xlsx	3.1.-.-
+gene_10695	K14844	kofam+xlsx	
+gene_10696	K00601	kofam+xlsx	2.1.2.2
+gene_10698	K14347	kofam+xlsx	
+gene_1070	K03507	kofam+xlsx	
+gene_10700	K22803	kofam+xlsx	
+gene_10706	K07232	kofam+xlsx	4.3.2.7
+gene_10709	K23905	kofam+xlsx	
+gene_1071	K14312	kofam+xlsx	
+gene_10710	K14753	kofam+xlsx	
+gene_10716	K14709	kofam+xlsx	
+gene_10717	K01611	kofam+xlsx	4.1.1.50
+gene_10719	K03781	kofam	1.11.1.6
+gene_10720	K03457	kofam+xlsx	
+gene_10722	K17605	kofam+xlsx	
+gene_10723	K01268	kofam+xlsx	3.4.11.22
+gene_10725	K06972	kofam+xlsx	3.4.24.-
+gene_10726	K02919	kofam+xlsx	
+gene_10727	K01336	kofam+xlsx	3.4.21.-;3.4.21.48
+gene_1073	K14860	kofam+xlsx	
+gene_10732	K01183	kofam+xlsx	3.2.1.14
+gene_10735	K17741	xlsx	1.1.1.283
+gene_1074	K12394	xlsx	
+gene_10742	K08866	kofam+xlsx	2.7.12.1
+gene_10746	K24943	kofam+xlsx	
+gene_10747	K25201	kofam+xlsx	
+gene_10751	K11884	kofam+xlsx	
+gene_10752	K22134	kofam+xlsx	
+gene_10754	K11361;K21141	kofam+xlsx	
+gene_10757	K12897	kofam+xlsx	
+gene_10760	K05293	kofam+xlsx	
+gene_10766	K20628	kofam	
+gene_10768	K13179	kofam+xlsx	5.6.2.7
+gene_10771	K28545	kofam	
+gene_10773	K16794	kofam	
+gene_10774	K08254	kofam+xlsx	3.2.1.59
+gene_10776	K01867	kofam+xlsx	6.1.1.2
+gene_10779	K14315	kofam+xlsx	
+gene_1078	K19845	kofam+xlsx	
+gene_10780	K19787	xlsx	2.1.1.22
+gene_10782	K14396	kofam+xlsx	
+gene_10783	K22832	kofam+xlsx	2.4.1.-
+gene_10785	K11254	kofam+xlsx	
+gene_10789	K03235	kofam+xlsx	
+gene_10793	K13336	kofam+xlsx	
+gene_1080	K22243	kofam+xlsx	
+gene_10800	K09493	kofam+xlsx	
+gene_10801	K01733	kofam+xlsx	4.2.3.1
+gene_10803	K01626	kofam+xlsx	2.5.1.54
+gene_10806	K05994	kofam+xlsx	3.4.11.10
+gene_10811	K13026	kofam+xlsx	5.6.2.6
+gene_1082	K08496	kofam+xlsx	
+gene_10822	K07573	kofam+xlsx	
+gene_10824	K01304;K10801	kofam+xlsx	3.2.2.-;3.4.19.3
+gene_10825	K01501	kofam+xlsx	3.5.5.1
+gene_10828	K19305	kofam+xlsx	3.4.24.39
+gene_1083	K01771	kofam+xlsx	4.6.1.13
+gene_10836	K02931	kofam+xlsx	
+gene_10839	K03448;K08192	kofam+xlsx	
+gene_10841	K07252	kofam+xlsx	3.6.1.43
+gene_10843	K09142	kofam+xlsx	2.1.1.-
+gene_10848	K14397	kofam+xlsx	
+gene_1085	K01705	kofam+xlsx	4.2.1.36
+gene_10850	K00999	kofam+xlsx	2.7.8.11
+gene_10858	K22724	kofam+xlsx	
+gene_10859	K01684	kofam+xlsx	4.2.1.6
+gene_1086	K16230	kofam+xlsx	
+gene_10861	K18670	kofam+xlsx	2.7.12.1
+gene_10866	K03671	kofam+xlsx	
+gene_10867	K08740	kofam+xlsx	
+gene_10868	K12623	kofam+xlsx	
+gene_10871	K05758	kofam+xlsx	
+gene_10872	K03448;K08192	kofam+xlsx	
+gene_10874	K18995	kofam+xlsx	5.6.2.6
+gene_10876	K01881	kofam+xlsx	6.1.1.15
+gene_10878	K07052;K08658	kofam+xlsx	3.4.26.1
+gene_10882	K02564	kofam+xlsx	3.5.99.6
+gene_10885	K14617	kofam+xlsx	
+gene_10887	K20062	kofam+xlsx	
+gene_10888	K14776	kofam+xlsx	5.6.2.7
+gene_10889	K01192	kofam+xlsx	3.2.1.25
+gene_1089	K03179;K06125	kofam+xlsx	2.5.1.39
+gene_10894	K02739	kofam+xlsx	3.4.25.1
+gene_10896	K08192	kofam	
+gene_10897	K00799	kofam+xlsx	2.5.1.18
+gene_10899	K01183	kofam+xlsx	3.2.1.14
+gene_10902	K04618	kofam+xlsx	1.1.3.9
+gene_10903	K11713	kofam+xlsx	2.5.1.59
+gene_10904	K01915	kofam	6.3.1.2
+gene_10906	K20246	kofam+xlsx	1.21.3.10;2.1.1.44
+gene_10907	K01764	kofam+xlsx	4.4.1.17
+gene_1091	K20832	kofam+xlsx	3.2.1.181
+gene_10911	K14859	kofam	
+gene_10914	K20352	kofam+xlsx	
+gene_10926	K02210	kofam+xlsx	5.6.2.3
+gene_10927	K02985	kofam+xlsx	
+gene_10929	K20247	kofam+xlsx	4.4.1.36
+gene_1093	K21594	kofam+xlsx	3.6.5.-
+gene_10931	K13800	kofam+xlsx	2.7.4.14
+gene_10935	K01535	kofam+xlsx	7.1.2.1
+gene_1094	K17605	kofam+xlsx	
+gene_10940	K17806	kofam+xlsx	
+gene_10941	K03327	kofam+xlsx	
+gene_10944	K04070	kofam	1.97.1.4
+gene_10946	K14774	kofam+xlsx	
+gene_10947	K00856;K02938	kofam+xlsx	2.7.1.20
+gene_10948	K07442	kofam+xlsx	2.1.1.219;2.1.1.220
+gene_10949	K22539	kofam+xlsx	4.2.2.2
+gene_1095	K17424	kofam+xlsx	
+gene_10951	K18576	kofam+xlsx	3.2.1.151
+gene_10952	K19356	kofam+xlsx	1.14.99.54
+gene_10953	K00459	kofam+xlsx	1.13.12.16
+gene_10956	K00384	kofam+xlsx	1.8.1.9
+gene_10957	K01673	kofam+xlsx	4.2.1.1
+gene_10958	K01694;K01695;K01696	kofam+xlsx	4.2.1.20
+gene_1096	K11996	kofam+xlsx	2.7.7.80;2.8.1.11
+gene_10961	K15564	kofam+xlsx	
+gene_10962	K03033	kofam+xlsx	
+gene_10963	K14708	kofam+xlsx	
+gene_10965	K14816	kofam+xlsx	
+gene_10968	K10273	kofam+xlsx	
+gene_10970	K13100	kofam+xlsx	
+gene_10974	K11244	kofam+xlsx	
+gene_10979	K05286	kofam+xlsx	2.4.1.-
+gene_10980	K15427	kofam+xlsx	3.1.3.16
+gene_10981	K17801	kofam+xlsx	
+gene_10984	K06641;K15030	kofam+xlsx	2.7.11.1
+gene_10985	K05543	kofam+xlsx	1.3.1.91
+gene_10986	K01941	kofam+xlsx	6.3.4.26;6.3.4.6
+gene_10987	K09043	kofam	
+gene_10989	K22836	kofam+xlsx	2.4.1.-
+gene_10994	K15565	kofam+xlsx	
+gene_10997	K09275	kofam+xlsx	
+gene_11	K15109	kofam+xlsx	
+gene_11001	K10592	kofam+xlsx	2.3.2.26
+gene_11004	K00894	kofam+xlsx	2.7.1.82
+gene_11009	K14777	kofam+xlsx	5.6.2.7
+gene_1101	K14686	kofam+xlsx	
+gene_11010	K08254	kofam+xlsx	3.2.1.59
+gene_11013	K02934	kofam+xlsx	
+gene_11018	K19069	kofam+xlsx	1.1.99.18
+gene_11019	K01101	kofam+xlsx	3.1.3.41
+gene_11025	K22741	xlsx	2.1.1.-
+gene_11028	K22377	kofam+xlsx	2.3.2.27
+gene_11029	K01078	kofam+xlsx	3.1.3.2
+gene_1103	K12811	kofam+xlsx	5.6.2.7
+gene_11032	K14294	kofam+xlsx	
+gene_11037	K08174	xlsx	
+gene_11038	K18587	kofam+xlsx	
+gene_11041	K02922	kofam+xlsx	
+gene_11042	K08141	kofam+xlsx	
+gene_11043	K16261	kofam+xlsx	
+gene_11045	K00162;K12599	kofam+xlsx	1.2.4.1;5.6.2.6
+gene_11046	K14833	kofam+xlsx	
+gene_11047	K01649	kofam+xlsx	2.3.3.13
+gene_11057	K17741	xlsx	1.1.1.283
+gene_1106	K20520	kofam+xlsx	
+gene_11061	K01501	kofam	3.5.5.1
+gene_11063	K11344	kofam+xlsx	
+gene_11064	K13076	kofam+xlsx	1.14.19.18
+gene_11066	K14654	kofam+xlsx	1.1.1.302
+gene_11070	K11699	kofam+xlsx	2.7.7.48
+gene_11071	K28511	kofam	
+gene_11074	K09562	kofam+xlsx	
+gene_11076	K17608	kofam+xlsx	
+gene_11086	K15323	kofam+xlsx	4.6.1.16
+gene_11087	K00276	kofam+xlsx	1.4.3.21
+gene_11088	K01225	kofam+xlsx	3.2.1.91
+gene_11089	K02909	xlsx	
+gene_11091	K28512	kofam	
+gene_11093	K00698	kofam+xlsx	2.4.1.16
+gene_11097	K08987	kofam+xlsx	
+gene_111	K05283	kofam+xlsx	2.3.-.-
+gene_11101	K09184	kofam+xlsx	
+gene_11109	K02136	kofam	
+gene_1111	K13690	kofam+xlsx	2.4.1.-
+gene_11110	K01669	kofam+xlsx	4.1.99.3
+gene_11111	K11886	kofam+xlsx	
+gene_11114	K01183	kofam+xlsx	3.2.1.14
+gene_11115	K21546	kofam	
+gene_11119	K10704;K26392	kofam+xlsx	
+gene_1112	K14765	kofam+xlsx	
+gene_11120	K12767	kofam+xlsx	2.7.11.36
+gene_11121	K14763	kofam+xlsx	
+gene_11123	K15078	kofam+xlsx	3.6.1.-
+gene_11124	K17743	kofam+xlsx	1.1.1.307;1.1.1.430;1.1.1.431
+gene_11125	K00864	kofam+xlsx	2.7.1.30
+gene_11126	K20238	kofam+xlsx	2.1.1.317
+gene_11133	K02150	kofam+xlsx	
+gene_11141	K23362	kofam	3.1.-.-
+gene_11144	K06004	xlsx	3.4.23.18
+gene_11152	K01648	kofam+xlsx	2.3.3.8
+gene_11153	K15292	xlsx	
+gene_11154	K01174	xlsx	3.1.31.1
+gene_11156	K08711	kofam+xlsx	
+gene_11157	K13974;K19932	kofam+xlsx	
+gene_11159	K01466	kofam+xlsx	3.5.2.5
+gene_11161	K01953	kofam+xlsx	6.3.5.4
+gene_11162	K10438	kofam+xlsx	1.14.13.63
+gene_11165	K03189	kofam+xlsx	
+gene_11168	K02805	kofam+xlsx	2.6.1.59
+gene_1117	K14832	kofam+xlsx	
+gene_11173	K06648	kofam+xlsx	
+gene_11177	K02219	kofam+xlsx	
+gene_11178	K02266	kofam+xlsx	
+gene_11179	K17775	kofam+xlsx	
+gene_11180	K19356	kofam+xlsx	1.14.99.54
+gene_11182	K00053	kofam+xlsx	1.1.1.86
+gene_11189	K17786	kofam+xlsx	
+gene_11191	K00485	kofam+xlsx	1.14.13.8;1.8.1.-
+gene_11192	K00318	kofam+xlsx	1.5.5.2
+gene_11194	K15205	kofam+xlsx	
+gene_11195	K28214	kofam	5.4.99.9
+gene_112	K02727	kofam+xlsx	3.4.25.1
+gene_11200	K03781	kofam+xlsx	1.11.1.6
+gene_11202	K05289	kofam+xlsx	
+gene_11205	K28206	kofam	
+gene_11209	K14820	kofam+xlsx	
+gene_11212	K03847	kofam+xlsx	2.4.1.260
+gene_11213	K04713	kofam+xlsx	1.14.18.5
+gene_11214	K12881	kofam+xlsx	
+gene_1122	K01176	kofam+xlsx	3.2.1.1
+gene_11224	K02888	kofam+xlsx	
+gene_11226	K13119	kofam+xlsx	
+gene_11230	K14769	kofam+xlsx	
+gene_11231	K19356	kofam+xlsx	1.14.99.54
+gene_11233	K17790	kofam+xlsx	
+gene_11239	K01874;K17989	kofam+xlsx	4.3.1.17;4.3.1.19;6.1.1.10
+gene_11240	K26405	kofam	
+gene_11242	K22733	kofam+xlsx	
+gene_11244	K03126	kofam+xlsx	
+gene_11246	K15505	kofam+xlsx	5.6.2.-
+gene_11248	K01530	xlsx	7.6.2.1
+gene_11249	K19356	kofam+xlsx	1.14.99.54
+gene_11254	K28507	kofam	
+gene_11255	K14455	kofam+xlsx	2.6.1.1
+gene_11256	K08139	kofam+xlsx	
+gene_11258	K15443	kofam+xlsx	
+gene_11259	K10259	kofam+xlsx	
+gene_1126	K23543	kofam+xlsx	
+gene_11266	K07513	kofam+xlsx	2.3.1.16
+gene_1127	K12736	kofam+xlsx	5.2.1.8
+gene_11270	K15918	kofam+xlsx	2.7.1.31
+gene_11275	K01190	kofam+xlsx	3.2.1.23
+gene_11276	K19800	kofam+xlsx	2.7.11.1
+gene_11277	K08744;K21631	kofam+xlsx	2.7.8.41
+gene_11280	K01537	kofam+xlsx	7.2.2.10
+gene_11284	K07870	kofam+xlsx	3.6.5.-
+gene_11285	K08192	kofam	
+gene_11286	K15108	kofam+xlsx	
+gene_11289	K17103	kofam+xlsx	2.7.8.8
+gene_11290	K11204	kofam+xlsx	6.3.2.2
+gene_11297	K15077	kofam+xlsx	
+gene_11298	K02926	kofam+xlsx	
+gene_11299	K05012	kofam+xlsx	
+gene_11306	K10739	kofam+xlsx	
+gene_11309	K03327	kofam+xlsx	
+gene_11313	K22278	kofam+xlsx	3.5.1.104
+gene_11318	K00963	kofam+xlsx	2.7.7.9
+gene_11319	K01051	kofam+xlsx	3.1.1.11
+gene_1132	K03028	kofam+xlsx	
+gene_11320	K02991	kofam+xlsx	
+gene_11322	K11566	kofam+xlsx	
+gene_11323	K08141	kofam+xlsx	
+gene_11328	K00134	kofam+xlsx	1.2.1.12
+gene_11329	K08495	kofam+xlsx	
+gene_1133	K01784	kofam+xlsx	5.1.3.2
+gene_11332	K03448;K08192	kofam+xlsx	
+gene_11333	K08726	xlsx	3.1.3.76;3.3.2.10
+gene_11334	K08192	kofam	
+gene_11338	K17417	kofam+xlsx	
+gene_11343	K15921	xlsx	3.2.1.55
+gene_11345	K03320	kofam+xlsx	
+gene_1135	K02954	kofam+xlsx	
+gene_11350	K01772;K11269	kofam+xlsx	4.98.1.1;4.99.1.9
+gene_11353	K16185	kofam+xlsx	
+gene_11358	K00031	kofam+xlsx	1.1.1.42
+gene_11370	K00058	kofam+xlsx	1.1.1.399;1.1.1.95
+gene_11375	K02143	kofam+xlsx	
+gene_11378	K17983	kofam+xlsx	
+gene_1138	K02355	kofam+xlsx	
+gene_11380	K02510	kofam+xlsx	4.1.2.52
+gene_11382	K21545	kofam+xlsx	
+gene_11385	K07512	kofam+xlsx	1.3.1.-;1.3.1.38
+gene_11391	K03139;K22911	kofam+xlsx	3.1.3.100;3.5.99.-;5.6.2.-
+gene_11392	K18725	kofam+xlsx	
+gene_11393	K14781	kofam+xlsx	5.6.2.6
+gene_11394	K01953	kofam+xlsx	6.3.5.4
+gene_11400	K11866	xlsx	3.4.19.12
+gene_11403	K11338	kofam+xlsx	5.6.2.3
+gene_11404	K17644	kofam	1.1.1.349
+gene_11405	K07240	kofam+xlsx	
+gene_11406	K14563	kofam+xlsx	2.1.1.-
+gene_11408	K03965	kofam+xlsx	
+gene_11411	K16186;K17776	kofam+xlsx	
+gene_11412	K01113	kofam+xlsx	3.1.3.1
+gene_11413	K03111	kofam+xlsx	
+gene_11414	K21293	kofam	
+gene_11424	K14007	kofam+xlsx	
+gene_11426	K01875;K11372	kofam+xlsx	6.1.1.11
+gene_11427	K10887	kofam+xlsx	3.1.-.-
+gene_11428	K00948	kofam+xlsx	2.7.6.1
+gene_11435	K01735	kofam+xlsx	4.2.3.4
+gene_11437	K25879	kofam+xlsx	1.1.1.10
+gene_11438	K01738	xlsx	2.5.1.47
+gene_1145	K16261	kofam+xlsx	
+gene_11450	K24726	kofam+xlsx	
+gene_11457	K28507	kofam	
+gene_1146	K01555;K06978	kofam+xlsx	3.7.1.2
+gene_11468	K06413;K27084	kofam+xlsx	
+gene_1147	K16044	xlsx	1.1.1.371
+gene_11471	K11121	kofam	2.3.1.286
+gene_11472	K08853	xlsx	2.7.11.1
+gene_11476	K00021	kofam+xlsx	1.1.1.34
+gene_11486	K22134	kofam+xlsx	
+gene_11490	K01199	kofam+xlsx	3.2.1.39
+gene_11491	K11251	kofam+xlsx	
+gene_11494	K17778	kofam+xlsx	
+gene_11501	K12661	kofam+xlsx	4.2.1.90
+gene_11503	K19305	kofam+xlsx	3.4.24.39
+gene_11507	K10625	kofam+xlsx	2.3.2.27
+gene_1151	K14553	kofam+xlsx	
+gene_11513	K01490;K04354;K15278	kofam+xlsx	3.5.4.6
+gene_11517	K03786	kofam+xlsx	4.2.1.10
+gene_11520	K04709	kofam+xlsx	2.3.1.297
+gene_11527	K11593	kofam+xlsx	
+gene_11530	K08192	kofam	
+gene_11535	K02958	kofam+xlsx	
+gene_11542	K08095	kofam+xlsx	3.1.1.74
+gene_11547	K01254	kofam+xlsx	3.3.2.6
+gene_11548	K06674	kofam+xlsx	
+gene_11553	K05989	xlsx	3.2.1.40
+gene_11554	K00456	kofam+xlsx	1.13.11.20
+gene_11557	K02989	kofam+xlsx	
+gene_11564	K15303	kofam+xlsx	
+gene_11565	K19069	kofam+xlsx	1.1.99.18
+gene_11567	K08294	kofam+xlsx	2.7.12.2
+gene_11569	K01907	kofam+xlsx	6.2.1.16
+gene_11570	K04077;K05765;K14835	kofam+xlsx	2.1.1.310;5.6.1.7
+gene_11571	K14301	kofam+xlsx	
+gene_11575	K20205	kofam+xlsx	1.11.1.13
+gene_1158	K01264	kofam+xlsx	3.4.11.15
+gene_11580	K18586	kofam+xlsx	4.1.1.130
+gene_11581	K01358	kofam+xlsx	3.4.21.92
+gene_11582	K01444;K01845	kofam+xlsx	3.5.1.26;5.4.3.8
+gene_11583	K23887	kofam+xlsx	
+gene_11585	K00474	kofam+xlsx	1.14.11.8
+gene_11586	K01530	xlsx	7.6.2.1
+gene_11588	K18550	kofam+xlsx	3.1.3.-;3.1.3.99
+gene_11589	K11362	kofam+xlsx	
+gene_11594	K14536	kofam+xlsx	3.6.5.-
+gene_11595	K03009	kofam+xlsx	
+gene_1160	K20131	kofam+xlsx	
+gene_11600	K15921	xlsx	3.2.1.55
+gene_11605	K12765	kofam+xlsx	2.7.11.1
+gene_11608	K20176	kofam+xlsx	
+gene_11611	K08870	kofam+xlsx	
+gene_11614	K00921	kofam+xlsx	2.7.1.150
+gene_11615	K08738	kofam+xlsx	
+gene_11617	K08900	kofam+xlsx	
+gene_11621	K12858;K15114	kofam+xlsx	5.6.2.7
+gene_11623	K00817	kofam+xlsx	2.6.1.9
+gene_11626	K01886	kofam+xlsx	6.1.1.18
+gene_11628	K11672	kofam+xlsx	
+gene_11629	K00008	kofam+xlsx	1.1.1.14
+gene_11633	K10773	kofam+xlsx	3.2.2.-;4.2.99.18
+gene_11634	K15628	kofam+xlsx	7.6.2.4
+gene_11635	K02213	kofam+xlsx	
+gene_11636	K13217	kofam+xlsx	
+gene_11641	K02730	kofam+xlsx	3.4.25.1
+gene_11643	K01751	kofam	4.3.1.15
+gene_11644	K10745	kofam+xlsx	
+gene_11649	K23542	kofam+xlsx	
+gene_1165	K15110	kofam+xlsx	
+gene_11651	K00389;K27690	kofam+xlsx	
+gene_11652	K00276	kofam+xlsx	1.4.3.21
+gene_11653	K15202	kofam+xlsx	
+gene_11655	K01230	kofam+xlsx	3.2.1.113
+gene_11657	K01199	kofam+xlsx	3.2.1.39
+gene_11658	K01266	xlsx	3.4.11.19
+gene_11659	K14838	kofam+xlsx	
+gene_1166	K19838	kofam+xlsx	
+gene_11668	K00761	kofam+xlsx	2.4.2.9
+gene_11669	K06659	kofam+xlsx	
+gene_1167	K14521	kofam+xlsx	2.3.1.-
+gene_11670	K10844	kofam+xlsx	5.6.2.3
+gene_11672	K01151	kofam+xlsx	3.1.21.2
+gene_11673	K03142	kofam+xlsx	
+gene_11676	K14859	xlsx	
+gene_1168	K00549	kofam+xlsx	2.1.1.14
+gene_11684	K11274	kofam+xlsx	
+gene_11686	K02325	kofam+xlsx	2.7.7.7
+gene_11687	K08900	kofam+xlsx	
+gene_11689	K26182	kofam	
+gene_11692	K03681	kofam+xlsx	
+gene_11694	K23314	kofam+xlsx	
+gene_11698	K01218	kofam+xlsx	3.2.1.78
+gene_11700	K01301	kofam+xlsx	3.4.17.21
+gene_11702	K02503	kofam+xlsx	3.9.1.-
+gene_11705	K05925	kofam	2.1.1.348
+gene_11708	K05841	kofam+xlsx	2.4.1.173
+gene_11711	K21989	kofam+xlsx	
+gene_11716	K14686	kofam+xlsx	
+gene_11718	K05917	kofam+xlsx	1.14.14.154;1.14.15.36
+gene_11722	K12843	kofam+xlsx	
+gene_11726	K01866	kofam+xlsx	6.1.1.1
+gene_11727	K05355	kofam+xlsx	2.5.1.82;2.5.1.83
+gene_11730	K26935	kofam	
+gene_11732	K19564;K28029;K28030	kofam+xlsx	
+gene_11733	K03448;K08192	kofam+xlsx	
+gene_11735	K06943	kofam+xlsx	
+gene_11736	K06671	kofam+xlsx	
+gene_1174	K20827	kofam+xlsx	3.1.3.16
+gene_11745	K17770	kofam+xlsx	
+gene_11748	K17218;K22470	kofam+xlsx	1.8.5.4;1.8.5.8
+gene_11753	K21547	kofam+xlsx	
+gene_11754	K03448;K08192	kofam+xlsx	
+gene_11755	K01176	kofam	3.2.1.1
+gene_11759	K00606	kofam+xlsx	2.1.2.11
+gene_11761	K01655	kofam+xlsx	2.3.3.14
+gene_11763	K08192	kofam+xlsx	
+gene_11764	K02515	kofam+xlsx	2.7.11.-
+gene_1177	K03469;K15442	kofam+xlsx	3.1.26.4
+gene_11771	K12846	kofam+xlsx	
+gene_11772	K15071;K15710	kofam+xlsx	2.3.2.27;5.6.2.-
+gene_11773	K03022	kofam+xlsx	
+gene_11775	K01754	kofam+xlsx	4.3.1.19
+gene_11776	K00030	kofam+xlsx	1.1.1.41
+gene_11778	K22069	xlsx	
+gene_11779	K02731	kofam+xlsx	3.4.25.1
+gene_1178	K02608	kofam+xlsx	
+gene_11783	K04095	kofam	2.7.7.108
+gene_11784	K13754	kofam+xlsx	
+gene_11785	K15542	kofam+xlsx	
+gene_11786	K12189	kofam+xlsx	
+gene_11790	K00121	kofam+xlsx	1.1.1.1;1.1.1.284
+gene_11794	K23469	kofam+xlsx	
+gene_11796	K01607	xlsx	4.1.1.44
+gene_11800	K03333	kofam+xlsx	1.1.3.6
+gene_11801	K12273	kofam+xlsx	
+gene_11804	K05770	kofam+xlsx	
+gene_11807	K19113	xlsx	2.3.1.-
+gene_11809	K08737	kofam+xlsx	
+gene_1181	K00276	kofam+xlsx	1.4.3.21
+gene_11810	K01052	kofam+xlsx	3.1.1.13
+gene_11812	K11592	kofam+xlsx	3.1.26.-
+gene_11813	K17819	kofam+xlsx	1.2.1.82
+gene_11814	K23329	kofam+xlsx	
+gene_11815	K15447	kofam+xlsx	2.1.1.211
+gene_11820	K15136	kofam+xlsx	
+gene_11821	K12869	kofam+xlsx	
+gene_11822	K05925	kofam	2.1.1.348
+gene_11823	K01899;K01902	kofam+xlsx	6.2.1.4;6.2.1.5
+gene_11825	K18159	kofam+xlsx	
+gene_1183	K23566	kofam+xlsx	
+gene_11831	K12349	kofam+xlsx	3.5.1.23
+gene_11834	K11801	kofam+xlsx	
+gene_11836	K01599	kofam+xlsx	4.1.1.37
+gene_11837	K01568	kofam+xlsx	4.1.1.1
+gene_11843	K06965	kofam+xlsx	
+gene_11844	K00469	kofam+xlsx	1.13.99.1
+gene_11846	K14012	xlsx	
+gene_11848	K10981	kofam+xlsx	2.7.7.7
+gene_11852	K23952	kofam+xlsx	
+gene_11854	K18468	kofam+xlsx	
+gene_11855	K01740	kofam+xlsx	2.5.1.49
+gene_11859	K23362	kofam+xlsx	3.1.-.-
+gene_1186	K20307	kofam+xlsx	
+gene_11861	K01556	kofam+xlsx	3.7.1.3
+gene_11866	K03249	kofam+xlsx	
+gene_11869	K14407	kofam+xlsx	
+gene_11871	K15732	kofam+xlsx	3.1.3.16
+gene_11877	K12830	kofam+xlsx	
+gene_11881	K09613	kofam+xlsx	3.4.-.-
+gene_11886	K13107	kofam+xlsx	
+gene_11888	K04797	kofam+xlsx	
+gene_1189	K01228	kofam+xlsx	3.2.1.106
+gene_11890	K10609	kofam+xlsx	
+gene_11893	K00354	kofam+xlsx	1.6.99.1
+gene_11897	K15441	kofam+xlsx	3.5.4.-
+gene_1190	K01519;K18532	kofam+xlsx	2.7.4.3;3.6.1.66
+gene_11906	K01908	kofam+xlsx	6.2.1.17
+gene_11909	K08994	kofam+xlsx	
+gene_11910	K06867	xlsx	
+gene_11913	K03946	kofam+xlsx	
+gene_11914	K09248	kofam+xlsx	
+gene_11920	K06867	xlsx	
+gene_11925	K00873	kofam+xlsx	2.7.1.40
+gene_11926	K03966;K17435	kofam+xlsx	
+gene_11934	K00463	kofam+xlsx	1.13.11.52
+gene_11936	K25164	kofam+xlsx	
+gene_11939	K12769	kofam+xlsx	
+gene_1194	K09701	kofam+xlsx	
+gene_11940	K13115	kofam+xlsx	
+gene_11942	K23107	kofam+xlsx	1.1.-.-
+gene_11944	K01301	kofam+xlsx	3.4.17.21
+gene_11951	K00596	kofam+xlsx	4.1.1.64
+gene_11954	K11359	kofam+xlsx	
+gene_11955	K02078;K03955	kofam+xlsx	
+gene_11958	K12404	kofam+xlsx	
+gene_1196	K01866	kofam+xlsx	6.1.1.1
+gene_11960	K01183	kofam+xlsx	3.2.1.14
+gene_11968	K03259	kofam+xlsx	
+gene_11969	K20301	kofam+xlsx	
+gene_1197	K07208	kofam+xlsx	
+gene_11971	K19984	kofam+xlsx	
+gene_11973	K00654	kofam+xlsx	2.3.1.50
+gene_11974	K18738	kofam+xlsx	
+gene_11978	K00820	kofam+xlsx	2.6.1.16
+gene_1198	K01869	kofam+xlsx	6.1.1.4
+gene_11981	K19881	kofam+xlsx	
+gene_11988	K06123	kofam+xlsx	1.1.1.101
+gene_1199	K03105	kofam+xlsx	
+gene_11990	K00948	kofam+xlsx	2.7.6.1
+gene_11991	K18168	kofam+xlsx	
+gene_11992	K14828	kofam+xlsx	
+gene_11994	K27960	kofam	
+gene_11999	K11419;K19357	kofam+xlsx	2.1.1.355;3.2.1.4
+gene_12003	K01764	kofam+xlsx	4.4.1.17
+gene_12004	K17644	kofam+xlsx	1.1.1.349
+gene_12009	K12182	kofam+xlsx	
+gene_12013	K14298	kofam+xlsx	
+gene_12016	K08254	kofam+xlsx	3.2.1.59
+gene_12018	K08657	kofam+xlsx	3.4.25.-
+gene_12019	K11414	kofam+xlsx	2.3.1.286;2.3.1.313
+gene_1202	K20195	kofam+xlsx	
+gene_12021	K17969	kofam+xlsx	
+gene_12024	K11254	kofam+xlsx	
+gene_12026	K28564	kofam	
+gene_1203	K07001;K14676	kofam+xlsx	3.1.1.5
+gene_12033	K00274	kofam+xlsx	1.4.3.4
+gene_12037	K12190	kofam+xlsx	
+gene_12040	K18549	kofam+xlsx	3.4.21.63
+gene_12041	K07407	kofam+xlsx	3.2.1.22
+gene_12042	K06867	kofam+xlsx	
+gene_12043	K22278	kofam+xlsx	3.5.1.104
+gene_12045	K20182	kofam+xlsx	
+gene_12055	K01728	kofam+xlsx	4.2.2.2
+gene_12060	K00958	kofam+xlsx	2.7.7.4
+gene_12061	K17496	kofam+xlsx	
+gene_12063	K00667	kofam+xlsx	2.3.1.86
+gene_12064	K20643	kofam+xlsx	
+gene_12067	K20705	kofam+xlsx	
+gene_12068	K03242	kofam+xlsx	
+gene_12070	K22073	kofam+xlsx	2.1.-.-
+gene_12074	K23785	kofam+xlsx	2.7.11.1
+gene_12077	K22856	kofam+xlsx	2.1.1.-
+gene_12079	K24195	kofam+xlsx	
+gene_1208	K16261	kofam+xlsx	
+gene_12084	K17275	kofam+xlsx	
+gene_12086	K00826	kofam+xlsx	2.6.1.42
+gene_12087	K18123	kofam+xlsx	4.1.3.16
+gene_1209	K05658	kofam+xlsx	7.6.2.2
+gene_12092	K07034	kofam+xlsx	
+gene_12094	K19366	kofam+xlsx	
+gene_121	K11339	kofam+xlsx	
+gene_12104	K17774	kofam+xlsx	
+gene_12109	K14642	kofam+xlsx	3.6.1.5
+gene_12112	K11352	kofam+xlsx	
+gene_12116	K08100	kofam+xlsx	1.3.3.5
+gene_12117	K02350	kofam+xlsx	2.7.7.7
+gene_12120	K10752	kofam+xlsx	
+gene_12124	K02431	kofam+xlsx	5.1.3.29
+gene_12131	K02999	kofam+xlsx	2.7.7.6
+gene_12137	K02910	kofam+xlsx	
+gene_12138	K20048	kofam+xlsx	
+gene_12140	K11551	kofam+xlsx	
+gene_12145	K00586	kofam+xlsx	2.1.1.314
+gene_12148	K05349	kofam+xlsx	3.2.1.21
+gene_12153	K09484	kofam+xlsx	1.1.1.24
+gene_12154	K14015	kofam+xlsx	
+gene_12155	K05797	kofam+xlsx	1.17.9.1
+gene_12157	K09667	kofam+xlsx	2.4.1.255
+gene_12158	K03676	kofam+xlsx	
+gene_1216	K22118	kofam+xlsx	6.3.2.-
+gene_12161	K03347	kofam+xlsx	
+gene_12164	K01824	kofam+xlsx	5.3.3.5
+gene_12165	K02136	kofam+xlsx	
+gene_12167	K28261	kofam	
+gene_12169	K10863	kofam+xlsx	3.6.1.70;3.6.1.71;3.6.1.72
+gene_1217	K02893	kofam+xlsx	
+gene_12170	K08675	kofam+xlsx	3.4.21.53
+gene_12176	K09958	kofam+xlsx	
+gene_1218	K02304;K24866	kofam+xlsx	1.3.1.76;4.99.1.4
+gene_12182	K01183	kofam+xlsx	3.2.1.14
+gene_12185	K00326	kofam+xlsx	1.6.2.2
+gene_12188	K14439	kofam+xlsx	5.6.2.-
+gene_12189	K09518	xlsx	
+gene_12198	K22377	xlsx	2.3.2.27
+gene_12199	K02905;K13354	kofam+xlsx	
+gene_122	K20028	kofam+xlsx	2.3.1.225
+gene_12204	K16261	kofam+xlsx	
+gene_12206	K11971	kofam+xlsx	2.3.2.31
+gene_12213	K23404	kofam+xlsx	
+gene_12214	K09885	kofam+xlsx	
+gene_12215	K01855	kofam+xlsx	5.4.99.45
+gene_12216	K09250	kofam+xlsx	
+gene_12218	K16261	kofam+xlsx	
+gene_12220	K22213	kofam+xlsx	4.1.1.52
+gene_12222	K12663	kofam	5.3.3.21
+gene_12234	K00624	kofam+xlsx	2.3.1.7
+gene_1224	K17508	kofam+xlsx	3.1.3.16
+gene_12242	K07160	kofam+xlsx	3.5.2.9
+gene_12244	K07542	kofam+xlsx	2.4.1.-
+gene_12248	K22278	kofam+xlsx	3.5.1.104
+gene_12249	K09495	kofam+xlsx	
+gene_1225	K13421	kofam+xlsx	2.4.2.10;4.1.1.23
+gene_12250	K15425	xlsx	
+gene_12252	K08336	kofam+xlsx	
+gene_12259	K09529	kofam+xlsx	
+gene_1226	K11872	kofam+xlsx	3.4.19.12
+gene_12260	K26753	kofam	
+gene_12266	K01230	xlsx	3.2.1.113
+gene_12267	K17756	kofam+xlsx	1.1.3.20
+gene_12271	K03448	kofam+xlsx	
+gene_12278	K17741	xlsx	1.1.1.283
+gene_1228	K00276	kofam+xlsx	1.4.3.21
+gene_12289	K10743	kofam+xlsx	3.1.26.4
+gene_1229	K20069	kofam	
+gene_12293	K14189	kofam+xlsx	1.-.-.-
+gene_12297	K00574	kofam+xlsx	2.1.1.79
+gene_12299	K00688	kofam+xlsx	2.4.1.1
+gene_12304	K19730	kofam+xlsx	
+gene_12305	K15111	kofam+xlsx	
+gene_12306	K03253	kofam+xlsx	
+gene_12309	K15083	kofam+xlsx	
+gene_12310	K01180	kofam+xlsx	3.2.1.6
+gene_12313	K00940	kofam+xlsx	2.7.4.6
+gene_12315	K24194	kofam+xlsx	
+gene_12316	K11553	kofam+xlsx	
+gene_12319	K00765	kofam+xlsx	2.4.2.17
+gene_12324	K03469	kofam+xlsx	3.1.26.4
+gene_12325	K15633	kofam+xlsx	5.4.2.12
+gene_12329	K15918	kofam+xlsx	2.7.1.31
+gene_12335	K08192	kofam	
+gene_12344	K03593	kofam+xlsx	
+gene_12349	K06998	kofam+xlsx	5.3.3.17
+gene_1235	K03932	kofam	
+gene_12351	K01870	kofam+xlsx	6.1.1.5
+gene_12355	K08158	kofam+xlsx	
+gene_12356	K11233	kofam+xlsx	
+gene_12373	K06867	xlsx	
+gene_12374	K18579	kofam+xlsx	3.2.1.164
+gene_12375	K07300	kofam+xlsx	
+gene_12378	K13726	kofam+xlsx	3.4.24.-
+gene_12379	K15631	kofam+xlsx	2.8.1.9
+gene_1238	K01796	kofam+xlsx	5.1.99.4
+gene_12380	K15152	kofam+xlsx	
+gene_12382	K08736	kofam+xlsx	
+gene_12383	K14787	kofam+xlsx	
+gene_12385	K03781	kofam+xlsx	1.11.1.6
+gene_1239	K10356	kofam+xlsx	
+gene_12394	K24887	kofam+xlsx	
+gene_12395	K11427	kofam+xlsx	2.1.1.360
+gene_12396	K13356	xlsx	1.2.1.84
+gene_12397	K00213	kofam+xlsx	1.3.1.21
+gene_12399	K03113;K24272	kofam+xlsx	
+gene_1240	K02830	kofam+xlsx	3.1.11.2
+gene_12400	K03115	kofam+xlsx	
+gene_12406	K06867	xlsx	
+gene_12409	K01807	kofam+xlsx	5.3.1.6
+gene_12412	K21421	xlsx	1.-.-.-
+gene_12416	K01235;K19589	kofam+xlsx	2.1.1.297;3.2.1.139
+gene_12417	K14779	kofam+xlsx	5.6.2.7
+gene_12418	K12603	kofam+xlsx	3.1.13.4
+gene_1242	K03004	kofam+xlsx	
+gene_12422	K03134	kofam+xlsx	
+gene_12423	K17780	kofam	
+gene_12429	K15118;K20295	kofam+xlsx	
+gene_1243	K05349	kofam+xlsx	3.2.1.21
+gene_12431	K01183	kofam+xlsx	3.2.1.14
+gene_12437	K08337	kofam+xlsx	
+gene_12438	K12584	kofam+xlsx	3.6.1.59
+gene_12444	K26091	kofam	
+gene_12450	K08192	kofam	
+gene_12451	K01958	kofam+xlsx	6.4.1.1
+gene_12454	K18477	kofam+xlsx	2.1.1.322
+gene_12456	K19770	kofam+xlsx	3.1.-.-
+gene_12457	K08343;K13127	kofam+xlsx	
+gene_12458	K06269	kofam+xlsx	3.1.3.16
+gene_12459	K19356	kofam+xlsx	1.14.99.54
+gene_12465	K02155	kofam+xlsx	
+gene_12466	K05302	kofam+xlsx	2.1.1.-
+gene_1247	K23114	kofam+xlsx	3.1.3.-
+gene_12473	K07127	kofam+xlsx	3.5.2.17
+gene_12475	K07300	kofam+xlsx	
+gene_12477	K00217;K24750	kofam+xlsx	1.3.1.32
+gene_12484	K00309	kofam+xlsx	1.5.3.10
+gene_12485	K27966	kofam	
+gene_12486	K07199	kofam+xlsx	
+gene_1249	K27906	kofam	
+gene_12493	K01647	kofam+xlsx	2.3.3.1
+gene_12494	K01732	kofam+xlsx	4.2.2.10
+gene_12495	K15084	kofam+xlsx	
+gene_12496	K12823	kofam+xlsx	5.6.2.7
+gene_12497	K03372	kofam+xlsx	2.3.1.-
+gene_12498	K24137	kofam+xlsx	1.11.1.25;1.11.1.27
+gene_12499	K01045	kofam+xlsx	3.1.1.2;3.1.8.1
+gene_12500	K23518	kofam+xlsx	3.1.1.106
+gene_12503	K02858	kofam+xlsx	4.1.99.12
+gene_12506	K18442	kofam+xlsx	
+gene_12507	K04075	kofam+xlsx	6.3.4.19
+gene_12510	K13137	kofam+xlsx	
+gene_12512	K12373	kofam+xlsx	3.2.1.52
+gene_12513	K08192	kofam+xlsx	
+gene_12515	K05535	kofam+xlsx	2.4.1.-
+gene_12518	K09265	kofam+xlsx	
+gene_1252	K03012	kofam+xlsx	
+gene_12521	K11376	kofam+xlsx	
+gene_12525	K22686	kofam+xlsx	3.4.21.-
+gene_12526	K17228	kofam+xlsx	1.14.14.35
+gene_12527	K00698	kofam+xlsx	2.4.1.16
+gene_12528	K14394;K25307	kofam+xlsx	3.1.3.2;3.1.3.48
+gene_12537	K00344	kofam+xlsx	1.6.5.5
+gene_12538	K15541	kofam+xlsx	
+gene_12543	K01251	kofam+xlsx	3.13.2.1
+gene_12545	K14821	kofam+xlsx	
+gene_12547	K02984	kofam+xlsx	
+gene_12553	K01469	kofam+xlsx	3.5.2.9
+gene_12556	K03846	kofam+xlsx	2.4.1.259;2.4.1.261
+gene_12562	K13110	xlsx	
+gene_12563	K01341	kofam+xlsx	3.4.21.61
+gene_12567	K11354	xlsx	2.7.13.3
+gene_12572	K14962	kofam+xlsx	
+gene_12578	K23499	kofam+xlsx	
+gene_12579	K02955	kofam+xlsx	
+gene_1258	K00059	kofam+xlsx	1.1.1.100
+gene_12584	K12200	xlsx	
+gene_12587	K03650	kofam+xlsx	3.6.-.-
+gene_12589	K04755;K22071	kofam+xlsx	
+gene_12592	K01235;K19589	kofam+xlsx	2.1.1.297;3.2.1.139
+gene_12596	K02971	kofam+xlsx	
+gene_12597	K11483	kofam+xlsx	3.5.1.98
+gene_126	K14338	kofam+xlsx	1.14.14.1;1.6.2.4
+gene_12601	K08095	kofam+xlsx	3.1.1.74
+gene_12603	K03778	kofam+xlsx	1.1.1.28
+gene_12605	K12763	kofam+xlsx	
+gene_12607	K00128	kofam+xlsx	1.2.1.3
+gene_12609	K06630	kofam+xlsx	
+gene_12612	K15318;K16639	kofam+xlsx	3.1.27.-
+gene_12616	K02911	kofam+xlsx	
+gene_12617	K02886	kofam+xlsx	
+gene_12618	K01480;K01893;K25365	kofam+xlsx	3.5.3.10;3.5.3.11;3.5.3.7;6.1.1.22
+gene_12619	K06678	kofam+xlsx	
+gene_1262	K02111;K02132	kofam+xlsx	7.1.2.2;7.2.2.1
+gene_12625	K06867	xlsx	
+gene_12627	K07404	kofam+xlsx	3.1.1.31
+gene_1263	K01183	kofam+xlsx	3.2.1.14
+gene_12633	K02209	kofam+xlsx	5.6.2.3
+gene_12636	K02868	kofam+xlsx	
+gene_12639	K08869;K13118	kofam+xlsx	
+gene_12642	K14819	kofam+xlsx	3.1.3.16;3.1.3.48
+gene_12644	K22134	kofam+xlsx	
+gene_12645	K15921	xlsx	3.2.1.55
+gene_12648	K05972	kofam+xlsx	3.1.1.72
+gene_12654	K18693	kofam+xlsx	3.1.3.4;3.6.1.75
+gene_12659	K15378	kofam+xlsx	
+gene_1266	K05767	kofam+xlsx	
+gene_12664	K14548	kofam+xlsx	
+gene_12669	K04091	kofam+xlsx	1.14.14.34;1.14.14.5
+gene_12679	K18703	kofam+xlsx	2.8.3.13
+gene_12680	K20032	kofam+xlsx	2.3.1.225
+gene_12684	K25639	kofam+xlsx	
+gene_12685	K01697	kofam+xlsx	4.2.1.22
+gene_12687	K24113	kofam+xlsx	
+gene_12688	K08192	kofam	
+gene_12690	K01575	kofam+xlsx	4.1.1.5
+gene_12692	K05657	kofam+xlsx	
+gene_12693	K20477	kofam+xlsx	
+gene_12694	K06628	kofam+xlsx	
+gene_12696	K13339	kofam+xlsx	3.6.4.-
+gene_12697	K08192	kofam	
+gene_12702	K00297	kofam+xlsx	1.5.1.54
+gene_12706	K08852	kofam+xlsx	2.7.11.1;3.1.26.-
+gene_12711	K17743	kofam+xlsx	1.1.1.307;1.1.1.430;1.1.1.431
+gene_12714	K10838	kofam+xlsx	
+gene_12715	K00505	kofam+xlsx	1.14.18.1
+gene_12716	K07375	kofam+xlsx	
+gene_12719	K07750	kofam+xlsx	1.14.18.9
+gene_12720	K02866	kofam+xlsx	
+gene_12723	K12597	kofam+xlsx	
+gene_12725	K00077	kofam+xlsx	1.1.1.169
+gene_12726	K01206	kofam+xlsx	3.2.1.51
+gene_12735	K23504	kofam+xlsx	
+gene_12736	K03350	kofam+xlsx	
+gene_12737	K00140	kofam+xlsx	1.2.1.18;1.2.1.27
+gene_12740	K00772	kofam+xlsx	2.4.2.28
+gene_12742	K00981	kofam+xlsx	2.7.7.41
+gene_12747	K06694	kofam+xlsx	
+gene_12748	K14544	kofam+xlsx	
+gene_12749	K00799	kofam+xlsx	2.5.1.18
+gene_12750	K19983	kofam+xlsx	
+gene_12755	K17818	kofam+xlsx	1.1.1.287
+gene_12758	K01537	kofam+xlsx	7.2.2.10
+gene_12759	K10848	kofam+xlsx	3.1.-.-
+gene_1276	K08963	kofam+xlsx	5.3.1.23
+gene_12761	K11483	kofam+xlsx	3.5.1.98
+gene_12764	K11501	kofam+xlsx	
+gene_12765	K00645;K12398	kofam+xlsx	2.3.1.39
+gene_12777	K18738	xlsx	
+gene_12778	K03469	kofam+xlsx	3.1.26.4
+gene_12782	K14998	kofam+xlsx	
+gene_12784	K24104	kofam+xlsx	
+gene_12787	K03540	kofam+xlsx	3.1.26.5
+gene_12791	K00953	kofam+xlsx	2.7.7.2
+gene_12792	K09828	kofam+xlsx	1.3.1.-;1.3.1.72
+gene_12797	K12389;K22884	kofam+xlsx	2.3.1.-
+gene_12798	K05665	xlsx	7.6.2.3
+gene_1280	K10886	kofam+xlsx	
+gene_12800	K15163	kofam+xlsx	
+gene_12807	K01624	kofam+xlsx	4.1.2.13
+gene_12808	K12041	xlsx	
+gene_12810	K19841	kofam+xlsx	
+gene_12815	K00273	kofam+xlsx	1.4.3.3
+gene_12816	K03016	kofam+xlsx	
+gene_12817	K12839	kofam+xlsx	
+gene_12819	K22278	kofam+xlsx	3.5.1.104
+gene_1282	K05906	kofam+xlsx	1.8.3.5;1.8.3.6
+gene_12821	K21547	kofam+xlsx	
+gene_12827	K03380	kofam+xlsx	1.14.13.7
+gene_1283	K18342	kofam+xlsx	3.4.19.12
+gene_12830	K05972	kofam+xlsx	3.1.1.72
+gene_12834	K02725;K20306	kofam+xlsx	3.4.25.1
+gene_12838	K16261	kofam+xlsx	
+gene_1284	K00026	kofam+xlsx	1.1.1.37
+gene_12840	K17268	kofam	
+gene_12842	K07151	kofam+xlsx	2.4.99.18
+gene_12844	K10246	kofam+xlsx	2.3.1.199
+gene_12845	K14686	kofam+xlsx	
+gene_12850	K08734	kofam+xlsx	
+gene_12854	K13117	kofam+xlsx	5.6.2.6
+gene_12855	K24983	kofam	
+gene_12858	K19307	kofam+xlsx	2.1.1.313
+gene_12860	K03843;K19785	kofam+xlsx	2.4.1.132;2.4.1.257;2.7.7.1
+gene_12861	K19356	xlsx	1.14.99.54
+gene_12863	K10436	kofam+xlsx	
+gene_12865	K00668	kofam+xlsx	2.3.1.86
+gene_12870	K02997	kofam+xlsx	
+gene_12871	K09537	kofam+xlsx	
+gene_12874	K01900	kofam+xlsx	6.2.1.4;6.2.1.5
+gene_12875	K23460	kofam+xlsx	
+gene_12878	K11569	kofam+xlsx	
+gene_12885	K00102	kofam+xlsx	1.1.2.4
+gene_12887	K20938	kofam+xlsx	1.14.14.28
+gene_12888	K28028	kofam	
+gene_1289	K26808	kofam	
+gene_12891	K05863;K15360	kofam+xlsx	
+gene_12896	K02078	kofam+xlsx	
+gene_12897	K12200;K27841	kofam+xlsx	2.4.1.398
+gene_12899	K00844	kofam+xlsx	2.7.1.1
+gene_129	K22952	kofam+xlsx	4.1.99.24
+gene_12901	K12818	kofam+xlsx	5.6.2.6
+gene_12903	K08139	kofam+xlsx	
+gene_12906	K20803	kofam+xlsx	2.3.2.26
+gene_12907	K13519;K15356	kofam+xlsx	2.3.1.-;2.3.1.23;2.3.1.51
+gene_12908	K01501	kofam	3.5.5.1
+gene_12910	K00838	kofam+xlsx	2.6.1.27;2.6.1.39;2.6.1.5;2.6.1.57
+gene_12918	K12274	kofam+xlsx	
+gene_12921	K12833	kofam+xlsx	
+gene_12922	K11422	kofam+xlsx	2.1.1.354
+gene_12934	K03183;K06127	kofam+xlsx	2.1.1.163;2.1.1.201
+gene_12935	K00915	kofam	2.7.1.140;2.7.1.151
+gene_12938	K23107	kofam+xlsx	1.1.-.-
+gene_12939	K07407	kofam+xlsx	3.2.1.22
+gene_12950	K03305	kofam+xlsx	
+gene_12952	K03115;K20476	kofam+xlsx	
+gene_12965	K05925	kofam	2.1.1.348
+gene_12966	K03262	kofam+xlsx	
+gene_12969	K05349	kofam+xlsx	3.2.1.21
+gene_1297	K01066	xlsx	3.1.1.-
+gene_12974	K01469	kofam+xlsx	3.5.2.9
+gene_12976	K16214	xlsx	2.7.1.176
+gene_12987	K03869	kofam+xlsx	
+gene_12988	K01489	kofam+xlsx	3.5.4.5
+gene_12989	K01537	kofam+xlsx	7.2.2.10
+gene_12990	K28059	kofam	
+gene_12994	K18191	kofam+xlsx	
+gene_12998	K01904	kofam+xlsx	6.2.1.12
+gene_1300	K11429	kofam+xlsx	2.1.1.362
+gene_13003	K08269	kofam+xlsx	2.7.11.1
+gene_13004	K08254	kofam+xlsx	3.2.1.59
+gene_13006	K10956	kofam+xlsx	
+gene_13007	K01183	kofam+xlsx	3.2.1.14
+gene_13008	K03392;K06176	kofam+xlsx	4.1.1.45;5.4.99.27
+gene_13011	K11253	kofam+xlsx	
+gene_13018	K18189	kofam+xlsx	
+gene_13019	K08139	kofam+xlsx	
+gene_13020	K28102	kofam	
+gene_13021	K02950	kofam+xlsx	
+gene_13022	K02732	kofam+xlsx	3.4.25.1
+gene_13023	K00859	kofam+xlsx	2.7.1.24
+gene_13029	K06062	kofam+xlsx	2.3.1.48
+gene_1303	K03248	kofam+xlsx	
+gene_13038	K11393	kofam+xlsx	2.1.1.346
+gene_13039	K20301	kofam+xlsx	
+gene_13043	K11251	kofam+xlsx	
+gene_13044	K06950	kofam+xlsx	
+gene_1310	K03448	xlsx	
+gene_1312	K08139	kofam+xlsx	
+gene_1316	K09043	kofam+xlsx	
+gene_1319	K15338;K15339	kofam+xlsx	3.1.-.-
+gene_132	K02979;K03636;K21232	kofam+xlsx	
+gene_1323	K14780	kofam+xlsx	5.6.2.6
+gene_1324	K00222	xlsx	1.3.1.70
+gene_1326	K01318	kofam	3.4.21.19
+gene_1329	K11215	kofam+xlsx	
+gene_1331	K06630	kofam+xlsx	
+gene_1335	K01181	kofam+xlsx	3.2.1.8
+gene_1336	K13106	kofam+xlsx	
+gene_1337	K23322	kofam+xlsx	1.-.-.-
+gene_1338	K20347	kofam+xlsx	
+gene_1339	K07374	kofam+xlsx	
+gene_1340	K06210	kofam+xlsx	2.7.7.1;2.7.7.18
+gene_1343	K00164	kofam+xlsx	1.2.4.2
+gene_1347	K04569	kofam+xlsx	
+gene_135	K01802;K09569	kofam+xlsx	5.2.1.8
+gene_1350	K01655	kofam+xlsx	2.3.3.14
+gene_1351	K01785	kofam+xlsx	5.1.3.3
+gene_1353	K15777	kofam+xlsx	1.13.11.-
+gene_1354	K14309	kofam+xlsx	
+gene_1355	K15222	kofam	
+gene_1358	K18178	kofam+xlsx	
+gene_1359	K03163	kofam+xlsx	5.6.2.1
+gene_136	K03255	kofam+xlsx	
+gene_1361	K13108	kofam+xlsx	
+gene_1363	K05767	kofam+xlsx	
+gene_1365	K10747	kofam+xlsx	6.5.1.1;6.5.1.6;6.5.1.7
+gene_137	K17427	kofam+xlsx	
+gene_1372	K19356	kofam+xlsx	1.14.99.54
+gene_1373	K03000	kofam+xlsx	
+gene_1374	K23498	kofam+xlsx	
+gene_1375	K02510	kofam+xlsx	4.1.2.52
+gene_1377	K01426	kofam+xlsx	3.5.1.4
+gene_1379	K17066	kofam+xlsx	1.1.3.13
+gene_1387	K21830	kofam+xlsx	3.1.3.75
+gene_1389	K03949	kofam+xlsx	
+gene_1392	K15033	kofam+xlsx	3.1.1.29
+gene_1393	K23322	kofam+xlsx	1.-.-.-
+gene_1394	K08955	kofam+xlsx	3.4.24.-
+gene_1399	K12605;K14022	kofam+xlsx	
+gene_1400	K14708	kofam+xlsx	
+gene_1401	K03333	kofam+xlsx	1.1.3.6
+gene_1405	K01225	kofam+xlsx	3.2.1.91
+gene_1406	K00062	kofam+xlsx	1.1.1.116
+gene_1408	K03265	kofam	
+gene_141	K01066	xlsx	3.1.1.-
+gene_1410	K10866	kofam+xlsx	3.6.-.-
+gene_1413	K10589	kofam+xlsx	2.3.2.26
+gene_1417	K05528	kofam+xlsx	2.4.1.232
+gene_1420	K20524	kofam+xlsx	
+gene_1423	K00551;K12346	kofam+xlsx	2.1.1.17;2.1.1.71
+gene_1424	K20047	kofam+xlsx	
+gene_1425	K00761	kofam+xlsx	2.4.2.9
+gene_1430	K11226	kofam+xlsx	2.7.12.2
+gene_1431	K03514	kofam+xlsx	2.7.7.19
+gene_1432	K11128	kofam+xlsx	
+gene_1436	K03457	kofam+xlsx	
+gene_1441	K18160	kofam+xlsx	
+gene_145	K28083	kofam	
+gene_1450	K19951	kofam+xlsx	
+gene_1451	K11870	kofam+xlsx	3.4.19.12
+gene_1452	K28026	kofam	
+gene_1461	K00507	kofam+xlsx	1.14.19.1
+gene_1463	K07203	kofam+xlsx	2.7.11.1
+gene_1464	K03679	kofam+xlsx	
+gene_1465	K00730	kofam	
+gene_1466	K01953	kofam+xlsx	6.3.5.4
+gene_1467	K13181	kofam+xlsx	5.6.2.7
+gene_1472	K00318	kofam+xlsx	1.5.5.2
+gene_1473	K11137	xlsx	
+gene_148	K19355	kofam+xlsx	3.2.1.78
+gene_1480	K05824	kofam+xlsx	1.1.1.87
+gene_1482	K07750	kofam+xlsx	1.14.18.9
+gene_1484	K17981	kofam+xlsx	
+gene_1486	K24348	kofam+xlsx	
+gene_1487	K03434	kofam+xlsx	3.5.1.89
+gene_1489	K28508	kofam	
+gene_149	K23387	kofam+xlsx	
+gene_1493	K04079	kofam+xlsx	
+gene_1494	K09648	kofam+xlsx	3.4.21.-
+gene_1496	K08966	kofam+xlsx	3.1.3.87
+gene_1497	K14967;K28103	kofam+xlsx	
+gene_150	K03885	kofam+xlsx	1.6.5.9
+gene_1506	K14715	kofam+xlsx	
+gene_1507	K05285	kofam+xlsx	2.7.-.-
+gene_1509	K11173	kofam+xlsx	1.1.99.24
+gene_1512	K15389	xlsx	
+gene_1514	K00106	kofam+xlsx	1.17.1.4;1.17.3.2
+gene_1515	K14997	kofam+xlsx	
+gene_1516	K22278	kofam+xlsx	3.5.1.104
+gene_152	K22763	kofam+xlsx	3.4.19.12
+gene_1521	K04043	kofam+xlsx	
+gene_1522	K18633	kofam+xlsx	
+gene_1532	K14854	kofam+xlsx	
+gene_1533	K18103;K18123	kofam+xlsx	4.1.2.54;4.1.3.16
+gene_1534	K14811	kofam+xlsx	5.6.2.7
+gene_1535	K18546	kofam+xlsx	3.4.21.-
+gene_1536	K16075	kofam+xlsx	
+gene_1537	K01183	kofam+xlsx	3.2.1.14
+gene_154	K11271	kofam+xlsx	
+gene_1540	K15069	xlsx	
+gene_1541	K24175	kofam+xlsx	
+gene_1542	K01952	kofam+xlsx	6.3.5.3
+gene_1543	K08783	kofam+xlsx	3.4.17.-
+gene_1548	K00928;K15071	kofam+xlsx	2.7.2.4
+gene_155	K02434	kofam+xlsx	6.3.5.6;6.3.5.7
+gene_1553	K08726	xlsx	3.1.3.76;3.3.2.10
+gene_1555	K12386	kofam+xlsx	
+gene_1559	K00573	kofam+xlsx	2.1.1.77
+gene_1564	K14713	kofam+xlsx	
+gene_1565	K02140	kofam+xlsx	
+gene_1567	K18549	kofam+xlsx	3.4.21.63
+gene_1569	K18726	kofam+xlsx	
+gene_1570	K14557	kofam+xlsx	
+gene_1572	K20302	kofam+xlsx	
+gene_1578	K14555	kofam+xlsx	
+gene_1580	K18849	kofam+xlsx	2.1.1.286
+gene_159	K00766	kofam+xlsx	2.4.2.18
+gene_1592	K07297	kofam+xlsx	
+gene_1595	K12175	kofam+xlsx	
+gene_1600	K22522	kofam+xlsx	3.2.2.-
+gene_1604	K11099	kofam+xlsx	
+gene_1605	K00013;K14152	kofam+xlsx	1.1.1.23;3.5.4.19;3.6.1.31
+gene_1608	K14785	kofam+xlsx	
+gene_1614	K13577	kofam+xlsx	
+gene_162	K20974	xlsx	2.7.13.3
+gene_1620	K01850	kofam+xlsx	5.4.99.5
+gene_1622	K02915	kofam+xlsx	
+gene_1625	K00088	kofam+xlsx	1.1.1.205
+gene_1631	K02202	kofam+xlsx	2.7.11.22;2.7.11.23
+gene_1632	K01104	kofam	3.1.3.48
+gene_1634	K07297	kofam+xlsx	
+gene_1637	K14284	kofam+xlsx	
+gene_1643	K11699	kofam+xlsx	2.7.7.48
+gene_1645	K22063	kofam+xlsx	
+gene_1646	K15562	kofam+xlsx	2.7.11.22;2.7.11.23
+gene_1654	K17777	kofam+xlsx	
+gene_166	K00275	kofam+xlsx	1.4.3.5
+gene_1663	K14843	kofam+xlsx	
+gene_1670	K28506	kofam	
+gene_1671	K05528	kofam	2.4.1.232
+gene_1677	K02898	kofam+xlsx	
+gene_1679	K20815	kofam+xlsx	
+gene_168	K03146	kofam+xlsx	2.4.2.60
+gene_1689	K00698	kofam+xlsx	2.4.1.16
+gene_169	K22733	kofam+xlsx	
+gene_1691	K09202	kofam+xlsx	
+gene_1694	K08157;K28027	kofam+xlsx	
+gene_1695	K22278	kofam+xlsx	3.5.1.104
+gene_17	K11370	kofam+xlsx	
+gene_1701	K19267	xlsx	1.6.5.2
+gene_1703	K08964	kofam+xlsx	4.2.1.109
+gene_1704	K05658	kofam+xlsx	7.6.2.2
+gene_1706	K17787	kofam+xlsx	
+gene_1709	K06201	kofam+xlsx	
+gene_1710	K11664;K17900	kofam+xlsx	3.1.1.3
+gene_1711	K00818;K00821	kofam+xlsx	2.6.1.11;2.6.1.17
+gene_1712	K14968	kofam+xlsx	
+gene_172	K05925	kofam	2.1.1.348
+gene_1721	K08499	kofam+xlsx	
+gene_1725	K15532	kofam+xlsx	3.2.1.172
+gene_173	K14640	kofam+xlsx	
+gene_1735	K14640	xlsx	
+gene_1737	K14855	kofam+xlsx	
+gene_1742	K12184	kofam+xlsx	
+gene_1747	K01209	kofam+xlsx	3.2.1.55
+gene_1753	K01092	kofam+xlsx	3.1.3.25
+gene_1754	K14709	kofam+xlsx	
+gene_1755	K10873	kofam+xlsx	
+gene_1757	K21456	kofam+xlsx	6.3.2.3
+gene_1758	K11228	kofam+xlsx	2.7.11.25
+gene_1764	K05019	kofam+xlsx	
+gene_1765	K14552	kofam+xlsx	
+gene_1766	K24752	kofam+xlsx	
+gene_1767	K22889	kofam+xlsx	2.3.1.-
+gene_1769	K18716	kofam+xlsx	
+gene_1771	K06693;K07936	kofam+xlsx	
+gene_1772	K16261	kofam+xlsx	
+gene_1773	K02112;K02133	kofam+xlsx	7.1.2.2;7.2.2.1
+gene_1776	K00616	kofam+xlsx	2.2.1.2
+gene_1780	K00683	kofam+xlsx	2.3.2.5
+gene_1783	K01497	kofam+xlsx	3.5.4.25
+gene_1789	K01051	kofam+xlsx	3.1.1.11
+gene_1794	K01427;K01428	kofam+xlsx	3.5.1.5
+gene_18	K12193	kofam+xlsx	
+gene_1800	K00869;K05955	kofam+xlsx	2.5.1.58;2.5.1.59;2.7.1.36
+gene_1801	K09490;K14416	kofam+xlsx	5.6.1.10
+gene_1802	K14546	kofam+xlsx	
+gene_1806	K12608	kofam+xlsx	
+gene_1810	K00232	kofam+xlsx	1.3.3.6
+gene_1812	K28440	kofam	
+gene_1814	K10882	kofam+xlsx	3.1.22.-
+gene_1818	K11232	kofam+xlsx	
+gene_1819	K17796	kofam+xlsx	
+gene_1821	K11315	kofam+xlsx	
+gene_1824	K19355	kofam+xlsx	3.2.1.78
+gene_1826	K09248	kofam	
+gene_1827	K08489	kofam+xlsx	
+gene_1829	K05658	kofam+xlsx	7.6.2.2
+gene_1831	K24364	kofam+xlsx	
+gene_1834	K19564	kofam+xlsx	
+gene_1835	K14180	kofam+xlsx	4.2.3.9
+gene_1838	K00167;K10364	kofam+xlsx	1.2.4.4
+gene_1839	K14004	kofam+xlsx	
+gene_1842	K12199	kofam+xlsx	
+gene_1845	K01181	kofam+xlsx	3.2.1.8
+gene_185	K12762	kofam+xlsx	
+gene_1853	K05528	kofam+xlsx	2.4.1.232
+gene_1855	K21797	kofam+xlsx	3.1.3.-
+gene_1857	K18693	kofam+xlsx	3.1.3.4;3.6.1.75
+gene_1858	K07478	kofam+xlsx	
+gene_1863	K02272	kofam+xlsx	
+gene_1865	K00888	kofam+xlsx	2.7.1.67
+gene_1866	K22889	xlsx	2.3.1.-
+gene_1869	K01897	kofam+xlsx	6.2.1.3
+gene_187	K01426	kofam+xlsx	3.5.1.4
+gene_1872	K02260	kofam+xlsx	
+gene_1875	K02307	kofam+xlsx	
+gene_1876	K03842	kofam+xlsx	2.4.1.142
+gene_1886	K01883	kofam+xlsx	6.1.1.16
+gene_1888	K25058	kofam+xlsx	
+gene_189	K06113	kofam+xlsx	3.2.1.99
+gene_1892	K20526	kofam+xlsx	
+gene_1897	K01580	kofam+xlsx	4.1.1.15
+gene_190	K12198	kofam+xlsx	
+gene_1900	K09248	kofam+xlsx	
+gene_1901	K03538	kofam+xlsx	3.1.26.5
+gene_1904	K09658	kofam+xlsx	
+gene_1910	K00869	kofam+xlsx	2.7.1.36
+gene_1921	K12860	kofam+xlsx	
+gene_1923	K20474	kofam+xlsx	
+gene_1929	K07442	kofam+xlsx	2.1.1.219;2.1.1.220
+gene_193	K17768	kofam+xlsx	
+gene_1935	K07513	kofam+xlsx	2.3.1.16
+gene_1937	K18123	kofam+xlsx	4.1.3.16
+gene_1940	K10755	kofam+xlsx	
+gene_1943	K12844	kofam+xlsx	
+gene_1945	K14530	kofam+xlsx	3.1.26.5
+gene_1949	K12621	kofam+xlsx	
+gene_1950	K01892	kofam+xlsx	6.1.1.21
+gene_1951	K12587	kofam+xlsx	
+gene_1954	K05658	kofam+xlsx	7.6.2.2
+gene_1956	K08497	kofam+xlsx	
+gene_1957	K01624	kofam+xlsx	4.1.2.13
+gene_1958	K00661	kofam+xlsx	2.3.1.79
+gene_1959	K00799	kofam+xlsx	2.5.1.18
+gene_1963	K27389	kofam	
+gene_1968	K18107	kofam+xlsx	1.1.1.372
+gene_1971	K09043	kofam+xlsx	
+gene_1973	K08900	kofam+xlsx	
+gene_1974	K11434	kofam+xlsx	2.1.1.319
+gene_1976	K23107	kofam+xlsx	1.1.-.-
+gene_1977	K00389;K06927;K19783	kofam+xlsx	5.6.2.3;6.3.1.14
+gene_198	K06999	kofam+xlsx	
+gene_1982	K19801	kofam+xlsx	2.7.1.67
+gene_1983	K11778	kofam+xlsx	2.5.1.87
+gene_1985	K00505	kofam+xlsx	1.14.18.1
+gene_1988	K03264	kofam+xlsx	
+gene_1992	K03239	kofam+xlsx	
+gene_2	K11369	kofam+xlsx	
+gene_200	K20521	kofam+xlsx	
+gene_2000	K02127	kofam+xlsx	
+gene_2001	K01501	kofam+xlsx	3.5.5.1
+gene_2002	K10415	kofam+xlsx	
+gene_2004	K14773;K17508	kofam+xlsx	3.1.3.16
+gene_2010	K00942	kofam+xlsx	2.7.4.8
+gene_2011	K05349;K15920	kofam+xlsx	3.2.1.21;3.2.1.37
+gene_2013	K00354	kofam+xlsx	1.6.99.1
+gene_2017	K24029	kofam+xlsx	1.14.11.-
+gene_2019	K22684	kofam+xlsx	3.4.22.-
+gene_2020	K05755	kofam+xlsx	
+gene_2021	K03858	kofam+xlsx	
+gene_2022	K02949	kofam+xlsx	
+gene_2023	K01288	kofam+xlsx	3.4.16.6
+gene_2025	K22074	kofam+xlsx	
+gene_2026	K03065	kofam+xlsx	
+gene_2028	K19940	kofam+xlsx	
+gene_203	K01166	kofam+xlsx	4.6.1.19
+gene_2032	K19356	kofam+xlsx	1.14.99.54
+gene_2034	K07126	kofam+xlsx	
+gene_2036	K00147	kofam+xlsx	1.2.1.41
+gene_2038	K05989	xlsx	3.2.1.40
+gene_204	K10520	kofam+xlsx	
+gene_2040	K19357	kofam+xlsx	3.2.1.4
+gene_2041	K16261	kofam+xlsx	
+gene_2044	K22943	kofam+xlsx	
+gene_2046	K28359	kofam	
+gene_2048	K06867	xlsx	
+gene_205	K01880	kofam+xlsx	6.1.1.14
+gene_2053	K05294	kofam+xlsx	3.-.-.-
+gene_2055	K09780	kofam+xlsx	
+gene_2056	K28515	kofam	
+gene_2061	K06656	kofam+xlsx	
+gene_2072	K00784	kofam+xlsx	3.1.26.11
+gene_2075	K11341	kofam+xlsx	
+gene_2076	K10808	kofam+xlsx	1.17.4.1
+gene_2077	K08150	kofam+xlsx	
+gene_2079	K19829	kofam+xlsx	
+gene_208	K10750	kofam+xlsx	
+gene_2082	K05972	kofam+xlsx	3.1.1.72
+gene_2086	K02564	kofam+xlsx	3.5.99.6
+gene_2087	K01259	kofam	3.4.11.5
+gene_209	K28217	kofam	
+gene_2093	K01692	kofam+xlsx	4.2.1.17
+gene_2094	K08192	kofam	
+gene_2097	K23292	kofam+xlsx	
+gene_2098	K15053	kofam+xlsx	
+gene_210	K03448	xlsx	
+gene_2101	K04709	kofam+xlsx	2.3.1.297
+gene_2105	K01945	kofam+xlsx	6.3.4.13
+gene_211	K11761	kofam+xlsx	
+gene_2110	K11373	kofam+xlsx	
+gene_2113	K01673	kofam	4.2.1.1
+gene_2115	K06672	kofam+xlsx	
+gene_2116	K01607	kofam+xlsx	4.1.1.44
+gene_2117	K14797	kofam+xlsx	
+gene_2118	K02913	kofam+xlsx	
+gene_2119	K11252	kofam+xlsx	
+gene_212	K11294	kofam+xlsx	
+gene_2120	K00293	kofam+xlsx	1.5.1.10
+gene_2126	K11240	kofam+xlsx	3.1.3.48
+gene_2127	K13123	kofam+xlsx	
+gene_2130	K02943	kofam+xlsx	
+gene_2140	K00344	kofam+xlsx	1.6.5.5
+gene_2142	K13346	kofam+xlsx	2.3.2.27
+gene_2143	K07004	kofam+xlsx	
+gene_2153	K14300	kofam+xlsx	
+gene_2155	K17893	kofam+xlsx	1.10.3.11
+gene_2156	K01915	kofam	6.3.1.2
+gene_2161	K01889	kofam+xlsx	6.1.1.20
+gene_2163	K18748	kofam+xlsx	
+gene_2166	K13535	kofam+xlsx	3.1.1.-
+gene_217	K05389	kofam+xlsx	
+gene_2171	K17644	kofam	1.1.1.349
+gene_2172	K08192	kofam+xlsx	
+gene_2175	K15340	kofam+xlsx	
+gene_2176	K01505	kofam+xlsx	3.5.99.7
+gene_2177	K26797	kofam	
+gene_2178	K07756	kofam+xlsx	2.7.4.21
+gene_218	K23338	kofam+xlsx	
+gene_2182	K00851	kofam+xlsx	2.7.1.12
+gene_2185	K13719	kofam+xlsx	3.1.2.-
+gene_2194	K16073	kofam+xlsx	
+gene_2195	K15102	kofam+xlsx	
+gene_2197	K02921	kofam+xlsx	
+gene_2208	K01439	kofam+xlsx	3.5.1.18
+gene_2209	K01126;K18694	kofam+xlsx	3.1.4.-;3.1.4.46
+gene_2212	K12624	kofam+xlsx	
+gene_2219	K14792	kofam+xlsx	
+gene_222	K08739;K20179	kofam+xlsx	
+gene_2220	K22134	kofam+xlsx	
+gene_2221	K00658	kofam+xlsx	2.3.1.61
+gene_2223	K16329;K16330	kofam+xlsx	2.7.1.83;4.2.1.70
+gene_2227	K03457	kofam+xlsx	
+gene_2229	K08832	xlsx	2.7.11.1
+gene_2231	K00799	kofam+xlsx	2.5.1.18
+gene_2237	K10598	kofam+xlsx	5.2.1.8
+gene_2238	K00698	kofam+xlsx	2.4.1.16
+gene_2239	K15921	kofam+xlsx	3.2.1.55
+gene_2241	K00846	kofam+xlsx	2.7.1.3
+gene_2242	K03238	kofam+xlsx	
+gene_2244	K08192	kofam+xlsx	
+gene_2246	K00804;K27203	kofam+xlsx	2.5.1.1;2.5.1.10;2.5.1.29;4.2.3.214;4.2.3.215
+gene_2249	K00059	kofam+xlsx	1.1.1.100
+gene_2251	K10599	kofam+xlsx	2.3.2.27
+gene_2252	K03030	kofam+xlsx	
+gene_2255	K00281	kofam+xlsx	1.4.4.2
+gene_2256	K12412	kofam+xlsx	
+gene_2264	K25129	kofam+xlsx	
+gene_2265	K10392	kofam+xlsx	
+gene_2273	K13524	kofam+xlsx	2.6.1.19;2.6.1.22
+gene_2278	K22992	kofam	
+gene_2283	K03061	kofam+xlsx	
+gene_2293	K08141	kofam+xlsx	
+gene_2294	K12196	kofam+xlsx	
+gene_2295	K18723	kofam+xlsx	
+gene_2302	K19998	kofam+xlsx	
+gene_2303	K22832	kofam+xlsx	2.4.1.-
+gene_2304	K11462	kofam+xlsx	
+gene_2308	K18185	kofam+xlsx	
+gene_2309	K00609;K01955;K11541	kofam+xlsx	2.1.3.2;6.3.5.5
+gene_231	K08597	kofam+xlsx	3.4.22.68
+gene_2313	K13617	kofam+xlsx	3.1.1.89
+gene_2317	K12622	kofam+xlsx	
+gene_2321	K00671	kofam+xlsx	2.3.1.97
+gene_2322	K09043	kofam+xlsx	
+gene_2326	K18423	kofam+xlsx	
+gene_2327	K00109	kofam+xlsx	1.1.99.2
+gene_2330	K04392	kofam+xlsx	
+gene_2331	K00059;K14729	kofam+xlsx	1.1.1.-;1.1.1.100;4.2.1.-
+gene_2332	K27880	kofam	
+gene_2336	K02516	kofam+xlsx	2.1.1.320
+gene_2337	K15394	kofam+xlsx	
+gene_2340	K03006;K14961	kofam+xlsx	2.7.7.6
+gene_2341	K15462	kofam+xlsx	
+gene_2345	K01951	kofam+xlsx	6.3.5.2
+gene_2347	K13511	kofam+xlsx	2.3.1.-
+gene_235	K08139	kofam+xlsx	
+gene_2350	K07555	kofam+xlsx	
+gene_2355	K03024	kofam+xlsx	
+gene_2359	K07442	kofam+xlsx	2.1.1.219;2.1.1.220
+gene_2360	K23010	kofam+xlsx	3.4.24.-
+gene_2364	K02575	kofam+xlsx	
+gene_2365	K04648	kofam+xlsx	
+gene_2366	K09117	kofam+xlsx	
+gene_2367	K11021	kofam	
+gene_237	K28527	kofam	
+gene_2374	K00864	kofam+xlsx	2.7.1.30
+gene_238	K13526	kofam+xlsx	7.2.2.-
+gene_2381	K05989	xlsx	3.2.1.40
+gene_2385	K14334	kofam+xlsx	5.5.1.5
+gene_239	K12194	kofam+xlsx	
+gene_2394	K24574;K27389	kofam	
+gene_2395	K03215	kofam	2.1.1.190
+gene_2396	K20290	kofam+xlsx	
+gene_24	K17742	kofam+xlsx	1.1.1.289
+gene_240	K22133	kofam+xlsx	6.2.1.8
+gene_2403	K02871	kofam+xlsx	
+gene_2405	K14808	kofam+xlsx	5.6.2.7
+gene_2406	K01638;K09248	kofam+xlsx	2.3.3.9
+gene_2408	K22278	kofam+xlsx	3.5.1.104
+gene_2409	K24976	kofam+xlsx	
+gene_241	K02961	kofam+xlsx	
+gene_2414	K09522;K12872	kofam+xlsx	
+gene_2415	K02883;K12669;K14684	kofam+xlsx	
+gene_2417	K19363	kofam+xlsx	
+gene_2418	K14963	kofam+xlsx	
+gene_2419	K19704	kofam+xlsx	3.1.3.16
+gene_2421	K24970	kofam	
+gene_2426	K15176	kofam+xlsx	
+gene_2429	K27349	kofam	2.1.1.-
+gene_2431	K05994	kofam+xlsx	3.4.11.10
+gene_2433	K14758	kofam+xlsx	2.7.11.1
+gene_2434	K13237	kofam+xlsx	1.3.1.124
+gene_2435	K09022	kofam+xlsx	3.5.99.10
+gene_2436	K07117	xlsx	
+gene_244	K09703	kofam+xlsx	
+gene_2440	K01426	kofam+xlsx	3.5.1.4
+gene_2441	K17792	kofam+xlsx	
+gene_2445	K15015	kofam+xlsx	
+gene_2448	K20221	kofam+xlsx	
+gene_2449	K03457	kofam+xlsx	
+gene_245	K11129	kofam+xlsx	
+gene_2450	K16794	kofam+xlsx	
+gene_2451	K17498	kofam+xlsx	
+gene_2455	K15283	kofam+xlsx	
+gene_2456	K11984	kofam+xlsx	
+gene_2457	K03257	kofam+xlsx	
+gene_2465	K11098	kofam+xlsx	
+gene_247	K08141	kofam+xlsx	
+gene_2471	K10862	kofam+xlsx	3.1.4.-
+gene_248	K01181	kofam+xlsx	3.2.1.8
+gene_2481	K12592	kofam+xlsx	
+gene_2484	K19852	kofam+xlsx	2.7.11.1
+gene_2486	K12391	kofam+xlsx	
+gene_2487	K00505	xlsx	1.14.18.1
+gene_2490	K01265	kofam+xlsx	3.4.11.18
+gene_2491	K00819	kofam+xlsx	2.6.1.13
+gene_2493	K17255;K17428	kofam+xlsx	
+gene_2495	K02429	kofam+xlsx	
+gene_2496	K17732	kofam+xlsx	3.4.24.64
+gene_2497	K02967	kofam+xlsx	
+gene_2500	K01719	kofam+xlsx	4.2.1.75
+gene_2502	K03644	kofam+xlsx	2.8.1.8
+gene_2507	K10601	kofam+xlsx	2.3.2.27
+gene_2510	K09248	kofam+xlsx	
+gene_2512	K00643	kofam+xlsx	2.3.1.37
+gene_2513	K08334	kofam+xlsx	
+gene_2516	K18179	kofam+xlsx	
+gene_2517	K20120	kofam+xlsx	
+gene_2518	K03031	kofam+xlsx	
+gene_2523	K06269	kofam+xlsx	3.1.3.16
+gene_2525	K17450;K20366	kofam+xlsx	4.2.1.-
+gene_2528	K03963	kofam+xlsx	
+gene_2529	K17973	kofam+xlsx	
+gene_2531	K18546	kofam+xlsx	3.4.21.-
+gene_2535	K00273	kofam+xlsx	1.4.3.3
+gene_2538	K00698	kofam+xlsx	2.4.1.16
+gene_254	K19356	kofam+xlsx	1.14.99.54
+gene_2541	K06867	xlsx	
+gene_2542	K16572	kofam+xlsx	
+gene_2547	K00008	kofam+xlsx	1.1.1.14
+gene_2553	K17261	kofam+xlsx	
+gene_2555	K11244	kofam+xlsx	
+gene_2557	K00286	kofam+xlsx	1.5.1.2
+gene_2560	K11236	kofam+xlsx	
+gene_2561	K12867	kofam+xlsx	
+gene_2562	K12795	kofam+xlsx	
+gene_2564	K15445	xlsx	2.1.1.221
+gene_2566	K12854	kofam+xlsx	5.6.2.6
+gene_2568	K00791	kofam+xlsx	2.5.1.75
+gene_2569	K01267	kofam+xlsx	3.4.11.21
+gene_2570	K06867;K23504	kofam+xlsx	
+gene_2577	K00135	kofam+xlsx	1.2.1.16;1.2.1.20;1.2.1.79
+gene_2580	K19356	kofam+xlsx	1.14.99.54
+gene_2581	K03130;K17917	kofam+xlsx	
+gene_2587	K19842	kofam+xlsx	
+gene_259	K12272	kofam+xlsx	
+gene_2593	K01181	kofam+xlsx	3.2.1.8
+gene_2594	K01537;K07566;K20291	kofam+xlsx	2.7.7.87;7.2.2.10
+gene_2601	K04078;K28035	kofam+xlsx	2.7.11.1
+gene_2602	K03934	kofam+xlsx	7.1.1.2
+gene_2606	K06116;K19270	kofam+xlsx	3.1.3.21;3.1.3.22;3.1.3.23;3.1.3.50
+gene_2608	K00294	kofam+xlsx	1.2.1.88
+gene_2609	K02218	xlsx	2.7.11.1
+gene_2613	K24810	kofam+xlsx	
+gene_2621	K05607	xlsx	4.2.1.18
+gene_2622	K16841	kofam+xlsx	5.1.99.3
+gene_2623	K12859	kofam+xlsx	
+gene_2637	K14297	kofam+xlsx	
+gene_2640	K13210	kofam+xlsx	
+gene_2641	K14285	kofam+xlsx	
+gene_2643	K07404	kofam+xlsx	3.1.1.31
+gene_265	K14772	kofam+xlsx	
+gene_2655	K18174	kofam+xlsx	
+gene_2659	K02734	kofam	3.4.25.1
+gene_2661	K16568	xlsx	
+gene_2662	K00787	kofam+xlsx	2.5.1.1;2.5.1.10
+gene_2665	K00863	kofam+xlsx	2.7.1.28;2.7.1.29;4.6.1.15
+gene_2667	K24962	kofam+xlsx	
+gene_2668	K22068	kofam+xlsx	
+gene_2673	K13955	xlsx	
+gene_2678	K10295	kofam+xlsx	
+gene_268	K03104	kofam+xlsx	
+gene_2680	K00264;K00265;K00266	kofam+xlsx	1.4.1.13;1.4.1.14
+gene_2682	K02873	kofam+xlsx	
+gene_2685	K21339	kofam+xlsx	2.5.1.122
+gene_2689	K00549	kofam+xlsx	2.1.1.14
+gene_2691	K11275	kofam+xlsx	
+gene_2692	K18693	kofam	3.1.3.4;3.6.1.75
+gene_2694	K01194	kofam+xlsx	3.2.1.28
+gene_2697	K00101	kofam+xlsx	1.1.2.3
+gene_27	K01648;K02907	kofam+xlsx	2.3.3.8
+gene_2704	K00796;K00950;K13941	kofam+xlsx	2.5.1.15;2.7.6.3
+gene_2706	K21820	xlsx	1.11.2.1
+gene_2710	K08683	kofam+xlsx	1.1.1.178;1.1.1.35
+gene_2711	K12946	kofam+xlsx	3.4.-.-
+gene_2714	K22733	kofam+xlsx	
+gene_2720	K13996	kofam+xlsx	5.3.4.1
+gene_2728	K19054	kofam+xlsx	1.16.3.1
+gene_273	K01974	kofam+xlsx	6.5.1.4
+gene_2733	K15267	kofam+xlsx	
+gene_2734	K01887	kofam+xlsx	6.1.1.19
+gene_2739	K03686	kofam+xlsx	
+gene_2742	K08066	kofam+xlsx	
+gene_2743	K14569	kofam+xlsx	
+gene_2748	K12666	kofam+xlsx	
+gene_2749	K22745	kofam+xlsx	
+gene_2754	K12876	kofam+xlsx	
+gene_2756	K13726	kofam+xlsx	3.4.24.-
+gene_2758	K01930	kofam+xlsx	6.3.2.17
+gene_2759	K00505	kofam+xlsx	1.14.18.1
+gene_276	K14775	kofam+xlsx	
+gene_2760	K03785	kofam+xlsx	4.2.1.10
+gene_2762	K05658	kofam+xlsx	7.6.2.2
+gene_2767	K11095	kofam+xlsx	
+gene_2769	K20471	kofam+xlsx	
+gene_2771	K07045	kofam+xlsx	
+gene_2776	K11770	kofam+xlsx	
+gene_278	K03859	kofam+xlsx	
+gene_2784	K17053	kofam+xlsx	2.1.1.268
+gene_279	K10765	kofam+xlsx	1.14.11.-;1.14.11.51;4.2.99.18
+gene_2790	K03014	kofam+xlsx	
+gene_2791	K01937	kofam+xlsx	6.3.4.2
+gene_2794	K06867	xlsx	
+gene_2797	K05287	xlsx	
+gene_2807	K22952	kofam+xlsx	4.1.99.24
+gene_2809	K01183	kofam+xlsx	3.2.1.14
+gene_2821	K00788;K00878;K14154	kofam+xlsx	2.5.1.3;2.7.1.50
+gene_2826	K19356	kofam+xlsx	1.14.99.54
+gene_2827	K03364	kofam+xlsx	
+gene_2828	K00326	kofam+xlsx	1.6.2.2
+gene_2838	K22069	kofam+xlsx	
+gene_2845	K00273;K03845	kofam+xlsx	1.4.3.3;2.4.1.258
+gene_2846	K00052	kofam+xlsx	1.1.1.85
+gene_2849	K03358	kofam+xlsx	
+gene_2851	K13025	kofam+xlsx	5.6.2.7
+gene_2854	K09955	kofam+xlsx	
+gene_2855	K03120	kofam+xlsx	
+gene_2856	K11365;K13354	kofam+xlsx	
+gene_2859	K01045	kofam+xlsx	3.1.1.2;3.1.8.1
+gene_2861	K11826	kofam+xlsx	
+gene_2864	K03885	kofam+xlsx	1.6.5.9
+gene_2865	K08490;K18097;K19634	kofam+xlsx	1.1.1.156;1.1.1.365
+gene_2866	K16275	kofam+xlsx	2.3.2.27
+gene_2869	K08139	kofam+xlsx	
+gene_2871	K19305	kofam+xlsx	3.4.24.39
+gene_2872	K02992	kofam+xlsx	
+gene_2873	K11246	kofam+xlsx	
+gene_2879	K03132	kofam+xlsx	
+gene_2880	K07827	kofam+xlsx	
+gene_2881	K11676	kofam+xlsx	
+gene_2882	K23562	kofam+xlsx	
+gene_2885	K20938	kofam+xlsx	1.14.14.28
+gene_2889	K22743	xlsx	
+gene_2894	K08827	kofam+xlsx	2.7.11.1
+gene_2900	K18195	kofam+xlsx	4.2.2.23
+gene_2902	K01077	kofam+xlsx	3.1.3.1
+gene_2903	K08192	kofam	
+gene_2906	K07375	kofam+xlsx	
+gene_2907	K11155	kofam+xlsx	2.3.1.20;2.3.1.75;2.3.1.76
+gene_2916	K17742;K26066	kofam+xlsx	1.1.1.-;1.1.1.289;1.1.1.431
+gene_292	K02435;K03865	kofam+xlsx	6.3.5.6;6.3.5.7
+gene_2921	K21804	kofam+xlsx	2.1.1.-
+gene_2922	K09885	kofam+xlsx	
+gene_2923	K22746	kofam+xlsx	
+gene_2924	K03062	kofam+xlsx	
+gene_2933	K17437	kofam+xlsx	
+gene_2935	K26159	kofam	
+gene_294	K17422	kofam+xlsx	
+gene_2943	K03743	kofam	3.5.1.42
+gene_2945	K13335	kofam+xlsx	
+gene_2948	K10736	kofam+xlsx	
+gene_295	K02918	kofam+xlsx	
+gene_2957	K15363	kofam+xlsx	3.1.21.-;3.1.4.1
+gene_2958	K00062	kofam+xlsx	1.1.1.116
+gene_2965	K02917	kofam+xlsx	
+gene_2966	K03448	kofam+xlsx	
+gene_2967	K11827	kofam+xlsx	
+gene_2968	K07126	xlsx	
+gene_2970	K05284;K10867	kofam+xlsx	2.4.1.-
+gene_2972	K06902	kofam+xlsx	
+gene_2979	K00306	kofam+xlsx	1.5.3.1;1.5.3.7
+gene_298	K05528	kofam	2.4.1.232
+gene_2981	K09043	kofam+xlsx	
+gene_2984	K12275	kofam+xlsx	
+gene_2985	K12947	kofam+xlsx	3.4.-.-
+gene_2987	K18579	kofam+xlsx	3.2.1.164
+gene_2988	K26141	kofam	3.4.13.4
+gene_2991	K22758	kofam+xlsx	
+gene_2996	K03380	kofam+xlsx	1.14.13.7
+gene_2998	K14798	kofam+xlsx	
+gene_3	K09481	kofam+xlsx	
+gene_30	K19765	kofam+xlsx	
+gene_3002	K17263	kofam	
+gene_3003	K15859	kofam+xlsx	
+gene_3009	K07034	kofam+xlsx	
+gene_3015	K02990;K18163	kofam+xlsx	
+gene_3016	K22075	kofam+xlsx	
+gene_3019	K06413	kofam+xlsx	
+gene_3020	K06974	kofam+xlsx	3.4.-.-
+gene_3021	K00295	kofam+xlsx	1.5.1.15
+gene_3023	K16261	kofam+xlsx	
+gene_3024	K15508	kofam+xlsx	2.1.1.168
+gene_3025	K17600	kofam+xlsx	
+gene_3026	K24976	kofam+xlsx	
+gene_3027	K00253	kofam+xlsx	1.3.8.4
+gene_3028	K21751	kofam+xlsx	
+gene_3031	K11323	kofam+xlsx	1.14.11.-
+gene_3039	K01164	kofam+xlsx	3.1.26.5
+gene_304	K15192	kofam+xlsx	5.6.2.-
+gene_3044	K15289	kofam+xlsx	
+gene_3046	K09561	kofam+xlsx	2.3.2.27
+gene_3051	K17362	kofam+xlsx	3.1.2.-
+gene_3054	K22140	kofam+xlsx	
+gene_3061	K00381	kofam+xlsx	1.8.1.2
+gene_3063	K15175	kofam+xlsx	
+gene_3069	K14213	kofam+xlsx	3.4.13.9
+gene_3075	K12488	kofam+xlsx	
+gene_3078	K01191;K08192	kofam+xlsx	3.2.1.24
+gene_3079	K07374;K12472	kofam+xlsx	
+gene_3087	K27320	kofam	
+gene_309	K14692	kofam+xlsx	
+gene_3090	K01607	kofam+xlsx	4.1.1.44
+gene_3092	K00036;K15156	kofam+xlsx	1.1.1.363;1.1.1.49
+gene_31	K13091;K19703	kofam+xlsx	1.14.18.6
+gene_3103	K00021	kofam+xlsx	1.1.1.34
+gene_3104	K11644	kofam+xlsx	
+gene_3106	K01183	kofam+xlsx	3.2.1.14
+gene_3109	K19668	kofam+xlsx	3.2.1.91
+gene_3110	K01501;K10675	kofam+xlsx	3.5.5.1;4.2.1.66
+gene_3111	K08330	kofam+xlsx	
+gene_3115	K08284	kofam+xlsx	
+gene_312	K14803	kofam+xlsx	3.1.3.16
+gene_3120	K01732	kofam+xlsx	4.2.2.10
+gene_3122	K22889	xlsx	2.3.1.-
+gene_3123	K15507	kofam+xlsx	2.1.1.-
+gene_3124	K27385	kofam	
+gene_3127	K04513;K07975	kofam+xlsx	
+gene_3128	K02208	kofam+xlsx	2.7.11.22;2.7.11.23
+gene_3129	K03251	kofam+xlsx	
+gene_313	K00667;K00997	kofam+xlsx	2.3.1.86;2.7.8.7
+gene_3132	K08266	kofam+xlsx	
+gene_3133	K18195	kofam+xlsx	4.2.2.23
+gene_3135	K15627	kofam+xlsx	
+gene_3137	K01915	kofam+xlsx	6.3.1.2
+gene_3140	K22278	kofam+xlsx	3.5.1.104
+gene_3149	K20463	kofam+xlsx	
+gene_3152	K14007	kofam+xlsx	
+gene_3153	K23499	kofam+xlsx	
+gene_3154	K06655	kofam+xlsx	2.7.11.22
+gene_3159	K23322	kofam+xlsx	1.-.-.-
+gene_316	K01279	kofam+xlsx	3.4.14.9
+gene_3163	K23322	kofam+xlsx	1.-.-.-
+gene_3166	K13356	kofam+xlsx	1.2.1.84
+gene_3167	K01455	kofam+xlsx	3.5.1.49
+gene_3168	K20285	kofam+xlsx	
+gene_317	K08254	kofam+xlsx	3.2.1.59
+gene_3170	K02264	kofam+xlsx	
+gene_3171	K00480	xlsx	1.14.13.1
+gene_3172	K11313;K19476	kofam+xlsx	
+gene_3173	K09102	kofam+xlsx	
+gene_3178	K01483	kofam+xlsx	4.3.2.3
+gene_3181	K08157;K28027	kofam+xlsx	
+gene_3187	K02141	kofam+xlsx	
+gene_3189	K13249	kofam+xlsx	
+gene_319	K01067	xlsx	3.1.2.1
+gene_3193	K12822	kofam+xlsx	
+gene_3195	K01301	kofam+xlsx	3.4.17.21
+gene_3198	K00344	kofam+xlsx	1.6.5.5
+gene_32	K01198	kofam+xlsx	3.2.1.37
+gene_3204	K15078	kofam+xlsx	3.6.1.-
+gene_3205	K01062	kofam+xlsx	3.1.1.47
+gene_3206	K00925	kofam+xlsx	2.7.2.1
+gene_3207	K15532	kofam+xlsx	3.2.1.172
+gene_3208	K14810	kofam+xlsx	5.6.2.7
+gene_321	K06639	kofam+xlsx	3.1.3.16;3.1.3.48
+gene_3210	K00101	kofam+xlsx	1.1.2.3
+gene_3212	K05841	kofam+xlsx	2.4.1.173
+gene_3227	K01487	kofam+xlsx	3.5.4.3
+gene_323	K03380	kofam+xlsx	1.14.13.7
+gene_3232	K03127	kofam+xlsx	
+gene_3234	K03107	kofam+xlsx	
+gene_3237	K11982	kofam+xlsx	2.3.2.27
+gene_3239	K03120	kofam+xlsx	
+gene_3240	K22685	kofam+xlsx	3.4.24.-
+gene_3243	K04563	kofam+xlsx	2.7.11.22
+gene_3244	K01426	kofam+xlsx	3.5.1.4
+gene_3246	K21820	xlsx	1.11.2.1
+gene_3252	K03680	kofam+xlsx	
+gene_3253	K06316	kofam+xlsx	
+gene_3255	K03037	kofam+xlsx	
+gene_3256	K01278	kofam+xlsx	3.4.14.5
+gene_3257	K03325	kofam+xlsx	
+gene_3259	K11304	kofam+xlsx	2.3.1.48
+gene_326	K08192	kofam	
+gene_3264	K02865	kofam+xlsx	
+gene_3267	K03800	kofam+xlsx	6.3.1.20
+gene_3268	K16261	kofam+xlsx	
+gene_3271	K03113;K03352	kofam+xlsx	
+gene_3274	K26089	kofam	
+gene_3275	K08272	kofam+xlsx	
+gene_328	K11557	kofam+xlsx	
+gene_3280	K00916	kofam+xlsx	2.7.11.22;2.7.11.23
+gene_3283	K11553	kofam+xlsx	
+gene_3284	K13344;K14009	kofam+xlsx	
+gene_3292	K00669	kofam+xlsx	2.3.1.87
+gene_3295	K00860	kofam+xlsx	2.7.1.25
+gene_3296	K11497	kofam+xlsx	
+gene_3298	K22832	kofam+xlsx	2.4.1.-
+gene_3299	K17805	kofam+xlsx	
+gene_3303	K06004	xlsx	3.4.23.18
+gene_3304	K14303	kofam+xlsx	
+gene_3306	K08192	kofam	
+gene_331	K08139	kofam+xlsx	
+gene_3311	K09699	kofam+xlsx	2.3.1.168
+gene_3315	K02912	kofam+xlsx	
+gene_3317	K00012	kofam+xlsx	1.1.1.22
+gene_3319	K15334	kofam+xlsx	2.1.1.202
+gene_3320	K08850	kofam	2.7.11.1
+gene_3323	K15417	kofam+xlsx	
+gene_3324	K24394	kofam+xlsx	
+gene_3327	K14766	kofam+xlsx	
+gene_3329	K01078	kofam+xlsx	3.1.3.2
+gene_333	K21642	kofam+xlsx	
+gene_3334	K05754	kofam+xlsx	
+gene_3335	K13176	kofam+xlsx	
+gene_3336	K19572	kofam+xlsx	3.5.4.4
+gene_3337	K16261	kofam+xlsx	
+gene_3338	K20303	kofam+xlsx	
+gene_3347	K00661	kofam+xlsx	2.3.1.79
+gene_3348	K01078	kofam+xlsx	3.1.3.2
+gene_335	K28063	kofam	
+gene_3354	K17862	kofam+xlsx	1.13.11.62
+gene_3361	K01230	kofam+xlsx	3.2.1.113
+gene_3363	K01045;K13350	kofam+xlsx	3.1.1.2;3.1.8.1
+gene_337	K01011;K02981	kofam+xlsx	2.8.1.1;2.8.1.2
+gene_3376	K03790	xlsx	2.3.1.267
+gene_3378	K10903	kofam+xlsx	
+gene_3383	K12625	kofam+xlsx	
+gene_3384	K12481	kofam+xlsx	
+gene_3386	K02953;K12837	kofam+xlsx	
+gene_3389	K00323;K00324	kofam+xlsx	7.1.1.1
+gene_339	K13126	kofam+xlsx	
+gene_3390	K04798	kofam+xlsx	
+gene_3391	K14846	kofam+xlsx	
+gene_3396	K09245	xlsx	
+gene_3399	K11841	kofam+xlsx	3.4.19.12
+gene_3402	K04794	kofam+xlsx	3.1.1.29
+gene_3404	K03781	kofam+xlsx	1.11.1.6
+gene_3406	K08492	kofam+xlsx	
+gene_3407	K19202	kofam+xlsx	
+gene_3408	K12855	kofam+xlsx	
+gene_3411	K15218	kofam+xlsx	
+gene_3413	K03396	kofam+xlsx	4.4.1.22
+gene_3416	K18182	kofam+xlsx	
+gene_3420	K12736	xlsx	5.2.1.8
+gene_3421	K16261	kofam+xlsx	
+gene_3425	K00362;K17877	kofam+xlsx	1.7.1.15;1.7.1.4
+gene_3426	K19069	kofam+xlsx	1.1.99.18
+gene_3427	K15128	kofam+xlsx	
+gene_3432	K01876	kofam+xlsx	6.1.1.12
+gene_3438	K08658	xlsx	3.4.26.1
+gene_3439	K19691	kofam+xlsx	2.7.13.3
+gene_3440	K07019	kofam+xlsx	
+gene_3442	K00382;K17583	kofam+xlsx	1.8.1.4
+gene_3443	K08192	kofam	
+gene_3449	K08065;K15216	kofam+xlsx	
+gene_3450	K01288	kofam+xlsx	3.4.16.6
+gene_3452	K00451	kofam+xlsx	1.13.11.5
+gene_3456	K05972	kofam	3.1.1.72
+gene_3458	K03661	kofam+xlsx	
+gene_346	K07243	kofam+xlsx	
+gene_3460	K16368	kofam+xlsx	2.7.1.174
+gene_3461	K01061	kofam	3.1.1.45
+gene_3469	K00965	kofam+xlsx	2.7.7.12
+gene_3476	K09252	xlsx	3.1.1.73
+gene_3477	K13110	kofam+xlsx	
+gene_3484	K00611	kofam+xlsx	2.1.3.3
+gene_3486	K03282	kofam+xlsx	
+gene_3487	K06942	xlsx	
+gene_3488	K10885	kofam+xlsx	
+gene_349	K08966	kofam+xlsx	3.1.3.87
+gene_3492	K17619	kofam+xlsx	3.1.3.-;3.1.3.48
+gene_3493	K00900	kofam+xlsx	2.7.1.105
+gene_3496	K00511	kofam+xlsx	1.14.14.17
+gene_3501	K08741	kofam+xlsx	
+gene_3505	K11254	kofam+xlsx	
+gene_3506	K06664	kofam+xlsx	2.3.2.27;2.3.2.36
+gene_3508	K14840	kofam+xlsx	
+gene_351	K09553	kofam+xlsx	
+gene_3510	K01230	kofam+xlsx	3.2.1.113
+gene_3513	K00128	kofam+xlsx	1.2.1.3
+gene_3515	K00485	kofam+xlsx	1.14.13.8;1.8.1.-
+gene_3527	K00058;K16302	kofam+xlsx	1.1.1.399;1.1.1.95
+gene_353	K02259	kofam+xlsx	1.17.99.9
+gene_3535	K08197	kofam+xlsx	
+gene_3538	K09885	kofam+xlsx	
+gene_3539	K00706	kofam+xlsx	2.4.1.34
+gene_3542	K17781	kofam+xlsx	
+gene_3546	K12864	kofam+xlsx	
+gene_355	K01902	xlsx	6.2.1.5
+gene_3556	K23679	kofam+xlsx	
+gene_3559	K00858	kofam+xlsx	2.7.1.23
+gene_356	K17741	kofam+xlsx	1.1.1.283
+gene_3560	K05841	kofam+xlsx	2.4.1.173
+gene_3562	K25829	kofam+xlsx	
+gene_3566	K00826	kofam+xlsx	2.6.1.42
+gene_357	K03348	kofam+xlsx	
+gene_3573	K22134	kofam+xlsx	
+gene_3575	K10755;K14539	kofam+xlsx	3.6.1.-
+gene_3577	K22484	kofam+xlsx	
+gene_3583	K00128	kofam+xlsx	1.2.1.3
+gene_3585	K14827	kofam+xlsx	
+gene_3587	K01641	kofam+xlsx	2.3.3.10
+gene_359	K09241	kofam+xlsx	
+gene_3593	K09245	xlsx	
+gene_3594	K03320	kofam+xlsx	
+gene_3600	K03448	kofam+xlsx	
+gene_3602	K01013	kofam+xlsx	2.8.1.-
+gene_3605	K18802	kofam+xlsx	
+gene_3608	K08286	xlsx	2.7.11.-
+gene_3609	K26957	kofam	
+gene_361	K26410	kofam	
+gene_3612	K01480;K25365	kofam+xlsx	3.5.3.10;3.5.3.11;3.5.3.7
+gene_3613	K10579	kofam+xlsx	2.3.2.34
+gene_3615	K01749	kofam+xlsx	2.5.1.61
+gene_362	K04460;K15171	kofam+xlsx	3.1.3.16
+gene_3622	K14830	kofam+xlsx	
+gene_3625	K05012	kofam+xlsx	
+gene_3626	K04409	xlsx	2.7.11.1
+gene_3632	K05544	kofam+xlsx	1.3.1.89
+gene_3633	K01950	kofam+xlsx	6.3.5.1
+gene_3634	K13110	kofam	
+gene_3636	K17803	kofam+xlsx	2.1.1.-
+gene_3638	K10744	kofam+xlsx	
+gene_364	K13796	kofam+xlsx	
+gene_3641	K07198;K12761	kofam+xlsx	2.7.11.1;2.7.11.31
+gene_3646	K01811	kofam+xlsx	3.2.1.177
+gene_3648	K15119	kofam+xlsx	
+gene_3650	K10908	kofam+xlsx	2.7.7.6
+gene_3652	K06947	kofam+xlsx	2.7.1.-
+gene_3653	K12863	kofam+xlsx	
+gene_3655	K23093	kofam+xlsx	3.1.4.-
+gene_3657	K12845	kofam+xlsx	
+gene_3659	K19564	kofam+xlsx	
+gene_3662	K24160	kofam+xlsx	
+gene_3666	K02952	kofam+xlsx	
+gene_3669	K17656	kofam+xlsx	
+gene_367	K00804	kofam+xlsx	2.5.1.1;2.5.1.10;2.5.1.29
+gene_3673	K00898	kofam+xlsx	2.7.11.2
+gene_3678	K28063	kofam	
+gene_3684	K02970;K17415	kofam+xlsx	
+gene_369	K12873	kofam+xlsx	
+gene_3691	K18561	xlsx	1.3.8.-
+gene_3694	K14789	kofam+xlsx	
+gene_3695	K07901	kofam	
+gene_3696	K07824	kofam+xlsx	1.14.14.92
+gene_3697	K08192	kofam	
+gene_3699	K11375	kofam+xlsx	
+gene_370	K01756	kofam+xlsx	4.3.2.2
+gene_3701	K10144	xlsx	2.3.2.27
+gene_3706	K14050	kofam+xlsx	2.5.1.60
+gene_371	K01569	kofam+xlsx	4.1.1.2
+gene_3714	K13345	kofam+xlsx	
+gene_3715	K14559	kofam+xlsx	
+gene_372	K05535	kofam+xlsx	2.4.1.-
+gene_3724	K01918	kofam+xlsx	6.3.2.1
+gene_3728	K05532	kofam+xlsx	2.4.1.-
+gene_3730	K04393	kofam+xlsx	
+gene_3732	K01417	kofam+xlsx	3.4.24.-
+gene_3734	K17439	kofam+xlsx	
+gene_374	K23741	kofam+xlsx	3.2.1.209
+gene_3742	K00505	kofam+xlsx	1.14.18.1
+gene_3749	K12669	kofam+xlsx	
+gene_375	K06268	kofam+xlsx	
+gene_3752	K10627	kofam+xlsx	2.3.2.27
+gene_3755	K21552	kofam+xlsx	2.1.1.165
+gene_3759	K07034	kofam+xlsx	
+gene_3762	K01613	kofam+xlsx	4.1.1.65
+gene_3763	K20299	kofam+xlsx	
+gene_3764	K01644;K11390	kofam+xlsx	4.1.3.25;4.1.3.34
+gene_3766	K05310	kofam+xlsx	2.7.-.-
+gene_3769	K23322	kofam+xlsx	1.-.-.-
+gene_377	K01783	kofam+xlsx	5.1.3.1
+gene_3772	K09252	kofam+xlsx	3.1.1.73
+gene_3773	K20222	kofam+xlsx	
+gene_3774	K16570	kofam+xlsx	
+gene_3776	K18637	kofam+xlsx	
+gene_3777	K11592	kofam+xlsx	3.1.26.-
+gene_3778	K12591	kofam+xlsx	3.1.13.-
+gene_3784	K27246	kofam	
+gene_3787	K11279	xlsx	
+gene_379	K14793	kofam+xlsx	
+gene_3790	K23325	xlsx	
+gene_3795	K03137	kofam+xlsx	
+gene_3796	K06978	kofam+xlsx	
+gene_3801	K15394	kofam+xlsx	
+gene_3805	K13280	kofam+xlsx	3.4.21.89
+gene_3806	K01477	kofam+xlsx	3.5.3.4
+gene_3807	K20003	kofam+xlsx	2.3.1.225
+gene_3810	K02956	kofam+xlsx	
+gene_3815	K01191	kofam+xlsx	3.2.1.24
+gene_3817	K01704	kofam	4.2.1.33;4.2.1.35
+gene_3818	K20177	kofam+xlsx	
+gene_3819	K00602	kofam+xlsx	2.1.2.3;3.5.4.10
+gene_3823	K11303	kofam+xlsx	2.3.1.48
+gene_3824	K19356	kofam+xlsx	1.14.99.54
+gene_3827	K00966	kofam+xlsx	2.7.7.13
+gene_3828	K00987;K21996	kofam+xlsx	2.7.7.50
+gene_3829	K11562	kofam+xlsx	
+gene_3834	K06123	kofam+xlsx	1.1.1.101
+gene_3836	K03259	kofam+xlsx	
+gene_3837	K18173	kofam+xlsx	
+gene_3838	K03381	kofam+xlsx	1.13.11.1
+gene_3840	K00814	kofam+xlsx	2.6.1.2
+gene_3841	K22134	kofam+xlsx	
+gene_3843	K09580	kofam+xlsx	5.3.4.1
+gene_3847	K03671	kofam+xlsx	
+gene_3849	K12733	kofam+xlsx	5.2.1.8
+gene_385	K09880	kofam+xlsx	3.1.3.77
+gene_3850	K02959	kofam+xlsx	
+gene_3852	K01264	kofam+xlsx	3.4.11.15
+gene_3860	K20184	kofam+xlsx	
+gene_3864	K18176	kofam+xlsx	
+gene_3866	K03027	kofam+xlsx	
+gene_3869	K06126	kofam+xlsx	1.14.15.45;1.14.15.46
+gene_3872	K24174	kofam+xlsx	2.1.1.72
+gene_3873	K03868	kofam+xlsx	2.3.2.32
+gene_3875	K00338;K03941	kofam+xlsx	7.1.1.2
+gene_3879	K11976	kofam+xlsx	2.3.2.31
+gene_388	K03327	kofam+xlsx	
+gene_3881	K01514	kofam+xlsx	3.6.1.11
+gene_3882	K03317	kofam+xlsx	
+gene_3883	K03235	kofam+xlsx	
+gene_3889	K28508	kofam	
+gene_3891	K10740	xlsx	
+gene_3893	K07243	kofam+xlsx	
+gene_3897	K18280	xlsx	2.1.1.293
+gene_3899	K02134	kofam+xlsx	
+gene_3900	K07889	xlsx	
+gene_3902	K15296	kofam+xlsx	
+gene_3905	K05658	kofam+xlsx	7.6.2.2
+gene_391	K15389	kofam+xlsx	
+gene_3910	K03657	kofam+xlsx	5.6.2.4
+gene_3913	K05528	kofam+xlsx	2.4.1.232
+gene_3914	K08869	kofam+xlsx	
+gene_3917	K01187	xlsx	3.2.1.20
+gene_3923	K26216	kofam	
+gene_3928	K08192	kofam+xlsx	
+gene_3929	K00858	kofam+xlsx	2.7.1.23
+gene_3933	K00681;K18592	kofam+xlsx	2.3.2.2;3.4.19.13;3.4.19.14
+gene_3937	K09704	kofam+xlsx	
+gene_3938	K12868	kofam+xlsx	
+gene_3939	K00620	kofam+xlsx	2.3.1.1;2.3.1.35
+gene_3941	K21989	kofam+xlsx	
+gene_3945	K22825	kofam+xlsx	
+gene_3946	K28028	kofam	
+gene_3949	K06699	kofam+xlsx	
+gene_395	K00618	kofam+xlsx	2.3.1.1
+gene_3951	K00463	kofam+xlsx	1.13.11.52
+gene_3952	K15322	kofam+xlsx	4.6.1.16
+gene_3956	K22684	kofam+xlsx	3.4.22.-
+gene_3959	K03854	kofam+xlsx	2.4.1.-
+gene_3962	K23321	kofam	1.-.-.-
+gene_3966	K17785	kofam+xlsx	
+gene_3969	K01889;K01955	kofam+xlsx	6.1.1.20;6.3.5.5
+gene_3973	K01823	xlsx	5.3.3.2
+gene_3977	K09983	kofam+xlsx	
+gene_3978	K11446	kofam+xlsx	1.14.11.67
+gene_398	K00698	kofam+xlsx	2.4.1.16
+gene_3981	K07300	kofam+xlsx	
+gene_3982	K01684	kofam+xlsx	4.2.1.6
+gene_3984	K00077	kofam+xlsx	1.1.1.169
+gene_3987	K19356;K22032	kofam+xlsx	1.14.99.54;1.14.99.56
+gene_3994	K02332	kofam+xlsx	2.7.7.7
+gene_400	K01560	kofam+xlsx	3.8.1.2
+gene_4003	K10401	kofam+xlsx	
+gene_4007	K00641	kofam+xlsx	2.3.1.31;2.3.1.46
+gene_4008	K01133	kofam+xlsx	3.1.6.6
+gene_401	K12861	kofam+xlsx	
+gene_4013	K09567	kofam+xlsx	5.2.1.8
+gene_4017	K01057	kofam+xlsx	3.1.1.31
+gene_4019	K18696	kofam+xlsx	3.1.4.46
+gene_4021	K13728	kofam+xlsx	
+gene_4022	K05349	kofam+xlsx	3.2.1.21
+gene_4029	K24611	kofam+xlsx	
+gene_4034	K07207	kofam+xlsx	
+gene_4035	K16365	kofam+xlsx	
+gene_4041	K08064	kofam+xlsx	
+gene_4050	K01061	kofam	3.1.1.45
+gene_4051	K15620	kofam+xlsx	
+gene_4060	K12819	kofam+xlsx	
+gene_4061	K05917	kofam+xlsx	1.14.14.154;1.14.15.36
+gene_4062	K01309	kofam+xlsx	3.4.19.12
+gene_4063	K01456	kofam+xlsx	3.5.1.52
+gene_407	K02684	kofam+xlsx	2.7.7.102
+gene_4071	K24350	kofam+xlsx	
+gene_4074	K11600	kofam+xlsx	
+gene_4076	K06215	kofam+xlsx	4.3.3.6
+gene_408	K07973	kofam+xlsx	
+gene_4080	K14567	kofam+xlsx	
+gene_4081	K09184	kofam+xlsx	
+gene_4083	K02729	kofam+xlsx	3.4.25.1
+gene_4091	K17678	kofam+xlsx	5.6.2.7
+gene_4093	K05986	kofam+xlsx	3.1.30.1
+gene_4094	K01476	kofam+xlsx	3.5.3.1
+gene_4098	K14016	kofam+xlsx	
+gene_4099	K12813	kofam+xlsx	5.6.2.6
+gene_4103	K05658	kofam+xlsx	7.6.2.2
+gene_4104	K03768;K15448	kofam+xlsx	5.2.1.8
+gene_4107	K08287	kofam+xlsx	2.7.12.1
+gene_4123	K12879	kofam+xlsx	
+gene_4125	K02889	kofam+xlsx	
+gene_4126	K00615;K17100	kofam+xlsx	2.2.1.1;2.2.1.3
+gene_4128	K09992	kofam+xlsx	
+gene_4133	K00226	kofam+xlsx	1.3.98.1
+gene_4135	K05925	kofam	2.1.1.348
+gene_4139	K07401	kofam+xlsx	
+gene_414	K05972	kofam+xlsx	3.1.1.72
+gene_4142	K15025	kofam+xlsx	
+gene_4143	K12571	kofam+xlsx	3.1.13.4
+gene_4145	K20316	kofam+xlsx	
+gene_4147	K01687	kofam+xlsx	4.2.1.9
+gene_4149	K01512	kofam+xlsx	3.6.1.7
+gene_4152	K00276	kofam+xlsx	1.4.3.21
+gene_4153	K22685	kofam+xlsx	3.4.24.-
+gene_4156	K00826	kofam+xlsx	2.6.1.42
+gene_4161	K14005	kofam+xlsx	
+gene_4164	K03032	kofam+xlsx	
+gene_4166	K09595	kofam+xlsx	3.4.23.-
+gene_417	K06041	kofam+xlsx	5.3.1.13
+gene_4173	K03448;K08192	kofam+xlsx	
+gene_4176	K15287	kofam+xlsx	
+gene_4177	K03678	kofam+xlsx	
+gene_4178	K06867	xlsx	
+gene_4184	K15456	kofam+xlsx	
+gene_4186	K06874	kofam+xlsx	
+gene_4187	K01883	kofam+xlsx	6.1.1.16
+gene_4190	K20238	kofam+xlsx	2.1.1.317
+gene_4196	K14319	kofam+xlsx	
+gene_42	K08052;K12619	kofam+xlsx	3.1.13.-
+gene_420	K19245	kofam+xlsx	1.14.11.-
+gene_4206	K24927	kofam+xlsx	
+gene_4208	K03380	kofam+xlsx	1.14.13.7
+gene_421	K17644	kofam+xlsx	1.1.1.349
+gene_4210	K25879	kofam+xlsx	1.1.1.10
+gene_4213	K15339	xlsx	
+gene_4214	K02606	kofam+xlsx	
+gene_4217	K13338	kofam+xlsx	3.6.4.-
+gene_4224	K27494	kofam	3.2.1.225
+gene_4228	K17794	kofam+xlsx	
+gene_4229	K07213	kofam+xlsx	
+gene_4231	K00804;K27203	kofam+xlsx	2.5.1.1;2.5.1.10;2.5.1.29;4.2.3.214;4.2.3.215
+gene_4234	K00679	kofam+xlsx	2.3.1.158
+gene_4237	K16833	kofam+xlsx	
+gene_4239	K01094	kofam+xlsx	3.1.3.27
+gene_424	K12948	kofam+xlsx	3.4.-.-
+gene_4240	K00683	kofam+xlsx	2.3.2.5
+gene_4243	K17782	kofam+xlsx	
+gene_4245	K26171	kofam	
+gene_4246	K01771	kofam+xlsx	4.6.1.13
+gene_4249	K03510	kofam+xlsx	2.7.7.7
+gene_4250	K03245	kofam+xlsx	
+gene_4252	K19717	kofam+xlsx	
+gene_4253	K03505	kofam+xlsx	
+gene_4255	K18693	kofam+xlsx	3.1.3.4;3.6.1.75
+gene_4262	K10696	kofam+xlsx	2.3.2.27
+gene_4263	K12737	kofam+xlsx	5.2.1.8
+gene_4266	K25186	kofam+xlsx	
+gene_4267	K14326	kofam+xlsx	5.6.2.3;5.6.2.5
+gene_427	K00135	kofam+xlsx	1.2.1.16;1.2.1.20;1.2.1.79
+gene_4271	K01507	kofam+xlsx	3.6.1.1
+gene_4272	K08192	kofam+xlsx	
+gene_4273	K06133	kofam+xlsx	2.7.8.-
+gene_4274	K26544	kofam	
+gene_4282	K01885	kofam+xlsx	6.1.1.17
+gene_4286	K20824	kofam+xlsx	
+gene_4299	K07178	kofam+xlsx	2.7.11.1
+gene_4300	K19245	kofam+xlsx	1.14.11.-
+gene_4301	K14560	kofam+xlsx	
+gene_4302	K20940	kofam+xlsx	1.14.13.218
+gene_4307	K23504	kofam+xlsx	
+gene_4308	K14857	kofam+xlsx	2.1.1.-
+gene_4309	K12734	kofam+xlsx	5.2.1.8
+gene_4311	K11654	kofam+xlsx	5.6.2.-
+gene_4314	K06688	kofam+xlsx	2.3.2.23
+gene_4317	K14709	kofam+xlsx	
+gene_432	K17268	kofam+xlsx	
+gene_4320	K00799;K11209	kofam+xlsx	1.8.4.-;2.5.1.18
+gene_4323	K02183;K13448;K13974	kofam+xlsx	
+gene_4324	K08192	kofam	
+gene_4326	K07517	kofam+xlsx	5.3.3.8
+gene_4331	K17430	kofam+xlsx	
+gene_4334	K12180	kofam+xlsx	
+gene_4335	K02914	kofam+xlsx	
+gene_4337	K01732	kofam+xlsx	4.2.2.10
+gene_4338	K07006	kofam+xlsx	
+gene_4339	K00411;K10610	kofam+xlsx	7.1.1.8
+gene_434	K00626	kofam+xlsx	2.3.1.9
+gene_4341	K01273	kofam+xlsx	3.4.13.19
+gene_4344	K08254	kofam+xlsx	3.2.1.59
+gene_4345	K07137	kofam+xlsx	
+gene_4346	K14850	kofam+xlsx	2.1.1.287
+gene_4347	K10753	kofam+xlsx	
+gene_435	K12179	kofam+xlsx	
+gene_4351	K12600	kofam+xlsx	
+gene_4354	K19788;K20309	kofam+xlsx	
+gene_4355	K00505	kofam+xlsx	1.14.18.1
+gene_4358	K00033	kofam+xlsx	1.1.1.343;1.1.1.44
+gene_436	K11364	kofam+xlsx	
+gene_4361	K19850	kofam+xlsx	
+gene_4363	K02555	kofam+xlsx	3.1.3.48
+gene_4364	K15979	kofam+xlsx	
+gene_4367	K20061	kofam+xlsx	
+gene_437	K19356	kofam+xlsx	1.14.99.54
+gene_4370	K01749	kofam+xlsx	2.5.1.61
+gene_4371	K09252	xlsx	3.1.1.73
+gene_4372	K03108	kofam+xlsx	
+gene_4376	K00059	kofam+xlsx	1.1.1.100
+gene_4378	K02964	kofam+xlsx	
+gene_4384	K11292	kofam+xlsx	
+gene_4385	K02144	kofam+xlsx	
+gene_4387	K10882	xlsx	3.1.22.-
+gene_4388	K14191	kofam+xlsx	2.1.1.183
+gene_4390	K19619	kofam+xlsx	3.1.4.-
+gene_4391	K11877	kofam+xlsx	
+gene_4394	K01580;K14790	kofam+xlsx	4.1.1.15
+gene_4395	K06867	xlsx	
+gene_4399	K23309;K27833	kofam+xlsx	
+gene_44	K06100	kofam+xlsx	
+gene_440	K05757	kofam+xlsx	
+gene_4400	K02974	kofam+xlsx	
+gene_4403	K01915	kofam+xlsx	6.3.1.2
+gene_4405	K02519	kofam+xlsx	
+gene_4406	K15100	kofam+xlsx	
+gene_4407	K02993	kofam+xlsx	
+gene_4408	K22831	kofam+xlsx	2.3.1.51
+gene_4417	K01549	kofam+xlsx	
+gene_4419	K01881	kofam+xlsx	6.1.1.15
+gene_4421	K28507	kofam	
+gene_4422	K07375	kofam+xlsx	
+gene_4429	K14169	kofam+xlsx	
+gene_443	K02155	kofam+xlsx	
+gene_4430	K12195	kofam+xlsx	
+gene_4435	K00451	kofam+xlsx	1.13.11.5
+gene_4436	K01658;K13501	kofam+xlsx	4.1.1.48;4.1.3.27;5.3.1.24
+gene_4437	K01469	kofam+xlsx	3.5.2.9
+gene_4438	K05291	kofam+xlsx	
+gene_445	K13057;K22248	kofam+xlsx	2.4.1.231;2.4.1.245
+gene_4450	K18192	kofam+xlsx	
+gene_4451	K11824	kofam+xlsx	
+gene_4455	K00027;K00029	kofam+xlsx	1.1.1.38;1.1.1.40
+gene_4457	K03305	kofam+xlsx	
+gene_4458	K07297	kofam+xlsx	
+gene_4460	K13343	kofam	
+gene_4461	K14816	kofam+xlsx	
+gene_4463	K11552	kofam+xlsx	
+gene_4465	K12346	kofam+xlsx	
+gene_4468	K11661;K11681	kofam+xlsx	5.6.2.-
+gene_4472	K03781	kofam+xlsx	1.11.1.6
+gene_4474	K10669	kofam+xlsx	2.7.1.160
+gene_4475	K21991	kofam+xlsx	
+gene_4476	K07300	kofam+xlsx	
+gene_4484	K02966	kofam+xlsx	
+gene_4485	K19839	kofam+xlsx	
+gene_4489	K18740	kofam	
+gene_4492	K10352	kofam+xlsx	
+gene_4494	K12486	kofam+xlsx	
+gene_4496	K08192	kofam	
+gene_4500	K11547	kofam+xlsx	
+gene_4502	K02874	kofam+xlsx	
+gene_4505	K03854	kofam+xlsx	2.4.1.-
+gene_4508	K07404;K16369	kofam+xlsx	2.1.1.17;3.1.1.31
+gene_4516	K24814	kofam+xlsx	
+gene_4517	K16639	kofam+xlsx	3.1.27.-
+gene_452	K07565	kofam+xlsx	
+gene_4522	K03441	kofam+xlsx	
+gene_4523	K14403	kofam+xlsx	3.1.27.-
+gene_4527	K00844	kofam+xlsx	2.7.1.1
+gene_4529	K03123	kofam+xlsx	
+gene_4532	K15172	kofam+xlsx	
+gene_4537	K20310	kofam+xlsx	
+gene_4543	K03017	kofam+xlsx	
+gene_4545	K17944	kofam+xlsx	
+gene_4547	K17438;K17867	kofam+xlsx	
+gene_4548	K01738	kofam+xlsx	2.5.1.47
+gene_4557	K01588;K01589;K11808	kofam+xlsx	4.1.1.21;5.4.99.18;6.3.4.18
+gene_4558	K14405	kofam+xlsx	
+gene_4566	K08681	kofam+xlsx	4.3.3.6
+gene_4567	K04567	kofam+xlsx	6.1.1.6
+gene_4570	K01634	kofam+xlsx	4.1.2.27
+gene_4572	K14675	kofam+xlsx	2.3.1.-;3.1.1.3
+gene_4573	K14770	kofam+xlsx	
+gene_4576	K02994	kofam	
+gene_4577	K15102	kofam+xlsx	
+gene_4587	K06666	kofam+xlsx	
+gene_4588	K00326;K10534	kofam+xlsx	1.6.2.2;1.7.1.1;1.7.1.2;1.7.1.3
+gene_4589	K01956	kofam+xlsx	6.3.5.5
+gene_4594	K06893	kofam	
+gene_4595	K02891	kofam+xlsx	
+gene_4596	K14864	kofam+xlsx	2.1.1.205
+gene_4598	K11563	kofam+xlsx	
+gene_4599	K06679	kofam+xlsx	
+gene_4601	K05545	kofam+xlsx	1.3.1.90
+gene_4602	K03515	kofam+xlsx	2.7.7.-
+gene_4603	K17260	kofam+xlsx	
+gene_4606	K00621	kofam+xlsx	2.3.1.4
+gene_4611	K11560	kofam+xlsx	
+gene_4615	K03165	kofam+xlsx	5.6.2.1
+gene_4618	K08192	kofam+xlsx	
+gene_4621	K08192	kofam	
+gene_4623	K09885	kofam+xlsx	
+gene_4629	K00275	xlsx	1.4.3.5
+gene_4632	K20305	kofam+xlsx	
+gene_4634	K03857	kofam+xlsx	2.4.1.198
+gene_4635	K20793	kofam+xlsx	2.3.1.258;2.3.1.309
+gene_4636	K11090	kofam	
+gene_4640	K03377	kofam+xlsx	2.3.1.45
+gene_4643	K15428	kofam+xlsx	3.4.13.-
+gene_465	K03178;K07393	kofam+xlsx	1.8.5.7;6.2.1.45
+gene_4652	K05288	kofam+xlsx	2.7.-.-
+gene_4654	K01099	kofam+xlsx	3.1.3.36
+gene_4655	K03457	kofam+xlsx	
+gene_4657	K20205	kofam+xlsx	1.11.1.13
+gene_4658	K22438	kofam+xlsx	2.1.1.145
+gene_466	K00737	kofam+xlsx	2.4.1.144
+gene_4660	K22745	kofam+xlsx	
+gene_4663	K12862	kofam+xlsx	
+gene_4664	K09829	kofam+xlsx	5.-.-.-
+gene_467	K16055	kofam+xlsx	2.4.1.15;3.1.3.12
+gene_4670	K08711	kofam+xlsx	
+gene_4671	K01426	kofam+xlsx	3.5.1.4
+gene_4673	K08257	kofam+xlsx	3.2.1.101
+gene_4674	K07390	kofam+xlsx	
+gene_4677	K00681	kofam+xlsx	2.3.2.2;3.4.19.13
+gene_4678	K20369	kofam+xlsx	
+gene_4679	K14532	kofam+xlsx	
+gene_4682	K13122	kofam+xlsx	
+gene_4687	K00505	kofam+xlsx	1.14.18.1
+gene_469	K09531	kofam+xlsx	
+gene_4690	K01693	kofam+xlsx	4.2.1.19
+gene_4693	K08726	xlsx	3.1.3.76;3.3.2.10
+gene_4695	K07407	kofam+xlsx	3.2.1.22
+gene_47	K03671	kofam+xlsx	
+gene_4701	K01196	kofam+xlsx	2.4.1.25;3.2.1.33
+gene_4703	K03379	xlsx	1.14.13.22
+gene_4712	K19786	kofam+xlsx	2.7.1.158
+gene_4716	K00133	kofam+xlsx	1.2.1.11
+gene_4719	K19001	kofam+xlsx	
+gene_4720	K11518	kofam+xlsx	
+gene_4721	K04486	kofam+xlsx	3.1.3.15
+gene_4722	K28450	kofam	
+gene_4726	K01102	kofam+xlsx	3.1.3.43
+gene_4731	K18328	kofam+xlsx	3.1.-.-
+gene_4735	K17086	kofam+xlsx	
+gene_4737	K20059	kofam+xlsx	
+gene_4738	K12836	kofam+xlsx	
+gene_4739	K20241	kofam+xlsx	
+gene_474	K15151	kofam+xlsx	
+gene_4740	K02258;K06954	kofam+xlsx	
+gene_4742	K10733	kofam+xlsx	
+gene_4744	K15109	kofam+xlsx	
+gene_4747	K19572	kofam+xlsx	3.5.4.4
+gene_4749	K26141	kofam	3.4.13.4
+gene_4750	K17822	kofam+xlsx	
+gene_4753	K03574	kofam+xlsx	3.6.1.55
+gene_4755	K14307	kofam+xlsx	
+gene_4759	K06634	kofam+xlsx	
+gene_4762	K02903	kofam+xlsx	
+gene_477	K15161	kofam+xlsx	
+gene_4772	K13726	kofam	3.4.24.-
+gene_4775	K05925	kofam	2.1.1.348
+gene_4779	K27411	kofam	
+gene_4781	K00799	kofam+xlsx	2.5.1.18
+gene_4795	K18188	kofam+xlsx	
+gene_480	K17080	kofam+xlsx	
+gene_4800	K11130	kofam+xlsx	
+gene_4804	K07904	kofam+xlsx	
+gene_4808	K12832	kofam+xlsx	
+gene_481	K04739	kofam+xlsx	
+gene_4811	K01082	kofam+xlsx	3.1.3.7
+gene_4812	K09955	kofam+xlsx	
+gene_4814	K09827	kofam+xlsx	1.1.1.270
+gene_4816	K01240	kofam+xlsx	3.2.2.3
+gene_4817	K13201;K25102	kofam+xlsx	
+gene_4819	K20223	kofam	
+gene_482	K07107	kofam+xlsx	3.1.2.-
+gene_4823	K01647	kofam+xlsx	2.3.3.1
+gene_4826	K14852	kofam+xlsx	
+gene_4828	K04940	kofam	1.5.1.28
+gene_483	K16342	kofam+xlsx	3.1.1.4
+gene_4831	K08192	kofam	
+gene_4833	K19846	kofam	
+gene_4836	K04618	kofam+xlsx	1.1.3.9
+gene_4848	K01225	kofam+xlsx	3.2.1.91
+gene_4850	K14859	xlsx	
+gene_4853	K10256;K22993	kofam+xlsx	1.14.19.-;1.14.19.22;1.14.19.6
+gene_4854	K09291	kofam+xlsx	
+gene_4856	K00565	kofam+xlsx	2.1.1.56
+gene_4857	K17757	kofam+xlsx	4.2.1.93
+gene_4858	K14768	kofam+xlsx	
+gene_4862	K23322	kofam+xlsx	1.-.-.-
+gene_4868	K16944	kofam+xlsx	
+gene_4869	K02429	kofam+xlsx	
+gene_4873	K12396	kofam+xlsx	
+gene_4876	K14264	kofam+xlsx	2.6.1.7
+gene_4879	K00993	kofam+xlsx	2.7.8.1
+gene_488	K10858	kofam+xlsx	
+gene_4881	K08659;K14526	kofam+xlsx	3.1.26.5;3.4.-.-
+gene_4888	K02321	kofam+xlsx	
+gene_4889	K01487	kofam+xlsx	3.5.4.3
+gene_489	K03066	kofam+xlsx	
+gene_4890	K03380	kofam+xlsx	1.14.13.7
+gene_4893	K06041	kofam+xlsx	5.3.1.13
+gene_4895	K06670	kofam+xlsx	
+gene_4896	K07836	kofam+xlsx	
+gene_4897	K12397	kofam+xlsx	
+gene_490	K17440	kofam+xlsx	
+gene_4902	K09486	kofam+xlsx	
+gene_4905	K03317	kofam+xlsx	
+gene_4907	K14685	kofam+xlsx	
+gene_4909	K13566	kofam+xlsx	3.5.1.3
+gene_4911	K03448;K08192	kofam+xlsx	
+gene_4914	K00222	xlsx	1.3.1.70
+gene_4915	K10768	kofam+xlsx	1.14.11.-
+gene_4917	K14788	kofam+xlsx	
+gene_4919	K01771	kofam+xlsx	4.6.1.13
+gene_4921	K01183	kofam+xlsx	3.2.1.14
+gene_4923	K14807	kofam+xlsx	5.6.2.7
+gene_4926	K08257	kofam+xlsx	3.2.1.101
+gene_4927	K22494	xlsx	
+gene_4934	K13075	kofam+xlsx	3.1.1.81
+gene_4936	K06867	xlsx	
+gene_4937	K17541	kofam+xlsx	
+gene_4943	K01098	kofam+xlsx	3.6.1.74
+gene_4944	K00463	kofam+xlsx	1.13.11.52
+gene_495	K20823	kofam+xlsx	
+gene_4951	K27841	kofam	2.4.1.398
+gene_4952	K02737	kofam+xlsx	3.4.25.1
+gene_4953	K08851	kofam+xlsx	2.7.11.1
+gene_4955	K03353	kofam+xlsx	
+gene_4958	K00276	kofam+xlsx	1.4.3.21
+gene_4960	K24121	kofam+xlsx	1.14.18.12
+gene_4961	K01181	kofam+xlsx	3.2.1.8
+gene_4962	K14376;K27320	kofam+xlsx	2.7.7.19
+gene_4963	K08192	kofam+xlsx	
+gene_4964	K03114	kofam+xlsx	2.7.11.1
+gene_4967	K08073	kofam+xlsx	2.7.1.78;3.1.3.32
+gene_4969	K20298	kofam+xlsx	
+gene_4970	K22889	xlsx	2.3.1.-
+gene_4971	K01532	kofam+xlsx	7.2.2.21
+gene_4977	K07953	kofam+xlsx	3.6.5.-
+gene_4980	K19564	kofam+xlsx	
+gene_4982	K03019	kofam	
+gene_4989	K23329	kofam+xlsx	
+gene_4995	K10847	kofam+xlsx	
+gene_5	K21820	xlsx	1.11.2.1
+gene_500	K03448;K08192	kofam+xlsx	
+gene_5001	K00749	kofam+xlsx	2.4.1.183
+gene_5002	K21292;K23322	kofam+xlsx	1.-.-.-;1.14.14.86
+gene_5004	K01279	kofam+xlsx	3.4.14.9
+gene_5005	K01755	kofam+xlsx	4.3.2.1
+gene_5008	K08711	kofam+xlsx	
+gene_5014	K09140	kofam+xlsx	2.5.1.157
+gene_5018	K17738	kofam+xlsx	1.1.1.250
+gene_5024	K14663	kofam+xlsx	3.5.1.-
+gene_5026	K10661	kofam+xlsx	2.3.2.27
+gene_5032	K08174	xlsx	
+gene_5035	K13711	kofam+xlsx	2.7.1.67
+gene_5036	K00077	kofam+xlsx	1.1.1.169
+gene_5037	K10997	kofam+xlsx	
+gene_5039	K01689	kofam+xlsx	4.2.1.11
+gene_5042	K11662	kofam+xlsx	
+gene_5052	K01438	kofam+xlsx	3.5.1.16
+gene_5055	K04646	kofam+xlsx	
+gene_5059	K00390	kofam+xlsx	1.8.4.10;1.8.4.8
+gene_5065	K03782	kofam+xlsx	1.11.1.21
+gene_5074	K01426	kofam+xlsx	3.5.1.4
+gene_5077	K11109	kofam+xlsx	
+gene_508	K02429	kofam+xlsx	
+gene_5089	K00789	kofam+xlsx	2.5.1.6
+gene_5094	K03381	kofam+xlsx	1.13.11.1
+gene_5096	K08095	kofam+xlsx	3.1.1.74
+gene_5097	K00505	kofam+xlsx	1.14.18.1
+gene_51	K02870	kofam+xlsx	
+gene_5101	K06067	kofam+xlsx	3.5.1.98
+gene_5104	K21455	kofam+xlsx	
+gene_5105	K01053	kofam+xlsx	3.1.1.17
+gene_5106	K10849	kofam+xlsx	
+gene_5108	K06101	kofam+xlsx	2.1.1.354
+gene_5118	K16073	kofam+xlsx	
+gene_5119	K03593	kofam+xlsx	
+gene_5123	K18624	kofam+xlsx	
+gene_5124	K06030	xlsx	3.6.5.-
+gene_5126	K00589	kofam+xlsx	2.1.1.107
+gene_5129	K10735	kofam+xlsx	
+gene_5131	K00669	kofam+xlsx	2.3.1.87
+gene_5134	K11237	kofam+xlsx	
+gene_5136	K06911	kofam+xlsx	1.13.11.24
+gene_5142	K10438	kofam+xlsx	1.14.13.63
+gene_5143	K00327	kofam+xlsx	1.6.2.4
+gene_5144	K19564	xlsx	
+gene_5145	K00111	kofam+xlsx	1.1.5.3
+gene_515	K28153	kofam	
+gene_5153	K02977	kofam+xlsx	
+gene_5157	K01537	kofam+xlsx	7.2.2.10
+gene_516	K00700	kofam+xlsx	2.4.1.18
+gene_5163	K18171	kofam+xlsx	
+gene_5164	K02537	kofam+xlsx	
+gene_5166	K07390	kofam+xlsx	
+gene_5167	K01580	kofam+xlsx	4.1.1.15
+gene_5169	K14805	kofam+xlsx	5.6.2.7
+gene_517	K02975	kofam+xlsx	
+gene_5170	K22934	kofam+xlsx	3.2.1.28
+gene_5171	K11594	kofam+xlsx	5.6.2.7
+gene_5176	K21618	kofam+xlsx	1.1.99.40
+gene_5177	K01968	xlsx	6.4.1.4
+gene_5178	K11493	kofam+xlsx	
+gene_5179	K01702;K01703;K01704	kofam+xlsx	4.2.1.33;4.2.1.35
+gene_5181	K12828	kofam+xlsx	
+gene_5183	K11271	kofam+xlsx	
+gene_5185	K11684	kofam+xlsx	
+gene_5186	K09506	kofam+xlsx	
+gene_5190	K22744	kofam+xlsx	
+gene_5191	K18669	kofam+xlsx	2.7.12.1
+gene_5195	K03188	kofam+xlsx	
+gene_5199	K00876;K03885	kofam+xlsx	1.6.5.9;2.7.1.48
+gene_5201	K16315	kofam+xlsx	2.7.11.1
+gene_5202	K11578	kofam+xlsx	
+gene_5207	K00558	kofam+xlsx	2.1.1.37
+gene_521	K01953	kofam+xlsx	6.3.5.4
+gene_5210	K09022	xlsx	3.5.99.10
+gene_5211	K17979	kofam+xlsx	
+gene_5217	K24755	kofam+xlsx	
+gene_5221	K23319	kofam+xlsx	1.14.14.-
+gene_5223	K11108	kofam+xlsx	
+gene_5229	K08192	kofam	
+gene_5232	K22494	kofam+xlsx	
+gene_5234	K14842	kofam+xlsx	
+gene_5239	K03366	kofam+xlsx	1.1.1.-;1.1.1.304;1.1.1.76
+gene_524	K18592	kofam	2.3.2.2;3.4.19.13;3.4.19.14
+gene_5240	K03872	kofam+xlsx	
+gene_5242	K07179	kofam+xlsx	2.7.11.1
+gene_5243	K05925	kofam	2.1.1.348
+gene_5248	K03648	kofam+xlsx	3.2.2.27
+gene_525	K22278	kofam+xlsx	3.5.1.104
+gene_5250	K05275	kofam+xlsx	1.1.1.65
+gene_5255	K03177	kofam+xlsx	5.4.99.25
+gene_5259	K09494	kofam+xlsx	
+gene_5260	K01061	kofam+xlsx	3.1.1.45
+gene_5266	K00387	kofam+xlsx	1.8.3.1
+gene_5267	K28529	kofam	
+gene_5270	K05531	kofam+xlsx	2.4.1.-
+gene_5274	K00972	kofam+xlsx	2.7.7.23;2.7.7.83
+gene_5281	K08192	kofam	
+gene_529	K18184	kofam+xlsx	
+gene_5296	K03861;K11400	kofam+xlsx	
+gene_5298	K00418	kofam+xlsx	
+gene_5300	K00655;K13509	kofam+xlsx	2.3.1.51
+gene_5316	K09184	kofam+xlsx	
+gene_532	K08192	kofam	
+gene_5322	K15371	kofam+xlsx	1.4.1.2
+gene_533	K06867	xlsx	
+gene_5333	K12877	kofam+xlsx	
+gene_5334	K09467	kofam+xlsx	
+gene_5335	K15731	kofam+xlsx	3.1.3.16
+gene_5339	K11272	kofam+xlsx	
+gene_5344	K12627	kofam+xlsx	
+gene_5347	K01207	kofam+xlsx	3.2.1.52
+gene_5349	K00459	kofam+xlsx	1.13.12.16
+gene_5353	K02148	kofam+xlsx	
+gene_5359	K15423	kofam+xlsx	3.1.3.16
+gene_536	K18162	kofam+xlsx	2.1.1.-
+gene_5361	K08504	kofam+xlsx	
+gene_5363	K10967	kofam+xlsx	2.4.1.-
+gene_5366	K06653	kofam+xlsx	
+gene_5368	K06174	kofam+xlsx	
+gene_5375	K19356	kofam+xlsx	1.14.99.54
+gene_5380	K00262	kofam+xlsx	1.4.1.4
+gene_5386	K23678	kofam+xlsx	
+gene_5388	K02896	kofam+xlsx	
+gene_5390	K14856	kofam+xlsx	
+gene_5391	K03231	kofam+xlsx	
+gene_5392	K08968	kofam+xlsx	1.8.4.14
+gene_5397	K09831	kofam+xlsx	1.14.19.41
+gene_5398	K01176	kofam	3.2.1.1
+gene_5399	K02138;K03626	kofam+xlsx	
+gene_540	K05925	kofam	2.1.1.348
+gene_5400	K07513	kofam+xlsx	2.3.1.16
+gene_5404	K11231	kofam+xlsx	2.7.13.3
+gene_5406	K08139	kofam+xlsx	
+gene_5409	K15532	kofam+xlsx	3.2.1.172
+gene_5411	K07300	kofam+xlsx	
+gene_5415	K20367	kofam+xlsx	
+gene_5416	K12826	kofam+xlsx	
+gene_5418	K17553	kofam+xlsx	
+gene_542	K00698	kofam+xlsx	2.4.1.16
+gene_5421	K00122	kofam+xlsx	1.17.1.9
+gene_5422	K01469	kofam+xlsx	3.5.2.9
+gene_5425	K15631	kofam+xlsx	2.8.1.9
+gene_5426	K02178	kofam+xlsx	2.7.11.1
+gene_5429	K13120	kofam+xlsx	
+gene_543	K18203	xlsx	2.1.1.233
+gene_5433	K17808	kofam+xlsx	
+gene_5434	K22132	kofam+xlsx	
+gene_5436	K18167	kofam+xlsx	
+gene_5445	K17968	kofam+xlsx	
+gene_5446	K26118	kofam	
+gene_5448	K12856	kofam+xlsx	
+gene_5451	K11756	kofam+xlsx	
+gene_5452	K01493	kofam+xlsx	3.5.4.12
+gene_5453	K11559	kofam+xlsx	
+gene_5456	K02895	kofam	
+gene_5458	K04508	xlsx	
+gene_5463	K03424	kofam+xlsx	3.1.21.-
+gene_5468	K00657	kofam+xlsx	2.3.1.57
+gene_5470	K25817	kofam+xlsx	
+gene_5471	K03627	kofam+xlsx	
+gene_5474	K07734	kofam+xlsx	
+gene_5478	K01062	kofam+xlsx	3.1.1.47
+gene_5484	K08794	xlsx	2.7.11.17
+gene_5486	K18339	kofam+xlsx	4.1.2.53
+gene_5489	K08735	kofam+xlsx	
+gene_549	K19356	kofam+xlsx	1.14.99.54
+gene_5491	K00290	kofam+xlsx	1.5.1.7
+gene_5492	K00600	kofam+xlsx	2.1.2.1
+gene_5493	K02838	kofam+xlsx	
+gene_5495	K10761	kofam+xlsx	2.7.7.79
+gene_5496	K18578	kofam+xlsx	3.2.1.155
+gene_5498	K00872	kofam+xlsx	2.7.1.39
+gene_55	K20131	xlsx	
+gene_5504	K00231;K23039	kofam+xlsx	1.3.3.15;1.3.3.4
+gene_5506	K10251	xlsx	1.1.1.330;1.1.1.62
+gene_5507	K01620;K12662;K15563	kofam+xlsx	4.1.2.48
+gene_5510	K00549	kofam+xlsx	2.1.1.14
+gene_5512	K08288	kofam+xlsx	
+gene_5513	K23719	kofam+xlsx	
+gene_5516	K14686	kofam+xlsx	
+gene_552	K03018	kofam+xlsx	2.7.7.6
+gene_5521	K15264	kofam+xlsx	2.1.1.311
+gene_5526	K01581	kofam+xlsx	4.1.1.17
+gene_5527	K01273	kofam+xlsx	3.4.13.19
+gene_5528	K11227	kofam+xlsx	2.7.12.2
+gene_5530	K08342	kofam+xlsx	3.4.22.-
+gene_5531	K03010	kofam+xlsx	2.7.7.6
+gene_5532	K08516	kofam+xlsx	
+gene_5541	K18666	kofam+xlsx	
+gene_5542	K17066	kofam+xlsx	1.1.3.13
+gene_5545	K00931	kofam+xlsx	2.7.2.11
+gene_5547	K06110;K06911	kofam+xlsx	1.13.11.24
+gene_555	K16948	kofam+xlsx	
+gene_5550	K23319	kofam+xlsx	1.14.14.-
+gene_5551	K09983	kofam+xlsx	
+gene_5554	K14299	kofam+xlsx	
+gene_5555	K12183	kofam+xlsx	
+gene_5557	K01181	kofam+xlsx	3.2.1.8
+gene_556	K19177	kofam+xlsx	2.5.1.87
+gene_5561	K11786	kofam+xlsx	5.6.2.-
+gene_5569	K06867	xlsx	
+gene_5570	K01056	kofam+xlsx	3.1.1.29
+gene_5572	K14549	kofam+xlsx	
+gene_5573	K18752	kofam+xlsx	
+gene_5575	K14292	kofam+xlsx	2.1.1.-
+gene_5577	K14771	kofam+xlsx	
+gene_558	K23503	kofam+xlsx	
+gene_5581	K20407	kofam+xlsx	
+gene_5582	K10958	kofam+xlsx	
+gene_5583	K20794	kofam+xlsx	2.3.1.257
+gene_5585	K23335	kofam+xlsx	
+gene_5587	K16639	kofam+xlsx	3.1.27.-
+gene_5592	K07827	kofam+xlsx	
+gene_5593	K01758	kofam+xlsx	4.4.1.1
+gene_5594	K25059	kofam+xlsx	
+gene_5598	K05349	kofam+xlsx	3.2.1.21
+gene_5601	K15631	kofam+xlsx	2.8.1.9
+gene_5604	K10639	kofam+xlsx	2.3.2.27
+gene_5605	K17402	kofam+xlsx	
+gene_5607	K02995	kofam+xlsx	
+gene_5611	K00286	kofam+xlsx	1.5.1.2
+gene_5613	K10777	kofam+xlsx	6.5.1.1
+gene_5614	K23612	xlsx	
+gene_5615	K23322	kofam+xlsx	1.-.-.-
+gene_5617	K08141	kofam+xlsx	
+gene_5623	K06647	kofam+xlsx	
+gene_5625	K05884	kofam	1.1.1.337
+gene_5629	K00334;K03943	kofam+xlsx	7.1.1.2
+gene_5630	K01551	kofam+xlsx	7.3.-.-;7.3.2.7
+gene_5632	K08141	kofam+xlsx	
+gene_5633	K01082	kofam+xlsx	3.1.3.7
+gene_5634	K14817	kofam+xlsx	
+gene_5641	K20296	kofam+xlsx	
+gene_5647	K11547	kofam	
+gene_5648	K00135	kofam+xlsx	1.2.1.16;1.2.1.20;1.2.1.79
+gene_5649	K21157	kofam+xlsx	2.7.11.1
+gene_5652	K26109	kofam	
+gene_5653	K01230	kofam+xlsx	3.2.1.113
+gene_5654	K00799	kofam+xlsx	2.5.1.18
+gene_5656	K12617	kofam+xlsx	
+gene_5658	K03283	kofam+xlsx	
+gene_5659	K15631	kofam+xlsx	2.8.1.9
+gene_5661	K17262	kofam+xlsx	
+gene_5662	K23322	kofam+xlsx	1.-.-.-
+gene_5667	K12606	kofam+xlsx	
+gene_5669	K11319;K11396	kofam+xlsx	
+gene_5670	K08192	kofam	
+gene_5671	K05797	kofam+xlsx	1.17.9.1
+gene_5674	K06888	kofam+xlsx	
+gene_5676	K00851;K14859	kofam+xlsx	2.7.1.12
+gene_5677	K20178	kofam+xlsx	
+gene_568	K14293	kofam+xlsx	
+gene_5682	K01953;K15040	kofam+xlsx	6.3.5.4
+gene_5683	K07937	kofam+xlsx	
+gene_5684	K22134	kofam+xlsx	
+gene_5686	K02892	kofam+xlsx	
+gene_5687	K06173	kofam+xlsx	5.4.99.12
+gene_5689	K19356	kofam+xlsx	1.14.99.54
+gene_5690	K07305	kofam+xlsx	1.8.4.12
+gene_5694	K22940	kofam+xlsx	
+gene_5695	K01560	kofam+xlsx	3.8.1.2
+gene_5698	K10878	kofam+xlsx	
+gene_5699	K24205	kofam+xlsx	
+gene_57	K17906	kofam+xlsx	
+gene_5707	K18551	kofam+xlsx	3.1.3.-
+gene_571	K12190	kofam+xlsx	
+gene_5715	K18732	kofam+xlsx	
+gene_5716	K08192	kofam	
+gene_5717	K15217	kofam+xlsx	
+gene_5718	K14289;K17868	kofam+xlsx	3.1.1.97
+gene_5721	K20791	kofam+xlsx	2.3.1.255
+gene_5724	K00450	kofam+xlsx	1.13.11.4
+gene_5725	K01515	xlsx	3.6.1.-;3.6.1.13
+gene_5726	K07300	kofam+xlsx	
+gene_573	K00777	kofam+xlsx	2.4.2.64
+gene_5730	K13281	kofam+xlsx	3.-.-.-
+gene_5734	K22698	kofam+xlsx	3.6.5.-
+gene_5735	K02542	kofam+xlsx	5.6.2.3
+gene_5736	K19564	kofam+xlsx	
+gene_574	K02946	kofam+xlsx	
+gene_5740	K11273	kofam+xlsx	5.6.2.7
+gene_5741	K16261	kofam+xlsx	
+gene_5743	K08197	kofam+xlsx	
+gene_5744	K11593	kofam+xlsx	
+gene_5748	K28508	kofam	
+gene_5750	K01092	kofam+xlsx	3.1.3.25
+gene_5756	K17742	xlsx	1.1.1.289
+gene_5757	K05916	kofam+xlsx	1.14.12.17
+gene_5758	K03252	kofam+xlsx	
+gene_576	K15303	kofam+xlsx	
+gene_5764	K20408	kofam+xlsx	
+gene_5766	K01626;K15528	kofam+xlsx	2.5.1.54;3.5.1.99
+gene_5767	K12842	kofam+xlsx	
+gene_577	K01066	xlsx	3.1.1.-
+gene_5772	K03038	kofam+xlsx	
+gene_5773	K20098	kofam+xlsx	5.6.2.-
+gene_5778	K14800	kofam	
+gene_5779	K12191	xlsx	
+gene_5780	K24765	kofam+xlsx	
+gene_5781	K01638	kofam+xlsx	2.3.3.9
+gene_5783	K10841	kofam+xlsx	
+gene_5784	K00008;K05351	kofam+xlsx	1.1.1.14;1.1.1.9
+gene_5786	K01803	kofam+xlsx	5.3.1.1
+gene_5788	K12613	kofam+xlsx	3.6.1.62
+gene_5795	K03448;K08192	kofam+xlsx	
+gene_5796	K15444	kofam+xlsx	2.1.1.229
+gene_5797	K03671	kofam+xlsx	
+gene_5799	K22149	kofam+xlsx	
+gene_580	K24964;K24965	kofam+xlsx	
+gene_5800	K05610;K06901	kofam+xlsx	3.4.19.12
+gene_5803	K14686	kofam+xlsx	
+gene_5806	K02941	kofam+xlsx	
+gene_581	K01120	xlsx	3.1.4.17
+gene_5818	K20205	kofam+xlsx	1.11.1.13
+gene_582	K20363	kofam+xlsx	
+gene_5820	K14863	kofam+xlsx	
+gene_5822	K17878	kofam+xlsx	2.1.1.-
+gene_5824	K15631	kofam+xlsx	2.8.1.9
+gene_5827	K00354	kofam+xlsx	1.6.99.1
+gene_5829	K00148	kofam+xlsx	1.2.1.46
+gene_5831	K15454	kofam+xlsx	5.4.99.28
+gene_5832	K05349	kofam+xlsx	3.2.1.21
+gene_5834	K00331;K03940	kofam+xlsx	7.1.1.2
+gene_5835	K08054	kofam+xlsx	
+gene_5836	K15394	kofam+xlsx	
+gene_5837	K21864	kofam+xlsx	
+gene_5838	K02726	kofam+xlsx	3.4.25.1
+gene_5843	K18715	kofam+xlsx	
+gene_5844	K01113	kofam+xlsx	3.1.3.1
+gene_585	K11675	kofam+xlsx	
+gene_5850	K05972	kofam+xlsx	3.1.1.72
+gene_5852	K15559	kofam+xlsx	
+gene_5853	K04565	kofam+xlsx	1.15.1.1
+gene_5857	K09248	xlsx	
+gene_5858	K08141	kofam+xlsx	
+gene_5859	K14791	kofam+xlsx	
+gene_586	K13289;K14574	kofam+xlsx	3.4.16.5
+gene_5864	K20989	kofam+xlsx	
+gene_5865	K01561	kofam+xlsx	3.8.1.3
+gene_5866	K09250	kofam+xlsx	
+gene_587	K27898	kofam	
+gene_5870	K17879;K27537	kofam+xlsx	3.6.1.55;3.6.1.77
+gene_5876	K12462	kofam+xlsx	
+gene_5882	K23504	kofam+xlsx	
+gene_5884	K02947	kofam+xlsx	
+gene_5885	K01066	xlsx	3.1.1.-
+gene_5889	K04649	kofam	2.3.2.23
+gene_5890	K12351	kofam+xlsx	3.1.4.12
+gene_5892	K07001;K14674	kofam+xlsx	2.3.1.51;3.1.1.13;3.1.1.3;3.1.1.4
+gene_5893	K02257	kofam+xlsx	2.5.1.141
+gene_5895	K23504	kofam+xlsx	
+gene_5896	K10772	kofam+xlsx	3.1.11.2
+gene_5898	K01869	kofam+xlsx	6.1.1.4
+gene_59	K00009	kofam+xlsx	1.1.1.17
+gene_5901	K24684	kofam+xlsx	
+gene_5903	K02835	kofam+xlsx	
+gene_5911	K17292	kofam+xlsx	
+gene_5914	K02520	kofam+xlsx	
+gene_5916	K23562	xlsx	
+gene_5917	K28434	kofam	
+gene_5918	K20522	kofam+xlsx	
+gene_5920	K07494	xlsx	
+gene_5922	K01051	kofam+xlsx	3.1.1.11
+gene_5931	K12667	kofam+xlsx	
+gene_5936	K10524	kofam+xlsx	2.7.1.173;2.7.1.22
+gene_5937	K00288	kofam+xlsx	1.5.1.5;3.5.4.9;6.3.4.3
+gene_5938	K00661	kofam+xlsx	2.3.1.79
+gene_5939	K26182	kofam	
+gene_5943	K17607	kofam+xlsx	
+gene_5947	K14767	kofam+xlsx	
+gene_5954	K01077	kofam+xlsx	3.1.3.1
+gene_5955	K05994	kofam+xlsx	3.4.11.10
+gene_5956	K14376	kofam+xlsx	2.7.7.19
+gene_5957	K14773	xlsx	
+gene_596	K20300	kofam+xlsx	
+gene_5972	K06867	kofam+xlsx	
+gene_5973	K14570	xlsx	3.1.-.-
+gene_5978	K14862	kofam+xlsx	
+gene_5979	K20404	kofam+xlsx	
+gene_598	K01933;K01945;K11788;K15201	kofam+xlsx	6.3.3.1;6.3.4.13
+gene_5981	K12188	kofam+xlsx	
+gene_5983	K17800;K17919	kofam+xlsx	
+gene_5985	K01480;K25365	kofam+xlsx	3.5.3.10;3.5.3.11;3.5.3.7
+gene_5986	K11121	kofam+xlsx	2.3.1.286
+gene_5989	K00318	kofam+xlsx	1.5.5.2
+gene_5991	K19356	kofam+xlsx	1.14.99.54
+gene_5993	K10357	kofam+xlsx	
+gene_5998	K14859	xlsx	
+gene_6001	K22255	kofam+xlsx	
+gene_6007	K00077	kofam	1.1.1.169
+gene_6009	K03676	kofam+xlsx	
+gene_6010	K15394	kofam+xlsx	
+gene_6014	K01074	kofam+xlsx	3.1.2.22
+gene_6022	K20360	kofam+xlsx	
+gene_6023	K24970	kofam+xlsx	
+gene_6025	K07407	kofam+xlsx	3.2.1.22
+gene_6037	K07766	kofam+xlsx	3.6.1.52
+gene_604	K05349	kofam+xlsx	3.2.1.21
+gene_6040	K00949	kofam+xlsx	2.7.6.2
+gene_6041	K00545	kofam+xlsx	2.1.1.6
+gene_6042	K09497	kofam+xlsx	
+gene_6043	K00052	kofam+xlsx	1.1.1.85
+gene_6045	K19267	xlsx	1.6.5.2
+gene_6046	K05349	kofam+xlsx	3.2.1.21
+gene_6047	K15075	kofam+xlsx	
+gene_6048	K11976	kofam+xlsx	2.3.2.31
+gene_605	K06669	kofam+xlsx	
+gene_6054	K17972	kofam+xlsx	2.3.1.254
+gene_6057	K14847	kofam+xlsx	
+gene_6058	K18576	kofam+xlsx	3.2.1.151
+gene_6061	K09498;K14801	kofam+xlsx	
+gene_6064	K01515	kofam+xlsx	3.6.1.-;3.6.1.13
+gene_6067	K12668	kofam+xlsx	
+gene_6069	K27388	kofam	
+gene_6071	K01279	kofam+xlsx	3.4.14.9
+gene_6072	K00254	kofam+xlsx	1.3.5.2
+gene_6073	K02179	kofam+xlsx	
+gene_6077	K22611	kofam+xlsx	
+gene_6079	K26403	kofam	
+gene_6081	K15165	kofam+xlsx	
+gene_6082	K02934	kofam+xlsx	
+gene_6085	K02358;K09584	kofam+xlsx	5.3.4.1
+gene_6086	K01230	kofam+xlsx	3.2.1.113
+gene_6087	K08874	kofam+xlsx	
+gene_6088	K13028	kofam+xlsx	4.8.1.2
+gene_6091	K17967	kofam+xlsx	
+gene_6092	K00059;K17644	kofam+xlsx	1.1.1.100;1.1.1.349
+gene_6093	K02365	kofam+xlsx	3.4.22.49
+gene_6102	K00793	kofam+xlsx	2.5.1.9
+gene_6106	K10427	kofam+xlsx	
+gene_6107	K26678	kofam	
+gene_6110	K15102	kofam+xlsx	
+gene_6111	K00737	kofam+xlsx	2.4.1.144
+gene_6112	K05349	kofam+xlsx	3.2.1.21
+gene_6116	K24935	kofam	
+gene_6121	K00615	kofam+xlsx	2.2.1.1
+gene_6122	K06682	kofam+xlsx	
+gene_6124	K03232;K10732	kofam+xlsx	
+gene_6127	K18722	xlsx	
+gene_6130	K19356	kofam+xlsx	1.14.99.54
+gene_6131	K02896	kofam+xlsx	
+gene_6132	K01115	kofam+xlsx	3.1.4.4
+gene_6133	K00332;K03936	kofam+xlsx	7.1.1.2
+gene_6142	K15028	kofam+xlsx	
+gene_6143	K08329	kofam+xlsx	
+gene_6144	K08192	kofam+xlsx	
+gene_6147	K09131	kofam+xlsx	
+gene_6150	K08192;K18372	kofam+xlsx	3.1.1.114
+gene_6151	K08486	kofam+xlsx	
+gene_6154	K01115	kofam+xlsx	3.1.4.4
+gene_6156	K24971	kofam+xlsx	
+gene_6157	K03448	kofam+xlsx	
+gene_6161	K01922	kofam+xlsx	6.3.2.51
+gene_6162	K24737	kofam+xlsx	
+gene_6163	K11572	kofam+xlsx	
+gene_6168	K22278	kofam+xlsx	3.5.1.104
+gene_6170	K04564	kofam+xlsx	1.15.1.1
+gene_6175	K01113	kofam+xlsx	3.1.3.1
+gene_6182	K09703	kofam+xlsx	
+gene_6184	K14849	kofam+xlsx	
+gene_6187	K05662	kofam+xlsx	
+gene_619	K01823	kofam+xlsx	5.3.3.2
+gene_6190	K00101	kofam+xlsx	1.1.2.3
+gene_6192	K12848	kofam+xlsx	
+gene_6193	K15263	kofam+xlsx	
+gene_6195	K09647	kofam+xlsx	3.4.21.-
+gene_6198	K00505	kofam+xlsx	1.14.18.1
+gene_62	K06013	kofam+xlsx	3.4.24.84
+gene_6202	K02936	kofam+xlsx	
+gene_6205	K03841	kofam+xlsx	3.1.3.11
+gene_6206	K06990	kofam+xlsx	
+gene_6208	K06999	kofam	
+gene_6209	K15458	kofam+xlsx	
+gene_6210	K01560	kofam+xlsx	3.8.1.2
+gene_6214	K22075	xlsx	
+gene_6216	K08257	kofam+xlsx	3.2.1.101
+gene_6218	K20827	kofam+xlsx	3.1.3.16
+gene_622	K00826	kofam+xlsx	2.6.1.42
+gene_6223	K01288	kofam+xlsx	3.4.16.6
+gene_6225	K15523	kofam+xlsx	2.7.1.172
+gene_6226	K02885	kofam+xlsx	
+gene_6227	K01426	kofam+xlsx	3.5.1.4
+gene_623	K01183	kofam+xlsx	3.2.1.14
+gene_6230	K15530	kofam+xlsx	3.1.1.86
+gene_6232	K16732	kofam+xlsx	
+gene_6240	K04711	kofam+xlsx	3.5.1.-
+gene_6242	K05610	kofam+xlsx	3.4.19.12
+gene_6246	K22939	kofam+xlsx	
+gene_6251	K11436	kofam+xlsx	2.1.1.319
+gene_6255	K24766	kofam+xlsx	
+gene_6256	K23878	kofam+xlsx	
+gene_6258	K10968	kofam+xlsx	2.4.1.-
+gene_626	K01181	kofam+xlsx	3.2.1.8
+gene_6260	K06867	xlsx	
+gene_6262	K18172	kofam+xlsx	
+gene_6264	K14823	kofam+xlsx	
+gene_6267	K07023	kofam+xlsx	3.1.3.89
+gene_6273	K01183	kofam+xlsx	3.2.1.14
+gene_6275	K19305	kofam+xlsx	3.4.24.39
+gene_6278	K00459	kofam+xlsx	1.13.12.16
+gene_628	K12780	kofam+xlsx	
+gene_6282	K03305	kofam+xlsx	
+gene_6284	K08257	kofam+xlsx	3.2.1.101
+gene_6285	K08257	kofam+xlsx	3.2.1.101
+gene_6288	K15148	kofam+xlsx	
+gene_6289	K01053	kofam	3.1.1.17
+gene_629	K24139	kofam+xlsx	
+gene_6294	K07246	kofam+xlsx	1.1.1.83;1.1.1.93;4.1.1.73
+gene_6295	K00877;K00941;K08267	kofam+xlsx	2.7.1.49;2.7.4.7;3.5.99.2
+gene_6298	K17411;K17943	kofam+xlsx	
+gene_6299	K02976	kofam+xlsx	
+gene_63	K04382;K19986	kofam+xlsx	3.1.3.16
+gene_6301	K01532	kofam+xlsx	7.2.2.21
+gene_6303	K07441	kofam+xlsx	2.4.1.141
+gene_6306	K14006	kofam+xlsx	
+gene_6309	K06901	kofam+xlsx	
+gene_6310	K01027	kofam+xlsx	2.8.3.5
+gene_6311	K19219	kofam+xlsx	1.14.11.63;3.4.-.-
+gene_6313	K09703	kofam+xlsx	
+gene_6314	K01464	kofam+xlsx	3.5.2.2
+gene_6315	K01874	kofam+xlsx	6.1.1.10
+gene_6317	K03448	kofam+xlsx	
+gene_632	K16261	kofam+xlsx	
+gene_6320	K02735	kofam+xlsx	3.4.25.1
+gene_6321	K00799;K03233	kofam+xlsx	2.5.1.18
+gene_6322	K07126;K14026	kofam+xlsx	
+gene_6325	K07192	kofam+xlsx	
+gene_6328	K27391	kofam	
+gene_6329	K01066	xlsx	3.1.1.-
+gene_633	K07955	kofam+xlsx	
+gene_6330	K11561	kofam+xlsx	
+gene_6331	K01870	kofam+xlsx	6.1.1.5
+gene_6333	K25762	xlsx	2.3.1.308
+gene_6335	K01426	kofam+xlsx	3.5.1.4
+gene_6338	K22382	kofam+xlsx	
+gene_6339	K01264;K19701	kofam+xlsx	3.4.11.10;3.4.11.15;3.4.11.6
+gene_634	K00467	kofam+xlsx	1.13.12.4
+gene_6340	K17795	kofam+xlsx	
+gene_6341	K01945;K03357	kofam+xlsx	6.3.4.13
+gene_6347	K06689	kofam+xlsx	2.3.2.23
+gene_6348	K00665	xlsx	2.3.1.85
+gene_635	K09241	kofam+xlsx	
+gene_6350	K12383	kofam+xlsx	
+gene_6351	K21451	kofam+xlsx	
+gene_6354	K23499	kofam+xlsx	
+gene_6355	K03448;K08192	kofam+xlsx	
+gene_6358	K18803	kofam+xlsx	2.1.1.85
+gene_636	K13431	kofam+xlsx	
+gene_6364	K10089	kofam+xlsx	
+gene_6369	K17987	kofam+xlsx	
+gene_6372	K03351	xlsx	
+gene_6373	K03143	kofam+xlsx	
+gene_6374	K01803	kofam	5.3.1.1
+gene_6376	K02983	kofam+xlsx	
+gene_6382	K03260	kofam+xlsx	
+gene_6390	K21294	kofam+xlsx	1.-.-.-
+gene_6394	K18183	kofam	
+gene_6399	K01739	kofam	2.5.1.48
+gene_64	K01907	kofam+xlsx	6.2.1.16
+gene_6408	K01824	kofam+xlsx	5.3.3.5
+gene_641	K00988;K28100	kofam+xlsx	2.7.7.5;2.7.7.53;3.6.1.-
+gene_6410	K10703	kofam+xlsx	4.2.1.134
+gene_6411	K03511	kofam+xlsx	2.7.7.7
+gene_6413	K22134	kofam+xlsx	
+gene_6415	K01736	kofam+xlsx	4.2.3.5
+gene_6416	K18576	kofam+xlsx	3.2.1.151
+gene_6417	K19668	kofam+xlsx	3.2.1.91
+gene_6418	K08838	kofam+xlsx	2.7.11.1
+gene_6422	K23322	kofam+xlsx	1.-.-.-
+gene_6424	K08341	kofam+xlsx	
+gene_6425	K22686	kofam+xlsx	3.4.21.-
+gene_6431	K17679	kofam+xlsx	5.6.2.7
+gene_6432	K00737	kofam+xlsx	2.4.1.144
+gene_6433	K01409	kofam+xlsx	2.3.1.234
+gene_6436	K20989	kofam+xlsx	
+gene_6437	K20409	kofam+xlsx	
+gene_6439	K10688	kofam+xlsx	2.3.2.23;2.3.2.25
+gene_6442	K15361	kofam+xlsx	
+gene_6452	K05605	kofam+xlsx	3.1.2.4
+gene_6453	K19877	kofam+xlsx	
+gene_6456	K13342;K14570	kofam+xlsx	3.1.-.-
+gene_6459	K26736	kofam	
+gene_646	K00223	kofam+xlsx	1.3.1.71
+gene_6460	K13291	kofam+xlsx	2.7.7.52
+gene_6462	K00641;K18447	kofam+xlsx	2.3.1.31;2.3.1.46;3.6.1.21
+gene_6464	K24169	kofam+xlsx	
+gene_6466	K10685	kofam+xlsx	6.2.1.45
+gene_6468	K12349	kofam+xlsx	3.5.1.23
+gene_6472	K05529	kofam+xlsx	2.4.1.232
+gene_6475	K12825;K17918	kofam+xlsx	
+gene_6476	K03379	xlsx	1.14.13.22
+gene_6477	K02935	kofam+xlsx	
+gene_6480	K01183	kofam+xlsx	3.2.1.14
+gene_6481	K01505	kofam	3.5.99.7
+gene_6484	K01012	kofam+xlsx	2.8.1.6
+gene_6485	K12871	kofam+xlsx	
+gene_6488	K11568	kofam+xlsx	
+gene_6489	K02923	kofam+xlsx	
+gene_6498	K15153	kofam+xlsx	
+gene_65	K23333	kofam+xlsx	2.3.2.27
+gene_6501	K08141	kofam+xlsx	
+gene_6502	K02327	kofam+xlsx	2.7.7.7
+gene_6504	K00077	kofam+xlsx	1.1.1.169
+gene_6505	K01262;K18573	kofam+xlsx	3.4.11.26;3.4.11.9
+gene_6506	K05772	kofam	
+gene_6508	K22278	kofam+xlsx	3.5.1.104
+gene_6509	K01945	kofam+xlsx	6.3.4.13
+gene_6511	K17425	xlsx	3.1.26.-
+gene_6512	K06944	kofam+xlsx	3.6.5.-
+gene_6514	K23802	kofam+xlsx	
+gene_6517	K03448	xlsx	
+gene_6518	K01760;K22530	kofam+xlsx	4.4.1.13
+gene_6522	K19365	kofam+xlsx	
+gene_6524	K03005	kofam+xlsx	
+gene_6526	K09250	kofam+xlsx	
+gene_6532	K02149	kofam+xlsx	
+gene_6533	K01052	kofam+xlsx	3.1.1.13
+gene_6535	K12389	kofam+xlsx	
+gene_6540	K01247	kofam+xlsx	3.2.2.21
+gene_6544	K01293	kofam+xlsx	3.4.17.4
+gene_6545	K17497	kofam+xlsx	5.4.2.8
+gene_6549	K10686	kofam+xlsx	6.2.1.64
+gene_655	K00107	kofam+xlsx	1.1.3.37
+gene_6554	K08139	kofam+xlsx	
+gene_6558	K04371	kofam+xlsx	2.7.11.24
+gene_6559	K16569	kofam+xlsx	
+gene_656	K05841	kofam+xlsx	2.4.1.173
+gene_6560	K01698	kofam+xlsx	4.2.1.24
+gene_6562	K04551;K08770;K10632;K12158	kofam+xlsx	2.3.2.27
+gene_6564	K15255	xlsx	5.6.2.3
+gene_6565	K17615	kofam+xlsx	3.1.3.16
+gene_657	K06867;K23504	kofam+xlsx	
+gene_6572	K01225	kofam+xlsx	3.2.1.91
+gene_6574	K07466	kofam+xlsx	
+gene_6576	K10875	kofam+xlsx	5.6.2.-
+gene_6577	K05954	kofam+xlsx	2.5.1.58
+gene_6579	K12626	kofam+xlsx	
+gene_658	K03959	kofam+xlsx	
+gene_6580	K06004	xlsx	3.4.23.18
+gene_6584	K08504	kofam+xlsx	
+gene_6586	K20346	kofam+xlsx	
+gene_6589	K01610	kofam+xlsx	4.1.1.49
+gene_6595	K17686	kofam+xlsx	7.2.2.8
+gene_6597	K00249	kofam+xlsx	1.3.8.7
+gene_6598	K03265	kofam+xlsx	
+gene_6602	K11811	kofam+xlsx	
+gene_6610	K08513	kofam+xlsx	
+gene_6614	K19806	kofam+xlsx	3.1.3.48
+gene_6615	K20304	kofam+xlsx	
+gene_6619	K08158	kofam+xlsx	
+gene_6624	K15029	kofam+xlsx	
+gene_6627	K11270	kofam+xlsx	
+gene_6629	K01890	kofam+xlsx	6.1.1.20
+gene_6630	K12601	kofam+xlsx	
+gene_6632	K01530	xlsx	7.6.2.1
+gene_6635	K27383	kofam	
+gene_6636	K25866	kofam	
+gene_6638	K10994	xlsx	3.1.11.2
+gene_6640	K01100	kofam+xlsx	3.1.3.37
+gene_6641	K17784	kofam+xlsx	
+gene_6642	K00505	kofam+xlsx	1.14.18.1
+gene_6648	K20308	kofam+xlsx	
+gene_665	K00020;K08319	kofam+xlsx	1.1.1.31;1.1.1.411
+gene_6656	K12618	kofam+xlsx	3.1.13.-
+gene_6658	K00600	xlsx	2.1.2.1
+gene_666	K17606	kofam+xlsx	
+gene_6660	K08139	kofam+xlsx	
+gene_6662	K03424	kofam+xlsx	3.1.21.-
+gene_6667	K21752	kofam+xlsx	
+gene_6670	K03457;K16841	kofam+xlsx	5.1.99.3
+gene_6675	K08192	kofam	
+gene_6679	K08711	kofam+xlsx	
+gene_668	K03448;K08192	kofam+xlsx	
+gene_6683	K22539	kofam+xlsx	4.2.2.2
+gene_6685	K00135	kofam+xlsx	1.2.1.16;1.2.1.20;1.2.1.79
+gene_669	K09554	kofam+xlsx	
+gene_6695	K01023	xlsx	2.8.2.22
+gene_6696	K01181	kofam+xlsx	3.2.1.8
+gene_6698	K02969	kofam+xlsx	
+gene_6702	K12874	kofam+xlsx	
+gene_6703	K00003	kofam	1.1.1.3
+gene_6706	K00801	kofam+xlsx	2.5.1.21
+gene_6708	K00875	kofam+xlsx	2.7.1.47
+gene_6709	K18097	kofam+xlsx	1.1.1.156
+gene_671	K10389	kofam+xlsx	
+gene_6712	K04802;K25703	kofam+xlsx	
+gene_6717	K19985	kofam+xlsx	
+gene_6718	K14573	kofam+xlsx	
+gene_6720	K07101	kofam+xlsx	
+gene_6721	K25216	kofam+xlsx	
+gene_6725	K00027;K00029	kofam+xlsx	1.1.1.38;1.1.1.40
+gene_6726	K04345	kofam+xlsx	2.7.11.11
+gene_6728	K23327	kofam+xlsx	
+gene_6729	K14327	kofam+xlsx	
+gene_673	K11229	kofam+xlsx	2.7.11.25
+gene_6732	K23544	kofam+xlsx	
+gene_6735	K13333	kofam+xlsx	3.1.1.5
+gene_6741	K22134	kofam+xlsx	
+gene_6742	K02328	kofam+xlsx	
+gene_6744	K01868	kofam+xlsx	6.1.1.3
+gene_6745	K03386	kofam+xlsx	1.11.1.24
+gene_6746	K08832	xlsx	2.7.11.1
+gene_6748	K07126	kofam+xlsx	
+gene_6752	K28079	kofam	
+gene_6755	K10246	kofam+xlsx	2.3.1.199
+gene_6761	K04709	kofam+xlsx	2.3.1.297
+gene_6764	K17302	kofam+xlsx	
+gene_6766	K10729	kofam+xlsx	
+gene_6767	K10838;K12604	kofam+xlsx	
+gene_6768	K15105	kofam+xlsx	
+gene_6771	K15262	kofam+xlsx	
+gene_6772	K00573	kofam+xlsx	2.1.1.77
+gene_6774	K01684	kofam+xlsx	4.2.1.6
+gene_6778	K19356	kofam+xlsx	1.14.99.54
+gene_6779	K06677	kofam+xlsx	
+gene_6787	K26752	kofam	
+gene_6792	K14522	kofam+xlsx	3.1.26.5
+gene_6796	K11135	kofam+xlsx	
+gene_6797	K03504;K09704	kofam+xlsx	
+gene_6798	K03128	kofam+xlsx	
+gene_6800	K02957	kofam+xlsx	
+gene_6801	K07238	kofam+xlsx	
+gene_6804	K05349;K15920	kofam+xlsx	3.2.1.21;3.2.1.37
+gene_6810	K15326	kofam+xlsx	
+gene_6815	K13667	xlsx	2.4.1.376;2.4.2.63
+gene_6817	K09983	kofam+xlsx	
+gene_6818	K22122;K23322	kofam+xlsx	1.-.-.-
+gene_682	K14782	kofam+xlsx	
+gene_6822	K15530	kofam+xlsx	3.1.1.86
+gene_6824	K00763	kofam+xlsx	6.3.4.21
+gene_6826	K01137	xlsx	3.1.6.14
+gene_683	K15364	kofam+xlsx	
+gene_6831	K20498	kofam+xlsx	4.3.1.18
+gene_6833	K18123	kofam+xlsx	4.1.3.16
+gene_6835	K21292;K23322	kofam+xlsx	1.-.-.-;1.14.14.86
+gene_6837	K03164	kofam+xlsx	5.6.2.2
+gene_6838	K21989	kofam+xlsx	
+gene_6840	K11584	kofam+xlsx	
+gene_6841	K06889;K22574	kofam+xlsx	
+gene_6842	K00694	xlsx	2.4.1.12
+gene_6843	K10773	kofam+xlsx	3.2.2.-;4.2.99.18
+gene_685	K02924	kofam+xlsx	
+gene_6854	K00762	kofam+xlsx	2.4.2.10
+gene_686	K10437	kofam+xlsx	1.14.14.54
+gene_6861	K14848	kofam+xlsx	
+gene_6864	K03352	kofam+xlsx	
+gene_6866	K04482	kofam+xlsx	
+gene_6868	K03544	kofam+xlsx	
+gene_6869	K07897	kofam+xlsx	3.6.5.2
+gene_6871	K01569	kofam+xlsx	4.1.1.2
+gene_6872	K13341	kofam+xlsx	
+gene_6873	K01115	kofam+xlsx	3.1.4.4
+gene_6880	K15389	kofam+xlsx	
+gene_6881	K15100	kofam+xlsx	
+gene_6882	K08192	kofam+xlsx	
+gene_6883	K05349	kofam+xlsx	3.2.1.21
+gene_6884	K14324	kofam+xlsx	
+gene_6886	K12829	kofam+xlsx	
+gene_6887	K00505	kofam+xlsx	1.14.18.1
+gene_6889	K01083	kofam+xlsx	3.1.3.8
+gene_6892	K08900	kofam+xlsx	
+gene_6894	K01652	kofam+xlsx	2.2.1.6
+gene_6898	K05864	kofam+xlsx	5.2.1.8
+gene_69	K03254	kofam+xlsx	
+gene_690	K01593	kofam+xlsx	4.1.1.105;4.1.1.28
+gene_6900	K09478	kofam+xlsx	1.3.8.5
+gene_6902	K03145	kofam+xlsx	
+gene_6907	K02146	kofam+xlsx	
+gene_691	K00228	kofam+xlsx	1.3.3.3
+gene_6910	K03236	kofam+xlsx	
+gene_6912	K19356	kofam+xlsx	1.14.99.54
+gene_6915	K11293	kofam+xlsx	
+gene_6917	K10980	kofam	
+gene_6919	K27103	kofam	
+gene_6921	K22736	kofam+xlsx	
+gene_6925	K19356	kofam+xlsx	1.14.99.54
+gene_6927	K02541	kofam+xlsx	5.6.2.3
+gene_6929	K16261	kofam+xlsx	
+gene_6930	K19306	kofam+xlsx	2.1.1.309
+gene_6933	K14408	kofam+xlsx	
+gene_6935	K26244	kofam	
+gene_6939	K03781	kofam+xlsx	1.11.1.6
+gene_6945	K23322	kofam+xlsx	1.-.-.-
+gene_6947	K02605	kofam+xlsx	
+gene_6949	K08192	kofam+xlsx	
+gene_6954	K03448;K08192	kofam+xlsx	
+gene_6957	K25304	kofam+xlsx	
+gene_6959	K14308	kofam+xlsx	
+gene_6968	K01873	kofam+xlsx	6.1.1.9
+gene_697	K00102;K11699	kofam+xlsx	1.1.2.4;2.7.7.48
+gene_6970	K16261	kofam+xlsx	
+gene_6973	K15455	kofam+xlsx	
+gene_6976	K02540	kofam+xlsx	5.6.2.3
+gene_6978	K16044	xlsx	1.1.1.371
+gene_698	K23564	kofam+xlsx	
+gene_6980	K17301	kofam+xlsx	
+gene_6981	K00600	kofam+xlsx	2.1.2.1
+gene_6982	K06867	xlsx	
+gene_6983	K09702	kofam+xlsx	
+gene_6985	K01230	kofam+xlsx	3.2.1.113
+gene_699	K00863;K08257	kofam+xlsx	2.7.1.28;2.7.1.29;3.2.1.101;4.6.1.15
+gene_6990	K13524	kofam+xlsx	2.6.1.19;2.6.1.22
+gene_6994	K17714	kofam+xlsx	
+gene_6997	K03365	kofam+xlsx	3.5.4.1;3.5.4.21
+gene_700	K18664	kofam+xlsx	5.6.2.6
+gene_7002	K22124	kofam+xlsx	1.8.1.-
+gene_7003	K22733	kofam+xlsx	
+gene_7007	K08711	kofam+xlsx	
+gene_701	K12176	kofam+xlsx	
+gene_7010	K17669	kofam+xlsx	
+gene_7012	K10256	kofam+xlsx	1.14.19.22;1.14.19.6
+gene_7016	K03457	kofam+xlsx	
+gene_7017	K17560	kofam+xlsx	
+gene_7019	K13212	kofam+xlsx	
+gene_702	K22479	kofam+xlsx	
+gene_7020	K01620	kofam+xlsx	4.1.2.48
+gene_7022	K06867	xlsx	
+gene_7025	K23678	kofam+xlsx	
+gene_7027	K22138	kofam+xlsx	
+gene_7028	K04712	kofam+xlsx	1.14.18.5;1.14.19.17
+gene_7030	K08192	kofam	
+gene_7031	K01183	kofam+xlsx	3.2.1.14
+gene_7032	K12393	kofam+xlsx	
+gene_7035	K01653	kofam+xlsx	2.2.1.6
+gene_7036	K18819	kofam	2.4.1.123
+gene_704	K08486	kofam+xlsx	
+gene_7040	K16231	kofam+xlsx	
+gene_7041	K02867	kofam+xlsx	
+gene_7044	K23358	kofam+xlsx	2.3.1.48
+gene_7045	K19308	kofam+xlsx	2.1.1.312
+gene_7046	K10751	kofam+xlsx	
+gene_7048	K10706	kofam+xlsx	5.6.2.3;5.6.2.5
+gene_7049	K14568	kofam+xlsx	2.1.1.260
+gene_705	K10405	kofam+xlsx	5.6.1.4
+gene_7053	K05349	kofam+xlsx	3.2.1.21
+gene_7054	K01265	kofam+xlsx	3.4.11.18
+gene_7058	K03695	kofam+xlsx	
+gene_706	K10689	kofam+xlsx	2.3.2.23
+gene_7061	K17776	kofam+xlsx	
+gene_7064	K01180	kofam+xlsx	3.2.1.6
+gene_7065	K11093	kofam+xlsx	
+gene_7067	K00637	kofam+xlsx	2.3.1.26
+gene_7070	K04095	kofam	2.7.7.108
+gene_7071	K03234	kofam+xlsx	
+gene_7072	K00997	kofam	2.7.8.7
+gene_7075	K02331	kofam+xlsx	2.7.7.7
+gene_7076	K03136	kofam+xlsx	
+gene_7077	K03456	kofam+xlsx	
+gene_7078	K00417	kofam+xlsx	
+gene_7083	K12373	kofam+xlsx	3.2.1.52
+gene_7087	K00505	kofam+xlsx	1.14.18.1
+gene_709	K06203	kofam	
+gene_7090	K03575	kofam+xlsx	3.2.2.31
+gene_7094	K03885;K14550	kofam+xlsx	1.6.5.9
+gene_7096	K13333	kofam+xlsx	3.1.1.5
+gene_7097	K00654	kofam+xlsx	2.3.1.50
+gene_7098	K14795	kofam+xlsx	
+gene_710	K18106	kofam+xlsx	1.1.1.-
+gene_7100	K15429	kofam+xlsx	2.1.1.228
+gene_7106	K09704;K20291	kofam+xlsx	
+gene_7107	K11131	kofam+xlsx	5.4.99.-
+gene_7109	K22817	kofam+xlsx	2.3.2.27
+gene_7110	K23516	kofam+xlsx	1.14.11.48
+gene_7111	K10731	kofam+xlsx	
+gene_7116	K27398	kofam	
+gene_7119	K00759	kofam+xlsx	2.4.2.7
+gene_7120	K15902	kofam+xlsx	
+gene_7121	K19564	kofam+xlsx	
+gene_7124	K11805	kofam+xlsx	
+gene_7125	K08192	kofam	
+gene_7127	K24664	kofam+xlsx	
+gene_713	K03848	kofam+xlsx	2.4.1.267
+gene_7130	K13201	kofam+xlsx	
+gene_7133	K25879	kofam+xlsx	1.1.1.10
+gene_7134	K11324	kofam+xlsx	
+gene_7135	K18042	kofam+xlsx	
+gene_7139	K03457	kofam+xlsx	
+gene_7141	K12857	kofam+xlsx	
+gene_7143	K01953	kofam+xlsx	6.3.5.4
+gene_7145	K19828	kofam+xlsx	
+gene_7151	K22134	kofam+xlsx	
+gene_7152	K13337	kofam+xlsx	
+gene_7153	K09705	kofam	
+gene_7157	K14213	kofam+xlsx	3.4.13.9
+gene_7158	K17086	kofam+xlsx	
+gene_7161	K13299	xlsx	2.5.1.18
+gene_7167	K03136;K06636	kofam+xlsx	
+gene_7169	K20279	kofam+xlsx	3.1.3.36
+gene_7170	K23336	kofam+xlsx	
+gene_7173	K02906	kofam+xlsx	
+gene_7175	K03574;K28507	kofam+xlsx	3.6.1.55
+gene_7178	K17815	kofam+xlsx	3.1.-.-
+gene_7182	K05528	kofam	2.4.1.232
+gene_7186	K14209	kofam+xlsx	
+gene_7189	K09527	kofam+xlsx	
+gene_719	K13985	kofam+xlsx	3.1.4.54
+gene_7192	K23504	kofam+xlsx	
+gene_7194	K12581	kofam+xlsx	
+gene_7197	K20361	kofam+xlsx	
+gene_72	K07077	kofam+xlsx	
+gene_7200	K02962	kofam+xlsx	
+gene_7202	K10215	kofam+xlsx	1.14.13.-
+gene_7205	K03754	kofam+xlsx	
+gene_7206	K01536	kofam+xlsx	7.2.2.-;7.2.2.3
+gene_7207	K00844	kofam+xlsx	2.7.1.1
+gene_7208	K04708	kofam+xlsx	1.1.1.102
+gene_7213	K27384	kofam	
+gene_7214	K17623	kofam+xlsx	3.1.3.96
+gene_7220	K00074	kofam+xlsx	1.1.1.157
+gene_7221	K12812	kofam+xlsx	5.6.2.7
+gene_7226	K15631	kofam+xlsx	2.8.1.9
+gene_723	K10949	kofam+xlsx	
+gene_7231	K19267	xlsx	1.6.5.2
+gene_7233	K07241	kofam+xlsx	
+gene_7236	K11493	kofam+xlsx	
+gene_7237	K10428	kofam+xlsx	
+gene_7241	K01176	kofam+xlsx	3.2.1.1
+gene_7245	K14709	kofam+xlsx	
+gene_7247	K13525	kofam+xlsx	
+gene_7253	K03241	kofam+xlsx	
+gene_7255	K00227	kofam+xlsx	1.14.19.20
+gene_7256	K22685	kofam+xlsx	3.4.24.-
+gene_7257	K20372	kofam+xlsx	
+gene_7259	K01438	kofam	3.5.1.16
+gene_726	K24279	kofam+xlsx	3.1.1.121
+gene_7261	K10438	kofam+xlsx	1.14.13.63
+gene_7270	K10643	kofam+xlsx	2.3.2.27
+gene_7271	K03964	kofam+xlsx	
+gene_7272	K08287	kofam+xlsx	2.7.12.1
+gene_7275	K03263	kofam+xlsx	
+gene_7281	K23322	kofam+xlsx	1.-.-.-
+gene_7286	K25079	kofam+xlsx	
+gene_729	K03660	kofam+xlsx	3.2.2.-;4.2.99.18
+gene_7290	K20498	kofam+xlsx	4.3.1.18
+gene_7291	K04070;K10884	kofam+xlsx	1.97.1.4
+gene_7293	K00306	xlsx	1.5.3.1;1.5.3.7
+gene_7297	K00535	kofam	1.18.1.-
+gene_7298	K05285	kofam+xlsx	2.7.-.-
+gene_73	K01536	kofam+xlsx	7.2.2.-;7.2.2.3
+gene_7301	K12816;K20368	kofam+xlsx	
+gene_7303	K14851	kofam+xlsx	
+gene_7305	K12831	kofam+xlsx	
+gene_7306	K01530;K14802	kofam+xlsx	7.6.2.1
+gene_7307	K10531	kofam+xlsx	1.14.13.195;1.14.13.196
+gene_7316	K05349	kofam+xlsx	3.2.1.21
+gene_7317	K10703	kofam+xlsx	4.2.1.134
+gene_7318	K17066	kofam+xlsx	1.1.3.13
+gene_7320	K06867	xlsx	
+gene_7327	K08832	kofam+xlsx	2.7.11.1
+gene_7336	K19791	kofam+xlsx	
+gene_7338	K14401	kofam+xlsx	
+gene_7341	K14839	kofam+xlsx	
+gene_7342	K09252	kofam+xlsx	3.1.1.73
+gene_7343	K16196	kofam+xlsx	2.7.11.1
+gene_7348	K20180	kofam+xlsx	
+gene_735	K02355	kofam+xlsx	
+gene_7350	K17842	kofam+xlsx	1.13.11.59
+gene_7353	K00993;K17267	kofam+xlsx	2.7.8.1
+gene_7354	K11553	kofam+xlsx	
+gene_7355	K01301	kofam+xlsx	3.4.17.21
+gene_7359	K00505	kofam+xlsx	1.14.18.1
+gene_736	K00729	kofam+xlsx	2.4.1.117
+gene_7361	K01568;K06963;K17783	kofam+xlsx	1.8.3.2;4.1.1.1
+gene_7363	K02309	kofam+xlsx	
+gene_7365	K17764	kofam+xlsx	
+gene_7374	K28035	kofam	2.7.11.1
+gene_7378	K05972	kofam+xlsx	3.1.1.72
+gene_7381	K09413	kofam+xlsx	
+gene_7382	K15042	kofam+xlsx	
+gene_7393	K01755	kofam+xlsx	4.3.2.1
+gene_7396	K08192	kofam	
+gene_7398	K12847	kofam+xlsx	
+gene_740	K17878	kofam+xlsx	2.1.1.-
+gene_7401	K10582	kofam+xlsx	2.3.2.23
+gene_7403	K02880	kofam+xlsx	
+gene_7404	K11665	kofam+xlsx	5.6.2.-
+gene_7405	K05287	kofam+xlsx	
+gene_7407	K01537;K05853	kofam+xlsx	7.2.2.10
+gene_7413	K08502	kofam+xlsx	
+gene_7414	K01279	kofam+xlsx	3.4.14.9
+gene_7416	K06685	xlsx	
+gene_7417	K00077;K17665	kofam+xlsx	1.1.1.169
+gene_742	K00764	kofam+xlsx	2.4.2.14
+gene_7423	K01557	kofam+xlsx	3.7.1.5
+gene_7427	K01273	kofam+xlsx	3.4.13.19
+gene_7428	K12849	kofam+xlsx	
+gene_7429	K13076	kofam+xlsx	1.14.19.18
+gene_743	K00963	kofam+xlsx	2.7.7.9
+gene_7430	K18372	xlsx	3.1.1.114
+gene_7439	K08257;K08900	kofam+xlsx	3.2.1.101
+gene_744	K00505	kofam+xlsx	1.14.18.1
+gene_7443	K00800;K01735;K13830	kofam+xlsx	1.1.1.25;2.5.1.19;2.7.1.71;4.2.1.10;4.2.3.4
+gene_7444	K01443	kofam+xlsx	3.5.1.25
+gene_7448	K24194	kofam	
+gene_745	K08576	kofam+xlsx	3.4.22.-
+gene_7450	K01230	xlsx	3.2.1.113
+gene_7453	K01535	kofam+xlsx	7.1.2.1
+gene_7455	K05290	kofam+xlsx	
+gene_746	K08095	kofam+xlsx	3.1.1.74
+gene_7461	K20205	kofam+xlsx	1.11.1.13
+gene_7462	K24939	kofam+xlsx	
+gene_7464	K14679	kofam+xlsx	6.5.1.3
+gene_7466	K00637	kofam+xlsx	2.3.1.26
+gene_747	K21766	kofam+xlsx	
+gene_7471	K01640;K02147	kofam+xlsx	4.1.3.4
+gene_7472	K06875	kofam+xlsx	
+gene_7473	K01265	kofam+xlsx	3.4.11.18
+gene_7476	K18738	kofam+xlsx	
+gene_7478	K19564;K28029;K28030	kofam+xlsx	
+gene_7479	K01081	kofam+xlsx	3.1.3.5
+gene_748	K20872	kofam+xlsx	2.7.11.1
+gene_7480	K02902	kofam+xlsx	
+gene_7483	K10694	kofam+xlsx	2.3.2.27
+gene_7487	K03113;K03352	kofam+xlsx	
+gene_7489	K00682	xlsx	4.3.2.9
+gene_7490	K05925	kofam	2.1.1.348
+gene_7491	K02864	kofam+xlsx	
+gene_7492	K02216	kofam+xlsx	2.7.11.1
+gene_7493	K06929	xlsx	
+gene_7498	K11667	kofam+xlsx	
+gene_7499	K05928	xlsx	2.1.1.95
+gene_750	K03250	kofam+xlsx	
+gene_7505	K03247	kofam+xlsx	
+gene_7509	K01637	kofam+xlsx	4.1.3.1;4.1.3.30
+gene_7511	K08493	kofam+xlsx	
+gene_7512	K05349;K15920	kofam+xlsx	3.2.1.21;3.2.1.37
+gene_7513	K01792	kofam+xlsx	5.1.3.15
+gene_7516	K22539	kofam+xlsx	4.2.2.2
+gene_7519	K15272	kofam+xlsx	
+gene_7520	K23567	kofam+xlsx	
+gene_7522	K09252	kofam	3.1.1.73
+gene_7523	K00851	kofam+xlsx	2.7.1.12
+gene_7524	K01183	kofam+xlsx	3.2.1.14
+gene_7529	K23563	kofam+xlsx	
+gene_7531	K11267	kofam+xlsx	
+gene_7536	K11595	kofam+xlsx	
+gene_7542	K11843	kofam+xlsx	3.4.19.12
+gene_7545	K17943	xlsx	
+gene_7547	K01537	kofam+xlsx	7.2.2.10
+gene_7548	K17434	kofam+xlsx	
+gene_7550	K18278	kofam+xlsx	
+gene_7554	K17862	kofam+xlsx	1.13.11.62
+gene_7556	K08711	kofam+xlsx	
+gene_7558	K21890	kofam+xlsx	
+gene_7559	K17991	kofam+xlsx	1.11.2.3
+gene_7562	K02728	kofam+xlsx	3.4.25.1
+gene_7567	K03750;K15376;K24104	kofam+xlsx	2.10.1.1;2.7.7.75
+gene_7569	K13289	kofam	3.4.16.5
+gene_757	K13125	kofam+xlsx	
+gene_7574	K18655	kofam+xlsx	5.6.2.7
+gene_7576	K07246	kofam+xlsx	1.1.1.83;1.1.1.93;4.1.1.73
+gene_7580	K01689	kofam+xlsx	4.2.1.11
+gene_7582	K02960	kofam+xlsx	
+gene_7583	K18064	kofam+xlsx	
+gene_7585	K01641	kofam+xlsx	2.3.3.10
+gene_7589	K14960	xlsx	
+gene_7591	K04564	kofam+xlsx	1.15.1.1
+gene_7592	K12852	kofam+xlsx	
+gene_7595	K04499	kofam+xlsx	5.6.2.4
+gene_7598	K16842	kofam+xlsx	3.5.2.5
+gene_7604	K01555	kofam+xlsx	3.7.1.2
+gene_7608	K08515	kofam+xlsx	
+gene_761	K01426	kofam+xlsx	3.5.1.4
+gene_7610	K19787	kofam+xlsx	2.1.1.22
+gene_7611	K03695	xlsx	
+gene_7612	K00528;K11649;K18914	kofam+xlsx	1.18.1.2;1.18.1.6;1.19.1.1
+gene_7616	K01613	xlsx	4.1.1.65
+gene_7618	K15117	kofam+xlsx	
+gene_7619	K18466	kofam+xlsx	
+gene_762	K08192	kofam+xlsx	
+gene_7620	K00850	kofam+xlsx	2.7.1.11
+gene_7621	K12821	kofam+xlsx	
+gene_7627	K20410	kofam+xlsx	
+gene_7629	K02863	kofam+xlsx	
+gene_7630	K23978	kofam+xlsx	3.1.1.112
+gene_7631	K05609	kofam+xlsx	3.4.19.12
+gene_7638	K23481	kofam+xlsx	
+gene_7640	K23541	kofam+xlsx	
+gene_7641	K18730	kofam+xlsx	
+gene_7642	K00854	kofam+xlsx	2.7.1.17
+gene_7645	K10981	kofam+xlsx	2.7.7.7
+gene_7646	K03439;K17887	kofam+xlsx	2.1.1.33
+gene_7648	K09584	kofam+xlsx	5.3.4.1
+gene_7653	K10398	kofam+xlsx	
+gene_7654	K00560	kofam+xlsx	2.1.1.45
+gene_7655	K11360	kofam+xlsx	
+gene_7657	K00658	kofam+xlsx	2.3.1.61
+gene_7658	K02996	kofam+xlsx	
+gene_7659	K03008;K14209	kofam+xlsx	
+gene_766	K05546	kofam+xlsx	3.2.1.207
+gene_7662	K18749	kofam+xlsx	
+gene_7667	K09022	xlsx	3.5.99.10
+gene_7669	K02875	kofam+xlsx	
+gene_7670	K08832	xlsx	2.7.11.1
+gene_7671	K01277	kofam+xlsx	3.4.14.4
+gene_7676	K00128;K00135	kofam+xlsx	1.2.1.16;1.2.1.20;1.2.1.3;1.2.1.79
+gene_7680	K23519	xlsx	3.7.1.24
+gene_7682	K03448	kofam+xlsx	
+gene_7683	K02876	kofam+xlsx	
+gene_7684	K00804	kofam+xlsx	2.5.1.1;2.5.1.10;2.5.1.29
+gene_7686	K03844	kofam+xlsx	2.4.1.131
+gene_7689	K03122	kofam+xlsx	
+gene_7690	K01069;K16912	kofam+xlsx	3.1.2.6
+gene_7691	K13775	kofam+xlsx	
+gene_7693	K02110;K02128	kofam+xlsx	
+gene_7697	K02135	kofam+xlsx	
+gene_7700	K21631	kofam	
+gene_7701	K05236	kofam+xlsx	
+gene_7703	K19708	kofam+xlsx	3.1.3.16;3.1.3.43
+gene_7709	K00161;K03361	kofam+xlsx	1.2.4.1
+gene_771	K14950	kofam+xlsx	7.2.2.-
+gene_7719	K22745	kofam+xlsx	
+gene_772	K01104	kofam+xlsx	3.1.3.48
+gene_7723	K14263	kofam+xlsx	3.5.1.9
+gene_7726	K01752	kofam+xlsx	4.3.1.17
+gene_7727	K01412;K23787	kofam+xlsx	2.3.2.27;3.4.24.64
+gene_7732	K05994	kofam+xlsx	3.4.11.10
+gene_7734	K03217	kofam+xlsx	
+gene_7738	K15115	kofam+xlsx	
+gene_7744	K14558	kofam+xlsx	
+gene_7746	K06276;K11650	kofam+xlsx	2.7.11.1
+gene_7747	K12878	kofam+xlsx	
+gene_7748	K14861	kofam+xlsx	
+gene_7749	K05811;K20950	kofam	
+gene_775	K00799	kofam+xlsx	2.5.1.18
+gene_7750	K19366	kofam+xlsx	
+gene_7752	K14338	kofam+xlsx	1.14.14.1;1.6.2.4
+gene_7754	K01077	kofam+xlsx	3.1.3.1
+gene_7755	K11718	kofam+xlsx	2.4.1.-
+gene_7756	K03978;K14816	kofam+xlsx	
+gene_7758	K18159	xlsx	
+gene_7761	K01183	kofam+xlsx	3.2.1.14
+gene_7762	K00797	kofam+xlsx	2.5.1.16
+gene_7767	K14570	kofam+xlsx	3.1.-.-
+gene_7768	K20205	xlsx	1.11.1.13
+gene_778	K17807	kofam+xlsx	
+gene_7782	K22684	kofam+xlsx	3.4.22.-
+gene_7788	K00698	kofam+xlsx	2.4.1.16
+gene_779	K02214	kofam+xlsx	2.7.11.1
+gene_7793	K09703	kofam+xlsx	
+gene_7794	K01178	kofam+xlsx	3.2.1.3
+gene_7796	K18156	kofam+xlsx	3.4.24.-
+gene_7797	K00326;K23490	kofam+xlsx	1.6.2.2
+gene_7798	K02901	kofam+xlsx	
+gene_7799	K10577	kofam+xlsx	
+gene_780	K00297;K25004	kofam+xlsx	1.5.1.53;1.5.1.54
+gene_7801	K04705;K08331	kofam+xlsx	
+gene_7803	K19355	kofam+xlsx	3.2.1.78
+gene_781	K02948	kofam+xlsx	
+gene_7811	K14684	kofam+xlsx	
+gene_7813	K01194;K01620	kofam+xlsx	3.2.1.28;4.1.2.48
+gene_7818	K25815	kofam+xlsx	
+gene_7819	K19833	kofam+xlsx	2.7.11.1
+gene_7821	K03380	kofam+xlsx	1.14.13.7
+gene_7822	K12389	kofam+xlsx	
+gene_7827	K25010	kofam+xlsx	3.1.1.117
+gene_7828	K12197	kofam+xlsx	
+gene_7831	K03138	kofam+xlsx	
+gene_7835	K14016	kofam+xlsx	
+gene_7837	K10949	kofam+xlsx	
+gene_7842	K13094	kofam+xlsx	
+gene_7849	K12306	kofam+xlsx	
+gene_785	K14572	kofam+xlsx	
+gene_7851	K01183	kofam+xlsx	3.2.1.14
+gene_7852	K11673	kofam+xlsx	
+gene_7857	K00858;K19386	kofam+xlsx	2.7.1.23;2.7.1.86
+gene_7864	K03349	kofam+xlsx	
+gene_7865	K17974	kofam+xlsx	
+gene_7871	K00698	kofam+xlsx	2.4.1.16
+gene_7872	K12815	kofam+xlsx	5.6.2.6
+gene_7873	K09962	kofam+xlsx	
+gene_7876	K05012	kofam+xlsx	
+gene_7878	K20457	kofam+xlsx	6.3.2.12
+gene_7879	K10419	kofam+xlsx	
+gene_788	K00211	kofam+xlsx	1.3.1.13
+gene_7882	K20724	kofam+xlsx	
+gene_7887	K20405	kofam+xlsx	
+gene_7888	K02603	kofam+xlsx	
+gene_7889	K03029	kofam+xlsx	
+gene_789	K08773	kofam+xlsx	
+gene_7890	K02153	kofam+xlsx	
+gene_7901	K07195	kofam+xlsx	
+gene_7904	K12590	kofam+xlsx	
+gene_7905	K14709	kofam+xlsx	
+gene_7906	K24758	kofam+xlsx	
+gene_7912	K10747	kofam+xlsx	6.5.1.1;6.5.1.6;6.5.1.7
+gene_7913	K09650	kofam+xlsx	3.4.21.105
+gene_7915	K22494	xlsx	
+gene_7919	K01724	kofam+xlsx	4.2.1.96
+gene_7920	K09242	xlsx	
+gene_7923	K00767	kofam+xlsx	2.4.2.19
+gene_7924	K14002	kofam+xlsx	
+gene_7926	K03860	kofam+xlsx	
+gene_7927	K00948	kofam+xlsx	2.7.6.1
+gene_7928	K00641	kofam+xlsx	2.3.1.31;2.3.1.46
+gene_7930	K12589	kofam+xlsx	
+gene_7933	K23700	kofam+xlsx	2.1.1.359
+gene_7936	K00222	xlsx	1.3.1.70
+gene_7944	K08967	kofam+xlsx	1.13.11.53;1.13.11.54
+gene_7948	K23451	kofam+xlsx	3.1.3.114
+gene_7951	K01759	kofam+xlsx	4.4.1.5
+gene_7954	K27886	kofam	2.4.1.-
+gene_7955	K25986	kofam	1.13.11.93
+gene_7957	K21249	kofam+xlsx	
+gene_796	K00685	kofam+xlsx	2.3.2.8
+gene_7960	K19791	kofam+xlsx	
+gene_7970	K15451	kofam+xlsx	2.1.1.290;2.3.1.231
+gene_7972	K12870	kofam+xlsx	
+gene_7973	K14310	xlsx	
+gene_7975	K13721	kofam+xlsx	3.4.11.-
+gene_7981	K13621	kofam+xlsx	
+gene_7982	K08869	kofam+xlsx	
+gene_7983	K11663	kofam+xlsx	
+gene_7984	K22337	kofam+xlsx	
+gene_7986	K03469	kofam	3.1.26.4
+gene_7988	K10590	kofam+xlsx	2.3.2.26
+gene_7993	K03937	kofam+xlsx	
+gene_7997	K11238	kofam+xlsx	
+gene_8004	K02183;K13448;K13974	kofam+xlsx	
+gene_8005	K08257;K13507	kofam+xlsx	2.3.1.15;2.3.1.42;3.2.1.101
+gene_8009	K12817	kofam+xlsx	
+gene_8012	K05658	kofam+xlsx	7.6.2.2
+gene_8013	K08254	kofam+xlsx	3.2.1.59
+gene_8015	K15111	kofam+xlsx	
+gene_8016	K00587	kofam+xlsx	2.1.1.100
+gene_8021	K03521;K12492;K28514	kofam+xlsx	
+gene_8023	K08333;K11092	kofam+xlsx	2.7.11.1
+gene_8024	K09704;K20291	kofam+xlsx	
+gene_8028	K05012	kofam+xlsx	
+gene_8029	K20523	kofam+xlsx	
+gene_8031	K22277	kofam+xlsx	3.2.1.75
+gene_8032	K02269	kofam+xlsx	
+gene_8038	K02320	kofam+xlsx	2.7.7.7
+gene_8040	K18660	kofam+xlsx	6.2.1.-;6.2.1.76
+gene_8044	K02212	kofam+xlsx	5.6.2.3
+gene_8045	K01179	kofam	3.2.1.4
+gene_8047	K11397	kofam+xlsx	
+gene_8048	K13507	kofam+xlsx	2.3.1.15;2.3.1.42
+gene_8050	K14778	kofam+xlsx	5.6.2.7
+gene_8055	K19640	kofam+xlsx	
+gene_8056	K15384;K15394	kofam+xlsx	
+gene_8058	K02263	kofam+xlsx	
+gene_8062	K01027;K01028	kofam+xlsx	2.8.3.5
+gene_8063	K01809	kofam+xlsx	5.3.1.8
+gene_8065	K11366	kofam+xlsx	3.4.19.12
+gene_8069	K12840	kofam+xlsx	
+gene_807	K11274	kofam	
+gene_8070	K03135	kofam+xlsx	
+gene_8074	K10842	kofam+xlsx	
+gene_8075	K27819	kofam	
+gene_8076	K01808	kofam+xlsx	5.3.1.6
+gene_8077	K08141	kofam+xlsx	
+gene_808	K02152	kofam+xlsx	
+gene_8080	K28359	kofam	
+gene_8081	K08192	xlsx	
+gene_8083	K17675	kofam+xlsx	5.6.2.6
+gene_8089	K17908	kofam+xlsx	
+gene_809	K01238	kofam+xlsx	3.2.1.-
+gene_8092	K18719	kofam+xlsx	
+gene_8095	K09043	xlsx	
+gene_8096	K00383	kofam+xlsx	1.8.1.7
+gene_8102	K02899	kofam+xlsx	
+gene_8106	K01897	kofam+xlsx	6.2.1.3
+gene_8116	K07126	kofam+xlsx	
+gene_8118	K00852	kofam+xlsx	2.7.1.15
+gene_812	K12177	kofam+xlsx	
+gene_8123	K02155	kofam+xlsx	
+gene_8124	K09579	kofam+xlsx	5.2.1.8
+gene_8126	K08991	kofam+xlsx	3.1.22.-
+gene_813	K14809	kofam+xlsx	5.6.2.7
+gene_8130	K03361	kofam+xlsx	
+gene_8132	K17769	kofam+xlsx	
+gene_8133	K03144	kofam+xlsx	
+gene_8134	K00641	kofam+xlsx	2.3.1.31;2.3.1.46
+gene_8137	K20286	kofam+xlsx	
+gene_814	K24826	kofam+xlsx	
+gene_8141	K01868	kofam+xlsx	6.1.1.3
+gene_8142	K21543	kofam+xlsx	
+gene_8143	K14822	kofam+xlsx	
+gene_8144	K00831	kofam+xlsx	2.6.1.52
+gene_8146	K28063	kofam	
+gene_8147	K02894	kofam+xlsx	
+gene_815	K02265	kofam+xlsx	
+gene_8151	K05956	kofam+xlsx	2.5.1.60
+gene_8152	K14831	kofam+xlsx	
+gene_8153	K02951	kofam+xlsx	
+gene_8159	K03426;K07952	kofam+xlsx	3.6.1.22
+gene_8161	K11230	kofam+xlsx	2.7.11.25
+gene_8163	K24736	kofam+xlsx	
+gene_8170	K15407	kofam+xlsx	
+gene_8173	K04554	kofam+xlsx	2.3.2.23
+gene_8176	K00389;K27691	kofam+xlsx	
+gene_8178	K00505	kofam+xlsx	1.14.18.1
+gene_8181	K00065	kofam+xlsx	1.1.1.127
+gene_8184	K07556;K21842	kofam+xlsx	
+gene_8185	K01852	kofam+xlsx	5.4.99.7
+gene_8187	K21631	kofam+xlsx	
+gene_819	K22696	kofam+xlsx	2.1.1.-
+gene_8190	K07880	kofam	
+gene_8194	K10365	kofam+xlsx	
+gene_8196	K03979	kofam+xlsx	3.6.5.-
+gene_82	K18280	xlsx	2.1.1.293
+gene_820	K07050	kofam+xlsx	3.1.1.-
+gene_8200	K26384	kofam	
+gene_8201	K02933	kofam+xlsx	
+gene_8206	K01070	kofam+xlsx	3.1.2.12
+gene_8207	K13103	kofam+xlsx	
+gene_8213	K03363	kofam+xlsx	
+gene_8216	K08517	kofam+xlsx	
+gene_8222	K09540	kofam+xlsx	
+gene_8223	K11696	kofam+xlsx	
+gene_8226	K15174	kofam+xlsx	
+gene_8229	K11380	kofam+xlsx	
+gene_823	K08339	kofam+xlsx	
+gene_8231	K12392	kofam+xlsx	
+gene_8233	K12236	kofam+xlsx	
+gene_8234	K06911	kofam+xlsx	1.13.11.24
+gene_8235	K01166	kofam+xlsx	4.6.1.19
+gene_8239	K02180	kofam+xlsx	
+gene_8241	K01556	kofam+xlsx	3.7.1.3
+gene_8242	K00480	xlsx	1.14.13.1
+gene_8245	K01046	kofam+xlsx	3.1.1.3
+gene_8247	K00166	kofam+xlsx	1.2.4.4
+gene_8249	K01265	kofam+xlsx	3.4.11.18
+gene_825	K04640	kofam+xlsx	
+gene_8254	K15134	kofam+xlsx	
+gene_8258	K12160	kofam+xlsx	
+gene_8260	K08192	kofam	
+gene_8261	K11378	kofam+xlsx	2.3.1.48
+gene_8263	K01536	kofam+xlsx	7.2.2.-;7.2.2.3
+gene_8265	K15923	kofam+xlsx	3.2.1.51
+gene_827	K01560	kofam	3.8.1.2
+gene_8272	K14815	kofam+xlsx	
+gene_8275	K22315	kofam+xlsx	3.1.3.37
+gene_8279	K06684	kofam+xlsx	2.7.11.-
+gene_8280	K17081	kofam+xlsx	
+gene_8285	K02929	kofam+xlsx	
+gene_8289	K12882	kofam+xlsx	
+gene_8293	K20521	kofam+xlsx	
+gene_8294	K09242	kofam+xlsx	
+gene_8299	K01282	kofam+xlsx	3.4.14.-
+gene_83	K01810	kofam+xlsx	5.3.1.9
+gene_830	K14566	kofam+xlsx	
+gene_8303	K03064	kofam+xlsx	
+gene_8305	K27899	kofam	
+gene_8306	K01455	kofam+xlsx	3.5.1.49
+gene_8308	K22134	kofam+xlsx	
+gene_8309	K13690	kofam+xlsx	2.4.1.-
+gene_8310	K00143;K06997	kofam+xlsx	1.2.1.95
+gene_8314	K01183	kofam+xlsx	3.2.1.14
+gene_8318	K08139	xlsx	
+gene_8320	K21292;K23322	kofam+xlsx	1.-.-.-;1.14.14.86
+gene_8322	K13025	kofam+xlsx	5.6.2.7
+gene_8323	K11874	kofam+xlsx	3.4.19.12
+gene_8324	K03256	kofam+xlsx	
+gene_8326	K01687	kofam+xlsx	4.2.1.9
+gene_8327	K16578	kofam	
+gene_8328	K07342	kofam+xlsx	
+gene_8329	K19572	kofam+xlsx	3.5.4.4
+gene_833	K05925	kofam	2.1.1.348
+gene_8333	K01181	kofam+xlsx	3.2.1.8
+gene_8334	K01209	kofam+xlsx	3.2.1.55
+gene_8337	K01183	kofam+xlsx	3.2.1.14
+gene_8338	K00624	xlsx	2.3.1.7
+gene_8343	K04728	kofam+xlsx	2.7.11.1
+gene_8346	K09175	xlsx	
+gene_8348	K22745	kofam+xlsx	
+gene_8349	K12881	kofam+xlsx	
+gene_835	K14837	kofam+xlsx	
+gene_8355	K01426	kofam+xlsx	3.5.1.4
+gene_8358	K06287	kofam+xlsx	3.6.1.-
+gene_8368	K25656	kofam+xlsx	
+gene_837	K01192	kofam+xlsx	3.2.1.25
+gene_8372	K02986	kofam	
+gene_8373	K10798;K28005	kofam+xlsx	2.4.2.-;2.4.2.30
+gene_8374	K17970	kofam+xlsx	
+gene_8375	K22134	kofam+xlsx	
+gene_8383	K04640	kofam+xlsx	
+gene_8386	K28510	kofam	
+gene_8387	K20237	kofam+xlsx	
+gene_8393	K22314	kofam+xlsx	3.4.19.16
+gene_8394	K14799	kofam+xlsx	
+gene_84	K00661	kofam+xlsx	2.3.1.79
+gene_8401	K11314	kofam+xlsx	
+gene_8403	K12620	kofam+xlsx	
+gene_8413	K15026	kofam+xlsx	
+gene_8415	K18327	kofam+xlsx	3.1.-.-
+gene_8419	K09578	kofam+xlsx	5.2.1.8
+gene_8420	K01182	xlsx	3.2.1.10
+gene_8421	K17413	kofam+xlsx	
+gene_8425	K15450	kofam+xlsx	2.1.1.282
+gene_8426	K05658	kofam+xlsx	7.6.2.2
+gene_8428	K26750	kofam	
+gene_843	K21293	kofam+xlsx	
+gene_8432	K09885	kofam+xlsx	
+gene_8435	K20475	kofam+xlsx	
+gene_8439	K01176	kofam+xlsx	3.2.1.1
+gene_844	K08192	kofam	
+gene_8441	K01426	kofam+xlsx	3.5.1.4
+gene_8449	K14784	kofam+xlsx	
+gene_8451	K07541	kofam+xlsx	
+gene_8452	K14824	kofam+xlsx	
+gene_8455	K11680	kofam+xlsx	
+gene_8456	K00927	kofam+xlsx	2.7.2.3
+gene_8462	K10563	kofam+xlsx	3.2.2.23;4.2.99.18
+gene_8464	K20046	kofam+xlsx	
+gene_8467	K01408	kofam+xlsx	3.4.24.56
+gene_847	K23788	kofam+xlsx	2.3.2.27
+gene_8471	K00380	kofam+xlsx	1.8.1.2
+gene_8475	K20205	kofam+xlsx	1.11.1.13
+gene_8476	K15728	kofam+xlsx	3.1.3.4
+gene_848	K20362	kofam+xlsx	
+gene_8480	K18195	kofam+xlsx	4.2.2.23
+gene_8483	K12585	kofam+xlsx	3.1.13.-
+gene_8484	K10585	kofam+xlsx	2.3.2.23
+gene_8485	K15115;K17771	kofam+xlsx	
+gene_8486	K20826	kofam+xlsx	
+gene_8496	K12471	kofam+xlsx	
+gene_850	K02738;K17891	kofam+xlsx	1.8.3.2;3.4.25.1
+gene_8503	K00045	kofam+xlsx	1.1.1.67
+gene_8505	K15561	kofam+xlsx	
+gene_851	K14404	kofam+xlsx	
+gene_8510	K28613	kofam	
+gene_8511	K01836	kofam+xlsx	5.4.2.3
+gene_8512	K14189	kofam+xlsx	1.-.-.-
+gene_8516	K26400	kofam	4.2.1.118
+gene_8519	K00101	kofam+xlsx	1.1.2.3
+gene_8521	K18576	kofam+xlsx	3.2.1.151
+gene_8524	K02987	kofam+xlsx	
+gene_853	K00145;K12659	kofam+xlsx	1.2.1.38;2.7.2.8
+gene_8532	K28106	kofam	
+gene_8534	K00559	kofam+xlsx	2.1.1.41
+gene_8537	K03549	kofam+xlsx	
+gene_8539	K05681	kofam+xlsx	
+gene_8540	K11763	kofam+xlsx	
+gene_8542	K00450	kofam+xlsx	1.13.11.4
+gene_8546	K03953;K22855	kofam+xlsx	2.1.1.-
+gene_8547	K15104	kofam+xlsx	
+gene_8549	K20628	kofam+xlsx	
+gene_8558	K04063	kofam+xlsx	1.11.1.28
+gene_856	K06961	kofam+xlsx	
+gene_8562	K01720	kofam+xlsx	4.2.1.79
+gene_8564	K27164	kofam	
+gene_8566	K00306	kofam+xlsx	1.5.3.1;1.5.3.7
+gene_8568	K00237	kofam+xlsx	
+gene_8572	K14545	kofam+xlsx	
+gene_8573	K03240;K11187;K11968	kofam+xlsx	1.11.1.24;2.3.2.31
+gene_8576	K01560	kofam+xlsx	3.8.1.2
+gene_8577	K08178	kofam+xlsx	
+gene_8581	K01526	kofam+xlsx	3.6.1.42
+gene_8584	K00252	kofam+xlsx	1.3.8.6
+gene_8587	K23504	kofam+xlsx	
+gene_859	K20523	kofam+xlsx	
+gene_8591	K00387	xlsx	1.8.3.1
+gene_8592	K11511	kofam+xlsx	
+gene_8595	K14538	kofam+xlsx	
+gene_8599	K23322	kofam+xlsx	1.-.-.-
+gene_8601	K12820	kofam+xlsx	5.6.2.6
+gene_8604	K06685	xlsx	
+gene_8606	K03787;K06047	kofam+xlsx	3.1.3.5;3.1.3.6;6.3.2.25
+gene_8607	K02872	kofam+xlsx	
+gene_8608	K18123	kofam+xlsx	4.1.3.16
+gene_8611	K01199	kofam+xlsx	3.2.1.39
+gene_8613	K03023	kofam+xlsx	
+gene_8616	K00467	kofam+xlsx	1.13.12.4
+gene_8620	K03441	kofam+xlsx	
+gene_8622	K19950	kofam+xlsx	
+gene_8625	K22952	kofam+xlsx	4.1.99.24
+gene_8626	K07304	kofam+xlsx	1.8.4.11
+gene_8627	K06709	kofam+xlsx	1.14.11.66;1.14.11.69
+gene_8633	K24940	kofam+xlsx	
+gene_8634	K21544	kofam+xlsx	
+gene_8635	K18177	kofam	
+gene_864	K12670	kofam+xlsx	
+gene_8640	K21989	kofam+xlsx	
+gene_8645	K03362	kofam+xlsx	
+gene_8646	K18337	kofam+xlsx	1.1.1.173;1.1.1.377;1.1.1.378
+gene_8647	K08192	kofam	
+gene_865	K05658	kofam+xlsx	7.6.2.2
+gene_8652	K09274	kofam+xlsx	
+gene_866	K07443	kofam+xlsx	
+gene_8666	K27804	kofam	
+gene_8668	K19487	kofam+xlsx	
+gene_8669	K01728	kofam+xlsx	4.2.2.2
+gene_867	K00432;K23856	kofam+xlsx	1.11.1.24;1.11.1.9
+gene_8672	K10088	kofam+xlsx	
+gene_8676	K05349	kofam+xlsx	3.2.1.21
+gene_8679	K11558	kofam+xlsx	
+gene_8680	K00078	kofam+xlsx	1.1.1.179;1.3.1.20
+gene_8681	K00389	kofam+xlsx	
+gene_8682	K00354	kofam+xlsx	1.6.99.1
+gene_8684	K00809	kofam+xlsx	2.5.1.46
+gene_8685	K07562	kofam+xlsx	
+gene_8686	K13993	kofam+xlsx	
+gene_8690	K08095	kofam+xlsx	3.1.1.74
+gene_8692	K06221	kofam+xlsx	1.1.1.346
+gene_8696	K15449	kofam+xlsx	4.1.3.44
+gene_8697	K00928	kofam+xlsx	2.7.2.4
+gene_8698	K14721	kofam+xlsx	
+gene_87	K03025	kofam+xlsx	
+gene_8702	K22723	kofam+xlsx	2.7.1.227
+gene_8703	K17765	kofam+xlsx	
+gene_8704	K02736	kofam+xlsx	3.4.25.1
+gene_8706	K03026;K03190;K06671	kofam+xlsx	
+gene_8707	K02879	kofam+xlsx	
+gene_8708	K08192	kofam	
+gene_871	K07200	kofam+xlsx	
+gene_8710	K00694	xlsx	2.4.1.12
+gene_8712	K15436	kofam+xlsx	
+gene_8713	K09523;K15305	kofam+xlsx	
+gene_8719	K20456	kofam+xlsx	
+gene_8724	K10756	kofam+xlsx	
+gene_8725	K00750	kofam+xlsx	2.4.1.186
+gene_8729	K12609	kofam+xlsx	
+gene_873	K03885	kofam+xlsx	1.6.5.9
+gene_8730	K11322	kofam+xlsx	
+gene_8731	K18164	kofam+xlsx	
+gene_8734	K26751	kofam	
+gene_8738	K12493	kofam+xlsx	
+gene_874	K19668	kofam+xlsx	3.2.1.91
+gene_8741	K10578	kofam+xlsx	2.3.2.23
+gene_8742	K14399	kofam+xlsx	2.7.1.78
+gene_8743	K08793	kofam+xlsx	2.7.11.1
+gene_8744	K21798	xlsx	3.1.3.-
+gene_8746	K00939	kofam+xlsx	2.7.4.3
+gene_8747	K15532	kofam+xlsx	3.2.1.172
+gene_8748	K11790	xlsx	
+gene_8750	K02900	kofam+xlsx	
+gene_8751	K23552;K27881	kofam+xlsx	
+gene_8760	K23322	kofam+xlsx	1.-.-.-
+gene_8762	K22644	kofam+xlsx	
+gene_8768	K03448	kofam+xlsx	
+gene_8769	K14262	kofam+xlsx	3.4.-.-
+gene_8772	K27290	kofam	
+gene_8776	K23334	kofam+xlsx	
+gene_878	K17279	kofam+xlsx	
+gene_8781	K14816	kofam+xlsx	
+gene_8783	K00008;K05351	kofam+xlsx	1.1.1.14;1.1.1.9
+gene_8784	K00008;K25880	kofam+xlsx	1.1.1.12;1.1.1.14
+gene_8785	K11087	kofam+xlsx	
+gene_8787	K00558	kofam+xlsx	2.1.1.37
+gene_8788	K00413;K01626	kofam+xlsx	2.5.1.54
+gene_8795	K01530	xlsx	7.6.2.1
+gene_8797	K01728	kofam+xlsx	4.2.2.2
+gene_8799	K08726	xlsx	3.1.3.76;3.3.2.10
+gene_8800	K03036	kofam+xlsx	
+gene_8801	K01190	kofam+xlsx	3.2.1.23
+gene_8808	K07152	kofam+xlsx	
+gene_8812	K09022	kofam+xlsx	3.5.99.10
+gene_8814	K06889;K24083	kofam+xlsx	3.-.-.-
+gene_8819	K03671	kofam+xlsx	
+gene_882	K01527	kofam+xlsx	
+gene_8820	K15285	kofam+xlsx	
+gene_8822	K22913	kofam+xlsx	3.1.3.-
+gene_8825	K16945	kofam	
+gene_8826	K15463	kofam+xlsx	2.4.2.-
+gene_8828	K14635	kofam+xlsx	5.6.2.4
+gene_8829	K14796	kofam+xlsx	
+gene_8831	K14454	kofam+xlsx	2.6.1.1
+gene_8837	K08726	xlsx	3.1.3.76;3.3.2.10
+gene_8838	K00605	kofam+xlsx	2.1.2.10
+gene_8840	K28441	kofam	
+gene_8845	K20472	kofam+xlsx	
+gene_8846	K00868	kofam+xlsx	2.7.1.35
+gene_8847	K06662	kofam+xlsx	
+gene_8849	K00728	kofam+xlsx	2.4.1.109
+gene_885	K02437	kofam+xlsx	
+gene_8850	K04464	kofam+xlsx	2.7.11.24
+gene_8863	K02988	kofam+xlsx	
+gene_8865	K07748	kofam+xlsx	1.1.1.170
+gene_8866	K19823	kofam+xlsx	1.7.3.1
+gene_8867	K00902	kofam+xlsx	2.7.1.108
+gene_8869	K01507	kofam+xlsx	3.6.1.1
+gene_8874	K03942	kofam+xlsx	7.1.1.2
+gene_8876	K13113	kofam	
+gene_8879	K09967	kofam+xlsx	
+gene_8882	K15532	kofam+xlsx	3.2.1.172
+gene_8886	K15440	kofam+xlsx	3.5.4.34
+gene_8889	K01663	kofam+xlsx	4.3.2.10
+gene_8893	K09496	kofam+xlsx	
+gene_8896	K03011	kofam+xlsx	
+gene_890	K10843	kofam+xlsx	5.6.2.4
+gene_8902	K12735	kofam+xlsx	5.2.1.8
+gene_8903	K12178	kofam+xlsx	
+gene_8906	K12388	kofam	
+gene_8915	K00889	kofam+xlsx	2.7.1.68
+gene_8917	K08794	xlsx	2.7.11.17
+gene_892	K01077	kofam+xlsx	3.1.3.1
+gene_8920	K15430	kofam+xlsx	2.1.1.214
+gene_8921	K03938	kofam+xlsx	
+gene_8922	K22151	kofam+xlsx	
+gene_8928	K22134	kofam+xlsx	
+gene_893	K14290	kofam+xlsx	
+gene_8933	K03258	kofam+xlsx	
+gene_8934	K11979	kofam+xlsx	2.3.2.27
+gene_8938	K00516	kofam+xlsx	1.14.99.55
+gene_8942	K15445	kofam+xlsx	2.1.1.221
+gene_8944	K08332	kofam+xlsx	
+gene_8946	K15102	kofam+xlsx	
+gene_8949	K27389	kofam	
+gene_895	K01835;K13288	kofam+xlsx	3.1.-.-;5.4.2.2
+gene_8950	K13806	kofam+xlsx	3.1.1.116
+gene_8953	K22278	kofam+xlsx	3.5.1.104
+gene_8954	K05759	kofam+xlsx	
+gene_8955	K27706	kofam	
+gene_8958	K01297	kofam+xlsx	3.4.17.13
+gene_8960	K28507	kofam	
+gene_8962	K00750	kofam+xlsx	2.4.1.186
+gene_8968	K01206	kofam+xlsx	3.2.1.51
+gene_897	K02431	kofam+xlsx	5.1.3.29
+gene_8970	K01433	kofam+xlsx	3.5.1.10
+gene_8974	K08254	kofam+xlsx	3.2.1.59
+gene_8975	K17788	kofam+xlsx	
+gene_8978	K01187	xlsx	3.2.1.20
+gene_8980	K11088	kofam+xlsx	
+gene_8981	K19327	kofam+xlsx	
+gene_8982	K15414	kofam+xlsx	
+gene_8984	K13024	kofam+xlsx	2.7.4.24
+gene_8986	K23322	kofam+xlsx	1.-.-.-
+gene_8989	K19996	kofam+xlsx	
+gene_8996	K01001	kofam+xlsx	2.7.8.15
+gene_8997	K00749	kofam+xlsx	2.4.1.183
+gene_9	K22747	kofam+xlsx	
+gene_90	K00616;K03457	kofam+xlsx	2.2.1.2
+gene_9005	K00559	kofam+xlsx	2.1.1.41
+gene_9008	K25877	kofam+xlsx	3.1.-.-
+gene_9009	K10253	xlsx	1.14.99.-
+gene_9010	K03457	kofam+xlsx	
+gene_9011	K03267	kofam+xlsx	
+gene_9014	K28098	kofam	
+gene_9017	K04627	kofam+xlsx	
+gene_9018	K04555	kofam+xlsx	2.3.2.23
+gene_9019	K26979	kofam	2.3.2.27
+gene_902	K04518	kofam+xlsx	4.2.1.51
+gene_9020	K04709	kofam+xlsx	2.3.1.297
+gene_9021	K10258	xlsx	1.3.1.93
+gene_9022	K01178	kofam+xlsx	3.2.1.3
+gene_9024	K04513	xlsx	
+gene_9032	K03750	kofam+xlsx	2.10.1.1
+gene_9036	K08192	kofam+xlsx	
+gene_9038	K09828;K22134	kofam+xlsx	1.3.1.-;1.3.1.72
+gene_9039	K02212;K27692	kofam+xlsx	2.7.4.1;5.6.2.3
+gene_9041	K22686	kofam+xlsx	3.4.21.-
+gene_9043	K05609	xlsx	3.4.19.12
+gene_9046	K22857	kofam+xlsx	2.1.1.-
+gene_9047	K21767	kofam+xlsx	
+gene_9051	K13303	kofam+xlsx	2.7.11.1
+gene_9052	K01424;K13278	kofam+xlsx	3.1.1.47;3.1.1.5;3.5.1.1
+gene_9055	K13953	kofam+xlsx	1.1.1.1
+gene_9056	K07300	kofam+xlsx	
+gene_9057	K22122;K23322	kofam+xlsx	1.-.-.-
+gene_9058	K15544	kofam+xlsx	3.1.3.16
+gene_9063	K20318	kofam+xlsx	
+gene_9069	K03448	kofam+xlsx	
+gene_9074	K00451	kofam+xlsx	1.13.11.5
+gene_9076	K16842	kofam+xlsx	3.5.2.5
+gene_9083	K09313	kofam+xlsx	
+gene_9084	K18584	kofam+xlsx	
+gene_9086	K00365	kofam+xlsx	1.7.3.3
+gene_9087	K14834	kofam+xlsx	
+gene_909	K14306	kofam+xlsx	
+gene_9091	K00759	kofam+xlsx	2.4.2.7
+gene_9093	K01224	kofam+xlsx	3.2.1.89
+gene_9096	K08869	kofam+xlsx	
+gene_91	K20403	kofam+xlsx	
+gene_910	K11353	kofam+xlsx	
+gene_9101	K11415;K12410	kofam+xlsx	2.3.1.286;2.3.1.313
+gene_9102	K10426	kofam+xlsx	
+gene_9103	K13721	kofam+xlsx	3.4.11.-
+gene_9105	K01183	kofam+xlsx	3.2.1.14
+gene_9108	K14806	kofam+xlsx	5.6.2.7
+gene_911	K11836	kofam+xlsx	3.4.19.12
+gene_9117	K01225	kofam+xlsx	3.2.1.91
+gene_9119	K00720	kofam+xlsx	2.4.1.80
+gene_9121	K02433	kofam+xlsx	6.3.5.6;6.3.5.7
+gene_9130	K17866	kofam+xlsx	
+gene_9142	K20353	kofam+xlsx	
+gene_9143	K01053	kofam+xlsx	3.1.1.17
+gene_9146	K13953	kofam	1.1.1.1
+gene_9147	K02151	kofam+xlsx	
+gene_9149	K01537	kofam+xlsx	7.2.2.10
+gene_9150	K02510;K03015	kofam+xlsx	4.1.2.52
+gene_9152	K00844	kofam+xlsx	2.7.1.1
+gene_9153	K25576	kofam	
+gene_9154	K18338	kofam+xlsx	3.1.1.65
+gene_9155	K17065	kofam+xlsx	3.6.5.5
+gene_9164	K17862	xlsx	1.13.11.62
+gene_9166	K03380	kofam+xlsx	1.14.13.7
+gene_9167	K09252	kofam+xlsx	3.1.1.73
+gene_9169	K01915	kofam+xlsx	6.3.1.2
+gene_9170	K00866	kofam+xlsx	2.7.1.32
+gene_9171	K11838	kofam+xlsx	3.4.19.12
+gene_9176	K18123	kofam+xlsx	4.1.3.16
+gene_9177	K07739	kofam+xlsx	2.3.1.311
+gene_9179	K18740	kofam	
+gene_9183	K02940	kofam+xlsx	
+gene_9186	K17945	kofam+xlsx	
+gene_919	K01923	kofam+xlsx	6.3.2.6
+gene_9195	K03495;K12479	kofam+xlsx	
+gene_9205	K04718	kofam+xlsx	2.7.1.91
+gene_9209	K00966	kofam+xlsx	2.7.7.13
+gene_9210	K23321	kofam	1.-.-.-
+gene_9212	K16575	kofam+xlsx	
+gene_9215	K09550	kofam+xlsx	
+gene_922	K22952	kofam+xlsx	4.1.99.24
+gene_9220	K02607	kofam+xlsx	
+gene_9221	K03448;K08192	kofam+xlsx	
+gene_9225	K19356	kofam+xlsx	1.14.99.54
+gene_9226	K13205	kofam+xlsx	
+gene_9227	K03849	kofam+xlsx	2.4.1.265
+gene_9228	K05292	kofam+xlsx	
+gene_9231	K01858	kofam+xlsx	5.5.1.4
+gene_9237	K00525;K10807	kofam+xlsx	1.17.4.1
+gene_924	K01301	kofam+xlsx	3.4.17.21
+gene_9243	K03094	kofam+xlsx	
+gene_9244	K00968	kofam+xlsx	2.7.7.15
+gene_9249	K08059	kofam+xlsx	
+gene_925	K11883	kofam+xlsx	
+gene_9256	K27407	kofam	
+gene_9259	K22072	kofam+xlsx	
+gene_9266	K00311	kofam+xlsx	1.5.5.1
+gene_9267	K06675	kofam+xlsx	
+gene_9268	K00457	kofam+xlsx	1.13.11.27
+gene_927	K19356	kofam+xlsx	1.14.99.54
+gene_9272	K18798	kofam+xlsx	3.6.4.7
+gene_9274	K22278	kofam+xlsx	3.5.1.104
+gene_9275	K09660	kofam+xlsx	
+gene_9278	K01895	kofam+xlsx	6.2.1.1
+gene_9284	K01725	kofam+xlsx	4.2.1.104
+gene_9286	K00967	kofam+xlsx	2.7.7.14
+gene_9288	K13726	kofam+xlsx	3.4.24.-
+gene_9291	K14829	kofam+xlsx	
+gene_9297	K14708	kofam+xlsx	
+gene_9298	K18158	kofam+xlsx	
+gene_9299	K28521	kofam	1.13.11.-
+gene_9301	K04532	kofam+xlsx	
+gene_9304	K14640	kofam+xlsx	
+gene_9305	K24160	kofam+xlsx	
+gene_9306	K08900	kofam+xlsx	
+gene_9308	K09448	kofam+xlsx	
+gene_931	K15130	kofam+xlsx	
+gene_9311	K17679	kofam+xlsx	5.6.2.7
+gene_9314	K11377	kofam+xlsx	
+gene_9315	K09008	kofam+xlsx	
+gene_9316	K03448	kofam+xlsx	
+gene_9317	K09831	kofam+xlsx	1.14.19.41
+gene_9319	K12880	kofam+xlsx	
+gene_932	K23565	kofam+xlsx	
+gene_9320	K12827	kofam+xlsx	
+gene_9322	K14564	kofam+xlsx	
+gene_9323	K11976	kofam+xlsx	2.3.2.31
+gene_9326	K02326	kofam+xlsx	2.7.7.7
+gene_9328	K01598	kofam+xlsx	4.1.1.36
+gene_9329	K18469	kofam+xlsx	
+gene_9332	K12614	kofam+xlsx	5.6.2.7
+gene_9334	K13985	xlsx	3.1.4.54
+gene_9337	K07204	kofam+xlsx	
+gene_9339	K14826	kofam+xlsx	5.2.1.8
+gene_934	K03379	xlsx	1.14.13.22
+gene_9347	K08876	kofam+xlsx	
+gene_9348	K17491	kofam+xlsx	
+gene_9349	K01181	kofam+xlsx	3.2.1.8
+gene_935	K01673	kofam+xlsx	4.2.1.1
+gene_9350	K13102	kofam+xlsx	
+gene_9351	K13989	kofam+xlsx	
+gene_9353	K24730	kofam+xlsx	
+gene_9355	K03133	kofam+xlsx	
+gene_9360	K05756	kofam+xlsx	
+gene_9363	K10865	kofam+xlsx	
+gene_937	K22152	kofam+xlsx	
+gene_9370	K14429	kofam+xlsx	
+gene_9373	K14400	kofam	
+gene_9375	K09425	kofam+xlsx	
+gene_9380	K01102	kofam+xlsx	3.1.3.43
+gene_9388	K15082	kofam+xlsx	
+gene_9391	K20406	kofam+xlsx	
+gene_9399	K01673	kofam+xlsx	4.2.1.1
+gene_9402	K00914	kofam+xlsx	2.7.1.137
+gene_9407	K11553	kofam+xlsx	
+gene_9410	K09539	kofam+xlsx	
+gene_9412	K01992	xlsx	
+gene_9413	K04487	kofam+xlsx	2.8.1.7
+gene_9414	K01173	kofam+xlsx	
+gene_9417	K22745	kofam+xlsx	
+gene_942	K15177	kofam+xlsx	
+gene_9425	K00670	kofam+xlsx	2.3.1.256
+gene_9427	K14402	kofam+xlsx	
+gene_9428	K14688	kofam+xlsx	
+gene_9430	K12598	kofam+xlsx	5.6.2.6
+gene_9432	K26753	kofam	
+gene_9434	K02327	kofam	2.7.7.7
+gene_9436	K20168	kofam+xlsx	
+gene_9437	K01679	kofam+xlsx	4.2.1.2
+gene_9438	K09248	kofam+xlsx	
+gene_9439	K01569	kofam+xlsx	4.1.1.2
+gene_9443	K15901	kofam+xlsx	
+gene_9449	K07126	kofam+xlsx	
+gene_9451	K07078	kofam+xlsx	
+gene_946	K22139	kofam+xlsx	
+gene_9462	K20288	kofam+xlsx	
+gene_9464	K05925	kofam	2.1.1.348
+gene_9466	K00974	kofam	2.7.7.72;3.1.3.-;3.1.4.-
+gene_9470	K10881	kofam+xlsx	
+gene_9473	K03020	kofam+xlsx	
+gene_9482	K00804	kofam+xlsx	2.5.1.1;2.5.1.10;2.5.1.29
+gene_9483	K01950	kofam+xlsx	6.3.5.1
+gene_9484	K00416	kofam+xlsx	
+gene_9487	K06072	kofam+xlsx	1.14.99.29
+gene_9489	K06111	kofam+xlsx	
+gene_949	K22756	kofam+xlsx	2.3.2.-
+gene_9490	K00938	kofam+xlsx	2.7.4.2
+gene_9493	K03448	kofam+xlsx	
+gene_9494	K22992	kofam+xlsx	
+gene_9495	K10027;K15745	kofam+xlsx	1.3.99.26;1.3.99.28;1.3.99.29;1.3.99.30;1.3.99.31
+gene_9496	K19069	kofam+xlsx	1.1.99.18
+gene_9499	K00006	kofam+xlsx	1.1.1.8
+gene_9501	K06912	kofam+xlsx	1.14.11.83
+gene_9507	K04513;K07975	kofam+xlsx	
+gene_9509	K20523	kofam+xlsx	
+gene_9514	K24976	kofam+xlsx	
+gene_9516	K20813	kofam+xlsx	3.2.2.29
+gene_9517	K03637;K03639	kofam+xlsx	4.1.99.22;4.6.1.17
+gene_9519	K19564	kofam+xlsx	
+gene_9523	K05528	kofam	2.4.1.232
+gene_9526	K01613	kofam+xlsx	4.1.1.65
+gene_953	K01495	kofam+xlsx	3.5.4.16
+gene_954	K01647;K27797	kofam+xlsx	2.3.3.1;2.3.3.5
+gene_9540	K18576	kofam+xlsx	3.2.1.151
+gene_9541	K13171	kofam+xlsx	
+gene_9543	K03097	kofam+xlsx	2.7.11.1
+gene_9544	K22025	kofam	1.1.1.410
+gene_9545	K07001	kofam	
+gene_9546	K21053	kofam+xlsx	3.5.4.2
+gene_9548	K17742;K28607	kofam+xlsx	1.1.1.138;1.1.1.289
+gene_9552	K24155	kofam+xlsx	
+gene_9556	K00794	kofam+xlsx	2.5.1.78
+gene_9560	K09252	kofam+xlsx	3.1.1.73
+gene_9564	K10570	kofam+xlsx	
+gene_9566	K21848	kofam+xlsx	
+gene_9567	K15455	xlsx	
+gene_9568	K21293	kofam	
+gene_9575	K17888	kofam+xlsx	
+gene_9576	K10775	kofam+xlsx	4.3.1.24
+gene_9578	K11888	kofam+xlsx	
+gene_9581	K03455;K26731	kofam+xlsx	
+gene_9583	K03448;K08192	kofam+xlsx	
+gene_9584	K19327;K26400	kofam+xlsx	4.2.1.118
+gene_9585	K17637	kofam+xlsx	
+gene_9587	K11771	kofam+xlsx	
+gene_9589	K14561	kofam+xlsx	
+gene_9598	K22213	kofam+xlsx	4.1.1.52
+gene_960	K26404	kofam	
+gene_961	K02685	kofam+xlsx	
+gene_9610	K08192	kofam	
+gene_9611	K00505	kofam+xlsx	1.14.18.1
+gene_9613	K25178	kofam+xlsx	
+gene_9623	K08141	kofam+xlsx	
+gene_9627	K03240	kofam+xlsx	
+gene_9631	K08997	kofam+xlsx	2.7.7.108
+gene_9637	K22991	kofam+xlsx	
+gene_9639	K05986	kofam+xlsx	3.1.30.1
+gene_9646	K14338	kofam+xlsx	1.14.14.1;1.6.2.4
+gene_9647	K02139	kofam+xlsx	
+gene_9649	K11309	kofam+xlsx	
+gene_9654	K01338	kofam+xlsx	3.4.21.53
+gene_9657	K03131	kofam+xlsx	
+gene_966	K14018	kofam+xlsx	
+gene_9660	K03782	kofam+xlsx	1.11.1.21
+gene_9661	K03539	kofam+xlsx	3.1.26.5
+gene_9663	K05994	kofam+xlsx	3.4.11.10
+gene_9666	K03752	kofam	2.7.7.77
+gene_9669	K03321	kofam+xlsx	
+gene_9671	K04082	kofam+xlsx	
+gene_9675	K02078	kofam+xlsx	
+gene_9677	K01424	kofam+xlsx	3.5.1.1
+gene_9678	K07560	kofam+xlsx	3.1.1.96
+gene_9679	K15100	kofam+xlsx	
+gene_9695	K21403	kofam+xlsx	3.1.3.-
+gene_9696	K07941	kofam+xlsx	
+gene_9698	K02927;K15219	kofam+xlsx	
+gene_9699	K03305	xlsx	
+gene_970	K11361	kofam	
+gene_9700	K23553	kofam+xlsx	
+gene_9705	K09043	kofam+xlsx	
+gene_9706	K03099	kofam+xlsx	
+gene_9708	K28507	kofam	
+gene_9714	K00333;K03935	kofam+xlsx	7.1.1.2
+gene_9716	K10998	kofam+xlsx	
+gene_9717	K05349	kofam+xlsx	3.2.1.21
+gene_9718	K01785;K07561	kofam+xlsx	2.5.1.108;5.1.3.3
+gene_9719	K06134;K28034	kofam+xlsx	1.14.13.253;1.14.99.60
+gene_972	K01576	kofam+xlsx	4.1.1.7
+gene_9722	K06063	kofam+xlsx	
+gene_9725	K20293;K22766	kofam+xlsx	5.6.2.-
+gene_9727	K03002	kofam+xlsx	2.7.7.6
+gene_9728	K14328	kofam+xlsx	
+gene_973	K08856	kofam+xlsx	2.7.11.1
+gene_9733	K10301	kofam+xlsx	
+gene_9736	K14001	xlsx	
+gene_9737	K22210	kofam+xlsx	4.2.1.48
+gene_9738	K02932	kofam+xlsx	
+gene_9739	K19953	kofam+xlsx	
+gene_9741	K04711;K09548	kofam+xlsx	3.5.1.-
+gene_9747	K06199	kofam	
+gene_9750	K20832	kofam+xlsx	3.2.1.181
+gene_9752	K03237	kofam+xlsx	
+gene_9753	K02920	kofam+xlsx	
+gene_9757	K03457	kofam+xlsx	
+gene_9758	K08254	kofam+xlsx	3.2.1.59
+gene_9762	K01062	kofam+xlsx	3.1.1.47
+gene_9766	K23504	kofam+xlsx	
+gene_977	K22952	kofam+xlsx	4.1.99.24
+gene_9771	K01198	kofam+xlsx	3.2.1.37
+gene_9772	K10396;K10573	kofam+xlsx	2.3.2.23;5.6.1.3
+gene_9773	K04799	kofam+xlsx	3.1.-.-
+gene_9774	K00135	kofam+xlsx	1.2.1.16;1.2.1.20;1.2.1.79
+gene_9777	K11567	kofam+xlsx	
+gene_9779	K15198	kofam+xlsx	
+gene_978	K08141	kofam+xlsx	
+gene_9783	K00102	kofam+xlsx	1.1.2.4
+gene_9784	K03246	kofam+xlsx	
+gene_9785	K17739	kofam+xlsx	1.1.1.252
+gene_9790	K07889	xlsx	
+gene_9794	K15560	kofam+xlsx	
+gene_9795	K18599	kofam+xlsx	
+gene_9796	K00228	kofam+xlsx	1.3.3.3
+gene_9797	K21197	kofam+xlsx	
+gene_9798	K16938	kofam+xlsx	
+gene_9799	K09659	kofam+xlsx	
+gene_980	K22531	kofam+xlsx	3.6.1.-
+gene_9802	K08192	kofam	
+gene_9803	K01148	kofam+xlsx	3.1.13.4
+gene_9813	K01480;K25365	kofam+xlsx	3.5.3.10;3.5.3.11;3.5.3.7
+gene_9816	K15378	kofam+xlsx	
+gene_9818	K26681	kofam	
+gene_982	K14556	kofam+xlsx	
+gene_9826	K00472	kofam+xlsx	1.14.11.2
+gene_9829	K22762	kofam+xlsx	3.4.-.-
+gene_9830	K08139	kofam+xlsx	
+gene_9831	K20280;K26544	kofam+xlsx	
+gene_9835	K03635	kofam+xlsx	2.8.1.12
+gene_9836	K01621	kofam+xlsx	4.1.2.22;4.1.2.9
+gene_984	K08178	kofam+xlsx	
+gene_9843	K28508	kofam	
+gene_9845	K09549	kofam+xlsx	
+gene_985	K01288	kofam+xlsx	3.4.16.6
+gene_9850	K23398	kofam+xlsx	
+gene_9853	K07943	kofam+xlsx	
+gene_9854	K14430;K20183	kofam+xlsx	
+gene_9855	K05972	kofam+xlsx	3.1.1.72
+gene_9858	K02978	kofam+xlsx	
+gene_9859	K09528	kofam+xlsx	
+gene_9862	K00799	kofam	2.5.1.18
+gene_987	K03687	kofam+xlsx	
+gene_9874	K00472	kofam+xlsx	1.14.11.2
+gene_9875	K00626	kofam+xlsx	2.3.1.9
+gene_9879	K10413	kofam+xlsx	
+gene_988	K01190	kofam+xlsx	3.2.1.23
+gene_9884	K01079	kofam+xlsx	3.1.3.3
+gene_9886	K10418	kofam+xlsx	
+gene_9888	K06640	kofam+xlsx	2.7.11.1
+gene_9890	K00274	kofam+xlsx	1.4.3.4
+gene_9892	K16066	kofam+xlsx	1.1.1.-;1.1.1.381
+gene_9894	K02429	kofam+xlsx	
+gene_9895	K03320	kofam+xlsx	
+gene_9896	K20359	kofam+xlsx	
+gene_99	K01875	kofam+xlsx	6.1.1.11
+gene_9900	K10253	kofam+xlsx	1.14.99.-
+gene_9903	K10901	kofam+xlsx	5.6.2.4
+gene_9906	K09252	kofam+xlsx	3.1.1.73
+gene_9910	K04095	kofam+xlsx	2.7.7.108
+gene_9911	K10992	kofam+xlsx	
+gene_9916	K14640	kofam+xlsx	
+gene_9918	K01424	kofam+xlsx	3.5.1.1
+gene_9922	K01440;K08281	kofam+xlsx	3.5.1.-;3.5.1.19
+gene_9923	K08192	kofam	
+gene_9924	K21631	kofam	
+gene_9929	K01940	kofam+xlsx	6.3.4.5
+gene_9932	K09043	kofam+xlsx	
+gene_9934	K12232	kofam+xlsx	2.3.2.26
+gene_9938	K02884	kofam+xlsx	
+gene_9939	K14171	kofam+xlsx	1.11.1.24
+gene_994	K15631	kofam+xlsx	2.8.1.9
+gene_9940	K02965	kofam	
+gene_9941	K00286	kofam+xlsx	1.5.1.2
+gene_9947	K25162	kofam+xlsx	
+gene_9949	K11244	kofam+xlsx	
+gene_995	K24139	kofam+xlsx	
+gene_9950	K17278	kofam+xlsx	
+gene_9951	K01457;K01941;K14541	kofam+xlsx	3.5.1.54;6.3.4.26;6.3.4.6
+gene_9956	K22025	kofam+xlsx	1.1.1.410
+gene_9957	K02604	kofam+xlsx	
+gene_9958	K00898	kofam+xlsx	2.7.11.2
+gene_996	K07023	kofam+xlsx	3.1.3.89
+gene_9960	K02207	kofam+xlsx	2.3.2.23
+gene_9963	K14537	kofam+xlsx	
+gene_9967	K17907	kofam+xlsx	
+gene_997	K11096	kofam+xlsx	
+gene_9972	K01942	kofam+xlsx	6.3.4.10;6.3.4.11;6.3.4.15;6.3.4.9
+gene_9978	K10684	kofam+xlsx	6.2.1.45
+gene_9979	K23516	kofam+xlsx	1.14.11.48
+gene_998	K07300	kofam+xlsx	
+gene_9982	K14311	kofam+xlsx	
+gene_9983	K17991	kofam+xlsx	1.11.2.3
+gene_9985	K28035	kofam	2.7.11.1
+gene_999	K09022	kofam+xlsx	3.5.99.10
+gene_9993	K14565	kofam+xlsx	
+gene_9995	K17550	kofam+xlsx	
+gene_9996	K06158;K06185	kofam+xlsx	
+gene_9998	K09702	kofam+xlsx	

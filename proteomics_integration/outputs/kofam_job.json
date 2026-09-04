@@ -1,0 +1,16 @@
+{
+  "task_id": "85152ca3-d6cc-4f28-b264-ef21f0653ad9",
+  "job_name": "fsp237_fullproteome_kofam_20260903",
+  "ko_db_date": "2025-11-03",
+  "threads": 40,
+  "n_proteins": 14857,
+  "broker": "redis://bioseed_redis:6379/10",
+  "output_hint": "/scratch/bioseed_tools/kofam_scan/run/fsp237_fullproteome_kofam_20260903",
+  "flower": "http://poplar.cels.anl.gov:5555/",
+  "submitted": "2026-09-03T20:01:27",
+  "state": "SUCCESS",
+  "return_code": 0,
+  "scratch_dir": "/scratch/bioseed_tools/kofam_scan/run/fsp237_fullproteome_kofam_20260903",
+  "mapper_local": "proteomics_integration/outputs/kofam_mapper.tsv",
+  "genes_with_ko": 5043
+}

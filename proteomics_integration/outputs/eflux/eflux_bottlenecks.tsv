@@ -1,0 +1,119 @@
+condition	capacity	rxn_id	name	subsystem	flux	ceiling	expr_norm
+PDA	1000.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		1.98451	1.98451	0.002
+PDA	300.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.59535	0.59535	0.002
+PDA	100.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.19845	0.19845	0.002
+PDA	30.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.05954	0.05954	0.002
+PDA	30.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.85623	0.85623	0.0285
+PDA	30.0	rxn09779_c0	Tricarboxylate transport protein_c0		-0.06119	0.06119	0.002
+PDA	30.0	rxn00342_e0	L-Asparagine amidohydrolase_e0		0.05688	0.05688	0.0019
+PDA	10.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.01985	0.01985	0.002
+PDA	10.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.28541	0.28541	0.0285
+PDA	10.0	rxn09779_c0	Tricarboxylate transport protein_c0		-0.0204	0.0204	0.002
+PDA	10.0	rxn00342_e0	L-Asparagine amidohydrolase_e0		0.01896	0.01896	0.0019
+PDA	10.0	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.01896	0.01896	0.0019
+PDA	3.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00595	0.00595	0.002
+PDA	3.0	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.03978	0.03978	0.0133
+PDA	3.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.08562	0.08562	0.0285
+PDA	3.0	rxn09779_c0	Tricarboxylate transport protein_c0		-0.00612	0.00612	0.002
+PDA	3.0	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00569	0.00569	0.0019
+PDA	1.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00198	0.00198	0.002
+PDA	1.0	rxn00547_c0			0.01463	0.01463	0.0146
+PDA	1.0	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.01326	0.01326	0.0133
+PDA	1.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.02854	0.02854	0.0285
+PDA	1.0	rxn09779_c0	Tricarboxylate transport protein_c0		-0.00204	0.00204	0.002
+PDA	1.0	rxn09777_c0	Tricarboxylate transport protein_c0		-0.00204	0.00204	0.002
+PDA	1.0	rxn00342_e0	L-Asparagine amidohydrolase_e0		0.0019	0.0019	0.0019
+PDA	1.0	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.0019	0.0019	0.0019
+PDA	0.3	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.0006	0.0006	0.002
+PDA	0.3	rxn00547_c0			0.00439	0.00439	0.0146
+PDA	0.3	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.00398	0.00398	0.0133
+PDA	0.3	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.00856	0.00856	0.0285
+PDA	0.3	rxn09779_c0	Tricarboxylate transport protein_c0		-0.00061	0.00061	0.002
+PDA	0.3	rxn09777_c0	Tricarboxylate transport protein_c0		-0.00061	0.00061	0.002
+PDA	0.3	rxn00342_e0	L-Asparagine amidohydrolase_e0		0.00057	0.00057	0.0019
+PDA	0.3	SERt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.SER_SER_c0		-0.0021	0.0021	0.007
+PDA	0.3	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00057	0.00057	0.0019
+PDA	0.1	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.0002	0.0002	0.002
+PDA	0.1	rxn00547_c0			0.00146	0.00146	0.0146
+PDA	0.1	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.00133	0.00133	0.0133
+PDA	0.1	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.00285	0.00285	0.0285
+PDA	0.1	rxn09779_c0	Tricarboxylate transport protein_c0		-0.0002	0.0002	0.002
+PDA	0.1	rxn00342_e0	L-Asparagine amidohydrolase_e0		0.00019	0.00019	0.0019
+PDA	0.1	SERt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.SER_SER_c0		-0.0007	0.0007	0.007
+PDA	0.1	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00019	0.00019	0.0019
+half	300.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-2.14454	2.14454	0.0071
+half	300.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		1.10609	1.10609	0.0037
+half	100.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.71485	0.71485	0.0071
+half	100.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.3687	0.3687	0.0037
+half	30.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.21445	0.21445	0.0071
+half	30.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.11061	0.11061	0.0037
+half	30.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		1.03604	1.03604	0.0345
+half	10.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.07148	0.07148	0.0071
+half	10.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.03687	0.03687	0.0037
+half	10.0	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.09429	0.09429	0.0094
+half	10.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.34535	0.34535	0.0345
+half	10.0	rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0		-0.03175	0.03175	0.0032
+half	3.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.02145	0.02145	0.0071
+half	3.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.01106	0.01106	0.0037
+half	3.0	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.02829	0.02829	0.0094
+half	3.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.1036	0.1036	0.0345
+half	3.0	rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0		-0.00952	0.00952	0.0032
+half	3.0	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00776	0.00776	0.0026
+half	1.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.00715	0.00715	0.0071
+half	1.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00369	0.00369	0.0037
+half	1.0	rxn00547_c0			0.01238	0.01238	0.0124
+half	1.0	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.00943	0.00943	0.0094
+half	1.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.03453	0.03453	0.0345
+half	1.0	rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0		-0.00317	0.00317	0.0032
+half	1.0	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00259	0.00259	0.0026
+half	0.3	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.00214	0.00214	0.0071
+half	0.3	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00111	0.00111	0.0037
+half	0.3	rxn00547_c0			0.00371	0.00371	0.0124
+half	0.3	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.00283	0.00283	0.0094
+half	0.3	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.01036	0.01036	0.0345
+half	0.3	rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0		-0.00095	0.00095	0.0032
+half	0.3	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00078	0.00078	0.0026
+half	0.1	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.00071	0.00071	0.0071
+half	0.1	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00037	0.00037	0.0037
+half	0.1	rxn00547_c0			0.00124	0.00124	0.0124
+half	0.1	rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0		-0.00094	0.00094	0.0094
+half	0.1	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.00345	0.00345	0.0345
+half	0.1	rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0		-0.00032	0.00032	0.0032
+half	0.1	rxn00342_c0	L-Asparagine amidohydrolase_c0		0.00026	0.00026	0.0026
+onetenth	30.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.834	0.834	0.0278
+onetenth	30.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.28818	0.28818	0.0096
+onetenth	10.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.278	0.278	0.0278
+onetenth	10.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.09606	0.09606	0.0096
+onetenth	3.0	rxn00505_m0	Isocitrate:NAD+ oxidoreductase (decarboxylating)		0.09671	0.09671	0.0322
+onetenth	3.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.0834	0.0834	0.0278
+onetenth	3.0	rxn00168_c0			0.03411	0.03411	0.0114
+onetenth	3.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.02882	0.02882	0.0096
+onetenth	3.0	rxn00616_m0	CustomReaction_m0		0.04531	0.04531	0.0151
+onetenth	3.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.18393	0.18393	0.0613
+onetenth	3.0	rxn13211_c0	Acetaldehyde condensation[c0]		-0.00537	0.00537	0.0018
+onetenth	3.0	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		0.03359	0.03359	0.0112
+onetenth	1.0	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.0278	0.0278	0.0278
+onetenth	1.0	rxn00168_c0			0.01137	0.01137	0.0114
+onetenth	1.0	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00961	0.00961	0.0096
+onetenth	1.0	rxn00616_m0	CustomReaction_m0		0.0151	0.0151	0.0151
+onetenth	1.0	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.06131	0.06131	0.0613
+onetenth	1.0	rxn13211_c0	Acetaldehyde condensation[c0]		-0.00179	0.00179	0.0018
+onetenth	1.0	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		0.0112	0.0112	0.0112
+onetenth	0.3	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.00834	0.00834	0.0278
+onetenth	0.3	rxn00168_c0			0.00341	0.00341	0.0114
+onetenth	0.3	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00288	0.00288	0.0096
+onetenth	0.3	rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0		-0.00635	0.00635	0.0212
+onetenth	0.3	rxn00616_m0	CustomReaction_m0		0.00453	0.00453	0.0151
+onetenth	0.3	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.01839	0.01839	0.0613
+onetenth	0.3	rxn13211_c0	Acetaldehyde condensation[c0]		-0.00054	0.00054	0.0018
+onetenth	0.3	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		0.00336	0.00336	0.0112
+onetenth	0.3	rxn05312_c0	Inorganic phosphate transporter_m0		0.0064	0.0064	0.0213
+onetenth	0.1	rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)		-0.00278	0.00278	0.0278
+onetenth	0.1	rxn00168_c0			0.00114	0.00114	0.0114
+onetenth	0.1	rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0		0.00096	0.00096	0.0096
+onetenth	0.1	rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0		-0.00212	0.00212	0.0212
+onetenth	0.1	rxn00616_m0	CustomReaction_m0		0.00151	0.00151	0.0151
+onetenth	0.1	rxn09780_c0	ADP/ATP transporter, mitochondrial_c0		0.00613	0.00613	0.0613
+onetenth	0.1	rxn13211_c0	Acetaldehyde condensation[c0]		-0.00018	0.00018	0.0018
+onetenth	0.1	rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0		0.00112	0.00112	0.0112
+onetenth	0.1	rxn05312_c0	Inorganic phosphate transporter_m0		0.00213	0.00213	0.0213
