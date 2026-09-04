@@ -57,9 +57,14 @@ AA = dict(A=71.0788,R=156.1875,N=114.1038,D=115.0886,C=103.1388,E=129.1155,
           Y=163.1760,V=99.1326)
 WATER = 18.01524
 
-# EC-class kcat prior (s^-1); Bar-Even 2011 median ~10, refined by first digit
+# EC-class kcat prior (s^-1); Bar-Even 2011 median ~10, refined by first digit.
+# Used only as the LAST tier when BRENDA has neither the EC nor its EC-family.
 KCAT_BY_CLASS = {"1":13.7, "2":28.0, "3":42.0, "4":15.0, "5":12.0, "6":15.0, "7":20.0}
 KCAT_DEFAULT = 10.0
+# BRENDA-derived kcat tables (built by build_kcat_brenda.py)
+BRENDA_EC = ROOT / "proteomics_integration/outputs/ec/kcat_brenda_by_ec.tsv"
+BRENDA_P3 = ROOT / "proteomics_integration/outputs/ec/kcat_brenda_parent3.tsv"
+TIER_PREF = {"brenda_colletotrichum": 0, "brenda_fungal": 1, "brenda_any": 2}
 
 
 def gene_mw():
@@ -83,20 +88,50 @@ def main():
     model = cobra.io.load_json_model(str(MODEL))
     means = pd.read_csv(MEANS, sep="\t").set_index("gene")
     ec_tab = pd.read_csv(GENE_EC, sep="\t").set_index("gene")
-    gene_ec = {g: str(e).split(";")[0] for g, e in ec_tab["ec"].dropna().items() if str(e)}
+    # keep ALL EC numbers per gene (a gene can carry several)
+    gene_ec = {}
+    for g, e in ec_tab["ec"].dropna().items():
+        ecs = [x.strip() for x in str(e).split(";") if x.strip() and x.strip() != "nan"]
+        if ecs:
+            gene_ec[g] = ecs
     mw = gene_mw()
     med_mw = float(np.median(list(mw.values())))
     print(f"MW: {len(mw)} genes (median {med_mw/1000:.1f} kDa); EC: {len(gene_ec)} genes")
 
+    # ---- BRENDA kcat cascade ----
+    bdf = pd.read_csv(BRENDA_EC, sep="\t").set_index("ec")
+    brenda = {ec: (float(r.kcat), str(r.tier)) for ec, r in bdf.iterrows()}
+    p3df = pd.read_csv(BRENDA_P3, sep="\t").set_index("ec3")
+    p3 = {ec3: float(r.kcat_median) for ec3, r in p3df.iterrows()}
+    print(f"BRENDA: {len(brenda)} EC, {len(p3)} EC-family parents")
+
     def rxn_kcat_ec(gpr):
-        ecs = [gene_ec[g] for g in {t for cl in parse_gpr(gpr) for t in cl} if g in gene_ec]
+        """kcat cascade: BRENDA exact (Colletotrichum>fungal>any) → BRENDA
+        EC-family (3-field median) → EC-class prior → default. Returns
+        (kcat, representative_ec, source)."""
+        genes = {t for cl in parse_gpr(gpr) for t in cl}
+        ecs = sorted({e for g in genes if g in gene_ec for e in gene_ec[g]})
         if not ecs:
-            return KCAT_DEFAULT, ""
-        # representative EC = most common; kcat = mean of class priors
+            return KCAT_DEFAULT, "", "default_no_ec"
+        # 1) BRENDA exact match — pick best organism tier, max kcat within it
+        hits = [(TIER_PREF[brenda[e][1]], brenda[e][0], e, brenda[e][1])
+                for e in ecs if e in brenda]
+        if hits:
+            best_tier = min(h[0] for h in hits)
+            cand = [(k, e, t) for pr, k, e, t in hits if pr == best_tier]
+            k, e, t = max(cand, key=lambda x: x[0])
+            return k, e, t
+        # 2) BRENDA EC-family (3-field parent) median
+        fam = [(p3[".".join(e.split(".")[:3])], e) for e in ecs
+               if e.count(".") >= 3 and ".".join(e.split(".")[:3]) in p3]
+        if fam:
+            k, e = max(fam, key=lambda x: x[0])
+            return k, e, "brenda_ecfamily"
+        # 3) EC-class prior (Bar-Even)
         from collections import Counter
         rep = Counter(ecs).most_common(1)[0][0]
-        kcats = [KCAT_BY_CLASS.get(e.split(".")[0], KCAT_DEFAULT) for e in ecs]
-        return float(np.mean(kcats)), rep
+        kc = float(np.mean([KCAT_BY_CLASS.get(e.split(".")[0], KCAT_DEFAULT) for e in ecs]))
+        return kc, rep, "ecclass_prior"
 
     def rxn_mw(gpr):
         """min over OR-clauses of sum over AND-tokens of gene MW (Da)."""
@@ -120,11 +155,12 @@ def main():
         m_da = rxn_mw(gpr)
         if m_da is None or m_da <= 0:
             continue
-        kcat, rep_ec = rxn_kcat_ec(gpr)
+        kcat, rep_ec, ksrc = rxn_kcat_ec(gpr)
         cost = m_da / kcat                        # g protein per unit flux (relative)
         rec = dict(rxn_id=r.id, name=r.name or "", subsystem=r.subsystem or "",
-                   ec=rep_ec, kcat=round(kcat, 2), mw_kDa=round(m_da/1000, 2),
-                   cost=cost, reversible=(r.lower_bound < 0))
+                   ec=rep_ec, kcat=round(kcat, 3), kcat_source=ksrc,
+                   mw_kDa=round(m_da/1000, 2), cost=cost,
+                   reversible=(r.lower_bound < 0))
         for lab, _, _ in CONDITIONS:
             ab, nt, ne = aggregate(gpr, lin[lab])
             rec[f"abund_{lab}"] = ab if (ne > 0 and np.isfinite(ab)) else np.nan
@@ -233,11 +269,16 @@ def main():
     # ---- report ----
     n_sat = {lab: int(((sat.condition == lab) & sat.saturated).sum()) if not sat.empty else 0
              for lab, _, _ in CONDITIONS}
+    ksrc = cdf["kcat_source"].value_counts().to_dict()
+    ksrc_str = ", ".join(f"{k}: {v}" for k, v in ksrc.items())
+    n_brenda = sum(v for k, v in ksrc.items() if k.startswith("brenda"))
     rep = [
         "# Phase 2 — proteome-allocated enzyme-capacity model\n",
         f"Model {MODEL.name}. Catalyzed reactions costed: **{len(cdf)}**. "
-        f"kcat = EC-class prior (Bar-Even 2011; median {KCAT_DEFAULT} s⁻¹, refined "
-        "by EC first digit) — order-of-magnitude, swappable for BRENDA/DLKcat. "
+        f"**kcat from BRENDA 2025_1** (experimental turnover numbers, organism-"
+        "tiered Colletotrichum→fungal→any; EC-family and Bar-Even EC-class prior "
+        f"as fallback). BRENDA-backed: **{n_brenda}/{len(cdf)}** "
+        f"({100*n_brenda/len(cdf):.1f}%). Source breakdown — {ksrc_str}. "
         f"MW from FSP237 proteome sequences (median {med_mw/1000:.1f} kDa).\n",
         "## Enzyme-budget growth curve (frac of own-medium baseline)\n",
         "```\n" + piv.sort_index(ascending=False).to_string() + "\n```\n",
@@ -257,6 +298,7 @@ def main():
     rep.append("## Outputs\n- `reaction_enzyme_cost.tsv`, `ec_growth_curve.tsv`, "
                "`ec_flux_matrix.tsv`, `ec_saturated_enzymes.tsv`")
     (OUT / "ec_report.md").write_text("\n".join(rep))
+    print("kcat sources:", ksrc)
     print("saturated counts:", n_sat)
     print("wrote outputs to", OUT)
 

@@ -1008,13 +1008,43 @@
         capacity properly: cost <span class="mono">c=MW/k<sub>cat</sub></span>,
         ceiling <span class="mono">v&le;share&middot;B&middot;k<sub>cat</sub>/MW</span>,
         with a single enzyme-budget knob <span class="mono">B</span> swept per
-        condition. k<sub>cat</sub> is an EC-class prior (Bar-Even 2011,
-        order-of-magnitude, swappable for BRENDA/DLKcat); MW is from the FSP237
-        proteome sequences. Because the measured proteome differs by medium, the
+        condition. k<sub>cat</sub> now comes from <b>BRENDA&nbsp;2025_1</b>
+        experimental turnover numbers, organism-tiered
+        (<i>Colletotrichum</i>&rarr;other&nbsp;fungi&rarr;any), with an EC-family
+        (3-field) median and the Bar-Even EC-class prior only as fallback
+        (<span id="prot-kcat-tally">87% BRENDA-backed</span>); MW is from the
+        FSP237 proteome sequences. DLKcat/TurNuP sequence prediction was evaluated
+        but is infeasible in this environment (no rdkit/torch), so BRENDA is the
+        source of record. Because the measured proteome differs by medium, the
         binding enzymes and flux state differ by medium &mdash; the genuine
         proteomics-driven prediction.
       </div>
+      <div id="chart-prot-kcat-src" style="margin-top:10px"></div>
     </div>
+  </div>
+
+  <div class="rna-section-h">Pathway-level proteome allocation
+    <span class="h-sub">the measured proteome and its enzyme-capacity pressure rolled up to the 23-bucket pathway classifier (shared with the RNA-seq analysis)</span>
+  </div>
+  <div class="pathway-charts-row">
+    <div class="card card-pad">
+      <div class="rna-chart-title">Proteome abundance by pathway &times; medium
+        <span class="chart-note">cell = mean TMT intensity of the pathway's reactions, row-normalised to its own max; ordered by overall abundance</span>
+      </div>
+      <div id="chart-prot-pw-abund" style="overflow-x:auto"></div>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">Capacity pressure by pathway &times; medium
+        <span class="chart-note">cell = max enzyme-utilization (|flux|/ceiling) among the pathway's reactions at each medium's knee; 1.0 = a pathway hits its capacity wall</span>
+      </div>
+      <div id="chart-prot-pw-util" style="overflow-x:auto"></div>
+    </div>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Most enzyme-expensive pathways
+      <span class="chart-note">mean cost <span class="mono">MW/k<sub>cat</sub></span> per reaction &mdash; protein mass the cell must hold to run a unit of flux through the pathway</span>
+    </div>
+    <div id="chart-prot-pw-cost"></div>
   </div>
 
   <div class="rna-section-h">Stage 1 &mdash; E-Flux capacity titration
@@ -1110,13 +1140,17 @@
     </table>
   </div>
   <div class="rna-note" style="margin-top:14px">
-    <b>Caveat.</b> k<sub>cat</sub> values are order-of-magnitude EC-class priors,
-    so absolute budgets and fluxes are relative, not calibrated. The robust
-    signals are <i>comparative</i>: which enzyme saturates first, how the
-    bottleneck shifts across media, and the shape of the budget&ndash;growth
-    curve. Cross-method concordance &mdash; glucose transport (rxn08617_c0) is
-    the primary limit in both the Stage&nbsp;1 titration and the Stage&nbsp;2
-    capacity model &mdash; supports these being real, not artefacts of one method.
+    <b>Caveat.</b> k<sub>cat</sub> is now largely experimental (BRENDA, 87%
+    coverage), but the tail (transporters and EC-less orphans, ~12%) keeps a
+    default 10&nbsp;s<sup>-1</sup>, and TMT abundance is <i>relative</i>, so
+    absolute budgets and fluxes remain uncalibrated. The robust signals are
+    <i>comparative</i>: which enzyme or pathway saturates first, and how the
+    bottleneck shifts across media. Real k<sub>cat</sub> sharpens the picture
+    &mdash; low-turnover lipid enzymes (diacylglycerol cholinephosphotransferase,
+    phosphatidylinositol synthase, k<sub>cat</sub>&nbsp;&asymp;&nbsp;0.07&nbsp;s<sup>-1</sup>)
+    now surface as capacity-limiting where the flat prior had hidden them, and on
+    the dilute 1/10&nbsp;PDB medium the <b>lipid/membrane, TCA and oxidative-phosphorylation
+    pathways</b> are driven to their capacity walls (utilization&nbsp;1.0).
   </div>
 </div>
 
@@ -2835,6 +2869,59 @@
       columnDefs: [numColDef(3), numColDef(4), numColDef(5)],
     });
     wireHeaderSearch(window._protFluxDT, '#tbl-prot-flux');
+
+    // ---- kcat provenance breakdown ----
+    if (m.kcat_breakdown && m.kcat_breakdown.length) {
+      const tallyEl = document.getElementById('prot-kcat-tally');
+      if (tallyEl) tallyEl.textContent = m.brenda_pct + '% BRENDA-backed (' +
+        m.n_brenda + '/' + m.n_catalyzed + ')';
+      bar(document.getElementById('chart-prot-kcat-src'),
+        m.kcat_breakdown.map(r => ({
+          label: r.source, value: r.n,
+          extraClass: r.key && r.key.indexOf('brenda') === 0 ? 'enriched' : 'warm' })),
+        { width: 520, barHeight: 24, marginLeft: 240,
+          valueFmt: r => r.value + ' rxns  (' + (100 * r.value / m.n_catalyzed).toFixed(0) + '%)' });
+    }
+
+    // ---- Pathway: proteome abundance heatmap (row-normalised) ----
+    const pw = d.pathways || {};
+    if (pw.abundance && pw.abundance.length) {
+      const ab = pw.abundance, abGrid = {};
+      ab.forEach(r => {
+        const vals = CONDS.map(c => r['abund_' + c]).filter(v => v != null);
+        const rmax = vals.length ? Math.max.apply(null, vals) : 0;
+        CONDS.forEach(c => {
+          const v = r['abund_' + c];
+          abGrid[r.pathway + '|' + c] = (v == null || !rmax) ? null : v / rmax;
+        });
+      });
+      heat('chart-prot-pw-abund',
+        ab.map(r => ({ key: r.pathway, label: r.pathway + '  (' + r.n_covered + '/' + r.n_rxn + ')' })),
+        'Pathway',
+        (rk, c) => { const v = abGrid[rk + '|' + c]; return v == null ? null : v; },
+        '#8250df', 'mean TMT intensity, row-normalised');
+    }
+
+    // ---- Pathway: capacity-pressure heatmap (max utilization) ----
+    if (pw.utilization && pw.utilization.length) {
+      const ut = pw.utilization.filter(r =>
+        CONDS.some(c => (r['util_' + c] || 0) > 0.01)), utGrid = {};
+      ut.forEach(r => CONDS.forEach(c => { utGrid[r.pathway + '|' + c] = r['util_' + c]; }));
+      heat('chart-prot-pw-util',
+        ut.map(r => ({ key: r.pathway, label: r.pathway + '  (' + r.n_rxn + ')' })),
+        'Pathway',
+        (rk, c) => { const v = utGrid[rk + '|' + c]; return v == null ? null : v; },
+        '#cf222e', 'max |flux|/ceiling among pathway reactions');
+    }
+
+    // ---- Pathway: enzyme-cost burden bars ----
+    if (pw.cost && pw.cost.length) {
+      bar(document.getElementById('chart-prot-pw-cost'),
+        pw.cost.slice(0, 12).map(r => ({
+          label: r.pathway + '  (' + r.n_rxn + ')', value: r.mean_cost })),
+        { width: 560, barHeight: 24, marginLeft: 260,
+          valueFmt: r => Math.round(r.value).toLocaleString() + '  MW/k' });
+    }
   }
 
   // -- load data -----------------------------------------------------------
