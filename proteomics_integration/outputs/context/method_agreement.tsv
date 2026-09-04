@@ -1,0 +1,558 @@
+rxn_id	name	n_methods_active	eflux_on	gimme_on	imat_on	ec_on
+rxn01560_c0	D-Mannitol-1-phosphate phosphohydrolase	4	True	True	True	True
+rxn00248_m0	(S)-malate:NAD+ oxidoreductase	4	True	True	True	True
+rxn00546_c0	D-Mannitol-1-phosphate 5-dehydrogenase (NADP), fungal	4	True	True	True	True
+rxn23535_r0	3-oxo-lignoceronyl-CoA-reductase	4	True	True	True	True
+rxn22099_r0	3-hydroxy-lignoceroyl-CoA dehydratase	4	True	True	True	True
+rxn19045_r0	trans-lignocero-2-enoyl-CoA reductase	4	True	True	True	True
+rxn23557_r0	3-oxo-cerotoyl-CoA-synthase	4	True	True	True	True
+rxn23536_r0	3-hydroxy-lignoceroyl-CoA dehydratase	4	True	True	True	True
+rxn22100_r0	3-hydroxy-cerotoyl-CoA dehydratase	4	True	True	True	True
+rxn23534_r0	3-oxoarachidoyl-CoA-reductase	4	True	True	True	True
+rxn23565_r0	3-hydroxy-arachidoyl-CoA dehydratase	4	True	True	True	True
+rxn19046_r0	trans-arachidon-2-enoyl-CoA reductase	4	True	True	True	True
+rxn23554_r0	3-oxo-behenoyl-CoA-synthase	4	True	True	True	True
+rxn23531_r0	3-oxo-behenoyl-CoA-reductase	4	True	True	True	True
+rxn22098_r0	trans-arachidon-2-enoyl-CoA reductase	4	True	True	True	True
+rxn19044_r0	trans-docosan-2-enoyl-CoA reductase	4	True	True	True	True
+rxn23559_r0	3-oxo-lignoceronyl-CoA-synthase	4	True	True	True	True
+rxn23551_r0	3-oxo-arachidonyl-CoA-synthase	4	True	True	True	True
+rxn00690_c0	Formate:tetrahydrofolate ligase (ADP-forming)_c0	4	True	True	True	True
+rxn01211_c0	5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)_c0	4	True	True	True	True
+rxn00907_c0	5,10-methylenetetrahydrofolate:NADP+ oxidoreductase_c0	4	True	True	True	True
+rxn00213_c0	UTP:alpha-D-glucose-1-phosphate uridylyltransferase_c0	4	True	True	True	True
+rxn00336_c0	isocitrate glyoxylate-lyase (succinate-forming)_c0	4	True	True	True	True
+rxn00604_c0	D-glucose-6-phosphate:NADP+ 1-oxidoreductase_c0	4	True	True	True	True
+rxn00609_c0	myo-Inositol-1-phosphate synthase_c0	4	True	True	True	True
+rxn00641_c0	GTP:alpha-D-mannose-1-phosphate guanylyltransferase_c0	4	True	True	True	True
+rxn00001_c0	diphosphate phosphohydrolase_c0	4	True	True	True	True
+rxn00175_c0	Acetate:CoA ligase (AMP-forming)_c0	4	True	True	True	True
+rxn01243_m0	 succinyltransferase]-lipoyllysine 2-oxidoreductase (decarboxylating)_m0	4	True	True	True	True
+rxn00575_e0		4	True	True	True	True
+rxn00973_m0	citrate hydroxymutase_m0	4	True	True	True	True
+rxn01106_c0	2-Phospho-D-glycerate 2,3-phosphomutase_c0	4	True	True	True	True
+rxn34273_c0	Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase_c0	4	True	True	True	True
+rxn09417_m0	Succinic dehydrogenase_m0	4	True	True	True	True
+rxn00198_c0	Isocitrate:NADP+ oxidoreductase (decarboxylating)	4	True	True	True	True
+rxn01241_m0	Dihydrolipoamide:NAD+ oxidoreductase	4	True	True	True	True
+H2Otm_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_m0	4	True	True	True	True
+rxn05319_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_c0	4	True	True	True	True
+rxn05467_c0	CO2 transporter via diffusion_c0	4	True	True	True	True
+rxn09681_c0	D-fructose transport in via proton symport_c0	4	True	True	True	True
+rxn30341_m0	CustomReaction_m0	4	True	True	True	True
+frxn35348_m0	ubiquinol-cytochrome c oxidoreductase Complex III	4	True	True	True	True
+rxn13300_c0	CustomReaction_c0	4	True	True	True	True
+rxn19316_m0	CustomReaction_m0	4	True	True	True	True
+rxn30381_c0	sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase_c0	4	True	True	True	True
+rxn32754_c0	D-mannose 6-phosphate 1,6-phosphomutase_c0	4	True	True	True	True
+rxn35242_c0	ATP:pyruvate 2-O-phosphotransferase_c0	4	True	True	True	True
+rxn01476_c0	6-Phospho-D-glucono-1,5-lactone lactonohydrolase_c0	4	True	True	True	True
+rxn05468_c0	TRANS-RXNAVI-26568.ce_c0	4	True	True	True	True
+rxn09400_c0	CustomReaction_c0	4	True	True	True	True
+rxn00785_c0	D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase_c0	4	True	True	True	True
+rxn00881_c0	1D-myo-Inositol 1-phosphate phosphohydrolase_c0	4	True	True	True	True
+rxn00692_c0	 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase	4	True	True	True	True
+rxn00623_c0	hydrogen-sulfide:NADP+ oxidoreductase	4	True	True	True	True
+rxn00527_c0	tyrosine transaminase, irreversible (mitochondrial)	4	True	True	True	True
+EX_cpd00051_e0	Exchange for L-Arginine_e0	4	True	True	True	True
+EX_cpd00156_e0	Exchange for L-Valine_e0	4	True	True	True	True
+EX_cpd00013_e0	Exchange for NH3_e0	4	True	True	True	True
+EX_cpd00039_e0	Exchange for L-Lysine_e0	4	True	True	True	True
+EX_cpd00107_e0	Exchange for L-Leucine_e0	4	True	True	True	True
+EX_cpd00129_e0	Exchange for L-Proline_e0	4	True	True	True	True
+EX_cpd00161_e0	Exchange for L-Threonine_e0	4	True	True	True	True
+EX_cpd00065_e0	Exchange for L-Tryptophan_e0	4	True	True	True	True
+EX_cpd00322_e0	Exchange for L-Isoleucine_e0	4	True	True	True	True
+EX_cpd00060_e0	Exchange for L-Methionine_e0	4	True	True	True	True
+EX_cpd00048_e0	Exchange for Sulfate_e0	4	True	True	True	True
+EX_cpd00023_e0	Exchange for L-Glutamate_e0	4	True	True	True	True
+EX_cpd00053_e0	Exchange for L-Glutamine_e0	4	True	True	True	True
+EX_cpd00066_e0	Exchange for L-Phenylalanine_e0	4	True	True	True	True
+EX_cpd00054_e0	Exchange for L-Serine_e0	4	True	True	True	True
+EX_cpd00084_e0	Exchange for L-Cysteine_e0	4	True	True	True	True
+EX_cpd00119_e0	Exchange for L-Histidine_e0	4	True	True	True	True
+EX_cpd00132_e0	Exchange for L-Asparagine_e0	4	True	True	True	True
+EX_cpd00069_e0	Exchange for L-Tyrosine_e0	4	True	True	True	True
+EX_cpd00033_e0	Exchange for Glycine_e0	4	True	True	True	True
+EX_cpd00035_e0	Exchange for L-Alanine_e0	4	True	True	True	True
+EX_cpd00041_e0	Exchange for L-Aspartate_e0	4	True	True	True	True
+TRP_malcoa_c0r0	Malonyl-CoA transport c0→r0	4	True	True	True	True
+TRP_strcoa_c0r0	Stearoyl-CoA (C18) transport c0→r0	4	True	True	True	True
+TRP_sphinganine_r0c0	Sphinganine transport r0→c0	4	True	True	True	True
+TRP_phytosphingosine_r0c0	Phytosphingosine transport r0→c0	4	True	True	True	True
+rxn35571_c0	Phosphoribosylaminoimidazole-succinocarboxamide synthase_c0	4	True	True	True	True
+3C3HMPtm_c0	Transport of 2-isopropylmalate, mitochondrial_m0	4	True	True	True	True
+rxn00832_c0	IMP 1,2-hydrolase (decyclizing)_c0	4	True	True	True	True
+ASPt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE_c0	4	True	True	True	True
+rxn00364_c0	ATP:CMP phosphotransferase_c0	4	True	True	True	True
+EX_cpd00076_e0	Exchange for Sucrose	4	True	True	True	True
+EX_cpd00027_e0	Exchange for D-Glucose	4	True	True	True	True
+EX_cpd00082_e0	Exchange for D-Fructose	4	True	True	True	True
+EX_cpd00007_e0	Exchange for O2	4	True	True	True	True
+EX_cpd00011_e0	Exchange for CO2	4	True	True	True	True
+EX_cpd00001_e0	Exchange for H2O	4	True	True	True	True
+EX_cpd00009_e0	Exchange for Phosphate	4	True	True	True	True
+rxn09780_c0	ADP/ATP transporter, mitochondrial_c0	4	True	True	True	True
+rxn08173_m0	F(1)-ATPase	4	True	True	True	True
+rxn09121_m0	Inorganic phosphate transporter	4	True	True	True	True
+rxn09121_c0	phosphate transport cytosol/mito	4	True	True	True	True
+rxn35347_m0	cytochrome c oxidase Complex IV	4	True	True	True	True
+rxn05469_m0	Pyruvate transport via proton symport_m0	4	True	True	True	True
+frxn13726_m0	NADH dehydrogenase-Complex-I (ubiquinone-6)	4	True	True	True	True
+rxn00102_c0	carbonate hydro-lyase (carbon-dioxide-forming)[c0]	4	True	True	True	True
+rxn00003_m0	pyruvate:pyruvate acetaldehydetransferase (decarboxylating)_m0	4	True	True	True	True
+rxn03004_c0	10-Formyltetrahydrofolate:5'-phosphoribosylglycinamide formyltransferase_c0	4	True	True	True	True
+rxn02895_c0	5-Phospho-D-ribosylamine:glycine ligase (ADP-forming)_c0	4	True	True	True	True
+rxn09602_r0	Ceramide-2 synthase (phytosphingosine + C26:0-CoA), ER_r0	4	True	True	True	True
+rxn01517_c0	ATP:dUMP phosphotransferase_c0	4	True	True	True	True
+rxn03084_c0	5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming)_c0	4	True	True	True	True
+rxn09648_c0	6-phospho-D-glucono-1,5-lactone endoplasmic reticular transport via diffusion_g0	4	True	True	True	True
+rxn09511_r0	Dolichyl-phosphate-mannose--protein mannosyltransferase 1_r0	4	True	True	True	True
+ASNt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.ASN_ASN_c0	4	True	True	True	True
+rxn05466_c0	TRANS-RXN-173.ce_c0	4	True	True	True	True
+rxn02134_c0	Sphinganine:NADP+ 3-oxidoreductase_c0	4	True	True	True	True
+SERt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.SER_SER_c0	4	True	True	True	True
+rxn13384_c0	phospholipase D, yeast-specific_c0	4	True	True	True	True
+rxn02938_c0	1-(5-phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate carboxy-lyase_c0	4	True	True	True	True
+LYSt2r_c0	TRANS-RXN-58.cp_c0	4	True	True	True	True
+rxn09431_c0	fatty-acyl-CoA synthase (n-C16:0CoA)_c0	4	True	True	True	True
+O2tm_c0	TRANS-RXNAVI-26568.ce_m0	4	True	True	True	True
+CO2tm_c0	CO2 transporter via diffusion_m0	4	True	True	True	True
+rxn00948_c0	Palmitoyl-CoA:L-serine C-palmitoyltransferase (decarboxylating)_c0	4	True	True	True	True
+rxn09609_c0	Ceramide-1 hydroxylase (24C)_c0	4	True	True	True	True
+rxn05244_c0	TRANS-RXNBWI-115637.ce.maizeexp.ILE_ILE_c0	4	True	True	True	True
+GLXtp_c0	glyoxylate transport, peroxisomal_x0	4	True	True	True	True
+rxn09600_c0	Ceramide-3 synthase (26C)_c0	4	True	True	True	True
+rxn01465_c0	(S)-dihydroorotate amidohydrolase_c0	4	True	True	True	True
+THRt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.THR_THR_c0	4	True	True	True	True
+rxn34008_c0	Sulfite Reductase (NADPH)_c0	4	True	True	True	True
+rxn00903_c0	L-Valine:2-oxoglutarate aminotransferase_c0	4	True	True	True	True
+rxn09427_c0	fatty-acyl-CoA synthase (n-C18:0CoA)_c0	4	True	True	True	True
+rxn01380_c0	CTP:choline-phosphate cytidylyltransferase_c0	4	True	True	True	True
+PINOS_SC_c0	Phosphatidylinositol synthase  yeast specific	4	True	True	True	True
+rxn05243_c0	TRANS-RXNBWI-115637.ce.maizeexp.LEU_LEU_c0	4	True	True	True	True
+rxn00493_c0	L-Phenylalanine:2-oxoglutarate aminotransferase_c0	4	True	True	True	True
+rxn00931_c0	L-Proline:NADP+ 5-oxidoreductase_c0	4	True	True	True	True
+rxn00838_c0	IMP:L-aspartate ligase (GDP-forming)_c0	4	True	True	True	True
+IPCS326_SC_c0	Inositol phosphorylceramide synthase  ceramide 3  26C   yeast specific	4	True	True	True	True
+rxn04381_c0	Sphinganine, NADPH: oxygen oxidoreductase (4-hydroxylating)_c0	4	True	True	True	True
+GLUt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLT_GLT_c0	4	True	True	True	True
+VALt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.VAL_VAL_c0	4	True	True	True	True
+HISt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.HIS_HIS_c0	4	True	True	True	True
+rxn00117_c0	ATP:UDP phosphotransferase_c0	4	True	True	True	True
+rxn09459_c0	Palmitoyl-CoA desaturase (n-C16:0CoA -> n-C16:1CoA)_c0	4	True	True	True	True
+rxn00410_c0	UTP:ammonia ligase (ADP-forming)_c0	4	True	True	True	True
+rxn05638_c0	TRANS-RXNBWI-115637.ce.maizeexp.PRO_PRO_c0	4	True	True	True	True
+rxn05496_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE_c0	4	True	True	True	True
+TRPt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.TRP_TRP_c0	4	True	True	True	True
+rxn00533_c0	Acetyl-CoA:carbon-dioxide ligase (ADP-forming)_c0	4	True	True	True	True
+rxn00272_c0	L-Alanine:glyoxylate aminotransferase_c0	4	True	True	True	True
+rxn00710_c0	orotidine-5'-phosphate carboxy-lyase (UMP-forming)_c0	4	True	True	True	True
+rxn00686_c0	5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase_c0	4	True	True	True	True
+rxn00751_c0	ATP:choline phosphotransferase_c0	4	True	True	True	True
+rxn09642_c0	mannan endoplasmic reticulum transport via diffusion_g0	4	True	True	True	True
+rxn35572_c0	Adenylosuccinate lyase_c0	4	True	True	True	True
+rxn09438_c0	fatty-acyl-CoA synthase (n-C12:0CoA)_c0	4	True	True	True	True
+rxn01018_c0	carbamoyl-phosphate:L-aspartate carbamoyltransferase_c0	4	True	True	True	True
+rxn02374_c0	R03314_c0	4	True	True	True	True
+rxn30417_c0	2-oxo-4-methyl-3-carboxypentanoate decarboxylation_c0	4	True	True	True	True
+3MOPtm_c0	Transport of 3-methyl-2-oxopentanoate, mitochondrial_m0	4	True	True	True	True
+rxn09421_c0	fatty acyl-CoA synthase (n-C8:0CoA), lumped reaction_c0	4	True	True	True	True
+GLYt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY_c0	4	True	True	True	True
+rxn15114_c0	D-ribose-5-phosphate aldose-ketose-isomerase_c0	4	True	True	True	True
+rxn01575_c0	L-Isoleucine:2-oxoglutarate aminotransferase_c0	4	True	True	True	True
+ARGt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.ARG_ARG_c0	4	True	True	True	True
+rxn00414_c0	hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)_c0	4	True	True	True	True
+rxn00800_c0	N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)_c0	4	True	True	True	True
+rxn09713_c0	Mitochondrial dicarboxylate transporter_m0	4	True	True	True	True
+rxn09647_c0	dolichol phosphate endoplasmic reticular transport via proton symport_g0	4	True	True	True	True
+rxn27497_m0	3-carboxy-3-hydroxy-4-methylpentanoate 3-methyl-2-oxobutanoate-lyase (CoA-acetylating)_m0	4	True	True	True	True
+rxn09435_c0	fatty-acyl-CoA synthase (n-C14:0CoA)_c0	4	True	True	True	True
+TYRt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR_c0	4	True	True	True	True
+rxn00126_c0	ATP:L-methionine S-adenosyltransferase_c0	4	True	True	True	True
+rxn09690_c0	TRANS-RXNBWI-115637.ce.maizeexp.CYS_CYS_c0	4	True	True	True	True
+rxn01362_c0	Orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase_c0	4	True	True	True	True
+rxn03137_c0	10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase_c0	4	True	True	True	True
+rxn05217_c0	TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE_m0	4	True	True	True	True
+H2Oter_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_g0	4	True	True	True	True
+rxn09563_c0	dihydoorotic acid (ubiquinone-6), irreversible_m0	4	True	True	True	True
+rxn13238_c0	ceramide-2 (C26) endoplasmic reticular transport_g0	4	True	True	True	True
+rxn31870_c0	5,10-methylenetetrahydrofolate reductase (FADH)-(NADP)_c0	4	True	True	True	True
+rxn09441_c0	fatty acyl-CoA synthase (n-C10:0CoA)_c0	4	True	True	True	True
+rxn00604_r0	D-glucose-6-phosphate:NADP+ 1-oxidoreductase_r0	4	True	True	True	True
+rxn15108_c0	ATP:D-ribose-5-phosphate diphosphotransferase_c0	4	True	True	True	True
+rxn13195_c0	2obut transporter (mitochondrial)_m0	4	True	True	True	True
+METt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.MET_MET_c0	4	True	True	True	True
+rxn00834_c0	IMP:NAD+ oxidoreductase_c0	4	True	True	True	True
+rxn00141_c0	S-Adenosyl-L-homocysteine hydrolase_c0	4	True	True	True	True
+rxn09524_c0	NADH dehydrogenase, cytosolic/mitochondrial_m0	4	True	True	True	True
+GLNt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLN_GLN_c0	4	True	True	True	True
+rxn00806_c0	L-Leucine:2-oxoglutarate aminotransferase_c0	4	True	True	True	True
+rxn09457_c0	Oleoyl-CoA desaturase (n-C18:1CoA -> n-C18:2CoA)_c0	4	True	True	True	True
+rxn09799_c0	Transport of (R)-2-oxoisovalerate, mitochondrial_m0	4	True	True	True	True
+rxn00917_c0	Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming)_c0	4	True	True	True	True
+rxn00409_c0	ATP:CDP phosphotransferase_c0	4	True	True	True	True
+rxn03062_c0	3-Isopropylmalate:NAD+ oxidoreductase_c0	4	True	True	True	True
+rxn00119_c0	ATP:UMP phosphotransferase_c0	4	True	True	True	True
+rxn30365_c0	CDP-Diacylglycerol synthetase, yeast-specific, mitochondrial_c0	4	True	True	True	True
+rxn02937_c0	2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming)_c0	4	True	True	True	True
+rxn00260_c0	L-Aspartate:2-oxoglutarate aminotransferase_c0	4	True	True	True	True
+rxn08570_c0	glucose 6-phosphate transport via diffusion (extracellular to periplasm)_g0	4	True	True	True	True
+PHEt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.PHE_PHE_c0	4	True	True	True	True
+rxn00790_c0	5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating)_c0	4	True	True	True	True
+rxn05238_c0	TRANS-RXNBWI-115353.ce_c0	4	True	True	True	True
+TRP_coa_c0r0	CoA c0↔r0 transport (diffusion)	4	True	True	True	True
+TRP_co2_c0r0	CO2 c0↔r0 transport (diffusion)	4	True	True	True	True
+TRP_nadph_c0r0	NADPH c0↔r0 transport (diffusion)	4	True	True	True	True
+TRP_nadp_c0r0	NADP c0↔r0 transport (diffusion)	4	True	True	True	True
+bio_gsm	biomass [from GSM]	4	True	True	True	True
+rxn00154_m0		4	True	True	True	True
+rxn09582_c0	mannose-inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific_c0	4	True	True	True	True
+rxn09510_c0	Dolichyl-phosphate D-mannosyltransferase_g0	4	True	True	True	True
+rxn09588_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 26C), yeast-specific	4	True	True	True	True
+rxn39089_c0	phosphatidylserine synthase, yeast-specific, mitochondrial_c0	4	True	True	True	True
+rxn09552_c0	diacylglycerol cholinephosphotransferase, yeast-specific_c0	4	True	True	True	True
+rxn19047_r0	trans-cerot-2-enoyl-CoA reductase	4	True	True	True	True
+rxn00704_c0	alpha-D-Glucose 1-phosphate 1,6-phosphomutase_c0	4	True	True	True	True
+rxn00547_c0		4	True	True	True	True
+rxn01100_c0	ATP:3-phospho-D-glycerate 1-phosphotransferase_c0	4	True	True	True	True
+rxn00973_c0	citrate hydroxymutase	4	True	True	True	True
+rxn01115_c0		4	True	True	True	True
+rxn01116_c0	D-Ribulose-5-phosphate 3-epimerase_c0	4	True	True	True	True
+rxn00559_c0	D-mannose-6-phosphate aldose-ketose-isomerase_c0	4	True	True	True	True
+rxn00285_m0	Succinate:CoA ligase (ADP-forming)_m0	4	True	True	True	True
+rxn00781_c0	D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating)_c0	4	True	True	True	True
+rxn08617_c0	glucose transport via diffusion (extracellular to periplasm)_c0	4	True	True	True	True
+rxn30674_m0	Fumarase_m0	4	True	True	True	True
+rxn00134_c0		4	True	True	True	True
+rxn00260_m0	L-Aspartate:2-oxoglutarate aminotransferase	4	True	True	True	True
+rxn00505_m0	Isocitrate:NAD+ oxidoreductase (decarboxylating)	4	True	True	True	True
+rxn00459_c0	2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming)_c0	4	True	True	True	True
+rxn00187_c0		4	True	True	True	True
+rxn00168_c0		4	True	True	True	True
+rxn30081_m0	CustomReaction_m0	3	True	True	False	True
+rxn30674_c0	(S)-malate hydro-lyase (fumarate-forming)_c0	3	True	False	True	True
+HACNHm_m0	CustomReaction_m0	3	True	True	False	True
+rxn00216_c0		3	True	False	True	True
+rxn30206_m0	2-Hydroxybutane-1,2,4-tricarboxylate hydro-lyase_m0	3	True	True	False	True
+rxn01332_c0	Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming)_c0	3	True	True	False	True
+rxn01343_c0	ATP:Sedoheptulose 7-phosphate 1-phosphotransferase_c0	3	True	False	True	True
+rxn02004_c0	Trehalose-6-phosphate phosphohydrolase_c0	3	True	True	False	True
+rxn05289_c0	NADPH:oxidized-thioredoxin oxidoreductase_c0	3	True	True	False	True
+rxn00740_c0	O-Succinyl-L-homoserine succinate-lyase (deaminating; 2-oxobutanoate-forming)_c0	3	True	True	False	True
+rxn00747_c0	D-glyceraldehyde-3-phosphate aldose-ketose-isomerase_c0	3	True	True	False	True
+rxn01101_c0	3-Phospho-D-glycerate:NAD+ 2-oxidoreductase_c0	3	True	True	False	True
+rxn02508_c0	N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase_c0	3	True	True	False	True
+rxn02465_m0	N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating)	3	True	True	False	True
+rxn03175_c0	N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase_c0	3	True	True	False	True
+rxn01816_c0	rxn01816 [R02508]	3	True	True	False	True
+rxn00950_c0	Cystathionine L-homocysteine-lyase (deaminating)_c0	3	True	True	False	True
+rxn09768_c0	Dihydropteroate mitochondrial transport via diffusion_m0	3	True	True	False	True
+4ABZtm_c0	4-Aminobenzoate mitochondrial transport via diffusion_m0	3	True	True	False	True
+rxn01483_c0	acetyl-CoA:D-glucosamine-6-phosphate N-acetyltransferase_c0	3	True	True	False	True
+rxn00737_c0	L-threonine ammonia-lyase (2-oxobutanoate-forming)_c0	3	True	True	False	True
+rxn01301_c0	L-Homoserine:NAD+ oxidoreductase_c0	3	True	True	False	True
+rxn01917_m0	ATP:N-acetyl-L-glutamate 5-phosphotransferase_m0	3	True	True	False	True
+rxn01300_c0	ATP:L-homoserine O-phosphotransferase_c0	3	True	True	False	True
+rxn00859_c0	L-Histidinol:NAD+ oxidoreductase_c0	3	True	True	False	True
+rxn00952_c0	O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase_c0	3	True	True	False	True
+rxn01637_m0	N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase_m0	3	True	True	False	True
+rxn09601_c0	Ceramide-3 synthase (24C)_c0	3	True	True	False	True
+rxn09491_c0	triglycerol synthesis_c0	3	True	True	False	True
+rxn10832_c0	CoA transporter_m0	3	True	True	False	True
+rxn30333_m0	2-aceto-2-hydroxybutanoate synthase, mitochondrial_m0	3	True	True	False	True
+rxn00510_c0	N6-(L-1,3-Dicarboxypropyl)-L-lysine:NAD+ oxidoreductase (L-lysine-forming)_c0	3	True	True	False	True
+ORNt3m_c0	Ornithine mitochondrial transport via proton antiport	3	True	True	False	True
+rxn00293_c0	UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase	3	True	True	False	True
+rxn15558_c0	UDP-N-acetyl-D-glucosamine:chitin 4-beta-N-acetylglucosaminyl-transferase	3	True	True	False	True
+rxn02504_m0	2-amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine glycolaldehyde-lyase_m0	3	True	True	False	True
+rxn09680_c0	RXN0-1683.ce.maizeexp.GLYCOLALDEHYDE_GLYCOLALDEHYDE_c0	3	True	True	False	True
+rxn02322_c0	ATP:(R)-5-phosphomevalonate phosphotransferase_c0	3	True	True	False	True
+rxn02476_c0	Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase_c0	3	True	True	False	True
+rxn30066_c0	tryptophan synthase (indoleglycerol phosphate)_c0	3	True	True	False	True
+rxn00178_m0	Acetyl-CoA:acetyl-CoA C-acetyltransferase_m0	3	True	True	False	True
+rxn01255_c0	5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-forming)_c0	3	True	True	False	True
+rxn19830_c0	GLUTAMIDOTRANS-RXN.d_c0	3	True	True	False	True
+rxn09769_c0	dhnpt mitochondrial transport_m0	3	True	True	False	True
+PETOHM_SC_c0	Phosphatidylethanolamine N methyltransferase  yeast specific	3	True	True	False	True
+SACCD1_c0	Saccharopine dehydrogenase  NADP  L glutamate forming 	3	True	True	False	True
+rxn02200_m0	2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase_m0	3	True	True	False	True
+rxn09531_c0	biotin synthase_c0	3	True	True	False	True
+rxn01069_c0	O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming)_c0	3	True	True	False	True
+GCALDtm_c0	RXN0-1683.ce.maizeexp.GLYCOLALDEHYDE_GLYCOLALDEHYDE_m0	3	True	True	False	True
+SK_cpd02701_c0	Sink for S-Adenosyl-4-methylthio-2-oxobutanoate_c0	3	True	True	False	True
+rxn00829_c0	ATP:(R)-5-diphosphomevalonate carboxy-lyase (adding ATP; isopentenyl-diphosphate-forming)_c0	3	True	True	False	True
+rxn02297_c0	6-Carboxyhexanoyl-CoA:L-alanine C-carboxyhexanoyltransferase (decarboxylating)_c0	3	True	True	False	True
+rxn13149_c0	Hypothetical enzyme_c0	3	True	True	False	True
+EX_cpd00229_e0	Exchange for Glycolaldehyde_e0	3	True	True	False	True
+rxn01740_c0	Shikimate:NADP+ 3-oxidoreductase_c0	3	True	True	False	True
+rxn00239_c0	ATP:GMP phosphotransferase_c0	3	True	True	False	True
+rxn09739_c0	Mitochondrial dicarboxylate transporter_m0	3	False	True	True	True
+rxn09733_c0	Mitochondrial oxaloacetate transport protein_c0	3	True	True	False	True
+rxn01256_c0	Chorismate pyruvatemutase_c0	3	True	True	False	True
+rxn00693_c0	5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase_c0	3	True	True	False	True
+rxn30403_m0	ketol-acid reductoisomerase (2-Aceto-2-hydroxybutanoate), mitochondrial_m0	3	True	True	False	True
+rxn00137_c0	Adenosine 3',5'-bisphosphate 3'-phosphohydrolase_c0	3	True	True	False	True
+rxn00555_c0	L-glutamine:D-fructose-6-phosphate isomerase (deaminating)_c0	3	True	True	False	True
+rxn02835_c0	1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase_c0	3	True	True	False	True
+rxn30043_c0	ornithine carbamoyltransferase_c0	3	True	True	False	True
+rxn05239_c0	adenosine 3',5'-bisphosphate,sulfite:oxidized-thioredoxin oxidoreductase (3'-phosphoadenosine-5'-phosphosulfate -forming)_c0	3	True	True	False	True
+rxn01505_c0	N-Acetyl-D-glucosamine 1-phosphate 1,6-phosphomutase_c0	3	True	True	False	True
+rxn09606_r0	Ceramide-1 synthase (sphinganine + C26:0-CoA), ER_r0	3	True	True	False	True
+IPCS324_SC_c0	Inositol phosphorylceramide synthase  ceramide 3  24C   yeast specific	3	True	True	False	True
+rxn00420_c0	O-phospho-L-serine phosphohydrolase_c0	3	True	True	False	True
+rxn00299_c0	GTP 7,8-8,9-dihydrolase_c0	3	True	True	False	True
+rxn00361_c0	ATP:adenylylsulfate 3'-phosphotransferase_c0	3	True	True	False	True
+rxn01423_c0	L-2-aminoadipate:2-oxoglutarate aminotransferase_c0	3	True	True	False	True
+rxn02212_c0	2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing)_c0	3	True	True	False	True
+rxn09412_c0	glutamate-5-semialdehyde dehydrogenase_c0	3	True	True	False	True
+rxn09743_c0	Transport of (S)-3-hydroxy-3-methylglutaryl-CoA, mitochondrial_m0	3	True	True	False	True
+rxn03167_c0	2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum)_c0	3	True	True	False	True
+rxn01303_c0	Acetyl-CoA:L-homoserine O-acetyltransferase_c0	3	True	True	False	True
+rxn02213_c0	3-Dehydroquinate hydro-lyase_c0	3	True	True	False	True
+rxn01000_c0	prephenate hydro-lyase (decarboxylating; phenylpyruvate-forming)_c0	3	True	True	False	True
+KARA1im_m0	Acetohydroxy acid isomeroreductase  mitochondrial	3	True	True	False	True
+rxn30425_m0	phosphatidylserine decarboxylase, yeast-specific, mitochondrial_m0	3	True	True	False	True
+rxn00791_c0	N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase_c0	3	True	True	False	True
+rxn30035_c0	indole-3-glycerol-phosphate synthase_c0	3	True	True	False	True
+HICITDm_m0	Homoisocitrate dehydrogenase	3	True	True	False	True
+rxn00379_c0	ATP:sulfate adenylyltransferase_c0	3	True	True	False	True
+rxn29991_c0	argininosuccinate synthase_c0	3	True	True	False	True
+rxn29990_c0	argininosuccinate lyase_c0	3	True	True	False	True
+rxn13236_c0	ceramide-1 (C26) endoplasmic reticular transport_g0	3	True	True	False	True
+rxn30391_m0	homocitrate synthase_m0	3	True	True	False	True
+rxn02160_c0	L-Histidinol-phosphate phosphohydrolase_c0	3	True	True	False	True
+rxn01501_c0	(R)-Mevalonate:NADP+ oxidoreductase (CoA acylating)_c0	3	True	True	False	True
+rxn00727_c0	Chorismate pyruvate-lyase (amino-accepting)_c0	3	True	True	False	True
+rxn01643_c0	L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating)_c0	3	True	True	False	True
+rxn02914_c0	3-Phosphoserine:2-oxoglutarate aminotransferase_c0	3	True	True	False	True
+rxn30145_m0	Dihydroxy-acid dehydratase, mitochondrial_m0	3	True	True	False	True
+CERS124er_r0	Ceramide-1 synthase (24C)_r0	3	True	False	True	True
+rxn09803_c0	Transport of 2-oxoadipate, mitochondrial_m0	3	True	True	False	True
+rxn00337_c0	ATP:L-aspartate 4-phosphotransferase_c0	3	True	True	False	True
+AASAD2_c0	L aminoadipate semialdehyde dehydrogenase  NADH 	3	True	True	False	True
+rxn13235_c0	ceramide-1 (C24) endoplasmic reticular transport_g0	3	True	False	True	True
+rxn01603_c0	7,8-dihydropteroate:L-glutamate ligase (ADP-forming)_c0	3	True	True	False	True
+rxn27926_c0	Histidinol-phosphate aminotransferase_c0	3	True	True	False	True
+rxn09633_c0	4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase_c0	3	True	True	False	True
+rxn01420_m0	(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)_m0	3	True	True	False	True
+rxn02834_c0	Phosphoribosyl-ATP pyrophosphohydrolase_c0	3	True	True	False	True
+rxn01739_c0	ATP:shikimate 3-phosphotransferase_c0	3	True	True	False	True
+rxn00789_c0	1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase_c0	3	True	True	False	True
+rxn02473_c0	D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase_c0	3	True	True	False	True
+rxn15467_m0	(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase_m0	3	True	True	False	True
+IPCS226_SC_c0	Inositol phosphoryceramide synthase  ceramide 2  26C   yeast specific	3	True	True	False	True
+rxn01454_m0	acetyl-CoA:acetoacetyl-CoA C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)_m0	3	True	True	False	True
+rxn09458_c0	stearoyl-CoA desaturase (n-C18:0CoA -> n-C18:1CoA)_c0	3	True	False	True	True
+rxn15561_c0	UDP-glucose:alpha-D-(1-3)-glucan 3-alpha-D-glucosyltransferase	3	True	True	False	True
+rxn40428_c0	  NMT1 protein [THI5]	3	True	True	False	True
+rxn02277_m0	7,8-Diaminononanoate:carbon-dioxide cyclo-ligase_c0	3	True	True	False	True
+rxn02312_m0	S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase_c0	3	True	True	False	True
+rxn03841_c0	4-amino-4-deoxychorismate pyruvate-lyase_c0	3	True	True	False	True
+rxn01257_c0	chorismate:L-glutamine aminotransferase_c0	3	True	True	False	True
+rxn02484_c0	ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase_c0	3	True	True	False	True
+rxn00179_c0	ATP:L-glutamate 5-phosphotransferase_c0	3	True	True	False	True
+rxn00184_c0	L-Glutamate:NADP+ oxidoreductase (deaminating)_c0	3	True	True	False	True
+rxn00605_c0	UDP-glucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase_c0	3	True	True	False	True
+rxn01334_c0	Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase_c0	3	True	False	True	True
+rxn09545_c0	methylene-fatty-acyl-phospholipid synthase, yeast-specific_c0	3	True	True	False	True
+rxn09535_c0	Phosphatidyl-N-methylethanolamine N-methyltransferase, yeast-specific_c0	3	True	True	False	True
+rxn09587_c0	mannose-inositiol phophorylceramide synthase (ceramide-1, 24C), yeast-specific_c0	3	True	True	False	True
+rxn09586_c0	mannose-inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific_c0	3	True	True	False	True
+rxn09585_c0	mannose-inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific_c0	3	True	True	False	True
+rxn09584_c0	mannose-inositol phosphorylceramide synthase (ceramide-2, 26C), yeast-specific_c0	3	True	True	False	True
+rxn09583_c0	mannose-inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific_c0	3	True	True	False	True
+rxn09594_c0	Inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific	3	True	True	True	False
+rxn09593_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 24C), yeast-specific	3	True	True	False	True
+rxn09592_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 26C), yeast-specific	3	True	True	False	True
+rxn09591_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 26C), yeast specific	3	True	True	False	True
+rxn09590_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 24C), yeast-specific	3	True	True	False	True
+rxn09589_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 24C), yeast specific	3	True	True	False	True
+rxn00237_c0	ATP:GDP phosphotransferase_c0	3	True	False	True	True
+rxn00786_c0	D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)_c0	3	True	True	False	True
+rxn00558_c0	D-glucose-6-phosphate aldose-ketose-isomerase_c0	3	False	True	True	True
+rxn00250_c0		3	True	True	False	True
+rxn00507_c0		3	True	True	False	True
+rxn00198_m0	Isocitrate:NADP+ oxidoreductase (decarboxylating)	3	True	False	True	True
+rxn00545_c0		3	True	True	False	True
+rxn00191_c0	L-Alanine:2-oxoglutarate aminotransferase_c0	3	True	True	False	True
+rxn02380_c0	beta-D-Glucose 6-phosphate ketol-isomerase_c0	2	True	True	False	False
+rxn09555_c0	 1-Acyl-glycerol-3-phosphate acyltransferase, yeast-specific	2	False	True	True	False
+rxn09548_c0	glycerol 3-phosphate acyltransferase (glycerol 3-phosphate), yeast-specific	2	False	True	True	False
+rxn00248_c0	S)-malate:NAD+ oxidoreductase	2	False	True	True	False
+rxn00097_c0	ATP:AMP phosphotransferase_c0	2	True	False	False	True
+PIt2r_c0	Inorganic phosphate transporter_c0	2	True	False	False	True
+rxn00288_m0	[Succinate:(acceptor) oxidoreductase_m0	2	False	True	True	False
+rxn08066_c0	adentylate kinase (GTP)_c0	2	False	True	True	False
+GAT1_SC_c0	Glycerol 3 phosphate acyltransferase  glycerol 3 phosphate   yeast specific	2	True	False	False	True
+rxn02789_c0	2-Isopropylmalate hydro-lyase_c0	2	False	True	True	False
+rxn00083_m0	NADPH:NAD+ oxidoreductase_m0	2	False	True	True	False
+rxn30431_c0	ribonucleoside-diphosphate reductase (UDP), nuclear_c0	2	True	False	False	True
+AGAT_SC_c0	1 Acyl glycerol 3 phosphate acyltransferase  yeast specific	2	True	False	False	True
+rxn09779_c0	Tricarboxylate transport protein_c0	2	True	False	False	True
+rxn09273_c0	TRANS-RXN-106.cp	2	True	False	True	False
+EX_cpd00067_e0	Exchange for H+	2	False	True	True	False
+rxn19316_x0	citrate condensing enzyme	2	False	True	True	False
+IPCS124_SC_c0	Inositol phosphorylceramide synthase  ceramide 1  24C   yeast specific	2	True	False	False	True
+IPCS224_SC_c0	Inositol phosphorylceramide synthase  ceramide 2  24C   yeast specific	2	True	False	False	True
+rxn09502_c0	Glucokinase_c0	2	True	True	False	False
+rxn01269_c0	Prephenate:NADP+ oxidoreductase(decarboxylating)_c0	2	True	False	False	True
+rxn02811_c0	3-Isopropylmalate hydro-lyase_c0	2	False	True	True	False
+rxn01607_c0	ATP:(R)-mevalonate 5-phosphotransferase_c0	2	True	False	False	True
+IPCS126_SC_c0	Inositol phosphorylceramide synthase  ceramide 1  26C   yeast specific	2	True	False	False	True
+rxn00342_c0	L-Asparagine amidohydrolase_c0	2	True	False	False	True
+rxn09753_c0	CustomReaction_c0	2	False	True	True	False
+rxn12193_c0	3-isopropylmalate dehydratase	2	True	False	False	True
+rxn01859_c0	Deoxyadenosine:orthophosphate ribosyltransferase_c0	1	False	False	True	False
+rxn09598_c0	Inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific	1	False	True	False	False
+rxn08067_c0	adentylate kinase (ITP)_c0	1	False	True	False	False
+rxn06510_x0	Lauroyl-CoA:acetyl-CoA C-acyltransferase (C14->C12)_x0	1	False	False	True	False
+rxn03243_x0	Decanoyl-CoA:acetyl-CoA C-acyltransferase (C12->C10)_x0	1	False	False	True	False
+rxn01726_x0	Acetyl-CoA:carnitine O-acetyltransferase_x0	1	False	False	True	False
+rxn10667_c0	fatty acid synthase (n-C18:1)_c0	1	False	True	False	False
+rxn02804_x0	 myristoyl-CoA:acetylCoA C-myristoyltransferase	1	False	False	True	False
+rxn01799_c0	deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase_c0	1	False	False	True	False
+rxn00175_m0	CustomReaction_m0	1	False	False	True	False
+rxn00146_m0	CustomReaction_m0	1	False	False	True	False
+rxn00097_m0	CustomReaction_m0	1	False	False	True	False
+rxn00549_c0	D-Fructose-1,6-bisphosphate 1-phosphohydrolase_c0	1	False	False	True	False
+rxn00198_x0	Isocitrate:NADP+ oxidoreductase (decarboxylating)_x0	1	False	False	True	False
+rxn01138_c0	Adenosine:phosphate alpha-D-ribosyltransferase_c0	1	False	False	True	False
+rxn00161_m0		1	False	False	True	False
+rxn00515_c0	ATP:IDP phosphotransferase_c0	1	False	True	False	False
+rxn00507_m0		1	False	False	True	False
+rxn09596_c0	Inositol phosphoryceramide synthase (ceramide-2, 26C), yeast-specific	1	False	False	False	True
+rxn00509_c0		1	False	False	True	False
+rxn09597_c0	Inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific	1	False	True	False	False
+rxn00001_m0	CustomReaction_m0	1	False	False	True	False
+rxn00191_m0	L-Alanine:2-oxoglutarate aminotransferase_m0	1	False	False	True	False
+rxn01333_c0	sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase_c0	1	False	True	False	False
+rxn09882_c0	RXN-5581.c.metaexp.NADP_c0	1	False	False	True	False
+rxn00503_m0	(S)-1-pyrroline-5-carboxylate:NAD+ oxidoreductase_m0	1	False	False	True	False
+rxn20478_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+rxn09479_x0	acyl-CoA oxidase_x0	1	False	False	True	False
+rxn09836_c0	malate/oxaloacetate shuttle_x0	1	False	False	True	False
+rxn09653_c0	Urea active transporter_c0	1	False	False	True	False
+rxn08413_x0	3-hydroxyacyl-CoA dehydratase (3-hydroxyoctadecanoyl-CoA)_x0	1	False	False	True	False
+rxn09193_c0	L-proline transport via diffusion (extracellular to periplasm)_m0	1	False	False	True	False
+rxn08063_c0	Acetate transport via diffusion (extracellular to periplasm)_m0	1	False	False	True	False
+rxn00342_e0	L-Asparagine amidohydrolase_e0	1	False	False	True	False
+rxn01217_c0	dCMP aminohydrolase_c0	1	False	False	True	False
+rxn09296_c0	hydrogen peroxide reductase (thioredoxin)_c0	1	False	False	True	False
+rxn03240_x0	(S)-3-Hydroxyhexadecanoyl-CoA hydro-lyase_x0	1	False	False	True	False
+rxn30090_c0	Arginase_c0	1	False	False	True	False
+rxn01678_c0	ATP:dUDP phosphotransferase_c0	1	False	True	False	False
+rxn09478_x0	acyl-CoA oxidase_x0	1	False	False	True	False
+rxn08451_x0	fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)_x0	1	False	False	True	False
+rxn09599_c0	Inositol phosphorylceramide synthase (ceramide-1, 24C), yeast-specific	1	False	True	False	False
+rxn13196_c0	2-phenylethanol reversible transport_c0	1	False	False	True	False
+rxn03245_x0	(S)-Hydroxydecanoyl-CoA hydro-lyase_x0	1	False	False	True	False
+rxn01513_c0	ATP:dTMP phosphotransferase_c0	1	False	False	True	False
+rxn01518_c0	ATP:deoxyuridine 5'-phosphotransferase_c0	1	False	False	True	False
+rxn05652_c0	spermidine transport in via proton antiport_c0	1	False	False	True	False
+rxn01575_m0	L-Isoleucine:2-oxoglutarate aminotransferase_m0	1	False	False	True	False
+rxn01204_c0	4-aminobutanoate:2-oxoglutarate aminotransferase_c0	1	False	False	True	False
+rxn00182_c0	L-glutamate:NAD+ oxidoreductase (deaminating)_c0	1	False	False	True	False
+rxn03241_x0	(S)-3-Hydroxytetradecanoyl-CoA hydro-lyase_x0	1	False	False	True	False
+CO2tp_c0	CO2 transporter via diffusion_x0	1	False	False	True	False
+rxn09332_c0	Tetradecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)_x0	1	False	False	True	False
+rxn05307_c0	TRANS-RXNBWI-115637.ce.maizeexp.SER_SER_m0	1	False	False	True	False
+rxn00069_c0	L-glutamate:NAD+ oxidoreductase (transaminating)_c0	1	False	False	True	False
+rxn01366_c0	Uridine:phosphate alpha-D-ribosyltransferase_c0	1	False	False	True	False
+rxn00610_c0	sn-glycerol-3-phosphate phosphohydrolase_c0	1	False	False	True	False
+rxn08767_x0	3-ketoacyl-CoA thiolase_x0	1	False	False	True	False
+rxn01219_c0	ATP:dCMP phosphotransferase_c0	1	False	False	True	False
+rxn09266_c0	spermidine transport via diffusion (extracellular to periplasm)_c0	1	False	False	True	False
+rxn09686_c0	TRANS-RXNAVI-26378.ce.brachyexp.TTP_TTP_c0	1	False	False	True	False
+rxn09475_x0	acyl-CoA oxidase_x0	1	False	False	True	False
+rxn00748_c0	glycerone-phosphate phosphate-lyase (methylglyoxal-forming)_c0	1	False	False	True	False
+rxn09476_x0	acyl-CoA oxidase_x0	1	False	False	True	False
+rxn13319_c0	isobutyl alcohol transport (extracellular)_c0	1	False	False	True	False
+rxn00953_c0	L-Serine hydro-lyase (adding homocysteine)_c0	1	False	False	True	False
+rxn01268_c0	Prephenate:NAD+ oxidoreductase(decarboxylating)_c0	1	False	True	False	False
+CITtcp_c0	Tricarboxylate transport protein_x0	1	False	False	True	False
+rxn08451_c0	fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling)_c0	1	False	False	True	False
+rxn00947_c0	Palmitate:CoA ligase (AMP-forming)_c0	1	False	True	False	False
+rxn13406_c0	oxidized thioredoxin peroxisomal transport via diffusion_x0	1	False	False	True	False
+rxn13222_c0	aldehyde dehydrogenase (2-methylbutanol, NAD)_c0	1	False	False	True	False
+rxn00006_x0	hydrogen-peroxide:hydrogen-peroxide oxidoreductase_x0	1	False	False	True	False
+rxn01003_c0	phenylpyruvate carboxy-lyase (phenylacetaldehyde-forming)_c0	1	False	False	True	False
+rxn13193_c0	2-methylpropanal transport (extracellular)_c0	1	False	False	True	False
+ASPGLUtp_c0	aspartate-glutamate peroxisomal shuttle_x0	1	False	False	True	False
+rxn09462_x0	fatty acid oxidation (octanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+rxn08455_c0	fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling)_c0	1	False	True	False	False
+rxn13316_c0	isoamyl alcohol transport (extracellular)_c0	1	False	False	True	False
+PIt2p_c0	Inorganic phosphate transporter_x0	1	False	False	True	False
+rxn30091_c0	Ornithine aminotransferase_c0	1	False	False	True	False
+rxn08350_m0	D-Lactate-proton symporter	1	False	False	True	False
+rxn09474_x0	acyl-CoA oxidase (hexacanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+rxn05582_c0	TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY_m0	1	False	False	True	False
+rxn20480_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+ATPtp_H_c0	ADP/ATP transporter, mitochondrial_x0	1	False	False	True	False
+rxn13247_c0	D-lactate/pyruvate antiport, mitochondrial_m0	1	False	False	True	False
+rxn05301_c0	TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR_m0	1	False	False	True	False
+rxn20476_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxooctadecanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+rxn08453_x0	fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling)_x0	1	False	False	True	False
+rxn09864_c0	AMP/ATP transporter, peroxisomal_x0	1	False	False	True	False
+rxn20474_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+CITtap_c0	Tricarboxylate transport protein_x0	1	False	False	True	False
+rxn01520_c0	5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase_c0	1	False	False	True	False
+rxn02748_c0	(3S)-3-Methyl-2-oxopentanoate carboxy-lyase_c0	1	False	False	True	False
+rxn08032_m0	Acetaldehyde transport	1	False	False	True	False
+TRP_hxccoa_r0c0	Hexacosanoyl-CoA r0→c0	1	False	False	True	False
+EX_cpd03481_e0	Exchange for 2-phenylethanol_e0	1	False	False	True	False
+EX_cpd16873_e0	Exchange for 2-methyl-1-butanol_e0	1	False	False	True	False
+EX_cpd10408_e0	Exchange for Isobutyl alcohol_e0	1	False	False	True	False
+EX_cpd00073_e0	Exchange for Urea_e0	1	False	False	True	False
+EX_cpd04533_e0	Exchange for Isoamyl alcohol_e0	1	False	False	True	False
+EX_cpd00357_e0	Exchange for TTP_e0	1	False	False	True	False
+rxn01127_c0	ATP:dAMP phosphotransferase_c0	1	False	False	True	False
+rxn09615_c0	Mevalonate kinase_c0	1	False	True	False	False
+rxn00742_c0	L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming)_c0	1	False	False	True	False
+rxn09802_c0	3-(4-hydroxyphenyl)pyruvate mitochondrial transport via proton symport_m0	1	False	False	True	False
+rxn00929_m0	L-Proline:NAD+ 5-oxidoreductase_m0	1	False	False	True	False
+rxn13203_c0	3-Methyl-2-oxobutanoate decarboxylase_c0	1	False	False	True	False
+rxn02911_x0	(S)-3-Hydroxydodecanoyl-CoA hydro-lyase_x0	1	False	False	True	False
+rxn09477_x0	acyl-CoA oxidase_x0	1	False	False	True	False
+rxn09296_x0	hydrogen peroxide reductase (thioredoxin)_x0	1	False	False	True	False
+rxn09460_c0	Myristicoyl-CoA desaturase (n-C14:0CoA -> n-C14:1CoA)_c0	1	False	False	True	False
+ID3ACALDtm_c0	indole-3-acetaldehyde mitochondrial transport via diffusion_m0	1	False	False	True	False
+rxn13312_c0	fatty acid intracellular transport_x0	1	False	False	True	False
+H2Otp_c0	TRANS-RXNBWI-115401.ce.maizeexp.OH_OH_x0	1	False	False	True	False
+rxn13191_c0	2-methyl-1-butanol transport (extracellular)_c0	1	False	False	True	False
+rxn00260_x0	L-Aspartate:2-oxoglutarate aminotransferase_x0	1	False	False	True	False
+EX_cpd16874_e0	Exchange for 2-methylpropanal_e0	1	False	False	True	False
+rxn09607_c0	alkaline ceramidase (ceramide-1), endoplasmic reticulum_c0	1	False	True	False	False
+EXP_c24coa_r0c0	Tetracosanoyl-CoA (C24) export r0→c0	1	False	True	False	False
+rxn01726_c0	Acetyl-CoA:carnitine O-acetyltransferase_c0	1	False	False	True	False
+rxn30390_x0	3-Hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA), peroxisomal_x0	1	False	False	True	False
+rxn09741_c0	indole-3-acetate mitochondrial transport via diffusion_m0	1	False	False	True	False
+rxn08705_c0	Hexadecenoate transport via facilitated irreversible diffusion (extracellular to periplasm)_x0	1	False	False	True	False
+rxn09473_x0	3-hydroxyacyl-CoA dehydratase (3-hydroxyhexacosyl-CoA), peroxisomal_x0	1	False	False	True	False
+rxn01507_c0	2'-Deoxyadenosine 5'-monophosphate phosphohydrolase_c0	1	False	False	True	False
+rxn09461_x0	3-hydroxyacyl-CoA dehydrogenase (3-oxohexacosyl-CoA), peroxisomal_x0	1	False	False	True	False
+NH4tm_c0	TRANS-RXN-173.ce_m0	1	False	False	True	False
+CRNtp_c0	L-carnitine transport via diffusion (extracellular to periplasm)_x0	1	False	False	True	False
+rxn01512_c0	ATP:dTDP phosphotransferase_c0	1	False	False	True	False
+rxn08104_c0	L-alanine transport via diffusion (extracellular to periplasm)_m0	1	False	False	True	False
+rxn13407_c0	reduced thioredoxin peroxisomal transport via diffusion_x0	1	False	False	True	False
+rxn00527_m0	tyrosine transaminase, irreversible (mitochondrial)	1	False	False	True	False
+rxn00692_m0	 5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase	1	False	False	True	False
+ACRNtp_c0	Transport of O-acetylcarnitine, mitochondrial_x0	1	False	False	True	False
+rxn08747_c0	L-isoleucine transport via diffusion (extracellular to periplasm)_m0	1	False	False	True	False
+rxn00522_c0	L-Tyrosine:oxygen oxidoreductase (deaminating)	1	False	False	True	False
+rxn13209_c0	RXN-7692.c_c0	1	False	False	True	False
+rxn00908_m0	CustomReaction_m0	1	False	False	True	False
+rxn01937_m0	Indole-3-acetaldehyde:NAD+ oxidoreductase_m0	1	False	False	True	False
+rxn01274_c0	(R)-S-Lactoylglutathione hydrolase_c0	1	False	False	True	False
+rxn01834_c0	(R)-S-Lactoylglutathione methylglyoxal-lyase (isomerizing)_c0	1	False	False	True	False
+rxn05236_c0	2'-Deoxyuridine 5'-triphosphate:oxydized-thioredoxin 2'-oxidoreductase_c0	1	False	True	False	False
+ACtr_c0	Acetate transport via diffusion (extracellular to periplasm)_c0	1	False	False	True	False
+rxn05488_c0	acetate reversible transport via proton symport_c0	1	False	False	True	False
+rxn15115_c0	D-Ribose 1,5-phosphomutase_c0	1	False	False	True	False
+rxn02680_x0	Octanoyl-CoA:acetyl-CoA C-acyltransferase (C10->C8)_x0	1	False	False	True	False
+tx_ppi_xc	PPi peroxisomal export	1	False	False	True	False
+tx_coa_xc	CoA peroxisomal equilibration	1	False	False	True	False
+tx_nad_xc	NAD peroxisomal equilibration	1	False	False	True	False
+tx_nadh_xc	NADH peroxisomal equilibration	1	False	False	True	False
+tx_h_xc	H+ peroxisomal equilibration	1	False	False	True	False

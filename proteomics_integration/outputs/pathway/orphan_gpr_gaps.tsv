@@ -1,0 +1,164 @@
+rxn_id	name	pathway	n_genes	genes	subsystem
+rxn00068_c0	Fe2+:NAD+ oxidoreductase_c0	Cofactor / vitamin biosynthesis	6	gene_12725;gene_12859;gene_12975;gene_188;gene_5389;gene_6417	
+rxn00236_c0	GDP phosphohydrolase_c0	Other / unassigned	1	gene_12109	
+rxn00002_c0	urea-1-carboxylate amidohydrolase_c0	Sulfur / nitrogen assimilation	1	gene_9951	
+FACOAL240p_x0	Fatty acid  CoA ligase  n C240   peroxisomal	Other / unassigned	1	gene_8073	
+rxn09657_c0	Thiamine transporter_c0	Transport (inter-compartmental)	1	gene_9010	
+rxn05466_c0	TRANS-RXN-173.ce_c0	Other / unassigned	2	gene_11345;gene_9895	
+rxn13096_c0	thiamine diphosphate transport  (Mitochondrial membrane)_m0	Transport (inter-compartmental)	1	gene_11286	
+rxn05611_c0	D-mannose transport in via proton symport_c0	Transport (inter-compartmental)	2	gene_331;gene_6660	
+rxn13326_c0	inositol phosphorylceramide, ceramide-1 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn09445_x0	fatty-acid--CoA ligase (n-C26:0), peroxisomal_x0	β-oxidation (peroxisomal)	2	gene_12030;gene_8073	
+rxn08213_c0	TRANS-RXN-99.cp_c0	Other / unassigned	1	gene_4980	
+rxn13357_c0	Mannose-inositol phosphorylceramide, ceramide-3 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn08554_c0	glycero-3-phosphocholine transport via diffusion (extracellular to periplasm)_c0	Transport (inter-compartmental)	1	gene_6863	
+rxn09841_c0	fatty acid peroxisomal transport_x0	Transport (inter-compartmental)	1	gene_8073	
+rxn13352_c0	Mannose-(inositol-P)2-ceramide, ceramide-3 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn05564_c0	Proline-specific permease_c0	Other / unassigned	1	gene_3268	
+rxn13356_c0	Mannose-inositol phosphorylceramide, ceramide-2 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+IPCS124_SC_c0	Inositol phosphorylceramide synthase  ceramide 1  24C   yeast specific	Other / unassigned	1	gene_8702	
+rxn00440_c0	ATP:thiamine diphosphotransferase_c0	Cofactor / vitamin biosynthesis	1	gene_6040	
+IPCS224_SC_c0	Inositol phosphorylceramide synthase  ceramide 2  24C   yeast specific	Other / unassigned	1	gene_8702	
+rxn09266_c0	spermidine transport via diffusion (extracellular to periplasm)_c0	Transport (inter-compartmental)	1	gene_11732	
+rxn13351_c0	Mannose-(inositol-P)2-ceramide, ceramide-3 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn01672_c0	dCTP aminohydrolase_c0	Other / unassigned	1	gene_5452	
+rxn13330_c0	inositol phosphorylceramide, ceramide-3 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+IPCS226_SC_c0	Inositol phosphoryceramide synthase  ceramide 2  26C   yeast specific	Other / unassigned	1	gene_8702	
+rxn13355_c0	Mannose-inositol phosphorylceramide, ceramide-2 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+TRPt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.TRP_TRP_c0	Amino-acid metabolism	1	gene_12204	
+rxn05197_c0	Uracil permease_c0	Other / unassigned	1	gene_2449	
+rxn02358_c0	trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase_c0	Cofactor / vitamin biosynthesis	1	gene_9941	
+rxn09673_c0	TRANS-RXNAVI-26524.ce.brachyexp.CPD-3609_CPD-3609_c0	Glycolysis / gluconeogenesis	1	gene_9623	
+rxn03630_c0	Taurine, 2-oxoglutarate:O2 oxidoreductase (sulfite-forming)_c0	TCA cycle	1	gene_420	
+rxn05593_c0	Myo-inositol transporter 1_c0	Transport (inter-compartmental)	1	gene_2077	
+METt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.MET_MET_c0	Amino-acid metabolism	2	gene_12204;gene_6365	
+rxn13253_e0	Endopolygalacturonase (extracellular)_e0	Pectin / D-galacturonate (Ashwell)	1	gene_7052	
+rxn13358_c0	Mannose-inositol phosphorylceramide, ceramide-3 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn08441_x0	myristoyl-CoA hydrolase_x0	Other / unassigned	1	gene_5256	
+rxn08564_c0	glycero-3-phospho-1-inositol transport via diffusion (extracellular to periplasm)_c0	Transport (inter-compartmental)	1	gene_6863	
+rxn09531_c0	biotin synthase_c0	Cofactor / vitamin biosynthesis	1	gene_6484	
+rxn05198_c0	Transport of cytidine, extracellular_c0	Transport (inter-compartmental)	1	gene_9040	
+rxn08677_c0	glutathione transport via diffusion (extracellular to periplasm)_c0	Transport (inter-compartmental)	1	gene_12965	
+rxn13350_c0	Mannose-(inositol-P)2-ceramide, ceramide-2 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn09611_e0	R06204_e0	Cell-wall polysaccharide	1	gene_10526	
+rxn05238_c0	TRANS-RXNBWI-115353.ce_c0	Other / unassigned	2	gene_9297;gene_9669	
+rxn09216_c0	putrescine transport via diffusion (extracellular to periplasm)_c0	Transport (inter-compartmental)	1	gene_11732	
+PHEt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.PHE_PHE_c0	Amino-acid metabolism	1	gene_12204	
+rxn09784_c0	TRANS-RXNBWI-115551.cm_m0	Other / unassigned	1	gene_8015	
+rxn09697_c0	Allantoate permease_c0	Other / unassigned	1	gene_762	
+rxn10832_c0	CoA transporter_m0	Transport (inter-compartmental)	1	gene_12495	
+rxn09546_c0	lipid phosphate phosphatase, yeast-specific_c0	Other / unassigned	1	gene_12654	
+TYRt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR_c0	Amino-acid metabolism	1	gene_12204	
+rxn09690_c0	TRANS-RXNBWI-115637.ce.maizeexp.CYS_CYS_c0	Amino-acid metabolism	1	gene_12204	
+rxn08265_c0	L-carnitine transport via diffusion (extracellular to periplasm)_c0	Transport (inter-compartmental)	1	gene_6929	
+rxn08440_x0	lauroyl-CoA hydrolase_x0	Other / unassigned	1	gene_5256	
+rxn05318_c0	TRANS-RXN-203.ce_c0	Other / unassigned	1	gene_9040	
+rxn00929_m0	L-Proline:NAD+ 5-oxidoreductase_m0	Amino-acid metabolism	3	gene_11192;gene_5611;gene_9941	
+rxn04680_m0	R06866_m0	Other / unassigned	1	gene_11580	
+rxn00241_c0	GTP phosphohydrolase_c0	Other / unassigned	1	gene_12109	
+IPCS126_SC_c0	Inositol phosphorylceramide synthase  ceramide 1  26C   yeast specific	Other / unassigned	1	gene_8702	
+rxn09713_c0	Mitochondrial dicarboxylate transporter_m0	Transport (inter-compartmental)	1	gene_1614	
+ARGt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.ARG_ARG_c0	Amino-acid metabolism	2	gene_12204;gene_632	
+rxn05120_m0	protoheme IX farnesyltransferase_m0	Other / unassigned	1	gene_5893	
+rxn00092_c0	ADP phosphohydrolase_c0	Other / unassigned	1	gene_12109	
+rxn12918_c0	RXN3O-218.c_c0	Other / unassigned	2	gene_3606;gene_7255	
+rxn13353_c0	Mannose-inositol phosphorylceramide, ceramide-1 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+ORNt2r_c0	Orntithine reversible transport in via proton symport	Transport (inter-compartmental)	2	gene_12204;gene_632	
+rxn13349_c0	Mannose-(inositol-P)2-ceramide, ceramide-2 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+HBZOPT6m_m0	Hydroxybenzoate octaprenyltransferase  mitochondrial	Other / unassigned	1	gene_1089	
+ADHAPR_SC_c0	Acyldihydroxyacetonephosphate reductase  yeast specific	Other / unassigned	1	gene_11988	
+rxn09664_c0	Peptide transporter PTR2_c0	Transport (inter-compartmental)	1	gene_6282	
+rxn05652_c0	spermidine transport in via proton antiport_c0	Transport (inter-compartmental)	2	gene_10460;gene_12888	
+rxn30427_x0	peroxisomal acyl-CoA thioesterase_x0	β-oxidation (peroxisomal)	1	gene_5256	
+rxn09621_c0	C-4 sterol methyl oxidase (4-methylzymosterol)_c0	Lipid / membrane	2	gene_12719;gene_1482	
+rxn05491_c0	TRANS-RXN-198.ce_c0	Other / unassigned	1	gene_4689	
+rxn05566_c0	D-galactose transport in via proton symport_c0	Transport (inter-compartmental)	3	gene_331;gene_6660;gene_8848	
+rxn01217_c0	dCMP aminohydrolase_c0	Other / unassigned	1	gene_5452	
+rxn05638_c0	TRANS-RXNBWI-115637.ce.maizeexp.PRO_PRO_c0	Amino-acid metabolism	2	gene_12204;gene_3268	
+rxn04381_c0	Sphinganine, NADPH: oxygen oxidoreductase (4-hydroxylating)_c0	Cofactor / vitamin biosynthesis	2	gene_11213;gene_7028	
+rxn13362_c0	N,N-bisformyl-dityrosine transport (extracellular)_c0	Transport (inter-compartmental)	1	gene_8386	
+rxn00912_c0	5,10-Methylenetetrahydrofolate:3-methyl-2-oxobutanoate hydroxymethyltransferase_c0	Cofactor / vitamin biosynthesis	1	gene_11759	
+VALt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.VAL_VAL_c0	Amino-acid metabolism	1	gene_12204	
+rxn13398_c0	spermine transport via proton antiport irreversible_c0	Transport (inter-compartmental)	3	gene_10460;gene_12888;gene_1694	
+TAGL_SC_c0	Triacylglycerol lipase  yeast specific	Fatty-acid biosynthesis	1	gene_8245	
+HISt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.HIS_HIS_c0	Amino-acid metabolism	1	gene_12204	
+rxn00560_c0	Urea:carbon-dioxide ligase (ADP-forming)_c0	Other / unassigned	1	gene_9951	
+rxn09842_c0	fatty acid peroxisomal transport_x0	Transport (inter-compartmental)	1	gene_8073	
+IPCS326_SC_c0	Inositol phosphorylceramide synthase  ceramide 3  26C   yeast specific	Other / unassigned	1	gene_8702	
+rxn01748_c0	Allantoin amidohydrolase_c0	Other / unassigned	1	gene_11159	
+rxn05199_c0	Uridine permease_c0	Other / unassigned	1	gene_9040	
+rxn08439_x0	decanoyl-CoA hydrolase_x0	Other / unassigned	1	gene_5256	
+rxn05602_c0	L-lactate reversible transport via proton symport_c0	Transport (inter-compartmental)	1	gene_984	
+rxn06937_m0	L-glutamate:tRNA(Glu) ligase (AMP-forming)_m0	Amino-acid metabolism	1	gene_4282	
+rxn09653_c0	Urea active transporter_c0	Transport (inter-compartmental)	1	gene_6436	
+rxn08447_x0	fatty-acid-CoA thioesterase (octanoate)_x0	Other / unassigned	1	gene_5256	
+rxn13414_c0	ATP diphosphohydrolase (phosphate-forming)_c0	Nucleotide metabolism	1	gene_12109	
+rxn05243_c0	TRANS-RXNBWI-115637.ce.maizeexp.LEU_LEU_c0	Amino-acid metabolism	1	gene_12204	
+rxn13348_c0	Mannose-(inositol-P)2-ceramide, ceramide-1 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn00931_c0	L-Proline:NADP+ 5-oxidoreductase_c0	Amino-acid metabolism	2	gene_5611;gene_9941	
+rxn05527_c0	TRANS-RXN-199.ce_c0	Other / unassigned	1	gene_4689	
+rxn08350_c0	D-lactate transport via proton symport (periplasm)_c0	Transport (inter-compartmental)	1	gene_984	
+rxn02356_c0	trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase_c0	Cofactor / vitamin biosynthesis	1	gene_9941	
+rxn08066_m0	adentylate kinase (GTP)_m0	Other / unassigned	1	gene_7383	
+rxn13327_c0	inositol phosphorylceramide, ceramide-1 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn13328_c0	inositol phosphorylceramide, ceramide-2 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+THRt2r_c0	TRANS-RXNBWI-115637.ce.maizeexp.THR_THR_c0	Amino-acid metabolism	1	gene_12204	
+rxn13331_c0	inositol phosphorylceramide, ceramide-3 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn05244_c0	TRANS-RXNBWI-115637.ce.maizeexp.ILE_ILE_c0	Amino-acid metabolism	1	gene_12204	
+rxn13354_c0	Mannose-inositol phosphorylceramide, ceramide-1 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn13342_c0	Lyso-phosphatidylcholine acyltransferase acyltransferase, yeast-specific_c0	Lipid / membrane	1	gene_2347	
+PMI12346PH_c0	5 diphosphoinositol 1 2 3 4 6 pentakisphosphate diphosphohydrolase	Other / unassigned	1	gene_6037	
+rxn01501_c0	(R)-Mevalonate:NADP+ oxidoreductase (CoA acylating)_c0	Cofactor / vitamin biosynthesis	1	gene_3103	
+rxn13410_c0	L-tyrosine N-formyltransferase_c0	Amino-acid metabolism	1	gene_977	
+rxn30044_c0	Ornithine Decarboxylase_c0	Other / unassigned	1	gene_5526	
+rxn08067_m0	adentylate kinase (ITP)_m0	Other / unassigned	1	gene_7383	
+rxn05308_c0	Pantothenate reversible transport via proton symport_c0	Transport (inter-compartmental)	1	gene_9493	
+rxn00061_c0	ATP diphosphohydrolase (phosphate-forming)_c0	Other / unassigned	1	gene_12109	
+LYSt2r_c0	TRANS-RXN-58.cp_c0	Amino-acid metabolism	1	gene_12204	
+rxn00116_c0	UDP phosphohydrolase_c0	Other / unassigned	1	gene_12109	
+rxn10791_c0	GTP diphosphohydrolase_c0	Nucleotide metabolism	1	gene_12109	
+rxn13329_c0	inositol phosphorylceramide, ceramide-2 (26C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn05203_c0	TRANS-RXNBWI-115572.ce.maizeexp.GUANINE_GUANINE_c0	Other / unassigned	1	gene_4689	
+rxn12529_c0	TRANS-RXNAVI-26524.ce.brachyexp.GLYCEROL_GLYCEROL_c0	Glycolysis / gluconeogenesis	1	gene_9947	
+C4STMO1_c0	C 4 sterol methyl oxidase  4 4 dimethylzymosterol 	Lipid / membrane	1	gene_12719	
+rxn00926_c0	Adenine aminohydrolase_c0	Other / unassigned	2	gene_9012;gene_9546	
+IPCS324_SC_c0	Inositol phosphorylceramide synthase  ceramide 3  24C   yeast specific	Other / unassigned	1	gene_8702	
+rxn08444_x0	Stearoyl-CoA hydrolase_x0	Other / unassigned	1	gene_5256	
+rxn06434_m0	L-Asparagine:tRNA(Asn) ligase (AMP-forming)_m0	Amino-acid metabolism	1	gene_10615	
+rxn09739_c0	Mitochondrial dicarboxylate transporter_m0	Transport (inter-compartmental)	1	gene_1614	
+rxn13386_c0	diphosphoinositol-1,3,4,6-tetrakisphosphate diphosphohydrolase_c0	Other / unassigned	1	gene_6037	
+rxn05310_c0	Nicotinate transport (Plasma membrane)_c0	Transport (inter-compartmental)	1	gene_4621	
+rxn13347_c0	Mannose-(inositol-P)2-ceramide, ceramide-1 (24C) phospholipase C_c0	Other / unassigned	1	gene_5890	
+rxn02297_c0	6-Carboxyhexanoyl-CoA:L-alanine C-carboxyhexanoyltransferase (decarboxylating)_c0	Amino-acid metabolism	1	gene_10991	
+rxn05687_c0	Transport of putrescine, extracellular_c0	Transport (inter-compartmental)	2	gene_10460;gene_12888	
+rxn02277_m0	7,8-Diaminononanoate:carbon-dioxide cyclo-ligase_c0	Other / unassigned	1	gene_10620	
+rxn02312_m0	S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase_c0	Other / unassigned	1	gene_10620	
+rxn05927_m0	 biotin synthase	Amino-acid metabolism	1	gene_6484	
+rxn01790_c0	(R)-Pantoate:NADP+ 2-oxidoreductase_c0	Cofactor / vitamin biosynthesis	1	gene_12725	
+rxn03894_m0	rxn03894 [R05616] (Hydroxybenzoate octaprenyltransferase mitochondrial)	Other / unassigned	1	gene_1089	
+rxn08445_c0	fatty-acid-CoA thioesterase (octadecenoate)	Fatty-acid biosynthesis	1	gene_5256	
+rxn09599_c0	Inositol phosphorylceramide synthase (ceramide-1, 24C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09598_c0	Inositol phosphorylceramide synthase (ceramide-1, 26C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09597_c0	Inositol phosphorylceramide synthase (ceramide-2, 24C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09596_c0	Inositol phosphoryceramide synthase (ceramide-2, 26C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09595_c0	Inositol phosphorylceramide synthase (ceramide-3, 24C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09594_c0	Inositol phosphorylceramide synthase (ceramide-3, 26C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09593_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 24C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09592_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-1, 26C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09591_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 26C), yeast specific	Other / unassigned	1	gene_8702	
+rxn09590_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-2, 24C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09589_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 24C), yeast specific	Other / unassigned	1	gene_8702	
+rxn09588_c0	mannose-(inositol-P)2-ceramide synthase (ceramide-3, 26C), yeast-specific	Other / unassigned	1	gene_8702	
+rxn09545_c0	methylene-fatty-acyl-phospholipid synthase, yeast-specific_c0	Other / unassigned	1	gene_9731	
+rxn09535_c0	Phosphatidyl-N-methylethanolamine N-methyltransferase, yeast-specific_c0	Lipid / membrane	1	gene_9731	
+rxn09622_c0	 C-4 sterol methyl oxidase (4,4-dimethylzymosterol)	Lipid / membrane	2	gene_12719;gene_1482	
+rxn05918_c0	GDPmannose:dolichyl-phosphate O-beta-D-mannosyltransferase	Other / unassigned	2	gene_1904;gene_9799	
+rxn15542_m0	(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 10-55 isopentenyl units)	Other / unassigned	1	gene_556	
+rxn05913_m0	Dolichyl-diphosphate phosphohydrolase	Other / unassigned	1	gene_10841	
+rxn02679_x0	Octanoyl-CoA:oxygen 2-oxidoreductase (C8)_x0	β-oxidation (peroxisomal)	1	gene_8837	beta-oxidation (acyl-CoA oxidase)
+rxn03251_x0	Hexanoyl-CoA:(acceptor) 2,3-oxidoreductase (C6)_x0	β-oxidation (peroxisomal)	1	gene_8837	beta-oxidation (acyl-CoA oxidase)
+rxn00868_x0	Butanoyl-CoA:(acceptor) 2,3-oxidoreductase (C4)_x0	β-oxidation (peroxisomal)	1	gene_11751	beta-oxidation (acyl-CoA dehydrogenase)
+rxn03250_x0	(S)-Hydroxyhexanoyl-CoA hydro-lyase (C6)_x0	β-oxidation (peroxisomal)	1	gene_2953	beta-oxidation (enoyl-CoA hydratase)
+rxn03246_x0	(S)-hydroxyoctanoyl-CoA:NAD+ oxidoreductase (C8)_x0	β-oxidation (peroxisomal)	1	gene_11751	beta-oxidation (3-OH-acyl-CoA DH)
+rxn03249_x0	(S)-hydroxyhexanoyl-CoA:NAD+ oxidoreductase (C6)_x0	β-oxidation (peroxisomal)	1	gene_11751	beta-oxidation (3-OH-acyl-CoA DH)
+rxn05673_c0	D-galacturonate transport via proton symport_c0	Pectin / D-galacturonate (Ashwell)	1	gene_5858	galU transport

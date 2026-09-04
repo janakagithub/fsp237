@@ -1,0 +1,20 @@
+pathway	n_genes	n_de	frac_de	odds_ratio	p_fisher	bh_q
+Glycolysis / gluconeogenesis	121	23	0.19	1.638	0.03631	0.4984
+Cell-wall polysaccharide	38	9	0.237	2.104	0.05246	0.4984
+Fatty-acid biosynthesis	21	5	0.238	2.09	0.13217	0.8371
+Oxidative phosphorylation / ETC	75	12	0.16	1.273	0.27797	1.0
+Cofactor / vitamin biosynthesis	143	21	0.147	1.152	0.3275	1.0
+Pentose-sugar catabolism	3	1	0.333	3.302	0.34634	1.0
+Storage (glycogen / trehalose)	10	2	0.2	1.652	0.38845	1.0
+Transport (inter-compartmental)	50	7	0.14	1.074	0.49772	1.0
+Pentose phosphate pathway	52	7	0.135	1.024	0.54213	1.0
+Amino-acid metabolism	165	21	0.127	0.952	0.61734	1.0
+Nucleotide metabolism	19	2	0.105	0.77	0.73842	1.0
+Other / unassigned	483	60	0.124	0.89	0.77221	1.0
+TCA cycle	63	6	0.095	0.68	0.86184	1.0
+Lipid / membrane	36	3	0.083	0.59	0.87524	1.0
+β-oxidation (peroxisomal)	21	1	0.048	0.324	0.95027	1.0
+GAM / maintenance	129	7	0.054	0.348	0.9993	1.0
+Sulfur / nitrogen assimilation	3	0	0.0	0.0	1.0	1.0
+Pectin / D-galacturonate (Ashwell)	3	0	0.0	0.0	1.0	1.0
+Melanin / DHN	15	0	0.0	0.0	1.0	1.0

@@ -1,0 +1,7 @@
+condition	threshold	H_active	H_total	L_inactive	L_total	objective
+PDA	default	94	244	213	235	384
+PDA	strict	34	100	75	82	152
+half	default	95	238	180	202	358
+half	strict	35	102	86	87	166
+onetenth	default	68	186	206	222	339
+onetenth	strict	16	65	88	95	136

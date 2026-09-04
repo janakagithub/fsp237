@@ -1,0 +1,24 @@
+pathway	n_rxn	meanFC_half_vs_PDA	n_meas_half_vs_PDA	meanFC_onetenth_vs_PDA	n_meas_onetenth_vs_PDA	meanFC_onetenth_vs_half	n_meas_onetenth_vs_half
+Pectin / D-galacturonate (Ashwell)	6	-1.0218	1	1.3861	1	2.4079	1
+Transport (inter-compartmental)	256	0.0463	28	1.1265	28	1.0665	28
+Oxidative phosphorylation / ETC	24	-0.0519	7	0.4847	7	0.5095	7
+Fatty-acid biosynthesis	38	0.4284	35	-0.4538	30	-0.9464	30
+Glycolysis / gluconeogenesis	58	0.1198	50	-0.4402	51	-0.5582	50
+Pentose-sugar catabolism	6	-0.0719	4	0.4387	4	0.5106	4
+Pentose phosphate pathway	20	0.0635	19	-0.438	19	-0.4973	19
+Storage (glycogen / trehalose)	7	0.1614	6	-0.4134	6	-0.5748	6
+Other / unassigned	576	0.1171	356	-0.352	342	-0.3758	350
+Cell-wall polysaccharide	18	0.2308	17	-0.3354	13	-0.3906	13
+Cofactor / vitamin biosynthesis	117	0.0554	93	-0.2392	92	-0.2182	94
+TCA cycle	34	0.1148	29	-0.148	29	-0.2716	29
+Lipid / membrane	35	0.109	20	-0.1453	18	-0.2127	20
+Sulfur / nitrogen assimilation	3	-0.1134	2	-0.1132	2	0.0002	2
+Amino-acid metabolism	162	0.0466	127	-0.0391	125	-0.0495	126
+β-oxidation (peroxisomal)	54	0.0009	27	0.015	27	0.0295	27
+GAM / maintenance	1	0.168	1	-0.0115	1	-0.1766	1
+Nucleotide metabolism	21	-0.0583	17	0.0066	17	0.1488	17
+Biomass	6		0		0		0
+Exchange	170		0		0		0
+Sink / demand	1		0		0		0
+Melanin / DHN	7	0.081	3		0		0
+Compatible solute / mannitol	2		0		0		0

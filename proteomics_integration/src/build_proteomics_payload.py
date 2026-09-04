@@ -10,6 +10,8 @@ import pandas as pd
 ROOT = Path("/home/janakae/fsp237")
 EF = ROOT / "proteomics_integration/outputs/eflux"
 EC = ROOT / "proteomics_integration/outputs/ec"
+CX = ROOT / "proteomics_integration/outputs/context"
+PW_ = ROOT / "proteomics_integration/outputs/pathway"
 OUT = ROOT / "atp-safe/proteomics_payload.json"
 CONDS = ["PDA", "half", "onetenth"]
 
@@ -153,6 +155,101 @@ pathways = {
                           "util_onetenth"]].round(4)),
 }
 
+# ---- Stage 4: context-specific flux (GIMME + iMAT) ---------------------------
+cx_gimme = pd.read_csv(CX / "gimme_flux_matrix.tsv", sep="\t", index_col=0)
+cx_imat = pd.read_csv(CX / "imat_flux_matrix.tsv", sep="\t", index_col=0)
+cx_act = pd.read_csv(CX / "imat_activity.tsv", sep="\t")
+cx_sum = pd.read_csv(CX / "context_summary.tsv", sep="\t")
+cx_agree = pd.read_csv(CX / "method_agreement.tsv", sep="\t")
+
+fcx = [f"flux_{c}" for c in CONDS]
+
+
+def _pw_flux_rollup(mat):
+    """mean |flux| per pathway per condition (comparative flux heatmap)."""
+    m = mat.copy()
+    m["rxn_id"] = m.index
+    m = m.merge(pw_map, on="rxn_id", how="left")
+    m["pathway"] = m["pathway"].fillna("Other / unassigned")
+    for c in fcx:
+        m[c] = m[c].abs()
+    g = m.groupby("pathway")[fcx].mean()
+    g["n_rxn"] = m.groupby("pathway")["rxn_id"].count()
+    g["allmax"] = g[fcx].max(axis=1)
+    g = g[g["allmax"] > 1e-6].sort_values("allmax", ascending=False)
+    return g.reset_index()
+
+
+gimme_pw = _pw_flux_rollup(cx_gimme)
+imat_pw = _pw_flux_rollup(cx_imat)
+
+# top condition-differentiating reactions under each context method
+def _flux_diff(mat, n=40):
+    m = mat.copy()
+    m[fcx] = m[fcx].fillna(0.0)
+    m["range"] = m[fcx].max(axis=1) - m[fcx].min(axis=1)
+    m["absmax"] = m[fcx].abs().max(axis=1)
+    m = m[m.absmax > 1e-6].sort_values("range", ascending=False).head(n)
+    m = m.rename_axis("rxn_id").reset_index()
+    out = m[["rxn_id", "name"] + fcx].copy()
+    for c in fcx:
+        out[c] = out[c].round(4)
+    return out
+
+# method-agreement rollup: how many reactions active in N of 4 methods
+agree_hist = (cx_agree.groupby("n_methods_active").size()
+              .rename("n_rxn").reset_index().sort_values("n_methods_active"))
+# consensus (all 4) and single-method-only reactions for the table
+agree_tbl = pd.concat([
+    cx_agree[cx_agree.n_methods_active == 4].head(40),
+    cx_agree[cx_agree.n_methods_active == 1].head(20),
+])[["rxn_id", "name", "n_methods_active",
+    "eflux_on", "gimme_on", "imat_on", "ec_on"]]
+
+context = {
+    "summary": recs(cx_sum),
+    "activity": recs(cx_act),
+    "gimme_pathway": recs(gimme_pw[["pathway", "n_rxn"] + fcx].round(4)),
+    "imat_pathway": recs(imat_pw[["pathway", "n_rxn"] + fcx].round(4)),
+    "gimme_diff": recs(_flux_diff(cx_gimme)),
+    "imat_diff": recs(_flux_diff(cx_imat)),
+    "agreement_hist": recs(agree_hist),
+    "agreement": recs(agree_tbl),
+    "n_agree_rxns": int(len(cx_agree)),
+}
+
+# ---- Stage 5: DE + pathway analysis (reliable FC axis) -----------------------
+de_genes = pd.read_csv(PW_ / "gene_de.tsv", sep="\t")
+pw_fc = pd.read_csv(PW_ / "pathway_fc_matrix.tsv", sep="\t")
+pw_en = pd.read_csv(PW_ / "pathway_enrichment.tsv", sep="\t")
+reporters = pd.read_csv(PW_ / "reporter_metabolites.tsv", sep="\t")
+concord = pd.read_csv(PW_ / "pathway_flux_concordance.tsv", sep="\t")
+orphans = pd.read_csv(PW_ / "orphan_gpr_gaps.tsv", sep="\t")
+
+CONTRASTS = ["half_vs_PDA", "onetenth_vs_PDA", "onetenth_vs_half"]
+de_counts = {c: int(de_genes.get(f"sig_{c}", pd.Series(dtype=bool)).sum())
+             for c in CONTRASTS}
+
+# significant genes (any contrast), ranked by |onetenth_vs_PDA| logFC
+sig_any = de_genes[[c for c in
+                    [f"sig_{x}" for x in CONTRASTS] if c in de_genes]].any(axis=1)
+de_sig = (de_genes[sig_any]
+          .assign(_r=lambda d: d["logFC_onetenth_vs_PDA"].abs())
+          .sort_values("_r", ascending=False)
+          .drop(columns="_r")).head(250)
+
+de = {
+    "counts": de_counts,
+    "genes": recs(de_sig.round(3)),
+    "pathway_fc": recs(pw_fc.round(3)),
+    "enrichment": recs(pw_en),
+    "reporters": recs(reporters.head(60)),
+    "concordance": recs(concord),
+    "orphans": recs(orphans),
+    "n_orphans": int(len(orphans)),
+    "contrasts": CONTRASTS,
+}
+
 payload = {
     "meta": {
         "model": "fsp237_gapfilled_Version10",
@@ -188,10 +285,15 @@ payload = {
         "flux_diff": recs(flux_diff),
     },
     "pathways": pathways,
+    "context": context,
+    "de": de,
 }
 
 OUT.write_text(json.dumps(payload, separators=(",", ":")))
 print(f"wrote {OUT} ({OUT.stat().st_size/1024:.0f} KB)")
+print(f"context: gimme_pw {len(gimme_pw)}, imat_pw {len(imat_pw)}, "
+      f"agree {len(cx_agree)}; de sig {de_counts}, orphans {len(orphans)}, "
+      f"reporters {len(reporters)}")
 print(f"coverage: {n_costed} catalyzed rxns, {n_ec} EC ({payload['meta']['ec_pct']}%)")
 print(f"prot-covered: {n_prot}; knees: {knees}")
 print(f"eflux bottleneck rows: {len(bot_top)}; ec util rows: {len(ec_util)}; "

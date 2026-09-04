@@ -515,6 +515,7 @@
     <button class="tab-btn" data-tab="map_aerobic">Escher map &mdash; aerobic</button>
     <button class="tab-btn" data-tab="map_anaerobic">Escher map &mdash; anaerobic</button>
     <button class="tab-btn" data-tab="map_expression">Escher map &mdash; expression</button>
+    <button class="tab-btn" data-tab="map_proteomics">Escher map &mdash; proteome</button>
   </div>
 </div>
 
@@ -1023,6 +1024,160 @@
     </div>
   </div>
 
+  <div class="rna-note" style="margin-top:14px; border-left:4px solid #1a7f37">
+    <b>How to read this tab.</b> TMT proteomics has two axes of very different
+    reliability. <b>Within-protein fold changes across media</b> (a protein
+    compared to itself) are robust &mdash; these drive the
+    <b>Differential proteome</b> and <b>context-specific flux</b> sections below,
+    which lead the tab. <b>Across-protein absolute abundance</b> (ranking different
+    proteins within one sample) is weak for relative TMT; the enzyme-capacity /
+    bottleneck model further down rests on that weaker axis and is a
+    <b>hypothesis layer</b>, best read comparatively (which enzyme saturates first,
+    how the bottleneck shifts) rather than as calibrated flux.
+  </div>
+
+  <div class="rna-section-h">Differential proteome analysis
+    <span class="h-sub">Tier&nbsp;1 &mdash; the reliable fold-change axis: limma logFC / adj-P within-protein across the three media (no absolute-abundance assumption)</span>
+  </div>
+  <div class="rna-downloads">
+    Raw outputs (browse on GitHub):
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/pathway/gene_de.tsv" target="_blank">gene_de.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/pathway/pathway_fc_matrix.tsv" target="_blank">pathway_fc_matrix.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/pathway/pathway_enrichment.tsv" target="_blank">pathway_enrichment.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/pathway/reporter_metabolites.tsv" target="_blank">reporter_metabolites.tsv</a>
+  </div>
+  <div class="rna-tile-grid" id="prot-de-tiles"></div>
+  <div class="pathway-charts-row">
+    <div class="card card-pad">
+      <div class="rna-chart-title">Pathway fold-change &times; contrast
+        <span class="chart-note">cell = mean reaction-level proteome logFC (GPR-averaged); red = up on the more dilute medium, blue = down</span>
+      </div>
+      <div id="chart-prot-pw-fc" style="overflow-x:auto"></div>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">Pathways enriched for DE proteins
+        <span class="chart-note">Fisher exact (1/10 vs full PDB), bar = fraction of the pathway's proteins called DE; label shows n<sub>DE</sub>/n and BH&nbsp;q</span>
+      </div>
+      <div id="chart-prot-enrich"></div>
+    </div>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Differentially expressed model proteins
+      <span class="chart-note">adj-P&lt;0.05 &amp; |logFC|&gt;1 in any contrast; ranked by |logFC| on 1/10 vs full PDB</span>
+    </div>
+    <table id="tbl-prot-de" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Gene</th><th>KO</th>
+          <th>logFC &frac12;/full</th><th>q &frac12;/full</th>
+          <th>logFC 1&frasl;10/full</th><th>q 1&frasl;10/full</th>
+          <th>logFC 1&frasl;10/&frac12;</th><th>q 1&frasl;10/&frac12;</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Reporter metabolites
+      <span class="chart-note">Patil&ndash;Nielsen z on proteome logFC (1/10 vs full PDB): metabolites whose surrounding enzymes shift most coherently &mdash; the transcription-independent regulatory hot-spots</span>
+    </div>
+    <table id="tbl-prot-reporter" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Metabolite</th><th>Name</th><th>Comp.</th>
+          <th>k reactions</th><th>z<sub>reporter</sub></th><th>p</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
+
+  <div class="rna-section-h">Context-specific flux &mdash; GIMME &amp; iMAT
+    <span class="h-sub">Tier&nbsp;2 &mdash; the same discrete context-extraction methods used in the transcriptomics tab, now driven by the measured proteome; proteome and transcriptome are compared on the same footing</span>
+  </div>
+  <div class="rna-downloads">
+    Raw outputs (browse on GitHub):
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/context/gimme_flux_matrix.tsv" target="_blank">gimme_flux_matrix.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/context/imat_flux_matrix.tsv" target="_blank">imat_flux_matrix.tsv</a>
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/context/method_agreement.tsv" target="_blank">method_agreement.tsv</a>
+  </div>
+  <div class="card card-pad" style="margin-bottom:14px; display:flex; align-items:center; justify-content:space-between; flex-wrap:wrap; gap:10px">
+    <div>
+      <b>Proteome-constrained flux map.</b> GIMME fluxes from the full-PDB
+      proteome painted onto the iMM904 central-carbon map, coloured by compartment
+      and scaled by |flux| &mdash; the proteome analog of the expression map.
+    </div>
+    <a href="#" class="map-open-btn" data-map="map_proteomics"
+       style="white-space:nowrap; background:#1a7f37; color:#fff; padding:9px 16px; border-radius:7px; text-decoration:none; font-weight:600">
+      Open Escher map &rarr;</a>
+  </div>
+  <div class="pathway-charts-row">
+    <div class="card card-pad">
+      <div class="rna-chart-title">GIMME flux by pathway &times; medium
+        <span class="chart-note">cell = mean |GIMME flux| of the pathway's reactions, row-normalised to its own max medium</span>
+      </div>
+      <div id="chart-prot-gimme-pw" style="overflow-x:auto"></div>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">iMAT flux by pathway &times; medium
+        <span class="chart-note">cell = mean |iMAT flux| of the pathway's reactions, row-normalised to its own max medium</span>
+      </div>
+      <div id="chart-prot-imat-pw" style="overflow-x:auto"></div>
+    </div>
+  </div>
+  <div class="pathway-charts-row" style="margin-top:14px">
+    <div class="card card-pad">
+      <div class="rna-chart-title">Cross-method active-call agreement
+        <span class="chart-note">how many of the 4 proteome flux methods (E-Flux / GIMME / iMAT / capacity) call each reaction active on full PDB</span>
+      </div>
+      <div id="chart-prot-agree-hist"></div>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">Proteome-FC &harr; GIMME flux concordance
+        <span class="chart-note">per pathway: fraction of reactions whose proteome logFC and GIMME &Delta;flux (1/10 vs full) agree in sign (|logFC|&gt;0.5)</span>
+      </div>
+      <div id="chart-prot-fc-concord"></div>
+    </div>
+  </div>
+  <div class="card card-pad" style="margin-top:14px">
+    <div class="rna-chart-title">Consensus &amp; method-unique reactions
+      <span class="chart-note">reactions active in all 4 methods (robust core) and those unique to one method (method-sensitive)</span>
+    </div>
+    <table id="tbl-prot-agree" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Rxn ID</th><th>Name</th><th># methods</th>
+          <th>E-Flux</th><th>GIMME</th><th>iMAT</th><th>Capacity</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
+  <div class="pathway-charts-row" style="margin-top:14px">
+    <div class="card card-pad">
+      <div class="rna-chart-title">GIMME &mdash; top differentiating reactions
+        <span class="chart-note">largest across-medium GIMME flux range</span>
+      </div>
+      <table id="tbl-prot-gimme" style="display:none; width:100%">
+        <thead>
+          <tr><th>Rxn ID</th><th>Name</th><th>full</th><th>&frac12;</th><th>1&frasl;10</th></tr>
+          <tr class="filters"><th></th><th></th><th></th><th></th><th></th></tr>
+        </thead>
+      </table>
+    </div>
+    <div class="card card-pad">
+      <div class="rna-chart-title">iMAT &mdash; top differentiating reactions
+        <span class="chart-note">largest across-medium iMAT flux range</span>
+      </div>
+      <table id="tbl-prot-imat" style="display:none; width:100%">
+        <thead>
+          <tr><th>Rxn ID</th><th>Name</th><th>full</th><th>&frac12;</th><th>1&frasl;10</th></tr>
+          <tr class="filters"><th></th><th></th><th></th><th></th><th></th></tr>
+        </thead>
+      </table>
+    </div>
+  </div>
+
   <div class="rna-section-h">Pathway-level proteome allocation
     <span class="h-sub">the measured proteome and its enzyme-capacity pressure rolled up to the 23-bucket pathway classifier (shared with the RNA-seq analysis)</span>
   </div>
@@ -1152,6 +1307,28 @@
     the dilute 1/10&nbsp;PDB medium the <b>lipid/membrane, TCA and oxidative-phosphorylation
     pathways</b> are driven to their capacity walls (utilization&nbsp;1.0).
   </div>
+
+  <div class="rna-section-h">Model-curation gaps &mdash; orphan GPR reactions
+    <span class="h-sub">Tier&nbsp;3 &mdash; reactions that carry a gene&ndash;protein rule but whose gene(s) were never detected in any proteome sample: curation / annotation targets</span>
+  </div>
+  <div class="rna-downloads">
+    Raw output (browse on GitHub):
+    <a href="https://github.com/janakagithub/fsp237/blob/main/proteomics_integration/outputs/pathway/orphan_gpr_gaps.tsv" target="_blank">orphan_gpr_gaps.tsv</a>
+  </div>
+  <div class="card card-pad">
+    <div class="rna-chart-title">GPR reactions with no protein evidence
+      <span class="chart-note"><span id="prot-orph-tally"></span> &mdash; either genuinely off in these media, below TMT detection, or mis-annotated GPRs</span>
+    </div>
+    <table id="tbl-prot-orphan" style="display:none; width:100%">
+      <thead>
+        <tr>
+          <th>Rxn ID</th><th>Name</th><th>Pathway</th>
+          <th># genes</th><th>Genes</th><th>Subsystem</th>
+        </tr>
+        <tr class="filters"><th></th><th></th><th></th><th></th><th></th><th></th></tr>
+      </thead>
+    </table>
+  </div>
 </div>
 
 <div id="panel-map_aerobic" class="panel panel-map">
@@ -1164,6 +1341,10 @@
 
 <div id="panel-map_expression" class="panel panel-map">
   <iframe data-src="map_expression.html" title="Escher map &mdash; S1 expression"></iframe>
+</div>
+
+<div id="panel-map_proteomics" class="panel panel-map">
+  <iframe data-src="map_proteomics.html" title="Escher map &mdash; proteome-constrained flux (GIMME)"></iframe>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
@@ -1213,6 +1394,7 @@
     map_aerobic:   document.getElementById('panel-map_aerobic'),
     map_anaerobic: document.getElementById('panel-map_anaerobic'),
     map_expression: document.getElementById('panel-map_expression'),
+    map_proteomics: document.getElementById('panel-map_proteomics'),
   };
   let fluxesInitialized = false;
   let biomassInitialized = false;
@@ -1222,6 +1404,7 @@
   let proteomicsInitialized = false;
   let anaerobicLoaded = false;
   let expressionMapLoaded = false;
+  let proteomicsMapLoaded = false;
 
   tabs.forEach(btn => btn.addEventListener('click', () => {
     tabs.forEach(b => b.classList.toggle('active', b === btn));
@@ -1261,6 +1444,10 @@
       const iframe = panels.map_expression.querySelector('iframe');
       iframe.src = iframe.dataset.src; expressionMapLoaded = true;
     }
+    if (btn.dataset.tab === 'map_proteomics' && !proteomicsMapLoaded) {
+      const iframe = panels.map_proteomics.querySelector('iframe');
+      iframe.src = iframe.dataset.src; proteomicsMapLoaded = true;
+    }
     if (btn.dataset.tab === 'reactions'   && window._reactionsDT)   window._reactionsDT.columns.adjust();
     if (btn.dataset.tab === 'fluxes'      && window._fluxesDT)      window._fluxesDT.columns.adjust();
     if (btn.dataset.tab === 'biomass'     && window._biomassDT)     window._biomassDT.columns.adjust();
@@ -1272,11 +1459,21 @@
     }
     if (btn.dataset.tab === 'infection' && window._infConcDT) window._infConcDT.columns.adjust();
     if (btn.dataset.tab === 'proteomics') {
-      ['_protUtilDT','_protCostDT','_protBotDT','_protFluxDT'].forEach(k => {
+      ['_protUtilDT','_protCostDT','_protBotDT','_protFluxDT','_protDeDT',
+       '_protRepDT','_protAgreeDT','_protGimmeDT','_protImatDT','_protOrphDT'].forEach(k => {
         if (window[k]) window[k].columns.adjust();
       });
     }
   }));
+
+  // in-tab buttons that jump to an Escher map tab
+  document.addEventListener('click', function(e) {
+    const b = e.target.closest && e.target.closest('.map-open-btn');
+    if (!b) return;
+    e.preventDefault();
+    const t = document.querySelector('[data-tab="' + b.dataset.map + '"]');
+    if (t) { t.click(); window.scrollTo(0, 0); }
+  });
 
   // -- formatting helpers --------------------------------------------------
   function fmtFlux(f) {
@@ -2921,6 +3118,219 @@
           label: r.pathway + '  (' + r.n_rxn + ')', value: r.mean_cost })),
         { width: 560, barHeight: 24, marginLeft: 260,
           valueFmt: r => Math.round(r.value).toLocaleString() + '  MW/k' });
+    }
+
+    // diverging heatmap (signed) for arbitrary columns: rows=[{label,vals}], cols=[{key,label}]
+    function heatDiv(containerId, rows, cols, amax, unit) {
+      amax = amax || 1;
+      const h = ['<table class="heatmap"><thead><tr><th class="rowh">Pathway</th>'];
+      cols.forEach(c => h.push('<th class="colh">' + esc(c.label) + '</th>'));
+      h.push('</tr></thead><tbody>');
+      rows.forEach(r => {
+        h.push('<tr><th class="rowh mono" title="' + esc(String(r.label)) + '">' + esc(String(r.label)) + '</th>');
+        cols.forEach(c => {
+          const v = r.vals[c.key];
+          if (v == null) { h.push('<td class="zero">&middot;</td>'); return; }
+          const t = Math.max(-1, Math.min(1, v / amax));
+          const bg = t >= 0 ? interpHex('#f7f9fc', '#cf222e', t) : interpHex('#f7f9fc', '#0969da', -t);
+          const fg = Math.abs(t) > 0.55 ? '#ffffff' : '#1f2328';
+          h.push('<td style="background:' + bg + ';color:' + fg + '" title="' +
+            esc(c.label) + ' = ' + v.toFixed(2) + '">' + v.toFixed(2) + '</td>');
+        });
+        h.push('</tr>');
+      });
+      h.push('</tbody></table><div class="hm-legend"><span>&minus;' + amax.toFixed(1) +
+        '</span><span class="grad" style="background:linear-gradient(90deg,#0969da,#f7f9fc,#cf222e)"></span><span>+' +
+        amax.toFixed(1) + '</span> &nbsp; ' + unit + '</div>');
+      document.getElementById(containerId).innerHTML = h.join('');
+    }
+
+    // row-normalised sequential heatmap over conditions from raw per-condition values
+    function heatRowNorm(containerId, rows, valKey, hi, unit) {
+      const grid = {};
+      rows.forEach(r => {
+        const vals = CONDS.map(c => r[valKey + c]).filter(v => v != null);
+        const rmax = vals.length ? Math.max.apply(null, vals) : 0;
+        CONDS.forEach(c => {
+          const v = r[valKey + c];
+          grid[r.pathway + '|' + c] = (v == null || !rmax) ? null : v / rmax;
+        });
+      });
+      heat(containerId,
+        rows.map(r => ({ key: r.pathway, label: r.pathway + '  (' + r.n_rxn + ')' })),
+        'Pathway', (rk, c) => { const v = grid[rk + '|' + c]; return v == null ? null : v; },
+        hi, unit);
+    }
+
+    // ================= Tier 1 — Differential proteome =================
+    const de = d.de || {};
+    if (de.counts) {
+      const dt = [
+        { v: de.counts.half_vs_PDA, l: 'DE proteins &frac12; vs full', s: 'adj-P&lt;0.05, |logFC|&gt;1', cls: '' },
+        { v: de.counts.onetenth_vs_PDA, l: 'DE proteins 1/10 vs full', s: 'adj-P&lt;0.05, |logFC|&gt;1', cls: 'accent' },
+        { v: de.counts.onetenth_vs_half, l: 'DE proteins 1/10 vs &frac12;', s: 'adj-P&lt;0.05, |logFC|&gt;1', cls: 'pos' },
+        { v: de.n_orphans, l: 'orphan GPR reactions', s: 'GPR present, no protein', cls: 'warm' },
+      ];
+      document.getElementById('prot-de-tiles').innerHTML = dt.map(t =>
+        '<div class="rna-tile ' + t.cls + '"><div class="n">' + t.v + '</div>' +
+        '<div class="label">' + t.l + '</div><div class="sub">' + t.s + '</div></div>').join('');
+    }
+
+    // pathway fold-change × contrast (diverging)
+    if (de.pathway_fc && de.pathway_fc.length) {
+      const CT = [['half_vs_PDA', '½ vs full'], ['onetenth_vs_PDA', '1/10 vs full'],
+                  ['onetenth_vs_half', '1/10 vs ½']];
+      const rows = de.pathway_fc
+        .map(r => ({ label: r.pathway + '  (' + r.n_rxn + ')',
+          vals: { half_vs_PDA: r.meanFC_half_vs_PDA, onetenth_vs_PDA: r.meanFC_onetenth_vs_PDA,
+                  onetenth_vs_half: r.meanFC_onetenth_vs_half } }))
+        .filter(r => CT.some(c => r.vals[c[0]] != null));
+      let amax = 0;
+      rows.forEach(r => CT.forEach(c => { const v = r.vals[c[0]];
+        if (v != null) amax = Math.max(amax, Math.abs(v)); }));
+      heatDiv('chart-prot-pw-fc', rows, CT.map(c => ({ key: c[0], label: c[1] })),
+        Math.max(0.5, amax), 'mean reaction proteome logFC');
+    }
+
+    // pathway enrichment bars
+    if (de.enrichment && de.enrichment.length) {
+      bar(document.getElementById('chart-prot-enrich'),
+        de.enrichment.slice(0, 12).map(r => ({
+          label: r.pathway, value: r.frac_de, n_de: r.n_de, n: r.n_genes, q: r.bh_q,
+          extraClass: (r.bh_q != null && r.bh_q < 0.05) ? 'enriched' : '' })),
+        { width: 560, barHeight: 24, marginLeft: 260,
+          valueFmt: r => (r.value * 100).toFixed(0) + '%  (' + r.n_de + '/' + r.n +
+            ', q=' + (r.q == null ? 'NA' : r.q.toFixed(3)) + ')' });
+    }
+
+    // DE protein table
+    if (de.genes && de.genes.length) {
+      const fcCell = v => (v == null) ? '<span class="flux-zero">&mdash;</span>' :
+        '<span class="' + (v > 0 ? 'flux-pos' : 'flux-neg') + ' mono">' + v.toFixed(2) + '</span>';
+      const qCell = v => (v == null) ? '<span class="flux-zero">&mdash;</span>' :
+        '<span class="mono">' + (v < 1e-3 ? v.toExponential(1) : v.toFixed(3)) + '</span>';
+      const deData = de.genes.map(r => [
+        '<span class="mono">' + esc(r.gene) + '</span>',
+        '<span class="mono">' + esc(r.ko_id || '') + '</span>',
+        fcCell(r.logFC_half_vs_PDA), qCell(r.adjP_half_vs_PDA),
+        fcCell(r.logFC_onetenth_vs_PDA), qCell(r.adjP_onetenth_vs_PDA),
+        fcCell(r.logFC_onetenth_vs_half), qCell(r.adjP_onetenth_vs_half),
+      ]);
+      $('#tbl-prot-de').show();
+      window._protDeDT = new DataTable('#tbl-prot-de', {
+        data: deData, pageLength: 15, lengthMenu: [10, 15, 25, 50], deferRender: true,
+        order: [], autoWidth: false,
+        columnDefs: [numColDef(2), numColDef(3), numColDef(4), numColDef(5), numColDef(6), numColDef(7)],
+      });
+      wireHeaderSearch(window._protDeDT, '#tbl-prot-de');
+    }
+
+    // reporter metabolites table
+    if (de.reporters && de.reporters.length) {
+      const repData = de.reporters.map(r => [
+        '<span class="mono">' + esc(r.metabolite_id) + '</span>',
+        esc(r.name || ''),
+        '<span class="mono">' + esc(r.compartment || '') + '</span>',
+        '<span class="mono">' + r.k_reactions + '</span>',
+        '<span class="' + (r.z_reporter > 0 ? 'flux-pos' : 'flux-neg') + ' mono">' + nfix(r.z_reporter, 2) + '</span>',
+        '<span class="mono">' + (r.p_one_sided < 1e-3 ? r.p_one_sided.toExponential(1) : nfix(r.p_one_sided, 4)) + '</span>',
+      ]);
+      $('#tbl-prot-reporter').show();
+      window._protRepDT = new DataTable('#tbl-prot-reporter', {
+        data: repData, pageLength: 15, lengthMenu: [10, 15, 25, 60], deferRender: true,
+        order: [[4, 'desc']], autoWidth: false,
+        columnDefs: [numColDef(3), numColDef(4), numColDef(5)],
+      });
+      wireHeaderSearch(window._protRepDT, '#tbl-prot-reporter');
+    }
+
+    // ================= Tier 2 — context-specific flux =================
+    const cx = d.context || {};
+    if (cx.gimme_pathway && cx.gimme_pathway.length) {
+      heatRowNorm('chart-prot-gimme-pw',
+        cx.gimme_pathway.map(r => ({ pathway: r.pathway, n_rxn: r.n_rxn,
+          flux_PDA: r.flux_PDA, flux_half: r.flux_half, flux_onetenth: r.flux_onetenth })),
+        'flux_', '#1a7f37', 'mean |GIMME flux|, row-normalised');
+    }
+    if (cx.imat_pathway && cx.imat_pathway.length) {
+      heatRowNorm('chart-prot-imat-pw',
+        cx.imat_pathway.map(r => ({ pathway: r.pathway, n_rxn: r.n_rxn,
+          flux_PDA: r.flux_PDA, flux_half: r.flux_half, flux_onetenth: r.flux_onetenth })),
+        'flux_', '#8250df', 'mean |iMAT flux|, row-normalised');
+    }
+
+    // cross-method agreement histogram
+    if (cx.agreement_hist && cx.agreement_hist.length) {
+      bar(document.getElementById('chart-prot-agree-hist'),
+        cx.agreement_hist.slice().sort((a, b) => b.n_methods_active - a.n_methods_active)
+          .map(r => ({ label: r.n_methods_active + ' of 4 methods', value: r.n_rxn,
+            extraClass: r.n_methods_active === 4 ? 'enriched' : (r.n_methods_active === 1 ? 'warm' : '') })),
+        { width: 480, barHeight: 28, marginLeft: 150,
+          valueFmt: r => r.value + ' reactions' });
+    }
+
+    // proteome-FC ↔ GIMME flux concordance bars
+    if (de.concordance && de.concordance.length) {
+      bar(document.getElementById('chart-prot-fc-concord'),
+        de.concordance.slice(0, 12).map(r => ({
+          label: r.pathway, value: r.concordance, a: r.n_agree, n: r.n_compared })),
+        { width: 520, barHeight: 24, marginLeft: 260,
+          valueFmt: r => (r.value * 100).toFixed(0) + '%  (' + r.a + '/' + r.n + ')' });
+    }
+
+    // consensus / method-unique table
+    if (cx.agreement && cx.agreement.length) {
+      const yn = b => b ? '<span class="expr-badge expr-hi">&#10003;</span>' : '<span class="flux-zero">&mdash;</span>';
+      const agData = cx.agreement.map(r => [
+        '<span class="mono">' + esc(r.rxn_id) + '</span>',
+        esc(r.name || ''),
+        '<span class="mono">' + r.n_methods_active + '</span>',
+        yn(r.eflux_on), yn(r.gimme_on), yn(r.imat_on), yn(r.ec_on),
+      ]);
+      $('#tbl-prot-agree').show();
+      window._protAgreeDT = new DataTable('#tbl-prot-agree', {
+        data: agData, pageLength: 15, lengthMenu: [10, 15, 25, 60], deferRender: true,
+        order: [[2, 'desc']], autoWidth: false, columnDefs: [numColDef(2)],
+      });
+      wireHeaderSearch(window._protAgreeDT, '#tbl-prot-agree');
+    }
+
+    // GIMME / iMAT top differentiating reaction tables
+    function fluxDiffTable(sel, rows, dtKey) {
+      if (!rows || !rows.length) return;
+      const data = rows.map(r => [
+        '<span class="mono">' + esc(r.rxn_id) + '</span>', esc(r.name || ''),
+        fmtFlux(r.flux_PDA), fmtFlux(r.flux_half), fmtFlux(r.flux_onetenth),
+      ]);
+      $(sel).show();
+      window[dtKey] = new DataTable(sel, {
+        data: data, pageLength: 12, lengthMenu: [10, 12, 25, 40], deferRender: true,
+        order: [], autoWidth: false,
+        columnDefs: [numColDef(2), numColDef(3), numColDef(4)],
+      });
+      wireHeaderSearch(window[dtKey], sel);
+    }
+    fluxDiffTable('#tbl-prot-gimme', cx.gimme_diff, '_protGimmeDT');
+    fluxDiffTable('#tbl-prot-imat', cx.imat_diff, '_protImatDT');
+
+    // ================= Tier 3 — orphan-GPR gaps =================
+    if (de.orphans && de.orphans.length) {
+      const tally = document.getElementById('prot-orph-tally');
+      if (tally) tally.innerHTML = de.n_orphans + ' of the model’s GPR reactions ' +
+        'have no detected protein in any medium';
+      const orphData = de.orphans.map(r => [
+        '<span class="mono">' + esc(r.rxn_id) + '</span>',
+        esc(r.name || ''), esc(r.pathway || ''),
+        '<span class="mono">' + r.n_genes + '</span>',
+        '<span class="mono" style="font-size:11px">' + esc(r.genes || '') + '</span>',
+        esc(r.subsystem || ''),
+      ]);
+      $('#tbl-prot-orphan').show();
+      window._protOrphDT = new DataTable('#tbl-prot-orphan', {
+        data: orphData, pageLength: 15, lengthMenu: [10, 15, 25, 50], deferRender: true,
+        order: [[3, 'desc']], autoWidth: false, columnDefs: [numColDef(3)],
+      });
+      wireHeaderSearch(window._protOrphDT, '#tbl-prot-orphan');
     }
   }
 

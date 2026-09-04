@@ -1,0 +1,13 @@
+condition	method	threshold	bio_max	penalty	n_active	n_H	n_L
+PDA	GIMME	default	0.191472	10.484	396		
+PDA	iMAT	default	0.191472		392	244.0	235.0
+PDA	GIMME	strict	0.191472	4.569	399		
+PDA	iMAT	strict	0.191472		376	100.0	82.0
+half	GIMME	default	0.095736	1.958	361		
+half	iMAT	default	0.095736		380	238.0	202.0
+half	GIMME	strict	0.095736	0.011	373		
+half	iMAT	strict	0.095736		348	102.0	87.0
+onetenth	GIMME	default	0.019147	0.207	262		
+onetenth	iMAT	default	0.019147		308	186.0	222.0
+onetenth	GIMME	strict	0.019147	0.028	275		
+onetenth	iMAT	strict	0.019147		225	65.0	95.0
